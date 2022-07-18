@@ -1,0 +1,27 @@
+# pylint: skip-file
+# .env file
+
+# port application is served on
+PORT=8000
+
+# set to 'production' or 'development'
+# https://nodejs.dev/learn/nodejs-the-difference-between-development-and-production
+NODE_ENV="development"
+
+# path to python executable; default ''
+# Note: if a relative path is specified, it must be relative to the project root folder.
+# e.g. if using a venv virtual environment (https://docs.python.org/3/library/venv.html#module-venv)
+#      in the project root folder, use './venvd/Scripts/'
+PYTHON_PATH='./venvd/Scripts/'
+
+# python executable; default 'python3'
+# Note: if running on windows, full filename including extension is required.
+PYTHON_EXE='python.exe'
+
+# path to app folder; default '/app'
+# Note: if a relative path is specified, it must be relative to the project root folder.
+# e.g. the default location is the project root folder, so use './'
+APP_PATH='./'
+
+# Google Drive API credentials
+CREDS=""

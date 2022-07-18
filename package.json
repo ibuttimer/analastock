@@ -16,8 +16,9 @@
   },
   "homepage": "https://github.com/ibuttimer/analastock#readme",
   "dependencies": {
-    "node-static": "^0.7.11",
+    "dotenv": "^16.0.1",
     "node-pty": "^0.10.1",
+    "node-static": "^0.7.11",
     "total4": "^0.0.64"
   }
 }

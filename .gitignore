@@ -7,7 +7,11 @@ __pycache__/
 node_modules/
 .github/
 .idea/
+tmp/
 /design/.$*.drawio.bkp
 /design/.*.drawio.dtmp
 /analastock.code-workspace
-/index.js.json
+/index.js.*
+.env
+.env-*
+creds.json
