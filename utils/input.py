@@ -2,6 +2,7 @@
 Input related functions
 """
 from enum import IntEnum, auto
+from typing import Callable
 from .output import error
 
 
@@ -14,18 +15,26 @@ class InputParam(IntEnum):
     """ Input is not required """
 
 
-def get_input(user_prompt: str, *args) -> str:
+def get_input(user_prompt: str, *args, validate: Callable[[str], bool] = None) -> str:
     """
     Get user input
 
     Args:
         user_prompt (str): Input prompt
-        args (InputParam): parameters
+        *args (InputParam): parameters
+        validate: Callable[[str], bool]: validate user input
 
     Returns:
         str: user input
     """
-    required = InputParam.NOT_REQUIRED not in args
+    if isinstance(validate, InputParam):
+        ip_args = [validate]
+        ip_args.extend(args)
+        validate = None
+    else:
+        ip_args = args
+
+    required = InputParam.NOT_REQUIRED not in ip_args
     data = None
 
     while not data:
@@ -36,5 +45,8 @@ def get_input(user_prompt: str, *args) -> str:
                 error('Input required')
             else:
                 break
+        elif validate:
+            if not validate(data):
+                data = None
 
     return data
