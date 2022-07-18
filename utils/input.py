@@ -15,14 +15,17 @@ class InputParam(IntEnum):
     """ Input is not required """
 
 
-def get_input(user_prompt: str, *args, validate: Callable[[str], bool] = None) -> str:
+def get_input(
+        user_prompt: str, *args, validate: Callable[[str], bool] = None
+    ) -> str:
     """
     Get user input
 
     Args:
         user_prompt (str): Input prompt
         *args (InputParam): parameters
-        validate: Callable[[str], bool]: validate user input
+        validate: Callable[[str], Union[Any|None]]: validate user input
+                                                    returning None if invalid
 
     Returns:
         str: user input
@@ -46,7 +49,6 @@ def get_input(user_prompt: str, *args, validate: Callable[[str], bool] = None) -
             else:
                 break
         elif validate:
-            if not validate(data):
-                data = None
+            data = validate(data)
 
     return data

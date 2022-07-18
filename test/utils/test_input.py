@@ -47,8 +47,7 @@ class TestInput(unittest.TestCase):
         with MockInputFunction(return_value='1'):
 
             def validate(value):
-                # pylint: disable=unused-argument
-                return True
+                return value
 
             user_ip = get_input("test input", validate=validate)
             self.assertEqual(user_ip, '1')

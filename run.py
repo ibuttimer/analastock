@@ -2,9 +2,8 @@
 Main entry point for application
 """
 from utils import Menu, CloseMenuEntry, MenuEntry
+from stock import analyse_stock
 
-def analyse_stock():
-    print('analyse_stock')
 
 # Application menu
 menu: Menu = Menu(
