@@ -1,13 +1,15 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+"""
+Main entry point for application
+"""
+from utils import get_input
 
-loop = True
+
+loop: bool = True
 
 print('Hello, world!')
 
 while loop:
-    data = input("Enter something: ")
+    data = get_input("Enter something")
     loop = data.lower() != 'quit'
     if loop:
         print("Entered: " + data)

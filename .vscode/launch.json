@@ -4,7 +4,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch Program",
+      "name": "Launch app",
       "program": "${workspaceFolder}/index.js",
       "request": "launch",
       "skipFiles": [
@@ -12,12 +12,22 @@
       ],
       "type": "node"
     },
-      {
-            "name": "Python: Current File (Integrated Terminal)",
-            "type": "python",
-            "request": "launch",
-            "program": "${file}",
-            "console": "internalConsole"
-        }
+    {
+        "name": "Python: Current File (Integrated Terminal)",
+        "type": "python",
+        "request": "launch",
+        "program": "${file}",
+        "console": "internalConsole"
+    },
+    // https://code.visualstudio.com/docs/python/debugging#_console
+    // "internalConsole" gives 'EOFError: EOF when reading a line' when reading input
+    // as the "DEBUG CONSOLE" is currently only used for display output. 
+    {
+          "name": "Python: run",
+          "type": "python",
+          "request": "launch",
+          "program": "run.py",
+          "console": "integratedTerminal"
+      }
   ]
 }

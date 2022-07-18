@@ -8,18 +8,34 @@ The development environment requires:
 * [Node.js](https://nodejs.org/)
 * [npm](https://www.npmjs.com/)
 * [git](https://git-scm.com/)
+* [Python](https://www.python.org/)
 
 ### Setup
 In an appropriate folder, run the following commands:
 ```shell
 > git clone https://github.com/ibuttimer/analastock.git
 > cd analastock
-> npm install
 ```
 
 #### Virtual Environment
 It is recommended that a virtual environment be used for development purposes.
 Please see [Creating a virtual environment](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment) for details.
+
+> __Note:__ Make sure to [activate the virtual environment](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#activating-a-virtual-environment).
+
+#### Framework Setup
+In the `analastock` folder, run the following command to setup the [Total.js](https://www.totaljs.com/) framework:
+```shell
+> npm install
+```
+
+#### Python Setup
+In the `analastock` folder, run the following command to install the necessary python packages:
+```shell
+> pip install -r requirements-dev.txt
+```
+#### Production versus Development Setup
+Installing the requirements from [requirements-dev.txt](requirements-dev.txt) installs extra development-only requirements in addition to the production requirements from [requirements.txt](requirements.txt).
 
 ### Configuration
 The application configuration may be set using using environment variables or a configuration file.
