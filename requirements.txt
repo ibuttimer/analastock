@@ -1,4 +1,9 @@
 # Production requirements
+python-dotenv
+
 requests
 beautifulsoup4
 lxml
+
+gspread
+google-auth

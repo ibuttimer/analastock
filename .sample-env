@@ -25,3 +25,14 @@ APP_PATH='./'
 
 # Google Drive API credentials
 CREDS=""
+
+# name of credentials file; default 'creds.json'
+CREDS_FILE="creds.json"
+
+# path to credentials file; default
+# Note: if a relative path is specified, it must be relative to the project root folder.
+# e.g. the default location is the project root folder, so use './'
+CREDS_PATH="./"
+
+# name of Google Sheets spreadsheet
+SPREADSHEET_NAME="AnalaStock"

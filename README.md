@@ -51,8 +51,11 @@ Create a file named `.env` in the project root folder, see [.sample-env](.sample
 | NODE_ENV | Set to 'production' or 'development', see [Node.js, the difference between development and production](https://nodejs.dev/learn/nodejs-the-difference-between-development-and-production) |
 | PYTHON_PATH | Path to python executable; default ''.<br>__Note:__ if a relative path is specified, it must be relative to the project root folder. E.g. if using a [venv virtual environment](https://docs.python.org/3/library/venv.html#module-venv) in the project root folder, use `./venvd/Scripts/` |
 | PYTHON_EXE | Python executable; default 'python3'.<br>__Note:__ If running on windows, full filename including extension is required, e.g. 'python.exe' |
-| APP_PATH | Path to app folder; default '/app'.<br>__Note:__ if a relative path is specified, it must be relative to the project root folder. E.g. the default location is the project root folder, so use `./` |
+| APP_PATH | Path to app folder; default '/app'.<br>__Note:__ if a relative path is specified, it must be relative to the project root folder. E.g. the default location is the project root folder, so use `CREDS_PATH` |
 | CREDS | Google Drive API credentials |
+| CREDS_FILE | Name of name of Google Drive API credentials file; default `creds.json` |
+| CREDS_PATH | Path to Google Drive API credentials file; default `./`<br>__Note:__ must be relative to the project root folder |
+| SPREADSHEET_NAME | Name of Google Sheets spreadsheet |
 
 #### Environment variables
 Set environment variables corresponding to the keys in [Table 1: Configuration settings](#table-1-configuration-settings).
