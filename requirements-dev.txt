@@ -1,6 +1,7 @@
 # Development-specific requirements
 
-# im
+# import production requirements
 -r requirements.txt
-pycodestyle
 
+# development requirements
+pycodestyle

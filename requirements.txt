@@ -1,1 +1,4 @@
-# Your requirements go here
+# Production requirements
+requests
+beautifulsoup4
+lxml
