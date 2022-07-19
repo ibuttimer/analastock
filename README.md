@@ -9,6 +9,7 @@ The development environment requires:
 * [npm](https://www.npmjs.com/)
 * [git](https://git-scm.com/)
 * [Python](https://www.python.org/)
+* [Total.js framework](https://www.totaljs.com/)
 
 ### Setup
 In an appropriate folder, run the following commands:
@@ -60,6 +61,24 @@ E.g.
 ```shell
 For Linux and Mac:                       For Windows:
 $ export NODE_ENV=development            > set NODE_ENV=development
+```
+
+### Application structure
+The application structure is based on [React Architecture: How to Structure and Organize a React Application](https://www.taniarascia.com/react-architecture-directory-structure/).
+
+```
+├─ README.md            - this file
+├─ index.js             - application entry point
+├─ controllers          - JavaScript controllers
+├─ views                - views html files
+├─ public               - application assets
+│  └─ img               - image files
+├─ src                  - Python source files
+│  ├─ run.py            - Python application entry point
+│  ├─ stock             - stock-related functions
+│  └─ utils             - utility functions
+└─ test                 - test scripts
+   └─ utils             - utility functions tests
 ```
 
 ## Deployment

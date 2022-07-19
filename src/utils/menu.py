@@ -3,7 +3,8 @@ Menu related functions
 """
 import dataclasses
 from typing import Callable, Union
-from utils import get_input, error
+from .input import get_input
+from .output import error
 
 # https://pylint.pycqa.org/en/latest/user_guide/messages/refactor/too-few-public-methods.html
 

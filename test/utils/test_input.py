@@ -2,7 +2,7 @@
 Unit tests for user input functions
 """
 import unittest
-from utils import get_input
+from src.utils import get_input
 
 
 class MockInputFunction:
