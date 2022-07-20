@@ -2,10 +2,10 @@
 Stock analysis related functions
 """
 from datetime import datetime
-from typing import Union
+from typing import List, Tuple, Union
 from utils import get_input, error
 from .stock_param import StockParam
-from .retrieve import download_data
+from .retrieve import download_data, SAMPLE_DATA
 
 
 DATE_FORM = 'dd-mm-yyyy'
@@ -81,5 +81,13 @@ def analyse_ibm():
     stock_param.from_date = datetime(2022, 1, 1)
     stock_param.to_date = datetime(2022, 2, 1)
 
-
     download_data(stock_param)
+
+
+def canned_ibm() -> Tuple[StockParam, List[str]]:
+    """ Returned canned IBM stock """
+    stock_param = StockParam('ibm')
+    stock_param.from_date = datetime(2022, 1, 1)
+    stock_param.to_date = datetime(2022, 2, 1)
+
+    return stock_param, SAMPLE_DATA

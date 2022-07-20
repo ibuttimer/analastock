@@ -19,7 +19,7 @@ class StockParam:
     """ To date (inclusive) for data """
 
     def __init__(self, symbol):
-        self.symbol = symbol
+        self.symbol = symbol.upper()
 
     def __str__(self) -> str:
         return f'{self.__class__.__name__}(' \

@@ -1,9 +1,11 @@
 """
 Output related functions
 """
+from enum import Enum
 import re
 import platform
 from datetime import datetime
+from typing import List
 import requests
 from bs4 import BeautifulSoup
 
@@ -27,8 +29,82 @@ WEEKLY_FREQ = '1wk'
 MONTHLY_FREQ = '1mo'
 
 
+class DfColumn(Enum):
+    """ DataFrame columns """
+
+    # np.datatime64 needs a unit
+    # The date units are years (‘Y’), months (‘M’), weeks (‘W’), and days (‘D’),
+    # while the time units are hours (‘h’), minutes (‘m’), seconds (‘s’), milliseconds (‘ms’)
+    # https://numpy.org/doc/stable/reference/arrays.datetime.html
+
+    DATE = ('Date', 'np.datetime64')
+    OPEN = ('Open', 'np.float64')
+    HIGH = ('High', 'np.float64')
+    LOW = ('Low', 'np.float64')
+    CLOSE = ('Close', 'np.float64')
+    ADJ_CLOSE = ('AdjClose', 'np.float64')
+    VOLUME = ('Volume', 'np.uint64')
+
+    def __init__(self, title: str, d_type: str):
+        self._title = title
+        self._d_type = d_type
+
+    @property
+    def title(self):
+        """
+        Title of column
+
+        Returns:
+            str: title
+        """
+        return self._title
+
+    @property
+    def d_type(self):
+        """
+        Numpy dtype for column
+
+        Returns:
+            srt: dtype
+        """
+        return self._d_type
+
+    @staticmethod
+    def titles():
+        """
+        Get list of titles
+
+        Returns:
+            list: titles
+        """
+        return [col.title for col in DfColumn]
+
+    @staticmethod
+    def d_types():
+        """
+        Get column dtypes dict
+
+        Returns:
+            dict: dtypes dict
+        """
+        return {
+            col.title: col.d_type for col in DfColumn
+        }
+
+    @staticmethod
+    def d_types_list():
+        """
+        Get column dtypes list
+
+        Returns:
+            dict: dtypes list
+        """
+        return [
+            (col.title, col.d_type) for col in DfColumn
+        ]
+
+
 SAMPLE_DATA = [
-    'Date,Open,High,Low,Close,Adj Close,Volume',
     '2022-01-03,134.070007,136.289993,133.630005,136.039993,132.809769,4605900',
     '2022-01-04,136.100006,139.949997,135.899994,138.020004,134.742767,7300000',
     '2022-01-05,138.309998,142.199997,137.880005,138.220001,134.938019,8956900',
@@ -86,7 +162,7 @@ def _timestamp_epoch(date_time: datetime) -> str:
     return str(int(date_time.timestamp()))
 
 
-def download_data(params: StockParam):
+def download_data(params: StockParam) -> List[str]:
     """
     Download stock data
 
@@ -94,10 +170,10 @@ def download_data(params: StockParam):
         params (StockParam): stock parameters
 
     Returns:
-        None
+        List[str]: downloaded data
     """
 
-    header, crumb, cookies = _get_crumbs_and_cookies(params.symbol)
+    header, _, cookies = _get_crumbs_and_cookies(params.symbol)
 
     url = YAHOO_DOWNLOAD_URL.format(
         symbol=params.symbol, from_date=_timestamp_epoch(params.from_date),
@@ -107,6 +183,14 @@ def download_data(params: StockParam):
     with requests.session():
         res = requests.get(url, headers=header, cookies=cookies)
 
-        data = res.text.split('\n')[:-1]
+        # data in form
+        # 'Date,Open,High,Low,Close,Adj Close,Volume\n'
+        # '2022-01-03,134.070007,136.289993,133.630005,136.039993,132.809769,4605900'
+
+        data = res.text.split('\n')
+
+        data = data[1:]     # drop header row
 
         print(data)
+
+    return data
