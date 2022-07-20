@@ -78,6 +78,7 @@ The application structure is based on [React Architecture: How to Structure and 
 │  └─ img               - image files
 ├─ src                  - Python source files
 │  ├─ run.py            - Python application entry point
+│  ├─ misc              - miscellaneous functions
 │  ├─ stock             - stock-related functions
 │  └─ utils             - utility functions
 └─ test                 - test scripts

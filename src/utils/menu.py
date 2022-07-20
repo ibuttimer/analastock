@@ -142,7 +142,10 @@ class Menu:
 
         while self.is_open:
             self.display()
-            selection = get_input('Enter selection')
+            selection = get_input(
+                'Enter selection',
+                help_text='Enter number corresponding to desired option'
+            )
 
             selection = self._is_valid_selection(selection)
             if selection:

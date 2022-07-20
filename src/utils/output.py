@@ -34,3 +34,20 @@ def info(msg: str):
     print(
         colored(f'- {msg}', 'blue')
     )
+
+
+def assistance(msg: str):
+    """
+    Display help message
+
+    Args:
+        msg (str): help message
+
+    Returns:
+        None
+    """
+    lines = msg.split('\n')
+    for line in lines:
+        print(
+            colored(f'? {line}', 'magenta')
+        )

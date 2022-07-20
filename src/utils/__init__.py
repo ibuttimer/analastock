@@ -2,7 +2,7 @@
 Utils package
 """
 from .input import get_input, InputParam
-from .output import error, info
+from .output import error, info, assistance
 from .menu import MenuEntry, CloseMenuEntry, Menu
 from .misc import get_env_setting
 
@@ -12,6 +12,7 @@ __all__ = [
 
     'error',
     'info',
+    'assistance',
 
     'MenuEntry',
     'CloseMenuEntry',

@@ -35,7 +35,7 @@ def save_data(stock_param: StockParam, data: List[str]):
         sheet = add_sheet(stock_param.symbol)
 
     values = df.values.tolist()
-    sheet.update([df.columns.values.tolist()] + values)
+    sheet.append_rows(values, value_input_option='USER_ENTERED')
 
     info(f'Saved {len(values)} records to {stock_param.symbol}')
 

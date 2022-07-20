@@ -3,7 +3,7 @@ Input related functions
 """
 from enum import IntEnum, auto
 from typing import Callable
-from .output import error
+from .output import error, assistance
 
 
 class InputParam(IntEnum):
@@ -16,7 +16,8 @@ class InputParam(IntEnum):
 
 
 def get_input(
-        user_prompt: str, *args, validate: Callable[[str], bool] = None
+        user_prompt: str, *args, validate: Callable[[str], bool] = None,
+        help_text: str = None
     ) -> str:
     """
     Get user input
@@ -24,8 +25,9 @@ def get_input(
     Args:
         user_prompt (str): Input prompt
         *args (InputParam): parameters
-        validate: Callable[[str], Union[Any|None]]: validate user input
-                                                    returning None if invalid
+        validate (Callable[[str], Union[Any|None]]): validate user input
+                                                     returning None if invalid
+        help_text (str): help text to display
 
     Returns:
         str: user input
@@ -42,6 +44,11 @@ def get_input(
 
     while not data:
         data = input(f'{user_prompt}: ')
+
+        if data == '?':
+            data = None
+            assistance(help_text if help_text else 'No help available')
+            continue
 
         if not data:
             if required:
