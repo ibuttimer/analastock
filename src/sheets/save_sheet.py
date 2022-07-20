@@ -6,6 +6,7 @@ import gspread
 import pandas as pd
 import numpy as np
 from stock import StockParam, DfColumn
+from utils import info
 from .load_sheet import SPREADSHEET, sheet_exists
 
 
@@ -36,7 +37,7 @@ def save_data(stock_param: StockParam, data: List[str]):
     values = df.values.tolist()
     sheet.update([df.columns.values.tolist()] + values)
 
-    print(f'Saved {len(values)} records to {stock_param.symbol}')
+    info(f'Saved {len(values)} records to {stock_param.symbol}')
 
 
 def add_sheet(name: str) -> gspread.worksheet.Worksheet:

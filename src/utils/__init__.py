@@ -2,7 +2,7 @@
 Utils package
 """
 from .input import get_input, InputParam
-from .output import error
+from .output import error, info
 from .menu import MenuEntry, CloseMenuEntry, Menu
 
 __all__ = [
@@ -10,6 +10,7 @@ __all__ = [
     'InputParam',
 
     'error',
+    'info',
 
     'MenuEntry',
     'CloseMenuEntry',

@@ -2,11 +2,15 @@
 Main entry point for application
 """
 from dotenv import load_dotenv
-from utils import Menu, CloseMenuEntry, MenuEntry
+from colorama import init
+
+from utils import Menu, CloseMenuEntry, MenuEntry, info
 from stock import analyse_stock, analyse_ibm
 from process import process_ibm
 
 load_dotenv('../.env')  # take environment variables from .env.
+
+init()  # init Colorama
 
 # Application menu
 menu: Menu = Menu(
@@ -27,6 +31,7 @@ def run_app():
 
         loop = menu.is_open
 
+    info('Bye')
 
 if __name__ == "__main__":
     run_app()

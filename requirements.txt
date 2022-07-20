@@ -1,5 +1,7 @@
 # Production requirements
 python-dotenv
+colorama
+termcolor
 
 requests
 beautifulsoup4
