@@ -5,6 +5,7 @@ from typing import Union
 import os
 import gspread
 from google.oauth2.service_account import Credentials
+from utils import get_env_setting
 
 
 # https://docs.gspread.org/
@@ -18,20 +19,21 @@ SCOPE = [
 CREDENTIALS = Credentials.from_service_account_file(
     os.path.abspath(
         os.path.join(
-            os.environ['CREDS_PATH']
-                if os.environ['CREDS_PATH'] else './',
-            os.environ['CREDS_FILE']
-                if os.environ['CREDS_FILE'] else 'creds.json'
+            get_env_setting('CREDS_PATH', './'),
+            get_env_setting('CREDS_FILE', 'creds.json'),
         )
     )
 )
 SCOPED_CREDENTIALS = CREDENTIALS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDENTIALS)
 
-if not os.environ['SPREADSHEET_NAME']:
-    raise ValueError('Spreadsheet name not specified, set SPREADSHEET_NAME')
-
-SPREADSHEET = GSPREAD_CLIENT.open(os.environ['SPREADSHEET_NAME'])
+try:
+    SPREADSHEET = GSPREAD_CLIENT.open(
+        get_env_setting('SPREADSHEET_NAME', required=True)
+    )
+except gspread.exceptions.SpreadsheetNotFound as exc:
+    spreadsheet = get_env_setting('SPREADSHEET_NAME')
+    raise ValueError(f"Spreadsheet {spreadsheet} not found") from exc
 
 
 def load_sheet():
