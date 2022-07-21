@@ -27,13 +27,27 @@ CREDENTIALS = Credentials.from_service_account_file(
 SCOPED_CREDENTIALS = CREDENTIALS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDENTIALS)
 
-try:
-    SPREADSHEET = GSPREAD_CLIENT.open(
-        get_env_setting('SPREADSHEET_NAME', required=True)
-    )
-except gspread.exceptions.SpreadsheetNotFound as exc:
-    spreadsheet = get_env_setting('SPREADSHEET_NAME')
-    raise ValueError(f"Spreadsheet {spreadsheet} not found") from exc
+
+def open_spreadsheet(name: str) -> gspread.spreadsheet.Spreadsheet:
+    """
+    Open a spreadsheet
+
+    Args:
+        name (str): name of spreadsheet
+
+    Raises:
+        ValueError: if spreadsheet not found
+
+    Returns:
+        gspread.spreadsheet.Spreadsheet: spreadsheet
+    """
+    spreadsheet = None
+    try:
+        spreadsheet = GSPREAD_CLIENT.open(name)
+    except gspread.exceptions.SpreadsheetNotFound as exc:
+        raise ValueError(f"Spreadsheet {name} not found") from exc
+
+    return spreadsheet
 
 
 def load_sheet():
@@ -45,21 +59,33 @@ def load_sheet():
     print(sheet_exists(worksheets[0].title))
 
 
-def sheet_exists(name: str) -> Union[gspread.worksheet.Worksheet, None]:
+def sheet_exists(
+        name: str, spreadsheet: gspread.spreadsheet.Spreadsheet = None
+    ) -> Union[gspread.worksheet.Worksheet, None]:
     """
     Check is a worksheet with the specified name exists
 
     Args:
         name (str): worksheet name
+        spreadsheet (gspread.spreadsheet.Spreadsheet): spreadsheet to check;
+                                                    default global spreadsheet
 
     Returns:
         gspread.worksheet.Worksheet: worksheet if exists otherwise None
     """
+    if spreadsheet is None:
+        spreadsheet = SPREADSHEET
+
     the_sheet = None
 
-    for sheet in SPREADSHEET.worksheets():
+    for sheet in spreadsheet.worksheets():
         if sheet.title == name:
             the_sheet = sheet
             break
 
     return the_sheet
+
+
+SPREADSHEET = open_spreadsheet(
+                    get_env_setting('SPREADSHEET_NAME', required=True)
+                )

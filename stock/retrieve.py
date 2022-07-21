@@ -1,5 +1,5 @@
 """
-Output related functions
+Download related functions
 """
 import re
 import platform

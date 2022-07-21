@@ -34,14 +34,20 @@ def save_data(stock_param: StockParam, data_frame: pd.DataFrame):
     info(f'Saved {len(values)} records to {stock_param.symbol}')
 
 
-def add_sheet(name: str) -> gspread.worksheet.Worksheet:
+def add_sheet(
+        name: str, spreadsheet: gspread.spreadsheet.Spreadsheet = None
+    ) -> gspread.worksheet.Worksheet:
     """
     Add a worksheet with the specified name
 
     Args:
         name (str): worksheet name
+        spreadsheet (gspread.spreadsheet.Spreadsheet): spreadsheet to add to;
+                                                    default global spreadsheet
 
     Returns:
         gspread.worksheet.Worksheet: worksheet
     """
-    return SPREADSHEET.add_worksheet(name, 1000, 26)
+    if spreadsheet is None:
+        spreadsheet = SPREADSHEET
+    return spreadsheet.add_worksheet(name, 1000, 26)
