@@ -4,6 +4,7 @@ Google Sheets related functions
 import gspread
 import pandas as pd
 from stock import StockParam
+from stock.enums import DfColumn
 from utils import info
 from .load_sheet import SPREADSHEET, sheet_exists
 
@@ -23,7 +24,11 @@ def save_data(stock_param: StockParam, data_frame: pd.DataFrame):
     if not sheet:
         sheet = add_sheet(stock_param.symbol)
 
-    values = data_frame.values.tolist()
+    # data_frame has dates as np.datetime64
+    save_frame = pd.DataFrame(data_frame, copy=True)
+    save_frame[DfColumn.DATE.title] = save_frame[DfColumn.DATE.title].dt.date
+
+    values = save_frame.to_numpy(dtype=str).tolist()
     sheet.append_rows(values, value_input_option='USER_ENTERED')
 
     info(f'Saved {len(values)} records to {stock_param.symbol}')

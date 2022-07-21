@@ -2,13 +2,12 @@
 Stock analysis related functions
 """
 from datetime import datetime
-from typing import List, Tuple, Union
+from typing import List, Union
 
 import numpy as np
 import pandas as pd
 from utils import get_input, error
 from .stock_param import StockParam
-from .retrieve import download_data, SAMPLE_DATA
 from .enums import DfColumn, DfStat
 
 
@@ -75,7 +74,7 @@ def get_stock_param() -> StockParam:
         get_input('Enter stock symbol', help_text=SYMBOL_HELP)
     )
 
-    # TODO add 1d, 5d, 3m, 6m, ytd, 1y, 5y options
+    #TODO add 1d, 5d, 3m, 6m, ytd, 1y, 5y options
 
     stock_param.from_date = get_input(
         f'Enter from date [{DATE_FORM}]', validate=validate_date,
@@ -110,12 +109,38 @@ def get_stock_param() -> StockParam:
     return stock_param
 
 
-def analyse_stock(data_frame: pd.DataFrame) -> dict:
+def standardise_stock_param(stock_param: StockParam) -> StockParam:
+    """
+    Standardise stock parameters by adjusting to be from/to 1st of
+    month
+
+    Returns:
+        StockParam: stock parameters
+    """
+    if stock_param.from_date.day > 1:
+        # from 1st of month
+        stock_param.from_date = stock_param.from_date.replace(day=1)
+
+    if stock_param.to_date.day > 1:
+        year = stock_param.to_date.year
+        month = stock_param.to_date.month + 1
+        if month > 12:
+            year += 1
+            month = 1
+
+        # to 1st of next month
+        new_date = stock_param.to_date.replace(year=year, month=month, day=1)
+        stock_param.to_date = min(new_date, datetime.now())
+
+    return stock_param
+
+
+def analyse_stock(data_frame: Union[pd.DataFrame, List[str]]) -> dict:
     """
     Analyse stock data
 
     Args:
-        data_frame (Pandas.DataFrame): data to analyse
+        data_frame (Union[Pandas.DataFrame, List[str]]): data to analyse
 
     Returns:
         dict: dict of analysis results, like {
@@ -127,6 +152,9 @@ def analyse_stock(data_frame: pd.DataFrame) -> dict:
         }
     """
     analysis = {}
+
+    if isinstance(data_frame, list):
+        data_frame = data_to_frame(data_frame)
 
     for column in NUMERIC_COLUMNS:
         data_series = data_frame[column.title]
@@ -149,26 +177,6 @@ def analyse_stock(data_frame: pd.DataFrame) -> dict:
         )
 
     print(analysis)
-
-
-def analyse_ibm():
-    """ Analyse IBM stock """
-    stock_param = StockParam('ibm')
-    stock_param.from_date = datetime(2022, 1, 1)
-    stock_param.to_date = datetime(2022, 2, 1)
-
-    data_frame = data_to_frame(SAMPLE_DATA)
-
-    analyse_stock(data_frame)
-
-
-def canned_ibm() -> Tuple[StockParam, pd.DataFrame]:
-    """ Returned canned IBM stock """
-    stock_param = StockParam('ibm')
-    stock_param.from_date = datetime(2022, 1, 1)
-    stock_param.to_date = datetime(2022, 2, 1)
-
-    return stock_param, data_to_frame(SAMPLE_DATA)
 
 
 def data_to_frame(data: List[str]):

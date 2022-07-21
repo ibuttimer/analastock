@@ -5,8 +5,7 @@ from dotenv import load_dotenv
 from colorama import init
 
 from utils import Menu, CloseMenuEntry, MenuEntry, info
-from stock import analyse_stock, analyse_ibm
-from process import process_ibm
+from process import process_ibm, process_stock
 
 load_dotenv('../.env')  # take environment variables from .env.
 
@@ -14,8 +13,7 @@ init()  # init Colorama
 
 # Application menu
 menu: Menu = Menu(
-    MenuEntry('Analyse stock', analyse_stock),
-    MenuEntry('Analyse IBM', analyse_ibm),
+    MenuEntry('Analyse stock', process_stock),
     MenuEntry('Process IBM', process_ibm),
     CloseMenuEntry('Quit')
 )

@@ -1,15 +1,18 @@
 """
 Output related functions
 """
-from enum import Enum
 import re
 import platform
 from datetime import datetime
-from typing import List
+from typing import List, Tuple
+import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
+from utils import info
+
 from .stock_param import StockParam
+from .analyse import FRIENDLY_FORMAT, data_to_frame
 
 
 YAHOO_HISTORY_URL = 'https://finance.yahoo.com/quote/{}/history'
@@ -29,6 +32,9 @@ WEEKLY_FREQ = '1wk'
 MONTHLY_FREQ = '1mo'
 
 
+SAMPLE_STOCK_PARAM = StockParam.stock_param_of(
+    'ibm', datetime(2022, 1, 1), datetime(2022, 2, 1)
+)
 SAMPLE_DATA = [
     '2022-01-03,134.070007,136.289993,133.630005,136.039993,132.809769,4605900',
     '2022-01-04,136.100006,139.949997,135.899994,138.020004,134.742767,7300000',
@@ -105,6 +111,12 @@ def download_data(params: StockParam) -> List[str]:
         to_date=_timestamp_epoch(params.to_date), interval=DAILY_FREQ
     )
 
+    info(
+        f'Downloading {params.symbol} data: '
+        f'{params.from_date.strftime(FRIENDLY_FORMAT)} - '
+        f'{params.to_date.strftime(FRIENDLY_FORMAT)}'
+    )
+
     with requests.session():
         res = requests.get(url, headers=header, cookies=cookies)
 
@@ -119,3 +131,8 @@ def download_data(params: StockParam) -> List[str]:
         print(data)
 
     return data
+
+
+def canned_ibm() -> Tuple[StockParam, pd.DataFrame]:
+    """ Returned canned IBM stock """
+    return SAMPLE_STOCK_PARAM, data_to_frame(SAMPLE_DATA)

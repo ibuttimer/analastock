@@ -19,6 +19,14 @@
         "program": "${file}",
         "console": "internalConsole"
     },
+    // https://github.com/microsoft/vscode-python/issues/10722
+    {
+      "name": "Python: Test debug config",
+      "type": "python",
+      "request": "test",
+      "console": "integratedTerminal",
+      "logToFile": true
+    },
     // https://code.visualstudio.com/docs/python/debugging#_console
     // "internalConsole" gives 'EOFError: EOF when reading a line' when reading input
     // as the "DEBUG CONSOLE" is currently only used for display output. 
