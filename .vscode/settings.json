@@ -26,7 +26,7 @@
    "python.testing.unittestArgs": [
       "-v",
       "-s",
-      "./test/utils/",
+      "./tests",
       "-p",
       "test_*.py"
    ],

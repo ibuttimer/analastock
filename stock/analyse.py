@@ -48,7 +48,7 @@ def validate_date(date_string: str) -> Union[datetime, None]:
     try:
         date_time = datetime.strptime(date_string, DATE_FORMAT)
 
-        if date_time > date_time.now():
+        if date_time > datetime.now():
             error('Invalid date: future date')
             date_time = None
         if date_time < MIN_DATE:
@@ -74,6 +74,8 @@ def get_stock_param() -> StockParam:
     stock_param = StockParam(
         get_input('Enter stock symbol', help_text=SYMBOL_HELP)
     )
+
+    # TODO add 1d, 5d, 3m, 6m, ytd, 1y, 5y options
 
     stock_param.from_date = get_input(
         f'Enter from date [{DATE_FORM}]', validate=validate_date,

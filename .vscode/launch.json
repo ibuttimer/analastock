@@ -26,7 +26,7 @@
           "name": "Python: run",
           "type": "python",
           "request": "launch",
-          "program": "src/run.py",
+          "program": "run.py",
           "console": "integratedTerminal"
       }
   ]
