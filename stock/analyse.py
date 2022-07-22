@@ -166,9 +166,7 @@ def analyse_stock(data_frame: Union[pd.DataFrame, List[str]]) -> dict:
         analysis[DfStat.MAX.column_key(column)] = data_series.max()
 
         # change
-        change = round(
-            data_series[0] - data_series[len(data_series)-1], PRICE_PRECISION
-        )
+        change = round_price(data_series[0] - data_series[len(data_series)-1])
         analysis[DfStat.CHANGE.column_key(column)] = change
 
         # percentage change
@@ -213,3 +211,16 @@ def data_to_frame(data: List[str]):
     )
 
     return data_frame
+
+
+def round_price(price: float) -> float:
+    """
+    Round a stock price
+
+    Args:
+        price (float): stock price
+
+    Returns:
+        float: rounded value
+    """
+    return round(price, PRICE_PRECISION)

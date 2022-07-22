@@ -26,6 +26,8 @@ def save_data(stock_param: StockParam, data_frame: pd.DataFrame):
 
     # data_frame has dates as np.datetime64
     save_frame = pd.DataFrame(data_frame, copy=True)
+    # convert to datetime.date objects
+    # https://pandas.pydata.org/docs/reference/api/pandas.Series.dt.date.html#pandas.Series.dt.date
     save_frame[DfColumn.DATE.title] = save_frame[DfColumn.DATE.title].dt.date
 
     values = save_frame.to_numpy(dtype=str).tolist()

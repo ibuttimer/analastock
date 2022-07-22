@@ -3,7 +3,7 @@ Google Sheets package
 """
 from .load_sheet import open_spreadsheet, sheet_exists, load_sheet
 from .save_sheet import add_sheet, save_data
-from .find_info import find, find_all
+from .find_info import find, find_all, read_data_by_date
 
 __all__ = [
     'open_spreadsheet',
@@ -14,5 +14,6 @@ __all__ = [
     'save_data',
 
     'find',
-    'find_all'
+    'find_all',
+    'read_data_by_date'
 ]

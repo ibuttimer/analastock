@@ -1,12 +1,15 @@
 """
 Unit tests for sheet find functions
 """
+from datetime import date, datetime
 import re
+from typing import Union
 import unittest
 from collections import namedtuple
 import gspread
 
-from sheets import find, find_all
+from sheets import find, find_all, read_data_by_date
+from stock import DfColumn, round_price
 
 from .base import TestBase
 
@@ -84,7 +87,7 @@ class TestLoad(TestBase):
 
     def test_find_all(self):
         """
-        Test find cell
+        Test find cells
         """
         worksheet_name = 'find-all-worksheet'
 
@@ -145,6 +148,174 @@ class TestLoad(TestBase):
         self.tidy_up_sheets(
             [ (worksheet_name, sheet) ]
         )
+
+
+    def test_read_by_date(self):
+        """
+        Test read data by date
+        """
+        worksheet_name = 'read-by-date-worksheet'
+
+        sheet = self.add_sheet(worksheet_name, del_if_exists=True)
+
+        # add data
+        jan, feb, mar = (1, 2, 3)
+        data = []
+        for month in range(jan, mar + 1):   # jan - mar
+            data.extend([
+                # 31 days in jan/mar, 2022 not a leap year so 28 in feb
+                [
+                    # columns are 'Date', 'Open', 'High', 'Low', 'Close',
+                    # 'AdjClose' & 'Volume', see DfColumn class
+                    date(2022, month, day).isoformat(),
+                    open_value(month, day),
+                    high_value(month, day),
+                    low_value(month, day),
+                    close_value(month, day),
+                    adj_close_value(month, day),
+                    volume_value(month, day)
+                ] for day in range(1, 32 if month != feb else 28)
+            ])
+        sheet.append_rows(data, value_input_option='USER_ENTERED')
+
+        test_min = datetime(year=2022, month=feb, day=5).date()
+        test_max = datetime(year=2022, month=mar, day=5).date()
+        data_frame = read_data_by_date(sheet, test_min, test_max)
+
+        row = 0
+        for month in range(feb, mar + 1):   # feb - mar
+            for day in range(1, 32 if month != feb else 28):
+                test_date = datetime(year=2022, month=month, day=day).date()
+                if test_date < test_min:
+                    continue
+                if test_date > test_max:
+                    break
+
+                with self.subTest(msg=f'check date {test_date.isoformat()}'):
+                    self.assertEqual(
+                        data_frame[DfColumn.DATE.title].iat[row], test_date)
+                    self.assertEqual(
+                        data_frame[DfColumn.OPEN.title].iat[row], round_price(
+                            open_value(month, day))
+                        )
+                    self.assertEqual(
+                        data_frame[DfColumn.HIGH.title].iat[row], round_price(
+                            high_value(month, day))
+                        )
+                    self.assertEqual(
+                        data_frame[DfColumn.LOW.title].iat[row], round_price(
+                            low_value(month, day))
+                        )
+                    self.assertEqual(
+                        data_frame[DfColumn.CLOSE.title].iat[row], round_price(
+                            close_value(month, day))
+                        )
+                    self.assertEqual(
+                        data_frame[DfColumn.ADJ_CLOSE.title].iat[row], round_price(
+                            adj_close_value(month, day))
+                        )
+                    self.assertEqual(
+                        data_frame[DfColumn.VOLUME.title].iat[row], volume_value(month, day))
+
+                row += 1
+
+        # tidy up
+        self.tidy_up_sheets(
+            [ (worksheet_name, sheet) ]
+        )
+
+
+def calc_value(month: int, day: int, factor: Union[int, float]) -> Union[int, float]:
+    """
+    Calculate a test value
+
+    Args:
+        month (int): month
+        day (int): day
+        factor (Union[int, float]): multiplication factor
+
+    Returns:
+        Union[int, float]: value
+    """
+    return (month * factor) + day
+
+def open_value(month: int, day: int) -> float:
+    """
+    Calculate a test value for Open
+
+    Args:
+        month (int): month
+        day (int): day
+
+    Returns:
+        float: value
+    """
+    return calc_value(month, day, 5.1)
+
+def high_value(month: int, day: int) -> float:
+    """
+    Calculate a test value for High
+
+    Args:
+        month (int): month
+        day (int): day
+
+    Returns:
+        float: value
+    """
+    return calc_value(month, day, 5.2)
+
+def low_value(month: int, day: int) -> float:
+    """
+    Calculate a test value for Low
+
+    Args:
+        month (int): month
+        day (int): day
+
+    Returns:
+        float: value
+    """
+    return calc_value(month, day, 5.3)
+
+def close_value(month: int, day: int) -> float:
+    """
+    Calculate a test value for Close
+
+    Args:
+        month (int): month
+        day (int): day
+
+    Returns:
+        float: value
+    """
+    return calc_value(month, day, 5.4)
+
+def adj_close_value(month: int, day: int) -> float:
+    """
+    Calculate a test value for AdjClose
+
+    Args:
+        month (int): month
+        day (int): day
+
+    Returns:
+        float: value
+    """
+    return calc_value(month, day, 5.5)
+
+def volume_value(month: int, day: int) -> int:
+    """
+    Calculate a test value for Close
+
+    Args:
+        month (int): month
+        day (int): day
+
+    Returns:
+        float: value
+    """
+    return calc_value(month, day, 1000)
 
 
 if __name__ == '__main__':
