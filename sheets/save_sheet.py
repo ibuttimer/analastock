@@ -1,10 +1,10 @@
 """
 Google Sheets related functions
 """
+from typing import Union
 import gspread
 import pandas as pd
-from stock import StockParam
-from stock.enums import DfColumn
+from stock import StockParam, DfColumn, StockDownload
 from utils import info
 from .load_sheet import SPREADSHEET, sheet_exists
 
@@ -12,17 +12,24 @@ from .load_sheet import SPREADSHEET, sheet_exists
 # https://docs.gspread.org/
 
 
-def save_data(stock_param: StockParam, data_frame: pd.DataFrame):
+def save_data(data: Union[pd.DataFrame, StockDownload], stock_param: StockParam = None):
     """
     Save data for the specified stock
 
     Args:
-        stock_param (StockParam): stock parameters
-        data_frame (pandas.DataFrame): data to save
+        data_frame (Union[pandas.DataFrame, StockDownload]): data to save
+        stock_param (StockParam): stock parameters if data is DataFrame, ignored otherwise
     """
-    sheet = sheet_exists(stock_param.symbol)
+    if isinstance(data, StockDownload):
+        data_frame = data.data_frame
+        symbol = data.stock_param.symbol
+    else:
+        data_frame = data
+        symbol = stock_param.symbol
+
+    sheet = sheet_exists(symbol)
     if not sheet:
-        sheet = add_sheet(stock_param.symbol)
+        sheet = add_sheet(symbol)
 
     # data_frame has dates as np.datetime64
     save_frame = pd.DataFrame(data_frame, copy=True)
@@ -33,7 +40,7 @@ def save_data(stock_param: StockParam, data_frame: pd.DataFrame):
     values = save_frame.to_numpy(dtype=str).tolist()
     sheet.append_rows(values, value_input_option='USER_ENTERED')
 
-    info(f'Saved {len(values)} records to {stock_param.symbol}')
+    info(f'Saved {len(values)} records to {symbol}')
 
 
 def add_sheet(

@@ -3,9 +3,7 @@ Stock analysis related functions
 """
 from datetime import date, datetime
 from typing import List, Union
-from copy import copy
 
-import numpy as np
 import pandas as pd
 from utils import get_input, error
 from .data import StockDownload, StockParam
@@ -22,11 +20,6 @@ SYMBOL_HELP = 'Enter symbol for the stock required.\n'\
               'e.g. IBM: International Business Machines Corporation'
 FROM_DATE_HELP = 'Enter analysis start date'
 TO_DATE_HELP = 'Enter analysis end date'
-
-NUMERIC_COLUMNS = [
-    DfColumn.OPEN, DfColumn.HIGH, DfColumn.LOW, DfColumn.CLOSE,
-    DfColumn.ADJ_CLOSE, DfColumn.VOLUME
-]
 
 PRICE_PRECISION = 6
 """ Precision for stock prices """
@@ -110,33 +103,6 @@ def get_stock_param() -> StockParam:
     return stock_param
 
 
-def standardise_stock_param(stock_param: StockParam) -> StockParam:
-    """
-    Standardise stock parameters by adjusting to be from/to 1st of
-    month
-
-    Returns:
-        StockParam: a standardised copy of parameters
-    """
-    std_param = copy(stock_param)   # shallow copy
-    if std_param.from_date.day > 1:
-        # from 1st of month
-        std_param.from_date = std_param.from_date.replace(day=1)
-
-    if std_param.to_date.day > 1:
-        year = std_param.to_date.year
-        month = std_param.to_date.month + 1
-        if month > 12:
-            year += 1
-            month = 1
-
-        # to 1st of next month
-        new_date = std_param.to_date.replace(year=year, month=month, day=1)
-        std_param.to_date = min(new_date, datetime.now())
-
-    return std_param
-
-
 def analyse_stock(
         data_frame: Union[pd.DataFrame, List[str], StockDownload]) -> dict:
     """
@@ -156,7 +122,7 @@ def analyse_stock(
     """
     if isinstance(data_frame, StockDownload):
         # take analysis info from data class
-        analyse = data_frame.data
+        analyse = data_frame.data_frame
         from_date = data_frame.stock_param.from_date
         to_date = data_frame.stock_param.to_date
     else:
@@ -165,7 +131,7 @@ def analyse_stock(
         from_date = None
         to_date = None
     if isinstance(analyse, list):
-        analyse = data_to_frame(analyse)    # convert list to data frame
+        analyse = StockDownload.list_to_frame(analyse)    # convert list to data frame
 
     # data in chronological order
     analyse.sort_values(by=DfColumn.DATE.title, ascending=True, inplace=True)
@@ -183,7 +149,7 @@ def analyse_stock(
         'to': to_date if isinstance(to_date, date) else to_date.date()
     }
 
-    for column in NUMERIC_COLUMNS:
+    for column in DfColumn.NUMERIC_COLUMNS:
         data_series = analyse[column.title]
 
         # min value
@@ -193,51 +159,15 @@ def analyse_stock(
         analysis[DfStat.MAX.column_key(column)] = data_series.max()
 
         # change
-        change = round_price(data_series[0] - data_series[len(data_series)-1])
+        change = round_price(data_series.iat[0] - data_series.iat[len(data_series)-1])
         analysis[DfStat.CHANGE.column_key(column)] = change
 
         # percentage change
         analysis[DfStat.PERCENT_CHANGE.column_key(column)] = round(
-            (change / data_series[0]) * 100, PERCENT_PRECISION
+            (change / data_series.iat[0]) * 100, PERCENT_PRECISION
         )
 
     print(analysis)
-
-
-def data_to_frame(data: List[str]):
-    """
-    Convert data to a Pandas DataFrame
-
-    Args:
-        data (List[str]): data to convert
-
-    Returns:
-        Pandas.DataFrame: data DataFrame
-    """
-    # split comma-separated string into list of strings
-    # https://numpy.org/doc/stable/reference/arrays.ndarray.html
-    #
-    # Setting arr.dtype is discouraged and may be deprecated in the future.
-    # Setting will replace the dtype without modifying the memory
-    # https://numpy.org/doc/stable/reference/generated/numpy.ndarray.dtype.html#numpy.ndarray.dtype
-    data_records = np.array(
-        [entry.split(",") for entry in data]
-    )
-    # https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.from_records.html#pandas.DataFrame.from_records
-    data_frame = pd.DataFrame.from_records(data_records, columns=DfColumn.titles())
-
-    # convert numeric columns
-    # https://pandas.pydata.org/docs/reference/api/pandas.to_numeric.html
-    for column in NUMERIC_COLUMNS:
-        data_frame[column.title] = pd.to_numeric(data_frame[column.title])
-
-    # convert date column
-    # https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html#pandas.to_datetime
-    data_frame[DfColumn.DATE.title] = pd.to_datetime(
-        data_frame[DfColumn.DATE.title].str.lower(), infer_datetime_format=True
-    )
-
-    return data_frame
 
 
 def round_price(price: float) -> float:
