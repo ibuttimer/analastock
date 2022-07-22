@@ -50,15 +50,6 @@ def open_spreadsheet(name: str) -> gspread.spreadsheet.Spreadsheet:
     return spreadsheet
 
 
-def load_sheet():
-
-    worksheets = SPREADSHEET.worksheets()
-    print(SPREADSHEET.worksheets())
-
-
-    print(sheet_exists(worksheets[0].title))
-
-
 def sheet_exists(
         name: str, spreadsheet: gspread.spreadsheet.Spreadsheet = None
     ) -> Union[gspread.worksheet.Worksheet, None]:

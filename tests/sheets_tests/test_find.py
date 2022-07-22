@@ -12,12 +12,16 @@ from sheets import find, find_all, read_data_by_date
 from stock import DfColumn, round_price
 
 from .base import TestBase
+from .sheet_utils import (
+    add_sheet_data, open_value, high_value, low_value, close_value,
+    adj_close_value, volume_value, last_day_of_month
+)
 
 
 Expected = namedtuple("Expected", ['count', 'row', 'col', 'value'])
 
 
-class TestLoad(TestBase):
+class TestFind(TestBase):
     """
     Units tests for sheet find functions
     """
@@ -159,36 +163,20 @@ class TestLoad(TestBase):
         sheet = self.add_sheet(worksheet_name, del_if_exists=True)
 
         # add data
-        jan, feb, mar = (1, 2, 3)
-        data = []
-        for month in range(jan, mar + 1):   # jan - mar
-            data.extend([
-                # 31 days in jan/mar, 2022 not a leap year so 28 in feb
-                [
-                    # columns are 'Date', 'Open', 'High', 'Low', 'Close',
-                    # 'AdjClose' & 'Volume', see DfColumn class
-                    date(2022, month, day).isoformat(),
-                    open_value(month, day),
-                    high_value(month, day),
-                    low_value(month, day),
-                    close_value(month, day),
-                    adj_close_value(month, day),
-                    volume_value(month, day)
-                ] for day in range(1, 32 if month != feb else 28)
-            ])
-        sheet.append_rows(data, value_input_option='USER_ENTERED')
+        jan, feb, mar, apr = (1, 2, 3, 4)
+        add_sheet_data(sheet, date(2022, jan, 1), date(2022, apr, 1))
 
         test_min = datetime(year=2022, month=feb, day=5).date()
-        test_max = datetime(year=2022, month=mar, day=5).date()
+        test_max = datetime(year=2022, month=mar, day=5).date() # exclusive
         data_frame = read_data_by_date(sheet, test_min, test_max)
 
         row = 0
         for month in range(feb, mar + 1):   # feb - mar
-            for day in range(1, 32 if month != feb else 28):
+            for day in range(1, last_day_of_month(2022, month) + 1):
                 test_date = datetime(year=2022, month=month, day=day).date()
                 if test_date < test_min:
                     continue
-                if test_date > test_max:
+                if test_date >= test_max:
                     break
 
                 with self.subTest(msg=f'check date {test_date.isoformat()}'):
@@ -223,99 +211,6 @@ class TestLoad(TestBase):
         self.tidy_up_sheets(
             [ (worksheet_name, sheet) ]
         )
-
-
-def calc_value(month: int, day: int, factor: Union[int, float]) -> Union[int, float]:
-    """
-    Calculate a test value
-
-    Args:
-        month (int): month
-        day (int): day
-        factor (Union[int, float]): multiplication factor
-
-    Returns:
-        Union[int, float]: value
-    """
-    return (month * factor) + day
-
-def open_value(month: int, day: int) -> float:
-    """
-    Calculate a test value for Open
-
-    Args:
-        month (int): month
-        day (int): day
-
-    Returns:
-        float: value
-    """
-    return calc_value(month, day, 5.1)
-
-def high_value(month: int, day: int) -> float:
-    """
-    Calculate a test value for High
-
-    Args:
-        month (int): month
-        day (int): day
-
-    Returns:
-        float: value
-    """
-    return calc_value(month, day, 5.2)
-
-def low_value(month: int, day: int) -> float:
-    """
-    Calculate a test value for Low
-
-    Args:
-        month (int): month
-        day (int): day
-
-    Returns:
-        float: value
-    """
-    return calc_value(month, day, 5.3)
-
-def close_value(month: int, day: int) -> float:
-    """
-    Calculate a test value for Close
-
-    Args:
-        month (int): month
-        day (int): day
-
-    Returns:
-        float: value
-    """
-    return calc_value(month, day, 5.4)
-
-def adj_close_value(month: int, day: int) -> float:
-    """
-    Calculate a test value for AdjClose
-
-    Args:
-        month (int): month
-        day (int): day
-
-    Returns:
-        float: value
-    """
-    return calc_value(month, day, 5.5)
-
-def volume_value(month: int, day: int) -> int:
-    """
-    Calculate a test value for Close
-
-    Args:
-        month (int): month
-        day (int): day
-
-    Returns:
-        float: value
-    """
-    return calc_value(month, day, 1000)
 
 
 if __name__ == '__main__':

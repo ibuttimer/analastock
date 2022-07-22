@@ -78,7 +78,7 @@ def read_data_by_date(
     Args:
         sheet (gspread.worksheet.Worksheet): worksheet to read
         min_date (Union[datetime, date]): min date (inclusive)
-        max_date (Union[datetime, date]): max date (inclusive)
+        max_date (Union[datetime, date]): max date (exclusive)
         sorted_asc (bool): sorted in ascending order flag; default True
 
     Returns:
@@ -108,7 +108,7 @@ def read_data_by_date(
 
     # filter by min & max dates
     date_frame = data_frame[(data_frame[DfColumn.DATE.title] >= min_date) &
-                (data_frame[DfColumn.DATE.title] <= max_date)]
+                (data_frame[DfColumn.DATE.title] < max_date)]
 
     # return data in chronological order
     return date_frame.sort_values(by=DfColumn.DATE.title, ascending=sorted_asc)

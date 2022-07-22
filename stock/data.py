@@ -21,7 +21,7 @@ class StockParam:
     from_date: datetime
     """ From date (inclusive) for data """
     to_date: datetime
-    """ To date (inclusive) for data """
+    """ To date (exclusive) for data """
 
     def __init__(self, symbol):
         self.symbol = symbol.upper()
@@ -39,7 +39,7 @@ class StockParam:
         Args:
             symbol (str): stock symbol
             from_date (datetime): from date (inclusive)
-            to_date (datetime): to date (inclusive)
+            to_date (datetime): to date (exclusive)
 
         Returns:
             StockParam: new object
