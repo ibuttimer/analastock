@@ -25,7 +25,7 @@ def find(
                                 Defaults to None.
         col (int, optional): One-based column number to scope the search.
                                 Defaults to None.
-        case_sensitive (bool, optional): comparison is case sensitive if True, 
+        case_sensitive (bool, optional): comparison is case sensitive if True,
                                 case insensitive otherwise. Defaults to True.
                                 Does not apply to regular expressions.
 
@@ -82,7 +82,7 @@ def read_data_by_date(
         sorted_asc (bool): sorted in ascending order flag; default True
 
     Returns:
-        pd.DataFrame: data frame of data
+        panda.DataFrame: data frame of data
     """
     if isinstance(min_date, datetime):
         min_date = min_date.date()

@@ -4,15 +4,15 @@ Download related functions
 import re
 import platform
 from datetime import datetime
-from typing import List, Tuple
+from typing import List, Tuple, Union
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
 from utils import info
 
-from .stock_param import StockParam
-from .analyse import FRIENDLY_FORMAT, data_to_frame
+from .data import StockParam, StockDownload
+from .analyse import FRIENDLY_FORMAT, data_to_frame, standardise_stock_param
 
 
 YAHOO_HISTORY_URL = 'https://finance.yahoo.com/quote/{}/history'
@@ -93,28 +93,32 @@ def _timestamp_epoch(date_time: datetime) -> str:
     return str(int(date_time.timestamp()))
 
 
-def download_data(params: StockParam) -> List[str]:
+def download_data(params: StockParam, standardise: bool = True) -> StockDownload:
     """
     Download stock data
 
     Args:
         params (StockParam): stock parameters
+        standardise (bool): standardise params; default True
 
     Returns:
-        List[str]: downloaded data
+        StockDownload: downloaded data
     """
+    load_param = standardise_stock_param(params) if standardise else params
 
-    header, _, cookies = _get_crumbs_and_cookies(params.symbol)
+    header, _, cookies = _get_crumbs_and_cookies(load_param.symbol)
 
     url = YAHOO_DOWNLOAD_URL.format(
-        symbol=params.symbol, from_date=_timestamp_epoch(params.from_date),
-        to_date=_timestamp_epoch(params.to_date), interval=DAILY_FREQ
+        symbol=load_param.symbol,
+        from_date=_timestamp_epoch(load_param.from_date),
+        to_date=_timestamp_epoch(load_param.to_date),
+        interval=DAILY_FREQ
     )
 
     info(
-        f'Downloading {params.symbol} data: '
-        f'{params.from_date.strftime(FRIENDLY_FORMAT)} - '
-        f'{params.to_date.strftime(FRIENDLY_FORMAT)}'
+        f'Downloading {load_param.symbol} data: '
+        f'{load_param.from_date.strftime(FRIENDLY_FORMAT)} - '
+        f'{load_param.to_date.strftime(FRIENDLY_FORMAT)}'
     )
 
     with requests.session():
@@ -130,9 +134,15 @@ def download_data(params: StockParam) -> List[str]:
 
         print(data)
 
-    return data
+    return StockDownload(params, data)
 
 
-def canned_ibm() -> Tuple[StockParam, pd.DataFrame]:
+def canned_ibm(data_type: str) -> Tuple[StockParam, Union[pd.DataFrame, List[str], StockDownload]]:
     """ Returned canned IBM stock """
-    return SAMPLE_STOCK_PARAM, data_to_frame(SAMPLE_DATA)
+    if data_type == 'df':
+        data = data_to_frame(SAMPLE_DATA)
+    elif data_type == 'sd':
+        data = StockDownload(SAMPLE_STOCK_PARAM, data)
+    else:
+        data = SAMPLE_DATA
+    return SAMPLE_STOCK_PARAM, data

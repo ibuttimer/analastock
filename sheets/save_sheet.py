@@ -18,7 +18,7 @@ def save_data(stock_param: StockParam, data_frame: pd.DataFrame):
 
     Args:
         stock_param (StockParam): stock parameters
-        data_frame (Pandas.DataFrame): data to save
+        data_frame (pandas.DataFrame): data to save
     """
     sheet = sheet_exists(stock_param.symbol)
     if not sheet:

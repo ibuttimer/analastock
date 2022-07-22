@@ -2,14 +2,14 @@
 Stock package
 """
 from .analyse import (
-    StockParam, get_stock_param, standardise_stock_param, analyse_stock,
+    get_stock_param, standardise_stock_param, analyse_stock,
     data_to_frame, round_price
 )
 from .retrieve import download_data, canned_ibm
 from .enums import DfColumn, DfStat
+from .data import StockParam, StockDownload
 
 __all__ = [
-    'StockParam',
     'get_stock_param',
     'standardise_stock_param',
     'analyse_stock',
@@ -20,5 +20,8 @@ __all__ = [
     'canned_ibm',
 
     'DfColumn',
-    'DfStat'
+    'DfStat',
+
+    'StockParam',
+    'StockDownload'
 ]

@@ -1,13 +1,14 @@
 """
 Stock analysis related functions
 """
-from datetime import datetime
+from datetime import date, datetime
 from typing import List, Union
+from copy import copy
 
 import numpy as np
 import pandas as pd
 from utils import get_input, error
-from .stock_param import StockParam
+from .data import StockDownload, StockParam
 from .enums import DfColumn, DfStat
 
 
@@ -115,32 +116,34 @@ def standardise_stock_param(stock_param: StockParam) -> StockParam:
     month
 
     Returns:
-        StockParam: stock parameters
+        StockParam: a standardised copy of parameters
     """
-    if stock_param.from_date.day > 1:
+    std_param = copy(stock_param)   # shallow copy
+    if std_param.from_date.day > 1:
         # from 1st of month
-        stock_param.from_date = stock_param.from_date.replace(day=1)
+        std_param.from_date = std_param.from_date.replace(day=1)
 
-    if stock_param.to_date.day > 1:
-        year = stock_param.to_date.year
-        month = stock_param.to_date.month + 1
+    if std_param.to_date.day > 1:
+        year = std_param.to_date.year
+        month = std_param.to_date.month + 1
         if month > 12:
             year += 1
             month = 1
 
         # to 1st of next month
-        new_date = stock_param.to_date.replace(year=year, month=month, day=1)
-        stock_param.to_date = min(new_date, datetime.now())
+        new_date = std_param.to_date.replace(year=year, month=month, day=1)
+        std_param.to_date = min(new_date, datetime.now())
 
-    return stock_param
+    return std_param
 
 
-def analyse_stock(data_frame: Union[pd.DataFrame, List[str]]) -> dict:
+def analyse_stock(
+        data_frame: Union[pd.DataFrame, List[str], StockDownload]) -> dict:
     """
     Analyse stock data
 
     Args:
-        data_frame (Union[Pandas.DataFrame, List[str]]): data to analyse
+        data_frame (Union[Pandas.DataFrame, List[str], StockDownload]): data to analyse
 
     Returns:
         dict: dict of analysis results, like {
@@ -151,13 +154,37 @@ def analyse_stock(data_frame: Union[pd.DataFrame, List[str]]) -> dict:
             .....
         }
     """
-    analysis = {}
+    if isinstance(data_frame, StockDownload):
+        # take analysis info from data class
+        analyse = data_frame.data
+        from_date = data_frame.stock_param.from_date
+        to_date = data_frame.stock_param.to_date
+    else:
+        # raw analysis and take date info from data
+        analyse = data_frame
+        from_date = None
+        to_date = None
+    if isinstance(analyse, list):
+        analyse = data_to_frame(analyse)    # convert list to data frame
 
-    if isinstance(data_frame, list):
-        data_frame = data_to_frame(data_frame)
+    # data in chronological order
+    analyse.sort_values(by=DfColumn.DATE.title, ascending=True, inplace=True)
+    if not from_date:
+        # get date info for raw analysis
+        from_date = analyse[DfColumn.DATE.title].min()
+        to_date = analyse[DfColumn.DATE.title].max()
+    else:
+        # filter by min & max dates
+        analyse = analyse[(analyse[DfColumn.DATE.title] >= from_date) &
+                    (analyse[DfColumn.DATE.title] <= to_date)]
+
+    analysis = {
+        'from': from_date if isinstance(from_date, date) else from_date.date(),
+        'to': to_date if isinstance(to_date, date) else to_date.date()
+    }
 
     for column in NUMERIC_COLUMNS:
-        data_series = data_frame[column.title]
+        data_series = analyse[column.title]
 
         # min value
         analysis[DfStat.MIN.column_key(column)] = data_series.min()
@@ -190,7 +217,7 @@ def data_to_frame(data: List[str]):
     # split comma-separated string into list of strings
     # https://numpy.org/doc/stable/reference/arrays.ndarray.html
     #
-    # Setting arr.dtype is discouraged and may be deprecated in the future. 
+    # Setting arr.dtype is discouraged and may be deprecated in the future.
     # Setting will replace the dtype without modifying the memory
     # https://numpy.org/doc/stable/reference/generated/numpy.ndarray.dtype.html#numpy.ndarray.dtype
     data_records = np.array(
