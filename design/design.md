@@ -18,6 +18,15 @@ As a user:
   - min/max opening price
   - min/max high price
   - percentage gain/loss
+- I want to have a menu to use
+- I want to be able to compare multiple stocks against each other
+- I want the analysis data to be easily understood, with important data colour highlighted
+- I want to know what currency used for the data
+
+As the site administrator:
+- I want to minimise the download of data from external websites
+- I aggregate previously downloaded and required data to meet user needs
+- I want to use Google APIs to access and store data
 
 # Structure
 
@@ -62,5 +71,33 @@ The flow chart of the analysis of a single stock is as follows:
 
 ![](img/analastock-analyse-1-stock.drawio.png)
 
+# Data
+## Data Source
+The financial data for analysis will be downloaded from [Yahoo Finance](https://finance.yahoo.com/).
+Specifically the data used will the `Historical Prices` data provided by [Yahoo Finance](https://finance.yahoo.com/).
 
+The following input will be required from the user:
+
+| Input | Description |
+|-------|-------------|
+| Symbol | The stock exchange symbol used for the stock |
+| From date | The data for the start of analysis<br>__Note:__ The minimum date in 1st Feb. 1962. |
+| To date | The data for the end of analysis<br>__Note:__ This is date is not included in the analysis. |
+
+## Data Storage
+
+Data will be stored in a Google Sheets spreadsheet and will be organised as follows:
+- The data for each stock will be stored in an individual worksheet
+- The stock symbol will be used as the worksheet name
+- The following data will be stored
+
+    | Name | Type | Description |
+    |------|------|-------------|
+    | Date | Date | Date of data |
+    | Open | Float | Opening price |
+    | High | Float | High price |
+    | Low  | Float | Low price |
+    | Close | Float | Closing price<br>__Note:__ Close price adjusted for splits. |
+    | Adj Close | Float | Adjusted Closing price<br>__Note:__ Adjusted close price adjusted for splits and dividend and/or capital gain distributions. |
+    | Volume | Integer | Opening price |
 
