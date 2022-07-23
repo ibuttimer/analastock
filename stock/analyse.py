@@ -57,6 +57,23 @@ def validate_date(date_string: str) -> Union[datetime, None]:
     return date_time
 
 
+def validate_symbol(symbol: str) -> Union[str, None]:
+    """
+    Validate a symbol string
+
+    Args:
+        symbol (str): input symbol string
+
+    Returns:
+        Union[str, None]: string object if valid, otherwise None
+    """
+    if symbol.startswith('^'):
+        error('Analysis of stock indices is not supported')
+        symbol = None
+
+    return symbol
+
+
 def get_stock_param() -> StockParam:
     """
     Get stock parameters
@@ -64,8 +81,12 @@ def get_stock_param() -> StockParam:
     Returns:
         StockParam: stock parameters
     """
+    #TODO add abort option
+
     stock_param = StockParam(
-        get_input('Enter stock symbol', help_text=SYMBOL_HELP)
+        get_input(
+            'Enter stock symbol', validate=validate_symbol,
+            help_text=SYMBOL_HELP)
     )
 
     #TODO add 1d, 5d, 3m, 6m, ytd, 1y, 5y options

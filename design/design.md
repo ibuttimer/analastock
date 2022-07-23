@@ -13,6 +13,7 @@ The scope of the project will be to allow the user to:
 As a user:
 - I want to understand the purpose of the site.
 - I want to be able to specify the stock to analyse.
+- I do not want to analyse stock indices, such as the Dow Jones Industrial Average.
 - I want to be able to specify the date range to analyse.
 - I want to be able to view the statistics for stock analysed, including but not limited
   - min/max opening price
@@ -80,7 +81,7 @@ The following input will be required from the user:
 
 | Input | Description |
 |-------|-------------|
-| Symbol | The stock exchange symbol used for the stock |
+| Symbol | The Yahoo Finance stock exchange symbol used for the stock.<br>Symbols may be found by searching on [Yahoo Finance](https://finance.yahoo.com/). E.g. the symbol for Microsoft Corporation on the [NASDAQ](https://www.nasdaq.com/) Global Select Market is `MSFT`, and for the [NEO Exchange](https://www.neo.inc/) is `MSFT.NE` |
 | From date | The data for the start of analysis<br>__Note:__ The minimum date in 1st Feb. 1962. |
 | To date | The data for the end of analysis<br>__Note:__ This is date is not included in the analysis. |
 
