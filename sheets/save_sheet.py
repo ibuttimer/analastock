@@ -1,12 +1,12 @@
 """
 Google Sheets related functions
 """
-from typing import Union
-import gspread
+from typing import List, Union
 import pandas as pd
 from stock import StockParam, DfColumn, StockDownload
-from utils import info
-from .load_sheet import SPREADSHEET, sheet_exists
+from utils import info, EXCHANGES_SHEET, COMPANIES_SHEET
+from .load_sheet import sheet_exists
+from .utils import updated_range, updated_rows
 
 
 # https://docs.gspread.org/
@@ -17,7 +17,7 @@ def save_data(data: Union[pd.DataFrame, StockDownload], stock_param: StockParam 
     Save data for the specified stock
 
     Args:
-        data_frame (Union[pandas.DataFrame, StockDownload]): data to save
+        data (Union[pandas.DataFrame, StockDownload]): data to save
         stock_param (StockParam): stock parameters if data is DataFrame, ignored otherwise
     """
     if isinstance(data, StockDownload):
@@ -27,9 +27,7 @@ def save_data(data: Union[pd.DataFrame, StockDownload], stock_param: StockParam 
         data_frame = data
         symbol = stock_param.symbol
 
-    sheet = sheet_exists(symbol)
-    if not sheet:
-        sheet = add_sheet(symbol)
+    sheet = sheet_exists(symbol, create=True)
 
     # data_frame has dates as np.datetime64
     save_frame = pd.DataFrame(data_frame, copy=True)
@@ -38,25 +36,71 @@ def save_data(data: Union[pd.DataFrame, StockDownload], stock_param: StockParam 
     save_frame[DfColumn.DATE.title] = save_frame[DfColumn.DATE.title].dt.date
 
     values = save_frame.to_numpy(dtype=str).tolist()
-    sheet.append_rows(values, value_input_option='USER_ENTERED')
+    # [
+    #   ['2022-02-01', '133.759995', '135.960007', '132.5', '135.529999', '132.311874', '6206400'],
+    #   ....
+    # ]
+    result = sheet.append_rows(values, value_input_option='USER_ENTERED')
 
-    info(f'Saved {len(values)} records to {symbol}')
+    info(f'Saved {updated_rows(result)} records to {symbol}')
 
 
-def add_sheet(
-        name: str, spreadsheet: gspread.spreadsheet.Spreadsheet = None
-    ) -> gspread.worksheet.Worksheet:
+def save_exchanges(data: Union[pd.DataFrame, StockDownload]) -> List[dict]:
     """
-    Add a worksheet with the specified name
+    Save data for the exchanges
 
     Args:
-        name (str): worksheet name
-        spreadsheet (gspread.spreadsheet.Spreadsheet): spreadsheet to add to;
-                                                    default global spreadsheet
+        data (Union[pandas.DataFrame, StockDownload]): data to save
 
     Returns:
-        gspread.worksheet.Worksheet: worksheet
+        dict
     """
-    if spreadsheet is None:
-        spreadsheet = SPREADSHEET
-    return spreadsheet.add_worksheet(name, 1000, 26)
+    if isinstance(data, StockDownload):
+        # json object
+        # {"exchangeCode":"AMS"}
+        data = data.data
+
+    sheet = sheet_exists(EXCHANGES_SHEET, create=True)
+
+    sheet.clear()
+    values = [
+        [exchange['exchangeCode']] for exchange in data['results']
+    ]
+    result = sheet.append_rows(values, value_input_option='USER_ENTERED')
+
+    info(f"Saved {updated_rows(result)} exchange records")
+
+    return data['results']
+
+
+def save_companies(data: Union[pd.DataFrame, StockDownload]) -> List[dict]:
+    """
+    Save data for companies
+
+    Args:
+        data (Union[pandas.DataFrame, StockDownload]): data to save
+    """
+    if isinstance(data, StockDownload):
+        # json object
+        # {"exchangeCode":"AMS","symbol":"AALB.AS","companyName":"AALBERTS NV","industryOrCategory":"Industrials"}
+        data = data.data
+
+    sheet = sheet_exists(COMPANIES_SHEET, create=True)
+
+    sheet.clear()
+    values = [
+        [company[attrib] for attrib in company] for company in data['results']
+    ]
+    result = sheet.append_rows(values, value_input_option='RAW')
+
+    info(f"Saved {updated_rows(result)} company records")
+
+    # some symbols contain '.' which result in them being displayed as hyperlinks
+    sheet.batch_format([{
+        "range": updated_range(result),
+        "format": {
+            "hyperlinkDisplayType": "PLAIN_TEXT"
+        },
+    }])
+
+    return data['results']

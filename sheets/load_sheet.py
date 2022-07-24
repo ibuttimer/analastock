@@ -5,7 +5,7 @@ from typing import Union
 import os
 import gspread
 from google.oauth2.service_account import Credentials
-from utils import get_env_setting
+from utils import get_env_setting, DEFAULT_CREDS_FILE, DEFAULT_CREDS_PATH
 
 
 # https://docs.gspread.org/
@@ -19,8 +19,8 @@ SCOPE = [
 CREDENTIALS = Credentials.from_service_account_file(
     os.path.abspath(
         os.path.join(
-            get_env_setting('CREDS_PATH', './'),
-            get_env_setting('CREDS_FILE', 'creds.json'),
+            get_env_setting('CREDS_PATH', DEFAULT_CREDS_PATH),
+            get_env_setting('CREDS_FILE', DEFAULT_CREDS_FILE),
         )
     )
 )
@@ -51,7 +51,8 @@ def open_spreadsheet(name: str) -> gspread.spreadsheet.Spreadsheet:
 
 
 def sheet_exists(
-        name: str, spreadsheet: gspread.spreadsheet.Spreadsheet = None
+        name: str, spreadsheet: gspread.spreadsheet.Spreadsheet = None,
+        create: bool = False
     ) -> Union[gspread.worksheet.Worksheet, None]:
     """
     Check is a worksheet with the specified name exists
@@ -60,6 +61,7 @@ def sheet_exists(
         name (str): worksheet name
         spreadsheet (gspread.spreadsheet.Spreadsheet): spreadsheet to check;
                                                     default global spreadsheet
+        create (bool): create if does not exist; default False
 
     Returns:
         gspread.worksheet.Worksheet: worksheet if exists otherwise None
@@ -74,7 +76,29 @@ def sheet_exists(
             the_sheet = sheet
             break
 
+    if not the_sheet and create:
+        the_sheet = add_sheet(name)
+
     return the_sheet
+
+
+def add_sheet(
+        name: str, spreadsheet: gspread.spreadsheet.Spreadsheet = None
+    ) -> gspread.worksheet.Worksheet:
+    """
+    Add a worksheet with the specified name
+
+    Args:
+        name (str): worksheet name
+        spreadsheet (gspread.spreadsheet.Spreadsheet): spreadsheet to add to;
+                                                    default global spreadsheet
+
+    Returns:
+        gspread.worksheet.Worksheet: worksheet
+    """
+    if spreadsheet is None:
+        spreadsheet = SPREADSHEET
+    return spreadsheet.add_worksheet(name, 1000, 26)
 
 
 SPREADSHEET = open_spreadsheet(

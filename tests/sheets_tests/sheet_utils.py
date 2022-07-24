@@ -22,7 +22,7 @@ def last_day_of_month(year: int, month: int):
     Returns:
         _type_: _description_
     """
-    # 30 days hath sept, apr, jun & nov, all the rest have 31 save 
+    # 30 days hath sept, apr, jun & nov, all the rest have 31 save
     # feb which one in four has one day more
     return 29 if month == 2 and isleap(year) else \
             28 if month == 2 else \

@@ -58,7 +58,7 @@ class StockDownload:
 
     stock_param: StockParam
     """ Params of user request """
-    data: Union[pd.DataFrame, List[str]]
+    data: Union[pd.DataFrame, List[str], object]
     """ Downloaded data """
 
     def __init__(
@@ -75,7 +75,23 @@ class StockDownload:
         Returns:
             pandas.DataFrame: data
         """
-        return StockDownload.list_to_frame(self.data) if isinstance(self.data, list) else self.data
+        return StockDownload.list_to_frame(self.data)\
+            if isinstance(self.data, list) else self.data\
+            if isinstance(self.data, pd.DataFrame) else pd.DataFrame(self.data)
+
+    @staticmethod
+    def download_of(data: object) -> object:
+        """
+        Factory
+
+        Args:
+            data (object): json data
+
+        Returns:
+            StockDownload: new object
+        """
+        stock_download = StockDownload(None, data)
+        return stock_download
 
     @staticmethod
     def list_to_frame(data: List[str]):

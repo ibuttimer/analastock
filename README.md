@@ -41,6 +41,27 @@ Installing the requirements from [requirements-dev.txt](requirements-dev.txt) in
 ### Configuration
 The application configuration may be set using using environment variables or a configuration file.
 
+#### Credentials
+
+##### Google Drive API
+TODO
+
+##### RapidAPI
+[RapidAPI](https://rapidapi.com/) is used to retrieve stock exchange and company information.
+
+- Sign up or log in on the [RapidAPI home page](https://rapidapi.com/)
+- In the [API hub](https://rapidapi.com/hub), select the [Finance](https://rapidapi.com/category/Finance) category
+- Select the [YahooFinance Stocks](https://rapidapi.com/integraatio/api/yahoofinance-stocks1/) API
+- Select the `Subscribe to Test` option
+- Select the `Basic` plan and enter payment card details
+- Once subscribed, the API credentials may be retrieved by selecting `Python (Requests)` under `Code Snippets`, and copying the JSON for the `headers` variable
+  ```python
+  {
+    "X-RapidAPI-Key": "this-is-the-api-key",
+    "X-RapidAPI-Host": "yahoofinance-stocks1.p.rapidapi.com"
+  }
+  ```
+
 #### Configuration file
 Create a file named `.env` in the project root folder, see [.sample-env](.sample-env). The following variables may be set:
 
@@ -55,6 +76,9 @@ Create a file named `.env` in the project root folder, see [.sample-env](.sample
 | CREDS | Google Drive API credentials |
 | CREDS_FILE | Name of name of Google Drive API credentials file; default `creds.json` |
 | CREDS_PATH | Path to Google Drive API credentials file; default `./`<br>__Note:__ must be relative to the project root folder |
+| RAPID_CREDS | [RapidAPI](https://rapidapi.com/) credentials |
+| RAPID_CREDS_FILE | Name of name of [RapidAPI](https://rapidapi.com/) credentials file; default `rapid_creds.json` |
+| RAPID_CREDS_PATH | Path to [RapidAPI](https://rapidapi.com/) credentials file; default `./`<br>__Note:__ must be relative to the project root folder |
 | SPREADSHEET_NAME | Name of Google Sheets spreadsheet |
 
 #### Environment variables
@@ -67,23 +91,30 @@ $ export NODE_ENV=development            > set NODE_ENV=development
 ```
 
 ### Application structure
-The application structure is based on [React Architecture: How to Structure and Organize a React Application](https://www.taniarascia.com/react-architecture-directory-structure/).
+The application structure is split in two; a [Total.js](https://www.totaljs.com/) application which hosts the console, and a [Python](https://www.python.org/) application which provides the application logic.
 
 ```
 ├─ README.md            - this file
+| [------------ Total.js application ------------]
 ├─ index.js             - application entry point
 ├─ controllers          - JavaScript controllers
 ├─ views                - views html files
 ├─ public               - application assets
 │  └─ img               - image files
-├─ src                  - Python source files
-│  ├─ run.py            - Python application entry point
-│  ├─ misc              - miscellaneous functions
-│  ├─ stock             - stock-related functions
-│  └─ utils             - utility functions
+| [------------  Python application  ------------]
+├─ run.py               - Python application entry point
+├─ misc                 - miscellaneous functions
+├─ sheets               - Google sheets-related functions
+├─ stock                - stock-related functions
+├─ process              - process-related functions
+├─ utils                - utility functions
 └─ test                 - test scripts
-   └─ utils             - utility functions tests
+   ├─ sheets_tests      - Google sheets-related tests
+   ├─ stock_tests       - stock tests
+   └─ utils_tests       - utility tests
 ```
+
+Python source files
 
 ## Deployment
 
@@ -103,6 +134,7 @@ The following steps were followed to deploy the website:
       |-----|-------|
       | PORT | 8000 |
       | CREDS | Google Drive API credentials |
+      | RAPID_CREDS | [RapidAPI](https://rapidapi.com/) credentials |
 
       See [Table 1: Configuration settings](#table-1-configuration-settings) for details.
 

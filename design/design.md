@@ -23,6 +23,7 @@ As a user:
 - I want to be able to compare multiple stocks against each other
 - I want the analysis data to be easily understood, with important data colour highlighted
 - I want to know what currency used for the data
+- I want to be able to search for stock symbols
 
 As the site administrator:
 - I want to minimise the download of data from external websites
@@ -81,16 +82,18 @@ The following input will be required from the user:
 
 | Input | Description |
 |-------|-------------|
-| Symbol | The Yahoo Finance stock exchange symbol used for the stock.<br>Symbols may be found by searching on [Yahoo Finance](https://finance.yahoo.com/). E.g. the symbol for Microsoft Corporation on the [NASDAQ](https://www.nasdaq.com/) Global Select Market is `MSFT`, and for the [NEO Exchange](https://www.neo.inc/) is `MSFT.NE` |
+| Symbol | The Yahoo Finance stock exchange symbol used for the stock.<br>Symbols may be found by searching on [Yahoo Finance](https://finance.yahoo.com/) or by using the in app search functionality. E.g. the symbol for Microsoft Corporation on the [NASDAQ](https://www.nasdaq.com/) Global Select Market is `MSFT`, and for the [NEO Exchange](https://www.neo.inc/) is `MSFT.NE` |
 | From date | The data for the start of analysis<br>__Note:__ The minimum date in 1st Feb. 1962. |
 | To date | The data for the end of analysis<br>__Note:__ This is date is not included in the analysis. |
 
 ## Data Storage
+Data will be stored in a Google Sheets spreadsheet.
 
-Data will be stored in a Google Sheets spreadsheet and will be organised as follows:
+### Stock Data
+Stock data will be organised as follows:
 - The data for each stock will be stored in an individual worksheet
 - The stock symbol will be used as the worksheet name
-- The following data will be stored
+- The following data will be stored:
 
     | Name | Type | Description |
     |------|------|-------------|
@@ -102,3 +105,22 @@ Data will be stored in a Google Sheets spreadsheet and will be organised as foll
     | Adj Close | Float | Adjusted Closing price<br>__Note:__ Adjusted close price adjusted for splits and dividend and/or capital gain distributions. |
     | Volume | Integer | Opening price |
 
+### Exchanges Data
+Exchanges data will be stored in an individual worksheet.
+The following data will be stored:
+
+| Data | Description |
+|------|-------------|
+| Exchange code | Exchange code |
+| Name | Name of exchange |
+
+### Companies Data
+Companies data will be stored in an individual worksheet.
+The following data will be stored:
+
+| Data | Description |
+|------|-------------|
+| Exchange code | Exchange code |
+| Stock symbol | Symbol used on [Yahoo Finance](https://finance.yahoo.com/) |
+| Name | Name of company |
+| IndustryOrCategory | Industry or category of the company |

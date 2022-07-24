@@ -14,4 +14,4 @@ tmp/
 /index.js.*
 .env
 .env-*
-creds.json
+*creds.json

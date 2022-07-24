@@ -10,6 +10,7 @@ from .convert import (
 from .retrieve import download_data, canned_ibm
 from .enums import DfColumn, DfStat
 from .data import StockParam, StockDownload
+from .exchanges import download_exchanges, download_companies
 
 __all__ = [
     'get_stock_param',
@@ -25,5 +26,8 @@ __all__ = [
     'DfStat',
 
     'StockParam',
-    'StockDownload'
+    'StockDownload',
+
+    'download_exchanges',
+    'download_companies'
 ]
