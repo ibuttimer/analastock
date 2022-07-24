@@ -1,6 +1,8 @@
 """
 Utility functions for sheets
 """
+from typing import List
+import gspread
 
 
 def updated_range(result: dict, inc_sheet_name: bool = False):
@@ -30,3 +32,16 @@ def updated_rows(result: dict):
         str: updated rows
     """
     return result['updates']['updatedRows']
+
+
+def cell_values(cells: List[gspread.cell.Cell]) -> List[str]:
+    """
+    Convert a list of cells to a list of values
+
+    Args:
+        cells (List[gspread.cell.Cell]): cells list
+
+    Returns:
+        List[str]: values list
+    """
+    return [cell.value for cell in cells]

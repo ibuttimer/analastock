@@ -5,6 +5,7 @@ from .load_sheet import open_spreadsheet, sheet_exists, add_sheet
 from .save_sheet import save_data, save_exchanges, save_companies
 from .find_info import find, find_all, read_data_by_date
 from .load_data import get_data, check_partial
+from .search import search_company
 
 __all__ = [
     'open_spreadsheet',
@@ -20,5 +21,7 @@ __all__ = [
     'read_data_by_date',
 
     'get_data',
-    'check_partial'
+    'check_partial',
+
+    'search_company'
 ]

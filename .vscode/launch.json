@@ -25,7 +25,8 @@
       "type": "python",
       "request": "test",
       "console": "integratedTerminal",
-      "logToFile": true
+      "logToFile": true,
+      "justMyCode": true
     },
     // https://code.visualstudio.com/docs/python/debugging#_console
     // "internalConsole" gives 'EOFError: EOF when reading a line' when reading input

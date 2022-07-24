@@ -117,3 +117,18 @@ class DfStat(Enum):
             str: key
         """
         return f'{column.title}{self.title}'
+
+
+class CompanyColumn(Enum):
+    """
+    Enum representing columns in companies worksheet
+    """
+    EXCHANGE = 1
+    """ Exchange code """
+    SYMBOL = 2
+    """ Stock symbol """
+    NAME = 3
+    """ Company name """
+    SECTOR = 4
+    """ Industry or Category """
+    

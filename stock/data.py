@@ -23,7 +23,7 @@ class StockParam:
     to_date: datetime
     """ To date (exclusive) for data """
 
-    def __init__(self, symbol):
+    def __init__(self, symbol: str):
         self.symbol = symbol.upper()
 
     def __str__(self) -> str:
@@ -128,3 +128,29 @@ class StockDownload:
         )
 
         return data_frame
+
+
+@dataclasses.dataclass
+class Company:
+    """
+    Class representing a company
+    """
+
+    code: str
+    """ Exchange code """
+    symbol: str
+    """ Stock symbol """
+    name: str
+    """ Company name """
+    sector: str
+    """ Industry or category """
+
+    def __init__(self, code: str, symbol: str, name: str, sector: str):
+        self.code = code.upper()
+        self.symbol = symbol.upper()
+        self.name = name
+        self.sector = sector
+
+    def __str__(self) -> str:
+        return f'{self.__class__.__name__}(' \
+               f'{self.symbol}, {self.name}, {self.code}, {self.sector})'
