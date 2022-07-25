@@ -28,7 +28,9 @@ As a user:
 As the site administrator:
 - I want to minimise the download of data from external websites
 - I aggregate previously downloaded and required data to meet user needs
-- I want to use Google APIs to access and store data
+- I want to use [Yahoo Finance](https://finance.yahoo.com/) to stock data
+- I want to use [RapidAPI](https://rapidapi.com/) is used to retrieve stock exchange and company information
+- I want to use Google APIs to access and store downloaded data
 
 # Structure
 
@@ -59,7 +61,33 @@ The console text will be white on a black background.
 
 ## UX Elements
 
-No particular UX elements are required.
+### Menu
+The application menu will display a list of possible options, allowing the user to select an option by inputting the corresponding option number.
+
+#### Menu Structure
+- _Stock Analysis_
+
+    Access stock analysis menu
+
+  - _Single stock_
+
+    Analyse single stock
+
+  - _Multiple stock_
+
+    Analyse multiple stocks
+
+- _Search Company_
+
+    In-app search for company information
+
+- _Update Company Information_
+
+    Update the in-app company information
+
+- _Quit_
+
+    Quit the application
 
 ## UX Flow Chart
 
@@ -69,9 +97,17 @@ The flow chart of the analysis of a stock is as follows:
 ![](img/analastock-analyse-stock.drawio.png)
 
 ## Single Stock Analysis
-The flow chart of the analysis of a single stock is as follows:
+The flow chart of the analysis of stock is as follows:
 
-![](img/analastock-analyse-1-stock.drawio.png)
+| Single | Multiple |
+|--------|----------|
+|![](img/analastock-analyse-1-stock.drawio.png)|![](img/analastock-analyse-multi-stock.drawio.png)|
+
+## Company Search
+The flow chart of the search for a company is as follows:
+
+![](img/analastock-search-company.drawio.png)
+
 
 # Data
 ## Data Source
@@ -82,7 +118,7 @@ The following input will be required from the user:
 
 | Input | Description |
 |-------|-------------|
-| Symbol | The Yahoo Finance stock exchange symbol used for the stock.<br>Symbols may be found by searching on [Yahoo Finance](https://finance.yahoo.com/) or by using the in app search functionality. E.g. the symbol for Microsoft Corporation on the [NASDAQ](https://www.nasdaq.com/) Global Select Market is `MSFT`, and for the [NEO Exchange](https://www.neo.inc/) is `MSFT.NE` |
+| Symbol | The Yahoo Finance stock exchange symbol used for the stock.<br>Symbols may be found by searching on [Yahoo Finance](https://finance.yahoo.com/) or by using the in-app search functionality. E.g. the symbol for Microsoft Corporation on the [NASDAQ](https://www.nasdaq.com/) Global Select Market is `MSFT`, and for the [NEO Exchange](https://www.neo.inc/) is `MSFT.NE` |
 | From date | The data for the start of analysis<br>__Note:__ The minimum date in 1st Feb. 1962. |
 | To date | The data for the end of analysis<br>__Note:__ This is date is not included in the analysis. |
 
