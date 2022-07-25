@@ -86,12 +86,17 @@ function socket() {
     });
 }
 
-if (process.env.CREDS) {
-    console.log("Creating creds.json file.");
-    fs.writeFile('creds.json', process.env.CREDS, 'utf8', function (err) {
-        if (err) {
-            console.log('Error writing file: ', err);
-            socket.emit("console_output", "Error saving credentials: " + err);
-        }
-    });
+for (entry of [
+    [process.env.CREDS, 'creds.json'],
+    [process.env.RAPID_CREDS, 'rapid_creds.json'],
+]) {
+    if (entry[0]) {
+        console.log("Creating " + entry[1] + " file.");
+        fs.writeFile(entry[1], entry[0], 'utf8', function (err) {
+            if (err) {
+                console.log('Error writing file: ', err);
+                socket.emit("console_output", "Error saving credentials: " + err);
+            }
+        });
+    }
 }
