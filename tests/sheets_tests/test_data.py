@@ -12,7 +12,7 @@ from stock import StockParam
 
 from .base import TestBase
 from .sheet_utils import (
-    add_month, add_sheet_data, JAN, FEB, MAR, APR, JUN, JUL, AUG, SEP, NOV
+    add_month, add_sheet_data, JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, NOV
 )
 
 Gap = namedtuple("Gap", ['date', 'months'])
@@ -94,11 +94,41 @@ class TestData(TestBase):
             [ (worksheet_name, sheet) ]
         )
 
+    def test_read_data_gaps_and_fill(self):
+        """
+        Test read data gaps before and after fill 
+        """
+        worksheet_name = 'data-gaps-fill-worksheet'
+
+        sheet = self.add_sheet(worksheet_name, del_if_exists=True)
+
+        stock_param = StockParam.stock_param_of(
+            "x", date(2022, JAN, 1), date(2022, JUL, 1))
+
+        # one gap
+        expected_gaps = add_data_with_gaps(sheet, stock_param, [
+            Gap(date(2022, APR, 1), 2)
+        ])
+
+        TestData.check_gaps(self, sheet, stock_param, expected_gaps)
+
+        # fill gap
+        expected_gaps = add_data_with_gaps(sheet, StockParam.stock_param_of(
+            "x", date(2022, APR, 1), date(2022, MAY, 1)), [])
+
+        TestData.check_gaps(self, sheet, stock_param, expected_gaps)
+
+        # tidy up
+        self.tidy_up_sheets(
+            [ (worksheet_name, sheet) ]
+        )
+
+
     @staticmethod
     def check_gaps(
             instance,
-            sheet: gspread.worksheet.Worksheet, 
-            stock_param: StockParam, 
+            sheet: gspread.worksheet.Worksheet,
+            stock_param: StockParam,
             expected_gaps: List[StockParam]
         ):
         """

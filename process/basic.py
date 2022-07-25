@@ -8,7 +8,8 @@ from stock import (
     Company
 )
 from sheets import (
-    save_data, get_data, save_exchanges, save_companies, search_company
+    save_data, get_sheets_data, save_exchanges, save_companies, search_company,
+    check_partial
 )
 from utils import (
     CloseMenuEntry, Menu, MenuEntry, info, ABORT, get_input, title
@@ -20,7 +21,7 @@ def process_ibm():
 
     save_data(data_frame, stock_param=stock_param)
 
-    data_frame = get_data(stock_param)
+    data_frame = get_sheets_data(stock_param)
 
     analyse_stock(
         data_frame
@@ -50,18 +51,33 @@ def process_stock(symbol: str = None) -> bool:
 
     Args:
         symbol (str, optional): symbol for stock to process. Defaults to None.
+
+    Returns:
+        bool: True if processed, otherwise False
     """
     # get stock params
     stock_param = get_stock_param(symbol=symbol)
 
-    data = get_data(stock_param)
+    processed = stock_param is not None
 
-    data = download_data(stock_param)
-    save_data(data)
+    if processed:
+        data_frame = get_sheets_data(stock_param)
 
-    analyse_stock(data)
+        # check for gaps in data
+        gaps = check_partial(data_frame, stock_param)
+        if len(gaps) > 0:
+            for gap_param in gaps:
+                # save data to sheets
+                data = download_data(gap_param)
+                save_data(data)
 
-    return True
+                # add data to data frame
+                data_frame = data_frame.append(data.data_frame) \
+                    if data_frame is not None else data.data_frame
+
+        analyse_stock(data_frame)
+
+    return processed
 
 
 def process_selected_stock(company: Company) -> Callable[[], bool]:

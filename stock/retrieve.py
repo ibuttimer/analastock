@@ -3,7 +3,7 @@ Download related functions
 """
 import re
 import platform
-from datetime import datetime
+from datetime import datetime, date
 from typing import List, Tuple, Union
 import pandas as pd
 import requests
@@ -81,7 +81,7 @@ def _get_crumbs_and_cookies(stock):
         return (HEADER, crumb[0], website.cookies)
 
 
-def _timestamp_epoch(date_time: datetime) -> str:
+def _timestamp_epoch(date_time: Union[datetime, date]) -> str:
     """
     Convert a datetime to a epoch string
 
@@ -91,6 +91,8 @@ def _timestamp_epoch(date_time: datetime) -> str:
     Returns:
         str: epoch
     """
+    if isinstance(date_time, date):
+        date_time = datetime(date_time.year, date_time.month, date_time.day)
     return str(int(date_time.timestamp()))
 
 

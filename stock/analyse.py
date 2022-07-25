@@ -141,7 +141,7 @@ def get_stock_param(symbol: str = None) -> StockParam:
             stock_param.from_date = entered_date
 
             entered_date = get_input(
-                f'Enter to date [{DATE_FORM}]',
+                f'Enter to date (excluded) [{DATE_FORM}]',
                 validate=validate_date_after(stock_param.from_date),
                 help_text=TO_DATE_HELP
             )
