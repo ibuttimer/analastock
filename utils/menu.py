@@ -4,8 +4,10 @@ Menu related functions
 from collections import namedtuple
 import dataclasses
 from typing import Callable, Union
+
+from .constants import ABORT, PAGE_UP, PAGE_DOWN
 from .input import get_input
-from .output import error, display, Colour
+from .output import error, title
 
 
 MenuOption = namedtuple("MenuOption", ['key', 'name'])
@@ -77,6 +79,12 @@ class Menu:
     Class representing a menu
     """
     DEFAULT_ROWS: int = 10
+    """ Default number of rows to display per menu page """
+
+    NO_OPTIONS: int = 0
+    """ No menu options """
+    OPT_NO_ABORT_BACK: int = 1
+    """ Do not allow abort key to function as back """
 
     entries: list
     """ Menu entries """
@@ -86,8 +94,13 @@ class Menu:
     """ Title to display """
     display_rows: int
     """ Maximum number of rows of display """
+    options: int
+    """ Menu options: default NO_OPTIONS """
 
-    def __init__(self, *args, title: str = None, rows: int = DEFAULT_ROWS):
+    def __init__(
+            self, *args, menu_title: str = None, rows: int = DEFAULT_ROWS,
+            options: int = NO_OPTIONS
+    ):
         """
         Constructor
 
@@ -102,8 +115,9 @@ class Menu:
         for entry in args:
             self.add_entry(entry)
         self.is_open = False
-        self.title = title if title else ''
+        self.title = menu_title if menu_title else ''
         self.display_rows = rows
+        self.options = options
         self._start = 0
         self._end = rows
         self._page_keys = []
@@ -132,9 +146,8 @@ class Menu:
         self._page_keys.clear()
 
         print('\f',end='')
-        display(f' {self.title} '
-                f'{f"[{self.page}/{self.num_pages}]" if self.multi_page else ""} ',
-                on_colour=Colour.CYAN
+        title(f' {self.title} '
+              f'{f"[{self.page}/{self.num_pages}] " if self.multi_page else ""}'
         )
 
         options = []
@@ -199,20 +212,29 @@ class Menu:
 
         while self.is_open:
             self.display()
+
+            pg_help = f", or {PAGE_UP}/{PAGE_DOWN} to page up/down" if self.multi_page else ""
             selection = get_input(
                 'Enter selection',
-                help_text=f'Enter number corresponding to desired option'
-                          f'{", or +/- to page up/down" if self.multi_page else ""}'
+                help_text=f'Enter number corresponding to desired option{pg_help}'
             )
 
             if self.up_down_page(selection):
                 # page inc/dec processed
                 continue
 
-            selected_entry = self._is_valid_selection(selection)
+            do_page_check = True    # check selections are on current page
+            if selection == ABORT and \
+                    not self.options & Menu.OPT_NO_ABORT_BACK:
+                # abort to close menu
+                selected_entry = self.find_close()
+                do_page_check = False   # don't check on current page
+            else:
+                selected_entry = self._is_valid_selection(selection)
+
             if selected_entry:
 
-                if selection not in self._page_keys:
+                if do_page_check and selection not in self._page_keys:
                     # selection not on current page, verify correct
                     if not self.check_proceed(
                         f"Selection '{selected_entry.name}' not on current "
@@ -275,13 +297,13 @@ class Menu:
             pg_up_down = False
             start = self._start
 
-            if selection == '+':
+            if selection == PAGE_UP:
                 pg_up_down = True
                 start += self.display_rows
                 if start >= len(self.entries):
                     error_msg = 'No more pages'
 
-            if selection == '-':
+            if selection == PAGE_DOWN:
                 pg_up_down = True
                 start -= self.display_rows
                 if start < 0:
@@ -296,6 +318,21 @@ class Menu:
                 error(error_msg)
 
         return processed
+
+
+    def find_close(self) -> Union[CloseMenuEntry, None]:
+        """
+        Find the close menu option
+
+        Returns:
+            Union[CloseMenuEntry, None]: option or None if not found
+        """
+        selected_entry = None
+        for entry in self.entries:
+            if isinstance(entry, CloseMenuEntry):
+                selected_entry = entry
+                break
+        return selected_entry
 
 
     @property

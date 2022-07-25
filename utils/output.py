@@ -78,8 +78,21 @@ def display(msg: str, colour: Colour = None, on_colour: Colour = None):
     """
     print(
         colored(
-            msg, 
+            msg,
             color = colour.value if colour else None,
             on_color = f'on_{on_colour.value}' if on_colour else None
         )
     )
+
+
+def title(msg: str):
+    """
+    Display a title
+
+    Args:
+        msg (str): title to display
+
+    Returns:
+        None
+    """
+    display(msg, on_colour=Colour.CYAN)

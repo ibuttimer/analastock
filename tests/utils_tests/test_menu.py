@@ -29,7 +29,7 @@ class TestMenu(unittest.TestCase):
             *[
                 MenuEntry(f'Option {i + 1}', self.empty_func) for i in range(Menu.DEFAULT_ROWS)
             ],
-            title='Test MultiPage'
+            menu_title='Test MultiPage'
         )
         self.assertEqual(menu.num_pages, 1)
 

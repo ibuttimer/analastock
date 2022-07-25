@@ -2,12 +2,13 @@
 Utils package
 """
 from .input import get_input, InputParam
-from .output import error, info, assistance, Colour, display
+from .output import error, info, assistance, Colour, display, title
 from .menu import MenuEntry, CloseMenuEntry, Menu
 from .misc import get_env_setting
 from .constants import (
     DEFAULT_CREDS_FILE, DEFAULT_CREDS_PATH, DEFAULT_RAPID_CREDS_FILE,
-    DEFAULT_RAPID_CREDS_PATH, EXCHANGES_SHEET, COMPANIES_SHEET
+    DEFAULT_RAPID_CREDS_PATH, EXCHANGES_SHEET, COMPANIES_SHEET,
+    PAGE_UP, PAGE_DOWN, HELP, ABORT
 )
 
 __all__ = [
@@ -19,6 +20,7 @@ __all__ = [
     'info',
     'assistance',
     'display',
+    'title',
 
     'MenuEntry',
     'CloseMenuEntry',
@@ -31,5 +33,9 @@ __all__ = [
     'DEFAULT_RAPID_CREDS_FILE',
     'DEFAULT_RAPID_CREDS_PATH',
     'EXCHANGES_SHEET',
-    'COMPANIES_SHEET'
+    'COMPANIES_SHEET',
+    'PAGE_UP',
+    'PAGE_DOWN',
+    'HELP',
+    'ABORT'
 ]

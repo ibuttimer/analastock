@@ -25,3 +25,9 @@ EXCHANGES_SHEET = 'exchanges'
 
 COMPANIES_SHEET = 'companies'
 """ Name of sheet for companies data """
+
+# command keys
+PAGE_UP = '+'
+PAGE_DOWN = '-'
+HELP = '?'
+ABORT = '/'

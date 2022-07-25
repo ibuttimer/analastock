@@ -3,6 +3,7 @@ Input related functions
 """
 from enum import IntEnum, auto
 from typing import Callable
+from .constants import HELP, ABORT
 from .output import error, assistance
 
 
@@ -45,10 +46,13 @@ def get_input(
     while not data:
         data = input(f'{user_prompt}: ')
 
-        if data == '?':
+        if data == HELP:
             data = None
             assistance(help_text if help_text else 'No help available')
             continue
+
+        if data == ABORT:
+            break
 
         if not data:
             if required:
