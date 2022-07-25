@@ -1,10 +1,23 @@
 """
 Output related functions
 """
+from enum import Enum
 from termcolor import colored
 
 # use Termcolor for all coloured text output
 # https://pypi.org/project/termcolor/
+
+
+class Colour(Enum):
+    """ Class representing available text colours """
+    RED = 'red'
+    GREEN = 'green'
+    YELLOW = 'yellow'
+    BLUE = 'blue'
+    MAGENTA = 'magenta'
+    CYAN = 'cyan'
+    WHITE = 'white'
+
 
 def error(msg: str):
     """
@@ -51,3 +64,22 @@ def assistance(msg: str):
         print(
             colored(f'? {line}', 'magenta')
         )
+
+
+def display(msg: str, colour: Colour = None, on_colour: Colour = None):
+    """
+    Display message
+
+    Args:
+        msg (str): message
+
+    Returns:
+        None
+    """
+    print(
+        colored(
+            msg, 
+            color = colour.value if colour else None,
+            on_color = f'on_{on_colour.value}' if on_colour else None
+        )
+    )

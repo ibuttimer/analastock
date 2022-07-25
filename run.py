@@ -16,7 +16,8 @@ menu: Menu = Menu(
     MenuEntry('Analyse stock', process_stock),
     MenuEntry('Process IBM', process_ibm),
     MenuEntry('Process Exchanges', process_exchanges),
-    CloseMenuEntry('Quit')
+    CloseMenuEntry('Quit'),
+    title='AnalaStock Menu'
 )
 
 def run_app():
