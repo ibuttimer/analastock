@@ -29,9 +29,7 @@ def error(msg: str):
     Returns:
         None
     """
-    print(
-        colored(f'> {msg}', 'red')
-    )
+    display(f'> {msg}', colour=Colour.RED)
 
 
 def info(msg: str):
@@ -44,9 +42,7 @@ def info(msg: str):
     Returns:
         None
     """
-    print(
-        colored(f'- {msg}', 'blue')
-    )
+    display(f'- {msg}', colour=Colour.BLUE)
 
 
 def assistance(msg: str):
@@ -61,9 +57,7 @@ def assistance(msg: str):
     """
     lines = msg.split('\n')
     for line in lines:
-        print(
-            colored(f'? {line}', 'magenta')
-        )
+        display(f'? {line}', colour=Colour.YELLOW)
 
 
 def display(msg: str, colour: Colour = None, on_colour: Colour = None):
