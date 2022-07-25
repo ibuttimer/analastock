@@ -131,4 +131,13 @@ class CompanyColumn(Enum):
     """ Company name """
     SECTOR = 4
     """ Industry or Category """
-    
+
+
+class AnalysisRange(Enum):
+    """
+    Enum representing analysis rages
+    """
+    DATE = 1
+    """ From/to dates """
+    PERIOD = 2
+    """ Time period from/to date """

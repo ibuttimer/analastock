@@ -1,9 +1,10 @@
 """
 Unit tests for stock analyse functions
 """
-from datetime import datetime
+from datetime import datetime, timedelta
 import unittest
 from stock import standardise_stock_param, StockParam
+from stock.analyse import DATE_FORMAT, validate_period
 
 
 class TestAnalyse(unittest.TestCase):
@@ -57,6 +58,24 @@ class TestAnalyse(unittest.TestCase):
         )
         self.assertEqual(stock_param.to_date, first_jan)
 
+
+    def test_period(self):
+        """
+        Test period validation
+        """
+        with self.subTest(msg='day from date'):
+            ip_date = datetime(2022, 2, 1)
+            period = validate_period(f'1d from {ip_date.strftime(DATE_FORMAT)}')
+            self.assertIsNotNone(period)
+            self.assertEqual(period.from_date, ip_date)
+            self.assertEqual(period.to_date, ip_date + timedelta(days=1))
+
+        with self.subTest(msg='day to date'):
+            ip_date = datetime(2022, 2, 1)
+            period = validate_period(f'1d to {ip_date.strftime(DATE_FORMAT)}')
+            self.assertIsNotNone(period)
+            self.assertEqual(period.from_date, ip_date - timedelta(days=1))
+            self.assertEqual(period.to_date, ip_date)
 
 if __name__ == '__main__':
     unittest.main()

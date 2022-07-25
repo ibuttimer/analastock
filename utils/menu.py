@@ -238,7 +238,7 @@ class Menu:
                     # selection not on current page, verify correct
                     if not self.check_proceed(
                         f"Selection '{selected_entry.name}' not on current "
-                        "page, proceed [y/n]?"
+                        "page, confirm selection"
                     ):
                         continue
 
@@ -266,7 +266,9 @@ class Menu:
         while True:
             selection = get_input(
                 msg,
-                help_text="Enter 'y' to proceed with selection, otherwise 'n'"
+                help_text="Enter 'y' to proceed with selection, otherwise 'n'",
+                input_form=['y', 'n']
+
             )
             selection = selection.lower()
             if selection in ('y', 'yes'):

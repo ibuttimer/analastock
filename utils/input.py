@@ -2,7 +2,7 @@
 Input related functions
 """
 from enum import IntEnum, auto
-from typing import Callable
+from typing import Any, Callable, List, Union
 from .constants import HELP, ABORT
 from .output import error, assistance
 
@@ -17,21 +17,25 @@ class InputParam(IntEnum):
 
 
 def get_input(
-        user_prompt: str, *args, validate: Callable[[str], bool] = None,
-        help_text: str = None
-    ) -> str:
+        user_prompt: str,
+        *args,
+        validate: Callable[[str], bool] = None,
+        help_text: str = None,
+        input_form: List[str] = None
+    ) -> Union[Any, None]:
     """
     Get user input
 
     Args:
         user_prompt (str): Input prompt
         *args (InputParam): parameters
-        validate (Callable[[str], Union[Any|None]]): validate user input
-                                                     returning None if invalid
-        help_text (str): help text to display
+        validate (Callable[[str], Union[Any|None]], optional): Validate user input
+                                                     returning None if invalid. Defaults to None.
+        help_text (str, optional): Help text to display. Defaults to None.
+        input_form (List[str], optional): List of valid inputs. Defaults to None.
 
     Returns:
-        str: user input
+        Union[Any, None]: user input or None if invalid
     """
     if isinstance(validate, InputParam):
         ip_args = [validate]
@@ -44,7 +48,13 @@ def get_input(
     data = None
 
     while not data:
-        data = input(f'{user_prompt}: ')
+        have_input_form = input_form and len(input_form) > 0
+
+        input_form_str = '|'.join(input_form) if have_input_form else ''
+        if help_text:
+            input_form_str += f'|{HELP}' if have_input_form else f'{HELP}'
+
+        data = input(f'{user_prompt}{f" [{input_form_str}]" if input_form_str else ""}: ')
 
         if data == HELP:
             data = None

@@ -1,17 +1,21 @@
 """
 Stock analysis related functions
 """
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
+import re
 from typing import Callable, List, Union
+from collections import namedtuple
 
 import pandas as pd
 from utils import get_input, error, ABORT
 from .data import StockDownload, StockParam
-from .enums import DfColumn, DfStat
+from .enums import DfColumn, DfStat, AnalysisRange
 
 
-DATE_FORM = 'dd-mm-yyyy'
-DATE_FORMAT = '%d-%m-%Y'
+DATE_SEP = '-'
+DATE_FORM = f'dd{DATE_SEP}mm{DATE_SEP}yyyy'
+DATE_FORMAT = f'%d{DATE_SEP}%m{DATE_SEP}%Y'
+DATE_FMT = '{day}'+DATE_SEP+'{mth}'+DATE_SEP+'{year}'
 FRIENDLY_FORMAT = '%d %b %Y'
 
 MIN_DATE = datetime(1962, 2, 1)
@@ -20,11 +24,22 @@ SYMBOL_HELP = f"Enter symbol for the stock required, or '{ABORT}' to cancel.\n"\
               f"e.g. IBM: International Business Machines Corporation"
 FROM_DATE_HELP = f"Enter analysis start date, or '{ABORT}' to cancel"
 TO_DATE_HELP = f"Enter analysis end date, or '{ABORT}' to cancel"
+PERIOD_HELP = f"Enter period in the form, [period] [from|to|ytd] [{DATE_FORM}], or '{ABORT}' to cancel.\n"\
+              f"where: [period]      - is of the form '[0-9][d|m|y]' with 'd' for day, 'm' for month\n"\
+              f"                       and 'y' for year. e.g. '5d' is 5 days"\
+              f"       [from|to|ytd] - 'from'/'to' date or 'year-to-date' date. \n"\
+              f"                       Note: [period] not required for 'ytd', e.g. 'ytd {datetime.now().strftime(DATE_FORMAT)}'\n"\
+              f"       [{DATE_FORM}] - date, or today if omitted"
+
+DMY_REGEX = re.compile(rf"\s*(\d)([dmy])\s+(\w+)\s+(\d+){DATE_SEP}(\d+){DATE_SEP}(\d+)")
+YTD_REGEX = re.compile(rf"\s*ytd\s+(\d+){DATE_SEP}(\d+){DATE_SEP}(\d+)")
 
 PRICE_PRECISION = 6
 """ Precision for stock prices """
 PERCENT_PRECISION = 2
 """ Precision for percentages """
+
+Period = namedtuple("Period", ['from_date', 'to_date'])
 
 
 def validate_date(date_string: str) -> Union[datetime, None]:
@@ -108,17 +123,159 @@ def validate_symbol(symbol: str) -> Union[str, None]:
     return symbol
 
 
-def get_stock_param(symbol: str = None) -> StockParam:
+def validate_period(period: str) -> Period:
+    """
+    Validate a period string
+
+    Args:
+        period (str): input period string
+
+    Returns:
+        Union[str, None]: string object if valid, otherwise None
+    """
+    period = period.lower()
+
+    match = DMY_REGEX.match(period)
+    if match:
+        num = int(match.group(1))
+        time_unit = match.group(2)
+        time_dir = match.group(3)
+        day = int(match.group(4))
+        mth = int(match.group(5))
+        year = int(match.group(6))
+
+        period = make_dmy_period(num, time_unit, time_dir, day, mth, year)
+
+    if not period:
+        error('Invalid period')
+
+    return period
+
+
+def make_dmy_period(
+        num: int, time_unit: str, time_dir: str,
+        day: int, mth:int, year: int) -> Union[Period, None]:
+    """
+    Generate a day-month-year period
+
+    Args:
+        num (int): unit count
+        time_unit (str): time unit; d/m/y
+        time_dir (str): direction; from/to
+        day (int): day
+        mth (int): month
+        year (int): year
+
+    Returns:
+        Union[Period, None]: period or None of invalid
+    """
+    period = None
+
+    # rudimentary checks
+    valid = time_dir in ['from', 'to']
+    if valid:
+
+        num = num if time_dir == 'from' else -num
+
+        date1 = validate_date(DATE_FMT.format(day=day, mth=mth, year=year))
+        if date1:
+            if time_unit == 'd':
+                # days
+                delta = timedelta(days=num)
+                date2 = date1 + delta
+            elif time_unit == 'm':
+                # months
+                date2 = date1
+                if time_dir == 'from':
+                    while num > 0:
+                        date2 = date2.replace(month=date2.month + 1) if date2.month < 12 \
+                            else date2.replace(year=date2.year + 1, month=1)
+                        num -= 1
+                else:
+                    while num < 0:
+                        date2 = date2.replace(month=date2.month - 1) if date2.month > 1 \
+                            else date2.replace(year=date2.year - 1, month=12)
+                        num += 1
+            elif time_unit == 'y':
+                # years
+                date2 = date1.replace(year=date1.year + num)
+            else:
+                valid = False
+
+            if valid:
+                period = Period(date1, date2) if time_dir == 'from' else Period(date2, date1)
+
+    return period
+
+
+def get_period_range(stock_param: StockParam) -> StockParam:
+    """
+    Get date range for stock parameters
+
+    Args:
+        stock_param (StockParam): stock parameters
+
+    Returns:
+        StockParam: stock parameters
+    """
+    entered_date = get_input(
+        'Enter period',
+        validate=validate_date,
+        help_text=PERIOD_HELP
+    )
+
+    if entered_date == ABORT:
+        stock_param = None
+
+    return stock_param
+
+
+def get_date_range(stock_param: StockParam) -> StockParam:
+    """
+    Get time period range for stock parameters
+
+    Args:
+        stock_param (StockParam): stock parameters
+
+    Returns:
+        StockParam: stock parameters
+    """
+    entered_date = get_input(
+        'Enter from date',
+        validate=validate_date,
+        help_text=FROM_DATE_HELP,
+        input_form=[DATE_FORM]
+    )
+    if entered_date != ABORT:
+        stock_param.from_date = entered_date
+
+        entered_date = get_input(
+            'Enter to date (excluded)',
+            validate=validate_date_after(stock_param.from_date),
+            help_text=TO_DATE_HELP,
+            input_form=[DATE_FORM]
+        )
+        if entered_date != ABORT:
+            stock_param.to_date = entered_date
+
+    if entered_date == ABORT:
+        stock_param = None
+
+    return stock_param
+
+
+def get_stock_param(
+        symbol: str = None, range: AnalysisRange = AnalysisRange.DATE) -> StockParam:
     """
     Get stock parameters
 
     Args:
         symbol (str, optional): stock symbol. Defaults to None.
+        range (AnalysisRange, optional): Range entry method. Defaults to AnalysisRange.DATE.
 
     Returns:
         StockParam: stock parameters
     """
-
     stock_param = None
 
     if not symbol:
@@ -132,24 +289,8 @@ def get_stock_param(symbol: str = None) -> StockParam:
 
         #TODO add 1d, 5d, 3m, 6m, ytd, 1y, 5y options
 
-        entered_date = get_input(
-            f'Enter from date [{DATE_FORM}]',
-            validate=validate_date,
-            help_text=FROM_DATE_HELP
-        )
-        if entered_date != ABORT:
-            stock_param.from_date = entered_date
-
-            entered_date = get_input(
-                f'Enter to date (excluded) [{DATE_FORM}]',
-                validate=validate_date_after(stock_param.from_date),
-                help_text=TO_DATE_HELP
-            )
-            if entered_date != ABORT:
-                stock_param.to_date = entered_date
-
-        if entered_date == ABORT:
-            stock_param = None
+        stock_param = get_date_range(stock_param) \
+            if range == AnalysisRange.DATE else get_period_range(stock_param)
 
     return stock_param
 
