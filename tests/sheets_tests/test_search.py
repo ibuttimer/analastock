@@ -42,7 +42,7 @@ class TestSearch(TestBase):
             self.assertEqual(result['updates']['updatedCells'], len(data))
 
         # check find all
-        results = search_company(sheet, comp_symbol.lower())
+        results = search_company(comp_symbol.lower(), sheet=sheet)
         self.assertEqual(len(test_data), len(results))
         for i, entry in enumerate(test_data):
             with self.subTest(msg=f'entry[{i}] {entry}'):
@@ -50,7 +50,7 @@ class TestSearch(TestBase):
 
         # check find some
         partial_name = f'{comp_symbol}1'
-        results = search_company(sheet, partial_name)
+        results = search_company(partial_name, sheet=sheet)
         # expecting COMP1 & COMP10-COMP19, i.e. 11
         self.assertEqual(11, len(results))
         res_idx = 0
@@ -63,7 +63,7 @@ class TestSearch(TestBase):
                 res_idx += 1
 
         # check find none
-        results = search_company(sheet, 'DNE')
+        results = search_company('DNE', sheet=sheet)
         self.assertEqual(0, len(results))
 
         # tidy up

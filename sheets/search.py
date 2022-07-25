@@ -6,13 +6,15 @@ from typing import List
 import gspread
 
 from stock import CompanyColumn, Company
+from utils import COMPANIES_SHEET
 
 from .find_info import find_all
+from .load_sheet import sheet_exists
 
 
 def search_company(
-        sheet: gspread.worksheet.Worksheet,
-        name: str
+        name: str,
+        sheet: gspread.worksheet.Worksheet = None
 ) -> List[Company]:
     """
     Return all companies with names matching specified name
@@ -24,9 +26,12 @@ def search_company(
     Returns:
         List[Company]
     """
+    if not sheet:
+        sheet = sheet_exists(COMPANIES_SHEET)
+
     pattern = re.compile(rf".*{name}.*", flags=re.IGNORECASE)
     matches: List[gspread.cell.Cell] = find_all(
-        sheet, pattern, col=CompanyColumn.SYMBOL.value)
+        sheet, pattern, col=CompanyColumn.NAME.value)
 
     if len(matches) > 0:
         # generate ranges for results; 4 columns wide to match CompanyColumn

@@ -2,10 +2,10 @@
 Stock analysis related functions
 """
 from datetime import date, datetime
-from typing import List, Union
+from typing import Callable, List, Union
 
 import pandas as pd
-from utils import get_input, error
+from utils import get_input, error, ABORT
 from .data import StockDownload, StockParam
 from .enums import DfColumn, DfStat
 
@@ -16,10 +16,10 @@ FRIENDLY_FORMAT = '%d %b %Y'
 
 MIN_DATE = datetime(1962, 2, 1)
 
-SYMBOL_HELP = 'Enter symbol for the stock required.\n'\
-              'e.g. IBM: International Business Machines Corporation'
-FROM_DATE_HELP = 'Enter analysis start date'
-TO_DATE_HELP = 'Enter analysis end date'
+SYMBOL_HELP = f"Enter symbol for the stock required, or '{ABORT}' to cancel.\n"\
+              f"e.g. IBM: International Business Machines Corporation"
+FROM_DATE_HELP = f"Enter analysis start date, or '{ABORT}' to cancel"
+TO_DATE_HELP = f"Enter analysis end date, or '{ABORT}' to cancel"
 
 PRICE_PRECISION = 6
 """ Precision for stock prices """
@@ -57,6 +57,40 @@ def validate_date(date_string: str) -> Union[datetime, None]:
     return date_time
 
 
+def validate_date_after(
+        limit_datetime: datetime) -> Callable[[str], Union[datetime, None]]:
+    """
+    Decorator to validate a date and ensure its after the specified date
+
+    Args:
+        limit_datetime (datetime): must be after date
+
+    Returns:
+        Callable[[str], Union[datetime, None]]: validation function
+    """
+    def validate_func(date_string: str) -> datetime:
+        """
+        Validate a date string is after the from date
+
+        Args:
+            date_string (str): input date string
+
+        Returns:
+            Union[datetime, None]: datetime object if valid, otherwise None
+        """
+        date_time = validate_date(date_string)
+        if date_time and date_time < limit_datetime:
+            date_time = None
+            error(
+                f'Invalid date: must be after '
+                f'{limit_datetime.strftime(FRIENDLY_FORMAT)}'
+            )
+
+        return date_time
+
+    return validate_func
+
+
 def validate_symbol(symbol: str) -> Union[str, None]:
     """
     Validate a symbol string
@@ -74,52 +108,48 @@ def validate_symbol(symbol: str) -> Union[str, None]:
     return symbol
 
 
-def get_stock_param() -> StockParam:
+def get_stock_param(symbol: str = None) -> StockParam:
     """
     Get stock parameters
+
+    Args:
+        symbol (str, optional): stock symbol. Defaults to None.
 
     Returns:
         StockParam: stock parameters
     """
-    #TODO add abort option
 
-    stock_param = StockParam(
-        get_input(
+    stock_param = None
+
+    if not symbol:
+        symbol = get_input(
             'Enter stock symbol', validate=validate_symbol,
-            help_text=SYMBOL_HELP)
-    )
+            help_text=SYMBOL_HELP
+        )
 
-    #TODO add 1d, 5d, 3m, 6m, ytd, 1y, 5y options
+    if symbol != ABORT:
+        stock_param = StockParam(symbol)
 
-    stock_param.from_date = get_input(
-        f'Enter from date [{DATE_FORM}]', validate=validate_date,
-        help_text=FROM_DATE_HELP
-    )
+        #TODO add 1d, 5d, 3m, 6m, ytd, 1y, 5y options
 
-    def validate_date_after(date_string: str) -> datetime:
-        """
-        Validate a date string is after the from date
+        entered_date = get_input(
+            f'Enter from date [{DATE_FORM}]',
+            validate=validate_date,
+            help_text=FROM_DATE_HELP
+        )
+        if entered_date != ABORT:
+            stock_param.from_date = entered_date
 
-        Args:
-            date_string (str): input date string
-
-        Returns:
-            Union[datetime, None]: datetime object if valid, otherwise None
-        """
-        date_time = validate_date(date_string)
-        if date_time and date_time < stock_param.from_date:
-            date_time = None
-            error(
-                f'Invalid date: must be after '
-                f'{stock_param.from_date.strftime(FRIENDLY_FORMAT)}'
+            entered_date = get_input(
+                f'Enter to date [{DATE_FORM}]',
+                validate=validate_date_after(stock_param.from_date),
+                help_text=TO_DATE_HELP
             )
+            if entered_date != ABORT:
+                stock_param.to_date = entered_date
 
-        return date_time
-
-    stock_param.to_date = get_input(
-        f'Enter to date [{DATE_FORM}]', validate=validate_date_after,
-        help_text=TO_DATE_HELP
-    )
+        if entered_date == ABORT:
+            stock_param = None
 
     return stock_param
 

@@ -5,7 +5,9 @@ from dotenv import load_dotenv
 from colorama import init
 
 from utils import Menu, CloseMenuEntry, MenuEntry, info
-from process import process_ibm, process_stock, process_exchanges
+from process import (
+    process_ibm, stock_analysis_menu, process_exchanges, company_search
+)
 
 load_dotenv('../.env')  # take environment variables from .env.
 
@@ -13,18 +15,17 @@ init()  # init Colorama
 
 # Application menu
 menu: Menu = Menu(
-    MenuEntry('Analyse stock', process_stock),
+    MenuEntry('Stock Analysis', stock_analysis_menu),
     MenuEntry('Process IBM', process_ibm),
-    MenuEntry('Process Exchanges', process_exchanges),
+    MenuEntry('Search Company', company_search),
+    MenuEntry('Update Company Information', process_exchanges),
     CloseMenuEntry('Quit'),
-    title='AnalaStock Menu'
+    menu_title='AnalaStock Menu',
+    options=Menu.OPT_NO_ABORT_BACK
 )
 
 def run_app():
     """ Run the application """
-
-    # process_ibm()
-
     loop: bool = True
     while loop:
         menu.process()
