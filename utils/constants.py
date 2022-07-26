@@ -31,3 +31,6 @@ PAGE_UP = '+'
 PAGE_DOWN = '-'
 HELP = '?'
 ABORT = '/'
+
+MAX_LINE_LEN = 80
+""" Max display line width """

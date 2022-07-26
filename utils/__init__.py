@@ -38,5 +38,6 @@ __all__ = [
     'PAGE_UP',
     'PAGE_DOWN',
     'HELP',
-    'ABORT'
+    'ABORT',
+    'MAX_LINE_LEN'
 ]

@@ -4,6 +4,8 @@ Output related functions
 from enum import Enum
 from termcolor import colored
 
+from .constants import MAX_LINE_LEN
+
 # use Termcolor for all coloured text output
 # https://pypi.org/project/termcolor/
 
@@ -19,6 +21,13 @@ class Colour(Enum):
     WHITE = 'white'
 
 
+ERROR_PREFIX = '> '
+INFO_PREFIX = '- '
+HELP_PREFIX = '? '
+MAX_ERROR_LEN = MAX_LINE_LEN - len(ERROR_PREFIX) - 1
+MAX_INFO_LEN = MAX_LINE_LEN - len(INFO_PREFIX) - 1
+MAX_HELP_LEN = MAX_LINE_LEN - len(HELP_PREFIX) - 1
+
 def error(msg: str):
     """
     Display error message
@@ -29,7 +38,8 @@ def error(msg: str):
     Returns:
         None
     """
-    display(f'> {msg}', colour=Colour.RED)
+    _assert_len(msg, MAX_ERROR_LEN)
+    display(f'{ERROR_PREFIX}{msg}', colour=Colour.RED)
 
 
 def info(msg: str):
@@ -42,7 +52,8 @@ def info(msg: str):
     Returns:
         None
     """
-    display(f'- {msg}', colour=Colour.BLUE)
+    _assert_len(msg, MAX_INFO_LEN)
+    display(f'{INFO_PREFIX}{msg}', colour=Colour.BLUE)
 
 
 def assistance(msg: str):
@@ -57,7 +68,20 @@ def assistance(msg: str):
     """
     lines = msg.split('\n')
     for line in lines:
-        display(f'? {line}', colour=Colour.YELLOW)
+        _assert_len(line, MAX_HELP_LEN)
+        display(f'{HELP_PREFIX}{line}', colour=Colour.YELLOW)
+
+
+def _assert_len(line: str, max_len: int):
+    """
+    Assert display line length
+
+    Args:
+        line (str): display line
+        max_len (int): max length
+    """
+    # HACK disable for now
+    # assert len(line) < max_len, f'Line too long: {line}\nCut-off: {line[max_len:]}'
 
 
 def display(msg: str, colour: Colour = None, on_colour: Colour = None):

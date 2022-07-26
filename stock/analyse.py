@@ -28,11 +28,11 @@ PERIOD_HELP = f"Enter period in the form, [period] [from|to|ytd] [{DATE_FORM}], 
                 f"or '{ABORT}' to cancel.\n"\
               f"where: [period]      - is of the form '[0-9][d|m|y]' "\
                 f"with 'd' for day, 'm' for month\n"\
-              f"                       and 'y' for year. e.g. '5d' is 5 days"\
+              f"                       and 'y' for year. e.g. '5d' is 5 days\n"\
               f"       [from|to|ytd] - 'from'/'to' date or 'year-to-date' date. \n"\
               f"                       Note: [period] not required for 'ytd', "\
                 f"e.g. 'ytd {datetime.now().strftime(DATE_FORMAT)}'\n"\
-              f"       [{DATE_FORM}] - date, or today if omitted"
+              f"       [{DATE_FORM}]  - date, or today if omitted"
 
 DMY_REGEX = re.compile(rf"^(\d)([dmy])\s+(\w+)\s+(\d+){DATE_SEP}(\d+){DATE_SEP}(\d+)")
 DMY_NOW_REGEX = re.compile(r"^(\d)([dmy])\s+(\w+)")
@@ -307,13 +307,18 @@ def get_period_range(stock_param: StockParam) -> StockParam:
     Returns:
         StockParam: stock parameters
     """
-    entered_date = get_input(
+    period = get_input(
         'Enter period',
         validate=validate_period,
         help_text=PERIOD_HELP
     )
 
-    if entered_date == ABORT:
+    if period == ABORT:
+        stock_param = None
+    elif isinstance(period, Period):
+        stock_param.from_date = period.from_date
+        stock_param.to_date = period.to_date
+    else:
         stock_param = None
 
     return stock_param

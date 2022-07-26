@@ -5,7 +5,7 @@ from typing import Callable
 from stock import (
     canned_ibm, get_stock_param, download_data,
     analyse_stock, download_exchanges, download_companies,
-    Company
+    Company, AnalysisRange, DATE_FORM
 )
 from sheets import (
     save_data, get_sheets_data, save_exchanges, save_companies, search_company,
@@ -14,6 +14,13 @@ from sheets import (
 from utils import (
     CloseMenuEntry, Menu, MenuEntry, info, ABORT, get_input, title
 )
+
+
+DATE_ENTRY = 'Date entry'
+TEXT_ENTRY = 'Text entry'
+PERIOD_MENU_HELP = f"Choose '{DATE_ENTRY}' to specify period by dates, or '{TEXT_ENTRY}' "\
+                   f"to specify\n"\
+                   f"in the form '1m from {DATE_FORM}'"
 
 
 def process_ibm():
@@ -45,6 +52,38 @@ def stock_analysis_menu():
         loop = stock_menu.is_open
 
 
+def period_entry_menu() -> AnalysisRange:
+    """
+    Period entry method menu
+
+    Returns:
+        AnalysisRange: entry method
+    """
+    anal_rng: AnalysisRange
+
+    def set_date_entry():
+        nonlocal anal_rng
+        anal_rng = AnalysisRange.DATE
+
+    def set_period_entry():
+        nonlocal anal_rng
+        anal_rng = AnalysisRange.PERIOD
+
+    period_menu: Menu = Menu(
+        CloseMenuEntry(DATE_ENTRY, set_date_entry),
+        CloseMenuEntry(TEXT_ENTRY, set_period_entry),
+        menu_title='Period Entry Method',
+        help_text=PERIOD_MENU_HELP
+    )
+    loop: bool = True
+    while loop:
+        period_menu.process()
+
+        loop = period_menu.is_open
+
+    return anal_rng
+
+
 def process_stock(symbol: str = None) -> bool:
     """
     Process a stock analysis
@@ -56,7 +95,8 @@ def process_stock(symbol: str = None) -> bool:
         bool: True if processed, otherwise False
     """
     # get stock params
-    stock_param = get_stock_param(symbol=symbol)
+    stock_param = get_stock_param(
+        symbol=symbol, anal_rng=period_entry_menu())
 
     processed = stock_param is not None
 
@@ -117,7 +157,7 @@ def process_exchanges():
             download_companies(code)
         )
 
-        break
+        break   # HACK so just one exchange for now
 
 
 def company_search():

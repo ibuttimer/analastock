@@ -12,6 +12,8 @@ from .output import error, title
 
 MenuOption = namedtuple("MenuOption", ['key', 'name'])
 
+DEFAULT_MENU_HELP = 'Enter number corresponding to desired option'
+
 
 # https://pylint.pycqa.org/en/latest/user_guide/messages/refactor/too-few-public-methods.html
 
@@ -62,15 +64,16 @@ class CloseMenuEntry(MenuEntry):
     Class representing a close menu entry
     """
 
-    def __init__(self, name: str, key: Union[str, None] = None):
+    def __init__(self, name: str, func: Callable[[], bool] = None, key: Union[str, None] = None):
         """
         Constructor
 
         Args:
             name (str): display name
             key (Union[str, None]): key to use to select, if None entry index is used; default None
+            func (Callable[[], bool]): function to call when entry selected
         """
-        super().__init__(name, None, key)
+        super().__init__(name, func, key=key)
         self.is_close = True
 
 
@@ -96,10 +99,12 @@ class Menu:
     """ Maximum number of rows of display """
     options: int
     """ Menu options: default NO_OPTIONS """
+    help_text: str
+    """ Menu help text """
 
     def __init__(
             self, *args, menu_title: str = None, rows: int = DEFAULT_ROWS,
-            options: int = NO_OPTIONS
+            help_text: str = None, options: int = NO_OPTIONS
     ):
         """
         Constructor
@@ -110,6 +115,8 @@ class Menu:
             rows (int, optional): maximum number of rows of display.
                                     Defaults to 10.
             *args (list): list of MenuEntry
+            help_text (str, optional): Help text to display. Defaults to None.
+            options (int, optional): Menu options. Defaults to NO_OPTIONS.
         """
         self.entries = []
         for entry in args:
@@ -117,6 +124,7 @@ class Menu:
         self.is_open = False
         self.title = menu_title if menu_title else ''
         self.display_rows = rows
+        self.help_text = help_text
         self.options = options
         self._start = 0
         self._end = rows
@@ -213,10 +221,8 @@ class Menu:
         while self.is_open:
             self.display()
 
-            pg_help = f", or {PAGE_UP}/{PAGE_DOWN} to page up/down" if self.multi_page else ""
             selection = get_input(
-                'Enter selection',
-                help_text=f'Enter number corresponding to desired option{pg_help}'
+                'Enter selection', help_text=self.generate_help()
             )
 
             if self.up_down_page(selection):
@@ -245,6 +251,9 @@ class Menu:
                 if selected_entry.is_close:
                     # close menu option chosen
                     self.is_open = False
+                    if selected_entry.func:
+                        # execute func if available
+                        selected_entry.func()
                 else:
                     # exe menu function
                     selected_entry.func()
@@ -369,3 +378,25 @@ class Menu:
         pages = int(len(self.entries) / self.display_rows)
         return pages + 1 if len(self.entries) % self.display_rows else \
                 pages if self.multi_page else 1
+
+    def generate_help(self) -> str:
+        """ Generate menu help text """
+        help_text = self.help_text if self.help_text else DEFAULT_MENU_HELP
+        if not help_text.endswith('.'):
+            help_text += '.'
+
+        can_cancel = not self.options & Menu.OPT_NO_ABORT_BACK
+        if self.multi_page or can_cancel:
+            pg_help = f"'{PAGE_UP}'/'{PAGE_DOWN}' to page up/down" if self.multi_page else ""
+            cancel_help = f"'{ABORT}' to cancel" if can_cancel else ""
+
+            if self.multi_page and can_cancel:
+                extra = f"{pg_help}, or {cancel_help}"
+            elif self.multi_page:
+                extra = pg_help
+            else:
+                extra = cancel_help
+
+            help_text = f"{help_text}\nChoose {extra}."
+
+        return help_text
