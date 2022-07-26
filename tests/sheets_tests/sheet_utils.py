@@ -1,32 +1,15 @@
 """
 Unit tests for sheet find functions
 """
-from calendar import isleap
 from datetime import date, datetime, timedelta
 from typing import Union
 import gspread
 
+from utils import last_day_of_month
+
 
 JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC = \
     (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
-
-
-def last_day_of_month(year: int, month: int):
-    """
-    Get the last day of the month in the specified year
-
-    Args:
-        year (int): year
-        month (int): index of month; 1 <= month <= 12
-
-    Returns:
-        _type_: _description_
-    """
-    # 30 days hath sept, apr, jun & nov, all the rest have 31 save
-    # feb which one in four has one day more
-    return 29 if month == 2 and isleap(year) else \
-            28 if month == 2 else \
-            30 if month in [9, 4, 6, 11] else 31
 
 
 def add_month(date_time: Union[datetime, date], months: int = 1) -> Union[datetime, date]:

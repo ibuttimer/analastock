@@ -7,7 +7,7 @@ from typing import Callable, List, Union
 from collections import namedtuple
 
 import pandas as pd
-from utils import get_input, error, ABORT
+from utils import get_input, error, ABORT, last_day_of_month
 from .data import StockDownload, StockParam
 from .enums import DfColumn, DfStat, AnalysisRange
 
@@ -24,11 +24,14 @@ SYMBOL_HELP = f"Enter symbol for the stock required, or '{ABORT}' to cancel.\n"\
               f"e.g. IBM: International Business Machines Corporation"
 FROM_DATE_HELP = f"Enter analysis start date, or '{ABORT}' to cancel"
 TO_DATE_HELP = f"Enter analysis end date, or '{ABORT}' to cancel"
-PERIOD_HELP = f"Enter period in the form, [period] [from|to|ytd] [{DATE_FORM}], or '{ABORT}' to cancel.\n"\
-              f"where: [period]      - is of the form '[0-9][d|m|y]' with 'd' for day, 'm' for month\n"\
+PERIOD_HELP = f"Enter period in the form, [period] [from|to|ytd] [{DATE_FORM}], "\
+                f"or '{ABORT}' to cancel.\n"\
+              f"where: [period]      - is of the form '[0-9][d|m|y]' "\
+                f"with 'd' for day, 'm' for month\n"\
               f"                       and 'y' for year. e.g. '5d' is 5 days"\
               f"       [from|to|ytd] - 'from'/'to' date or 'year-to-date' date. \n"\
-              f"                       Note: [period] not required for 'ytd', e.g. 'ytd {datetime.now().strftime(DATE_FORMAT)}'\n"\
+              f"                       Note: [period] not required for 'ytd', "\
+                f"e.g. 'ytd {datetime.now().strftime(DATE_FORMAT)}'\n"\
               f"       [{DATE_FORM}] - date, or today if omitted"
 
 DMY_REGEX = re.compile(rf"\s*(\d)([dmy])\s+(\w+)\s+(\d+){DATE_SEP}(\d+){DATE_SEP}(\d+)")
@@ -154,7 +157,7 @@ def validate_period(period: str) -> Period:
 
 def make_dmy_period(
         num: int, time_unit: str, time_dir: str,
-        day: int, mth:int, year: int) -> Union[Period, None]:
+        day: int, month:int, year: int) -> Union[Period, None]:
     """
     Generate a day-month-year period
 
@@ -163,7 +166,7 @@ def make_dmy_period(
         time_unit (str): time unit; d/m/y
         time_dir (str): direction; from/to
         day (int): day
-        mth (int): month
+        month (int): month
         year (int): year
 
     Returns:
@@ -177,7 +180,7 @@ def make_dmy_period(
 
         num = num if time_dir == 'from' else -num
 
-        date1 = validate_date(DATE_FMT.format(day=day, mth=mth, year=year))
+        date1 = validate_date(DATE_FMT.format(day=day, mth=month, year=year))
         if date1:
             if time_unit == 'd':
                 # days
@@ -186,16 +189,45 @@ def make_dmy_period(
             elif time_unit == 'm':
                 # months
                 date2 = date1
+
+                orig_day = date1.day
+                # original was last day of month flag
+                mth_last_day = orig_day == last_day_of_month(date1.year, date1.month)
+
+                def not_december(chk_mth):
+                    """ True if month is not December """
+                    return chk_mth < 12
+
+                def not_january(chk_mth):
+                    """ True if month is not January """
+                    return chk_mth > 1
+
                 if time_dir == 'from':
-                    while num > 0:
-                        date2 = date2.replace(month=date2.month + 1) if date2.month < 12 \
-                            else date2.replace(year=date2.year + 1, month=1)
-                        num -= 1
+                    step = 1    # step forward from
+                    not_new_year = not_december # no new year if not december
                 else:
-                    while num < 0:
-                        date2 = date2.replace(month=date2.month - 1) if date2.month > 1 \
-                            else date2.replace(year=date2.year - 1, month=12)
-                        num += 1
+                    step = -1   # step back to
+                    not_new_year = not_january # no new year if not january
+
+                num = num if num > 0 else -num  # positive loop control
+                while num > 0:
+                    no_new_year = not_new_year(date2.month)
+
+                    yr_val = date2.year + (0 if no_new_year else step)
+                    mth_val = date2.month + step if no_new_year else \
+                                                1 if date2.month == 12 else 12
+                    # day doesn't change when < 28
+                    # stays at last day of month, if original was last day of month
+                    # last day of new month, if original > last day of new month
+                    # otherwise original day
+                    new_mth_last_day = last_day_of_month(yr_val, mth_val)
+                    day_val = orig_day if orig_day < 28 else \
+                            new_mth_last_day if mth_last_day else \
+                                new_mth_last_day if orig_day > new_mth_last_day else orig_day
+
+                    date2 = date2.replace(year=yr_val, month=mth_val, day=day_val)
+                    num -= 1
+
             elif time_unit == 'y':
                 # years
                 date2 = date1.replace(year=date1.year + num)
@@ -265,7 +297,7 @@ def get_date_range(stock_param: StockParam) -> StockParam:
 
 
 def get_stock_param(
-        symbol: str = None, range: AnalysisRange = AnalysisRange.DATE) -> StockParam:
+        symbol: str = None, anal_rng: AnalysisRange = AnalysisRange.DATE) -> StockParam:
     """
     Get stock parameters
 
@@ -290,7 +322,7 @@ def get_stock_param(
         #TODO add 1d, 5d, 3m, 6m, ytd, 1y, 5y options
 
         stock_param = get_date_range(stock_param) \
-            if range == AnalysisRange.DATE else get_period_range(stock_param)
+            if anal_rng == AnalysisRange.DATE else get_period_range(stock_param)
 
     return stock_param
 

@@ -3,18 +3,18 @@ Unit tests for sheet find functions
 """
 from datetime import date, datetime
 import re
-from typing import Union
 import unittest
 from collections import namedtuple
 import gspread
 
 from sheets import find, find_all, read_data_by_date
 from stock import DfColumn, round_price
+from utils import last_day_of_month
 
 from .base import TestBase
 from .sheet_utils import (
     add_sheet_data, open_value, high_value, low_value, close_value,
-    adj_close_value, volume_value, last_day_of_month
+    adj_close_value, volume_value
 )
 
 
