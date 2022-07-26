@@ -1,7 +1,7 @@
 """
 Unit tests for stock analyse functions
 """
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, time
 import unittest
 from collections import namedtuple
 from stock import standardise_stock_param, StockParam
@@ -137,8 +137,8 @@ class TestAnalyse(unittest.TestCase):
             # need 2 months gap to test 31th; mar-may-jul or aug-sep-dec
             Param(datetime(2021, 5, 31), datetime(2021, 7, 31), datetime(2021, 3, 31), 2)
         ]:
-        #  1   2   3   4   5   6   7   8   9  10  11  12
-        #[31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+            #  1   2   3   4   5   6   7   8   9  10  11  12
+            #[31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
             date_str = param.test_date.strftime(DATE_FORMAT)
 
             for time_dir in ['from', 'to']:
@@ -152,6 +152,18 @@ class TestAnalyse(unittest.TestCase):
                         param.test_date if time_dir == 'from' else param.to_ans)
                     self.assertEqual(period.to_date,
                         param.from_ans if time_dir == 'from' else param.test_date)
+
+        # no future dates omitted date
+        self.assertIsNone(validate_period('1d from'))
+
+        # no future dates omitted date
+        today = datetime.now().date()
+        yesterday = today - timedelta(days=1)
+        yesterday = datetime.combine(yesterday, time.min)
+        today = datetime.combine(today, time.min)
+        period = validate_period('1d to')
+        self.assertEqual(period.from_date, yesterday)
+        self.assertEqual(period.to_date, today)
 
 
 if __name__ == '__main__':
