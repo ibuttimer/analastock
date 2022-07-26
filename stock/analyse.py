@@ -24,14 +24,15 @@ SYMBOL_HELP = f"Enter symbol for the stock required, or '{ABORT}' to cancel.\n"\
               f"e.g. IBM: International Business Machines Corporation"
 FROM_DATE_HELP = f"Enter analysis start date, or '{ABORT}' to cancel"
 TO_DATE_HELP = f"Enter analysis end date, or '{ABORT}' to cancel"
-PERIOD_HELP = f"Enter period in the form, [period] [from|to|ytd] [{DATE_FORM}], "\
-                f"or '{ABORT}' to cancel.\n"\
+PERIOD_HELP = f"Enter period in the form, [period] [from|to|ytd] [{DATE_FORM}], or\n"\
+              f"'{ABORT}' to cancel.\n"\
               f"where: [period]      - is of the form '[0-9][d|m|y]' "\
-                f"with 'd' for day, 'm' for month\n"\
-              f"                       and 'y' for year. e.g. '5d' is 5 days\n"\
+                f"with 'd' for day,\n"\
+              f"                       'm' for month and 'y' for year.\n"\
+              f"                       e.g. '5d' is 5 days\n"\
               f"       [from|to|ytd] - 'from'/'to' date or 'year-to-date' date. \n"\
-              f"                       Note: [period] not required for 'ytd', "\
-                f"e.g. 'ytd {datetime.now().strftime(DATE_FORMAT)}'\n"\
+              f"                       Note: [period] not required for 'ytd'.\n"\
+              f"                       e.g. 'ytd {datetime.now().strftime(DATE_FORMAT)}'\n"\
               f"       [{DATE_FORM}]  - date, or today if omitted"
 
 DMY_REGEX = re.compile(rf"^(\d)([dmy])\s+(\w+)\s+(\d+){DATE_SEP}(\d+){DATE_SEP}(\d+)")

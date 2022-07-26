@@ -80,8 +80,7 @@ def _assert_len(line: str, max_len: int):
         line (str): display line
         max_len (int): max length
     """
-    # HACK disable for now
-    # assert len(line) < max_len, f'Line too long: {line}\nCut-off: {line[max_len:]}'
+    assert len(line) < max_len, f'Line too long: {line}\nCut-off: {line[max_len:]}'
 
 
 def display(msg: str, colour: Colour = None, on_colour: Colour = None):

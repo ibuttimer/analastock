@@ -167,6 +167,12 @@ def company_search():
     title('Company Search')
 
     loop: bool = True
+
+    def end_search():
+        """ End search """
+        nonlocal loop
+        loop = False
+
     while loop:
         name = get_input(
                 'Enter company name',
@@ -189,7 +195,8 @@ def company_search():
                     process_selected_stock(company)
                 ) for company in companies
             ],
-            CloseMenuEntry('Back'),
+            CloseMenuEntry('Search again'),
+            CloseMenuEntry('End search', end_search),
             menu_title='Company Search Results'
         )
 
