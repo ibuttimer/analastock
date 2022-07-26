@@ -34,9 +34,10 @@ PERIOD_HELP = f"Enter period in the form, [period] [from|to|ytd] [{DATE_FORM}], 
                 f"e.g. 'ytd {datetime.now().strftime(DATE_FORMAT)}'\n"\
               f"       [{DATE_FORM}] - date, or today if omitted"
 
-DMY_REGEX = re.compile(rf"\s*(\d)([dmy])\s+(\w+)\s+(\d+){DATE_SEP}(\d+){DATE_SEP}(\d+)")
-DMY_NOW_REGEX = re.compile(r"\s*(\d)([dmy])\s+(\w+)")
-YTD_REGEX = re.compile(rf"\s*ytd\s+(\d+){DATE_SEP}(\d+){DATE_SEP}(\d+)")
+DMY_REGEX = re.compile(rf"^(\d)([dmy])\s+(\w+)\s+(\d+){DATE_SEP}(\d+){DATE_SEP}(\d+)")
+DMY_NOW_REGEX = re.compile(r"^(\d)([dmy])\s+(\w+)")
+YTD_REGEX = re.compile(rf"^(\w+)\s+(\d+){DATE_SEP}(\d+){DATE_SEP}(\d+)")
+YTD_NOW_REGEX = re.compile(r"^(\w+)")
 PERIOD_KEYS = [
             'num',          # (int): unit count
             'time_unit',    # (str): time unit; d/m/y
@@ -46,6 +47,8 @@ PERIOD_KEYS = [
             'year'          # (int): year
         ]
 """ Period param object keys as per DMY_REGEX """
+DIR_KEY_IDX = 2
+DAY_KEY_IDX = 3
 
 PRICE_PRECISION = 6
 """ Precision for stock prices """
@@ -147,36 +150,55 @@ def validate_period(period_str: str) -> Union[Period, None]:
         Union[Period, None]: string object if valid, otherwise None
     """
     period = None
-    period_str = period_str.lower()
+    period_str = period_str.strip().lower()
     params = period_param_template()
 
     # check formats like '1d from dd-mm-yyyy'
     match = DMY_REGEX.match(period_str)
     if match:
         # period keys follows regex group order of DMY_REGEX
-        for grp, key in enumerate(PERIOD_KEYS):
-            params[key] = match.group(grp + 1)
+        for idx, key in enumerate(PERIOD_KEYS):
+            params[key] = match.group(idx + 1)
 
         period = make_dmy_period(params)
-    else:
+
+    if not match:
         # check formats with omitted date like '1d from'
         match = DMY_NOW_REGEX.match(period_str)
         if match:
             # period keys follows regex group order of DMY_NOW_REGEX
-            # excluding last 3
-            for grp, key in enumerate(PERIOD_KEYS):
-                if grp < len(PERIOD_KEYS) - 3:
-                    params[key] = match.group(grp + 1)
+            # excluding day/mth/year at end
+            for idx, key in enumerate(PERIOD_KEYS):
+                if idx < DAY_KEY_IDX:
+                    params[key] = match.group(idx + 1)
 
             period = make_dmy_period(params)
 
+    if not match:
+        # check formats like 'ytd dd-mm-yyyy'
+        match = YTD_REGEX.match(period_str)
+        if match:
+            # dir/day/mth/year period keys at end,
+            # follow regex group order of YTD_REGEX
+            for idx in range(DIR_KEY_IDX, len(PERIOD_KEYS)):
+                params[PERIOD_KEYS[idx]] = match.group(idx - DIR_KEY_IDX + 1)
 
+            period = make_dmy_period(params)
+
+    if not match:
+        # check formats with omitted date like 'ytd'
+        match = YTD_NOW_REGEX.match(period_str)
+        if match:
+            # dir/day/mth/year period keys at end,
+            # follow regex group order of YTD_REGEX
+            params[PERIOD_KEYS[DIR_KEY_IDX]] = match.group(1)
+
+            period = make_dmy_period(params)
 
     if not period:
         error('Invalid period')
 
     return period
-
 
 
 def period_param_template() -> object:
@@ -198,11 +220,11 @@ def make_dmy_period(params: object) -> Union[Period, None]:
     period = None
 
     # rudimentary checks
-    valid = params['time_dir'] in ['from', 'to']
+    valid = params['time_dir'] in ['from', 'to', 'ytd']
     if valid:
 
         is_fwd = params['time_dir'] == 'from'
-        num = int(params['num']) * (1 if is_fwd else -1)
+        num = (int(params['num']) if params['num'] else 0) * (1 if is_fwd else -1)
         time_unit = params['time_unit']
         # default to today's date
         today = datetime.now()
@@ -259,11 +281,18 @@ def make_dmy_period(params: object) -> Union[Period, None]:
             elif time_unit == 'y':
                 # years
                 out_date = in_date.replace(year=in_date.year + num)
+            elif params['time_dir'] == 'ytd':
+                out_date = datetime(year=in_date.year, month=1, day=1)
+                valid = out_date < in_date
             else:
                 valid = False
 
             if valid:
                 period = Period(in_date, out_date) if is_fwd else Period(out_date, in_date)
+                valid = period.from_date < period.to_date and \
+                            period.to_date.date() <= datetime.now().date()
+                if not valid:
+                    period = None
 
     return period
 
@@ -346,8 +375,6 @@ def get_stock_param(
 
     if symbol != ABORT:
         stock_param = StockParam(symbol)
-
-        #TODO add 1d, 5d, 3m, 6m, ytd, 1y, 5y options
 
         stock_param = get_date_range(stock_param) \
             if anal_rng == AnalysisRange.DATE else get_period_range(stock_param)

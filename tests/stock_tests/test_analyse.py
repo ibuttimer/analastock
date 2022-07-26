@@ -63,9 +63,9 @@ class TestAnalyse(unittest.TestCase):
         self.assertEqual(stock_param.to_date, first_jan)
 
 
-    def test_period(self):
+    def test_period_dmy(self):
         """
-        Test period validation
+        Test period validation for day/month/year
         """
         units = {
             'd': 'day',
@@ -76,7 +76,7 @@ class TestAnalyse(unittest.TestCase):
         # NB: don't use future test dates
 
         unit_count = 2
-        param = datetime(2022, 6, 10)
+        param = datetime(2019, 6, 10)
         # simple test, no boundaries
         for unit in ['d', 'm', 'y']:
             date_str = param.strftime(DATE_FORMAT)
@@ -164,6 +164,38 @@ class TestAnalyse(unittest.TestCase):
         period = validate_period('1d to')
         self.assertEqual(period.from_date, yesterday)
         self.assertEqual(period.to_date, today)
+
+
+    def test_period_ytd(self):
+        """
+        Test period validation for ytd
+        """
+        # NB: don't use future test dates
+
+        # ytd tests
+        test_date = datetime(2022, 2, 1)
+        period = validate_period(f'ytd {test_date.strftime(DATE_FORMAT)}')
+        self.assertEqual(period.from_date, test_date.replace(month=1, day=1))
+        self.assertEqual(period.to_date, test_date)
+
+        # no zero time period
+        self.assertIsNone(validate_period('ytd 01-01-2022'))
+
+
+    @unittest.skipIf(datetime.now().month == 1 and datetime.now().day == 1,
+                        "'can't test omitted ytd on 1st January")
+    def test_period_ytd_omitted(self):
+        """
+        Test period validation for ytd with omitted date
+        """
+        # ytd omitted date
+        jan1 = datetime.combine(
+            datetime.now().replace(month=1, day=1).date(), time.min)
+        today = datetime.combine(datetime.now().date(), time.min)
+        period = validate_period('ytd')
+        self.assertEqual(period.from_date, jan1)
+        self.assertEqual(period.to_date, today)
+
 
 
 if __name__ == '__main__':
