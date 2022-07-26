@@ -360,13 +360,18 @@ def get_date_range(stock_param: StockParam) -> StockParam:
 
 
 def get_stock_param(
-        symbol: str = None, anal_rng: AnalysisRange = AnalysisRange.DATE) -> StockParam:
+        symbol: str = None,
+        anal_rng: AnalysisRange = AnalysisRange.DATE,
+        range_select: Callable[[], AnalysisRange] = None) -> StockParam:
     """
     Get stock parameters
 
     Args:
-        symbol (str, optional): stock symbol. Defaults to None.
-        range (AnalysisRange, optional): Range entry method. Defaults to AnalysisRange.DATE.
+        symbol (str, optional): Stock symbol. Defaults to None.
+        anal_rng (AnalysisRange, optional):
+                Range entry method. Defaults to AnalysisRange.DATE.
+        range_select (Callable[[], AnalysisRange], optional):
+                Range entry method select function. Defaults to None.
 
     Returns:
         StockParam: stock parameters
@@ -381,6 +386,9 @@ def get_stock_param(
 
     if symbol != ABORT:
         stock_param = StockParam(symbol)
+
+        if anal_rng == AnalysisRange.ASK:
+            anal_rng = range_select()
 
         stock_param = get_date_range(stock_param) \
             if anal_rng == AnalysisRange.DATE else get_period_range(stock_param)

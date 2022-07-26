@@ -141,3 +141,5 @@ class AnalysisRange(Enum):
     """ From/to dates """
     PERIOD = 2
     """ Time period from/to date """
+    ASK = 3
+    """ Ask user """

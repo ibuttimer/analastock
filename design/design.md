@@ -1,6 +1,8 @@
 
 # Strategy
-The strategy is to create a website allowing the user to retrieve historical stock data for analyse.
+The strategy is to create a website allowing the user to retrieve historical stock data for analysis.
+
+The target audience for the application are investors. The site will provide them with insight into the performance of stocks they have invested in, or are considering investing in.
 
 # Scope
 The scope of the project will be to allow the user to:

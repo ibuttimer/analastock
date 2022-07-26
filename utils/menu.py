@@ -15,8 +15,6 @@ MenuOption = namedtuple("MenuOption", ['key', 'name'])
 DEFAULT_MENU_HELP = 'Enter number corresponding to desired option'
 
 
-# https://pylint.pycqa.org/en/latest/user_guide/messages/refactor/too-few-public-methods.html
-
 @dataclasses.dataclass
 class MenuEntry:
     """
@@ -31,7 +29,7 @@ class MenuEntry:
     Function to call
 
     Returns:
-        bool: True if processed, otherwise False
+        bool: Truthy if processed, otherwise Falsy
     """
 
     key: Union[str, None]

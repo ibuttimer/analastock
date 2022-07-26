@@ -1,7 +1,7 @@
 """
 Processing related functions
 """
-from typing import Callable
+from typing import Callable, Union
 from stock import (
     canned_ibm, get_stock_param, download_data,
     analyse_stock, download_exchanges, download_companies,
@@ -21,6 +21,11 @@ TEXT_ENTRY = 'Text entry'
 PERIOD_MENU_HELP = f"Choose '{DATE_ENTRY}' to specify period by dates, or '{TEXT_ENTRY}' "\
                    f"to specify\n"\
                    f"in the form '1m from {DATE_FORM}'"
+SYMBOL_ENTRY = 'Enter stock symbol'
+SEARCH_ENTRY = 'Search company'
+SYMBOL_MENU_HELP = f"Choose '{SYMBOL_ENTRY}' if the stock symbol is known, or"\
+                   f"'{SEARCH_ENTRY}' to search by company name"
+COMPANY_SEARCH_HELP = f"Enter name or part of name to search for, '{ABORT}' to cancel"
 
 
 def process_ibm():
@@ -38,10 +43,13 @@ def process_ibm():
 def stock_analysis_menu():
     """
     Stock analysis menu
+
+    Returns:
+        bool: Truthy if processed, otherwise Falsy
     """
     stock_menu: Menu = Menu(
-        MenuEntry('Single stock', process_stock),
-        MenuEntry('Multiple stocks', process_stock),
+        MenuEntry('Single stock', process_stock_menu),
+        MenuEntry('Multiple stocks', process_stock_menu),
         CloseMenuEntry('Back'),
         menu_title='Stock Analysis Menu'
     )
@@ -51,15 +59,17 @@ def stock_analysis_menu():
 
         loop = stock_menu.is_open
 
+    return True
 
-def period_entry_menu() -> AnalysisRange:
+
+def period_entry_menu() -> Union[AnalysisRange, None]:
     """
     Period entry method menu
 
     Returns:
         AnalysisRange: entry method
     """
-    anal_rng: AnalysisRange
+    anal_rng: AnalysisRange = None
 
     def set_date_entry():
         nonlocal anal_rng
@@ -84,6 +94,28 @@ def period_entry_menu() -> AnalysisRange:
     return anal_rng
 
 
+def process_stock_menu() -> bool:
+    """
+    Process stock menu
+
+    Returns:
+        bool: Truthy if processed, otherwise Falsy
+    """
+    symbol_menu: Menu = Menu(
+        CloseMenuEntry(SYMBOL_ENTRY, process_stock),
+        CloseMenuEntry(SEARCH_ENTRY, company_search),
+        menu_title='Stock Selection Method',
+        help_text=SYMBOL_MENU_HELP
+    )
+    loop: bool = True
+    while loop:
+        symbol_menu.process()
+
+        loop = symbol_menu.is_open
+
+    return True
+
+
 def process_stock(symbol: str = None) -> bool:
     """
     Process a stock analysis
@@ -92,11 +124,11 @@ def process_stock(symbol: str = None) -> bool:
         symbol (str, optional): symbol for stock to process. Defaults to None.
 
     Returns:
-        bool: True if processed, otherwise False
+        bool: Truthy if processed, otherwise Falsy
     """
     # get stock params
     stock_param = get_stock_param(
-        symbol=symbol, anal_rng=period_entry_menu())
+        symbol=symbol, anal_rng=AnalysisRange.ASK, range_select=period_entry_menu)
 
     processed = stock_param is not None
 
@@ -160,9 +192,12 @@ def process_exchanges():
         break   # HACK so just one exchange for now
 
 
-def company_search():
+def company_search() -> bool:
     """
     Perform a company search
+
+    Returns:
+        bool: Truthy if processed, otherwise Falsy
     """
     title('Company Search')
 
@@ -176,7 +211,7 @@ def company_search():
     while loop:
         name = get_input(
                 'Enter company name',
-                help_text=f"Enter name or part of name to search for, '{ABORT}' to cancel"
+                help_text=COMPANY_SEARCH_HELP
         )
         if name == ABORT:
             loop = False
@@ -201,3 +236,5 @@ def company_search():
         )
 
         company_menu.process()
+
+    return True

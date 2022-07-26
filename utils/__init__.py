@@ -8,7 +8,7 @@ from .misc import get_env_setting, last_day_of_month
 from .constants import (
     DEFAULT_CREDS_FILE, DEFAULT_CREDS_PATH, DEFAULT_RAPID_CREDS_FILE,
     DEFAULT_RAPID_CREDS_PATH, EXCHANGES_SHEET, COMPANIES_SHEET,
-    PAGE_UP, PAGE_DOWN, HELP, ABORT
+    PAGE_UP, PAGE_DOWN, HELP, ABORT, MAX_LINE_LEN
 )
 
 __all__ = [
