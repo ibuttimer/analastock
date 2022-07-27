@@ -8,7 +8,8 @@ DEFAULT_CREDS_FILE = "creds.json"
 DEFAULT_CREDS_PATH = "./"
 """
 Default path to Google credentials file
-Note: if a relative path is specified, it must be relative to the project root folder.
+Note: if a relative path is specified, it must be relative to the
+      project root folder.
 """
 
 DEFAULT_RAPID_CREDS_FILE = "rapid_creds.json"
@@ -17,7 +18,8 @@ DEFAULT_RAPID_CREDS_FILE = "rapid_creds.json"
 DEFAULT_RAPID_CREDS_PATH = "./"
 """
 Default path to RapidAPI credentials file
-Note: if a relative path is specified, it must be relative to the project root folder.
+Note: if a relative path is specified, it must be relative to the
+      project root folder.
 """
 
 EXCHANGES_SHEET = 'exchanges'

@@ -90,11 +90,12 @@ class DfStat(Enum):
 
     MIN = ('Min')
     MAX = ('Max')
-    CHANGE = ('Change')
-    PERCENT_CHANGE = ('PercentChange')
+    CHANGE = ('Change', 'Chng')
+    PERCENT_CHANGE = ('PercentChange', '%Chng')
 
-    def __init__(self, title: str):
+    def __init__(self, title: str, short: str = None):
         self._title = title
+        self._short = short
 
     @property
     def title(self):
@@ -105,6 +106,16 @@ class DfStat(Enum):
             str: title
         """
         return self._title
+
+    @property
+    def short(self):
+        """
+        Short title of statistic
+
+        Returns:
+            str: short
+        """
+        return self._short if self._short else self._title
 
     def column_key(self, column: DfColumn):
         """

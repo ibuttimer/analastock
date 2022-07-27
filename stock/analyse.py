@@ -24,18 +24,22 @@ SYMBOL_HELP = f"Enter symbol for the stock required, or '{ABORT}' to cancel.\n"\
               f"e.g. IBM: International Business Machines Corporation"
 FROM_DATE_HELP = f"Enter analysis start date, or '{ABORT}' to cancel"
 TO_DATE_HELP = f"Enter analysis end date, or '{ABORT}' to cancel"
-PERIOD_HELP = f"Enter period in the form, [period] [from|to|ytd] [{DATE_FORM}], or\n"\
-              f"'{ABORT}' to cancel.\n"\
+PERIOD_HELP = f"Enter period in the form, [period] [from|to|ytd] [{DATE_FORM}]"\
+              f", or\n'{ABORT}' to cancel.\n"\
               f"where: [period]      - is of the form '[0-9][d|m|y]' "\
                 f"with 'd' for day,\n"\
               f"                       'm' for month and 'y' for year.\n"\
               f"                       e.g. '5d' is 5 days\n"\
-              f"       [from|to|ytd] - 'from'/'to' date or 'year-to-date' date. \n"\
-              f"                       Note: [period] not required for 'ytd'.\n"\
-              f"                       e.g. 'ytd {datetime.now().strftime(DATE_FORMAT)}'\n"\
+              f"       [from|to|ytd] - 'from'/'to' date or 'year-to-date' "\
+                f"date.\n"\
+              f"                       Note: [period] not required for "\
+                f"'ytd'.\n"\
+              f"                       e.g. 'ytd "\
+                f"{datetime.now().strftime(DATE_FORMAT)}'\n"\
               f"       [{DATE_FORM}]  - date, or today if omitted"
 
-DMY_REGEX = re.compile(rf"^(\d)([dmy])\s+(\w+)\s+(\d+){DATE_SEP}(\d+){DATE_SEP}(\d+)")
+DMY_REGEX = re.compile(
+    rf"^(\d)([dmy])\s+(\w+)\s+(\d+){DATE_SEP}(\d+){DATE_SEP}(\d+)")
 DMY_NOW_REGEX = re.compile(r"^(\d)([dmy])\s+(\w+)")
 YTD_REGEX = re.compile(rf"^(\w+)\s+(\d+){DATE_SEP}(\d+){DATE_SEP}(\d+)")
 YTD_NOW_REGEX = re.compile(r"^(\w+)")
@@ -76,7 +80,7 @@ def validate_date(date_string: str) -> Union[datetime, None]:
         if date_time > datetime.now():
             error('Invalid date: future date')
             date_time = None
-        if date_time < MIN_DATE:
+        elif date_time < MIN_DATE:
             error(
                 f"Invalid date: shouldn't be prior to "
                 f"{MIN_DATE.strftime(FRIENDLY_FORMAT)}"
@@ -225,7 +229,8 @@ def make_dmy_period(params: object) -> Union[Period, None]:
     if valid:
 
         is_fwd = params['time_dir'] == 'from'
-        num = (int(params['num']) if params['num'] else 0) * (1 if is_fwd else -1)
+        num = (int(params['num'])\
+                if params['num'] else 0) * (1 if is_fwd else -1)
         time_unit = params['time_unit']
         # default to today's date
         today = datetime.now()
@@ -243,7 +248,9 @@ def make_dmy_period(params: object) -> Union[Period, None]:
                 out_date = in_date
 
                 # original was last day of month flag
-                mth_last_day = in_date.day == last_day_of_month(in_date.year, in_date.month)
+                mth_last_day = \
+                    in_date.day == last_day_of_month(
+                                in_date.year, in_date.month)
 
                 def not_december(chk_mth):
                     """ True if month is not December """
@@ -265,18 +272,23 @@ def make_dmy_period(params: object) -> Union[Period, None]:
                     no_new_year = not_new_year(out_date.month)
 
                     yr_val = out_date.year + (0 if no_new_year else step)
-                    mth_val = out_date.month + step if no_new_year else \
-                                                1 if out_date.month == 12 else 12
+                    mth_val = out_date.month + step \
+                        if no_new_year else 1 if out_date.month == 12 else 12
                     # day doesn't change when < 28
-                    # stays at last day of month, if original was last day of month
-                    # last day of new month, if original > last day of new month
+                    # stays at last day of month, if original was last day
+                    # of month
+                    # last day of new month, if original > last day of
+                    # new month
                     # otherwise original day
                     new_mth_last_day = last_day_of_month(yr_val, mth_val)
                     day_val = in_date.day if in_date.day < 28 else \
                             new_mth_last_day if mth_last_day else \
-                                new_mth_last_day if in_date.day > new_mth_last_day else in_date.day
+                                new_mth_last_day \
+                                    if in_date.day > new_mth_last_day \
+                                    else in_date.day
 
-                    out_date = out_date.replace(year=yr_val, month=mth_val, day=day_val)
+                    out_date = out_date.replace(
+                                year=yr_val, month=mth_val, day=day_val)
                     num -= 1
 
             elif time_unit == 'y':
@@ -289,7 +301,8 @@ def make_dmy_period(params: object) -> Union[Period, None]:
                 valid = False
 
             if valid:
-                period = Period(in_date, out_date) if is_fwd else Period(out_date, in_date)
+                period = Period(in_date, out_date) \
+                            if is_fwd else Period(out_date, in_date)
                 valid = period.from_date < period.to_date and \
                             period.to_date.date() <= datetime.now().date()
                 if not valid:
@@ -391,7 +404,8 @@ def get_stock_param(
             anal_rng = range_select()
 
         stock_param = get_date_range(stock_param) \
-            if anal_rng == AnalysisRange.DATE else get_period_range(stock_param)
+            if anal_rng == AnalysisRange.DATE \
+            else get_period_range(stock_param)
 
     return stock_param
 
@@ -402,10 +416,14 @@ def analyse_stock(
     Analyse stock data
 
     Args:
-        data_frame (Union[Pandas.DataFrame, List[str], StockDownload]): data to analyse
+        data_frame (Union[Pandas.DataFrame, List[str], StockDownload]):
+                                                            data to analyse
 
     Returns:
         dict: dict of analysis results, like {
+            'from': [date],
+            'to': [date],
+            'symbol': 'XYZ'
             'OpenMin': 11.34,
             'OpenMax': 12.34,
             'OpenChange': 1.0,
@@ -418,13 +436,16 @@ def analyse_stock(
         analyse = data_frame.data_frame
         from_date = data_frame.stock_param.from_date
         to_date = data_frame.stock_param.to_date
+        symbol = data_frame.stock_param.symbol
     else:
         # raw analysis and take date info from data
         analyse = data_frame
         from_date = None
         to_date = None
+        symbol = None
     if isinstance(analyse, list):
-        analyse = StockDownload.list_to_frame(analyse)    # convert list to data frame
+        # convert list to data frame
+        analyse = StockDownload.list_to_frame(analyse)
 
     # data in chronological order
     analyse.sort_values(by=DfColumn.DATE.title, ascending=True, inplace=True)
@@ -439,7 +460,8 @@ def analyse_stock(
 
     analysis = {
         'from': from_date if isinstance(from_date, date) else from_date.date(),
-        'to': to_date if isinstance(to_date, date) else to_date.date()
+        'to': to_date if isinstance(to_date, date) else to_date.date(),
+        'symbol': symbol
     }
 
     for column in DfColumn.NUMERIC_COLUMNS:
@@ -452,7 +474,8 @@ def analyse_stock(
         analysis[DfStat.MAX.column_key(column)] = data_series.max()
 
         # change
-        change = round_price(data_series.iat[0] - data_series.iat[len(data_series)-1])
+        change = round_price(data_series.iat[0] - \
+                            data_series.iat[len(data_series)-1])
         analysis[DfStat.CHANGE.column_key(column)] = change
 
         # percentage change
@@ -460,7 +483,7 @@ def analyse_stock(
             (change / data_series.iat[0]) * 100, PERCENT_PRECISION
         )
 
-    print(analysis)
+    return analysis
 
 
 def round_price(price: float) -> float:

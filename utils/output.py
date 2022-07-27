@@ -80,7 +80,25 @@ def _assert_len(line: str, max_len: int):
         line (str): display line
         max_len (int): max length
     """
-    assert len(line) < max_len, f'Line too long: {line}\nCut-off: {line[max_len:]}'
+    assert len(line) < max_len, f'Line too long: {line}\n'\
+                                f'Cut-off: {line[max_len:]}'
+
+
+def colorise(msg: str, colour: Colour = None, on_colour: Colour = None) -> str:
+    """
+    Display message
+
+    Args:
+        msg (str): message
+
+    Returns:
+        None
+    """
+    return colored(
+            msg,
+            color = colour.value if colour else None,
+            on_color = f'on_{on_colour.value}' if on_colour else None
+        )
 
 
 def display(msg: str, colour: Colour = None, on_colour: Colour = None):
@@ -94,11 +112,7 @@ def display(msg: str, colour: Colour = None, on_colour: Colour = None):
         None
     """
     print(
-        colored(
-            msg,
-            color = colour.value if colour else None,
-            on_color = f'on_{on_colour.value}' if on_colour else None
-        )
+        colorise(msg, colour=colour, on_colour=on_colour)
     )
 
 

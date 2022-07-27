@@ -2,7 +2,7 @@
 Utils package
 """
 from .input import get_input, InputParam
-from .output import error, info, assistance, Colour, display, title
+from .output import error, info, assistance, Colour, colorise, display, title
 from .menu import MenuEntry, CloseMenuEntry, Menu
 from .misc import get_env_setting, last_day_of_month
 from .constants import (
@@ -19,6 +19,7 @@ __all__ = [
     'error',
     'info',
     'assistance',
+    'colorise',
     'display',
     'title',
 

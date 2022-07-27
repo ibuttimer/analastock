@@ -26,6 +26,10 @@ menu: Menu = Menu(
 
 def run_app():
     """ Run the application """
+
+    # HACK process_ibm
+    #process_ibm()
+
     loop: bool = True
     while loop:
         menu.process()
