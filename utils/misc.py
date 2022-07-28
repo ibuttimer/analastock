@@ -2,17 +2,22 @@
 Miscellaneous functions
 """
 from calendar import isleap
+import json
 import os
 from typing import Any
 
+from .output import error
 
-def get_env_setting(key: str, default_value: Any = None, required: bool = False) -> Any:
+
+def get_env_setting(
+        key: str, default_value: Any = None, required: bool = False) -> Any:
     """
     Get an environmental variable
 
     Args:
         key (str): variable name
-        defaultValue (Any, optional): Default value if not present. Defaults to None.
+        defaultValue (Any, optional):
+                Default value if not present. Defaults to None.
         required (bool): Required flag
 
     Returns:
@@ -26,7 +31,9 @@ def get_env_setting(key: str, default_value: Any = None, required: bool = False)
             value = default_value
 
     if not value and required:
-        raise ValueError(f"The required setting '{key}' is not specified, please set '{key}'")
+        raise ValueError(
+            f"The required setting '{key}' is not specified, "\
+            f"please set '{key}'")
 
     return value
 
@@ -47,3 +54,25 @@ def last_day_of_month(year: int, month: int) -> int:
     return 29 if month == 2 and isleap(year) else \
             28 if month == 2 else \
             30 if month in [9, 4, 6, 11] else 31
+
+
+def load_json_file(filepath: str) -> dict:
+    """
+    Load json from a file
+
+    Args:
+        filepath (str): path to file
+
+    Returns:
+        dict: json data
+    """
+    data = None
+
+    try:
+        with open(filepath, encoding='utf-8') as file_handle:
+            data = json.load(file_handle)
+            file_handle.close()
+    except FileNotFoundError:
+        error(f'File not found: {filepath}')
+
+    return data

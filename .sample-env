@@ -29,7 +29,7 @@ CREDS=""
 # name of credentials file; default 'creds.json'
 CREDS_FILE="creds.json"
 
-# path to credentials file; default
+# path to credentials file; default './'
 # Note: if a relative path is specified, it must be relative to the project root folder.
 # e.g. the default location is the project root folder, so use './'
 CREDS_PATH="./"
@@ -40,7 +40,7 @@ RAPID_CREDS=""
 # name of RapidAPI credentials file; default 'rapid_creds.json'
 RAPID_CREDS_FILE="rapid_creds.json"
 
-# path to RapidAPI credentials file; default
+# path to RapidAPI credentials file; default './'
 # Note: if a relative path is specified, it must be relative to the project root folder.
 # e.g. the default location is the project root folder, so use './'
 RAPID_CREDS_PATH="./"
@@ -48,3 +48,6 @@ RAPID_CREDS_PATH="./"
 # name of Google Sheets spreadsheet
 SPREADSHEET_NAME="AnalaStock"
 
+# path to data files folder; default './data'
+# Note: if a relative path is specified, it must be relative to the project root folder.
+DATA_PATH="./data"

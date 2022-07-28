@@ -22,6 +22,13 @@ Note: if a relative path is specified, it must be relative to the
       project root folder.
 """
 
+DEFAULT_DATA_PATH = "./data"
+"""
+Default path to data files
+Note: if a relative path is specified, it must be relative to the
+      project root folder.
+"""
+
 EXCHANGES_SHEET = 'exchanges'
 """ Name of sheet for exchanges data """
 

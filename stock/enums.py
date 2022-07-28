@@ -1,15 +1,17 @@
 """
 Stock related enums
 """
-from enum import Enum
+from enum import Enum, auto
 
 
 class DfColumn(Enum):
     """ DataFrame columns """
 
     # np.datatime64 needs a unit
-    # The date units are years (‘Y’), months (‘M’), weeks (‘W’), and days (‘D’),
-    # while the time units are hours (‘h’), minutes (‘m’), seconds (‘s’), milliseconds (‘ms’)
+    # The date units are:
+    #   years (‘Y’), months (‘M’), weeks (‘W’), and days (‘D’),
+    # while the time units are:
+    #   hours (‘h’), minutes (‘m’), seconds (‘s’), milliseconds (‘ms’)
     # https://numpy.org/doc/stable/reference/arrays.datetime.html
 
     DATE = ('Date', 'np.datetime64')
@@ -148,9 +150,19 @@ class AnalysisRange(Enum):
     """
     Enum representing analysis rages
     """
-    DATE = 1
+    DATE = auto()
     """ From/to dates """
-    PERIOD = 2
+    PERIOD = auto()
     """ Time period from/to date """
-    ASK = 3
+    ASK = auto()
     """ Ask user """
+
+
+class DataMode(Enum):
+    """
+    Enum representing data mode
+    """
+    LIVE = auto()
+    """ Live data from data sources """
+    SAMPLE = auto()
+    """ Sample data from file """

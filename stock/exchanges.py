@@ -6,85 +6,110 @@ import json
 import requests
 
 from utils import (
-    info, get_env_setting, DEFAULT_RAPID_CREDS_FILE, DEFAULT_RAPID_CREDS_PATH
+    info, get_env_setting, DEFAULT_RAPID_CREDS_FILE, DEFAULT_RAPID_CREDS_PATH,
+    DEFAULT_DATA_PATH, load_json_file
 )
 
+from .enums import DataMode
 from .data import StockDownload
 
 
 # read credentials file and set headers
-with open(os.path.abspath(
+HEADER = load_json_file(
+    os.path.abspath(
             os.path.join(
                 get_env_setting('RAPID_CREDS_PATH', DEFAULT_RAPID_CREDS_PATH),
-                get_env_setting('RAPID_CREDS_FILE', DEFAULT_RAPID_CREDS_FILE),
+                get_env_setting('RAPID_CREDS_FILE', DEFAULT_RAPID_CREDS_FILE)
             )
-        ),
-        encoding='utf-8') as file_handle:
-    HEADER = json.load(file_handle)
-    file_handle.close()
+        )
+)
 
 
-RAPID_YAHOO_EXCHANGES_URL = "https://yahoofinance-stocks1.p.rapidapi.com/exchanges"
-RAPID_YAHOO_COMPANIES_URL = "https://yahoofinance-stocks1.p.rapidapi.com/companies/list-by-exchange"
+RAPID_YAHOO_EXCHANGES_URL = \
+    "https://yahoofinance-stocks1.p.rapidapi.com/exchanges"
+RAPID_YAHOO_COMPANIES_URL = \
+    "https://yahoofinance-stocks1.p.rapidapi.com/companies/list-by-exchange"
 
 
-SAMPLE_EXCHANGES_DATA = '{"total":76,"offset":0,"results":[{"exchangeCode":"AMS"},{"exchangeCode":"ASE"},{"exchangeCode":"ASX"},{"exchangeCode":"ATH"},{"exchangeCode":"BER"},{"exchangeCode":"BRU"},{"exchangeCode":"BSE"},{"exchangeCode":"BTS"},{"exchangeCode":"BUD"},{"exchangeCode":"BUE"},{"exchangeCode":"CAI"},{"exchangeCode":"CCS"},{"exchangeCode":"CNQ"},{"exchangeCode":"CPH"},{"exchangeCode":"CSE"},{"exchangeCode":"DOH"},{"exchangeCode":"DUS"},{"exchangeCode":"EBS"},{"exchangeCode":"ENX"},{"exchangeCode":"FKA"},{"exchangeCode":"FRA"},{"exchangeCode":"GER"},{"exchangeCode":"HAM"},{"exchangeCode":"HAN"},{"exchangeCode":"HEL"},{"exchangeCode":"HKG"},{"exchangeCode":"ICE"},{"exchangeCode":"IOB"},{"exchangeCode":"ISE"},{"exchangeCode":"IST"},{"exchangeCode":"JKT"},{"exchangeCode":"JNB"},{"exchangeCode":"JPX"},{"exchangeCode":"KLS"},{"exchangeCode":"KOE"},{"exchangeCode":"KSC"},{"exchangeCode":"LIS"},{"exchangeCode":"LIT"},{"exchangeCode":"LSE"},{"exchangeCode":"MCE"},{"exchangeCode":"MCX"},{"exchangeCode":"MEX"},{"exchangeCode":"MIL"},{"exchangeCode":"MUN"},{"exchangeCode":"NAE"},{"exchangeCode":"NCM"},{"exchangeCode":"NEO"},{"exchangeCode":"NGM"},{"exchangeCode":"NMS"},{"exchangeCode":"NSI"},{"exchangeCode":"NYQ"},{"exchangeCode":"NZE"},{"exchangeCode":"OSL"},{"exchangeCode":"PAR"},{"exchangeCode":"PCX"},{"exchangeCode":"PNK"},{"exchangeCode":"PRA"},{"exchangeCode":"RIS"},{"exchangeCode":"SAO"},{"exchangeCode":"SAP"},{"exchangeCode":"SAU"},{"exchangeCode":"SES"},{"exchangeCode":"SET"},{"exchangeCode":"SGO"},{"exchangeCode":"SHH"},{"exchangeCode":"SHZ"},{"exchangeCode":"STO"},{"exchangeCode":"STU"},{"exchangeCode":"TAI"},{"exchangeCode":"TAL"},{"exchangeCode":"TLO"},{"exchangeCode":"TLV"},{"exchangeCode":"TOR"},{"exchangeCode":"TWO"},{"exchangeCode":"VAN"},{"exchangeCode":"VIE"}],"responseStatus":null}'
-SAMPLE_COMPANIES_DATA = '{"total":140,"offset":0,"results":[{"exchangeCode":"AMS","symbol":"AALB.AS","companyName":"AALBERTS NV","industryOrCategory":"Industrials"},{"exchangeCode":"AMS","symbol":"ABN.AS","companyName":"ABN AMRO BANK N.V.","industryOrCategory":"Financial Services"},{"exchangeCode":"AMS","symbol":"ACCEL.AS","companyName":"ACCELL GROUP","industryOrCategory":"Consumer Cyclical"},{"exchangeCode":"AMS","symbol":"ACOMO.AS","companyName":"AMSTERDAM COMMOD.","industryOrCategory":"Consumer Defensive"},{"exchangeCode":"AMS","symbol":"AD.AS","companyName":"AHOLD DEL","industryOrCategory":"Consumer Defensive"},{"exchangeCode":"AMS","symbol":"ADYEN.AS","companyName":"ADYEN","industryOrCategory":"Technology"},{"exchangeCode":"AMS","symbol":"AGN.AS","companyName":"AEGON","industryOrCategory":"Financial Services"},{"exchangeCode":"AMS","symbol":"AI261.AS","companyName":"NEDER5,5%15JAN28","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"AJAX.AS","companyName":"AJAX","industryOrCategory":"Consumer Cyclical"},{"exchangeCode":"AMS","symbol":"AKZA.AS","companyName":"AKZO NOBEL","industryOrCategory":"Basic Materials"},{"exchangeCode":"AMS","symbol":"ALFEN.AS","companyName":"ALFEN","industryOrCategory":"Industrials"},{"exchangeCode":"AMS","symbol":"ALX.AS","companyName":"ALUMEXX N.V.","industryOrCategory":"Consumer Cyclical"},{"exchangeCode":"AMS","symbol":"AMG.AS","companyName":"AMG","industryOrCategory":"Basic Materials"},{"exchangeCode":"AMS","symbol":"AND.AS","companyName":"AND INTERNATIONAL","industryOrCategory":"Communication Services"},{"exchangeCode":"AMS","symbol":"APAM.AS","companyName":"APERAM","industryOrCategory":"Basic Materials"},{"exchangeCode":"AMS","symbol":"ARCAD.AS","companyName":"ARCADIS","industryOrCategory":"Industrials"},{"exchangeCode":"AMS","symbol":"ASM.AS","companyName":"ASM INTERNATIONAL","industryOrCategory":"Technology"},{"exchangeCode":"AMS","symbol":"ASML.AS","companyName":"ASML HOLDING","industryOrCategory":"Technology"},{"exchangeCode":"AMS","symbol":"ASRNL.AS","companyName":"ASR NEDERLAND","industryOrCategory":"Financial Services"},{"exchangeCode":"AMS","symbol":"ATC.AS","companyName":"ALTICE EUROPE N.V.","industryOrCategory":"Communication Services"},{"exchangeCode":"AMS","symbol":"ATCB.AS","companyName":"ALTICE EUROPE B","industryOrCategory":"Communication Services"},{"exchangeCode":"AMS","symbol":"ATRS.AS","companyName":"ATRIUM EUR REALEST","industryOrCategory":"Real Estate"},{"exchangeCode":"AMS","symbol":"AVTX.AS","companyName":"AVANTIUM","industryOrCategory":"Basic Materials"},{"exchangeCode":"AMS","symbol":"AXS.AS","companyName":"ACCSYS","industryOrCategory":"Basic Materials"},{"exchangeCode":"AMS","symbol":"BA261.AS","companyName":"NEDER7,5%15JAN23","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"BAMNB.AS","companyName":"BAM GROEP KON","industryOrCategory":"Industrials"},{"exchangeCode":"AMS","symbol":"BBED.AS","companyName":"BETER BED","industryOrCategory":"Consumer Cyclical"},{"exchangeCode":"AMS","symbol":"BESI.AS","companyName":"BE SEMICONDUCTOR","industryOrCategory":"Technology"},{"exchangeCode":"AMS","symbol":"BFIT.AS","companyName":"BASIC-FIT","industryOrCategory":"Consumer Cyclical"},{"exchangeCode":"AMS","symbol":"BGHL.AS","companyName":"BOUSSARD GAVAUDAN","industryOrCategory":"Financial Services"},{"exchangeCode":"AMS","symbol":"BOKA.AS","companyName":"BOSKALIS WESTMIN","industryOrCategory":"Industrials"},{"exchangeCode":"AMS","symbol":"BOLS.AS","companyName":"LUCASBOLS","industryOrCategory":"Consumer Defensive"},{"exchangeCode":"AMS","symbol":"BRILL.AS","companyName":"BRILL KON","industryOrCategory":"Communication Services"},{"exchangeCode":"AMS","symbol":"BRNL.AS","companyName":"BRUNEL INTERNAT","industryOrCategory":"Industrials"},{"exchangeCode":"AMS","symbol":"BSGR.AS","companyName":"B&S Group","industryOrCategory":"Consumer Defensive"},{"exchangeCode":"AMS","symbol":"CCEP.AS","companyName":"COCA-COLA EUROPEAN","industryOrCategory":"Consumer Defensive"},{"exchangeCode":"AMS","symbol":"CLB.AS","companyName":"CORE LABORATORIES","industryOrCategory":"Energy"},{"exchangeCode":"AMS","symbol":"DE000A0DHUM0.AS","companyName":"DPOSTB FT2 FRNPL","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"DE000A0GNPZ3.AS","companyName":"ALLIANZF2 5 3/8%PL","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"DGB.AS","companyName":"DGB GROUP N.V.","industryOrCategory":"Technology"},{"exchangeCode":"AMS","symbol":"DPA.AS","companyName":"DPA GROUP","industryOrCategory":"Industrials"},{"exchangeCode":"AMS","symbol":"DSM.AS","companyName":"DSM KON","industryOrCategory":"Basic Materials"},{"exchangeCode":"AMS","symbol":"EAS2P.AS","companyName":"EASE2PAY NV","industryOrCategory":"Technology"},{"exchangeCode":"AMS","symbol":"ECMPA.AS","companyName":"EUROCOMMERCIAL","industryOrCategory":"Real Estate"},{"exchangeCode":"AMS","symbol":"ECT.AS","companyName":"EUROCASTLE INVEST.","industryOrCategory":"Financial Services"},{"exchangeCode":"AMS","symbol":"ESP.AS","companyName":"ESPERITE","industryOrCategory":"Healthcare"},{"exchangeCode":"AMS","symbol":"FLOW.AS","companyName":"FLOW TRADERS","industryOrCategory":"Financial Services"},{"exchangeCode":"AMS","symbol":"GLPG.AS","companyName":"GALAPAGOS","industryOrCategory":"Healthcare"},{"exchangeCode":"AMS","symbol":"HAL.AS","companyName":"HAL TRUST","industryOrCategory":"Financial Services"},{"exchangeCode":"AMS","symbol":"HDG.AS","companyName":"HUNTER DOUGLAS","industryOrCategory":"Consumer Cyclical"},{"exchangeCode":"AMS","symbol":"HEIA.AS","companyName":"HEINEKEN","industryOrCategory":"Consumer Defensive"},{"exchangeCode":"AMS","symbol":"HEIJM.AS","companyName":"HEIJMANS","industryOrCategory":"Industrials"},{"exchangeCode":"AMS","symbol":"HEIO.AS","companyName":"HEINEKEN HOLDING","industryOrCategory":"Consumer Defensive"},{"exchangeCode":"AMS","symbol":"HOLCO.AS","companyName":"HOLLAND COLOURS","industryOrCategory":"Basic Materials"},{"exchangeCode":"AMS","symbol":"HYDRA.AS","companyName":"HYDRATEC","industryOrCategory":"Industrials"},{"exchangeCode":"AMS","symbol":"ICT.AS","companyName":"ICT GROUP","industryOrCategory":"Technology"},{"exchangeCode":"AMS","symbol":"INGA.AS","companyName":"ING GROEP N.V.","industryOrCategory":"Financial Services"},{"exchangeCode":"AMS","symbol":"KARD.AS","companyName":"KARDAN","industryOrCategory":"Real Estate"},{"exchangeCode":"AMS","symbol":"KENDR.AS","companyName":"KENDRION","industryOrCategory":"Consumer Cyclical"},{"exchangeCode":"AMS","symbol":"KPN.AS","companyName":"KPN KON","industryOrCategory":"Communication Services"},{"exchangeCode":"AMS","symbol":"KVW.AS","companyName":"VOLKERWESSELS","industryOrCategory":"Industrials"},{"exchangeCode":"AMS","symbol":"LIGHT.AS","companyName":"SIGNIFY NV","industryOrCategory":"Industrials"},{"exchangeCode":"AMS","symbol":"LVIDE.AS","companyName":"LAVIDE HOLDING","industryOrCategory":"Financial Services"},{"exchangeCode":"AMS","symbol":"MAREL.AS","companyName":"MAREL","industryOrCategory":"Industrials"},{"exchangeCode":"AMS","symbol":"MORE.AS","companyName":"MOREFIELD GROUP","industryOrCategory":"Industrials"},{"exchangeCode":"AMS","symbol":"MT.AS","companyName":"ARCELORMITTAL SA","industryOrCategory":"Basic Materials"},{"exchangeCode":"AMS","symbol":"NEDAP.AS","companyName":"NEDAP","industryOrCategory":"Technology"},{"exchangeCode":"AMS","symbol":"NEDSE.AS","companyName":"MKB Nedsense","industryOrCategory":"Technology"},{"exchangeCode":"AMS","symbol":"NEWAY.AS","companyName":"NEWAYS ELECTRONICS","industryOrCategory":"Technology"},{"exchangeCode":"AMS","symbol":"NIBC.AS","companyName":"NIBC HOLDING","industryOrCategory":"Financial Services"},{"exchangeCode":"AMS","symbol":"NL0000102234.AS","companyName":"NEDER4%15JAN37","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"NL0000102275.AS","companyName":"NEDER3,75%15JAN23","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"NL0000116150.AS","companyName":"AEGON 1.769%PL","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"NL0000116168.AS","companyName":"AEGON USD 1.709%PL","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"NL0000120889.AS","companyName":"AEGON     4.26%PL","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"NL0000121416.AS","companyName":"AEGON1.425%PL","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"NL0009348242.AS","companyName":"NEDER 3.5% 15JUL20","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"NL0009446418.AS","companyName":"NL 3.75% 15JAN42","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"NL0009712470.AS","companyName":"NEDER 3.25%15JUL21","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"NL0010071189.AS","companyName":"NED 2.5%15JAN33","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"NL0010418810.AS","companyName":"NL 1.75%15JUL23","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"NL0010721999.AS","companyName":"NL 2.75%15JAN47","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"NL0011220108.AS","companyName":"NEDERL.25%15JUL25","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"NL0011819040.AS","companyName":"NEDERLAND0.5%JUL26","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"NL0011896857.AS","companyName":"NEDERL0%15JAN2022","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"NL0012171458.AS","companyName":"NL 0,75% 15JUL27","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"NL0013332430.AS","companyName":"NL 0.25% 15JUL29","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"NL0013552060.AS","companyName":"NLGREN0.50%15JAN40","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"NN.AS","companyName":"NN GROUP","industryOrCategory":"Financial Services"},{"exchangeCode":"AMS","symbol":"NRP.AS","companyName":"NEPI ROCKCASTLE","industryOrCategory":"Real Estate"},{"exchangeCode":"AMS","symbol":"NSI.AS","companyName":"NSI N.V.","industryOrCategory":"Real Estate"},{"exchangeCode":"AMS","symbol":"ORANW.AS","companyName":"ORANJEWOUD A","industryOrCategory":"Industrials"},{"exchangeCode":"AMS","symbol":"PHARM.AS","companyName":"PHARMING GROUP","industryOrCategory":"Healthcare"},{"exchangeCode":"AMS","symbol":"PHAU.AS","companyName":"WT PHYSICAL GOLD","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"PHIA.AS","companyName":"PHILIPS KON","industryOrCategory":"Healthcare"},{"exchangeCode":"AMS","symbol":"PNL.AS","companyName":"POSTNL","industryOrCategory":"Industrials"},{"exchangeCode":"AMS","symbol":"PORF.AS","companyName":"PORCELEYNE FLES","industryOrCategory":"Consumer Defensive"},{"exchangeCode":"AMS","symbol":"PREVA.AS","companyName":"VALUE8 CUM PREF","industryOrCategory":"Financial Services"},{"exchangeCode":"AMS","symbol":"PRX.AS","companyName":"PROSUS","industryOrCategory":"Communication Services"},{"exchangeCode":"AMS","symbol":"PSH.AS","companyName":"PERSHING","industryOrCategory":"Financial Services"},{"exchangeCode":"AMS","symbol":"RABO.AS","companyName":"RABOCERTIFFRNPL","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"RAND.AS","companyName":"RANDSTAD NV","industryOrCategory":"Industrials"},{"exchangeCode":"AMS","symbol":"RDSA.AS","companyName":"ROYAL DUTCH SHELLA","industryOrCategory":"Energy"},{"exchangeCode":"AMS","symbol":"RDSB.AS","companyName":"ROYAL DUTCH SHELLB","industryOrCategory":"Energy"},{"exchangeCode":"AMS","symbol":"REINA.AS","companyName":"REINET INVESTMENTS","industryOrCategory":"Financial Services"},{"exchangeCode":"AMS","symbol":"REN.AS","companyName":"RELX","industryOrCategory":"Communication Services"},{"exchangeCode":"AMS","symbol":"RWI.AS","companyName":"RENEWI","industryOrCategory":"Industrials"},{"exchangeCode":"AMS","symbol":"SBMO.AS","companyName":"SBM OFFSHORE","industryOrCategory":"Energy"},{"exchangeCode":"AMS","symbol":"SIFG.AS","companyName":"SIF HOLDING","industryOrCategory":"Industrials"},{"exchangeCode":"AMS","symbol":"SLIGR.AS","companyName":"SLIGRO FOOD GROUP","industryOrCategory":"Consumer Defensive"},{"exchangeCode":"AMS","symbol":"STRN.AS","companyName":"STERN GROEP","industryOrCategory":"Consumer Cyclical"},{"exchangeCode":"AMS","symbol":"TFG.AS","companyName":"TETRAGON FIN GRP","industryOrCategory":"Financial Services"},{"exchangeCode":"AMS","symbol":"TIE.AS","companyName":"TIE KINETIX","industryOrCategory":"Technology"},{"exchangeCode":"AMS","symbol":"TKWY.AS","companyName":"JUST EAT TAKEAWAY","industryOrCategory":"Communication Services"},{"exchangeCode":"AMS","symbol":"TOM2.AS","companyName":"TOMTOM","industryOrCategory":"Technology"},{"exchangeCode":"AMS","symbol":"TWEKA.AS","companyName":"TKH GROUP","industryOrCategory":"Technology"},{"exchangeCode":"AMS","symbol":"URW.AS","companyName":"UNIBAIL-RODAMCO-WE","industryOrCategory":"Real Estate"},{"exchangeCode":"AMS","symbol":"US136447AW96.AS","companyName":"CANPAC        4%PL","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"VALUE.AS","companyName":"VALUE8","industryOrCategory":"Financial Services"},{"exchangeCode":"AMS","symbol":"VASTN.AS","companyName":"VASTNED","industryOrCategory":"Real Estate"},{"exchangeCode":"AMS","symbol":"VEON.AS","companyName":"VEON","industryOrCategory":"Communication Services"},{"exchangeCode":"AMS","symbol":"VLK.AS","companyName":"V LANSCHOT KEMPEN","industryOrCategory":"Financial Services"},{"exchangeCode":"AMS","symbol":"VPK.AS","companyName":"VOPAK","industryOrCategory":"Energy"},{"exchangeCode":"AMS","symbol":"VTA.AS","companyName":"VOLTA FINANCE","industryOrCategory":"Financial Services"},{"exchangeCode":"AMS","symbol":"VVY.AS","companyName":"VIVORYON","industryOrCategory":"Healthcare"},{"exchangeCode":"AMS","symbol":"WHA.AS","companyName":"WERELDHAVE","industryOrCategory":"Real Estate"},{"exchangeCode":"AMS","symbol":"WKL.AS","companyName":"WOLTERS KLUWER","industryOrCategory":"Communication Services"},{"exchangeCode":"AMS","symbol":"XS0076219491.AS","companyName":"BNG ZAR ZC29DEC20","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"XS0085517661.AS","companyName":"BNG ZAR ZC31DEC25","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"XS0210781828.AS","companyName":"NIBC FRN21FEB40","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"XS0224480722.AS","companyName":"EIB FRN17AUG30D","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"XS0454773713.AS","companyName":"KPN 5.625%30SEP24","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"XS0607109377.AS","companyName":"RB FRN27APR21","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"XS0671689502.AS","companyName":"BNG FRN05OCT21","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"XS0748187902.AS","companyName":"ING 4.5%21FEB22","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"XS0821168423.AS","companyName":"DELTA L L9%28AUG42","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"XS1028950290.AS","companyName":"NNGROUP4.5%PL","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"XS1054522922.AS","companyName":"NNGROUP4.625%APR44","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"XS1115800655.AS","companyName":"ASRNED5%PL","industryOrCategory":"N/A"},{"exchangeCode":"AMS","symbol":"YATRA.AS","companyName":"YATRA","industryOrCategory":"Real Estate"}],"responseStatus":null}'
+SAMPLE_EXCHANGES_DATA = 'sample_exchanges.json'
+SAMPLE_COMPANY_DATA = 'sample_{exchange}_exchange.json'
 
 
-def download_exchanges() -> StockDownload:
+def download_exchanges(data_mode: DataMode = DataMode.LIVE) -> StockDownload:
     """
     Download stock data
+
+    Args
+        data_mode (DataMode): data mode
 
     Returns:
         StockDownload: downloaded data
     """
 
-    info('Downloading exchanges data')
+    info(f'Downloading exchanges '\
+        f'{"*sample* " if data_mode == DataMode.SAMPLE else ""}data')
 
-    # res = requests.get(RAPID_YAHOO_URL, headers=HEADER)
+    if data_mode == DataMode.LIVE:
+        res = requests.get(RAPID_YAHOO_EXCHANGES_URL, headers=HEADER)
 
-    # data in form
-    # '{"total":76,
-    #   "offset":0,
-    #   "results":[{"exchangeCode":"AMS"}, ...],
-    #   "responseStatus":null}'
+        # data in form
+        # '{"total":76,
+        # "offset":0,
+        # "results":[{"exchangeCode":"AMS"}, ...],
+        # "responseStatus":null}'
+        data = json.loads(res.text)
+    else:
+        data = load_json_file(
+                    os.path.abspath(
+                            os.path.join(
+                                get_env_setting('DATA_PATH', DEFAULT_DATA_PATH),
+                                SAMPLE_EXCHANGES_DATA
+                            )
+                        )
+                )
 
-    return StockDownload.download_of(
-        json.loads(
-            SAMPLE_EXCHANGES_DATA
-            # res.text
-        )
-    )
+    return StockDownload.download_of(data)
 
 
-def download_companies(exchange: str) -> StockDownload:
+def download_companies(
+        exchange: str, data_mode: DataMode = DataMode.LIVE) -> StockDownload:
     """
     Download stock data
 
     Args:
         exchange (str): exchange code
+        data_mode (DataMode): data mode
 
     Returns:
         StockDownload: downloaded data
     """
 
-    info(f'Downloading company data for {exchange}')
+    info(f'Downloading '\
+        f'{"*sample* " if data_mode == DataMode.SAMPLE else ""}'\
+        f'company data for {exchange}')
 
-    # res = requests.get(
-    #     RAPID_YAHOO_COMPANIES_URL, headers=HEADER,
-    #     params={"ExchangeCode":exchange}
-    # )
-
-    # data in form
-    # '{"total":140,
-    #   "offset":0,
-    #   "results":[{"exchangeCode":"AMS","symbol":"AALB.AS","companyName":"AALBERTS NV","industryOrCategory":"Industrials"}, ...],
-    #   "responseStatus":null}'
-
-    return StockDownload.download_of(
-        json.loads(
-            SAMPLE_COMPANIES_DATA
-            # res.text
+    if data_mode == DataMode.LIVE:
+        res = requests.get(
+            RAPID_YAHOO_COMPANIES_URL, headers=HEADER,
+            params={"ExchangeCode":exchange}
         )
-    )
+
+        # data in form
+        # '{"total":140,
+        #   "offset":0,
+        #   "results":[{"exchangeCode":"AMS","symbol":"AALB.AS",
+        #               "companyName":"AALBERTS NV",
+        #               "industryOrCategory":"Industrials"}, ...],
+        #   "responseStatus":null}'
+        data = json.loads(res.text)
+    else:
+        data = load_json_file(
+                    os.path.abspath(
+                            os.path.join(
+                                get_env_setting('DATA_PATH', DEFAULT_DATA_PATH),
+                                SAMPLE_COMPANY_DATA.format(exchange=exchange)
+                            )
+                        )
+                )
+
+    return StockDownload.download_of(data)

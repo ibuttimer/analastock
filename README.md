@@ -2,16 +2,19 @@
 ## Design
 The design specification is available in [design.md](design/design.md).
 
-## Development
+## Development/Local Deployment
 ### Environment
 The development environment requires:
-* [Node.js](https://nodejs.org/)
-* [npm](https://www.npmjs.com/)
-* [git](https://git-scm.com/)
-* [Python](https://www.python.org/)
-* [Total.js framework](https://www.totaljs.com/)
+| Artifact | Download and installation instructions |
+|----------|----------------------------------------|
+| [Node.js](https://nodejs.org/) | https://nodejs.org/en/download/ |
+| [npm](https://www.npmjs.com/) |  Included with Node.js installation |
+| [git](https://git-scm.com/) | https://git-scm.com/downloads |
+| [Python](https://www.python.org/) | https://www.python.org/downloads/ |
+| [Total.js framework](https://www.totaljs.com/) | Installed during [Framework Setup](#framework-setup) |
 
 ### Setup
+#### Clone Repository
 In an appropriate folder, run the following commands:
 ```shell
 > git clone https://github.com/ibuttimer/analastock.git
@@ -79,6 +82,7 @@ Create a file named `.env` in the project root folder, see [.sample-env](.sample
 | RAPID_CREDS | [RapidAPI](https://rapidapi.com/) credentials |
 | RAPID_CREDS_FILE | Name of name of [RapidAPI](https://rapidapi.com/) credentials file; default `rapid_creds.json` |
 | RAPID_CREDS_PATH | Path to [RapidAPI](https://rapidapi.com/) credentials file; default `./`<br>__Note:__ must be relative to the project root folder |
+| DATA_PATH | Path to sample data folder; default `./data`<br>__Note:__ must be relative to the project root folder |
 | SPREADSHEET_NAME | Name of Google Sheets spreadsheet |
 
 #### Environment variables
@@ -103,6 +107,7 @@ The application structure is split in two; a [Total.js](https://www.totaljs.com/
 │  └─ img               - image files
 | [------------  Python application  ------------]
 ├─ run.py               - Python application entry point
+├─ data                 - sample data files
 ├─ misc                 - miscellaneous functions
 ├─ sheets               - Google sheets-related functions
 ├─ stock                - stock-related functions
@@ -113,8 +118,6 @@ The application structure is split in two; a [Total.js](https://www.totaljs.com/
    ├─ stock_tests       - stock tests
    └─ utils_tests       - utility tests
 ```
-
-Python source files
 
 ## Deployment
 

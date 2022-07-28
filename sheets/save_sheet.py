@@ -3,7 +3,7 @@ Google Sheets related functions
 """
 from typing import List, Union
 import pandas as pd
-from stock import StockParam, DfColumn, StockDownload
+from stock import StockParam, DfColumn, StockDownload, CompanyColumn
 from utils import info, EXCHANGES_SHEET, COMPANIES_SHEET
 from .load_sheet import sheet_exists
 from .utils import updated_range, updated_rows
@@ -12,13 +12,16 @@ from .utils import updated_range, updated_rows
 # https://docs.gspread.org/
 
 
-def save_data(data: Union[pd.DataFrame, StockDownload], stock_param: StockParam = None):
+def save_data(
+        data: Union[pd.DataFrame, StockDownload],
+        stock_param: StockParam = None):
     """
     Save data for the specified stock
 
     Args:
         data (Union[pandas.DataFrame, StockDownload]): data to save
-        stock_param (StockParam): stock parameters if data is DataFrame, ignored otherwise
+        stock_param (StockParam):
+                stock parameters if data is DataFrame, ignored otherwise
     """
     if isinstance(data, StockDownload):
         data_frame = data.data_frame
@@ -37,7 +40,8 @@ def save_data(data: Union[pd.DataFrame, StockDownload], stock_param: StockParam 
 
     values = save_frame.to_numpy(dtype=str).tolist()
     # [
-    #   ['2022-02-01', '133.759995', '135.960007', '132.5', '135.529999', '132.311874', '6206400'],
+    #   ['2022-02-01', '133.759995', '135.960007', '132.5', '135.529999',
+    #    '132.311874', '6206400'],
     #   ....
     # ]
     result = sheet.append_rows(values, value_input_option='USER_ENTERED')
@@ -82,7 +86,8 @@ def save_companies(data: Union[pd.DataFrame, StockDownload]) -> List[dict]:
     """
     if isinstance(data, StockDownload):
         # json object
-        # {"exchangeCode":"AMS","symbol":"AALB.AS","companyName":"AALBERTS NV","industryOrCategory":"Industrials"}
+        # {"exchangeCode":"AMS","symbol":"AALB.AS","companyName":"AALBERTS NV",
+        #  "industryOrCategory":"Industrials"}
         data = data.data
 
     sheet = sheet_exists(COMPANIES_SHEET, create=True)
@@ -93,9 +98,14 @@ def save_companies(data: Union[pd.DataFrame, StockDownload]) -> List[dict]:
     ]
     result = sheet.append_rows(values, value_input_option='RAW')
 
-    info(f"Saved {updated_rows(result)} company records")
+    exchange = values[0][CompanyColumn.EXCHANGE.value - 1] \
+        if len(values) > 0 else None
 
-    # some symbols contain '.' which result in them being displayed as hyperlinks
+    info(f"Saved {updated_rows(result)} company records"\
+         f"{f' for {exchange}' if exchange else ''}")
+
+    # some symbols contain '.' which result in them being displayed as
+    # hyperlinks
     sheet.batch_format([{
         "range": updated_range(result),
         "format": {

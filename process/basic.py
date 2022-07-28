@@ -7,7 +7,7 @@ from pandas import DataFrame
 from stock import (
     canned_ibm, get_stock_param, download_data,
     analyse_stock, download_exchanges, download_companies,
-    Company, AnalysisRange, DATE_FORM, StockParam
+    Company, AnalysisRange, DATE_FORM, StockParam, DataMode
 )
 from sheets import (
     save_data, get_sheets_data, save_exchanges, save_companies, search_company,
@@ -203,9 +203,14 @@ def process_selected_stock(company: Company) -> Callable[[], bool]:
 
 
 def process_exchanges():
-    # get exchanges
+    """
+    Download and process, stock exchange and companies information
+    """
+    # HACK sample data for now
+    data_mode = DataMode.SAMPLE
+
     exchanges = save_exchanges(
-        download_exchanges()
+        download_exchanges(data_mode=data_mode)
     )
 
     for i, exchange in enumerate(exchanges):
@@ -214,7 +219,7 @@ def process_exchanges():
         info(f"{i+ 1}/{len(exchanges)}: Processing {code}")
 
         save_companies(
-            download_companies(code)
+            download_companies(code, data_mode=data_mode)
         )
 
         break   # HACK so just one exchange for now
