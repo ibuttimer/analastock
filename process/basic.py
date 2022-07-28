@@ -43,7 +43,7 @@ def process_ibm():
 
     display_single(
         analyse_stock(
-            data_frame
+            data_frame, stock_param
         )
     )
 
@@ -148,7 +148,7 @@ def process_stock(symbol: str = None) -> bool:
         data_frame = fill_gaps(data_frame, stock_param)
 
         display_single(
-            analyse_stock(data_frame)
+            analyse_stock(data_frame, stock_param)
         )
 
     return processed

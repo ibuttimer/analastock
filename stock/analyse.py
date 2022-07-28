@@ -411,13 +411,15 @@ def get_stock_param(
 
 
 def analyse_stock(
-        data_frame: Union[pd.DataFrame, List[str], StockDownload]) -> dict:
+        data_frame: Union[pd.DataFrame, List[str], StockDownload],
+        stock_param: StockParam) -> dict:
     """
     Analyse stock data
 
     Args:
         data_frame (Union[Pandas.DataFrame, List[str], StockDownload]):
                                                             data to analyse
+        stock_param (StockParam): stock parameters
 
     Returns:
         dict: dict of analysis results, like {
@@ -442,7 +444,7 @@ def analyse_stock(
         analyse = data_frame
         from_date = None
         to_date = None
-        symbol = None
+        symbol = stock_param.symbol
     if isinstance(analyse, list):
         # convert list to data frame
         analyse = StockDownload.list_to_frame(analyse)
