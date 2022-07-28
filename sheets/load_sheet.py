@@ -5,16 +5,14 @@ from typing import Union
 import os
 import gspread
 from google.oauth2.service_account import Credentials
-from utils import get_env_setting, DEFAULT_CREDS_FILE, DEFAULT_CREDS_PATH
+import google.auth.exceptions
+import requests
+from utils import (
+    get_env_setting, DEFAULT_CREDS_FILE, DEFAULT_CREDS_PATH, error
+)
 
 
 # https://docs.gspread.org/
-
-SCOPE = [
-    "https://www.googleapis.com/auth/spreadsheets",
-    "https://www.googleapis.com/auth/drive.file",
-    "https://www.googleapis.com/auth/drive"
-]
 
 CREDENTIALS = Credentials.from_service_account_file(
     os.path.abspath(
@@ -24,8 +22,15 @@ CREDENTIALS = Credentials.from_service_account_file(
         )
     )
 )
-SCOPED_CREDENTIALS = CREDENTIALS.with_scopes(SCOPE)
+SCOPED_CREDENTIALS = CREDENTIALS.with_scopes([
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/drive.file",
+    "https://www.googleapis.com/auth/drive"
+])
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDENTIALS)
+SPREADSHEETS = {}
+
+COMMS_ERR_MSG = 'Communications error, check the network connection'
 
 
 def open_spreadsheet(name: str) -> gspread.spreadsheet.Spreadsheet:
@@ -44,10 +49,29 @@ def open_spreadsheet(name: str) -> gspread.spreadsheet.Spreadsheet:
     spreadsheet = None
     try:
         spreadsheet = GSPREAD_CLIENT.open(name)
+        SPREADSHEETS[name] = spreadsheet
     except gspread.exceptions.SpreadsheetNotFound as exc:
         raise ValueError(f"Spreadsheet {name} not found") from exc
+    except google.auth.exceptions.GoogleAuthError:
+        error(
+            'Google Sheets error, functionality unavailable\n'\
+            'Please check the network connection'
+        )
 
     return spreadsheet
+
+
+def init_spreadsheet() -> gspread.spreadsheet.Spreadsheet:
+    """
+    Initialise app spreadsheet
+
+    Returns:
+        gspread.spreadsheet.Spreadsheet: spreadsheet
+    """
+    name = get_env_setting('SPREADSHEET_NAME', required=True)
+
+    return SPREADSHEETS[name] if name in SPREADSHEETS else \
+                open_spreadsheet(name)
 
 
 def sheet_exists(
@@ -67,17 +91,22 @@ def sheet_exists(
         gspread.worksheet.Worksheet: worksheet if exists otherwise None
     """
     if spreadsheet is None:
-        spreadsheet = SPREADSHEET
+        spreadsheet = init_spreadsheet()
 
     the_sheet = None
 
-    for sheet in spreadsheet.worksheets():
-        if sheet.title == name:
-            the_sheet = sheet
-            break
+    if spreadsheet:
+        try:
+            for sheet in spreadsheet.worksheets():
+                if sheet.title == name:
+                    the_sheet = sheet
+                    break
 
-    if not the_sheet and create:
-        the_sheet = add_sheet(name)
+            if not the_sheet and create:
+                the_sheet = add_sheet(name)
+
+        except requests.exceptions.RequestException:
+            error(COMMS_ERR_MSG)
 
     return the_sheet
 
@@ -97,10 +126,16 @@ def add_sheet(
         gspread.worksheet.Worksheet: worksheet
     """
     if spreadsheet is None:
-        spreadsheet = SPREADSHEET
-    return spreadsheet.add_worksheet(name, 1000, 26)
+        spreadsheet = init_spreadsheet()
 
+    # TODO specify num column & rows to not waste cells
 
-SPREADSHEET = open_spreadsheet(
-                    get_env_setting('SPREADSHEET_NAME', required=True)
-                )
+    worksheet = None
+    if spreadsheet:
+        try:
+            worksheet = spreadsheet.add_worksheet(name, 1000, 26)
+
+        except requests.exceptions.RequestException:
+            error(COMMS_ERR_MSG)
+
+    return worksheet

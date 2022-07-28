@@ -19,8 +19,8 @@ def find(
 
     Args:
         sheet (gspread.worksheet.Worksheet): worksheet to search
-        query (Union[str, Regular Expression Object]): A literal string to match or
-                                            compiled regular expression
+        query (Union[str, Regular Expression Object]):
+                A literal string to match or compiled regular expression
         row (int, optional): One-based row number to scope the search.
                                 Defaults to None.
         col (int, optional): One-based column number to scope the search.
@@ -34,7 +34,8 @@ def find(
     """
     # https://docs.gspread.org/en/v5.4.0/api/models/worksheet.html#gspread.worksheet.Worksheet.find
 
-    return sheet.find(query, in_row=row, in_column=col, case_sensitive=case_sensitive)
+    return sheet.find(
+        query, in_row=row, in_column=col, case_sensitive=case_sensitive)
 
 
 def find_all(
@@ -63,7 +64,8 @@ def find_all(
 
     # https://docs.gspread.org/en/v5.4.0/api/models/worksheet.html#gspread.worksheet.Worksheet.findall
 
-    return sheet.findall(query, in_row=row, in_column=col, case_sensitive=case_sensitive)
+    return sheet.findall(
+        query, in_row=row, in_column=col, case_sensitive=case_sensitive)
 
 
 def read_data_by_date(

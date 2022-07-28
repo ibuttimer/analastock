@@ -29,21 +29,22 @@ def search_company(
     if not sheet:
         sheet = sheet_exists(COMPANIES_SHEET)
 
-    pattern = re.compile(rf".*{name}.*", flags=re.IGNORECASE)
-    matches: List[gspread.cell.Cell] = find_all(
-        sheet, pattern, col=CompanyColumn.NAME.value)
+    results = []
 
-    if len(matches) > 0:
-        # generate ranges for results; 4 columns wide to match CompanyColumn
-        ranges = [
-            f'A{cell.row}:D{cell.row}' for cell in matches
-        ]
-        # https://docs.gspread.org/en/v5.4.0/api/models/worksheet.html#gspread.worksheet.Worksheet.batch_get
-        results = [
-            # unpack first entry in ValueRange as args for Company
-            Company(*company[0]) for company in sheet.batch_get(ranges)
-        ]
-    else:
-        results = []
+    if sheet:
+        pattern = re.compile(rf".*{name}.*", flags=re.IGNORECASE)
+        matches: List[gspread.cell.Cell] = find_all(
+            sheet, pattern, col=CompanyColumn.NAME.value)
+
+        if len(matches) > 0:
+            # generate ranges for results; 4 columns wide to match CompanyColumn
+            ranges = [
+                f'A{cell.row}:D{cell.row}' for cell in matches
+            ]
+            # https://docs.gspread.org/en/v5.4.0/api/models/worksheet.html#gspread.worksheet.Worksheet.batch_get
+            results = [
+                # unpack first entry in ValueRange as args for Company
+                Company(*company[0]) for company in sheet.batch_get(ranges)
+            ]
 
     return results
