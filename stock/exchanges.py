@@ -30,6 +30,8 @@ RAPID_YAHOO_EXCHANGES_URL = \
 RAPID_YAHOO_COMPANIES_URL = \
     "https://yahoofinance-stocks1.p.rapidapi.com/companies/list-by-exchange"
 
+RAPID_QUOTA_LIMIT = 'X-RateLimit-Requests-Limit'
+RAPID_QUOTA_REMAIN = 'X-RateLimit-Requests-Remaining'
 
 SAMPLE_EXCHANGES_DATA = 'sample_exchanges.json'
 SAMPLE_COMPANY_DATA = 'sample_{exchange}_exchange.json'
@@ -50,14 +52,14 @@ def download_exchanges(data_mode: DataMode = DataMode.LIVE) -> StockDownload:
         f'{"*sample* " if data_mode == DataMode.SAMPLE else ""}data')
 
     if data_mode == DataMode.LIVE:
-        res = requests.get(RAPID_YAHOO_EXCHANGES_URL, headers=HEADER)
+        response = get(RAPID_YAHOO_EXCHANGES_URL, headers=HEADER)
 
         # data in form
         # '{"total":76,
         # "offset":0,
         # "results":[{"exchangeCode":"AMS"}, ...],
         # "responseStatus":null}'
-        data = json.loads(res.text)
+        data = json.loads(response.text)
     else:
         data = load_json_file(
                     os.path.abspath(
@@ -89,10 +91,8 @@ def download_companies(
         f'company data for {exchange}')
 
     if data_mode == DataMode.LIVE:
-        res = requests.get(
-            RAPID_YAHOO_COMPANIES_URL, headers=HEADER,
-            params={"ExchangeCode":exchange}
-        )
+        response = get(RAPID_YAHOO_COMPANIES_URL, headers=HEADER,
+                        params={ "ExchangeCode":exchange })
 
         # data in form
         # '{"total":140,
@@ -101,7 +101,7 @@ def download_companies(
         #               "companyName":"AALBERTS NV",
         #               "industryOrCategory":"Industrials"}, ...],
         #   "responseStatus":null}'
-        data = json.loads(res.text)
+        data = json.loads(response.text)
     else:
         data = load_json_file(
                     os.path.abspath(
@@ -113,3 +113,26 @@ def download_companies(
                 )
 
     return StockDownload.download_of(data)
+
+
+def get(url: str, **kwargs) -> requests.Response:
+    """
+    Get a response
+
+    Args:
+        url (str): url to get response from
+
+    Returns:
+        requests.Response: response
+    """
+
+    response = requests.get(url, **kwargs)
+
+    if RAPID_QUOTA_LIMIT in response.headers and \
+            RAPID_QUOTA_REMAIN in response.headers:
+        limit = int(response.headers[RAPID_QUOTA_LIMIT])
+        remaining = int(response.headers[RAPID_QUOTA_REMAIN])
+        info(f'API monthly quota {remaining}/{limit}, '\
+             f'{remaining/limit:.0%} remaining')
+
+    return response

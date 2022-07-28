@@ -1,0 +1,3021 @@
+{
+    "total": 1166,
+    "offset": 0,
+    "results": [{
+        "exchangeCode": "ASX",
+        "symbol": "14D.AX",
+        "companyName": "1414DEGREE FPO",
+        "industryOrCategory": "Utilities"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "1AD.AX",
+        "companyName": "ADALTA FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "1AG.AX",
+        "companyName": "ALTERRA FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "1ST.AX",
+        "companyName": "1ST GROUP FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "360.AX",
+        "companyName": "LIFE360 CDI FORUS",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "3DA.AX",
+        "companyName": "AMAEROINT FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "3DP.AX",
+        "companyName": "POINTERRA FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "3PL.AX",
+        "companyName": "3PLEARNING FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "4DS.AX",
+        "companyName": "4DSMEMORY FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "5GN.AX",
+        "companyName": "5G NETWORK FPO",
+        "industryOrCategory": "Communication Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "88E.AX",
+        "companyName": "88 ENERGY FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "8CO.AX",
+        "companyName": "8COMMONLTD FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "8EC.AX",
+        "companyName": "8IP EMERG FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "8IH.AX",
+        "companyName": "8I HOLD CDI 1:1",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "9SP.AX",
+        "companyName": "9SPOKES FPO NZ",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "A2B.AX",
+        "companyName": "A2B AUST FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "A2M.AX",
+        "companyName": "A2 MILK FPO NZ",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "A3D.AX",
+        "companyName": "AURORALABS FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "A4N.AX",
+        "companyName": "ALPHA HPA FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AAC.AX",
+        "companyName": "AUST AG CO FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AAJ.AX",
+        "companyName": "ARUMA RES FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ABC.AX",
+        "companyName": "ADEL BRTN FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ABR.AX",
+        "companyName": "AMERPACBO FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ABV.AX",
+        "companyName": "ADV BRAKE FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ABX.AX",
+        "companyName": "AUSBAUXITE FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AC8.AX",
+        "companyName": "AUSCANN FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ACB.AX",
+        "companyName": "ACAPRES FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ACF.AX",
+        "companyName": "ACROW FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ACQ.AX",
+        "companyName": "ACORN CAP FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ACR.AX",
+        "companyName": "ACRUX FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ACW.AX",
+        "companyName": "ACTINOGEN FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AD1.AX",
+        "companyName": "AD1 HOLD FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AD8.AX",
+        "companyName": "AUDINATEGL FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ADD.AX",
+        "companyName": "ADAVALE FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ADORB.AX",
+        "companyName": "ANTEO TECH RTS 17MAR",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ADT.AX",
+        "companyName": "ADRIATIC CDI 1:1",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ADV.AX",
+        "companyName": "ARDIDEN FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ADY.AX",
+        "companyName": "ADMIRALTY FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AEF.AX",
+        "companyName": "A ETHICAL FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AEG.AX",
+        "companyName": "AB EQ PERF FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AEI.AX",
+        "companyName": "AERIS ENV FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AEV.AX",
+        "companyName": "AVENIRA FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AFG.AX",
+        "companyName": "AUSTRA FIN FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AFI.AX",
+        "companyName": "AUS.FOUND. FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AFR.AX",
+        "companyName": "AFRICAN EN CDI 1:1",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AGD.AX",
+        "companyName": "AUST GOLD FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AGE.AX",
+        "companyName": "ALLIGATOR FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AGG.AX",
+        "companyName": "ANGLOGOLD CDI 5:1",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AGH.AX",
+        "companyName": "ALTHEA FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AGL.AX",
+        "companyName": "AGL ENERGY FPO",
+        "industryOrCategory": "Utilities"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AGM.AX",
+        "companyName": "AUSTGOVERN UNITS",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AGX1.AX",
+        "companyName": "AT GBL SHR TMF UNITS",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AGY.AX",
+        "companyName": "ARGOSY FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AHQ.AX",
+        "companyName": "ALLEGIANCE FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AHY.AX",
+        "companyName": "ASALEO FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AHZ.AX",
+        "companyName": "ADMEDUS FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AIA.AX",
+        "companyName": "AUCK AIRPT FPO NZX",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AIB.AX",
+        "companyName": "AURORA GLB UNITS",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AIQ.AX",
+        "companyName": "A INV TRST UNITS",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AIR.AX",
+        "companyName": "ASTIVITA FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AIZ.AX",
+        "companyName": "AIR N.Z. FPO NZX",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AJM.AX",
+        "companyName": "ALTURA FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AJQ.AX",
+        "companyName": "ARMOUR FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AKM.AX",
+        "companyName": "ASPIRE FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AKP.AX",
+        "companyName": "AUDIOPIXEL FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ALC.AX",
+        "companyName": "ALCIDION FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ALF.AX",
+        "companyName": "AUST LEAD FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ALG.AX",
+        "companyName": "ARDENTLGLT FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ALI.AX",
+        "companyName": "ARGO GLOBL FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ALK.AX",
+        "companyName": "ALKANE FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ALL.AX",
+        "companyName": "ARISTOCRAT FPO",
+        "industryOrCategory": "Communication Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ALU.AX",
+        "companyName": "ALTIUM LTD FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ALY.AX",
+        "companyName": "ALCHEMYRES FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AMA.AX",
+        "companyName": "AMA GROUP FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AMB.AX",
+        "companyName": "AMBITION FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AMC.AX",
+        "companyName": "AMCOR PLC CDI 1:1",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AMD.AX",
+        "companyName": "ARROW MIN FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AMG.AX",
+        "companyName": "AUSMEX FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AMH.AX",
+        "companyName": "AMCIL FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AMI.AX",
+        "companyName": "AURELIA FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AML.AX",
+        "companyName": "AEON METAL FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AMP.AX",
+        "companyName": "AMP FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AMPPA.AX",
+        "companyName": "AMP NYR3QUT",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AMPPB.AX",
+        "companyName": "AMP NYR3QUT",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AMS.AX",
+        "companyName": "ATOMOS FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ANG.AX",
+        "companyName": "AUSTIN ENG FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ANL.AX",
+        "companyName": "AMANI GOLD FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ANN.AX",
+        "companyName": "ANSELL FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ANO.AX",
+        "companyName": "ADVNANOTEK FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ANR.AX",
+        "companyName": "ANATARA LS FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ANW.AX",
+        "companyName": "AUS TIN FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ANZ.AX",
+        "companyName": "ANZ BANK FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ANZPD.AX",
+        "companyName": "ANZ BANK NYR6QUT",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ANZPE.AX",
+        "companyName": "ANZ BANK NYR6QUT",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ANZPG.AX",
+        "companyName": "ANZ BANK NYR3QUT",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ANZPH.AX",
+        "companyName": "ANZ BANK NYR3QUT",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AOF.AX",
+        "companyName": "AU OFFICE FPO",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AON.AX",
+        "companyName": "APOLLO MIN FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AOU.AX",
+        "companyName": "AUROCH MIN FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "APA.AX",
+        "companyName": "APA GROUP STAPLED",
+        "industryOrCategory": "Utilities"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "APD.AX",
+        "companyName": "APN PROP STAPLED",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "APE.AX",
+        "companyName": "AP EAGERS FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "APH.AX",
+        "companyName": "APHEMP FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "API.AX",
+        "companyName": "AUST PHARM FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "APL.AX",
+        "companyName": "ANTIPODES FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "APT.AX",
+        "companyName": "AFTERPAY FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "APW.AX",
+        "companyName": "AIMSPROSEC UNIT",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "APX.AX",
+        "companyName": "APPEN FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "APZ.AX",
+        "companyName": "ASPEN STAPLED",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AQC.AX",
+        "companyName": "AUSPACCOAL FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AQD.AX",
+        "companyName": "AUSQUEST FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AQG.AX",
+        "companyName": "ALACERGOLD CDI 1:1",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AQR.AX",
+        "companyName": "APNCONREIT STAPLED",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AQS.AX",
+        "companyName": "AQUIS FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ARA.AX",
+        "companyName": "ARIADNE FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ARC.AX",
+        "companyName": "AUST RURAL FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ARD.AX",
+        "companyName": "ARGENT MIN FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ARE.AX",
+        "companyName": "ARGONAUT FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ARF.AX",
+        "companyName": "ARENA REIT STAPLED",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ARG.AX",
+        "companyName": "ARGO FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ARL.AX",
+        "companyName": "ARDEARES FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ARN.AX",
+        "companyName": "ALDORO FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ARO.AX",
+        "companyName": "ASTRO RES FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ARU.AX",
+        "companyName": "ARAFURA FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ARV.AX",
+        "companyName": "ARTEMIS FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AS1.AX",
+        "companyName": "ANGEL FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ASB.AX",
+        "companyName": "AUSTAL LTD FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ASG.AX",
+        "companyName": "AUTOSPORTS FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AST.AX",
+        "companyName": "AUSNET FPO",
+        "industryOrCategory": "Utilities"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ASW.AX",
+        "companyName": "ADVANSHARE FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ASX.AX",
+        "companyName": "ASX FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ATC.AX",
+        "companyName": "ALTECH CHE FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ATH.AX",
+        "companyName": "ALTERITY FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ATL.AX",
+        "companyName": "APOLLO T&L FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ATP.AX",
+        "companyName": "ATLASPEARL FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ATR.AX",
+        "companyName": "ASTRON CDI 1:1",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ATS.AX",
+        "companyName": "AUSTRALIS FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AU1.AX",
+        "companyName": "THE AGENCY FPO",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AUB.AX",
+        "companyName": "AUB GROUP FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AUH.AX",
+        "companyName": "AUSTCHINA FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AUI.AX",
+        "companyName": "A.U.INV. FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AUR.AX",
+        "companyName": "AURISMINE FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AUST.AX",
+        "companyName": "BETA MR AU TMF UNITS",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AUT.AX",
+        "companyName": "AUTECO FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AUZ.AX",
+        "companyName": "AUST MINES FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AVA.AX",
+        "companyName": "AVA RISK FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AVC.AX",
+        "companyName": "AUCTUS ALT FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AVG.AX",
+        "companyName": "AUST VINT FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AVH.AX",
+        "companyName": "AVITA MED FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AVJ.AX",
+        "companyName": "AVJ FPO",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AVL.AX",
+        "companyName": "AUSTVANAD FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AVZ.AX",
+        "companyName": "AVZ MINS FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AWY.AX",
+        "companyName": "AUSWHISKY FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AX1.AX",
+        "companyName": "ACCENT GL FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AXE.AX",
+        "companyName": "ARCHER MAT FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AXI.AX",
+        "companyName": "AXIOM FPO",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AYM.AX",
+        "companyName": "AUSTUNITED FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AYR.AX",
+        "companyName": "ALLOY RES FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AYS.AX",
+        "companyName": "AMAYSIM FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AZI.AX",
+        "companyName": "ALTAZINC FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AZJ.AX",
+        "companyName": "AURIZON FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AZS.AX",
+        "companyName": "AZURE MINS FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AZV.AX",
+        "companyName": "AZ HEALTH FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "AZY.AX",
+        "companyName": "ANTIPA MIN FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BAF.AX",
+        "companyName": "BLUE S AAF FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BAP.AX",
+        "companyName": "BAPCOR LTD FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BAR.AX",
+        "companyName": "BARRA RES FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BBC.AX",
+        "companyName": "BNKBANKING FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BBL.AX",
+        "companyName": "BRIS BRONC FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BBN.AX",
+        "companyName": "BABY B FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BBOZ.AX",
+        "companyName": "BETA SBEAR TMF UNITS",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BBUS.AX",
+        "companyName": "BETAUSBEAR TMF UNITS",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BBX.AX",
+        "companyName": "BBXMINERAL FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BC8.AX",
+        "companyName": "BLACK CAT FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BCB.AX",
+        "companyName": "BOWENCOAL FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BCC.AX",
+        "companyName": "BEAM COMS FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BCI.AX",
+        "companyName": "BCIMINERAL FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BD1.AX",
+        "companyName": "BARD1 LIFE FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BDG.AX",
+        "companyName": "BLK DRAGON CDI 1:1",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BEE.AX",
+        "companyName": "BROO LTD FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BEM.AX",
+        "companyName": "BLACKEARTH FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BEN.AX",
+        "companyName": "BEN ADE BK FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BENPF.AX",
+        "companyName": "BEN ADE BK LPYR6UT",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BENPG.AX",
+        "companyName": "BEN ADE BK LPYR3UT",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BET.AX",
+        "companyName": "BETMAKTECH FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BFC.AX",
+        "companyName": "BEST GLOB FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BFG.AX",
+        "companyName": "BELL FN GP FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BGA.AX",
+        "companyName": "BEGA FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BGL.AX",
+        "companyName": "BELLEVUE FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BHP.AX",
+        "companyName": "BHP GROUP FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BID.AX",
+        "companyName": "BIDENERGY FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BIN.AX",
+        "companyName": "BINGO IND FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BIS.AX",
+        "companyName": "BISALLOY FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BIT.AX",
+        "companyName": "BIOTRON FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BKI.AX",
+        "companyName": "BKI INVEST FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BKL.AX",
+        "companyName": "BLACKMORE. FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BKT.AX",
+        "companyName": "BLACKROCK FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BKW.AX",
+        "companyName": "BRICKWORKS FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BKY.AX",
+        "companyName": "BERKELEY FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BLD.AX",
+        "companyName": "BORAL LTD FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BLK.AX",
+        "companyName": "BLACKHAM FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BLT.AX",
+        "companyName": "BENITEC FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BLU.AX",
+        "companyName": "BLUEENERGY FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BLY.AX",
+        "companyName": "BOART FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BLZ.AX",
+        "companyName": "BLAZE INT FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BMN.AX",
+        "companyName": "BANNERMAN FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BNL.AX",
+        "companyName": "BIGSTARENE FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BNO.AX",
+        "companyName": "BIONOMICS FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BNR.AX",
+        "companyName": "BULLETIN FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BOA.AX",
+        "companyName": "BOADICEA FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BOC.AX",
+        "companyName": "BOUGVLLE.C FPO 1K",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BOE.AX",
+        "companyName": "BOSS RES FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BOL.AX",
+        "companyName": "BOOM FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BOQ.AX",
+        "companyName": "BANK QLD FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BOQPE.AX",
+        "companyName": "BANK QLD NYR3QUT",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BOT.AX",
+        "companyName": "BOTANIX FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BPP.AX",
+        "companyName": "BABYLONPU FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BPT.AX",
+        "companyName": "BEACH FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BRB.AX",
+        "companyName": "BREAKER FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BRG.AX",
+        "companyName": "BREVILLE FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BRI.AX",
+        "companyName": "BIG RIVER FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BRK.AX",
+        "companyName": "BROOKSIDE FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BRL.AX",
+        "companyName": "BATHURST FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BRN.AX",
+        "companyName": "BRAINCHIP FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BRU.AX",
+        "companyName": "BURUENERGY FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BRV.AX",
+        "companyName": "BIGRIVGOLD FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BSA.AX",
+        "companyName": "BSA AUST FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BSE.AX",
+        "companyName": "BASEIRON FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BSL.AX",
+        "companyName": "BLUESCOPE FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BSM.AX",
+        "companyName": "BASSMETALS FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BSR.AX",
+        "companyName": "BASSARI FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BSX.AX",
+        "companyName": "BLACKSTONE FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BTC.AX",
+        "companyName": "BTC HEALTH FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BTH.AX",
+        "companyName": "BIGTINCAN FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BUB.AX",
+        "companyName": "BUBS AUST FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BUD.AX",
+        "companyName": "BUDDY FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BUG.AX",
+        "companyName": "BUD GINGER FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BUX.AX",
+        "companyName": "BUXTONRES FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BUY.AX",
+        "companyName": "BOUNTY OIL FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BVS.AX",
+        "companyName": "BRAVURA FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BWF.AX",
+        "companyName": "BLACKWALL FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BWP.AX",
+        "companyName": "BWP TRUST ORD UNITS",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BWR.AX",
+        "companyName": "BWLPTRUST UNITS",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BXB.AX",
+        "companyName": "BRAMB LTD FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BYE.AX",
+        "companyName": "BYRON ENER FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "BYH.AX",
+        "companyName": "BRYAH RES FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "C6C.AX",
+        "companyName": "COPPERMTN CDI 1:1",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CAF.AX",
+        "companyName": "C ALLIANCE FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CAG.AX",
+        "companyName": "CAPE RANGE FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CAZ.AX",
+        "companyName": "CAZALY RES FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CBA.AX",
+        "companyName": "CWLTH BANK FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CBAPD.AX",
+        "companyName": "CWLTH BANK NYR3QUT",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CBAPE.AX",
+        "companyName": "CWLTH BANK NYR3QUT",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CBAPF.AX",
+        "companyName": "CWLTH BANK NYR3QUT",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CBAPG.AX",
+        "companyName": "CWLTH BANK NYR3QUT",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CBAPH.AX",
+        "companyName": "CWLTH BANK NYR3QUT",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CBAPI.AX",
+        "companyName": "CWLTH BANK NYR3QUT",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CBR.AX",
+        "companyName": "CARBON REV FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CCL.AX",
+        "companyName": "CC AMATIL FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CEL.AX",
+        "companyName": "CHAL EXP FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CEN.AX",
+        "companyName": "CONTACT EN FPO NZX",
+        "industryOrCategory": "Utilities"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CFE.AX",
+        "companyName": "CAPE LAMBT FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CGC.AX",
+        "companyName": "COSTA GRP FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CGFPA.AX",
+        "companyName": "CHALLENGER LPYR3QUT",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CGFPB.AX",
+        "companyName": "CHALLENGER NYR3QUT",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CGL.AX",
+        "companyName": "CITADEL GP FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CGR.AX",
+        "companyName": "CML GROUP FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CHC.AX",
+        "companyName": "CHARTER HG STP FORUS",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CIP.AX",
+        "companyName": "CEN I REIT ORD UNIT",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CLW.AX",
+        "companyName": "CHTR H LWR STAPLED",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CLX.AX",
+        "companyName": "CTI LOGIST FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CML.AX",
+        "companyName": "CHASE MINE FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CMW.AX",
+        "companyName": "CROMWELL STAPLED",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CNW.AX",
+        "companyName": "CIRRUS NET FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CRN.AX",
+        "companyName": "CORONADO CDI 10:1",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CSS.AX",
+        "companyName": "CLEAN SEAS FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CT1.AX",
+        "companyName": "CCP TECH FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CTD.AX",
+        "companyName": "CORP TRAV FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CTP.AX",
+        "companyName": "CENT PETRL FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CUX.AX",
+        "companyName": "CROSS STRT FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CVL.AX",
+        "companyName": "CIVMEC CDI 1:1",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CXO.AX",
+        "companyName": "CORE EXP FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "CZL.AX",
+        "companyName": "CONS ZINC FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "D2O.AX",
+        "companyName": "DUXTON FPO",
+        "industryOrCategory": "Utilities"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DAU.AX",
+        "companyName": "DAMPIERGOL FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DCC.AX",
+        "companyName": "DIGITALX FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DDD.AX",
+        "companyName": "3D RES FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DDR.AX",
+        "companyName": "DICKERDATA FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DDT.AX",
+        "companyName": "DATADOT FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DEG.AX",
+        "companyName": "DEGREY FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DGO.AX",
+        "companyName": "DRUMMOND FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DGR.AX",
+        "companyName": "DGR GLOBAL FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DHG.AX",
+        "companyName": "DOMAIN FPO",
+        "industryOrCategory": "Communication Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DHR.AX",
+        "companyName": "DARK HORSE FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DJW.AX",
+        "companyName": "DJW INVEST FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DKM.AX",
+        "companyName": "DUKETON FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DLC.AX",
+        "companyName": "DELECTA FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DMP.AX",
+        "companyName": "DOMINOS FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DNA.AX",
+        "companyName": "DONACO FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DNK.AX",
+        "companyName": "DANAKALI FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DOR.AX",
+        "companyName": "DORIEMUS CDI 1:1",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DOW.AX",
+        "companyName": "DOWNER EDI FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DRO.AX",
+        "companyName": "DRONE FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DTI.AX",
+        "companyName": "DTI GROUP FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DTL.AX",
+        "companyName": "DATA3 FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DTR.AX",
+        "companyName": "DATELINE FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DTS.AX",
+        "companyName": "DRAGONTAIL FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DTZ.AX",
+        "companyName": "DOTZ NANO FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DUI.AX",
+        "companyName": "DUI FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DW8.AX",
+        "companyName": "DIGITALWIN FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DWS.AX",
+        "companyName": "DWS LTD FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DXN.AX",
+        "companyName": "DXNLIMITED FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DXS.AX",
+        "companyName": "DEXUS STAPLED",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "DYL.AX",
+        "companyName": "D YELLOW FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "E25.AX",
+        "companyName": "ELEMENT25 FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "E2E.AX",
+        "companyName": "EONNRG FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "E2M.AX",
+        "companyName": "E2METALS FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EAF.AX",
+        "companyName": "EVANPARTAF UNITS",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EAX.AX",
+        "companyName": "ENERGY ACT FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EBG.AX",
+        "companyName": "EUMUNDI FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EBND.AX",
+        "companyName": "VE EM BOND TMF UNITS",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EBO.AX",
+        "companyName": "EBOS FPO NZ",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ECF.AX",
+        "companyName": "ELANOR COM STAPLED",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ECG.AX",
+        "companyName": "ECARGO CDI 1:1",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ECL.AX",
+        "companyName": "EXCELSIOR FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EEG.AX",
+        "companyName": "EMPIRE ENE FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EER.AX",
+        "companyName": "EASTENERGY FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EFE.AX",
+        "companyName": "E IRON FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EFF.AX",
+        "companyName": "E&PAUSFLAG UNITS",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EGD.AX",
+        "companyName": "E&PDISRUP UNITS",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EGF.AX",
+        "companyName": "EPFLAGSHIP UNITS",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EGH.AX",
+        "companyName": "EUR GROUP FPO",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EGI.AX",
+        "companyName": "ELLERSTON FPO",
+        "industryOrCategory": "Financial"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EGL.AX",
+        "companyName": "ENVN GROUP FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EHE.AX",
+        "companyName": "ESTIA HLTH FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EHH.AX",
+        "companyName": "EAGLE H FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EHL.AX",
+        "companyName": "EMECO HLDG FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EINC.AX",
+        "companyName": "BETALMEINC TMF UNITS",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ELD.AX",
+        "companyName": "ELDERS FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ELO.AX",
+        "companyName": "ELMOSFTWRE FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ELS.AX",
+        "companyName": "ELSIGHT FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ELT.AX",
+        "companyName": "ELEMENTOS FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EM1.AX",
+        "companyName": "EMERGEGAM FPO",
+        "industryOrCategory": "Communication Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EM2.AX",
+        "companyName": "EAGLE MML FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EMH.AX",
+        "companyName": "EUROMETALS CDI 1:1",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EML.AX",
+        "companyName": "EMLPAYMENT FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EMMG.AX",
+        "companyName": "BETALMEMMG TMF UNITS",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EMP.AX",
+        "companyName": "EMPEROR FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EMR.AX",
+        "companyName": "EMERALD FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EMU.AX",
+        "companyName": "EMU NL FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EMV.AX",
+        "companyName": "EMVISION FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EN1.AX",
+        "companyName": "ENGAGE BDR FPO",
+        "industryOrCategory": "Communication Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ENN.AX",
+        "companyName": "ELANOR STAPLED",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ENT.AX",
+        "companyName": "ENT METALS FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EOF.AX",
+        "companyName": "ECOFIBRE FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EOS.AX",
+        "companyName": "ELEC OPTIC FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EPD.AX",
+        "companyName": "EMPIREDLTD FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EQT.AX",
+        "companyName": "EQUITY TR FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EQX.AX",
+        "companyName": "EQUATORIAL FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ERA.AX",
+        "companyName": "ERA FPO \'A\'",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ERF.AX",
+        "companyName": "ELANORETL STAPLED",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ERG.AX",
+        "companyName": "ENECOREFRE FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ERM.AX",
+        "companyName": "EMMERSON FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ERX.AX",
+        "companyName": "EXORE RES FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ESE.AX",
+        "companyName": "ESENSELAB CDI 1:1",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ESH.AX",
+        "companyName": "ESPORTS FPO",
+        "industryOrCategory": "Communication Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ESR.AX",
+        "companyName": "ESTRELLA R FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EUC.AX",
+        "companyName": "EUROCOBALT FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EUR.AX",
+        "companyName": "EUROLITH FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EVE.AX",
+        "companyName": "EVE INVEST FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EVN.AX",
+        "companyName": "EVOLUTION FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EVO.AX",
+        "companyName": "EVOLVE EDU FPO NZX",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EVS.AX",
+        "companyName": "ENVIROSUIT FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EVT.AX",
+        "companyName": "EVEHOSPENT FPO",
+        "industryOrCategory": "Communication Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EVZ.AX",
+        "companyName": "EVZ LTD FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EWC.AX",
+        "companyName": "ENERGY WLD FPO",
+        "industryOrCategory": "Utilities"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EXL.AX",
+        "companyName": "ELIXINOL FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EXP.AX",
+        "companyName": "EXPERNCECO FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EXR.AX",
+        "companyName": "ELIXIR NRG FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "EZL.AX",
+        "companyName": "EUROZ FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "FAU.AX",
+        "companyName": "FIRST AU FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "FBU.AX",
+        "companyName": "FLETBUILD FPO NZX",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "FCL.AX",
+        "companyName": "FINEOS CDI 1:1",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "FDV.AX",
+        "companyName": "FRONT D V FPO",
+        "industryOrCategory": "Communication Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "FEL.AX",
+        "companyName": "FE LIMITED FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "FEX.AX",
+        "companyName": "FENIX RES FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "FGG.AX",
+        "companyName": "FUTURE GLB FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "FIJ.AX",
+        "companyName": "FIJI KAVA FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "FML.AX",
+        "companyName": "FOCUS MIN FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "FPH.AX",
+        "companyName": "F&P HEALTH FPO NZX",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "FRM.AX",
+        "companyName": "FARM PRIDE FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "FSA.AX",
+        "companyName": "FSA GROUP FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "FSG.AX",
+        "companyName": "FIELD SOLU FPO",
+        "industryOrCategory": "Communication Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "FTC.AX",
+        "companyName": "FIN CHAIN CDI 1:1",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "FTT.AX",
+        "companyName": "FACTOR TH FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "G1A.AX",
+        "companyName": "GALENA MIN FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "G88.AX",
+        "companyName": "MILE FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "GAP.AX",
+        "companyName": "GALE PAC FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "GAS.AX",
+        "companyName": "STATE GAS FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "GBE.AX",
+        "companyName": "GLOBE MET FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "GBP.AX",
+        "companyName": "GLOBAL PET FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "GC1.AX",
+        "com...CORP FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TAM.AX",
+        "companyName": "TANAMI FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TAO.AX",
+        "companyName": "TAO COMMOD FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TAP.AX",
+        "companyName": "TAP OIL FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TBL.AX",
+        "companyName": "TAMBLA FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TBR.AX",
+        "companyName": "TRIBUNE FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TCL.AX",
+        "companyName": "TRANSURBAN STAPLED",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TCN.AX",
+        "companyName": "TECHNICHE. FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TCO.AX",
+        "companyName": "TRANSMETRO FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TD1.AX",
+        "companyName": "TALI DIGI FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TDI.AX",
+        "companyName": "360DIGITAL UNITS",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TEG.AX",
+        "companyName": "TRIANGLE FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TEK.AX",
+        "companyName": "THORN TECH FPO",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TGA.AX",
+        "companyName": "THORN GRP FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TGG.AX",
+        "companyName": "TEMPLETON FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TGM.AX",
+        "companyName": "THETA FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TGN.AX",
+        "companyName": "TUNGSTEN FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TGO.AX",
+        "companyName": "TRIMANTIUM FPO",
+        "industryOrCategory": "Communication Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TGR.AX",
+        "companyName": "TASSAL GRP FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "THR.AX",
+        "companyName": "THORMINING CDI 1:1",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TIG.AX",
+        "companyName": "TIG REALM FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TKM.AX",
+        "companyName": "TREKMET CDI",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TLG.AX",
+        "companyName": "TALGA RES FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TLM.AX",
+        "companyName": "TALISMAN FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TLS.AX",
+        "companyName": "TELSTRA FPO",
+        "industryOrCategory": "Communication Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TLX.AX",
+        "companyName": "TELIXPHARM FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TMG.AX",
+        "companyName": "TRIGG MIN FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TMR.AX",
+        "companyName": "TEMPUS FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TNE.AX",
+        "companyName": "TECH ONE FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TNK.AX",
+        "companyName": "THINK CHIL STAPLED",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TNR.AX",
+        "companyName": "TORIAN FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TNT.AX",
+        "companyName": "TESSERENT FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TNY.AX",
+        "companyName": "TINYBEANS FPO",
+        "industryOrCategory": "Communication Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TOE.AX",
+        "companyName": "TORO ENERG FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TON.AX",
+        "companyName": "TRITONMIN FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TOP.AX",
+        "companyName": "THORNEYOPP FPO",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TOT.AX",
+        "companyName": "360CAPITAL STAPLED",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TOU.AX",
+        "companyName": "TLOUENERGY FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TPC.AX",
+        "companyName": "TPC CONSOL FPO",
+        "industryOrCategory": "Utilities"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TPM.AX",
+        "companyName": "TPGTELECOM FPO",
+        "industryOrCategory": "Communication Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TPO.AX",
+        "companyName": "TIAN POH FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TPS.AX",
+        "companyName": "THREAT PRO FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TPW.AX",
+        "companyName": "TEMPLE WEB FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TRA.AX",
+        "companyName": "TURNERS FPO NZX",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TRS.AX",
+        "companyName": "REJECTSHOP FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TRY.AX",
+        "companyName": "TROY RES. FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TSC.AX",
+        "companyName": "TWENTY7 CO FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TSO.AX",
+        "companyName": "TESORO RES FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TTB.AX",
+        "companyName": "TOTALBRAIN FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TTM.AX",
+        "companyName": "TITANMIN FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TTT.AX",
+        "companyName": "TITOMIC FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TWD.AX",
+        "companyName": "TAMAWOOD FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TWE.AX",
+        "companyName": "TREA WINE FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TYM.AX",
+        "companyName": "TYMLEZ FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TYR.AX",
+        "companyName": "TYRO PAY FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TZL.AX",
+        "companyName": "TZ LIMITED FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "TZN.AX",
+        "companyName": "TERRAMIN FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "UBI.AX",
+        "companyName": "UNI BIOSEN CDI 1:1",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "UNV.AX",
+        "companyName": "UNIV COAL CDI 1:1",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "UOS.AX",
+        "companyName": "U.O. AUST FPO",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "URF.AX",
+        "companyName": "US RESPROP ORD UNITS",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "URW.AX",
+        "companyName": "UNIBALWEST CDI 20:1",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "UUV.AX",
+        "companyName": "UUV AQUA FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VAH.AX",
+        "companyName": "VIRGIN AUS FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VAL.AX",
+        "companyName": "VALORES FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VAN.AX",
+        "companyName": "VANGOMIN FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VAR.AX",
+        "companyName": "VARISCAN FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VBS.AX",
+        "companyName": "VECTUS BIO FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VCX.AX",
+        "companyName": "VICINITY STAPLED",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VEA.AX",
+        "companyName": "VIVA E GRP FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VEE.AX",
+        "companyName": "VEEM LTD FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VEN.AX",
+        "companyName": "VINENERGY FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VG1.AX",
+        "companyName": "VGI GLOBAL FPO",
+        "industryOrCategory": "Financial"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VG8.AX",
+        "companyName": "VGI ASIAN FPO",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VGI.AX",
+        "companyName": "VGI PRTNRS FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VGL.AX",
+        "companyName": "VSTA GRP FPO NZX",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VHT.AX",
+        "companyName": "VOLPARA FPO NZ",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VIP.AX",
+        "companyName": "VIP GLOVES FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VKA.AX",
+        "companyName": "VIKINGMINE FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VLS.AX",
+        "companyName": "VLSCIENCE FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VMC.AX",
+        "companyName": "VENUS MET FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VMG.AX",
+        "companyName": "VDM GROUP FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VMIN.AX",
+        "companyName": "VDMINVOL TMF UNITS",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VML.AX",
+        "companyName": "VITALMETAL FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VMT.AX",
+        "companyName": "VMOTO FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VMX.AX",
+        "companyName": "VALMECLTD FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VMY.AX",
+        "companyName": "VIMY RES FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VN8.AX",
+        "companyName": "VONEXLTD FPO",
+        "industryOrCategory": "Communication Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VOC.AX",
+        "companyName": "VOCUS FPO",
+        "industryOrCategory": "Communication Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VOL.AX",
+        "companyName": "VICTRY OFF FPO",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VOR.AX",
+        "companyName": "VORTIVLIM FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VPR.AX",
+        "companyName": "VOLT POWER FPO",
+        "industryOrCategory": "Utilities"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VR1.AX",
+        "companyName": "VECTIONTEC FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VR8.AX",
+        "companyName": "VANAD RES FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VRC.AX",
+        "companyName": "VOLT FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VRL.AX",
+        "companyName": "VILLAGE FPO",
+        "industryOrCategory": "Communication Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VRS.AX",
+        "companyName": "VERIS FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VRT.AX",
+        "companyName": "VIRTUS FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VRX.AX",
+        "companyName": "VRXSILICA FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VTG.AX",
+        "companyName": "VITA GROUP FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VTH.AX",
+        "companyName": "VITALHARV UNIT",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VTI.AX",
+        "companyName": "VISIONTECH CDI FORUS",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VUK.AX",
+        "companyName": "V MONEY UK CDI 1:1",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VVA.AX",
+        "companyName": "VIVALEISUR FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VVR.AX",
+        "companyName": "VIVA REIT STAPLED",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VXR.AX",
+        "companyName": "VENTUREX FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "VYS.AX",
+        "companyName": "VYSARNLTD FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WAF.AX",
+        "companyName": "WESTAFRICA FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WAM.AX",
+        "companyName": "WAMCAPITAL FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WAT.AX",
+        "companyName": "WATERCO FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WAX.AX",
+        "companyName": "WAM RESEAR FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WBC.AX",
+        "companyName": "WESTPAC FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WBCPE.AX",
+        "companyName": "WESTPAC NYR3QUT",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WBCPF.AX",
+        "companyName": "WESTPAC NYR3QUT",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WBCPG.AX",
+        "companyName": "WESTPAC NYR3QUT",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WBCPH.AX",
+        "companyName": "WESTPAC NYR3QUT",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WBCPI.AX",
+        "companyName": "WESTPAC NYR3QUT",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WBE.AX",
+        "companyName": "WHITEBARK FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WBT.AX",
+        "companyName": "WEEBITNANO FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WCMQ.AX",
+        "companyName": "WCMQUALGRO TMF UNITS",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WCN.AX",
+        "companyName": "WHITECLIFF FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WEB.AX",
+        "companyName": "WEBJET FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WEC.AX",
+        "companyName": "WHITE ENER FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WEL.AX",
+        "companyName": "WINCHESTER FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WES.AX",
+        "companyName": "WESFARMER FPO",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WGB.AX",
+        "companyName": "WAMGLOBAL FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WGN.AX",
+        "companyName": "WAGNERS FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WGO.AX",
+        "companyName": "WARREGO FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WGX.AX",
+        "companyName": "WESTGOLD FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WHC.AX",
+        "companyName": "WHITEHAVEN FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WHF.AX",
+        "companyName": "WHITEFIELD FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WHFPB.AX",
+        "companyName": "WHITEFIELD CPVM6QU",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WHK.AX",
+        "companyName": "WHITEHAWK FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WIC.AX",
+        "companyName": "WESTOZIC FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WKT.AX",
+        "companyName": "WALKABOUT FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WLD.AX",
+        "companyName": "WELLARD FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WLE.AX",
+        "companyName": "WAMLEADERS FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WMI.AX",
+        "companyName": "WAM MICRO FPO",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WML.AX",
+        "companyName": "WOOMERA FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WNB.AX",
+        "companyName": "WELLNESS FPO",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WND.AX",
+        "companyName": "WINDLABLTD FPO",
+        "industryOrCategory": "Utilities"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WOA.AX",
+        "companyName": "WIDE OPEN FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WOR.AX",
+        "companyName": "WORLEY FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WOW.AX",
+        "companyName": "WOOLWORTHS FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WPL.AX",
+        "companyName": "WOODSIDE FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WPP.AX",
+        "companyName": "WPP AUNZ FPO",
+        "industryOrCategory": "Communication Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WQG.AX",
+        "companyName": "WCM GLOBAL FPO",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WRLD.AX",
+        "companyName": "BETA MR GL TMF UNITS",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WRM.AX",
+        "companyName": "WHITEROCK FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WSA.AX",
+        "companyName": "WEST AREAS FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WSI.AX",
+        "companyName": "WESTSTARIN FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WSP.AX",
+        "companyName": "WHISPIR FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WTC.AX",
+        "companyName": "WISETECH FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WTL.AX",
+        "companyName": "WT FIN GRP FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WWG.AX",
+        "companyName": "WISEWAYGRP FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WWI.AX",
+        "companyName": "WEST WITS FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "WZR.AX",
+        "companyName": "WISR LTD FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "XAM.AX",
+        "companyName": "XANADUMINE FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "XCD.AX",
+        "companyName": "XCDNRG FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "XF1.AX",
+        "companyName": "XREF FPO NZ",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "XPL.AX",
+        "companyName": "XPLOREWLTH FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "XRF.AX",
+        "companyName": "XRF SCIEN FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "XRO.AX",
+        "companyName": "XERO FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "XTC.AX",
+        "companyName": "XANTIPPE FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "XTD.AX",
+        "companyName": "XTD LTD FPO",
+        "industryOrCategory": "Communication Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "XTE.AX",
+        "companyName": "XTEKLTD. FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YAL.AX",
+        "companyName": "YANCOAL FPO",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YANK.AX",
+        "companyName": "BETAYANK TMF UNITS",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YBR.AX",
+        "companyName": "YELLOWBRIC FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YMAX.AX",
+        "companyName": "BETAYIELD TMF UNITS",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YOJ.AX",
+        "companyName": "YOJEE FPO",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YOW.AX",
+        "companyName": "YOWIE FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YPB.AX",
+        "companyName": "YPB GROUP FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YRL.AX",
+        "companyName": "YANDAL FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMAGL.AX",
+        "companyName": "THETAASSET ACBCAGL21",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMAP1.AX",
+        "companyName": "THETAASSET ACBCAPA23",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMAS2.AX",
+        "companyName": "THETAASSET XTB AS227",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMAZJ.AX",
+        "companyName": "THETAASSET ACBCAZY20",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMDX2.AX",
+        "companyName": "THETAASSET XTB DX227",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMF11.AX",
+        "companyName": "THETAASSET ACBWBCF20",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMF13.AX",
+        "companyName": "THETAASSET XTBF0322",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMF14.AX",
+        "companyName": "THETAASSET XTBF1121",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMF16.AX",
+        "companyName": "THETAASSET XTBF1022",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMF17.AX",
+        "companyName": "THETAASSET XTBF0521",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMLL1.AX",
+        "companyName": "THETAASSET ACBCLLC20",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMMG2.AX",
+        "companyName": "THETAASSET ACBCMGR23",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMMGR.AX",
+        "companyName": "THETAASSET ACBCMGR20",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMQF1.AX",
+        "companyName": "THETAASSET ACBCQAN20",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMQF2.AX",
+        "companyName": "THETAASSET ACBCQAN21",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMQF3.AX",
+        "companyName": "THETAASSET ACBCQAN22",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMQF4.AX",
+        "companyName": "THETAASSET XTB QF429",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMTCL.AX",
+        "companyName": "THETAASSET ACBCTCL21",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMTL2.AX",
+        "companyName": "THETAASSET XTB TL227",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMTLS.AX",
+        "companyName": "THETAASSET ACBCTLS20",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMVC1.AX",
+        "companyName": "THETAASSET XTB VC127",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "YTMVCX.AX",
+        "companyName": "THETAASSET XTB VCX24",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "Z1P.AX",
+        "companyName": "ZIPCOLTD FPO",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ZEL.AX",
+        "companyName": "Z ENERGY FPO NZX",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ZGL.AX",
+        "companyName": "ZICOM FPO",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ZIM.AX",
+        "companyName": "ZIMPLATS FPO 10CUS",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ZMI.AX",
+        "companyName": "ZINCOFIRE FPO",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASX",
+        "symbol": "ZNO.AX",
+        "companyName": "ZOONOGROUP FPO",
+        "industryOrCategory": "Consumer Defensive"
+    }],
+    "responseStatus": null
+}

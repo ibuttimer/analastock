@@ -1,0 +1,606 @@
+{
+    "total": 120,
+    "offset": 0,
+    "results": [{
+        "exchangeCode": "ATH",
+        "symbol": "ADMIE.AT",
+        "companyName": "ADMIE (IPTO) HOLDING S.A.(CR)",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "AEGEK.AT",
+        "companyName": "AEGEK S.A",
+        "industryOrCategory": "Financial"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "AEGN.AT",
+        "companyName": "AEGEAN AIRLINES (CR)",
+        "industryOrCategory": "Services"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "AKRIT.AT",
+        "companyName": "AKRITAS S.A. (CR)",
+        "industryOrCategory": "Industrial Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "ALMY.AT",
+        "companyName": "ALUMIL ALUMINIUM INDUSTRY S.A",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "ALPHA.AT",
+        "companyName": "ALPHA BANK S.A. (CR)",
+        "industryOrCategory": "Financial"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "ANEK.AT",
+        "companyName": "ANEK LINES S.A.(CR)",
+        "industryOrCategory": "Services"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "ASTAK.AT",
+        "companyName": "ALPHA ASTIKA AKINHTA S.A. (CR)",
+        "industryOrCategory": "Financial"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "ATTICA.AT",
+        "companyName": "ATTICA HOLDINGS SA",
+        "industryOrCategory": "Services"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "AVAX.AT",
+        "companyName": "AVAX S.A.  (CR)",
+        "industryOrCategory": "Industrial Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "AVE.AT",
+        "companyName": "AUDIOVISUAL ENTERPRISES SA",
+        "industryOrCategory": "Services"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "BELA.AT",
+        "companyName": "JUMBO S.A. (CR)",
+        "industryOrCategory": "Consumer Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "BIOKA.AT",
+        "companyName": "BIOKARPET S.A. (CR)",
+        "industryOrCategory": "Industrial Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "BIOSK.AT",
+        "companyName": "UNIBIOS HOLDING S.A",
+        "industryOrCategory": "Industrial Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "BIOT.AT",
+        "companyName": "BIOTER S.A.(CR)",
+        "industryOrCategory": "Industrial Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "BRIQ.AT",
+        "companyName": "BRIQ PROPERTIES REIC (CR)",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "BYTE.AT",
+        "companyName": "BYTE COMPUTER S.A. (CR)",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "CENER.AT",
+        "companyName": "CENERGY HOLDINGS S.A.(CB)",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "CENTR.AT",
+        "companyName": "CENTRIC HOLDINGS S.A.",
+        "industryOrCategory": "Services"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "CNLCAP.AT",
+        "companyName": "CNL CAPITAL E.K.E.S.-AIFM (CR)",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "DAIOS.AT",
+        "companyName": "DAIOS PLASTICS S.A. (CR)",
+        "industryOrCategory": "Consumer Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "DOMIK.AT",
+        "companyName": "DOMIKI KRITIS S.A. (CR)",
+        "industryOrCategory": "Industrial Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "DOPPLER.AT",
+        "companyName": "DOPPLER S.A. (CR)",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "DROME.AT",
+        "companyName": "DROMEAS S.A. (CR)",
+        "industryOrCategory": "Consumer Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "EEE.AT",
+        "companyName": "COCA-COLA HBC AG",
+        "industryOrCategory": "Consumer Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "ELBE.AT",
+        "companyName": "ELVE S.A. (CR)",
+        "industryOrCategory": "Consumer Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "ELGEK.AT",
+        "companyName": "ELGEKA S.A (CR)",
+        "industryOrCategory": "Services"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "ELHA.AT",
+        "companyName": "ELVALHALCOR S.A (CR)",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "ELLAKTOR.AT",
+        "companyName": "ELLAKTOR SA",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "ELPE.AT",
+        "companyName": "HELLENIC PETROLEUM S.A. (CR)",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "ELSTR.AT",
+        "companyName": "ELASTRON S.A.",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "ELTON.AT",
+        "companyName": "ELTON CHEMICALS S.A. (CR)",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "ENTER.AT",
+        "companyName": "ENTERSOFT S.A.",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "EPIL.AT",
+        "companyName": "Selected Texttile Ind. Assoc.",
+        "industryOrCategory": "Industrial Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "EPSIL.AT",
+        "companyName": "EPSILON NET S.A. (CR)",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "ETE.AT",
+        "companyName": "National Bank of Greece (CR)",
+        "industryOrCategory": "Financial"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "EUPIC.AT",
+        "companyName": "EUROPEAN RELIANCE GEN. INSUR.",
+        "industryOrCategory": "Financial"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "EUROB.AT",
+        "companyName": "EUROBANK ERGASIAS S.A. (CR)",
+        "industryOrCategory": "Financial"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "EVROF.AT",
+        "companyName": "EVROFARMA S.A. (CR)",
+        "industryOrCategory": "Services"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "EXAE.AT",
+        "companyName": "HELLENIC EXCHANGES- ASE S.A",
+        "industryOrCategory": "Financial"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "EYAPS.AT",
+        "companyName": "THESSALONIKH WATER SUPPLY S.A.",
+        "industryOrCategory": "Utilities"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "EYDAP.AT",
+        "companyName": "ATHENS WATER SUPPLY S.A. (CR)",
+        "industryOrCategory": "Utilities"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "FIER.AT",
+        "companyName": "FIERATEX S.A. (CR)",
+        "industryOrCategory": "Industrial Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "FLEXO.AT",
+        "companyName": "FLEXOPACK S.A.",
+        "industryOrCategory": "Consumer Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "FOYRK.AT",
+        "companyName": "FOURLIS S.A (CR)",
+        "industryOrCategory": "Services"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "FRIGO.AT",
+        "companyName": "FRIGOGLASS S.A. (CR)",
+        "industryOrCategory": "Industrial Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "GEBKA.AT",
+        "companyName": "GEN.COMMERCIAL & IND (CR)",
+        "industryOrCategory": "Services"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "GEKTERNA.AT",
+        "companyName": "GEK TERNA S.A",
+        "industryOrCategory": "Industrial Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "HAIDE.AT",
+        "companyName": "HAIDEMENOS (CR)",
+        "industryOrCategory": "Services"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "HTO.AT",
+        "companyName": "HELLENIC TELECOM. ORG. (CR)",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "IATR.AT",
+        "companyName": "ATHENS MEDICAL C.S.A. (CR)",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "IKTIN.AT",
+        "companyName": "IKTINOS HELLAS S.A. (CR)",
+        "industryOrCategory": "Industrial Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "INKAT.AT",
+        "companyName": "INTRACOM CONSTRUCTIONS S.A(CR)",
+        "industryOrCategory": "Industrial Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "INLOT.AT",
+        "companyName": "INTRALOT S.A. (CR)",
+        "industryOrCategory": "Services"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "INTEK.AT",
+        "companyName": "IDEAL GROUP S.A.",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "INTET.AT",
+        "companyName": "INTERTECH S.A. INTER TECH",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "INTRK.AT",
+        "companyName": "INTRACOM HOLDINGS (CR)",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "KAMP.AT",
+        "companyName": "REDS S.A.",
+        "industryOrCategory": "Financial"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "KARE.AT",
+        "companyName": "Karelia Tobacco Company (CR)",
+        "industryOrCategory": "Consumer Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "KARTZ.AT",
+        "companyName": "KARATZIS S.A. (CR)",
+        "industryOrCategory": "Industrial Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "KEKR.AT",
+        "companyName": "Kekrops Hotel Tourist. Build",
+        "industryOrCategory": "Financial"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "KEPEN.AT",
+        "companyName": "FLOUR MILLS KEPENOS S.A. (CR)",
+        "industryOrCategory": "Consumer Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "KLM.AT",
+        "companyName": "K.L.M. S.A. (CR)",
+        "industryOrCategory": "Industrial Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "KMOL.AT",
+        "companyName": "KARAMOLEGOS BAKERY INDUSTRY",
+        "industryOrCategory": "Services"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "KORDE.AT",
+        "companyName": "KORDELLOS CH.BROS S.A.(CR)",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "KREKA.AT",
+        "companyName": "KRE.KA S.A. (CR)",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "KRI.AT",
+        "companyName": "KRI-KRI MILK INDUSTRY S.A (CR)",
+        "industryOrCategory": "Consumer Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "KTILA.AT",
+        "companyName": "KOSTAS LAZARIDIS S.A. (CR)",
+        "industryOrCategory": "Consumer Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "KYRI.AT",
+        "companyName": "KIRIAKOULIS SHIPPING S.A.",
+        "industryOrCategory": "Consumer Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "LAMDA.AT",
+        "companyName": "LAMDA DEVELOPMENT S.A.",
+        "industryOrCategory": "Financial"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "LEBEK.AT",
+        "companyName": "N. Levederis (C)",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "MATHIO.AT",
+        "companyName": "MATHIOS REFRACTORY S.A.",
+        "industryOrCategory": "Industrial Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "MEDIC.AT",
+        "companyName": "MEDICON HELLAS S.A. (CR)",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "MERKO.AT",
+        "companyName": "MERMEREN KOMBINAT AD PRILE",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "MEVA.AT",
+        "companyName": "MEVACO S.A. (CR)",
+        "industryOrCategory": "Conglomerates"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "MIG.AT",
+        "companyName": "MARFIN INVEST.GROUP SA (CR)",
+        "industryOrCategory": "Financial"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "MIN.AT",
+        "companyName": "MINERVA KNITWEAR S.A. (CB)",
+        "industryOrCategory": "Industrial Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "MLS.AT",
+        "companyName": "M.L.S. MULTIMEDIA S.A. (CR)",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "MODA.AT",
+        "companyName": "N. VARVERIS-MODA BANGO S.A.",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "MOH.AT",
+        "companyName": "MOTOR OIL HELLAS S.A. (CR)",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "MOTO.AT",
+        "companyName": "Cars,Motorcyc.&mar.eng.tr.&imp",
+        "industryOrCategory": "Services"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "MOYZK.AT",
+        "companyName": "EL. D. Mouzakis S.A. (CR)",
+        "industryOrCategory": "Industrial Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "MPITR.AT",
+        "companyName": "BITROS HOLDING S.A. (CR)",
+        "industryOrCategory": "Industrial Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "MSHOP.AT",
+        "companyName": "MEDITERRA S.A. (CR)",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "MYTIL.AT",
+        "companyName": "MYTILINEOS S.A. (CR)",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "NAKAS.AT",
+        "companyName": "NAKAS MUSIC",
+        "industryOrCategory": "Services"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "NAYP.AT",
+        "companyName": "NAFPAKTOS TEXTILE IND.",
+        "industryOrCategory": "Industrial Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "NEWS.AT",
+        "companyName": "NEWSPHONE HELLAS S.A (CR)",
+        "industryOrCategory": "Services"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "NIR.AT",
+        "companyName": "NIREFS S.A. (CR)",
+        "industryOrCategory": "Consumer Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "OLTH.AT",
+        "companyName": "THESSALONIKI PORT AUTHORITY",
+        "industryOrCategory": "Services"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "OPAP.AT",
+        "companyName": "OPAP S.A. (CR)",
+        "industryOrCategory": "Services"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "OTOEL.AT",
+        "companyName": "AUTOHELLAS S.A. (CR)",
+        "industryOrCategory": "Services"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "PAIR.AT",
+        "companyName": "E. PAIRIS S.A (CR)",
+        "industryOrCategory": "Consumer Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "PASAL.AT",
+        "companyName": "PASAL  DEVELOPMENT S.A.",
+        "industryOrCategory": "Financial"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "PERF.AT",
+        "companyName": "PERFORMANCE TECHNOLOGIES A.E",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "PETRO.AT",
+        "companyName": "P. PETROPOULOS S.A. (CR)",
+        "industryOrCategory": "Consumer Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "PLAIS.AT",
+        "companyName": "PLAISIO COMPUTERS S.A. (CR)",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "PLAKR.AT",
+        "companyName": "CRETE PLASTICS S.A. (CR)",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "PLAT.AT",
+        "companyName": "THRACE PLASTICS HOLD. & COM SA",
+        "industryOrCategory": "Consumer Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "PPA.AT",
+        "companyName": "PIREUS PORT AUTHORITY S.A (CR)",
+        "industryOrCategory": "Services"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "PPAK.AT",
+        "companyName": "PAPERPACK S.A. (CR)",
+        "industryOrCategory": "Consumer Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "PPC.AT",
+        "companyName": "PUBLIC POWER CORP. S.A. (CR)",
+        "industryOrCategory": "Utilities"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "PROFK.AT",
+        "companyName": "PIPEWORKS GIRAKIAN PROFIL S.A",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "QUAL.AT",
+        "companyName": "QUALITY & RELIABILITY S.A.",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "QUEST.AT",
+        "companyName": "QUEST HOLDING S.A.",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "SAR.AT",
+        "companyName": "GR. SARANTIS S.A. (CR)",
+        "industryOrCategory": "Consumer Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "SATOK.AT",
+        "companyName": "SATO S.A. (CR)",
+        "industryOrCategory": "Consumer Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "SELO.AT",
+        "companyName": "SELONDA AQUACULTURE S.A. (CR)",
+        "industryOrCategory": "Consumer Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "SIDMA.AT",
+        "companyName": "SIDMA S.A. STEEL PRODUCTS (CR)",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "SPIR.AT",
+        "companyName": "THE HOUSE OF AGRICULTURE SPI",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "TATT.AT",
+        "companyName": "ATTICA BANK S.A",
+        "industryOrCategory": "Financial"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "TELL.AT",
+        "companyName": "Bank of Greece (CR)",
+        "industryOrCategory": "Financial"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "TENERGY.AT",
+        "companyName": "TERNA ENERGY S.A. (CR)",
+        "industryOrCategory": "Utilities"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "TITC.AT",
+        "companyName": "TITAN CEMENT INTERNATIONAL S.A",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "TPEIR.AT",
+        "companyName": "PIRAEUS BANK S.A",
+        "industryOrCategory": "Financial"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "TRASTOR.AT",
+        "companyName": "TRASTOR REAL ESTATE INVEST. CO",
+        "industryOrCategory": "Financial"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "VARG.AT",
+        "companyName": "VARANGIS AVEPE SA",
+        "industryOrCategory": "Consumer Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "VIO.AT",
+        "companyName": "VIOHALCO SA/NY",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "VIS.AT",
+        "companyName": "VIS container Manufacturing Co",
+        "industryOrCategory": "Consumer Goods"
+    }, {
+        "exchangeCode": "ATH",
+        "symbol": "VOSYS.AT",
+        "companyName": "VOGIATZOGLOY SYSTEMS S.A. (CR)",
+        "industryOrCategory": "Consumer Goods"
+    }],
+    "responseStatus": null
+}

@@ -1,0 +1,1051 @@
+{
+    "total": 209,
+    "offset": 0,
+    "results": [{
+        "exchangeCode": "ASE",
+        "symbol": "AAMC",
+        "companyName": "Altisource Asset Management Cor",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "AAU",
+        "companyName": "Almaden Minerals, Ltd.",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "ACU",
+        "companyName": "Acme",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "ACY",
+        "companyName": "AeroCentury Corp.",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "AE",
+        "companyName": "AE",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "AGE",
+        "companyName": "AgeX Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "AINC",
+        "companyName": "Ashford Inc. (Holding Company)",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "AIRI",
+        "companyName": "Air Industries Group",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "AKG",
+        "companyName": "Asanko Gold Inc.",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "ALO",
+        "companyName": "Alio Gold Inc.",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "AMBO",
+        "companyName": "Ambow Education Holding Ltd. Am",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "AMS",
+        "companyName": "American Shared Hospital Servic",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "APT",
+        "companyName": "Alpha Pro Tech, Ltd.",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "ASM",
+        "companyName": "Avino Silver & Gold Mines Ltd.",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "ATNM",
+        "companyName": "Actinium Pharmaceuticals, Inc. ",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "AUG",
+        "companyName": "Auryn Resources Inc.",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "AUMN",
+        "companyName": "Golden Minerals Company",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "AWX",
+        "companyName": "Avalon Holdings Corporation",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "AXU",
+        "companyName": "Alexco Resource Corp",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "BCV-PA",
+        "companyName": "Bancroft Fund Limited 5.375% Se",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "BDL",
+        "companyName": "Flanigan\'s Enterprises, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "BDR",
+        "companyName": "Blonder Tongue Laboratories, In",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "BHB",
+        "companyName": "Bar Harbor Bankshares, Inc.",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "BIOX",
+        "companyName": "Bioceres Crop Solutions Corp.",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "BKTI",
+        "companyName": "BK Technologies Corporation",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "BPMX",
+        "companyName": "BioPharmX Corporation.",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "BRBS",
+        "companyName": "BLUE RIDGE BANKSHARES INC (VA)",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "BRG",
+        "companyName": "Bluerock Residential Growth REI",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "BRG-PA",
+        "companyName": "Bluerock Residential Growth REI",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "BRG-PC",
+        "companyName": "Bluerock Residential Growth REI",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "BRG-PD",
+        "companyName": "Bluerock Residential Growth REI",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "BTG",
+        "companyName": "B2Gold Corp",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "BTN",
+        "companyName": "Ballantyne Strong, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "BWLA",
+        "companyName": "Bowl America, Inc.",
+        "industryOrCategory": "Services"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "BWL-A",
+        "companyName": "Bowl America, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "CANF",
+        "companyName": "Can-Fite Biopharma Ltd Sponsore",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "CDOR",
+        "companyName": "Condor Hospitality Trust, Inc.",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "CEI",
+        "companyName": "Camber Energy, Inc.",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "CH",
+        "companyName": "Aberdeen Chile Fund, Inc. (The)",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "CMT",
+        "companyName": "Core Molding Technologies Inc",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "CRHM",
+        "companyName": "CRH Medical Corporation",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "CUO",
+        "companyName": "Continental Materials Corporati",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "CVM",
+        "companyName": "Cel-Sci Corporation",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "CVR",
+        "companyName": "Chicago Rivet & Machine Co.",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "CVU",
+        "companyName": "CPI Aerostructures, Inc.",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "DIT",
+        "companyName": "AMCON Distributing Company",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "DLA",
+        "companyName": "Delta Apparel, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "DNN",
+        "companyName": "Denison Mines Corp",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "DSS",
+        "companyName": "Document Security Systems, Inc.",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "DXF",
+        "companyName": "Dunxin Financial Holdings Limit",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "DXR",
+        "companyName": "Daxor Corporation",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "ECF-PA",
+        "companyName": "Ellsworth Growth and Income Fun",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "ELA",
+        "companyName": "Entergy Louisiana, LLC First Mo",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "ELLO",
+        "companyName": "Ellomay Capital Ltd",
+        "industryOrCategory": "Utilities"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "ELMD",
+        "companyName": "Electromed, Inc.",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "EMAN",
+        "companyName": "eMagin Corporation",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "EMX",
+        "companyName": "EMX Royalty Corporation",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "EPM",
+        "companyName": "Evolution Petroleum Corporation",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "ESP",
+        "companyName": "Espey Mfg. & Electronics Corp.",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "EVBN",
+        "companyName": "Evans Bancorp, Inc.",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "EVI",
+        "companyName": "EVI Industries, Inc.",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "FSI",
+        "companyName": "Flexible Solutions Internationa",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "FSP",
+        "companyName": "Franklin Street Properties Corp",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "GBR",
+        "companyName": "New Concept Energy, Inc",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "GGN-PB",
+        "companyName": "GAMCO Global Gold, Natural Reou",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "GGO-PA",
+        "companyName": "The Gabelli Go Anywhere Trust S",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "GLU-PB",
+        "companyName": "The Gabelli Global Utility and ",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "GMO",
+        "companyName": "General Moly, Inc.",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "GORO",
+        "companyName": "Gold Resource Corporation",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "GPL",
+        "companyName": "Great Panther Mining Limited",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "GSAT",
+        "companyName": "Globalstar, Inc.",
+        "industryOrCategory": "Communication Services"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "GSB",
+        "companyName": "GlobalSCAPE, Inc.",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "GSS",
+        "companyName": "Golden Star Resources, Ltd",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "GTE",
+        "companyName": "Gran Tierra Energy Inc.",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "GV",
+        "companyName": "Goldfield Corporation (The)",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "HLM_P",
+        "companyName": "Hillman Group Capital Trust Pre",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "HLM-P",
+        "companyName": "Hillman Group Capital Trust Pre",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "HMG",
+        "companyName": "HMG/Courtland Properties, Inc.",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "HUSA",
+        "companyName": "Houston American Energy Corpora",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "IGC",
+        "companyName": "India Globalization Capital Inc",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "IHT",
+        "companyName": "InnSuites Hospitality Trust Sha",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "IMH",
+        "companyName": "Impac Mortgage Holdings, Inc.",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "IMO",
+        "companyName": "Imperial Oil Limited",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "INFU",
+        "companyName": "InfuSystems Holdings, Inc.",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "INS",
+        "companyName": "Intelligent Systems Corporation",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "IPB",
+        "companyName": "Merrill Lynch & Co., Inc. 6.051",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "ITP",
+        "companyName": "IT Tech Packaging, Inc.",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "JOB",
+        "companyName": "GEE Group Inc.",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "KIQ",
+        "companyName": "Kelso Technologies Inc",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "LBY",
+        "companyName": "Libbey, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "LEU",
+        "companyName": "Centrus Energy Corp.",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "LGL",
+        "companyName": "LGL Group, Inc. (The)",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "LLEX",
+        "companyName": "Lilis Energy, Inc.",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "LNG",
+        "companyName": "Cheniere Energy, Inc.",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "LODE",
+        "companyName": "Comstock Mining, Inc.",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "LOV",
+        "companyName": "Spark Networks, Inc.",
+        "industryOrCategory": "Communication Services"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "MAG",
+        "companyName": "MAG Silver Corporation",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "MCF",
+        "companyName": "Contango Oil & Gas Company",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "MHH",
+        "companyName": "Mastech Digital, Inc",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "MICR",
+        "companyName": "Micron Solutions, Inc.",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "MLSS",
+        "companyName": "Milestone Scientific, Inc.",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "MSN",
+        "companyName": "Emerson Radio Corporation",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "MTNB",
+        "companyName": "Matinas Biopharma Holdings, Inc",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "MXC",
+        "companyName": "Mexco Energy Corporation",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "MYO",
+        "companyName": "Myomo Inc.",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "NAK",
+        "companyName": "Northern Dynasty Minerals, Ltd.",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "NAVB",
+        "companyName": "Navidea Biopharmaceuticals, Inc",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "NEN",
+        "companyName": "New England Realty Associates L",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "NES",
+        "companyName": "Nuverra Environmental Solutions",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "NG",
+        "companyName": "Novagold Resources Inc.",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "NGD",
+        "companyName": "New Gold Inc.",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "NHC",
+        "companyName": "National HealthCare Corporation",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "NNVC",
+        "companyName": "NanoViricides, Inc. NEW",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "NOG",
+        "companyName": "Northern Oil and Gas, Inc.",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "NTIP",
+        "companyName": "Network-1 Technologies, Inc.",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "NTN",
+        "companyName": "NTN Buzztime, Inc.",
+        "industryOrCategory": "Communication Services"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "NXE",
+        "companyName": "Nexgen Energy Ltd.",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PCG_PA",
+        "companyName": "Pacific Gas & Electric Co. 6% P",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PCG_PB",
+        "companyName": "Pacific Gas & Electric Co. 5 1/",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PCG_PC",
+        "companyName": "Pacific Gas & Electric Co. 5% 1",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PCG_PD",
+        "companyName": "Pacific Gas & Electric Co. 5% 1",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PCG_PE",
+        "companyName": "Pacific Gas & Electric Co. 5% 1",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PCG_PG",
+        "companyName": "Pacific Gas & Electric Co. 4.80",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PCG_PH",
+        "companyName": "Pacific Gas & Electric Co. 4.50",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PCG_PI",
+        "companyName": "Pacific Gas & Electric Co. 4.36",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PCG-PB",
+        "companyName": "Pacific Gas & Electric Co. 5 1/",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PCG-PC",
+        "companyName": "Pacific Gas & Electric Co. 5% 1",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PCG-PD",
+        "companyName": "Pacific Gas & Electric Co. 5% 1",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PCG-PE",
+        "companyName": "Pacific Gas & Electric Co. 5% 1",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PCG-PG",
+        "companyName": "Pacific Gas & Electric Co. 4.80",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PCG-PH",
+        "companyName": "Pacific Gas & Electric Co. 4.50",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PCG-PI",
+        "companyName": "Pacific Gas & Electric Co. 4.36",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PED",
+        "companyName": "Pedevco Corp.",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PFNX",
+        "companyName": "Pfenex Inc.",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PLAG",
+        "companyName": "Planet Green Holdings Corp.",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PLG",
+        "companyName": "Platinum Group Metals Ltd.",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PLM",
+        "companyName": "Polymet Mining Corporation",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PLX",
+        "companyName": "Protalix BioTherapeutics, Inc. ",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PLYM-PA",
+        "companyName": "Plymouth Industrial REIT, Inc. ",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PRK",
+        "companyName": "Park National Corporation",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PTN",
+        "companyName": "Palatin Technologies, Inc.",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PW",
+        "companyName": "Power REIT (MD)",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PW-PA",
+        "companyName": "Power REIT 7.75% Series A Cumul",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "PZG",
+        "companyName": "Paramount Gold Nevada Corp.",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "REI",
+        "companyName": "Ring Energy, Inc.",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "RHE",
+        "companyName": "Regional Health Properties, Inc",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "RHE-PA",
+        "companyName": "Regional Health Properties, Inc",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "RLGT",
+        "companyName": "Radiant Logistics, Inc.",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "RVP",
+        "companyName": "Retractable Technologies, Inc.",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "SACH",
+        "companyName": "Sachem Capital Corp.",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "SCE_PB",
+        "companyName": "Southern California Edison Comp",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "SCE_PD",
+        "companyName": "Southern California Edison Comp",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "SCE_PE",
+        "companyName": "Southern California Edison Comp",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "SCE-PB",
+        "companyName": "Southern California Edison Comp",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "SCE-PC",
+        "companyName": "Southern California Edison Comp",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "SCE-PD",
+        "companyName": "Southern California Edison Comp",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "SCE-PE",
+        "companyName": "Southern California Edison Comp",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "SDI",
+        "companyName": "Standard Diversified Inc.",
+        "industryOrCategory": "Consumer Defensive"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "SDPI",
+        "companyName": "Superior Drilling Products, Inc",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "SEB",
+        "companyName": "Seaboard Corporation",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "SENS",
+        "companyName": "Senseonics Holdings, Inc.",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "SGB",
+        "companyName": "Southwest Georgia Financial Cor",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "SIF",
+        "companyName": "SIFCO Industries, Inc.",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "SILV",
+        "companyName": "SilverCrest Metals Inc.",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "SIM",
+        "companyName": "Grupo Simec, S.A.B. de C.V.",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "SMTS",
+        "companyName": "Sierra Metals Inc.",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "SNMP",
+        "companyName": "Sanchez Midstream Partners LP",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "STXS",
+        "companyName": "STEREOTAXIS INC",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "SVM",
+        "companyName": "Silvercorp Metals Inc.",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "SYN",
+        "companyName": "Synthetic Biologics, Inc.",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "TAT",
+        "companyName": "TransAtlantic Petroleum Ltd",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "TGB",
+        "companyName": "Taseko Mines, Ltd.",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "TGC",
+        "companyName": "Tengasco, Inc.",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "THM",
+        "companyName": "International Tower Hill Mines,",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "TKAT",
+        "companyName": "Takung Art Co., Ltd.",
+        "industryOrCategory": "Consumer Cyclical"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "TMP",
+        "companyName": "Tompkins Financial Corporation",
+        "industryOrCategory": "Financial Services"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "TMQ",
+        "companyName": "Trilogy Metals Inc.",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "TPHS",
+        "companyName": "Trinity Place Holdings Inc.",
+        "industryOrCategory": "Real Estate"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "TRT",
+        "companyName": "Trio-Tech International",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "TRX",
+        "companyName": "Tanzanian Royalty Exploration C",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "TRXC",
+        "companyName": "TransEnterix, Inc.",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "UAMY",
+        "companyName": "United States Antimony Corporat",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "UAVS",
+        "companyName": "AgEagle Aerial Systems, Inc.",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "UEC",
+        "companyName": "Uranium Energy Corp.",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "URG",
+        "companyName": "Ur Energy Inc",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "USAS",
+        "companyName": "Americas Silver Corporation",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "UUU",
+        "companyName": "Universal Security Instruments,",
+        "industryOrCategory": "Industrials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "UUUU",
+        "companyName": "Energy Fuels Inc",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "VGZ",
+        "companyName": "Vista Gold Corp",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "VHC",
+        "companyName": "VirnetX Holding Corp",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "VNRX",
+        "companyName": "VolitionRX Limited",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "WRN",
+        "companyName": "Western Copper and Gold Corpora",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "WTT",
+        "companyName": "Wireless Telecom Group,  Inc.",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "WYY",
+        "companyName": "WidePoint Corporation",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "XD",
+        "companyName": "XD",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "XE",
+        "companyName": "XE",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "XF",
+        "companyName": "XF",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "XH",
+        "companyName": "XH",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "XI",
+        "companyName": "XI",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "XK",
+        "companyName": "XK",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "XM",
+        "companyName": "QUALTRICS INTERNATIONAL INC.",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "XPL",
+        "companyName": "Solitario Zinc Corp.",
+        "industryOrCategory": "Basic Materials"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "XS",
+        "companyName": "XS",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "XTNT",
+        "companyName": "Xtant Medical Holdings, Inc.",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "XU",
+        "companyName": "XU",
+        "industryOrCategory": "N/A"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "XXII",
+        "companyName": "22nd Century Group, Inc.",
+        "industryOrCategory": "Healthcare"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "YUMA",
+        "companyName": "Yuma Energy, Inc.",
+        "industryOrCategory": "Energy"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "ZDGE",
+        "companyName": "Zedge, Inc.",
+        "industryOrCategory": "Technology"
+    }, {
+        "exchangeCode": "ASE",
+        "symbol": "ZOM",
+        "companyName": "Zomedica Pharmaceuticals Corp.",
+        "industryOrCategory": "Healthcare"
+    }],
+    "responseStatus": null
+}

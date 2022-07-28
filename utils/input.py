@@ -29,10 +29,11 @@ def get_input(
     Args:
         user_prompt (str): Input prompt
         *args (InputParam): parameters
-        validate (Callable[[str], Union[Any|None]], optional): Validate user input
-                                                     returning None if invalid. Defaults to None.
+        validate (Callable[[str], Union[Any|None]], optional):
+                Validate user input returning None if invalid. Defaults to None.
         help_text (str, optional): Help text to display. Defaults to None.
-        input_form (List[str], optional): List of valid inputs. Defaults to None.
+        input_form (List[str], optional):
+                List of valid inputs. Defaults to None.
 
     Returns:
         Union[Any, None]: user input or None if invalid
@@ -54,7 +55,9 @@ def get_input(
         if help_text:
             input_form_str += f'|{HELP}' if have_input_form else f'{HELP}'
 
-        data = input(f'{user_prompt}{f" [{input_form_str}]" if input_form_str else ""}: ')
+        data = input(
+            f'{user_prompt}'\
+            f'{f" [{input_form_str}]" if input_form_str else ""}: ')
 
         if data == HELP:
             data = None
@@ -73,3 +76,31 @@ def get_input(
             data = validate(data)
 
     return data
+
+
+def user_confirm(msg: str, help_text: str = None) -> bool:
+    """
+    Get user confirmation
+
+    Args:
+        msg (str): check message
+
+    Returns:
+        bool: True if confirmed, False otherwise
+    """
+    if not help_text:
+        help_text="Enter 'y' to confirm, otherwise 'n'"
+
+    proceed = False
+    while True:
+        selection = get_input(msg, help_text=help_text,input_form=['y', 'n'])
+
+        selection = selection.lower()
+        if selection in ('y', 'yes'):
+            proceed = True
+            break
+        if selection in ('n', 'no'):
+            proceed = False
+            break
+
+    return proceed

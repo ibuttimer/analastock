@@ -77,12 +77,15 @@ def save_exchanges(data: Union[pd.DataFrame, StockDownload]) -> List[dict]:
     return data['results']
 
 
-def save_companies(data: Union[pd.DataFrame, StockDownload]) -> List[dict]:
+def save_companies(
+        data: Union[pd.DataFrame, StockDownload],
+        clear_sheet: bool = False) -> List[dict]:
     """
     Save data for companies
 
     Args:
         data (Union[pandas.DataFrame, StockDownload]): data to save
+        clear_sheet (bool): clear sheet. Defaults to False.
     """
     if isinstance(data, StockDownload):
         # json object
@@ -92,7 +95,8 @@ def save_companies(data: Union[pd.DataFrame, StockDownload]) -> List[dict]:
 
     sheet = sheet_exists(COMPANIES_SHEET, create=True)
 
-    sheet.clear()
+    if clear_sheet:
+        sheet.clear()
     values = [
         [company[attrib] for attrib in company] for company in data['results']
     ]

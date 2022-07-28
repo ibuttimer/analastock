@@ -14,7 +14,7 @@ from sheets import (
     check_partial
 )
 from utils import (
-    CloseMenuEntry, Menu, MenuEntry, info, ABORT, get_input, title
+    CloseMenuEntry, Menu, MenuEntry, info, ABORT, get_input, title, user_confirm
 )
 from .results import display_single
 
@@ -206,23 +206,33 @@ def process_exchanges():
     """
     Download and process, stock exchange and companies information
     """
+
     # HACK sample data for now
     data_mode = DataMode.SAMPLE
 
-    exchanges = save_exchanges(
-        download_exchanges(data_mode=data_mode)
-    )
+    if user_confirm(
+        'This operation may take some time, '\
+        'please confirm it is ok to proceed'):
 
-    for i, exchange in enumerate(exchanges):
-
-        code = exchange['exchangeCode']
-        info(f"{i+ 1}/{len(exchanges)}: Processing {code}")
-
-        save_companies(
-            download_companies(code, data_mode=data_mode)
+        exchanges = save_exchanges(
+            download_exchanges(data_mode=data_mode)
         )
 
-        break   # HACK so just one exchange for now
+        for i, exchange in enumerate(exchanges):
+
+            # HACK skip the exchange saved already
+            if i < 4:
+                continue
+
+            code = exchange['exchangeCode']
+            info(f"{i+ 1}/{len(exchanges)}: Processing {code}")
+
+            save_companies(
+                download_companies(code),    #, data_mode=data_mode),
+                clear_sheet=i == 0
+            )
+
+            break   # HACK so just one exchange for now
 
 
 def company_search() -> bool:

@@ -1,7 +1,7 @@
 """
 Utils package
 """
-from .input import get_input, InputParam
+from .input import get_input, InputParam, user_confirm
 from .output import (
     error, info, assistance, Colour, colorise, display, title, WrapMode
 )
@@ -16,6 +16,7 @@ from .constants import (
 __all__ = [
     'get_input',
     'InputParam',
+    'user_confirm',
 
     'Colour',
     'error',

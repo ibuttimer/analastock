@@ -6,7 +6,7 @@ import dataclasses
 from typing import Callable, Union
 
 from .constants import ABORT, PAGE_UP, PAGE_DOWN
-from .input import get_input
+from .input import get_input, user_confirm
 from .output import error, title
 
 
@@ -38,14 +38,18 @@ class MenuEntry:
     is_close: bool
     """ Menu close entry flag """
 
-    def __init__(self, name: str, func: Callable[[], bool], key: Union[str, None] = None):
+    def __init__(
+            self, name: str, func: Callable[[], bool],
+            key: Union[str, None] = None):
         """
         Constructor
 
         Args:
             name (str): display name
             func (Callable[[], bool]): function to call when entry selected
-            key (Union[str, None]): key to use to select, if None entry index is used; default None
+            key (Union[str, None]):
+                    key to use to select, if None entry index is used;
+                    Defaults to None
         """
         self.name = name
         self.func = func
@@ -269,23 +273,9 @@ class Menu:
         Returns:
             bool: True if proceed, False otherwise
         """
-        proceed = False
-        while True:
-            selection = get_input(
-                msg,
-                help_text="Enter 'y' to proceed with selection, otherwise 'n'",
-                input_form=['y', 'n']
-
-            )
-            selection = selection.lower()
-            if selection in ('y', 'yes'):
-                proceed = True
-                break
-            if selection in ('n', 'no'):
-                proceed = False
-                break
-
-        return proceed
+        return user_confirm(
+            msg,
+            help_text="Enter 'y' to proceed with selection, otherwise 'n'")
 
 
     def up_down_page(self, selection: str) -> bool:
@@ -324,6 +314,7 @@ class Menu:
                     self._start = start
                     self._end = start + self.display_rows
 
+            if error_msg:
                 error(error_msg)
 
         return processed
@@ -362,7 +353,8 @@ class Menu:
         Returns:
             int: current menu page
         """
-        return int(self._start / self.display_rows) + 1 if self.multi_page else 1
+        return int(self._start / self.display_rows) + 1 \
+                if self.multi_page else 1
 
 
     @property
@@ -385,7 +377,8 @@ class Menu:
 
         can_cancel = not self.options & Menu.OPT_NO_ABORT_BACK
         if self.multi_page or can_cancel:
-            pg_help = f"'{PAGE_UP}'/'{PAGE_DOWN}' to page up/down" if self.multi_page else ""
+            pg_help = f"'{PAGE_UP}'/'{PAGE_DOWN}' to page up/down" \
+                        if self.multi_page else ""
             cancel_help = f"'{ABORT}' to cancel" if can_cancel else ""
 
             if self.multi_page and can_cancel:
