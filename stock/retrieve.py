@@ -9,7 +9,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-from utils import info
+from utils import info, http_get
 
 from .analyse import FRIENDLY_FORMAT
 from .convert import standardise_stock_param
@@ -17,8 +17,10 @@ from .data import StockParam, StockDownload
 
 
 YAHOO_HISTORY_URL = 'https://finance.yahoo.com/quote/{}/history'
-YAHOO_DOWNLOAD_URL = 'https://query1.finance.yahoo.com/v7/finance/download/{symbol}?'\
-            'period1={from_date}&period2={to_date}&interval={interval}&events=history&'\
+YAHOO_DOWNLOAD_URL = \
+            'https://query1.finance.yahoo.com/v7/finance/download/{symbol}?'\
+            'period1={from_date}&period2={to_date}&'\
+            'interval={interval}&events=history&'\
             'includeAdjustedClose=true'
 
 HEADER = {
@@ -71,14 +73,20 @@ def _get_crumbs_and_cookies(stock):
 
     returns a tuple of header, crumb and cookie
     """
+    crumb = None
+    cookies = None
 
     url = YAHOO_HISTORY_URL.format(stock)
     with requests.session():
-        website = requests.get(url, headers=HEADER)
-        soup = BeautifulSoup(website.text, 'lxml')
-        crumb = re.findall('"CrumbStore":{"crumb":"(.+?)"}', str(soup))
+        website = http_get(url, headers=HEADER)
+        if website:
+            soup = BeautifulSoup(website.text, 'lxml')
+            crumbs = re.findall('"CrumbStore":{"crumb":"(.+?)"}', str(soup))
+            if len(crumbs) > 0:
+                crumb = crumbs[0]
+            cookies = website.cookies
 
-        return (HEADER, crumb[0], website.cookies)
+    return HEADER, crumb, cookies
 
 
 def _timestamp_epoch(date_time: Union[datetime, date]) -> str:
@@ -96,7 +104,8 @@ def _timestamp_epoch(date_time: Union[datetime, date]) -> str:
     return str(int(date_time.timestamp()))
 
 
-def download_data(params: StockParam, standardise: bool = True) -> StockDownload:
+def download_data(
+        params: StockParam, standardise: bool = True) -> StockDownload:
     """
     Download stock data
 
@@ -124,23 +133,25 @@ def download_data(params: StockParam, standardise: bool = True) -> StockDownload
         f'{load_param.to_date.strftime(FRIENDLY_FORMAT)}'
     )
 
+    data = None
     with requests.session():
-        res = requests.get(url, headers=header, cookies=cookies)
+        response = http_get(url, headers=header, cookies=cookies)
+        if response:
+            # data in form
+            # 'Date,Open,High,Low,Close,Adj Close,Volume\n'
+            # '2022-01-03,134.070007,136.289993,133.630005,136.039993,
+            #       132.809769,4605900'
 
-        # data in form
-        # 'Date,Open,High,Low,Close,Adj Close,Volume\n'
-        # '2022-01-03,134.070007,136.289993,133.630005,136.039993,132.809769,4605900'
+            data = response.text.split('\n')
 
-        data = res.text.split('\n')
-
-        data = data[1:]     # drop header row
-
-        print(data)
+            data = data[1:]     # drop header row
 
     return StockDownload(params, data)
 
 
-def canned_ibm(data_type: str) -> Tuple[StockParam, Union[pd.DataFrame, List[str], StockDownload]]:
+def canned_ibm(
+            data_type: str
+        ) -> Tuple[StockParam, Union[pd.DataFrame, List[str], StockDownload]]:
     """ Returned canned IBM stock """
     if data_type == 'df':
         data = StockDownload.list_to_frame(SAMPLE_DATA)

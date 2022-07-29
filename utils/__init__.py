@@ -12,6 +12,7 @@ from .constants import (
     DEFAULT_RAPID_CREDS_PATH, EXCHANGES_SHEET, COMPANIES_SHEET,
     DEFAULT_DATA_PATH, PAGE_UP, PAGE_DOWN, HELP, ABORT, MAX_LINE_LEN
 )
+from .comms import http_get, wrapped_get
 
 __all__ = [
     'get_input',
@@ -46,5 +47,8 @@ __all__ = [
     'PAGE_DOWN',
     'HELP',
     'ABORT',
-    'MAX_LINE_LEN'
+    'MAX_LINE_LEN',
+
+    'http_get',
+    'wrapped_get'
 ]

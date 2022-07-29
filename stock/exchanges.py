@@ -3,11 +3,12 @@ Download related functions
 """
 import os
 import json
+
 import requests
 
 from utils import (
     info, get_env_setting, DEFAULT_RAPID_CREDS_FILE, DEFAULT_RAPID_CREDS_PATH,
-    DEFAULT_DATA_PATH, load_json_file
+    DEFAULT_DATA_PATH, load_json_file, http_get
 )
 
 from .enums import DataMode
@@ -51,15 +52,17 @@ def download_exchanges(data_mode: DataMode = DataMode.LIVE) -> StockDownload:
     info(f'Downloading exchanges '\
         f'{"*sample* " if data_mode == DataMode.SAMPLE else ""}data')
 
+    data = None
     if data_mode == DataMode.LIVE:
         response = get(RAPID_YAHOO_EXCHANGES_URL, headers=HEADER)
 
-        # data in form
-        # '{"total":76,
-        # "offset":0,
-        # "results":[{"exchangeCode":"AMS"}, ...],
-        # "responseStatus":null}'
-        data = json.loads(response.text)
+        if response:
+            # data in form
+            # '{"total":76,
+            # "offset":0,
+            # "results":[{"exchangeCode":"AMS"}, ...],
+            # "responseStatus":null}'
+            data = json.loads(response.text)
     else:
         data = load_json_file(
                     os.path.abspath(
@@ -90,18 +93,20 @@ def download_companies(
         f'{"*sample* " if data_mode == DataMode.SAMPLE else ""}'\
         f'company data for {exchange}')
 
+    data = None
     if data_mode == DataMode.LIVE:
         response = get(RAPID_YAHOO_COMPANIES_URL, headers=HEADER,
                         params={ "ExchangeCode":exchange })
 
-        # data in form
-        # '{"total":140,
-        #   "offset":0,
-        #   "results":[{"exchangeCode":"AMS","symbol":"AALB.AS",
-        #               "companyName":"AALBERTS NV",
-        #               "industryOrCategory":"Industrials"}, ...],
-        #   "responseStatus":null}'
-        data = json.loads(response.text)
+        if response:
+            # data in form
+            # '{"total":140,
+            #   "offset":0,
+            #   "results":[{"exchangeCode":"AMS","symbol":"AALB.AS",
+            #               "companyName":"AALBERTS NV",
+            #               "industryOrCategory":"Industrials"}, ...],
+            #   "responseStatus":null}'
+            data = json.loads(response.text)
     else:
         data = load_json_file(
                     os.path.abspath(
@@ -126,13 +131,13 @@ def get(url: str, **kwargs) -> requests.Response:
         requests.Response: response
     """
 
-    response = requests.get(url, **kwargs)
-
-    if RAPID_QUOTA_LIMIT in response.headers and \
-            RAPID_QUOTA_REMAIN in response.headers:
-        limit = int(response.headers[RAPID_QUOTA_LIMIT])
-        remaining = int(response.headers[RAPID_QUOTA_REMAIN])
-        info(f'API monthly quota {remaining}/{limit}, '\
-             f'{remaining/limit:.0%} remaining')
+    response = http_get(url, **kwargs)
+    if response:
+        if RAPID_QUOTA_LIMIT in response.headers and \
+                RAPID_QUOTA_REMAIN in response.headers:
+            limit = int(response.headers[RAPID_QUOTA_LIMIT])
+            remaining = int(response.headers[RAPID_QUOTA_REMAIN])
+            info(f'API monthly quota {remaining}/{limit}, '\
+                f'{remaining/limit:.0%} remaining')
 
     return response

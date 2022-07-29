@@ -29,13 +29,15 @@ def get_sheets_data(stock_param: StockParam) -> Union[pd.DataFrame, None]:
             stock_param.from_date,
             stock_param.to_date
         )
-        if len(data) == 0:
+        if data.size == 0:
             data = None     # nothing to return
 
     return data
 
 
-def check_partial(data_frame: pd.DataFrame, stock_param: StockParam) -> List[StockParam]:
+def check_partial(
+        data_frame: pd.DataFrame,
+        stock_param: StockParam) -> List[StockParam]:
     """
     Check for partial data
 
@@ -60,9 +62,11 @@ def check_partial(data_frame: pd.DataFrame, stock_param: StockParam) -> List[Sto
                 end_month = stock_param.to_date.month - 1
             else:
                 # multiple years
-                start_month = 1 if year > start_year else stock_param.from_date.month
+                start_month = 1 if year > start_year else \
+                                stock_param.from_date.month
                 # stock_param.to_date is excluded
-                end_month = 12 if year < end_year else stock_param.to_date.month - 1
+                end_month = 12 if year < end_year else \
+                                stock_param.to_date.month - 1
 
             for month in range(start_month, end_month + 1):
                 check_mth = date(year=year, month=month, day=1)

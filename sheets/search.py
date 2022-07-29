@@ -36,6 +36,10 @@ def search_company(
         matches: List[gspread.cell.Cell] = find_all(
             sheet, pattern, col=CompanyColumn.NAME.value)
 
+        # TODO implement pagination of requests for large number of matches
+        # they are concatenated are the params for the request url and
+        # it gets truncated
+
         if len(matches) > 0:
             # generate ranges for results; 4 columns wide to match CompanyColumn
             ranges = [

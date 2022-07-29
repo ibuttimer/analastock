@@ -6,9 +6,9 @@ import os
 import gspread
 from google.oauth2.service_account import Credentials
 import google.auth.exceptions
-import requests
 from utils import (
-    get_env_setting, DEFAULT_CREDS_FILE, DEFAULT_CREDS_PATH, error
+    get_env_setting, DEFAULT_CREDS_FILE, DEFAULT_CREDS_PATH, error,
+    wrapped_get
 )
 
 
@@ -30,7 +30,8 @@ SCOPED_CREDENTIALS = CREDENTIALS.with_scopes([
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDENTIALS)
 SPREADSHEETS = {}
 
-COMMS_ERR_MSG = 'Communications error, check the network connection'
+SHEETS_ERR_MSG = 'Google Sheets error, functionality unavailable\n'\
+                 'Please check the network connection'
 
 
 def open_spreadsheet(name: str) -> gspread.spreadsheet.Spreadsheet:
@@ -53,10 +54,7 @@ def open_spreadsheet(name: str) -> gspread.spreadsheet.Spreadsheet:
     except gspread.exceptions.SpreadsheetNotFound as exc:
         raise ValueError(f"Spreadsheet {name} not found") from exc
     except google.auth.exceptions.GoogleAuthError:
-        error(
-            'Google Sheets error, functionality unavailable\n'\
-            'Please check the network connection'
-        )
+        error(SHEETS_ERR_MSG)
 
     return spreadsheet
 
@@ -75,7 +73,8 @@ def init_spreadsheet() -> gspread.spreadsheet.Spreadsheet:
 
 
 def sheet_exists(
-        name: str, spreadsheet: gspread.spreadsheet.Spreadsheet = None,
+        name: str,
+        spreadsheet: gspread.spreadsheet.Spreadsheet = None,
         create: bool = False
     ) -> Union[gspread.worksheet.Worksheet, None]:
     """
@@ -96,17 +95,21 @@ def sheet_exists(
     the_sheet = None
 
     if spreadsheet:
-        try:
+
+        def exists():
             for sheet in spreadsheet.worksheets():
                 if sheet.title == name:
-                    the_sheet = sheet
+                    worksheet = sheet
                     break
+            else:
+                worksheet = None
 
-            if not the_sheet and create:
-                the_sheet = add_sheet(name)
+            if not worksheet and create:
+                worksheet = add_sheet(name)
 
-        except requests.exceptions.RequestException:
-            error(COMMS_ERR_MSG)
+            return worksheet
+
+        the_sheet = wrapped_get(exists)
 
     return the_sheet
 
@@ -132,10 +135,10 @@ def add_sheet(
 
     worksheet = None
     if spreadsheet:
-        try:
-            worksheet = spreadsheet.add_worksheet(name, 1000, 26)
 
-        except requests.exceptions.RequestException:
-            error(COMMS_ERR_MSG)
+        def new_sheet():
+            return spreadsheet.add_worksheet(name, 1000, 26)
+
+        worksheet = wrapped_get(new_sheet)
 
     return worksheet

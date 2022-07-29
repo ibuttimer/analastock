@@ -46,7 +46,8 @@ def error(msg: str, wrap: WrapMode = WrapMode.AUTO):
     Returns:
         None
     """
-    _display_msg(msg, ERROR_PREFIX, MAX_ERROR_LEN, Colour.RED, wrap)
+    _display_msg(msg, ERROR_PREFIX, MAX_ERROR_LEN, Colour.RED, wrap,
+                    extra_line=True)
 
 
 def info(msg: str, wrap: WrapMode = WrapMode.NONE):
@@ -78,7 +79,8 @@ def assistance(msg: str, wrap: WrapMode = WrapMode.NONE):
 
 
 def _display_msg(
-        msg: str, prefix: str, max_len: int, colour: Colour, wrap: WrapMode):
+        msg: str, prefix: str, max_len: int, colour: Colour, wrap,
+        extra_line: bool = False):
     """
     Display a message
 
@@ -88,12 +90,15 @@ def _display_msg(
         max_len (int): max length
         colour (Colour): display colour
         wrap (WrapMode): wrap mode
+        extra_line (bool): add extra line at end. Defaults to False.
     """
     lines = msg.split('\n')
     for line in lines:
         wrapped = _wrap(line, max_len, wrap=wrap).split('\n')
         for w_line in wrapped:
             display(f'{prefix}{w_line}', colour=colour)
+    if extra_line:
+        print()
 
 
 def _assert_len(line: str, max_len: int):
@@ -178,4 +183,4 @@ def title(msg: str):
     Returns:
         None
     """
-    display(msg, on_colour=Colour.CYAN)
+    display(f' {msg} ', on_colour=Colour.CYAN)

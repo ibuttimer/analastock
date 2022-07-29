@@ -156,7 +156,7 @@ class Menu:
         self._page_keys.clear()
 
         print('\f',end='')
-        title(f' {self.title} '
+        title(f'{self.title} '
               f'{f"[{self.page}/{self.num_pages}] " if self.multi_page else ""}'
         )
 

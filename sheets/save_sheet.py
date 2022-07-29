@@ -68,7 +68,7 @@ def save_exchanges(data: Union[pd.DataFrame, StockDownload]) -> List[dict]:
 
     sheet = sheet_exists(EXCHANGES_SHEET, create=True)
 
-    if sheet:
+    if sheet and data:
         sheet.clear()
         values = [
             [exchange['exchangeCode']] for exchange in data['results']
@@ -77,7 +77,7 @@ def save_exchanges(data: Union[pd.DataFrame, StockDownload]) -> List[dict]:
 
         info(f"Saved {updated_rows(result)} exchange records")
 
-    return data['results']
+    return data['results'] if data else None
 
 
 def save_companies(
@@ -98,7 +98,7 @@ def save_companies(
 
     sheet = sheet_exists(COMPANIES_SHEET, create=True)
 
-    if sheet:
+    if sheet and data:
         if clear_sheet:
             sheet.clear()
         values = [
@@ -122,4 +122,4 @@ def save_companies(
             },
         }])
 
-    return data['results']
+    return data['results'] if data else None

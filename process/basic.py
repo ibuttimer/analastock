@@ -41,11 +41,12 @@ def process_ibm():
     # check for gaps in data
     data_frame = fill_gaps(data_frame, stock_param)
 
-    display_single(
-        analyse_stock(
-            data_frame, stock_param
+    if data_frame is not None:
+        display_single(
+            analyse_stock(
+                data_frame, stock_param
+            )
         )
-    )
 
 
 def stock_analysis_menu():
@@ -147,9 +148,10 @@ def process_stock(symbol: str = None) -> bool:
         # check for gaps in data
         data_frame = fill_gaps(data_frame, stock_param)
 
-        display_single(
-            analyse_stock(data_frame, stock_param)
-        )
+        if data_frame is not None:
+            display_single(
+                analyse_stock(data_frame, stock_param)
+            )
 
     return processed
 
@@ -165,19 +167,25 @@ def fill_gaps(data_frame: DataFrame, stock_param: StockParam) -> DataFrame:
     Returns:
         DataFrame: data frame
     """
+    full_frame = None
+
     # check for gaps in data
     gaps = check_partial(data_frame, stock_param)
     if len(gaps) > 0:
+        full_frame = data_frame
         for gap_param in gaps:
             # save data to sheets
             data = download_data(gap_param)
-            save_data(data)
+            if data:
+                save_data(data)
 
-            # add data to data frame
-            data_frame = data_frame.append(data.data_frame) \
-                if data_frame is not None else data.data_frame
+                # add data to data frame
+                full_frame = full_frame.append(data.data_frame) \
+                    if full_frame is not None else data.data_frame
+    else:
+        full_frame = data_frame
 
-    return data_frame
+    return full_frame
 
 
 def process_selected_stock(company: Company) -> Callable[[], bool]:
@@ -218,21 +226,22 @@ def process_exchanges():
             download_exchanges(data_mode=data_mode)
         )
 
-        for i, exchange in enumerate(exchanges):
+        if exchanges:
+            for i, exchange in enumerate(exchanges):
 
-            # HACK skip the exchange saved already
-            if i < 4:
-                continue
+                # HACK skip the exchange saved already
+                if i < 4:
+                    continue
 
-            code = exchange['exchangeCode']
-            info(f"{i+ 1}/{len(exchanges)}: Processing {code}")
+                code = exchange['exchangeCode']
+                info(f"{i+ 1}/{len(exchanges)}: Processing {code}")
 
-            save_companies(
-                download_companies(code),    #, data_mode=data_mode),
-                clear_sheet=i == 0
-            )
+                save_companies(
+                    download_companies(code),    #, data_mode=data_mode),
+                    clear_sheet=i == 0
+                )
 
-            break   # HACK so just one exchange for now
+                break   # HACK so just one exchange for now
 
 
 def company_search() -> bool:
