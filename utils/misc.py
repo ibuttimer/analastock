@@ -2,10 +2,14 @@
 Miscellaneous functions
 """
 from calendar import isleap
+from datetime import date, datetime
 import json
 import os
-from typing import Any
+from typing import Any, Union
 
+import pandas as pd
+
+from .constants import FRIENDLY_DATE_FMT
 from .output import error
 
 
@@ -76,3 +80,49 @@ def load_json_file(filepath: str) -> dict:
         error(f'File not found: {filepath}')
 
     return data
+
+
+def friendly_date(date_time: datetime) -> str:
+    """
+    Generate a user friendly date string
+
+    Args:
+        date_time (datetime): date time
+
+    Returns:
+        str: dat string
+    """
+    return date_time.strftime(FRIENDLY_DATE_FMT)
+
+
+def filter_data_frame_by_date(
+        data_frame: pd.DataFrame,
+        min_date: Union[datetime, date],
+        max_date: Union[datetime, date],
+        column: str) -> pd.DataFrame:
+    """
+    Filter a pandas.DataFrame by dates
+
+    Args:
+        data_frame (pd.DataFrame): data frame
+        min_date (Union[datetime, date]): min date (inclusive)
+        max_date (Union[datetime, date]): max_date (exclusive)
+        column (str): column label
+
+    Returns:
+        pd.DataFrame: filtered data frame
+    """
+    if isinstance(min_date, datetime):
+        min_date = min_date.date()
+    if isinstance(max_date, datetime):
+        max_date = max_date.date()
+
+    if isinstance(data_frame[column].iat[0], pd.Timestamp):
+        # FutureWarning: Comparison of Timestamp with datetime.date is
+        # deprecated
+        min_date = pd.Timestamp(min_date)
+        max_date = pd.Timestamp(max_date)
+
+    return data_frame[
+        (data_frame[column] >= min_date) & (data_frame[column] < max_date)
+    ]

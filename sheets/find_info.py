@@ -7,6 +7,7 @@ import gspread
 import pandas as pd
 
 from stock import DfColumn
+from utils import filter_data_frame_by_date
 
 
 def find(
@@ -109,8 +110,8 @@ def read_data_by_date(
             data_frame[column.title] = pd.to_numeric(data_frame[column.title])
 
     # filter by min & max dates
-    date_frame = data_frame[(data_frame[DfColumn.DATE.title] >= min_date) &
-                (data_frame[DfColumn.DATE.title] < max_date)]
+    date_frame = filter_data_frame_by_date(
+                    data_frame, min_date, max_date, DfColumn.DATE.title)
 
     # return data in chronological order
     return date_frame.sort_values(by=DfColumn.DATE.title, ascending=sorted_asc)

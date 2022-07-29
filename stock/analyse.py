@@ -7,7 +7,10 @@ from typing import Callable, List, Union
 from collections import namedtuple
 
 import pandas as pd
-from utils import get_input, error, ABORT, last_day_of_month
+from utils import (
+    get_input, error, ABORT, last_day_of_month, FRIENDLY_DATE_FMT,
+    filter_data_frame_by_date
+)
 from .data import StockDownload, StockParam
 from .enums import DfColumn, DfStat, AnalysisRange
 
@@ -16,7 +19,6 @@ DATE_SEP = '-'
 DATE_FORM = f'dd{DATE_SEP}mm{DATE_SEP}yyyy'
 DATE_FORMAT = f'%d{DATE_SEP}%m{DATE_SEP}%Y'
 DATE_FMT = '{day}'+DATE_SEP+'{mth}'+DATE_SEP+'{year}'
-FRIENDLY_FORMAT = '%d %b %Y'
 
 MIN_DATE = datetime(1962, 2, 1)
 
@@ -83,7 +85,7 @@ def validate_date(date_string: str) -> Union[datetime, None]:
         elif date_time < MIN_DATE:
             error(
                 f"Invalid date: shouldn't be prior to "
-                f"{MIN_DATE.strftime(FRIENDLY_FORMAT)}"
+                f"{MIN_DATE.strftime(FRIENDLY_DATE_FMT)}"
             )
             date_time = None
 
@@ -119,7 +121,7 @@ def validate_date_after(
             date_time = None
             error(
                 f'Invalid date: must be after '
-                f'{limit_datetime.strftime(FRIENDLY_FORMAT)}'
+                f'{limit_datetime.strftime(FRIENDLY_DATE_FMT)}'
             )
 
         return date_time
@@ -449,7 +451,15 @@ def analyse_stock(
         # convert list to data frame
         analyse = StockDownload.list_to_frame(analyse)
 
+    # TODO what to do about big gap between param data and received data,
+    # i.e. from date before listed
+
     # data in chronological order
+    # FutureWarning: Comparison of Timestamp with datetime.date is
+    # deprecated
+    analyse[DfColumn.DATE.title] = \
+        analyse[DfColumn.DATE.title].apply(pd.Timestamp)
+
     analyse.sort_values(by=DfColumn.DATE.title, ascending=True, inplace=True)
     if not from_date:
         # get date info for raw analysis
@@ -457,8 +467,8 @@ def analyse_stock(
         to_date = analyse[DfColumn.DATE.title].max()
     else:
         # filter by min & max dates
-        analyse = analyse[(analyse[DfColumn.DATE.title] >= from_date) &
-                    (analyse[DfColumn.DATE.title] <= to_date)]
+        analyse = filter_data_frame_by_date(
+                        analyse, from_date, to_date, DfColumn.DATE.title)
 
     analysis = {
         'from': from_date if isinstance(from_date, date) else from_date.date(),

@@ -3,8 +3,8 @@ Processing results display functions
 """
 
 from typing import List
-from stock import DfStat, DfColumn, FRIENDLY_FORMAT
-from utils import MAX_LINE_LEN
+from stock import DfStat, DfColumn
+from utils import MAX_LINE_LEN, FRIENDLY_DATE_FMT
 from .grid import DGrid, DCell, DRow, FORMAT_WIDTH_MARK, Marker
 
 
@@ -154,8 +154,8 @@ def add_period(grid: DGrid, results: object):
         grid (DGrid): grid to add to
         results (object): result to display
     """
-    period = f"{results['from'].strftime(FRIENDLY_FORMAT)} - "\
-             f"{results['to'].strftime(FRIENDLY_FORMAT)}"
+    period = f"{results['from'].strftime(FRIENDLY_DATE_FMT)} - "\
+             f"{results['to'].strftime(FRIENDLY_DATE_FMT)}"
     period_width = grid.width - grid.gap - TITLE_CELL_WIDTH
     add_title_row(grid, 'Period', [
         DCell(period, period_width, TITLE_TEXT_CELL_FMT)

@@ -9,9 +9,8 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-from utils import info, http_get
+from utils import info, error, http_get, friendly_date
 
-from .analyse import FRIENDLY_FORMAT
 from .convert import standardise_stock_param
 from .data import StockParam, StockDownload
 
@@ -34,6 +33,12 @@ DAILY_FREQ = '1d'
 WEEKLY_FREQ = '1wk'
 MONTHLY_FREQ = '1mo'
 
+# "400 Bad Request: Data doesn't exist for startDate = 633830400,
+#       endDate = 638924400"
+NO_DATA_REGEX = re.compile(
+        r'^400 Bad Request:.*startDate\s*=\s*(\d+)\s*,\s*endDate\s*=\s*(\d+)')
+# "404 Not Found: No data found, symbol may be delisted"
+NO_SYMBOL_REGEX = re.compile(r'^404 Not Found:\s*(.*)')
 
 SAMPLE_STOCK_PARAM = StockParam.stock_param_of(
     'ibm', datetime(2022, 2, 1), datetime(2022, 3, 1)
@@ -89,7 +94,7 @@ def _get_crumbs_and_cookies(stock):
     return HEADER, crumb, cookies
 
 
-def _timestamp_epoch(date_time: Union[datetime, date]) -> str:
+def _date_time_epoch(date_time: Union[datetime, date]) -> str:
     """
     Convert a datetime to a epoch string
 
@@ -102,6 +107,21 @@ def _timestamp_epoch(date_time: Union[datetime, date]) -> str:
     if isinstance(date_time, date):
         date_time = datetime(date_time.year, date_time.month, date_time.day)
     return str(int(date_time.timestamp()))
+
+
+def _epoch_datetime(timestamp: Union[str, int]) -> datetime:
+    """
+    Convert an epoch to a datetime
+
+    Args:
+        timestamp (Union[str, int]): epoch to convert
+
+    Returns:
+        datetime: datetime
+    """
+    if isinstance(timestamp, str):
+        timestamp = int(timestamp)
+    return datetime.fromtimestamp(timestamp)
 
 
 def download_data(
@@ -122,29 +142,50 @@ def download_data(
 
     url = YAHOO_DOWNLOAD_URL.format(
         symbol=load_param.symbol,
-        from_date=_timestamp_epoch(load_param.from_date),
-        to_date=_timestamp_epoch(load_param.to_date),
+        from_date=_date_time_epoch(load_param.from_date),
+        to_date=_date_time_epoch(load_param.to_date),
         interval=DAILY_FREQ
     )
 
     info(
         f'Downloading {load_param.symbol} data: '
-        f'{load_param.from_date.strftime(FRIENDLY_FORMAT)} - '
-        f'{load_param.to_date.strftime(FRIENDLY_FORMAT)}'
+        f'{friendly_date(load_param.from_date)} - '
+        f'{friendly_date(load_param.to_date)}'
     )
 
     data = None
     with requests.session():
         response = http_get(url, headers=header, cookies=cookies)
-        if response:
-            # data in form
-            # 'Date,Open,High,Low,Close,Adj Close,Volume\n'
-            # '2022-01-03,134.070007,136.289993,133.630005,136.039993,
-            #       132.809769,4605900'
+        if response is not None:
+            if response.status_code == 200:
+                # data in form
+                # 'Date,Open,High,Low,Close,Adj Close,Volume\n'
+                # '2022-01-03,134.070007,136.289993,133.630005,136.039993,
+                #       132.809769,4605900'
 
-            data = response.text.split('\n')
+                data = response.text.split('\n')
 
-            data = data[1:]     # drop header row
+                data = data[1:]     # drop header row
+
+            elif response.status_code >= 400:
+                msg = response.text
+                if response.status_code == 400:
+                    # no data, e.g. "400 Bad Request: Data doesn't exist for
+                    #              startDate = 633830400, endDate = 638924400"
+                    match = NO_DATA_REGEX.match(response.text)
+                    if match:
+                        msg = f"Data doesn't exist for date range "\
+                            f"{friendly_date(_epoch_datetime(match.group(1)))}"\
+                            f" to "\
+                            f"{friendly_date(_epoch_datetime(match.group(2)))}"
+                elif response.status_code == 404:
+                    # not found, e.g. "404 Not Found: No data found, symbol
+                    #                   may be delisted"
+                    match = NO_SYMBOL_REGEX.match(response.text)
+                    if match:
+                        msg = match.group(1)
+
+                error(msg)
 
     return StockDownload(params, data)
 

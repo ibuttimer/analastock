@@ -2,7 +2,7 @@
 Stock package
 """
 from .analyse import (
-    get_stock_param, analyse_stock, round_price, DATE_FORM, FRIENDLY_FORMAT
+    get_stock_param, analyse_stock, round_price, DATE_FORM
 )
 from .convert import (
     standardise_stock_param
@@ -17,7 +17,6 @@ __all__ = [
     'analyse_stock',
     'round_price',
     'DATE_FORM',
-    'FRIENDLY_FORMAT',
 
     'standardise_stock_param',
 

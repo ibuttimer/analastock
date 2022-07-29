@@ -43,3 +43,5 @@ ABORT = '/'
 
 MAX_LINE_LEN = 80
 """ Max display line width """
+
+FRIENDLY_DATE_FMT = '%d %b %Y'

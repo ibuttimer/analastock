@@ -3,7 +3,7 @@ Processing related functions
 """
 from typing import Callable, List, Union
 
-from pandas import DataFrame
+from pandas import DataFrame, concat
 from stock import (
     canned_ibm, get_stock_param, download_data,
     analyse_stock, download_exchanges, download_companies,
@@ -148,7 +148,7 @@ def process_stock(symbol: str = None) -> bool:
         # check for gaps in data
         data_frame = fill_gaps(data_frame, stock_param)
 
-        if data_frame is not None:
+        if data_frame is not None and not data_frame.empty:
             display_single(
                 analyse_stock(data_frame, stock_param)
             )
@@ -180,7 +180,7 @@ def fill_gaps(data_frame: DataFrame, stock_param: StockParam) -> DataFrame:
                 save_data(data)
 
                 # add data to data frame
-                full_frame = full_frame.append(data.data_frame) \
+                full_frame = concat([full_frame, data.data_frame]) \
                     if full_frame is not None else data.data_frame
     else:
         full_frame = data_frame

@@ -114,7 +114,8 @@ class StockDownload:
             [entry.split(",") for entry in data]
         )
         # https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.from_records.html#pandas.DataFrame.from_records
-        data_frame = pd.DataFrame.from_records(data_records, columns=DfColumn.titles())
+        data_frame = pd.DataFrame.from_records(
+            data_records, columns=DfColumn.titles())
 
         # convert numeric columns
         # https://pandas.pydata.org/docs/reference/api/pandas.to_numeric.html
@@ -124,7 +125,8 @@ class StockDownload:
         # convert date column
         # https://pandas.pydata.org/docs/reference/api/pandas.to_datetime.html#pandas.to_datetime
         data_frame[DfColumn.DATE.title] = pd.to_datetime(
-            data_frame[DfColumn.DATE.title].str.lower(), infer_datetime_format=True
+            data_frame[DfColumn.DATE.title].str.lower(),
+            infer_datetime_format=True
         )
 
         return data_frame

@@ -33,7 +33,7 @@ def save_data(
 
     sheet = sheet_exists(symbol, create=True, cols=len(DfColumn))
 
-    if sheet:
+    if sheet and not data_frame.empty:
         # data_frame has dates as np.datetime64
         save_frame = pd.DataFrame(data_frame, copy=True)
         # convert to datetime.date objects
