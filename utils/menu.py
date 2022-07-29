@@ -3,7 +3,7 @@ Menu related functions
 """
 from collections import namedtuple
 import dataclasses
-from typing import Callable, Union
+from typing import Callable, List, Union
 
 from .constants import ABORT, PAGE_UP, PAGE_DOWN
 from .input import get_input, user_confirm
@@ -66,17 +66,25 @@ class CloseMenuEntry(MenuEntry):
     Class representing a close menu entry
     """
 
-    def __init__(self, name: str, func: Callable[[], bool] = None, key: Union[str, None] = None):
+    is_preferred: bool
+    """ Preferred menu close entry flag """
+
+    def __init__(
+            self, name: str, func: Callable[[], bool] = None,
+            key: Union[str, None] = None, is_preferred: bool = False):
         """
         Constructor
 
         Args:
             name (str): display name
-            key (Union[str, None]): key to use to select, if None entry index is used; default None
+            key (Union[str, None]):
+                    key to use to select, if None entry index is used;
+                    default None
             func (Callable[[], bool]): function to call when entry selected
         """
         super().__init__(name, func, key=key)
         self.is_close = True
+        self.is_preferred = is_preferred
 
 
 class Menu:
@@ -103,6 +111,12 @@ class Menu:
     """ Menu options: default NO_OPTIONS """
     help_text: str
     """ Menu help text """
+    up_down_hook: Callable[[object, int, int], None]
+    """
+    Function to call on page up/down with signature:
+        up_down_hook(menu: Menu, start: int, end: int)
+    """
+
 
     def __init__(
             self, *args, menu_title: str = None, rows: int = DEFAULT_ROWS,
@@ -128,9 +142,20 @@ class Menu:
         self.display_rows = rows
         self.help_text = help_text
         self.options = options
-        self._start = 0
-        self._end = rows
-        self._page_keys = []
+        self.up_down_hook = None
+        self._start = 0         # index of first item to display
+        self._end = rows        # index of last item to display (excluded)
+        self._page_keys = []    # keys for the currently displayed page
+
+
+    def set_entries(self, entries: List[MenuEntry]):
+        """
+        Set the menu entries
+
+        Args:
+            entries (List[MenuEntry]): entries to set
+        """
+        self.entries = entries
 
 
     def add_entry(self, entry: MenuEntry) -> bool:
@@ -314,10 +339,25 @@ class Menu:
                     self._start = start
                     self._end = start + self.display_rows
 
+                    if self._up_down_hook:
+                        # call hook
+                        self._up_down_hook(self, self._start, self._end)
+
             if error_msg:
                 error(error_msg)
 
         return processed
+
+
+    def set_up_down_hook(
+            self, up_down_hook: Callable[[object, int, int], None]):
+        """
+        Set the up/down hook function
+
+        Args:
+            up_down_hook (Callable[[Menu, int, int], None]): hook function
+        """
+        self.up_down_hook = up_down_hook
 
 
     def find_close(self) -> Union[CloseMenuEntry, None]:
@@ -327,12 +367,24 @@ class Menu:
         Returns:
             Union[CloseMenuEntry, None]: option or None if not found
         """
-        selected_entry = None
-        for entry in self.entries:
-            if isinstance(entry, CloseMenuEntry):
-                selected_entry = entry
-                break
-        return selected_entry
+
+        # TODO add back key option to allow just close which goes back a level
+        # ignoring any hard close (is_preferred)
+
+        # find all close items
+        items = list(
+            filter(
+                lambda entry: isinstance(entry, CloseMenuEntry), self.entries)
+        )
+        if len(items) > 1:
+            # find preferred close item
+            items = list(
+                filter(lambda entry: entry.is_preferred, items.copy())
+            )
+            if len(items) > 1:
+                raise ValueError('Multiple preferred close entries found')
+
+        return items[0] if len(items) == 1 else None
 
 
     @property
@@ -377,6 +429,7 @@ class Menu:
 
         can_cancel = not self.options & Menu.OPT_NO_ABORT_BACK
         if self.multi_page or can_cancel:
+            # append multi-page menu and cancel help
             pg_help = f"'{PAGE_UP}'/'{PAGE_DOWN}' to page up/down" \
                         if self.multi_page else ""
             cancel_help = f"'{ABORT}' to cancel" if can_cancel else ""

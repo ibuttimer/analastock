@@ -1,7 +1,7 @@
 """
 Processing related functions
 """
-from typing import Callable, Union
+from typing import Callable, List, Union
 
 from pandas import DataFrame
 from stock import (
@@ -271,22 +271,58 @@ def company_search() -> bool:
 
         companies = search_company(name)
 
-        if len(companies) == 0:
+        if not companies:
             info('No matching results found')
             continue
 
-        company_menu: Menu = Menu(
-            *[
-                MenuEntry(
-                    f'{company.name} [{company.symbol}]',
-                    process_selected_stock(company)
-                ) for company in companies
-            ],
+        # Note: menu & pagination page sizes must match
+        companies.set_page_size(Menu.DEFAULT_ROWS)
+
+        # populate first page
+        menu_items = company_menu_items(
+                                companies.get_current_page())
+        if companies.num_pages > 1:
+            # add placeholders for other pages
+            menu_items.extend([
+                None for _ in range(Menu.DEFAULT_ROWS, len(companies.items))
+            ])
+        # add last items
+        menu_items.extend([
             CloseMenuEntry('Search again'),
-            CloseMenuEntry('End search', end_search),
-            menu_title='Company Search Results'
-        )
+            CloseMenuEntry('End search', end_search, is_preferred=True),
+        ])
+
+        def up_down_hook(menu: Menu, start: int, end: int) -> None:
+            if not menu.entries[start]:
+                # populated page with menu items
+                items = companies.get_page(int(start / Menu.DEFAULT_ROWS) + 1)
+
+                assert len(items) == end - start, 'Page size mismatch'
+
+                menu.entries[start:end] = company_menu_items(items)
+
+
+        company_menu: Menu = Menu(menu_title='Company Search Results')
+        company_menu.set_entries(menu_items)
+        company_menu.set_up_down_hook(up_down_hook)
 
         company_menu.process()
 
     return True
+
+def company_menu_items(companies: List[Company]) -> List[MenuEntry]:
+    """
+    Generate menu entries for a list of companies
+
+    Args:
+        companies (List[Company]): companies
+
+    Returns:
+        List[MenuEntry]: menu entries
+    """
+    return [
+            MenuEntry(
+                f'{company.name} [{company.symbol}]',
+                process_selected_stock(company)
+            ) for company in companies
+        ]

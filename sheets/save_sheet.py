@@ -3,6 +3,7 @@ Google Sheets related functions
 """
 from typing import List, Union
 import pandas as pd
+from gspread.worksheet import Worksheet
 from stock import StockParam, DfColumn, StockDownload, CompanyColumn
 from utils import info, EXCHANGES_SHEET, COMPANIES_SHEET
 from .load_sheet import sheet_exists
@@ -80,6 +81,16 @@ def save_exchanges(data: Union[pd.DataFrame, StockDownload]) -> List[dict]:
     return data['results'] if data else None
 
 
+def companies_sheet() -> Worksheet:
+    """
+    Get the companies worksheet
+
+    Returns:
+        Worksheet: companies worksheet
+    """
+    return sheet_exists(COMPANIES_SHEET, create=True, cols=len(CompanyColumn))
+
+
 def save_companies(
         data: Union[pd.DataFrame, StockDownload],
         clear_sheet: bool = False) -> List[dict]:
@@ -96,7 +107,7 @@ def save_companies(
         #  "industryOrCategory":"Industrials"}
         data = data.data
 
-    sheet = sheet_exists(COMPANIES_SHEET, create=True, cols=len(CompanyColumn))
+    sheet = companies_sheet()
 
     if sheet and data:
         if clear_sheet:
