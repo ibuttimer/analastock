@@ -30,7 +30,7 @@ def save_data(
         data_frame = data
         symbol = stock_param.symbol
 
-    sheet = sheet_exists(symbol, create=True)
+    sheet = sheet_exists(symbol, create=True, cols=len(DfColumn))
 
     if sheet:
         # data_frame has dates as np.datetime64
@@ -66,7 +66,7 @@ def save_exchanges(data: Union[pd.DataFrame, StockDownload]) -> List[dict]:
         # {"exchangeCode":"AMS"}
         data = data.data
 
-    sheet = sheet_exists(EXCHANGES_SHEET, create=True)
+    sheet = sheet_exists(EXCHANGES_SHEET, create=True, cols=1, rows=100)
 
     if sheet and data:
         sheet.clear()
@@ -96,7 +96,7 @@ def save_companies(
         #  "industryOrCategory":"Industrials"}
         data = data.data
 
-    sheet = sheet_exists(COMPANIES_SHEET, create=True)
+    sheet = sheet_exists(COMPANIES_SHEET, create=True, cols=len(CompanyColumn))
 
     if sheet and data:
         if clear_sheet:

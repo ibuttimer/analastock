@@ -11,6 +11,8 @@ from utils import (
     wrapped_get
 )
 
+DEFAULT_ROWS = 1000
+DEFAULT_COLS = 26
 
 # https://docs.gspread.org/
 
@@ -75,7 +77,8 @@ def init_spreadsheet() -> gspread.spreadsheet.Spreadsheet:
 def sheet_exists(
         name: str,
         spreadsheet: gspread.spreadsheet.Spreadsheet = None,
-        create: bool = False
+        create: bool = False,
+        rows: int = DEFAULT_ROWS, cols: int = DEFAULT_COLS
     ) -> Union[gspread.worksheet.Worksheet, None]:
     """
     Check is a worksheet with the specified name exists
@@ -85,6 +88,8 @@ def sheet_exists(
         spreadsheet (gspread.spreadsheet.Spreadsheet): spreadsheet to check;
                                                     default global spreadsheet
         create (bool): create if does not exist; default False
+        rows (int, optional): number of rows. Defaults to 1000.
+        cols (int, optional): number of columns. Defaults to 26.
 
     Returns:
         gspread.worksheet.Worksheet: worksheet if exists otherwise None
@@ -105,7 +110,7 @@ def sheet_exists(
                 worksheet = None
 
             if not worksheet and create:
-                worksheet = add_sheet(name)
+                worksheet = add_sheet(name, rows=rows, cols=cols)
 
             return worksheet
 
@@ -115,15 +120,18 @@ def sheet_exists(
 
 
 def add_sheet(
-        name: str, spreadsheet: gspread.spreadsheet.Spreadsheet = None
+        name: str, spreadsheet: gspread.spreadsheet.Spreadsheet = None,
+        rows: int = DEFAULT_ROWS, cols: int = DEFAULT_COLS
     ) -> gspread.worksheet.Worksheet:
     """
     Add a worksheet with the specified name
 
     Args:
         name (str): worksheet name
-        spreadsheet (gspread.spreadsheet.Spreadsheet): spreadsheet to add to;
-                                                    default global spreadsheet
+        spreadsheet (gspread.spreadsheet.Spreadsheet, optional):
+                spreadsheet to add to. Defaults to application spreadsheet.
+        rows (int, optional): number of rows. Defaults to 1000.
+        cols (int, optional): number of columns. Defaults to 26.
 
     Returns:
         gspread.worksheet.Worksheet: worksheet
@@ -131,13 +139,11 @@ def add_sheet(
     if spreadsheet is None:
         spreadsheet = init_spreadsheet()
 
-    # TODO specify num column & rows to not waste cells
-
     worksheet = None
     if spreadsheet:
 
         def new_sheet():
-            return spreadsheet.add_worksheet(name, 1000, 26)
+            return spreadsheet.add_worksheet(name, rows, cols)
 
         worksheet = wrapped_get(new_sheet)
 

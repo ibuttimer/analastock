@@ -75,7 +75,8 @@ def check_partial(
                     month=month + 1 if month < 12 else 1,
                     day=1
                 )
-                mth_frame = data_frame[(data_frame[DfColumn.DATE.title] >= check_mth) &
+                mth_frame = \
+                    data_frame[(data_frame[DfColumn.DATE.title] >= check_mth) &
                             (data_frame[DfColumn.DATE.title] < limit_mth)]
                 if len(mth_frame) == 0:
                     # no data for check_mth
