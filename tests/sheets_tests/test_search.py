@@ -5,7 +5,7 @@ from typing import List
 import unittest
 
 from sheets import search_company
-from stock import Company
+from stock import Company, CompanyColumn
 from utils import Pagination
 
 from .base import TestBase
@@ -16,35 +16,21 @@ class TestSearch(TestBase):
     Units tests for sheet search functions
     """
 
-    def test_search(self):
+    def test_name_search(self):
         """
-        Test search company
+        Test search company by name
         """
-        worksheet_name = 'find-company'
-
-        sheet = self.add_sheet(worksheet_name, del_if_exists=True)
-
-        # test data for Company 1 - Company 20
+        worksheet_name = 'find-company-name'
         num_companies = 20
-        company_name = 'Company'
-        test_data = [
-            [
-                f'EXC{(i // (num_companies / 2)) + 1}', # exchange code
-                f'COMP{i + 1}',             # symbol
-                f'{company_name} {i + 1} D.A.C',   # name
-                'Industrials'               # sector
-            ] for i in range(0, num_companies)
-        ]
 
-        # add data
-        for data in test_data:
-            result = sheet.append_row(data)
-            self.assertIsNotNone(result)
-            self.assertTrue('updates' in result)
-            self.assertEqual(result['updates']['updatedCells'], len(data))
+        sheet, company_name, _, test_data = \
+            self.add_companies(worksheet_name, num_companies)
+
+
 
         # check find all
-        pg_result = search_company(company_name.lower(), sheet=sheet)
+        pg_result = search_company(
+                        company_name.lower(), CompanyColumn.NAME, sheet=sheet)
         self.assertTrue(isinstance(pg_result, Pagination))
 
         pg_result.set_page_size(num_companies)
@@ -58,7 +44,8 @@ class TestSearch(TestBase):
 
         # check find some
         partial_name = f'{company_name} 1'
-        pg_result = search_company(partial_name, sheet=sheet)
+        pg_result = search_company(
+                        partial_name, CompanyColumn.NAME, sheet=sheet)
         self.assertTrue(isinstance(pg_result, Pagination))
 
         # expecting Company 1 & Company 10 - Company 19, i.e. 11
@@ -84,19 +71,104 @@ class TestSearch(TestBase):
                 res_idx += 1
 
         # check find none
-        pg_result = search_company('DNE', sheet=sheet)
-        self.assertTrue(isinstance(pg_result, Pagination))
-
-        pg_result.set_page_size(num_companies)
-        results = pg_result.get_current_page()
-
-        self.assertEqual(0, pg_result.num_items)
-        self.assertEqual(0, len(results))
+        pg_result = search_company(
+                        'DNE', CompanyColumn.NAME, sheet=sheet)
+        self.assertIsNone(pg_result)
 
         # tidy up
         self.tidy_up_sheets(
             [ (worksheet_name, sheet) ]
         )
+
+
+    def test_symbol_search(self):
+        """
+        Test search company by symbol
+        """
+        worksheet_name = 'find-company-symbol'
+        num_companies = 20
+
+        sheet, _, company_symbol, test_data = \
+            self.add_companies(worksheet_name, num_companies)
+
+        # check find all
+        pg_result = search_company(
+                    company_symbol.lower(), CompanyColumn.SYMBOL, sheet=sheet)
+        self.assertTrue(isinstance(pg_result, Pagination))
+
+        pg_result.set_page_size(num_companies)
+        results = pg_result.get_current_page()
+
+        self.assertEqual(len(test_data), pg_result.num_items)
+        self.assertEqual(len(test_data), len(results))
+        for i, entry in enumerate(test_data):
+            with self.subTest(msg=f'entry[{i}] {entry}'):
+                self.assert_company(results[i], entry)
+
+        # check find some
+        partial_name = f'{company_symbol}1'
+        pg_result = search_company(
+                        partial_name, CompanyColumn.SYMBOL, sheet=sheet)
+        self.assertTrue(isinstance(pg_result, Pagination))
+
+        # expecting COMP1 & COMP10 - COMP19, i.e. 11
+        pg_result.set_page_size(num_companies)
+        results = pg_result.get_current_page()
+        expected_partials = len(
+            list(
+                filter(
+                    lambda entry: entry.name.startswith(partial_name), results
+                )
+            )
+        )
+
+        self.assertEqual(expected_partials, pg_result.num_items)
+        self.assertEqual(expected_partials, len(results))
+        res_idx = 0
+        for i, entry in enumerate(test_data):
+            if not entry[0].startswith(partial_name):
+                continue
+
+            with self.subTest(msg=f'entry[{i}] {entry}'):
+                self.assert_company(results[res_idx], entry)
+                res_idx += 1
+
+        # check find none
+        pg_result = search_company(
+                        'DNE', CompanyColumn.SYMBOL, sheet=sheet)
+        self.assertIsNone(isinstance(pg_result, Pagination))
+
+        # tidy up
+        self.tidy_up_sheets(
+            [ (worksheet_name, sheet) ]
+        )
+
+    def add_companies(self, worksheet_name: str, num_companies: int):
+        """
+        Test search company by symbol
+        """
+        sheet = self.add_sheet(worksheet_name, del_if_exists=True)
+
+        # test data for Company 1 - Company 20
+        company_name = 'Company'
+        company_symbol = 'COMP'
+        test_data = [
+            [
+                f'EXC{(i // (num_companies / 2)) + 1}', # exchange code
+                f'{company_symbol}{i + 1}',             # symbol
+                f'{company_name} {i + 1} D.A.C',   # name
+                'Industrials'               # sector
+            ] for i in range(0, num_companies)
+        ]
+
+        # add data
+        for data in test_data:
+            result = sheet.append_row(data)
+            self.assertIsNotNone(result)
+            self.assertTrue('updates' in result)
+            self.assertEqual(result['updates']['updatedCells'], len(data))
+
+        return sheet, company_name, company_symbol, test_data
 
 
     def assert_company(self, company: Company, expected: List[str]):

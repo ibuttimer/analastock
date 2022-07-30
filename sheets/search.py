@@ -44,19 +44,21 @@ def get_companies(
     return results
 
 def search_company(
-            name: str,
+            criteria: str,
+            col: CompanyColumn,
             sheet: Worksheet = None,
             page_size: int = 10
         ) -> Pagination:
     """
-    Return all companies with names matching specified name.
+    Return all companies with values matching the specified criteria.
 
     Results are return as a Pagination of the sheet ranges with the data,
     and the Pagination::transform_func function retrieves the actual
     company data as required.
 
     Args:
-        name (str): company name or part of name to match
+        criteria (str): company value or part of value to match
+        col (CompanyColumn): column to search
         sheet (gspread.worksheet.Worksheet, optional):
                 worksheet to read. Default to None
         page_size (int, optional): pagination page size. Defaults to 10.
@@ -70,9 +72,8 @@ def search_company(
     pagination = None
 
     if sheet:
-        pattern = re.compile(rf".*{name}.*", flags=re.IGNORECASE)
-        matches: List[Cell] = find_all(
-            sheet, pattern, col=CompanyColumn.NAME.value)
+        pattern = re.compile(rf".*{criteria}.*", flags=re.IGNORECASE)
+        matches: List[Cell] = find_all(sheet, pattern, col=col.value)
 
         # The pagination implementation is required as,
         # Worksheet::batch_get passes the ranges as parameters in the url.

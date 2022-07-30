@@ -27,7 +27,8 @@ class TestBase(unittest.TestCase):
         Remove worksheets
 
         Args:
-            sheets (List[Tuple[str, gspread.worksheet.Worksheet]]): sheets to delete
+            sheets (List[Tuple[str, gspread.worksheet.Worksheet]]):
+                                        sheets to delete
         """
         for name, sheet in sheets:
             self.spreadsheet.del_worksheet(sheet)

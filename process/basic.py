@@ -7,7 +7,7 @@ from pandas import DataFrame, concat
 from stock import (
     canned_ibm, get_stock_param, download_data,
     analyse_stock, download_exchanges, download_companies,
-    Company, AnalysisRange, DATE_FORM, StockParam, DataMode
+    Company, AnalysisRange, DATE_FORM, StockParam, DataMode, CompanyColumn
 )
 from sheets import (
     save_data, get_sheets_data, save_exchanges, save_companies, search_company,
@@ -28,7 +28,7 @@ SYMBOL_ENTRY = 'Enter stock symbol'
 SEARCH_ENTRY = 'Search company'
 SYMBOL_MENU_HELP = f"Choose '{SYMBOL_ENTRY}' if the stock symbol is known, or"\
                    f"'{SEARCH_ENTRY}' to search by company name"
-COMPANY_SEARCH_HELP = f"Enter name or part of name to search for, "\
+COMPANY_SEARCH_HELP = f"Enter company name or part of name to search for, "\
                       f"or '{ABORT}' to cancel"
 
 def process_ibm():
@@ -112,7 +112,7 @@ def process_stock_menu() -> bool:
     """
     symbol_menu: Menu = Menu(
         CloseMenuEntry(SYMBOL_ENTRY, process_stock),
-        CloseMenuEntry(SEARCH_ENTRY, company_search),
+        CloseMenuEntry(SEARCH_ENTRY, company_name_search),
         menu_title='Stock Selection Method',
         help_text=SYMBOL_MENU_HELP
     )
@@ -244,14 +244,14 @@ def process_exchanges():
                 break   # HACK so just one exchange for now
 
 
-def company_search() -> bool:
+def company_name_search() -> bool:
     """
-    Perform a company search
+    Perform a company search by name
 
     Returns:
         bool: Truthy if processed, otherwise Falsy
     """
-    title('Company Search')
+    title('Company Name Search')
 
     loop: bool = True
 
@@ -269,7 +269,7 @@ def company_search() -> bool:
             loop = False
             continue
 
-        companies = search_company(name)
+        companies = search_company(name, col=CompanyColumn.NAME)
 
         if not companies:
             info('No matching results found')
