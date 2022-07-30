@@ -83,8 +83,8 @@ def check_partial(
                     if not gap_param:
                         # new gap
                         gap_param = StockParam(stock_param.symbol)
-                        gap_param.from_date = check_mth
-                    gap_param.to_date = limit_mth
+                        gap_param.set_from_date(check_mth)
+                    gap_param.set_to_date(limit_mth)
                 elif gap_param:
                     # save gap
                     gaps.append(gap_param)

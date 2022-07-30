@@ -18,7 +18,7 @@ def standardise_stock_param(stock_param: StockParam) -> StockParam:
     std_param = copy(stock_param)   # shallow copy
     if std_param.from_date.day > 1:
         # from 1st of month
-        std_param.from_date = std_param.from_date.replace(day=1)
+        std_param.set_from_date(std_param.from_date.replace(day=1))
 
     if std_param.to_date.day > 1:
         year = std_param.to_date.year
@@ -29,6 +29,6 @@ def standardise_stock_param(stock_param: StockParam) -> StockParam:
 
         # to 1st of next month
         new_date = std_param.to_date.replace(year=year, month=month, day=1)
-        std_param.to_date = min(new_date, datetime.now())
+        std_param.set_to_date(min(new_date, datetime.now()))
 
     return std_param

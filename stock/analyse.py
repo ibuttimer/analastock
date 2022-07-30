@@ -9,7 +9,7 @@ from collections import namedtuple
 import pandas as pd
 from utils import (
     get_input, error, ABORT, last_day_of_month, FRIENDLY_DATE_FMT,
-    filter_data_frame_by_date
+    filter_data_frame_by_date, convert_date_time, DateFormat
 )
 from .data import StockDownload, StockParam
 from .enums import DfColumn, DfStat, AnalysisRange
@@ -25,7 +25,8 @@ MIN_DATE = datetime(1962, 2, 1)
 SYMBOL_HELP = f"Enter symbol for the stock required, or '{ABORT}' to cancel.\n"\
               f"e.g. IBM: International Business Machines Corporation"
 FROM_DATE_HELP = f"Enter analysis start date, or '{ABORT}' to cancel"
-TO_DATE_HELP = f"Enter analysis end date, or '{ABORT}' to cancel"
+TO_DATE_HELP = f"Enter analysis end date (excluded from analysis), "\
+               f"or '{ABORT}' to cancel"
 PERIOD_HELP = f"Enter period in the form, [period] [from|to|ytd] [{DATE_FORM}]"\
               f", or\n'{ABORT}' to cancel.\n"\
               f"where: [period]      - is of the form '[0-9][d|m|y]' "\
@@ -332,8 +333,8 @@ def get_period_range(stock_param: StockParam) -> StockParam:
     if period == ABORT:
         stock_param = None
     elif isinstance(period, Period):
-        stock_param.from_date = period.from_date
-        stock_param.to_date = period.to_date
+        stock_param.set_from_date(period.from_date)
+        stock_param.set_to_date(period.to_date)
     else:
         stock_param = None
 
@@ -351,13 +352,13 @@ def get_date_range(stock_param: StockParam) -> StockParam:
         StockParam: stock parameters
     """
     entered_date = get_input(
-        'Enter from date',
+        'Enter from date         ',
         validate=validate_date,
         help_text=FROM_DATE_HELP,
         input_form=[DATE_FORM]
     )
     if entered_date != ABORT:
-        stock_param.from_date = entered_date
+        stock_param.set_from_date(entered_date)
 
         entered_date = get_input(
             'Enter to date (excluded)',
@@ -366,7 +367,7 @@ def get_date_range(stock_param: StockParam) -> StockParam:
             input_form=[DATE_FORM]
         )
         if entered_date != ABORT:
-            stock_param.to_date = entered_date
+            stock_param.set_to_date(entered_date)
 
     if entered_date == ABORT:
         stock_param = None
@@ -451,9 +452,6 @@ def analyse_stock(
         # convert list to data frame
         analyse = StockDownload.list_to_frame(analyse)
 
-    # TODO what to do about big gap between param data and received data,
-    # i.e. from date before listed
-
     # data in chronological order
     # FutureWarning: Comparison of Timestamp with datetime.date is
     # deprecated
@@ -470,10 +468,19 @@ def analyse_stock(
         analyse = filter_data_frame_by_date(
                         analyse, from_date, to_date, DfColumn.DATE.title)
 
+    # check if gap between requested and received data
+    from_date = convert_date_time(from_date, DateFormat.DATE)
+    to_date = convert_date_time(to_date, DateFormat.DATE)
+
     analysis = {
-        'from': from_date if isinstance(from_date, date) else from_date.date(),
-        'to': to_date if isinstance(to_date, date) else to_date.date(),
-        'symbol': symbol
+        'from': from_date,
+        'to': to_date,
+        'symbol': symbol,
+        'data_na': {
+            # mark greater than a weekend as missing data
+            'from': missing_data(stock_param.from_date, from_date),
+            'to': missing_data(stock_param.to_date, to_date)
+        }
     }
 
     for column in DfColumn.NUMERIC_COLUMNS:
@@ -509,3 +516,28 @@ def round_price(price: float) -> float:
         float: rounded value
     """
     return round(price, PRICE_PRECISION)
+
+
+def missing_data(req_date: date, recv_date: date):
+    """
+    Generate a missing data object
+
+    Args:
+        req_date (date): requested date
+        recv_date (date): received date
+
+    Returns:
+        object: object of form {
+            'missing': (bool),
+            'start': (date),
+            'end': (date)
+        }
+    """
+    data_delta = convert_date_time(recv_date, DateFormat.DATE) - \
+                    convert_date_time(req_date, DateFormat.DATE)
+    return {
+        # mark greater than a weekend as missing data
+        'missing': data_delta.days > 2,
+        'start': req_date,
+        'end': recv_date - timedelta(days=1)
+    }

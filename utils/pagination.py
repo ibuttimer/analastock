@@ -52,7 +52,7 @@ class Pagination():
             Union[List[Any], None]: items or None if invalid page num
         """
         page_items = None
-        if page_num >= 1 and page_num <= self.num_pages:
+        if 1 <= page_num <= self.num_pages:
             start = (page_num - 1) * self.page_size
             end = page_num * self.page_size
             page_items = self.items[start:end]
@@ -132,3 +132,13 @@ class Pagination():
             bool: True if available
         """
         return self.page_num > 1
+
+    @property
+    def num_items(self) -> bool:
+        """
+        Total number of items
+
+        Returns:
+            int: True if available
+        """
+        return len(self.items)

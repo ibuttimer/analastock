@@ -1,7 +1,7 @@
 """
 Stock param related functions
 """
-from datetime import datetime
+from datetime import date, datetime, time
 import dataclasses
 from typing import List, Union
 import numpy as np
@@ -13,14 +13,14 @@ from .enums import DfColumn
 @dataclasses.dataclass
 class StockParam:
     """
-    Class representing a stock
+    Class representing parameters for a stock
     """
 
     symbol: str
     """ Stock symbol """
-    from_date: datetime
+    _from_date: Union[datetime, date]
     """ From date (inclusive) for data """
-    to_date: datetime
+    _to_date: Union[datetime, date]
     """ To date (exclusive) for data """
 
     def __init__(self, symbol: str):
@@ -28,26 +28,97 @@ class StockParam:
 
     def __str__(self) -> str:
         return f'{self.__class__.__name__}(' \
-               f'{self.symbol}, {self.from_date}, {self.to_date})'
+               f'{self.symbol}, {self._from_date}, {self._to_date})'
 
-    @staticmethod
+    @classmethod
     def stock_param_of(
-        symbol: str, from_date: datetime, to_date: datetime) -> object:
+                cls, symbol: str,
+                from_date: Union[datetime, date],
+                to_date: Union[datetime, date]
+            ) -> object:
         """
         Factory
 
         Args:
             symbol (str): stock symbol
-            from_date (datetime): from date (inclusive)
-            to_date (datetime): to date (exclusive)
+            from_date (Union[datetime, date]): from date (inclusive)
+            to_date (Union[datetime, date]): to date (exclusive)
 
         Returns:
             StockParam: new object
         """
-        stock_param = StockParam(symbol)
-        stock_param.from_date = from_date
-        stock_param.to_date = to_date
+        stock_param = cls(symbol)
+        stock_param._from_date = from_date
+        stock_param._to_date = to_date
         return stock_param
+
+    def set_from_date(self, from_date: Union[datetime, date]) -> date:
+        """
+        Set from date
+
+        Args:
+            from_date (Union[datetime, date]): from date (inclusive)
+        """
+        self._from_date = from_date
+
+    def set_to_date(self, to_date: Union[datetime, date]) -> date:
+        """
+        Set to date
+
+        Args:
+            to_date (Union[datetime, date]): from date (inclusive)
+        """
+        self._to_date = to_date
+
+    @staticmethod
+    def _date(to_convert):
+        return to_convert if isinstance(to_convert, date) else \
+                to_convert.date()
+
+    @staticmethod
+    def _datetime(to_convert):
+        return to_convert if isinstance(to_convert, datetime) else \
+                datetime.combine(to_convert, time.min)
+
+    @property
+    def from_date(self) -> date:
+        """
+        From date as date
+
+        Returns:
+            date: from date
+        """
+        return StockParam._date(self._from_date)
+
+    @property
+    def from_datetime(self) -> datetime:
+        """
+        From date as datetime
+
+        Returns:
+            date: from datetime
+        """
+        return StockParam._datetime(self._from_date)
+
+    @property
+    def to_date(self) -> date:
+        """
+        To date as date
+
+        Returns:
+            date: to date
+        """
+        return StockParam._date(self._to_date)
+
+    @property
+    def to_datetime(self) -> datetime:
+        """
+        To date as datetime
+
+        Returns:
+            date: to datetime
+        """
+        return StockParam._datetime(self._to_date)
 
 
 @dataclasses.dataclass

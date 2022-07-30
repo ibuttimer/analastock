@@ -2,10 +2,11 @@
 Miscellaneous functions
 """
 from calendar import isleap
-from datetime import date, datetime
+from datetime import date, datetime, time
 import json
 import os
 from typing import Any, Union
+from enum import Enum, auto
 
 import pandas as pd
 
@@ -126,3 +127,38 @@ def filter_data_frame_by_date(
     return data_frame[
         (data_frame[column] >= min_date) & (data_frame[column] < max_date)
     ]
+
+
+class DateFormat(Enum):
+    """ Enum representing datetime/date objects conversions """
+    DATE = auto()
+    """ Convert to date """
+    DATETIME = auto()
+    """ Convert to datetime """
+    FRIENDLY_DATE = auto()
+    """ Convert to user friendly string """
+
+def convert_date_time(
+            date_time: Union[datetime, date], required: DateFormat
+        ) -> Union[datetime, date, str]:
+    """
+    Convert datetime/date objects
+
+    Args:
+        date_time (Union[datetime, date]): object to convert
+        required (DateFormat): required format
+
+    Returns:
+        Union[datetime, date, str]: converted object
+    """
+    conversion = date_time
+    if required == DateFormat.DATE:
+        if isinstance(date_time, datetime):
+            conversion = date_time.date()
+    elif required == DateFormat.DATETIME:
+        if isinstance(date_time, date):
+            conversion = datetime.combine(date_time, time.min)
+    elif required == DateFormat.FRIENDLY_DATE:
+        conversion = date_time.strftime(FRIENDLY_DATE_FMT)
+
+    return conversion

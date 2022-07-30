@@ -241,6 +241,21 @@ class DCell(FormatMixin):
         """
         return self.colorised_str(self.text, self.fmt, self.width, self.marker)
 
+    @classmethod
+    def blank_cell(cls, width: int = 1) -> object:
+        """
+        Generate a blank cell
+
+        Args:
+            width (int, optional): width. Defaults to 1.
+
+        Returns:
+            DCell: cell
+        """
+        return cls('', width=width, fmt=f'<{width}')
+
+
+# TODO check FormatMixin variables
 
 # def set_x_pos(self, x_pos: int) -> DCell:
 #     """
@@ -396,6 +411,23 @@ class DRow(FormatMixin):
             Str: string to display tuple
         """
         return self._formatted(left_margin, right_margin, gap, True)
+
+    @classmethod
+    def blank_row(cls, width: int = 1) -> object:
+        """
+        Generate a blank row
+
+        Args:
+            width (int, optional): width. Defaults to 1.
+
+        Returns:
+            DRow: row
+        """
+        row = cls(width=width)
+        row.add_cell(
+            DCell.blank_cell()
+        )
+        return row
 
 
 class DGrid(FormatMixin):

@@ -148,9 +148,9 @@ def download_data(
     )
 
     info(
-        f'Downloading {load_param.symbol} data: '
-        f'{friendly_date(load_param.from_date)} - '
-        f'{friendly_date(load_param.to_date)}'
+        f"Downloading data for '{load_param.symbol}': "\
+        f"{friendly_date(load_param.from_date)} - "\
+        f"{friendly_date(load_param.to_date)}"\
     )
 
     data = None
@@ -183,7 +183,8 @@ def download_data(
                     #                   may be delisted"
                     match = NO_SYMBOL_REGEX.match(response.text)
                     if match:
-                        msg = match.group(1)
+                        msg = f"No data found, "\
+                              f"symbol '{load_param.symbol}' may be delisted"
 
                 error(msg)
 

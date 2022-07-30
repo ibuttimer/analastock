@@ -6,6 +6,7 @@ import unittest
 
 from sheets import search_company
 from stock import Company
+from utils import Pagination
 
 from .base import TestBase
 
@@ -23,15 +24,16 @@ class TestSearch(TestBase):
 
         sheet = self.add_sheet(worksheet_name, del_if_exists=True)
 
-        # test data for COMP1-COMP20
-        comp_symbol = 'COMP'
+        # test data for Company 1 - Company 20
+        num_companies = 20
+        company_name = 'Company'
         test_data = [
             [
-                f'EXC{(i // 10) + 1}',      # exchange code
-                f'{comp_symbol}{i + 1}',    # symbol
-                f'Company {i + 1} D.A.C',   # name
+                f'EXC{(i // (num_companies / 2)) + 1}', # exchange code
+                f'COMP{i + 1}',             # symbol
+                f'{company_name} {i + 1} D.A.C',   # name
                 'Industrials'               # sector
-            ] for i in range(0, 20)
+            ] for i in range(0, num_companies)
         ]
 
         # add data
@@ -42,17 +44,36 @@ class TestSearch(TestBase):
             self.assertEqual(result['updates']['updatedCells'], len(data))
 
         # check find all
-        results = search_company(comp_symbol.lower(), sheet=sheet)
+        pg_result = search_company(company_name.lower(), sheet=sheet)
+        self.assertTrue(isinstance(pg_result, Pagination))
+
+        pg_result.set_page_size(num_companies)
+        results = pg_result.get_current_page()
+
+        self.assertEqual(len(test_data), pg_result.num_items)
         self.assertEqual(len(test_data), len(results))
         for i, entry in enumerate(test_data):
             with self.subTest(msg=f'entry[{i}] {entry}'):
                 self.assert_company(results[i], entry)
 
         # check find some
-        partial_name = f'{comp_symbol}1'
-        results = search_company(partial_name, sheet=sheet)
-        # expecting COMP1 & COMP10-COMP19, i.e. 11
-        self.assertEqual(11, len(results))
+        partial_name = f'{company_name} 1'
+        pg_result = search_company(partial_name, sheet=sheet)
+        self.assertTrue(isinstance(pg_result, Pagination))
+
+        # expecting Company 1 & Company 10 - Company 19, i.e. 11
+        pg_result.set_page_size(num_companies)
+        results = pg_result.get_current_page()
+        expected_partials = len(
+            list(
+                filter(
+                    lambda entry: entry.name.startswith(partial_name), results
+                )
+            )
+        )
+
+        self.assertEqual(expected_partials, pg_result.num_items)
+        self.assertEqual(expected_partials, len(results))
         res_idx = 0
         for i, entry in enumerate(test_data):
             if not entry[0].startswith(partial_name):
@@ -63,7 +84,13 @@ class TestSearch(TestBase):
                 res_idx += 1
 
         # check find none
-        results = search_company('DNE', sheet=sheet)
+        pg_result = search_company('DNE', sheet=sheet)
+        self.assertTrue(isinstance(pg_result, Pagination))
+
+        pg_result.set_page_size(num_companies)
+        results = pg_result.get_current_page()
+
+        self.assertEqual(0, pg_result.num_items)
         self.assertEqual(0, len(results))
 
         # tidy up

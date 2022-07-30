@@ -8,7 +8,7 @@ from .output import (
 from .menu import MenuEntry, CloseMenuEntry, Menu
 from .misc import (
     get_env_setting, last_day_of_month, load_json_file, friendly_date,
-    filter_data_frame_by_date
+    filter_data_frame_by_date, DateFormat, convert_date_time
 )
 from .constants import (
     DEFAULT_CREDS_FILE, DEFAULT_CREDS_PATH, DEFAULT_RAPID_CREDS_FILE,
@@ -42,6 +42,8 @@ __all__ = [
     'load_json_file',
     'friendly_date',
     'filter_data_frame_by_date',
+    'DateFormat',
+    'convert_date_time',
 
     'DEFAULT_CREDS_FILE',
     'DEFAULT_CREDS_PATH',

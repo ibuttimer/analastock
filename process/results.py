@@ -4,7 +4,7 @@ Processing results display functions
 
 from typing import List
 from stock import DfStat, DfColumn
-from utils import MAX_LINE_LEN, FRIENDLY_DATE_FMT
+from utils import MAX_LINE_LEN, convert_date_time, DateFormat
 from .grid import DGrid, DCell, DRow, FORMAT_WIDTH_MARK, Marker
 
 
@@ -13,7 +13,7 @@ from .grid import DGrid, DCell, DRow, FORMAT_WIDTH_MARK, Marker
 
 #                                                                        Currency
 # Stock : IBM - International Business Machines Corporation                   USD
-# Period: 01 Mar 2022 - 01 Jul 2022
+# Period: 01 Mar 2022* - 01 Jul 2022**
 #               Min          Max         Change         %
 # Open      ............ ............ ............ ............
 # Low       ............ ............ ............ ............
@@ -21,6 +21,9 @@ from .grid import DGrid, DCell, DRow, FORMAT_WIDTH_MARK, Marker
 # Close     ............ ............ ............ ............
 # AdjClose  ............ ............ ............ ............
 # Volume    ............ ............ ............ ............
+#
+# *  : Data n/a 01 Jan 1990 - 28 Feb 2022
+# ** : Data n/a 02 Jul 2022 - 30 Jul 2022
 
 # currency row formatting
 # e.g. #                                                             Currency
@@ -44,6 +47,11 @@ VALUE_NAME_CELL_WIDTH = 9   # Open/Low/High etc. cell width
 DATA_CELL_WIDTH = 12
 VALUE_NAME_FMT = f'<{FORMAT_WIDTH_MARK}'
 DATA_CELL_FMT = f'>{FORMAT_WIDTH_MARK}'
+# notes formatting
+NOTE_1 = '*'
+NOTE_2 = '*' * 2
+NOTE_MARK_WIDTH = 2
+NOTE_ROW_FMT = f'<{FORMAT_WIDTH_MARK}'
 
 CHANGE_STATS = [DfStat.CHANGE, DfStat.PERCENT_CHANGE]
 STATS = [DfStat.MIN, DfStat.MAX]
@@ -90,6 +98,9 @@ def display_single(results: object):
             row.add_cell(cell)
 
         grid.add_row(row)
+
+    # add missing data notes
+    add_missing_notes(grid, results)
 
     grid.display()
 
@@ -146,6 +157,7 @@ def add_title_row(grid: DGrid, title: str, cells: List[DCell]):
     row.add_cell(cells)
     grid.add_row(row)
 
+
 def add_period(grid: DGrid, results: object):
     """
     Add currency title row to grid
@@ -154,12 +166,17 @@ def add_period(grid: DGrid, results: object):
         grid (DGrid): grid to add to
         results (object): result to display
     """
-    period = f"{results['from'].strftime(FRIENDLY_DATE_FMT)} - "\
-             f"{results['to'].strftime(FRIENDLY_DATE_FMT)}"
+    note1 = NOTE_1 if results['data_na']['from']['missing'] else ''
+    note2 = NOTE_2 if results['data_na']['to']['missing'] else ''
+    from_date = convert_date_time(results['from'], DateFormat.FRIENDLY_DATE)
+    to_date = convert_date_time(results['to'], DateFormat.FRIENDLY_DATE)
+
+    period = f"{from_date}{note1} - {to_date}{note2}"
     period_width = grid.width - grid.gap - TITLE_CELL_WIDTH
     add_title_row(grid, 'Period', [
         DCell(period, period_width, TITLE_TEXT_CELL_FMT)
     ])
+
 
 def add_stock(grid: DGrid, results: object):
     """
@@ -177,3 +194,33 @@ def add_stock(grid: DGrid, results: object):
         DCell(stock, stock_width, TITLE_TEXT_CELL_FMT),
         DCell('CUR', CUR_CELL_WIDTH, TITLE_CUR_CELL_FMT)
     ])
+
+
+def add_missing_notes(grid: DGrid, results: object):
+    """
+    Add missing data notes
+
+    Args:
+        grid (DGrid): grid to add to
+        results (object): result to display
+    """
+    added_blank = False
+    for note, prop in [(NOTE_1, 'from'), (NOTE_2, 'to')]:
+        missing = results['data_na'][prop]
+        if missing['missing']:
+            from_date = \
+                convert_date_time(missing['start'], DateFormat.FRIENDLY_DATE)
+            to_date = \
+                convert_date_time(missing['end'], DateFormat.FRIENDLY_DATE)
+            text = f"{f'{note}':{f'<{NOTE_MARK_WIDTH}'}}: "\
+                   f"Data n/a {from_date} - {to_date}"
+
+            if not added_blank:
+                grid.add_row(DRow.blank_row())
+                added_blank = True
+
+            row = DRow(grid.width)
+            row.add_cell(
+                DCell(text, row.width)
+            )
+            grid.add_row(row)
