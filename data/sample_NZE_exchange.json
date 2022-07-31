@@ -1,0 +1,1340 @@
+[
+    {
+        "exchangeCode": "NZE",
+        "symbol": "ABA.NZ",
+        "companyName": "Abano Healthcare Group Limited ",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "ABB040.NZ",
+        "companyName": "ABB 26/05/2021 4.245% ASB Bank ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "AFT.NZ",
+        "companyName": "AFT Pharmaceuticals Ltd Ordinar",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "AGG.NZ",
+        "companyName": "Smartshares Global Aggregate Bo",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "AIA.NZ",
+        "companyName": "Auckland International Airport ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "AIA200.NZ",
+        "companyName": "AIA 09/11/22 4.28% - Auckland I",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "AIA220.NZ",
+        "companyName": "AIA 17/04/2023 3.64% Auckland I",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "AIA230.NZ",
+        "companyName": "AIA 10/10/2024 3.51% Auckland I",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "AIR.NZ",
+        "companyName": "Air New Zealand Limited (NS) Or",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "AIR020.NZ",
+        "companyName": "AIR 28/10/2022 4.25% - Air New ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "AKC070.NZ",
+        "companyName": "AKC 25/03/24 5.806% - Auckland ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "ALF.NZ",
+        "companyName": "Allied Farmers Limited Ordinary",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "AMP.NZ",
+        "companyName": "AMP Limited Ordinary Shares",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "ANB100.NZ",
+        "companyName": "ANB 25/09/2020 4.03% ANZ Bank N",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "ANZ.NZ",
+        "companyName": "Australia and New Zealand Banki",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "APA.NZ",
+        "companyName": "Smartshares Asia Pacific ETF Un",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "APL.NZ",
+        "companyName": "Asset Plus Limited Ordinary Sha",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "ARG.NZ",
+        "companyName": "Argosy Property Limited Ordinar",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "ARG010.NZ",
+        "companyName": "ARG 27/03/2026 4.00% Argosy Pro",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "ARV.NZ",
+        "companyName": "Arvida Group Limited Ordinary S",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "ASD.NZ",
+        "companyName": "Smartshares Australian Dividend",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "ASF.NZ",
+        "companyName": "Smartshares Australian Financia",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "ASP.NZ",
+        "companyName": "Smartshares Australian Property",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "ASR.NZ",
+        "companyName": "Smartshares Australian Resource",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "ATM.NZ",
+        "companyName": "The a2 Milk Company Limited Ord",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "AUG.NZ",
+        "companyName": "Augusta Capital Limited Ordinar",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "BFG.NZ",
+        "companyName": "Burger Fuel Group Limited Ordin",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "BGI.NZ",
+        "companyName": "Blackwell Global Holdings Limit",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "BGP.NZ",
+        "companyName": "Briscoe Group Limited Ordinary ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "BIT.NZ",
+        "companyName": "The Bankers Investment Trust Pl",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "BLT.NZ",
+        "companyName": "Blis Technologies Limited Ordin",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "BNZ090.NZ",
+        "companyName": "BNZ 17/12/2025 5.314% Bank of N",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "BNZ100.NZ",
+        "companyName": "BNZ 18/06/2020 4.426% Bank Of N",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "BNZ110.NZ",
+        "companyName": "BNZ 15/06/2023 4.102% Bank of N",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "BOT.NZ",
+        "companyName": "Smartshares Automation and Robo",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "BRM.NZ",
+        "companyName": "Barramundi Limited Ordinary Sha",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "CAV.NZ",
+        "companyName": "Cavalier Corporation Limited Or",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "CBD.NZ",
+        "companyName": "Cannasouth Limited Ordinary Sha",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "CCH020.NZ",
+        "companyName": "CCH 27/11/24 3.58% CCH Limited ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "CDI.NZ",
+        "companyName": "CDL Investments New Zealand Lim",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "CEN.NZ",
+        "companyName": "Contact Energy Limited Ordinary",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "CEN040.NZ",
+        "companyName": "CEN 15/11/2022 4.63% Bonds",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "CEN050.NZ",
+        "companyName": "CEN 15/08/2024 3.55% Bonds",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "CGF.NZ",
+        "companyName": "Cooks Global Foods Limited Ordi",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "CHC010.NZ",
+        "companyName": "CHC 24/05/2024 4.13% Christchur",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "CMO.NZ",
+        "companyName": "The Colonial Motor Company Limi",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "CNU.NZ",
+        "companyName": "Chorus Limited (NS) Ordinary Sh",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "CNU010.NZ",
+        "companyName": "Chorus Limited 06/05/21 4.12 %",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "CNU020.NZ",
+        "companyName": "CNU 06/12/2028 4.35% Chorus Lim",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "COO010.NZ",
+        "companyName": "COO 28/07/2026 6.00% The Co-ope",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "CVT.NZ",
+        "companyName": "Comvita Limited Ordinary Shares",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "DGL.NZ",
+        "companyName": "Delegat Group Limited Ordinary ",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "DIV.NZ",
+        "companyName": "Smartshares NZ Dividend ETF Uni",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "EBO.NZ",
+        "companyName": "Ebos Group Limited Ordinary Sha",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "EMF.NZ",
+        "companyName": "Smartshares Emerging Markets ET",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "EMG.NZ",
+        "companyName": "Smartshares Emerging Markets Eq",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "ENS.NZ",
+        "companyName": "Enprise Group Limited Ordinary ",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "ESG.NZ",
+        "companyName": "Smartshares Global Equities ESG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "EVO.NZ",
+        "companyName": "Evolve Education Group Limited ",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "FBI150.NZ",
+        "companyName": "FBI 15/03/2021 4.75% Fletcher B",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "FBI160.NZ",
+        "companyName": "FBI 15/03/2022 5.00% Fletcher B",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "FBI170.NZ",
+        "companyName": "FBI 15/03/2023 5% Fletcher Buil",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "FBI180.NZ",
+        "companyName": "FBI 15/03/2024 4.90% Fletcher B",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "FBU.NZ",
+        "companyName": "Fletcher Building Limited Ordin",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "FCG.NZ",
+        "companyName": "Fonterra Co-operative Group Lim",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "FCG030.NZ",
+        "companyName": "FCG 20/10/2021 4.33% - Fonterra",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "FCG040.NZ",
+        "companyName": "FCG 07/03/2023 4.42% Fonterra C",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "FCG050.NZ",
+        "companyName": "FCG 14/11/2025 4.15% Fonterra C",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "FNZ.NZ",
+        "companyName": "Smartshares NZ Top 50 ETF Units",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "FPH.NZ",
+        "companyName": "Fisher & Paykel Healthcare Corp",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "FRE.NZ",
+        "companyName": "Freightways Limited Ordinary Sh",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "FSF.NZ",
+        "companyName": "Fonterra Shareholders' Fund Uni",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "FWL.NZ",
+        "companyName": "Foley Wines Limited Ordinary Sh",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "GBF.NZ",
+        "companyName": "Smartshares Global Bond ETF Uni",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "GEN.NZ",
+        "companyName": "General Capital Limited Ordinar",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "GFL.NZ",
+        "companyName": "Geneva Finance Limited Ordinary",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "GMB040.NZ",
+        "companyName": "GMB 31/05/2024 4.54% GMT Bond I",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "GMB050.NZ",
+        "companyName": "GMB 01/09/2023 4% GMT Bond Issu",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "GMT.NZ",
+        "companyName": "Goodman Property Trust (NS) Ord",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "GNE.NZ",
+        "companyName": "Genesis Energy Limited Ordinary",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "GNE030.NZ",
+        "companyName": "GNE 18/03/2022 4.14% Genesis En",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "GNE040.NZ",
+        "companyName": "GNE 09/06/2047 5.70% Genesis En",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "GNE050.NZ",
+        "companyName": "GNE 16/07/2048 4.65% Genesis En",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "GTK.NZ",
+        "companyName": "Gentrack Group Limited Ordinary",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "GXH.NZ",
+        "companyName": "Green Cross Health Limited Ordi",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "HBL010.NZ",
+        "companyName": "HBL 21/09/2022 4.50% Heartland",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "HBL020.NZ",
+        "companyName": "HBL 12/04/2024 3.55% Heartland ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "HFL.NZ",
+        "companyName": "Henderson Far East Income Limit",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "HGH.NZ",
+        "companyName": "Heartland Group Holdings Limite",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "HLG.NZ",
+        "companyName": "Hallenstein Glasson Holdings Li",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "IFT.NZ",
+        "companyName": "Infratil Limited Ordinary Share",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "IFT210.NZ",
+        "companyName": "IFT 15/09/2023 5.25% Infratil L",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "IFT220.NZ",
+        "companyName": "IFT 15/06/2021 4.90% Infratil L",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "IFT260.NZ",
+        "companyName": "IFT 15/12/2024 4.75% Infratil L",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "IFT270.NZ",
+        "companyName": "IFT 15/12/2028 4.85% Infratil L",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "IFT280.NZ",
+        "companyName": "IFT 15/12/2026 3.35% Infratil L",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "IKE.NZ",
+        "companyName": "ikeGPS Group Limited Ordinary S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "IPL.NZ",
+        "companyName": "Investore Property Limited (NS)",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "IPL010.NZ",
+        "companyName": "IPL 18/04/2024 4.40% Investore ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "JLG.NZ",
+        "companyName": "Just Life Group Limited Ordinar",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "JPG.NZ",
+        "companyName": "JPMorgan Global Growth & Income",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "JPN.NZ",
+        "companyName": "Smartshares Japan Equities ESG ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "KFL.NZ",
+        "companyName": "Kingfish Limited Ordinary Share",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "KMD.NZ",
+        "companyName": "Kathmandu Holdings Limited Ordi",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "KPG.NZ",
+        "companyName": "Kiwi Property Group Limited Ord",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "KPG010.NZ",
+        "companyName": "KPG 20/08/21 6.15% - Kiwi Prope",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "KPG020.NZ",
+        "companyName": "KPG 07/09/23 4.00% - Kiwi Prope",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "KPG030.NZ",
+        "companyName": "KPG 19/12/24 4.33% - Kiwi Prope",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "KPG040.NZ",
+        "companyName": "KPG 12/11/25 4.06% - Kiwi Prope",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "LGF060.NZ",
+        "companyName": "LGF 15/04/2027 4.50% - NZ Local",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "LIV.NZ",
+        "companyName": "Smartshares Healthcare Innovati",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "MCK.NZ",
+        "companyName": "Millennium & Copthorne Hotels N",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "MCKPA.NZ",
+        "companyName": "Millennium & Copthorne Hotels N",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "MCY.NZ",
+        "companyName": "Mercury NZ Limited Ordinary Sha",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "MCY020.NZ",
+        "companyName": "MCY 11/07/2049 3.60% Mercury NZ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "MDZ.NZ",
+        "companyName": "Smartshares NZ Mid Cap ETF Unit",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "MEL.NZ",
+        "companyName": "Meridian Energy Limited (NS) Or",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "MEL030.NZ",
+        "companyName": "MEL 14/03/2023 4.53% Bonds",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "MEL040.NZ",
+        "companyName": "MEL 20/03/2024 4.88% Meridian E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "MEL050.NZ",
+        "companyName": "MEL 27/06/2025 4.21% Meridian E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "MET.NZ",
+        "companyName": "Metlifecare Limited Ordinary sh",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "MET010.NZ",
+        "companyName": "MET 30/09/2026 3.00% Metlifecar",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "MFT.NZ",
+        "companyName": "Mainfreight Limited Ordinary Sh",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "MGL.NZ",
+        "companyName": "Mercer Group Limited Ordinary S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "MHJ.NZ",
+        "companyName": "Michael Hill International Ltd ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "MLN.NZ",
+        "companyName": "Marlin Global Limited Ordinary ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "MOA.NZ",
+        "companyName": "Moa Group Limited Ordinary Shar",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "MPG.NZ",
+        "companyName": "Metro Performance Glass Limited",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "MWE.NZ",
+        "companyName": "Marlborough Wine Estates Group ",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "MZY.NZ",
+        "companyName": "Smartshares Australian Mid Cap ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "NPF.NZ",
+        "companyName": "Smartshares NZ Property ETF Uni",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "NPH.NZ",
+        "companyName": "Napier Port Holdings Limited Or",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "NTL.NZ",
+        "companyName": "New Talisman Gold Mines Limited",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "NWF.NZ",
+        "companyName": "NZ Windfarms Limited Ordinary S",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "NZB.NZ",
+        "companyName": "Smartshares NZ Bond ETF Units",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "NZC.NZ",
+        "companyName": "Smartshares NZ Cash ETF Units",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "NZK.NZ",
+        "companyName": "NZ King Salmon Investments Limi",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "NZM.NZ",
+        "companyName": "NZME Limited Ordinary Shares",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "NZO.NZ",
+        "companyName": "New Zealand Oil & Gas Ltd Ordin",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "NZP010.NZ",
+        "companyName": "NZP 15/11/39 4.23% - New Zealan",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "NZR.NZ",
+        "companyName": "The New Zealand Refining Compan",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "NZR010.NZ",
+        "companyName": "NZR 01/03/2034 5.10% The New Ze",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "NZX.NZ",
+        "companyName": "NZX Limited Ordinary Shares",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "NZX010.NZ",
+        "companyName": "NZX 20/06/2033 5.40% NZX Limite",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "OCA.NZ",
+        "companyName": "Oceania Healthcare Limited Ordi",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "OZY.NZ",
+        "companyName": "Smartshares Australian Top 20 E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "PCT.NZ",
+        "companyName": "Precinct Properties New Zealand",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "PCT020.NZ",
+        "companyName": "PCT 27/11/2024 4.42% Precinct P",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "PEB.NZ",
+        "companyName": "Pacific Edge Limited Ordinary S",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "PFI.NZ",
+        "companyName": "Property For Industry Limited O",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "PFI020.NZ",
+        "companyName": "PFI 01/10/2025 4.25% Property f",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "PGW.NZ",
+        "companyName": "PGG Wrightson Limited Ordinary ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "PLP.NZ",
+        "companyName": "Private Land and Property Fund ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "PLX.NZ",
+        "companyName": "Plexure Group Limited Ordinary ",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "POT.NZ",
+        "companyName": "Port of Tauranga Ltd Ordinary S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "PPH.NZ",
+        "companyName": "Pushpay Holdings Ltd Ordinary S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "QEX.NZ",
+        "companyName": "QEX Logistics Limited Ordinary ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "RAK.NZ",
+        "companyName": "Rakon Limited Ordinary Shares",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "RBD.NZ",
+        "companyName": "Restaurant Brands NZ Limited Or",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "RBO010.NZ",
+        "companyName": "RBO 10/06/2020 4.592% Rabobank ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "RYM.NZ",
+        "companyName": "Ryman Healthcare Limited Ordina",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SAN.NZ",
+        "companyName": "Sanford Limited (NS) Ordinary S",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SCL.NZ",
+        "companyName": "Scales Corporation Limited Ordi",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SCT.NZ",
+        "companyName": "Scott Technology Limited Ordina",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SCY.NZ",
+        "companyName": "Smiths City Group Limited Ordin",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SDL.NZ",
+        "companyName": "Solution Dynamics Limited Ordin",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SEK.NZ",
+        "companyName": "Seeka Limited Ordinary Shares",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SKC.NZ",
+        "companyName": "SkyCity Entertainment Group Lim",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SKC040.NZ",
+        "companyName": "SKC 28/09/2022 4.65% Bonds",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SKL.NZ",
+        "companyName": "Skellerup Holdings Limited Ordi",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SKO.NZ",
+        "companyName": "Serko Limited Ordinary Shares",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SKT.NZ",
+        "companyName": "Sky Network Television Limited ",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SKT020.NZ",
+        "companyName": "SKT 31/03/2021 6.25% - Sky Netw",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SML.NZ",
+        "companyName": "Synlait Milk Limited (NS) Ordin",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SML010.NZ",
+        "companyName": "SML 17/12/2024 3.83% Synlait Mi",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SPF580.NZ",
+        "companyName": "SPF 07/03/2024 3.37% Spark Fina",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SPG.NZ",
+        "companyName": "Stride Prop & Stride Invest Mgm",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SPK.NZ",
+        "companyName": "Spark New Zealand Limited Ordin",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SPN.NZ",
+        "companyName": "South Port New Zealand Limited ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SPY.NZ",
+        "companyName": "Smartpay Holdings Limited Ordin",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SRF.NZ",
+        "companyName": "Senior Trust Retirement Village",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "STU.NZ",
+        "companyName": "Steel & Tube Holdings Limited O",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SUM.NZ",
+        "companyName": "Summerset Group Holdings Limite",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SUM010.NZ",
+        "companyName": "SUM 11/07/2023 4.78% Summerset ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "SUM020.NZ",
+        "companyName": "SUM 24/09/2025 4.20% Summerset ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "TEM.NZ",
+        "companyName": "Templeton Emerging Markets Inve",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "TGG.NZ",
+        "companyName": "T&G Global Limited Ordinary Sha",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "THL.NZ",
+        "companyName": "Tourism Holdings Limited Ordina",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "TLL.NZ",
+        "companyName": "TIL Logistics Group Ltd Ordinar",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "TLS.NZ",
+        "companyName": "Telstra Corporation Limited Ord",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "TLT.NZ",
+        "companyName": "Tilt Renewables Limited Ordinar",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "TNZ.NZ",
+        "companyName": "Smartshares NZ Top 10 ETF Units",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "TPW.NZ",
+        "companyName": "Trustpower Limited Ordinary Sha",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "TPW150.NZ",
+        "companyName": "TPW 15/12/22 4.01% - Trustpower",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "TPW170.NZ",
+        "companyName": "TPW 22/02/2029 3.97% Trustpower",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "TPW180.NZ",
+        "companyName": "TPW 29/07/2026 3.35% Trustpower",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "TRA.NZ",
+        "companyName": "Turners Automotive Group Ltd Or",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "TRU.NZ",
+        "companyName": "TruScreen Limited Ordinary Shar",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "TWF.NZ",
+        "companyName": "Smartshares Total World ETF Uni",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "TWR.NZ",
+        "companyName": "Tower Limited Ordinary Shares",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "USA.NZ",
+        "companyName": "Smartshares US Equities ESG ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "USF.NZ",
+        "companyName": "Smartshares US 500 ETF Units",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "USG.NZ",
+        "companyName": "Smartshares US Large Growth ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "USM.NZ",
+        "companyName": "Smartshares US Mid Cap ETF Unit",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "USV.NZ",
+        "companyName": "Smartshares US Large Value ETF ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "VCT.NZ",
+        "companyName": "Vector Limited Ordinary Shares",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "VCT080.NZ",
+        "companyName": "VCT 15/06/22 5.70%  Vector Limi",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "VCT090.NZ",
+        "companyName": "VCT 27/05/25 3.45% Vector Limit",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "VGL.NZ",
+        "companyName": "Vista Group International Ltd O",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "VHP.NZ",
+        "companyName": "Vital Healthcare Property Trust",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "VTL.NZ",
+        "companyName": "Vital Limited Ordinary Shares",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "WBC.NZ",
+        "companyName": "Westpac Banking Corporation Ord",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "WBC010.NZ",
+        "companyName": "WBC 01/09/2026 4.6950% Westpac ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "WDT.NZ",
+        "companyName": "Wellington Drive Technologies L",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "WEL010.NZ",
+        "companyName": "WEL 02/08/2023 4.90% WEL Networ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "WHS.NZ",
+        "companyName": "The Warehouse Group Limited Ord",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "WHS020.NZ",
+        "companyName": "WHS 15/06/2020 5.30% The Wareho",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "WIA050.NZ",
+        "companyName": "WIA 16/06/2025 5.00% Wellington",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "WIA060.NZ",
+        "companyName": "WIA 01/04/2030 4.00% Wellington",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "ZEL.NZ",
+        "companyName": "Z Energy Limited Ordinary Share",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "ZEL040.NZ",
+        "companyName": "ZEL 01/11/2021 4.01% Z Energy L",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "ZEL050.NZ",
+        "companyName": "ZEL 01/11/2023 4.32% Z Energy L",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NZE",
+        "symbol": "ZEL060.NZ",
+        "companyName": "ZEL 03/09/2024 4.00% Z Energy L",
+        "industryOrCategory": "N/A"
+    }
+]

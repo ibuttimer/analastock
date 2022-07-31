@@ -1,0 +1,194 @@
+[
+    {
+        "exchangeCode": "ISE",
+        "symbol": "A5G.IR",
+        "companyName": "AIB GROUP PLC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "APGN.IR",
+        "companyName": "APPLEGREEN PLC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "BIRG.IR",
+        "companyName": "BANK OF IRELAND GP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "C5H.IR",
+        "companyName": "CAIRN HOMES PLC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "CRG.IR",
+        "companyName": "CRH PLC ord",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "DHG.IR",
+        "companyName": "DALATA HOTEL GP.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "DOY.IR",
+        "companyName": "ABBEY PLC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "DQ5.IR",
+        "companyName": "CPL RESOURCES PLC.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "DQ7A.IR",
+        "companyName": "DONEGAL INVESTMENT",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "EG7.IR",
+        "companyName": "FBD HOLDINGS PLC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "FLTR.IR",
+        "companyName": "FLUTTER ENTERTAIN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "GL9.IR",
+        "companyName": "GLANBIA PLC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "GRP.IR",
+        "companyName": "GREENCOAT REN.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "GVR.IR",
+        "companyName": "GLENVEAGH PROP.PLC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "HBRN.IR",
+        "companyName": "HIBERNIA REIT PLC",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "IL0A.IR",
+        "companyName": "PERM. TSB GP. HOLD",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "IR5B.IR",
+        "companyName": "IRISH CONT. GP.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "IRES.IR",
+        "companyName": "IRISH RES. PROP.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "KMR.IR",
+        "companyName": "KENMARE RESOURCES",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "KRX.IR",
+        "companyName": "KINGSPAN GROUP PLC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "KRZ.IR",
+        "companyName": "KERRY GROUP PLC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "MLC.IR",
+        "companyName": "MALIN CORP. PLC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "OIZ.IR",
+        "companyName": "ORIGIN ENT. PLC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "ORQ1.IR",
+        "companyName": "ORMONDE MINING PLC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "P8ET.IR",
+        "companyName": "PETRONEFT RES.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "PZQA.IR",
+        "companyName": "PROVIDENCE RES.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "RY4C.IR",
+        "companyName": "RYANAIR HOLD. PLC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "SK3.IR",
+        "companyName": "SMURFIT KAPPA GP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "T7O.IR",
+        "companyName": "TOTAL PRODUCE PLC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "UPR.IR",
+        "companyName": "UNIPHAR PLC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "YEW.IR",
+        "companyName": "YEW GROVE REIT PLC",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "ISE",
+        "symbol": "YZA.IR",
+        "companyName": "ARYZTA AG",
+        "industryOrCategory": "Consumer Defensive"
+    }
+]

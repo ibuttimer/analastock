@@ -1,0 +1,1916 @@
+[
+    {
+        "exchangeCode": "OSL",
+        "symbol": "2020.OL",
+        "companyName": "2020 BULKERS LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AALLON.OL",
+        "companyName": "Aallon Group Oyj",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AASB-ME.OL",
+        "companyName": "AASEN SPAREBANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ABT.OL",
+        "companyName": "AQUA BIO TECHNOLOG",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ADE.OL",
+        "companyName": "ADEVINTA ASA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ADEO.OL",
+        "companyName": "Adevinta ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ADMCM.OL",
+        "companyName": "Admicom Oyj",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ADSC-ME.OL",
+        "companyName": "ADS CRUDE CARRIERS",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AEGA.OL",
+        "companyName": "AEGA ASA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AFG.OL",
+        "companyName": "AF GRUPPEN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AFGO.OL",
+        "companyName": "AF Gruppen ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AFK.OL",
+        "companyName": "ARENDALS FOSSEKOMP",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AHOLA.OL",
+        "companyName": "Oyj Ahola Transport Abp ser. A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AKA.OL",
+        "companyName": "AKASTOR ASA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AKER.OL",
+        "companyName": "AKER ASA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AKERBP.OL",
+        "companyName": "AKER BP ASA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AKERBPO.OL",
+        "companyName": "Aker BP ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AKERO.OL",
+        "companyName": "Aker",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AKSO.OL",
+        "companyName": "AKER SOLUTIONS ASA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AKVA.OL",
+        "companyName": "AKVA GROUP ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ALNG.OL",
+        "companyName": "AWILCO LNG ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AMSC.OL",
+        "companyName": "AMER SHIPPING COMP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AQUA.OL",
+        "companyName": "AQUALISBRAEMAR ASA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ARCHER.OL",
+        "companyName": "ARCHER LTD",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ARCHERO.OL",
+        "companyName": "Archer Limited",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ARCUS.OL",
+        "companyName": "ARCUS ASA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ARCUSO.OL",
+        "companyName": "Arcus ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ASA-ME.OL",
+        "companyName": "ATLANTIC SAPPHIRE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ASC.OL",
+        "companyName": "ABG SUN COL HLDG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ASETEK.OL",
+        "companyName": "ASETEK A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ASETEKO.OL",
+        "companyName": "Asetek A/S",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ATEA.OL",
+        "companyName": "ATEA ASA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AUSS.OL",
+        "companyName": "AUSTEVOLL SEAFOOD",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AVANCE.OL",
+        "companyName": "AVANCE GAS HLDGS L",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AVIDLY.OL",
+        "companyName": "Avidly Oyj",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AWDR.OL",
+        "companyName": "AWILCO DRILLING PL",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AWDRO.OL",
+        "companyName": "Awilco Drilling PLC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "AXA.OL",
+        "companyName": "AXACTOR SE (SN)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "B2H.OL",
+        "companyName": "B2HOLDING ASA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "B2HO.OL",
+        "companyName": "B2Holding ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BAKKA.OL",
+        "companyName": "P/F BAKKAFROST",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BALT-ME.OL",
+        "companyName": "BALTIC SEA PROP AS",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BDRILL.OL",
+        "companyName": "BORR DRILLING LTD",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BDRILLO.OL",
+        "companyName": "Borr Drilling Limited",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BEL.OL",
+        "companyName": "BELSHIPS ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BGBIO.OL",
+        "companyName": "BERGENBIO ASA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BIOTEC.OL",
+        "companyName": "BIOTEC PHARMACON",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BIOTECO.OL",
+        "companyName": "Biotec Pharmacon ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BMA.OL",
+        "companyName": "BYGGMA ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BON.OL",
+        "companyName": "BONHEUR ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BONEH.OL",
+        "companyName": "BBS-Bioactive Bone Substitutes",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BONO.OL",
+        "companyName": "Bonheur ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BOR.OL",
+        "companyName": "BORGESTAD ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BOUVET.OL",
+        "companyName": "BOUVET ASA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BOUVETO.OL",
+        "companyName": "Bouvet ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BRA-ME.OL",
+        "companyName": "BRABANK ASA (NEW)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BRG.OL",
+        "companyName": "BORREGAARD ASA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BRGO.OL",
+        "companyName": "Borregaard ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BSP-ME.OL",
+        "companyName": "BLACK SEA.PROPERTY",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BWE.OL",
+        "companyName": "BW ENERGY LIMITED",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BWLPG.OL",
+        "companyName": "BW LPG LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BWLPGO.OL",
+        "companyName": "BW LPG Limited",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BWO.OL",
+        "companyName": "BW OFFSHORE LTD",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "BWOO.OL",
+        "companyName": "BW Offshore Limited",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "CARA.OL",
+        "companyName": "CARASENT ASA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "COV.OL",
+        "companyName": "CONTEXTVISION AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "CRAYON.OL",
+        "companyName": "CRAYON GROUP HLD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "CRAYONO.OL",
+        "companyName": "Crayon Group Holding ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "DETEC.OL",
+        "companyName": "Detection Technology Oyj",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "DNB.OL",
+        "companyName": "DNB ASA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "DNBO.OL",
+        "companyName": "DNB ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "DNO.OL",
+        "companyName": "DNO ASA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "DOF.OL",
+        "companyName": "DOF ASA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "DOFO.OL",
+        "companyName": "DOF ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "EAM.OL",
+        "companyName": "EAM SOLAR ASA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "EFECTE.OL",
+        "companyName": "Efecte Plc",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "EIOF.OL",
+        "companyName": "EIDESVIK OFFSHORE",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ELK.OL",
+        "companyName": "ELKEM ASA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ELKO.OL",
+        "companyName": "Elkem ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "EMGS.OL",
+        "companyName": "ELECTROMAGNETIC GE",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ENDUR.OL",
+        "companyName": "ENDUR ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ENTRA.OL",
+        "companyName": "ENTRA ASA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "EPR.OL",
+        "companyName": "EUROPRIS ASA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "EPRO.OL",
+        "companyName": "Europris ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "EQNR.OL",
+        "companyName": "EQUINOR ASA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "EQNRO.OL",
+        "companyName": "Equinor ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ESENSE.OL",
+        "companyName": "Enersense International Oyj",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "FELLOW.OL",
+        "companyName": "Fellow Finance Plc",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "FIVEPG.OL",
+        "companyName": "5TH PLANET GAMES",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "FJORD.OL",
+        "companyName": "FJORD1 ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "FKRAFT.OL",
+        "companyName": "FJORDKRAFT HLDG",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "FLNG.OL",
+        "companyName": "FLEX LNG LTD (BM)",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "FRO.OL",
+        "companyName": "FRONTLINE LTD",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "FUNCOM.OL",
+        "companyName": "FUNCOM SE",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "GEOS-ME.OL",
+        "companyName": "GOLDEN ENGY OFFSHO",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "GIG.OL",
+        "companyName": "GAMING INNOVATION",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "GIGO.OL",
+        "companyName": "Gaming Innovation Group Inc.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "GJF.OL",
+        "companyName": "GJENSIDIGE FORSIKR",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "GJFO.OL",
+        "companyName": "Gjensidige Forsikring ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "GOD.OL",
+        "companyName": "GOODTECH ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "GOFORE.OL",
+        "companyName": "Gofore Plc",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "GOGL.OL",
+        "companyName": "GOLDEN OCEAN GROUP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "GOGLO.OL",
+        "companyName": "Golden Ocean Group Limited",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "GRONG-ME.OL",
+        "companyName": "GRONG SPAREBANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "GSF.OL",
+        "companyName": "GRIEG SEAFOOD",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "GSFO.OL",
+        "companyName": "Grieg Seafood ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "HAFNIA.OL",
+        "companyName": "HAFNIA LIMITED",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "HAFNIAO.OL",
+        "companyName": "Hafnia Limited",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "HAVI.OL",
+        "companyName": "HAVILA SHIPPING",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "HBC.OL",
+        "companyName": "HOFSETH BIOCARE AS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "HELG.OL",
+        "companyName": "HELGELAND SPAREBK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "HEX.OL",
+        "companyName": "HEXAGON COMPOSITES",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "HEXO.OL",
+        "companyName": "Hexagon Composites ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "HIDDN.OL",
+        "companyName": "HIDDN SOLUTIONS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "HIDDNO.OL",
+        "companyName": "Hiddn Solutions ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "HLNG.OL",
+        "companyName": "HOEGH LNG HOLDINGS",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "HRTIS.OL",
+        "companyName": "Herantis Pharma Oyj",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "HSPG.OL",
+        "companyName": "HOLAND SETSK SPRBK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "HUNT.OL",
+        "companyName": "HUNTER GROUP ASA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "HUNTO.OL",
+        "companyName": "Hunter Group ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "HYARD.OL",
+        "companyName": "HAVYARD GROUP ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ICE.OL",
+        "companyName": "ICE GROUP ASA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "IDEX.OL",
+        "companyName": "IDEX BIOMETRICS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "IDEXO.OL",
+        "companyName": "IDEX Biometrics ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "INC.OL",
+        "companyName": "INCUS INVESTOR ASA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "INDUCT-ME.OL",
+        "companyName": "INDUCT AS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "INFRNT.OL",
+        "companyName": "INFRONT ASA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "INSR.OL",
+        "companyName": "INSR INSURANCE GRP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "IOX.OL",
+        "companyName": "INTEROIL ASA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "IOXO.OL",
+        "companyName": "Interoil Exploration and Produc",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "JAEREN.OL",
+        "companyName": "JAEREN SPAREBANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "JIN.OL",
+        "companyName": "JINHUI SHIPPING",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "JINO.OL",
+        "companyName": "Jinhui Shipping and Transportat",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "KAHOOT-ME.OL",
+        "companyName": "KAHOOT AS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "KCC.OL",
+        "companyName": "KLAVENESS COMB CAR",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "KID.OL",
+        "companyName": "KID ASA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "KIDO.OL",
+        "companyName": "Kid ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "KIT.OL",
+        "companyName": "KITRON ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "KITO.OL",
+        "companyName": "Kitron ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "KOA.OL",
+        "companyName": "KONGSBERG AUTOMOT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "KOAO.OL",
+        "companyName": "Kongsberg Automotive ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "KOG.OL",
+        "companyName": "KONGSBERG GRUPPEN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "KOGO.OL",
+        "companyName": "Kongsberg Gruppen ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "KOMP.OL",
+        "companyName": "KOMPLETT BANK ASA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "KOMPO.OL",
+        "companyName": "Komplett Bank ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "LAVO-ME.OL",
+        "companyName": "LAVO.TV AS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "LEADD.OL",
+        "companyName": "LeadDesk Oyj",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "LIFE-ME.OL",
+        "companyName": "LIFECARE AS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "LSG.OL",
+        "companyName": "LEROY SEAFOOD GROU",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "LSTSB-ME.OL",
+        "companyName": "LILLESTROM SPAREBA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "MEDI.OL",
+        "companyName": "MEDISTIM ASA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "MELG.OL",
+        "companyName": "MELHUS SPAREBANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "MGN.OL",
+        "companyName": "MAGNORA ASA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "MGNO.OL",
+        "companyName": "Magnora ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "MING.OL",
+        "companyName": "SPAREBANK 1 SMN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "MORG.OL",
+        "companyName": "SPAREBANKEN MORE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "MOWI.OL",
+        "companyName": "MOWI ASA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "MPCC.OL",
+        "companyName": "MPC CONTAIN SHIPS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "MPCCO.OL",
+        "companyName": "MPC Container Ships ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "MSEIS.OL",
+        "companyName": "MAGSEIS FAIRFIELD",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "MULTI.OL",
+        "companyName": "MULTICONSULT AS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NANO.OL",
+        "companyName": "NORDIC NANOVECTOR",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NAPA.OL",
+        "companyName": "NAPATECH A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NAPAO.OL",
+        "companyName": "Napatech A/S",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NAS.OL",
+        "companyName": "NORWEGIAN AIR SHUT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NASO.OL",
+        "companyName": "Norwegian Air Shuttle ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NATTO.OL",
+        "companyName": "NATTOPHARMA ASA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NAVA.OL",
+        "companyName": "NAVAMEDIC ASA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NAVAO.OL",
+        "companyName": "Navamedic ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NEL.OL",
+        "companyName": "NEL ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NELO.OL",
+        "companyName": "NEL ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NEXT.OL",
+        "companyName": "NEXT BIOMETRICS GR",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NHY.OL",
+        "companyName": "NORSK HYDRO ASA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NHYO.OL",
+        "companyName": "Norsk Hydro",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NKR.OL",
+        "companyName": "NEKKAR ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NOD.OL",
+        "companyName": "NORDIC SEMICONDUCT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NODL.OL",
+        "companyName": "NORTHERN DRILLING",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NODO.OL",
+        "companyName": "Nordic Semiconductor ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NOFI.OL",
+        "companyName": "NORWEGIAN FIN HLDG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NOFIO.OL",
+        "companyName": "Norwegian Finans Holding ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NOL.OL",
+        "companyName": "NORTHERN OCEAN LTD",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NOM.OL",
+        "companyName": "NORDIC MINING ASA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NONG.OL",
+        "companyName": "SPAREBK 1 NORD-NOR",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NOR.OL",
+        "companyName": "NORWEGIAN ENERGY",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NORBIT.OL",
+        "companyName": "NORBIT ASA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NORBITO.OL",
+        "companyName": "Norbit ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NORDID.OL",
+        "companyName": "Nordic ID Plc",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NORTH.OL",
+        "companyName": "NORTH ENERGY ASA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NPRO.OL",
+        "companyName": "NORWEGIAN PROPERTY",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NPROO.OL",
+        "companyName": "Norwegian Property",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NRC.OL",
+        "companyName": "NRC GROUP ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NRCO.OL",
+        "companyName": "NRC Group ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NRS.OL",
+        "companyName": "NORWAY ROYAL SALMO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NSKOG.OL",
+        "companyName": "NORSKE SKOG ASA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NSKOGO.OL",
+        "companyName": "Norske Skog ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NTS.OL",
+        "companyName": "NTS ASA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NXTGMS.OL",
+        "companyName": "Next Games Oyj",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "NXTMH.OL",
+        "companyName": "Nexstim Oyj",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "OCY.OL",
+        "companyName": "OCEAN YIELD ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "OCYO.OL",
+        "companyName": "Ocean Yield ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ODF.OL",
+        "companyName": "ODFJELL SE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ODL.OL",
+        "companyName": "ODFJELL DRILLING",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ODLO.OL",
+        "companyName": "Odfjell Drilling Ltd",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "OET.OL",
+        "companyName": "OKEANIS ECO TANKER",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "OETO.OL",
+        "companyName": "Okeanis Eco Tankers Corp",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "OKEA.OL",
+        "companyName": "OKEA ASA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "OKEAO.OL",
+        "companyName": "Okea ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "OLT.OL",
+        "companyName": "OLAV THON EIENDOMS",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "OLTO.OL",
+        "companyName": "Olav Thon Eiendomsselskap ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ORK.OL",
+        "companyName": "ORKLA ASA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "OTELLO.OL",
+        "companyName": "OTELLO CORP ASA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "OTS.OL",
+        "companyName": "OCEANTEAM ASA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "PARB.OL",
+        "companyName": "PARETO BANK ASA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "PARBO.OL",
+        "companyName": "Pareto Bank ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "PCIB.OL",
+        "companyName": "PCI BIOTECH HLDG",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "PCIBO.OL",
+        "companyName": "PCI Biotech Holding ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "PEN.OL",
+        "companyName": "PANORO ENERGY ASA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "PENO.OL",
+        "companyName": "Panoro Energy ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "PGS.OL",
+        "companyName": "PGS ASA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "PHLY.OL",
+        "companyName": "PHILLY SHIPYARD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "PHO.OL",
+        "companyName": "PHOTOCURE ASA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "PHOO.OL",
+        "companyName": "Photocure ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "PLCS.OL",
+        "companyName": "POLARCUS LIMITED",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "PLCSO.OL",
+        "companyName": "Polarcus Ltd",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "PLT.OL",
+        "companyName": "POLIGHT ASA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "PNOR.OL",
+        "companyName": "PETRONOR E&P LTD",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "PPG-PREF.OL",
+        "companyName": "Pioneer Property Group",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "PRIVA.OL",
+        "companyName": "Privanet Group Oyj",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "PROTCT.OL",
+        "companyName": "PROTECTOR FORS ASA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "PRS.OL",
+        "companyName": "PROSAFE SE (SN)",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "QEC.OL",
+        "companyName": "QUESTERRE ENERGY",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "QECO.OL",
+        "companyName": "Questerre Energy Corporation",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "QFR.OL",
+        "companyName": "Q-FREE ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "QFUEL-ME.OL",
+        "companyName": "QUANTAFUEL AS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "RAKP.OL",
+        "companyName": "RAK PETROLEUM PLC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "RAKPO.OL",
+        "companyName": "RAK Petroleum plc",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "REACH.OL",
+        "companyName": "REACH SUBSEA ASA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "REC.OL",
+        "companyName": "REC SILICON ASA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "RELAIS.OL",
+        "companyName": "Relais Group Oyj",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "REMEDY.OL",
+        "companyName": "Remedy Entertainment Oyj",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "RISH.OL",
+        "companyName": "GC RIEBER SHIPPING",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "RUSH.OL",
+        "companyName": "Rush Factory Plc",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SADG.OL",
+        "companyName": "SANDNES SPAREBANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SALM.OL",
+        "companyName": "SALMAR ASA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SAS-NOK.OL",
+        "companyName": "SAS AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SATS.OL",
+        "companyName": "SATS ASA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SBANK.OL",
+        "companyName": "SBANKEN ASA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SBLK.OL",
+        "companyName": "STAR BULK CARRIERS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SBO.OL",
+        "companyName": "SELVAAG BOLIG AS",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SBOO.OL",
+        "companyName": "Selvaag Bolig ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SBTE.OL",
+        "companyName": "SPAREBANK 1 TELEMK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SBVG.OL",
+        "companyName": "SPAREBANK 1 BV",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SBX.OL",
+        "companyName": "SEABIRD EXPL PLC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SBXO.OL",
+        "companyName": "Seabird Exploration Plc",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SCHA.OL",
+        "companyName": "SCHIBSTED ASA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SCHB.OL",
+        "companyName": "SCHIBSTED ASA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SCHBO.OL",
+        "companyName": "Schibsted ser. B",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SDRL.OL",
+        "companyName": "SEADRILL LTD",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SDRLO.OL",
+        "companyName": "Seadrill Limited",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SDSD.OL",
+        "companyName": "S.D. STANDARD DRIL",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SDSDO.OL",
+        "companyName": "S.D. Standard Drilling Plc",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SHLF.OL",
+        "companyName": "SHELF DRILLING LTD",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SIOFF.OL",
+        "companyName": "SIEM OFFSHORE INC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SNI.OL",
+        "companyName": "STOLT-NIELSEN LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SNIO.OL",
+        "companyName": "Stolt-Nielsen Ltd.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SNOR.OL",
+        "companyName": "SPAREBK 1 NORDVEST",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SOAG.OL",
+        "companyName": "SPAREBANK 1 OSTFOL",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SOFF.OL",
+        "companyName": "SOLSTAD OFFSHORE",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SOFTOX-ME.OL",
+        "companyName": "SOFTOX SOLUTIONS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SOLON.OL",
+        "companyName": "SOLON EIENDOM ASA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SOR.OL",
+        "companyName": "SPAREBANKEN SOR",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SPOG.OL",
+        "companyName": "SPAREBANKEN OST",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SPOL.OL",
+        "companyName": "SPAREBANK 1 OSTLAN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SRBANK.OL",
+        "companyName": "SPAREBANK 1 SR BK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SRBANKO.OL",
+        "companyName": "SpareBank 1 SR-Bank ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SSG.OL",
+        "companyName": "SELF STORAGE GROUP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SSO.OL",
+        "companyName": "SCATEC SOLAR ASA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "STB.OL",
+        "companyName": "STOREBRAND ASA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "STORM.OL",
+        "companyName": "STORM REAL EST ASA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "STRONG.OL",
+        "companyName": "STRONGPOINT ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SUBC.OL",
+        "companyName": "SUBSEA 7 S.A.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SUBCO.OL",
+        "companyName": "Subsea 7 S.A.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "SVEG.OL",
+        "companyName": "SPAREBANKEN VEST",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "TEAM.OL",
+        "companyName": "TEAM TANKERS INTL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "TECH.OL",
+        "companyName": "TECHSTEP ASA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "TEL.OL",
+        "companyName": "TELENOR ASA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "TGS.OL",
+        "companyName": "TGS NOPEC GEOPH.CO",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "THIN.OL",
+        "companyName": "THIN FILM ELECTRON",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "TIETOO.OL",
+        "companyName": "TIETOEVRY OYJ",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "TITAN.OL",
+        "companyName": "Titanium Oyj",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "TOM.OL",
+        "companyName": "TOMRA SYSTEMS ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "TRVX.OL",
+        "companyName": "TARGOVAX ASA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "TYSB-ME.OL",
+        "companyName": "TYSNES SPAREBANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ULTIMO.OL",
+        "companyName": "ULTIMOVACS ASA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ULTIMOO.OL",
+        "companyName": "Ultimovacs ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "UNIAV.OL",
+        "companyName": "United Bankers Oyj",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "VEI.OL",
+        "companyName": "VEIDEKKE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "VERK.OL",
+        "companyName": "Verkkokauppa.com Oyj",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "VIAFIN.OL",
+        "companyName": "Viafin Service Oyj",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "VINCIT.OL",
+        "companyName": "Vincit Oyj",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "VISTIN.OL",
+        "companyName": "VISTIN PHARMA ASA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "VISTINO.OL",
+        "companyName": "Vistin Pharma ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "VOW.OL",
+        "companyName": "VOW ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "VOWO.OL",
+        "companyName": "Vow ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "VVL.OL",
+        "companyName": "VOSS VEKSEL-OG LAN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "WALWIL.OL",
+        "companyName": "WALLENIUS WILH ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "WALWILO.OL",
+        "companyName": "Wallenius Wilhelmsen ASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "WILS.OL",
+        "companyName": "WILSON ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "WSTEP.OL",
+        "companyName": "WEBSTEP ASA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "WWI.OL",
+        "companyName": "WILH WILHEL. HLDG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "WWIB.OL",
+        "companyName": "WILH WILHEL. HLDG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "WWIBO.OL",
+        "companyName": "Wilh. Wilhelmsen Holding ASA B",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "WWIO.OL",
+        "companyName": "Wilh. Wilhelmsen Holding ASA A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "XXL.OL",
+        "companyName": "XXL ASA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "YAR.OL",
+        "companyName": "YARA INTERNATIONAL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "YARO.OL",
+        "companyName": "Yara International",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ZAL.OL",
+        "companyName": "ZALARIS ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ZENA-ME.OL",
+        "companyName": "ZENITH ENERGY LTD",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "OSL",
+        "symbol": "ZWIPE-ME.OL",
+        "companyName": "ZWIPE AS",
+        "industryOrCategory": "Technology"
+    }
+]

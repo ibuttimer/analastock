@@ -1,0 +1,5504 @@
+[
+    {
+        "exchangeCode": "SET",
+        "symbol": "2S.BK",
+        "companyName": "2S METAL PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "2S-R.BK",
+        "companyName": "2S METAL PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "7UP.BK",
+        "companyName": "SEVEN UTILITIES AND POWER PUBLI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "7UP-R.BK",
+        "companyName": "SEVEN UTILITIES AND POWER PUBLI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "A.BK",
+        "companyName": "AREEYA PROPERTY PUBLIC COMPANY ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AAV.BK",
+        "companyName": "ASIA AVIATION PUBLIC COMPANY LI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ABICO.BK",
+        "companyName": "ABICO HOLDINGS PUBLIC COMPANY L",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ABICO-R.BK",
+        "companyName": "ABICO HOLDINGS PUBLIC COMPANY L",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ACC.BK",
+        "companyName": "ADVANCED CONNECTION CORPORATION",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ACE.BK",
+        "companyName": "ABSOLUTE CLEAN ENERGY PUBLIC CO",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ACG.BK",
+        "companyName": "AUTOCORP HOLDING PUBLIC COMPANY",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ACG-R.BK",
+        "companyName": "AUTOCORP HOLDING PUBLIC COMPANY",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ADB.BK",
+        "companyName": "APPLIED DB PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ADB-R.BK",
+        "companyName": "APPLIED DB PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ADVANC.BK",
+        "companyName": "ADVANCED INFO SERVICE PUBLIC CO",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ADVANC-R.BK",
+        "companyName": "ADVANCED INFO SERVICE PUBLIC CO",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AEONTS.BK",
+        "companyName": "AEON THANA SINSAP (THAILAND)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AGE-R.BK",
+        "companyName": "ASIA GREEN ENERGY PUBLIC COMPAN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AHC.BK",
+        "companyName": "AIKCHOL HOSPITAL PUBLIC COMPANY",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AHC-R.BK",
+        "companyName": "AIKCHOL HOSPITAL PUBLIC COMPANY",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AI.BK",
+        "companyName": "ASIAN INSULATORS PUBLIC COMPANY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AIMCG.BK",
+        "companyName": "AIM COMMERCIAL GROWTH FREEHOLD ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AIMIRT.BK",
+        "companyName": "AIM INDUSTRIAL GROWTH FREEHOLD ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AIT.BK",
+        "companyName": "ADVANCED INFORMATION TECHNOLOGY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AIT-R.BK",
+        "companyName": "ADVANCED INFORMATION TECHNOLOGY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AJ.BK",
+        "companyName": "A.J. PLAST PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AJA.BK",
+        "companyName": "AJ ADVANCE TECHNOLOGY PUBLIC CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AJ-R.BK",
+        "companyName": "A.J. PLAST PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AKR.BK",
+        "companyName": "EKARAT ENGINEERING PUBLIC COMPA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AKR-R.BK",
+        "companyName": "EKARAT ENGINEERING PUBLIC COMPA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ALL.BK",
+        "companyName": "ALL INSPIRE DEVELOPMENT PUBLIC ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ALLA.BK",
+        "companyName": "ALLA PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ALL-R.BK",
+        "companyName": "ALL INSPIRE DEVELOPMENT PUBLIC ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AMANAH.BK",
+        "companyName": "AMANAH LEASING PUBLIC COMPANY L",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AMANAH-R.BK",
+        "companyName": "AMANAH LEASING PUBLIC COMPANY L",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AMARIN-R.BK",
+        "companyName": "AMARIN PRINTING AND PUBLISHING",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AMATA.BK",
+        "companyName": "AMATA CORPORATION PUBLIC COMPAN",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AMATAV.BK",
+        "companyName": "AMATA VN PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AMATAV-R.BK",
+        "companyName": "AMATA VN PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AMC.BK",
+        "companyName": "ASIA METAL PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ANAN.BK",
+        "companyName": "ANANDA DEVELOPMENT PUBLIC COMPA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AOT.BK",
+        "companyName": "AIRPORTS OF THAILAND PUBLIC COM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AOT-R.BK",
+        "companyName": "AIRPORTS OF THAILAND PUBLIC COM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AP.BK",
+        "companyName": "AP (THAILAND) PUBLIC COMPANY LI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "APCS-R.BK",
+        "companyName": "ASIA PRECISION PUBLIC COMPANY L",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "APEX.BK",
+        "companyName": "APEX DEVELOPMENT PUBLIC COMPANY",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "APEX-R.BK",
+        "companyName": "APEX DEVELOPMENT PUBLIC COMPANY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "APP.BK",
+        "companyName": "APPLICAD PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "APURE.BK",
+        "companyName": "AGRIPURE HOLDINGS PUBLIC COMPAN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "APURE-R.BK",
+        "companyName": "AGRIPURE HOLDINGS PUBLIC COMPAN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AQ.BK",
+        "companyName": "AQ ESTATE PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AQUA.BK",
+        "companyName": "AQUA CORPORATION PUBLIC COMPANY",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ARIN.BK",
+        "companyName": "ARINSIRI LAND PUBLIC COMPANY LI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ARIN-R.BK",
+        "companyName": "ARINSIRI LAND PUBLIC COMPANY LI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ARIP-R.BK",
+        "companyName": "ARIP PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ARROW.BK",
+        "companyName": "ARROW SYNDICATE PUBLIC COMPANY ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AS.BK",
+        "companyName": "ASIASOFT CORPORATION PUBLIC COM",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ASAP.BK",
+        "companyName": "SYNERGETIC AUTO PERFORMANCE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ASEFA.BK",
+        "companyName": "ASEFA PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ASEFA-R.BK",
+        "companyName": "ASEFA PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ASIA.BK",
+        "companyName": "ASIA HOTEL PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ASIA-R.BK",
+        "companyName": "ASIA HOTEL PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ASIMAR.BK",
+        "companyName": "ASIAN MARINE SERVICES PUBLIC CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ASK.BK",
+        "companyName": "ASIA SERMKIJ LEASING PUBLIC COM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ASN.BK",
+        "companyName": "ASN BROKER PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ASP.BK",
+        "companyName": "ASIA PLUS GROUP HOLDINGS PUBLIC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ASP-R.BK",
+        "companyName": "ASIA PLUS GROUP HOLDINGS PUBLIC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ATP30.BK",
+        "companyName": "ATP30 PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AU.BK",
+        "companyName": "AFTER YOU PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AU-R.BK",
+        "companyName": "AFTER YOU PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AWC.BK",
+        "companyName": "ASSET WORLD CORP PUBLIC COMPANY",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AWC-R.BK",
+        "companyName": "ASSET WORLD CORP PUBLIC COMPANY",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "AYUD.BK",
+        "companyName": "ALLIANZ AYUDHYA CAPITAL PUBLIC ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "B.BK",
+        "companyName": "BEGISTICS PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "B52.BK",
+        "companyName": "B-52 CAPITAL PUBLIC COMPANY LIM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "B52-R.BK",
+        "companyName": "B-52 CAPITAL PUBLIC COMPANY LIM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BA.BK",
+        "companyName": "BANGKOK AIRWAYS PUBLIC COMPANY ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BAFS.BK",
+        "companyName": "BANGKOK AVIATION FUEL SERVICES",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BAM.BK",
+        "companyName": "BANGKOK COMMERCIAL ASSET MANAGE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BAM-R.BK",
+        "companyName": "BANGKOK COMMERCIAL ASSET MANAGE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BANPU.BK",
+        "companyName": "BANPU PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BANPU-R.BK",
+        "companyName": "BANPU PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BA-R.BK",
+        "companyName": "BANGKOK AIRWAYS PUBLIC COMPANY ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BAY.BK",
+        "companyName": "BANK OF AYUDHYA PUBLIC COMPANY ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BBL.BK",
+        "companyName": "BANGKOK BANK PUBLIC COMPANY LIM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BCH.BK",
+        "companyName": "BANGKOK CHAIN HOSPITAL PUBLIC C",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BCH-R.BK",
+        "companyName": "BANGKOK CHAIN HOSPITAL PUBLIC C",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BCP.BK",
+        "companyName": "BANGCHAK CORPORATION PUBLIC COM",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BCPG.BK",
+        "companyName": "BCPG PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BCP-R.BK",
+        "companyName": "BANGCHAK CORPORATION PUBLIC COM",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BCT.BK",
+        "companyName": "BIRLA CARBON (THAILAND) PUBLIC ",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BCT-R.BK",
+        "companyName": "BIRLA CARBON (THAILAND) PUBLIC ",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BDMS.BK",
+        "companyName": "BANGKOK DUSIT MEDICAL SERVICES",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BDMS-R.BK",
+        "companyName": "BANGKOK DUSIT MEDICAL SERVICES",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BEAUTY.BK",
+        "companyName": "BEAUTY COMMUNITY PUBLIC COMPANY",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BEAUTY-R.BK",
+        "companyName": "BEAUTY COMMUNITY PUBLIC COMPANY",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BEC.BK",
+        "companyName": "BEC WORLD PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BEC-R.BK",
+        "companyName": "BEC WORLD PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BEM.BK",
+        "companyName": "BANGKOK EXPRESSWAY AND METRO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BEM-R.BK",
+        "companyName": "BANGKOK EXPRESSWAY AND METRO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BFIT.BK",
+        "companyName": "SRISAWAD FINANCE PUBLIC COMPANY",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BFIT-R.BK",
+        "companyName": "SRISAWAD FINANCE PUBLIC COMPANY",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BGC.BK",
+        "companyName": "BG CONTAINER GLASS PUBLIC COMPA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BGRIM.BK",
+        "companyName": "B.GRIMM POWER PUBLIC COMPANY LI",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BGRIM-R.BK",
+        "companyName": "B.GRIMM POWER PUBLIC COMPANY LI",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BGT.BK",
+        "companyName": "BGT CORPORATION PUBLIC COMPANY ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BH.BK",
+        "companyName": "BUMRUNGRAD HOSPITAL PUBLIC COMP",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BH-R.BK",
+        "companyName": "BUMRUNGRAD HOSPITAL PUBLIC COMP",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BIG.BK",
+        "companyName": "BIG CAMERA CORPORATION PUBLIC C",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BIZ.BK",
+        "companyName": "BUSINESS ALIGNMENT PUBLIC COMPA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BJC.BK",
+        "companyName": "BERLI JUCKER PUBLIC COMPANY LIM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BJCHI.BK",
+        "companyName": "BJC HEAVY INDUSTRIES PUBLIC COM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BJCHI-R.BK",
+        "companyName": "BJC HEAVY INDUSTRIES PUBLIC COM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BJC-R.BK",
+        "companyName": "BERLI JUCKER PUBLIC COMPANY LIM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BKD.BK",
+        "companyName": "BANGKOK DEC-CON PUBLIC COMPANY ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BKD-R.BK",
+        "companyName": "BANGKOK DEC-CON PUBLIC COMPANY ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BKER.BK",
+        "companyName": "BUALUANG K.E. RETAIL LEASEHOLD ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BKI.BK",
+        "companyName": "BANGKOK INSURANCE PUBLIC COMPAN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BKKCP.BK",
+        "companyName": "BANGKOK COMMERCIAL PROPERTY FUN",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BLA.BK",
+        "companyName": "BANGKOK LIFE ASSURANCE PUBLIC C",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BLAND.BK",
+        "companyName": "BANGKOK LAND PUBLIC COMPANY LIM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BLAND-R.BK",
+        "companyName": "BANGKOK LAND PUBLIC COMPANY LIM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BLA-R.BK",
+        "companyName": "BANGKOK LIFE ASSURANCE PUBLIC C",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BM.BK",
+        "companyName": "BANGKOK SHEET METAL PUBLIC COMP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BM-R.BK",
+        "companyName": "BANGKOK SHEET METAL PUBLIC COMP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BOFFICE.BK",
+        "companyName": "BHIRAJ OFFICE LEASEHOLD REAL ES",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BOL.BK",
+        "companyName": "BUSINESS ONLINE PUBLIC COMPANY ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BPP.BK",
+        "companyName": "BANPU POWER PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BPP-R.BK",
+        "companyName": "BANPU POWER PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BR.BK",
+        "companyName": "BANGKOK RANCH PUBLIC COMPANY LI",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BROCK.BK",
+        "companyName": "BAAN ROCK GARDEN PUBLIC COMPANY",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BROOK.BK",
+        "companyName": "THE BROOKER GROUP PUBLIC COMPAN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BR-R.BK",
+        "companyName": "BANGKOK RANCH PUBLIC COMPANY LI",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BRRGIF.BK",
+        "companyName": "BURIRAM SUGAR GROUP POWER PLANT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BRR-R.BK",
+        "companyName": "BURIRAM SUGAR PUBLIC COMPANY LI",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BSBM.BK",
+        "companyName": "BANGSAPHAN BARMILL PUBLIC COMPA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BSBM-R.BK",
+        "companyName": "BANGSAPHAN BARMILL PUBLIC COMPA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BTNC-R.BK",
+        "companyName": "BOUTIQUE NEWCITY PUBLIC COMPANY",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BTS.BK",
+        "companyName": "BTS GROUP HOLDINGS PUBLIC COMPA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BTSGIF.BK",
+        "companyName": "BTS RAIL MASS TRANSIT GROWTH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BTS-R.BK",
+        "companyName": "BTS GROUP HOLDINGS PUBLIC COMPA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BTW.BK",
+        "companyName": "BT WEALTH INDUSTRIES PUBLIC COM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BUI-R.BK",
+        "companyName": "BANGKOK UNION INSURANCE PUBLIC ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BWG.BK",
+        "companyName": "BETTER WORLD GREEN PUBLIC COMPA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "BWG-R.BK",
+        "companyName": "BETTER WORLD GREEN PUBLIC COMPA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CBG.BK",
+        "companyName": "CARABAO GROUP PUBLIC COMPANY LI",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CENTEL.BK",
+        "companyName": "CENTRAL PLAZA HOTEL PUBLIC COMP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CENTEL-R.BK",
+        "companyName": "CENTRAL PLAZA HOTEL PUBLIC COMP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CFRESH.BK",
+        "companyName": "SEAFRESH INDUSTRY PUBLIC COMPAN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CFRESH-R.BK",
+        "companyName": "SEAFRESH INDUSTRY PUBLIC COMPAN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CGD.BK",
+        "companyName": "COUNTRY GROUP DEVELOPMENT PUBLI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CGD-R.BK",
+        "companyName": "COUNTRY GROUP DEVELOPMENT PUBLI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CGH.BK",
+        "companyName": "COUNTRY GROUP HOLDINGS PUBLIC C",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CHG.BK",
+        "companyName": "CHULARAT HOSPITAL PUBLIC COMPAN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CHG-R.BK",
+        "companyName": "CHULARAT HOSPITAL PUBLIC COMPAN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CHO.BK",
+        "companyName": "CHO THAVEE PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CHO-R.BK",
+        "companyName": "CHO THAVEE PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CHOTI.BK",
+        "companyName": "KIANG HUAT SEA GULL TRADING FRO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CHOTI-R.BK",
+        "companyName": "KIANG HUAT SEA GULL TRADING FRO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CI.BK",
+        "companyName": "CHARN ISSARA DEVELOPMENT PUBLIC",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CIG.BK",
+        "companyName": "C.I.GROUP PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CIMBT.BK",
+        "companyName": "CIMB THAI BANK PUBLIC COMPANY L",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CIMBT-R.BK",
+        "companyName": "CIMB THAI BANK PUBLIC COMPANY L",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CITY.BK",
+        "companyName": "CITY STEEL PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CK.BK",
+        "companyName": "CH. KARNCHANG PUBLIC COMPANY LI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CKP.BK",
+        "companyName": "CK POWER PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CKP-R.BK",
+        "companyName": "CK POWER PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CK-R.BK",
+        "companyName": "CH. KARNCHANG PUBLIC COMPANY LI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CM.BK",
+        "companyName": "CHIANGMAI FROZEN FOODS PUBLIC C",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CMAN.BK",
+        "companyName": "CHEMEMAN PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CMAN-R.BK",
+        "companyName": "CHEMEMAN PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CMC-R.BK",
+        "companyName": "CHAOPRAYAMAHANAKORN PUBLIC COMP",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CMO.BK",
+        "companyName": "CMO PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CMO-R.BK",
+        "companyName": "CMO PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CMR-R.BK",
+        "companyName": "CHIANG MAI RAM MEDICAL BUSINESS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CNT.BK",
+        "companyName": "CHRISTIANI & NIELSEN (THAI)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "COL.BK",
+        "companyName": "COL PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "COLOR-R.BK",
+        "companyName": "SALEE COLOUR PUBLIC COMPANY LIM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "COL-R.BK",
+        "companyName": "COL PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "COM7.BK",
+        "companyName": "COM7 PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "COMAN.BK",
+        "companyName": "COMANCHE INTERNATIONAL PUBLIC C",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CPALL.BK",
+        "companyName": "CP ALL PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CPALL-R.BK",
+        "companyName": "CP ALL PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CPF.BK",
+        "companyName": "CHAROEN POKPHAND FOODS PUBLIC C",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CPF-R.BK",
+        "companyName": "CHAROEN POKPHAND FOODS PUBLIC C",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CPH.BK",
+        "companyName": "CASTLE PEAK HOLDINGS PUBLIC COM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CPH-R.BK",
+        "companyName": "CASTLE PEAK HOLDINGS PUBLIC COM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CPI.BK",
+        "companyName": "CHUMPORN PALM OIL INDUSTRY",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CPL.BK",
+        "companyName": "CPL GROUP PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CPL-R.BK",
+        "companyName": "CPL GROUP PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CPN.BK",
+        "companyName": "CENTRAL PATTANA PUBLIC COMPANY ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CPN-R.BK",
+        "companyName": "CENTRAL PATTANA PUBLIC COMPANY ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CPNREIT.BK",
+        "companyName": "CPN RETAIL GROWTH LEASEHOLD REI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CPR.BK",
+        "companyName": "CPR GOMU INDUSTRIAL PUBLIC COMP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CPR-R.BK",
+        "companyName": "CPR GOMU INDUSTRIAL PUBLIC COMP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CPT.BK",
+        "companyName": "CPT DRIVES AND POWER PUBLIC COM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CPW.BK",
+        "companyName": "COPPERWIRED PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CPW-R.BK",
+        "companyName": "COPPERWIRED PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CRANE.BK",
+        "companyName": "CHU KAI PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CRANE-R.BK",
+        "companyName": "CHU KAI PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CRC.BK",
+        "companyName": "CENTRAL RETAIL CORPORATION PUBL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CRC-R.BK",
+        "companyName": "CENTRAL RETAIL CORPORATION PUBL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CSC-R.BK",
+        "companyName": "CROWN SEAL PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CSP-R.BK",
+        "companyName": "CSP STEEL CENTER PUBLIC COMPANY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CSR.BK",
+        "companyName": "CITY SPORTS AND RECREATION",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CSS.BK",
+        "companyName": "COMMUNICATION AND SYSTEM SOLUTI",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CTW.BK",
+        "companyName": "CHAROONG THAI WIRE & CABLE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CWT.BK",
+        "companyName": "CHAI WATANA TANNERY GROUP PUBLI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "CWT-R.BK",
+        "companyName": "CHAI WATANA TANNERY GROUP PUBLI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "D.BK",
+        "companyName": "DENTAL CORPORATION PUBLIC COMPA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "DCON.BK",
+        "companyName": "DCON PRODUCTS PUBLIC COMPANY LI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "DCON-R.BK",
+        "companyName": "DCON PRODUCTS PUBLIC COMPANY LI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "DDD.BK",
+        "companyName": "DO DAY DREAM PUBLIC COMPANY LIM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "DDD-R.BK",
+        "companyName": "DO DAY DREAM PUBLIC COMPANY LIM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "DELTA.BK",
+        "companyName": "DELTA ELECTRONICS (THAILAND)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "DIF.BK",
+        "companyName": "DIGITAL TELECOMMUNICATIONS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "DOD-R.BK",
+        "companyName": "DOD BIOTECH PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "DOHOME.BK",
+        "companyName": "DOHOME PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "DOHOME-R.BK",
+        "companyName": "DOHOME PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "D-R.BK",
+        "companyName": "DENTAL CORPORATION PUBLIC COMPA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "DREIT.BK",
+        "companyName": "DUSIT THANI FREEHOLD AND LEASEH",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "DRT.BK",
+        "companyName": "DIAMOND BUILDING PRODUCTS PUBLI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "DTAC.BK",
+        "companyName": "TOTAL ACCESS COMMUNICATION",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "DTC.BK",
+        "companyName": "DUSIT THANI PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "DTCI-R.BK",
+        "companyName": "D.T.C. INDUSTRIES PUBLIC COMPAN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "DTC-R.BK",
+        "companyName": "DUSIT THANI PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "E1VFVN3001.BK",
+        "companyName": "DR ON E1VFVN30 ISSUED BY BLS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "EA.BK",
+        "companyName": "ENERGY ABSOLUTE PUBLIC COMPANY ",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "EASON.BK",
+        "companyName": "EASON PAINT PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "EASTW.BK",
+        "companyName": "EASTERN WATER RESOURCES DEVELOP",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "EASTW-R.BK",
+        "companyName": "EASTERN WATER RESOURCES DEVELOP",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ECF.BK",
+        "companyName": "EAST COAST FURNITECH PUBLIC COM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ECF-R.BK",
+        "companyName": "EAST COAST FURNITECH PUBLIC COM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ECL.BK",
+        "companyName": "EASTERN COMMERCIAL LEASING",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ECL-R.BK",
+        "companyName": "EASTERN COMMERCIAL LEASING",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "EE.BK",
+        "companyName": "ETERNAL ENERGY PUBLIC COMPANY L",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "EE-R.BK",
+        "companyName": "ETERNAL ENERGY PUBLIC COMPANY L",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "EFORL-R.BK",
+        "companyName": "E FOR L AIM PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "EGCO.BK",
+        "companyName": "ELECTRICITY GENERATING PUBLIC C",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "EIC.BK",
+        "companyName": "ELECTRONICS INDUSTRY PUBLIC COM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "EKH.BK",
+        "companyName": "EKACHAI MEDICAL CARE PUBLIC COM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "EKH-R.BK",
+        "companyName": "EKACHAI MEDICAL CARE PUBLIC COM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "EPCO.BK",
+        "companyName": "EASTERN PRINTING PUBLIC COMPANY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "EPCO-R.BK",
+        "companyName": "EASTERN PRINTING PUBLIC COMPANY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "EPG.BK",
+        "companyName": "EASTERN POLYMER GROUP PUBLIC CO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "EPG-R.BK",
+        "companyName": "EASTERN POLYMER GROUP PUBLIC CO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ERW.BK",
+        "companyName": "THE ERAWAN GROUP PUBLIC COMPANY",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ERWPF.BK",
+        "companyName": "ERAWAN HOTEL GROWTH PROPERTY FU",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ERW-R.BK",
+        "companyName": "THE ERAWAN GROUP PUBLIC COMPANY",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ESSO.BK",
+        "companyName": "ESSO (THAILAND) PUBLIC COMPANY ",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ESTAR-R.BK",
+        "companyName": "EASTERN STAR REAL ESTATE PUBLIC",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ETE.BK",
+        "companyName": "EASTERN TECHNICAL ENGINEERING",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ETE-R.BK",
+        "companyName": "EASTERN TECHNICAL ENGINEERING",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "EVER-R.BK",
+        "companyName": "EVERLAND PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "F&D.BK",
+        "companyName": "FOOD AND DRINKS PUBLIC COMPANY ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "F&D-R.BK",
+        "companyName": "FOOD AND DRINKS PUBLIC COMPANY ",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "FANCY.BK",
+        "companyName": "FANCY WOOD INDUSTRIES PUBLIC CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "FANCY-R.BK",
+        "companyName": "FANCY WOOD INDUSTRIES PUBLIC CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "FMT.BK",
+        "companyName": "FURUKAWA METAL (THAILAND) PUBLI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "FPI.BK",
+        "companyName": "FORTUNE PARTS INDUSTRY PUBLIC C",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "FPI-R.BK",
+        "companyName": "FORTUNE PARTS INDUSTRY PUBLIC C",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "FSMART.BK",
+        "companyName": "FORTH SMART SERVICE PUBLIC COMP",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "FSS-R.BK",
+        "companyName": "FINANSIA SYRUS SECURITIES PUBLI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "FTE-R.BK",
+        "companyName": "FIRETRADE ENGINEERING PUBLIC CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "FUTUREPF.BK",
+        "companyName": "FUTURE PARK LEASEHOLD PROPERTY ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "FVC.BK",
+        "companyName": "FILTER VISION PUBLIC COMPANY LI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "FVC-R.BK",
+        "companyName": "FILTER VISION PUBLIC COMPANY LI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GAHREIT.BK",
+        "companyName": "GRANDE HOSPITALITY REAL ESTATE ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GBX-R.BK",
+        "companyName": "GLOBLEX HOLDING MANAGEMENT",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GC.BK",
+        "companyName": "GLOBAL CONNECTIONS PUBLIC COMPA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GCAP-R.BK",
+        "companyName": "G CAPITAL PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GC-R.BK",
+        "companyName": "GLOBAL CONNECTIONS PUBLIC COMPA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GEL.BK",
+        "companyName": "GENERAL ENGINEERING PUBLIC COMP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GFPT.BK",
+        "companyName": "GFPT PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GGC.BK",
+        "companyName": "GLOBAL GREEN CHEMICALS PUBLIC C",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GGC-R.BK",
+        "companyName": "GLOBAL GREEN CHEMICALS PUBLIC C",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GIFT-R.BK",
+        "companyName": "GRATITUDE INFINITE PUBLIC COMPA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GJS.BK",
+        "companyName": "G J STEEL PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GJS-R.BK",
+        "companyName": "G J STEEL PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GL.BK",
+        "companyName": "GROUP LEASE PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GLAND.BK",
+        "companyName": "GRAND CANAL LAND PUBLIC COMPANY",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GLOBAL.BK",
+        "companyName": "SIAM GLOBAL HOUSE PUBLIC COMPAN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GLOBAL-R.BK",
+        "companyName": "SIAM GLOBAL HOUSE PUBLIC COMPAN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GLOCON.BK",
+        "companyName": "GLOBAL CONSUMER PUBLIC COMPANY ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GL-R.BK",
+        "companyName": "GROUP LEASE PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GOLD.BK",
+        "companyName": "GOLDEN LAND PROPERTY DEVELOPMEN",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GOLD-R.BK",
+        "companyName": "GOLDEN LAND PROPERTY DEVELOPMEN",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GPI.BK",
+        "companyName": "GRAND PRIX INTERNATIONAL PUBLIC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GPSC.BK",
+        "companyName": "GLOBAL POWER SYNERGY PUBLIC COM",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GRAMMY-R.BK",
+        "companyName": "GMM GRAMMY PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GRAND.BK",
+        "companyName": "GRANDE ASSET HOTELS AND PROPERT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GRAND-R.BK",
+        "companyName": "GRANDE ASSET HOTELS AND PROPERT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GREEN.BK",
+        "companyName": "GREEN RESOURCES PUBLIC COMPANY ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GREEN-R.BK",
+        "companyName": "GREEN RESOURCES PUBLIC COMPANY ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GSC.BK",
+        "companyName": "GLOBAL SERVICE CENTER PUBLIC CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GTB-R.BK",
+        "companyName": "GETABEC PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GULF.BK",
+        "companyName": "GULF ENERGY DEVELOPMENT PUBLIC ",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GUNKUL.BK",
+        "companyName": "GUNKUL ENGINEERING PUBLIC COMPA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GUNKUL-R.BK",
+        "companyName": "GUNKUL ENGINEERING PUBLIC COMPA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "GVREIT.BK",
+        "companyName": "GOLDEN VENTURES LEASEHOLD REAL ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "HANA.BK",
+        "companyName": "HANA MICROELECTRONICS PUBLIC CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "HARN.BK",
+        "companyName": "HARN ENGINEERING SOLUTIONS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "HARN-R.BK",
+        "companyName": "HARN ENGINEERING SOLUTIONS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "HFT.BK",
+        "companyName": "HWA FONG RUBBER (THAILAND)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "HFT-R.BK",
+        "companyName": "HWA FONG RUBBER (THAILAND)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "HMPRO.BK",
+        "companyName": "HOME PRODUCT CENTER PUBLIC COMP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "HMPRO-R.BK",
+        "companyName": "HOME PRODUCT CENTER PUBLIC COMP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "HPF.BK",
+        "companyName": "HEMARAJ INDUSTRIAL PROPERTY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "HREIT.BK",
+        "companyName": "HEMARAJ LEASEHOLD REAL ESTATE I",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "HTC-R.BK",
+        "companyName": "HAAD THIP PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "HTECH.BK",
+        "companyName": "HALCYON TECHNOLOGY PUBLIC COMPA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "HUMAN.BK",
+        "companyName": "HUMANICA PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "HUMAN-R.BK",
+        "companyName": "HUMANICA PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ICHI.BK",
+        "companyName": "ICHITAN GROUP PUBLIC COMPANY LI",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ICHI-R.BK",
+        "companyName": "ICHITAN GROUP PUBLIC COMPANY LI",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ICN.BK",
+        "companyName": "INFORMATION AND COMMUNICATION N",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "III.BK",
+        "companyName": "TRIPLE I LOGISTICS PUBLIC COMPA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "III-R.BK",
+        "companyName": "TRIPLE I LOGISTICS PUBLIC COMPA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ILINK.BK",
+        "companyName": "INTERLINK COMMUNICATION PUBLIC ",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ILM.BK",
+        "companyName": "INDEX LIVING MALL PUBLIC COMPAN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ILM-R.BK",
+        "companyName": "INDEX LIVING MALL PUBLIC COMPAN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "IMH.BK",
+        "companyName": "INTERMEDICAL CARE AND LAB HOSPI",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "IMH-R.BK",
+        "companyName": "INTERMEDICAL CARE AND LAB HOSPI",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "INSET.BK",
+        "companyName": "INFRASET PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "INSET-R.BK",
+        "companyName": "INFRASET PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "INTUCH.BK",
+        "companyName": "INTOUCH HOLDINGS PUBLIC COMPANY",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "INTUCH-R.BK",
+        "companyName": "INTOUCH HOLDINGS PUBLIC COMPANY",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "IP-R.BK",
+        "companyName": "INTER PHARMA PUBLIC COMPANY LIM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "IRCP.BK",
+        "companyName": "INTERNATIONAL RESEARCH CORPORAT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "IRPC.BK",
+        "companyName": "IRPC PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ITEL.BK",
+        "companyName": "INTERLINK TELECOM PUBLIC COMPAN",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ITEL-R.BK",
+        "companyName": "INTERLINK TELECOM PUBLIC COMPAN",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "IVL.BK",
+        "companyName": "INDORAMA VENTURES PUBLIC COMPAN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "IVL-R.BK",
+        "companyName": "INDORAMA VENTURES PUBLIC COMPAN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "J.BK",
+        "companyName": "JAS ASSET PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JAS.BK",
+        "companyName": "JASMINE INTERNATIONAL PUBLIC CO",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JASIF.BK",
+        "companyName": "JASMINE BROADBAND INTERNET",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JAS-R.BK",
+        "companyName": "JASMINE INTERNATIONAL PUBLIC CO",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JCK.BK",
+        "companyName": "JCK INTERNATIONAL PUBLIC COMPAN",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JCKH.BK",
+        "companyName": "JCK HOSPITALITY PUBLIC COMPANY ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JCKH-R.BK",
+        "companyName": "JCK HOSPITALITY PUBLIC COMPANY ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JCT.BK",
+        "companyName": "JACK CHIA INDUSTRIES (THAILAND)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JCT-R.BK",
+        "companyName": "JACK CHIA INDUSTRIES (THAILAND)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JKN.BK",
+        "companyName": "JKN GLOBAL MEDIA PUBLIC COMPANY",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JKN-R.BK",
+        "companyName": "JKN GLOBAL MEDIA PUBLIC COMPANY",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JMART.BK",
+        "companyName": "JAY MART PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JMART-R.BK",
+        "companyName": "JAY MART PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JMT.BK",
+        "companyName": "JMT NETWORK SERVICES PUBLIC COM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JMT-R.BK",
+        "companyName": "JMT NETWORK SERVICES PUBLIC COM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "J-R.BK",
+        "companyName": "JAS ASSET PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JSP.BK",
+        "companyName": "J.S.P. PROPERTY PUBLIC COMPANY ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JSP-R.BK",
+        "companyName": "J.S.P. PROPERTY PUBLIC COMPANY ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JTS.BK",
+        "companyName": "JASMINE TELECOM SYSTEMS PUBLIC ",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JUBILE.BK",
+        "companyName": "JUBILEE ENTERPRISE PUBLIC COMPA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JUBILE-R.BK",
+        "companyName": "JUBILEE ENTERPRISE PUBLIC COMPA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JUTHA.BK",
+        "companyName": "JUTHA MARITIME PUBLIC COMPANY L",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JUTHA-R.BK",
+        "companyName": "JUTHA MARITIME PUBLIC COMPANY L",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JWD.BK",
+        "companyName": "JWD INFOLOGISTICS PUBLIC COMPAN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "JWD-R.BK",
+        "companyName": "JWD INFOLOGISTICS PUBLIC COMPAN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KAMART.BK",
+        "companyName": "KARMARTS PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KAMART-R.BK",
+        "companyName": "KARMARTS PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KASET.BK",
+        "companyName": "THAI HA PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KASET-R.BK",
+        "companyName": "THAI HA PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KBANK.BK",
+        "companyName": "KASIKORNBANK PUBLIC COMPANY LIM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KBANK-R.BK",
+        "companyName": "KASIKORNBANK PUBLIC COMPANY LIM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KBS.BK",
+        "companyName": "KHONBURI SUGAR PUBLIC COMPANY L",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KBS-R.BK",
+        "companyName": "KHONBURI SUGAR PUBLIC COMPANY L",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KCAR.BK",
+        "companyName": "KRUNGTHAI CAR RENT AND LEASE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KCAR-R.BK",
+        "companyName": "KRUNGTHAI CAR RENT AND LEASE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KCE.BK",
+        "companyName": "KCE ELECTRONICS PUBLIC COMPANY ",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KCE-R.BK",
+        "companyName": "KCE ELECTRONICS PUBLIC COMPANY ",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KCM.BK",
+        "companyName": "K.C. METALSHEET PUBLIC COMPANY ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KCM-R.BK",
+        "companyName": "K.C. METALSHEET PUBLIC COMPANY ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KDH.BK",
+        "companyName": "THONBURI MEDICAL CENTRE PUBLIC ",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KGI.BK",
+        "companyName": "KGI SECURITIES (THAILAND) PUBLI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KGI-R.BK",
+        "companyName": "KGI SECURITIES (THAILAND) PUBLI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KIAT.BK",
+        "companyName": "KIATTANA TRANSPORT PUBLIC COMPA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KKC-R.BK",
+        "companyName": "KULTHORN KIRBY PUBLIC COMPANY L",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KKP.BK",
+        "companyName": "KIATNAKIN BANK PUBLIC COMPANY L",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KKP-R.BK",
+        "companyName": "KIATNAKIN BANK PUBLIC COMPANY L",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KOOL.BK",
+        "companyName": "MASTERKOOL INTERNATIONAL PUBLIC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KPNPF.BK",
+        "companyName": "KPN PROPERTY FUND",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "K-R.BK",
+        "companyName": "KINGSMEN C.M.T.I. PUBLIC COMPAN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KSL.BK",
+        "companyName": "KHON KAEN SUGAR INDUSTRY PUBLIC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KSL-R.BK",
+        "companyName": "KHON KAEN SUGAR INDUSTRY PUBLIC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KTB.BK",
+        "companyName": "KRUNG THAI BANK PUBLIC COMPANY ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KTB-R.BK",
+        "companyName": "KRUNG THAI BANK PUBLIC COMPANY ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KTC.BK",
+        "companyName": "KRUNGTHAI CARD PUBLIC COMPANY L",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KTC-R.BK",
+        "companyName": "KRUNGTHAI CARD PUBLIC COMPANY L",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KTIS.BK",
+        "companyName": "KASET THAI INTERNATIONAL SUGAR",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KTIS-R.BK",
+        "companyName": "KASET THAI INTERNATIONAL SUGAR",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KUMWEL.BK",
+        "companyName": "KUMWELL CORPORATION PUBLIC COMP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KUMWEL-R.BK",
+        "companyName": "KUMWELL CORPORATION PUBLIC COMP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KUN.BK",
+        "companyName": "VILLA KUNALAI PUBLIC COMPANY LI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KUN-R.BK",
+        "companyName": "VILLA KUNALAI PUBLIC COMPANY LI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KWC.BK",
+        "companyName": "KRUNGDHEP SOPHON PUBLIC COMPANY",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KWG.BK",
+        "companyName": "KING WAI GROUP (THAILAND) PUBLI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KWG-R.BK",
+        "companyName": "KING WAI GROUP (THAILAND) PUBLI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KWM.BK",
+        "companyName": "K. W. METAL WORK PUBLIC COMPANY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KWM-R.BK",
+        "companyName": "K. W. METAL WORK PUBLIC COMPANY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KYE.BK",
+        "companyName": "KANG YONG ELECTRIC PUBLIC COMPA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "KYE-R.BK",
+        "companyName": "KANG YONG ELECTRIC PUBLIC COMPA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "L&E.BK",
+        "companyName": "LIGHTING & EQUIPMENT PUBLIC COM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "LALIN.BK",
+        "companyName": "LALIN PROPERTY PUBLIC COMPANY L",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "LANNA.BK",
+        "companyName": "THE LANNA RESOURCES PUBLIC COMP",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "LANNA-R.BK",
+        "companyName": "THE LANNA RESOURCES PUBLIC COMP",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "LDC.BK",
+        "companyName": "LDC DENTAL PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "LEE-R.BK",
+        "companyName": "LEE FEED MILL PUBLIC COMPANY LI",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "LH.BK",
+        "companyName": "LAND AND HOUSES PUBLIC COMPANY ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "LHFG.BK",
+        "companyName": "LH FINANCIAL GROUP PUBLIC COMPA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "LHFG-R.BK",
+        "companyName": "LH FINANCIAL GROUP PUBLIC COMPA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "LHK.BK",
+        "companyName": "LOHAKIT METAL PUBLIC COMPANY LI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "LHPF.BK",
+        "companyName": "LAND AND HOUSES FREEHOLD AND LE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "LH-R.BK",
+        "companyName": "LAND AND HOUSES PUBLIC COMPANY ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "LOXLEY.BK",
+        "companyName": "LOXLEY PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "LPH-R.BK",
+        "companyName": "LADPRAO GENERAL HOSPITAL PUBLIC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "LPN.BK",
+        "companyName": "L.P.N. DEVELOPMENT PUBLIC COMPA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "LPN-R.BK",
+        "companyName": "L.P.N. DEVELOPMENT PUBLIC COMPA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "LRH.BK",
+        "companyName": "LAGUNA RESORTS & HOTELS PUBLIC ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "LST.BK",
+        "companyName": "LAM SOON (THAILAND) PUBLIC COMP",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "M.BK",
+        "companyName": "MK RESTAURANT GROUP PUBLIC COMP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MACO.BK",
+        "companyName": "MASTER AD PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MACO-R.BK",
+        "companyName": "MASTER AD PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MAJOR.BK",
+        "companyName": "MAJOR CINEPLEX GROUP PUBLIC COM",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MAJOR-R.BK",
+        "companyName": "MAJOR CINEPLEX GROUP PUBLIC COM",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MAKRO.BK",
+        "companyName": "SIAM MAKRO PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MAKRO-R.BK",
+        "companyName": "SIAM MAKRO PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MALEE-R.BK",
+        "companyName": "MALEE GROUP PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MANRIN.BK",
+        "companyName": "THE MANDARIN HOTEL PUBLIC COMPA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MANRIN-R.BK",
+        "companyName": "THE MANDARIN HOTEL PUBLIC COMPA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MAX-R.BK",
+        "companyName": "MAX METAL CORPORATION PUBLIC CO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MBAX-R.BK",
+        "companyName": "MULTIBAX PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MBK.BK",
+        "companyName": "MBK PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MBKET-R.BK",
+        "companyName": "MAYBANK KIM ENG SECURITIES (THA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MBK-R.BK",
+        "companyName": "MBK PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MC.BK",
+        "companyName": "MC GROUP PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "M-CHAI.BK",
+        "companyName": "MAHACHAI HOSPITAL PUBLIC COMPAN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "M-CHAI-R.BK",
+        "companyName": "MAHACHAI HOSPITAL PUBLIC COMPAN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MCOT.BK",
+        "companyName": "MCOT PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MCOT-R.BK",
+        "companyName": "MCOT PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MC-R.BK",
+        "companyName": "MC GROUP PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MCS.BK",
+        "companyName": "M.C.S.STEEL PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MCS-R.BK",
+        "companyName": "M.C.S.STEEL PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MEGA.BK",
+        "companyName": "MEGA LIFESCIENCES PUBLIC COMPAN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "META.BK",
+        "companyName": "META CORPORATION PUBLIC COMPANY",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "META-R.BK",
+        "companyName": "META CORPORATION PUBLIC COMPANY",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "METCO.BK",
+        "companyName": "MURAMOTO ELECTRON (THAILAND)",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MFC-R.BK",
+        "companyName": "MFC ASSET MANAGEMENT PUBLIC COM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MFEC.BK",
+        "companyName": "MFEC PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MFEC-R.BK",
+        "companyName": "MFEC PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MGT.BK",
+        "companyName": "MEGACHEM (THAILAND) PUBLIC COMP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MGT-R.BK",
+        "companyName": "MEGACHEM (THAILAND) PUBLIC COMP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MIDA-R.BK",
+        "companyName": "MIDA ASSETS PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "M-II.BK",
+        "companyName": "MFC INDUSTRIAL INVESTMENT PROPE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MILL.BK",
+        "companyName": "MILLCON STEEL PUBLIC COMPANY LI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MILL-R.BK",
+        "companyName": "MILLCON STEEL PUBLIC COMPANY LI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MINT.BK",
+        "companyName": "MINOR INTERNATIONAL PUBLIC COMP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MIT.BK",
+        "companyName": "MFC INDUSTRIAL REAL ESTATE INVE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MITSIB.BK",
+        "companyName": "MITSIB LEASING PUBLIC COMPANY L",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MJD.BK",
+        "companyName": "MAJOR DEVELOPMENT PUBLIC COMPAN",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MJD-R.BK",
+        "companyName": "MAJOR DEVELOPMENT PUBLIC COMPAN",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MJLF.BK",
+        "companyName": "MAJOR CINEPLEX LIFESTYLE LEASEH",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MK.BK",
+        "companyName": "M.K. REAL ESTATE DEVELOPMENT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MK-R.BK",
+        "companyName": "M.K. REAL ESTATE DEVELOPMENT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ML.BK",
+        "companyName": "MIDA LEASING PUBLIC COMPANY LIM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MM.BK",
+        "companyName": "MUDMAN PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MNIT.BK",
+        "companyName": "MFC-NICHADA THANI PROPERTY FUND",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MNIT2.BK",
+        "companyName": "NICHADA THANI PROPERTY FUND 2",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MNRF.BK",
+        "companyName": "MULTI-NATIONAL RESIDENCE FUND",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MODERN.BK",
+        "companyName": "MODERNFORM GROUP PUBLIC COMPANY",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MONO.BK",
+        "companyName": "MONO TECHNOLOGY PUBLIC COMPANY ",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MONO-R.BK",
+        "companyName": "MONO TECHNOLOGY PUBLIC COMPANY ",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MORE.BK",
+        "companyName": "MORE RETURN PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MORE-R.BK",
+        "companyName": "MORE RETURN PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MPG.BK",
+        "companyName": "MPG CORPORATION PUBLIC COMPANY ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MPG-R.BK",
+        "companyName": "MPG CORPORATION PUBLIC COMPANY ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MPIC.BK",
+        "companyName": "M PICTURES ENTERTAINMENT PUBLIC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MPIC-R.BK",
+        "companyName": "M PICTURES ENTERTAINMENT PUBLIC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "M-R.BK",
+        "companyName": "MK RESTAURANT GROUP PUBLIC COMP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MSC.BK",
+        "companyName": "METRO SYSTEMS CORPORATION PUBLI",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "M-STOR.BK",
+        "companyName": "MFC-STRATEGIC STORAGE FUND",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MTC.BK",
+        "companyName": "MUANGTHAI CAPITAL PUBLIC COMPAN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MTC-R.BK",
+        "companyName": "MUANGTHAI CAPITAL PUBLIC COMPAN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MTI.BK",
+        "companyName": "MUANG THAI INSURANCE PUBLIC COM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MTI-R.BK",
+        "companyName": "MUANG THAI INSURANCE PUBLIC COM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MVP.BK",
+        "companyName": "M VISION PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "MVP-R.BK",
+        "companyName": "M VISION PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NBC.BK",
+        "companyName": "NATION BROADCASTING CORPORATION",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NBC-R.BK",
+        "companyName": "NATION BROADCASTING CORPORATION",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NCH-R.BK",
+        "companyName": "N. C. HOUSING PUBLIC COMPANY LI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NCL.BK",
+        "companyName": "NCL INTERNATIONAL LOGISTICS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NCL-R.BK",
+        "companyName": "NCL INTERNATIONAL LOGISTICS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NC-R.BK",
+        "companyName": "NEWCITY (BANGKOK) PUBLIC COMPAN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NDR.BK",
+        "companyName": "N.D. RUBBER PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NDR-R.BK",
+        "companyName": "N.D. RUBBER PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NER.BK",
+        "companyName": "NORTH EAST RUBBER PUBLIC COMPAN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NER-R.BK",
+        "companyName": "NORTH EAST RUBBER PUBLIC COMPAN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NETBAY.BK",
+        "companyName": "NETBAY PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NETBAY-R.BK",
+        "companyName": "NETBAY PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NEWS.BK",
+        "companyName": "NEWS NETWORK CORPORATION PUBLIC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NEX.BK",
+        "companyName": "NEX POINT PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NEX-R.BK",
+        "companyName": "NEX POINT PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NFC.BK",
+        "companyName": "NFC PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NKI-R.BK",
+        "companyName": "THE NAVAKIJ INSURANCE PUBLIC CO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NNCL.BK",
+        "companyName": "NAVANAKORN PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NOBLE.BK",
+        "companyName": "NOBLE DEVELOPMENT PUBLIC COMPAN",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NOK.BK",
+        "companyName": "NOK AIRLINES PUBLIC COMPANY LIM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NOK-R.BK",
+        "companyName": "NOK AIRLINES PUBLIC COMPANY LIM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NPK.BK",
+        "companyName": "NEW PLUS KNITTING PUBLIC COMPAN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NPK-R.BK",
+        "companyName": "NEW PLUS KNITTING PUBLIC COMPAN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NSI.BK",
+        "companyName": "NAM SENG INSURANCE PUBLIC COMPA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NTV.BK",
+        "companyName": "NONTHAVEJ HOSPITAL PUBLIC COMPA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NUSA.BK",
+        "companyName": "NUSASIRI PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NUSA-R.BK",
+        "companyName": "NUSASIRI PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NVD-R.BK",
+        "companyName": "NIRVANA DAII PUBLIC COMPANY LIM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NWR.BK",
+        "companyName": "NAWARAT PATANAKARN PUBLIC COMPA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NYT.BK",
+        "companyName": "NAMYONG TERMINAL PUBLIC COMPANY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "NYT-R.BK",
+        "companyName": "NAMYONG TERMINAL PUBLIC COMPANY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "OCC.BK",
+        "companyName": "O.C.C. PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "OCC-R.BK",
+        "companyName": "O.C.C. PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "OCEAN.BK",
+        "companyName": "OCEAN COMMERCE PUBLIC COMPANY L",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "OGC.BK",
+        "companyName": "OCEAN GLASS PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "OGC-R.BK",
+        "companyName": "OCEAN GLASS PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "OISHI.BK",
+        "companyName": "OISHI GROUP PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "OISHI-R.BK",
+        "companyName": "OISHI GROUP PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ORI.BK",
+        "companyName": "ORIGIN PROPERTY PUBLIC COMPANY ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ORI-R.BK",
+        "companyName": "ORIGIN PROPERTY PUBLIC COMPANY ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "OSP.BK",
+        "companyName": "OSOTSPA PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "OSP-R.BK",
+        "companyName": "OSOTSPA PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PAF.BK",
+        "companyName": "PAN ASIA FOOTWEAR PUBLIC COMPAN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PATO.BK",
+        "companyName": "PATO CHEMICAL INDUSTRY PUBLIC C",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PB.BK",
+        "companyName": "PRESIDENT BAKERY PUBLIC COMPANY",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PB-R.BK",
+        "companyName": "PRESIDENT BAKERY PUBLIC COMPANY",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PCSGH.BK",
+        "companyName": "P.C.S. MACHINE GROUP HOLDING",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PDG.BK",
+        "companyName": "PRODIGY PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PDG-R.BK",
+        "companyName": "PRODIGY PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PDJ.BK",
+        "companyName": "PRANDA JEWELRY PUBLIC COMPANY L",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PDJ-R.BK",
+        "companyName": "PRANDA JEWELRY PUBLIC COMPANY L",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PERM.BK",
+        "companyName": "PERMSIN STEEL WORKS PUBLIC COMP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PERM-R.BK",
+        "companyName": "PERMSIN STEEL WORKS PUBLIC COMP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PF-R.BK",
+        "companyName": "PROPERTY PERFECT PUBLIC COMPANY",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PHOL-R.BK",
+        "companyName": "PHOL DHANYA PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PICO.BK",
+        "companyName": "PICO THAILAND PUBLIC COMPANY LI",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PIMO.BK",
+        "companyName": "PIONEER MOTOR PUBLIC COMPANY LI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PIMO-R.BK",
+        "companyName": "PIONEER MOTOR PUBLIC COMPANY LI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PK.BK",
+        "companyName": "PATKOL PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PL.BK",
+        "companyName": "PHATRA LEASING PUBLIC COMPANY L",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PLANB.BK",
+        "companyName": "PLAN B MEDIA PUBLIC COMPANY LIM",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PLANB-R.BK",
+        "companyName": "PLAN B MEDIA PUBLIC COMPANY LIM",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PLANET.BK",
+        "companyName": "PLANET COMMUNICATIONS ASIA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PLAT.BK",
+        "companyName": "THE PLATINUM GROUP PUBLIC COMPA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PLE.BK",
+        "companyName": "POWER LINE ENGINEERING PUBLIC C",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PLE-R.BK",
+        "companyName": "POWER LINE ENGINEERING PUBLIC C",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PM.BK",
+        "companyName": "PREMIER MARKETING PUBLIC COMPAN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PM-R.BK",
+        "companyName": "PREMIER MARKETING PUBLIC COMPAN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "POST-R.BK",
+        "companyName": "BANGKOK POST PUBLIC COMPANY LIM",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PPM.BK",
+        "companyName": "PORN PROM METAL PUBLIC COMPANY ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PPM-R.BK",
+        "companyName": "PORN PROM METAL PUBLIC COMPANY ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PPP.BK",
+        "companyName": "PREMIER PRODUCTS PUBLIC COMPANY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PPS.BK",
+        "companyName": "PROJECT PLANNING SERVICE PUBLIC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PR9.BK",
+        "companyName": "PRARAM 9 HOSPITAL PUBLIC COMPAN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PR9-R.BK",
+        "companyName": "PRARAM 9 HOSPITAL PUBLIC COMPAN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PRAKIT.BK",
+        "companyName": "PRAKIT HOLDINGS PUBLIC COMPANY ",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PRAKIT-R.BK",
+        "companyName": "PRAKIT HOLDINGS PUBLIC COMPANY ",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PREB.BK",
+        "companyName": "PRE-BUILT PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PREB-R.BK",
+        "companyName": "PRE-BUILT PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PRECHA.BK",
+        "companyName": "PREECHA GROUP PUBLIC COMPANY LI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PRG.BK",
+        "companyName": "PATUM RICE MILL AND GRANARY",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PRG-R.BK",
+        "companyName": "PATUM RICE MILL AND GRANARY",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PRIME-R.BK",
+        "companyName": "PRIME ROAD POWER PUBLIC COMPANY",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PRIN.BK",
+        "companyName": "PRINSIRI PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PRINC.BK",
+        "companyName": "PRINCIPAL CAPITAL PUBLIC COMPAN",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PRIN-R.BK",
+        "companyName": "PRINSIRI PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PRM.BK",
+        "companyName": "PRIMA MARINE PUBLIC COMPANY LIM",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PROUD.BK",
+        "companyName": "PROUD REAL ESTATE PUBLIC COMPAN",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PROUD-R.BK",
+        "companyName": "PROUD REAL ESTATE PUBLIC COMPAN",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PSH.BK",
+        "companyName": "PRUKSA HOLDING PUBLIC COMPANY L",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PSH-R.BK",
+        "companyName": "PRUKSA HOLDING PUBLIC COMPANY L",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PSL.BK",
+        "companyName": "PRECIOUS SHIPPING PUBLIC COMPAN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PSTC.BK",
+        "companyName": "POWER SOLUTION TECHNOLOGIES",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PSTC-R.BK",
+        "companyName": "POWER SOLUTION TECHNOLOGIES",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PTG.BK",
+        "companyName": "PTG ENERGY PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PTL.BK",
+        "companyName": "POLYPLEX (THAILAND) PUBLIC COMP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PT-R.BK",
+        "companyName": "PREMIER TECHNOLOGY PUBLIC COMPA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PTT.BK",
+        "companyName": "PTT PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PTTEP.BK",
+        "companyName": "PTT EXPLORATION AND PRODUCTION",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PTTEP-R.BK",
+        "companyName": "PTT EXPLORATION AND PRODUCTION",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PTTGC.BK",
+        "companyName": "PTT GLOBAL CHEMICAL PUBLIC COMP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PTT-R.BK",
+        "companyName": "PTT PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "PYLON-R.BK",
+        "companyName": "PYLON PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "Q-CON.BK",
+        "companyName": "QUALITY CONSTRUCTION PRODUCTS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "Q-CON-R.BK",
+        "companyName": "QUALITY CONSTRUCTION PRODUCTS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "QH.BK",
+        "companyName": "QUALITY HOUSES PUBLIC COMPANY L",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "QHHR.BK",
+        "companyName": "QUALITY HOUSES HOTEL AND RESIDE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "QHOP.BK",
+        "companyName": "QUALITY HOSPITALITY LEASEHOLD P",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "QHPF.BK",
+        "companyName": "QUALITY HOUSES LEASEHOLD PROPER",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "QH-R.BK",
+        "companyName": "QUALITY HOUSES PUBLIC COMPANY L",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "QLT.BK",
+        "companyName": "QUALITECH PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "QLT-R.BK",
+        "companyName": "QUALITECH PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "QTC.BK",
+        "companyName": "QTC ENERGY PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "QTC-R.BK",
+        "companyName": "QTC ENERGY PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "RAM.BK",
+        "companyName": "RAMKHAMHAENG HOSPITAL PUBLIC CO",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "RAM-R.BK",
+        "companyName": "RAMKHAMHAENG HOSPITAL PUBLIC CO",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "RATCH.BK",
+        "companyName": "RATCH GROUP PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "RBF.BK",
+        "companyName": "R&B FOOD SUPPLY PUBLIC COMPANY ",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "RCL.BK",
+        "companyName": "REGIONAL CONTAINER LINES PUBLIC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "RICHY.BK",
+        "companyName": "RICHY PLACE 2002 PUBLIC COMPANY",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "RICHY-R.BK",
+        "companyName": "RICHY PLACE 2002 PUBLIC COMPANY",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "RJH-R.BK",
+        "companyName": "RAJTHANEE HOSPITAL PUBLIC COMPA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ROH.BK",
+        "companyName": "ROYAL ORCHID HOTEL (THAILAND)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ROH-R.BK",
+        "companyName": "ROYAL ORCHID HOTEL (THAILAND)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "RP.BK",
+        "companyName": "RAJA FERRY PORT PUBLIC COMPANY ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "RPC.BK",
+        "companyName": "RPCG PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "RS.BK",
+        "companyName": "RS PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "RS-R.BK",
+        "companyName": "RS PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "RWI.BK",
+        "companyName": "RAYONG WIRE INDUSTRIES PUBLIC C",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "RWI-R.BK",
+        "companyName": "RAYONG WIRE INDUSTRIES PUBLIC C",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "S-&-J.BK",
+        "companyName": "S & J INTERNATIONAL ENTERPRISES",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "S-&-J-R.BK",
+        "companyName": "S & J INTERNATIONAL ENTERPRISES",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "S11.BK",
+        "companyName": "S 11 GROUP PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "S11-R.BK",
+        "companyName": "S 11 GROUP PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SAAM.BK",
+        "companyName": "SAAM ENERGY DEVELOPMENT PUBLIC ",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SABINA.BK",
+        "companyName": "SABINA PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SALEE.BK",
+        "companyName": "SALEE INDUSTRY PUBLIC COMPANY L",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SALEE-R.BK",
+        "companyName": "SALEE INDUSTRY PUBLIC COMPANY L",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SAM.BK",
+        "companyName": "SAMCHAI STEEL INDUSTRIES PUBLIC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SAMART.BK",
+        "companyName": "SAMART CORPORATION PUBLIC COMPA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SAMART-R.BK",
+        "companyName": "SAMART CORPORATION PUBLIC COMPA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SAMCO.BK",
+        "companyName": "SAMMAKORN PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SAM-R.BK",
+        "companyName": "SAMCHAI STEEL INDUSTRIES PUBLIC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SAMTEL-R.BK",
+        "companyName": "SAMART TELCOMS PUBLIC COMPANY L",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SANKO.BK",
+        "companyName": "SANKO DIECASTING (THAILAND)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SAPPE-R.BK",
+        "companyName": "SAPPE PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SAUCE.BK",
+        "companyName": "THAITHEPAROS PUBLIC COMPANY LIM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SAUCE-R.BK",
+        "companyName": "THAITHEPAROS PUBLIC COMPANY LIM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SAWAD.BK",
+        "companyName": "SRISAWAD CORPORATION PUBLIC COM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SAWANG-R.BK",
+        "companyName": "SAWANG EXPORT PUBLIC COMPANY LI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SBPF.BK",
+        "companyName": "SAMUI BURI PROPERTY FUND",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SC.BK",
+        "companyName": "SC ASSET CORPORATION PUBLIC COM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SCB.BK",
+        "companyName": "THE SIAM COMMERCIAL BANK PUBLIC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SCC.BK",
+        "companyName": "THE SIAM CEMENT PUBLIC COMPANY ",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SCCC-R.BK",
+        "companyName": "SIAM CITY CEMENT PUBLIC COMPANY",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SCG.BK",
+        "companyName": "SAHACOGEN (CHONBURI) PUBLIC COM",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SCI-R.BK",
+        "companyName": "SCI ELECTRIC PUBLIC COMPANY LIM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SCN-R.BK",
+        "companyName": "SCAN INTER PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SCP.BK",
+        "companyName": "SOUTHERN CONCRETE PILE PUBLIC C",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SCP-R.BK",
+        "companyName": "SOUTHERN CONCRETE PILE PUBLIC C",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SDC.BK",
+        "companyName": "SAMART DIGITAL PUBLIC COMPANY L",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SDC-R.BK",
+        "companyName": "SAMART DIGITAL PUBLIC COMPANY L",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SEAOIL-R.BK",
+        "companyName": "SEA OIL PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SE-ED.BK",
+        "companyName": "SE-EDUCATION PUBLIC COMPANY LIM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SE-ED-R.BK",
+        "companyName": "SE-EDUCATION PUBLIC COMPANY LIM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SEG.BK",
+        "companyName": "THAI GROUP HOLDINGS PUBLIC COMP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SEG-R.BK",
+        "companyName": "THAI GROUP HOLDINGS PUBLIC COMP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SELIC.BK",
+        "companyName": "SELIC CORP PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SELIC-R.BK",
+        "companyName": "SELIC CORP PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SF.BK",
+        "companyName": "SIAM FUTURE DEVELOPMENT PUBLIC ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SFLEX-R.BK",
+        "companyName": "STARFLEX PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SFP.BK",
+        "companyName": "SIAM FOOD PRODUCTS PUBLIC COMPA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SF-R.BK",
+        "companyName": "SIAM FUTURE DEVELOPMENT PUBLIC ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SGP.BK",
+        "companyName": "SIAMGAS AND PETROCHEMICALS",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SHANG.BK",
+        "companyName": "SHANGRI-LA HOTEL PUBLIC COMPANY",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SHANG-R.BK",
+        "companyName": "SHANGRI-LA HOTEL PUBLIC COMPANY",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SHR.BK",
+        "companyName": "S HOTELS AND RESORTS PUBLIC COM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SHREIT.BK",
+        "companyName": "STRATEGIC HOSPITALITY EXTENDABL",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SHR-R.BK",
+        "companyName": "S HOTELS AND RESORTS PUBLIC COM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SIMAT.BK",
+        "companyName": "SIMAT TECHNOLOGIES PUBLIC COMPA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SIRI.BK",
+        "companyName": "SANSIRI PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SIRIP.BK",
+        "companyName": "SIRI PRIME OFFICE PROPERTY FUND",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SIRI-R.BK",
+        "companyName": "SANSIRI PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SIS.BK",
+        "companyName": "SIS DISTRIBUTION (THAILAND)",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SISB.BK",
+        "companyName": "SISB PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SITHAI-R.BK",
+        "companyName": "SRITHAI SUPERWARE PUBLIC COMPAN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SKE.BK",
+        "companyName": "SAKOL ENERGY PUBLIC COMPANY LIM",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SKN.BK",
+        "companyName": "S.KIJCHAI ENTERPRISE PUBLIC COM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SKY.BK",
+        "companyName": "SKY ICT PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SKY-R.BK",
+        "companyName": "SKY ICT PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SLP.BK",
+        "companyName": "SALEE PRINTING PUBLIC COMPANY L",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SLP-R.BK",
+        "companyName": "SALEE PRINTING PUBLIC COMPANY L",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SMART.BK",
+        "companyName": "SMART CONCRETE PUBLIC COMPANY L",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SMIT.BK",
+        "companyName": "SAHAMIT MACHINERY PUBLIC COMPAN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SMIT-R.BK",
+        "companyName": "SAHAMIT MACHINERY PUBLIC COMPAN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SMK.BK",
+        "companyName": "SYN MUN KONG INSURANCE PUBLIC C",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SMK-R.BK",
+        "companyName": "SYN MUN KONG INSURANCE PUBLIC C",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SMT.BK",
+        "companyName": "STARS MICROELECTRONICS (THAILAN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SNC-R.BK",
+        "companyName": "SNC FORMER PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SNP.BK",
+        "companyName": "S & P SYNDICATE PUBLIC COMPANY ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SOLAR.BK",
+        "companyName": "SOLARTRON PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SORKON.BK",
+        "companyName": "S. KHONKAEN FOODS PUBLIC COMPAN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SORKON-R.BK",
+        "companyName": "S. KHONKAEN FOODS PUBLIC COMPAN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SPA.BK",
+        "companyName": "SIAM WELLNESS GROUP PUBLIC COMP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SPALI.BK",
+        "companyName": "SUPALAI PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SPALI-R.BK",
+        "companyName": "SUPALAI PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SPA-R.BK",
+        "companyName": "SIAM WELLNESS GROUP PUBLIC COMP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SPCG.BK",
+        "companyName": "SPCG PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SPCG-R.BK",
+        "companyName": "SPCG PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SPC-R.BK",
+        "companyName": "SAHA PATHANAPIBUL PUBLIC COMPAN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SPF.BK",
+        "companyName": "SAMUI AIRPORT PROPERTY FUND (LE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SPI-R.BK",
+        "companyName": "SAHA PATHANA INTER-HOLDING",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SPRC.BK",
+        "companyName": "STAR PETROLEUM REFINING PUBLIC ",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SPRC-R.BK",
+        "companyName": "STAR PETROLEUM REFINING PUBLIC ",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SPRIME.BK",
+        "companyName": "S PRIME GROWTH LEASEHOLD REAL E",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SPVI.BK",
+        "companyName": "S P V I PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SPVI-R.BK",
+        "companyName": "S P V I PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SQ.BK",
+        "companyName": "SAHAKOL EQUIPMENT PUBLIC COMPAN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SR.BK",
+        "companyName": "SIAMRAJ PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "S-R.BK",
+        "companyName": "SINGHA ESTATE PUBLIC COMPANY LI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SRIPANWA.BK",
+        "companyName": "SRI PANWA HOSPITALITY REAL ESTA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SSC.BK",
+        "companyName": "SERMSUK PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SSC-R.BK",
+        "companyName": "SERMSUK PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SSP.BK",
+        "companyName": "SERMSANG POWER CORPORATION PUBL",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SSPF.BK",
+        "companyName": "SALA @ SATHORN PROPERTY FUND",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SSSC.BK",
+        "companyName": "SIAM STEEL SERVICE CENTER PUBLI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SST.BK",
+        "companyName": "SUB SRI THAI PUBLIC COMPANY LIM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SSTRT.BK",
+        "companyName": "SUB SRI THAI REAL ESTATE INVEST",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "STA.BK",
+        "companyName": "SRI TRANG AGRO-INDUSTRY PUBLIC ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "STANLY.BK",
+        "companyName": "THAI STANLEY ELECTRIC PUBLIC CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "STC-R.BK",
+        "companyName": "STC CONCRETE PRODUCT PUBLIC COM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "STEC.BK",
+        "companyName": "SINO-THAI ENGINEERING AND CONST",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "STPI.BK",
+        "companyName": "STP&I PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "STPI-R.BK",
+        "companyName": "STP&I PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SUC.BK",
+        "companyName": "SAHA-UNION PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SUN-R.BK",
+        "companyName": "SUNSWEET PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SUPER.BK",
+        "companyName": "SUPER ENERGY CORPORATION PUBLIC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SUPEREIF.BK",
+        "companyName": "SUPER ENERGY POWER PLANT INFRAS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SUPER-R.BK",
+        "companyName": "SUPER ENERGY CORPORATION PUBLIC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SUSCO.BK",
+        "companyName": "SUSCO PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SUSCO-R.BK",
+        "companyName": "SUSCO PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SUTHA.BK",
+        "companyName": "GOLDEN LIME PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SUTHA-R.BK",
+        "companyName": "GOLDEN LIME PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SVH.BK",
+        "companyName": "SAMITIVEJ PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SVH-R.BK",
+        "companyName": "SAMITIVEJ PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SVOA.BK",
+        "companyName": "SVOA PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SWC.BK",
+        "companyName": "SHERWOOD CORPORATION (THAILAND)",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SYMC.BK",
+        "companyName": "SYMPHONY COMMUNICATION PUBLIC C",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SYMC-R.BK",
+        "companyName": "SYMPHONY COMMUNICATION PUBLIC C",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SYNEX.BK",
+        "companyName": "SYNNEX (THAILAND) PUBLIC COMPAN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "SYNTEC.BK",
+        "companyName": "SYNTEC CONSTRUCTION PUBLIC COMP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "T.BK",
+        "companyName": "T ENGINEERING CORPORATION PUBLI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TACC.BK",
+        "companyName": "T.A.C. CONSUMER PUBLIC COMPANY ",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TACC-R.BK",
+        "companyName": "T.A.C. CONSUMER PUBLIC COMPANY ",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TAE.BK",
+        "companyName": "THAI AGRO ENERGY PUBLIC COMPANY",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TAKUNI.BK",
+        "companyName": "TAKUNI GROUP PUBLIC COMPANY LIM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TAKUNI-R.BK",
+        "companyName": "TAKUNI GROUP PUBLIC COMPANY LIM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TASCO.BK",
+        "companyName": "TIPCO ASPHALT PUBLIC COMPANY LI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TASCO-R.BK",
+        "companyName": "TIPCO ASPHALT PUBLIC COMPANY LI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TCAP.BK",
+        "companyName": "THANACHART CAPITAL PUBLIC COMPA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TCC-R.BK",
+        "companyName": "THAI CAPITAL CORPORATION PUBLIC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TCMC.BK",
+        "companyName": "TCM CORPORATION PUBLIC COMPANY ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TC-R.BK",
+        "companyName": "TROPICAL CANNING (THAILAND)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TEAM.BK",
+        "companyName": "TEAM PRECISION PUBLIC COMPANY L",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TEAMG.BK",
+        "companyName": "TEAM CONSULTING ENGINEERING AND",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TEAMG-R.BK",
+        "companyName": "TEAM CONSULTING ENGINEERING AND",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TEAM-R.BK",
+        "companyName": "TEAM PRECISION PUBLIC COMPANY L",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TFG.BK",
+        "companyName": "THAIFOODS GROUP PUBLIC COMPANY ",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TFG-R.BK",
+        "companyName": "THAIFOODS GROUP PUBLIC COMPANY ",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TFI.BK",
+        "companyName": "THAI FILM INDUSTRIES PUBLIC COM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TFMAMA.BK",
+        "companyName": "THAI PRESIDENT FOODS PUBLIC COM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TGPRO.BK",
+        "companyName": "THAI-GERMAN PRODUCTS PUBLIC COM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TGPRO-R.BK",
+        "companyName": "THAI-GERMAN PRODUCTS PUBLIC COM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TH.BK",
+        "companyName": "TONG HUA HOLDING PUBLIC COMPANY",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "THAI.BK",
+        "companyName": "THAI AIRWAYS INTERNATIONAL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "THAI-R.BK",
+        "companyName": "THAI AIRWAYS INTERNATIONAL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "THANA.BK",
+        "companyName": "THANASIRI GROUP PUBLIC COMPANY ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "THANI.BK",
+        "companyName": "RATCHTHANI LEASING PUBLIC COMPA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "THCOM.BK",
+        "companyName": "THAICOM PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "THCOM-R.BK",
+        "companyName": "THAICOM PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "THE-R.BK",
+        "companyName": "THE STEEL PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "THG.BK",
+        "companyName": "THONBURI HEALTHCARE GROUP PUBLI",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "THG-R.BK",
+        "companyName": "THONBURI HEALTHCARE GROUP PUBLI",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "THMUI-R.BK",
+        "companyName": "THAI MUI CORPORATION PUBLIC COM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TH-R.BK",
+        "companyName": "TONG HUA HOLDING PUBLIC COMPANY",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "THREL.BK",
+        "companyName": "THAIRE LIFE ASSURANCE PUBLIC CO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "THREL-R.BK",
+        "companyName": "THAIRE LIFE ASSURANCE PUBLIC CO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "THRE-R.BK",
+        "companyName": "THAI REINSURANCE PUBLIC COMPANY",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TIF1.BK",
+        "companyName": "THAI INDUSTRIAL FUND 1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TIGER.BK",
+        "companyName": "THAI ENGER HOLDING PUBLIC COMPA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TIGER-R.BK",
+        "companyName": "THAI ENGER HOLDING PUBLIC COMPA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TIP.BK",
+        "companyName": "DHIPAYA INSURANCE PUBLIC COMPAN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TISCO.BK",
+        "companyName": "TISCO FINANCIAL GROUP PUBLIC CO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TISCO-R.BK",
+        "companyName": "TISCO FINANCIAL GROUP PUBLIC CO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TITLE.BK",
+        "companyName": "RHOM BHO PROPERTY PUBLIC COMPAN",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TITLE-R.BK",
+        "companyName": "RHOM BHO PROPERTY PUBLIC COMPAN",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TIW.BK",
+        "companyName": "THAILAND IRON WORKS PUBLIC COMP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TIW-R.BK",
+        "companyName": "THAILAND IRON WORKS PUBLIC COMP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TKN.BK",
+        "companyName": "TAOKAENOI FOOD & MARKETING",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TKS.BK",
+        "companyName": "T.K.S. TECHNOLOGIES PUBLIC COMP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TKT.BK",
+        "companyName": "T.KRUNGTHAI INDUSTRIES PUBLIC C",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TKT-R.BK",
+        "companyName": "T.KRUNGTHAI INDUSTRIES PUBLIC C",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TLHPF.BK",
+        "companyName": "THAILAND HOSPITALITY PROPERTY F",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TMB.BK",
+        "companyName": "TMB BANK PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TMB-R.BK",
+        "companyName": "TMB BANK PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TMD-R.BK",
+        "companyName": "THAI METAL DRUM MANUFACTURING",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TMILL-R.BK",
+        "companyName": "T S FLOUR MILL PUBLIC COMPANY L",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TMI-R.BK",
+        "companyName": "TEERA-MONGKOL INDUSTRY PUBLIC C",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TM-R.BK",
+        "companyName": "TECHNO MEDICAL PUBLIC COMPANY L",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TMT.BK",
+        "companyName": "TMT STEEL PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TMT-R.BK",
+        "companyName": "TMT STEEL PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TNDT.BK",
+        "companyName": "THAI NONDESTRUCTIVE TESTING",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TNITY.BK",
+        "companyName": "TRINITY WATTHANA PUBLIC COMPANY",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TNITY-R.BK",
+        "companyName": "TRINITY WATTHANA PUBLIC COMPANY",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TNPC.BK",
+        "companyName": "THAI NAM PLASTIC PUBLIC COMPANY",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TNPC-R.BK",
+        "companyName": "THAI NAM PLASTIC PUBLIC COMPANY",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TNPF.BK",
+        "companyName": "TRINITY FREEHOLD AND LEASEHOLD ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TNR.BK",
+        "companyName": "THAI NIPPON RUBBER INDUSTRY",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TOA.BK",
+        "companyName": "TOA PAINT (THAILAND) PUBLIC COM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TOG.BK",
+        "companyName": "THAI OPTICAL GROUP PUBLIC COMPA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TOP.BK",
+        "companyName": "THAI OIL PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TPA.BK",
+        "companyName": "THAI POLY ACRYLIC PUBLIC COMPAN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TPAC.BK",
+        "companyName": "THAI PLASPAC PUBLIC COMPANY LIM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TPA-R.BK",
+        "companyName": "THAI POLY ACRYLIC PUBLIC COMPAN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TPCH.BK",
+        "companyName": "TPC POWER HOLDING PUBLIC COMPAN",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TPCH-R.BK",
+        "companyName": "TPC POWER HOLDING PUBLIC COMPAN",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TPIPL.BK",
+        "companyName": "TPI POLENE PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TPIPL-R.BK",
+        "companyName": "TPI POLENE PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TPIPP.BK",
+        "companyName": "TPI POLENE POWER PUBLIC COMPANY",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TPLAS.BK",
+        "companyName": "THAI PLASTIC INDUSTRIAL (1994)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TPLAS-R.BK",
+        "companyName": "THAI PLASTIC INDUSTRIAL (1994)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TPP.BK",
+        "companyName": "THAI PACKAGING & PRINTING PUBLI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TPRIME.BK",
+        "companyName": "THAILAND PRIME PROPERTY FREEHOL",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TPS.BK",
+        "companyName": "THE PRACTICAL SOLUTION PUBLIC C",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TQM.BK",
+        "companyName": "TQM CORPORATION PUBLIC COMPANY ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TQM-R.BK",
+        "companyName": "TQM CORPORATION PUBLIC COMPANY ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TR.BK",
+        "companyName": "THAI RAYON PUBLIC COMPANY LIMIT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "T-R.BK",
+        "companyName": "T ENGINEERING CORPORATION PUBLI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TRC-R.BK",
+        "companyName": "TRC CONSTRUCTION PUBLIC COMPANY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TRITN.BK",
+        "companyName": "TRITON HOLDING PUBLIC COMPANY L",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TRU.BK",
+        "companyName": "THAI RUNG UNION CAR PUBLIC COMP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TRUBB.BK",
+        "companyName": "THAI RUBBER LATEX GROUP PUBLIC ",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TRUE.BK",
+        "companyName": "TRUE CORPORATION PUBLIC COMPANY",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TRUE-R.BK",
+        "companyName": "TRUE CORPORATION PUBLIC COMPANY",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TSE.BK",
+        "companyName": "THAI SOLAR ENERGY PUBLIC COMPAN",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TSE-R.BK",
+        "companyName": "THAI SOLAR ENERGY PUBLIC COMPAN",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TSTH.BK",
+        "companyName": "TATA STEEL (THAILAND) PUBLIC CO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TSTH-R.BK",
+        "companyName": "TATA STEEL (THAILAND) PUBLIC CO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TTA.BK",
+        "companyName": "THORESEN THAI AGENCIES PUBLIC C",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TTLPF.BK",
+        "companyName": "TALAAD THAI LEASEHOLD PROPERTY ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TTW.BK",
+        "companyName": "TTW PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TU.BK",
+        "companyName": "THAI UNION GROUP PUBLIC COMPANY",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TU-R.BK",
+        "companyName": "THAI UNION GROUP PUBLIC COMPANY",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TVD-R.BK",
+        "companyName": "TV DIRECT PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TVO.BK",
+        "companyName": "THAI VEGETABLE OIL PUBLIC COMPA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TWP.BK",
+        "companyName": "THAI WIRE PRODUCTS PUBLIC COMPA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TWPC.BK",
+        "companyName": "THAI WAH PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TWPC-R.BK",
+        "companyName": "THAI WAH PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TWP-R.BK",
+        "companyName": "THAI WIRE PRODUCTS PUBLIC COMPA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "TYCN-R.BK",
+        "companyName": "TYCOONS WORLDWIDE GROUP (THAILA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "UBIS.BK",
+        "companyName": "UBIS (ASIA) PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "UBIS-R.BK",
+        "companyName": "UBIS (ASIA) PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "UEC.BK",
+        "companyName": "UNIMIT ENGINEERING PUBLIC COMPA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "UEC-R.BK",
+        "companyName": "UNIMIT ENGINEERING PUBLIC COMPA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "UKEM.BK",
+        "companyName": "UNION PETROCHEMICAL PUBLIC COMP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "UMS.BK",
+        "companyName": "UNIQUE MINING SERVICES PUBLIC C",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "UMS-R.BK",
+        "companyName": "UNIQUE MINING SERVICES PUBLIC C",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "UNIQ.BK",
+        "companyName": "UNIQUE ENGINEERING AND CONSTRUC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "UNIQ-R.BK",
+        "companyName": "UNIQUE ENGINEERING AND CONSTRUC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "UOBKH.BK",
+        "companyName": "UOB KAY HIAN SECURITIES (THAILA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "UOBKH-R.BK",
+        "companyName": "UOB KAY HIAN SECURITIES (THAILA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "UPA.BK",
+        "companyName": "UNITED POWER OF ASIA PUBLIC COM",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "URBNPF.BK",
+        "companyName": "URBANA PROPERTY FUND (LEASE HOL",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "UREKA.BK",
+        "companyName": "EUREKA DESIGN PUBLIC COMPANY LI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "UREKA-R.BK",
+        "companyName": "EUREKA DESIGN PUBLIC COMPANY LI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "UT.BK",
+        "companyName": "UNION TEXTILE INDUSTRIES PUBLIC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "UTP.BK",
+        "companyName": "UNITED PAPER PUBLIC COMPANY LIM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "UV.BK",
+        "companyName": "UNIVENTURES PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "UVAN.BK",
+        "companyName": "UNIVANICH PALM OIL PUBLIC COMPA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "UVAN-R.BK",
+        "companyName": "UNIVANICH PALM OIL PUBLIC COMPA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "UWC.BK",
+        "companyName": "UA WITHYA PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "UWC-R.BK",
+        "companyName": "UA WITHYA PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "VCOM.BK",
+        "companyName": "VINTCOM TECHNOLOGY PUBLIC COMPA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "VCOM-R.BK",
+        "companyName": "VINTCOM TECHNOLOGY PUBLIC COMPA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "VGI.BK",
+        "companyName": "VGI PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "VGI-R.BK",
+        "companyName": "VGI PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "VIBHA.BK",
+        "companyName": "VIBHAVADI MEDICAL CENTER PUBLIC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "VIBHA-R.BK",
+        "companyName": "VIBHAVADI MEDICAL CENTER PUBLIC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "VL.BK",
+        "companyName": "V.L. ENTERPRISE PUBLIC COMPANY ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "VNG.BK",
+        "companyName": "VANACHAI GROUP PUBLIC COMPANY L",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "VNG-R.BK",
+        "companyName": "VANACHAI GROUP PUBLIC COMPANY L",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "VNT.BK",
+        "companyName": "VINYTHAI PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "VNT-R.BK",
+        "companyName": "VINYTHAI PUBLIC COMPANY LIMITED",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "VPO.BK",
+        "companyName": "VICHITBHAN PALMOIL PUBLIC COMPA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "VPO-R.BK",
+        "companyName": "VICHITBHAN PALMOIL PUBLIC COMPA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "VRANDA.BK",
+        "companyName": "VERANDA RESORT PUBLIC COMPANY L",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "VRANDA-R.BK",
+        "companyName": "VERANDA RESORT PUBLIC COMPANY L",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WACOAL.BK",
+        "companyName": "THAI WACOAL PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WACOAL-R.BK",
+        "companyName": "THAI WACOAL PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WAVE.BK",
+        "companyName": "WAVE ENTERTAINMENT PUBLIC COMPA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WAVE-R.BK",
+        "companyName": "WAVE ENTERTAINMENT PUBLIC COMPA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WG.BK",
+        "companyName": "WHITE GROUP PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WG-R.BK",
+        "companyName": "WHITE GROUP PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WHA.BK",
+        "companyName": "WHA CORPORATION PUBLIC COMPANY ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WHABT.BK",
+        "companyName": "WHA BUSINESS COMPLEX FREEHOLD",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WHA-R.BK",
+        "companyName": "WHA CORPORATION PUBLIC COMPANY ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WHART.BK",
+        "companyName": "WHA PREMIUM GROWTH FREEHOLD",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WHAUP-R.BK",
+        "companyName": "WHA UTILITIES AND POWER PUBLIC ",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WICE.BK",
+        "companyName": "WICE LOGISTICS PUBLIC COMPANY L",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WICE-R.BK",
+        "companyName": "WICE LOGISTICS PUBLIC COMPANY L",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WIN.BK",
+        "companyName": "WYNCOAST INDUSTRIAL PARK PUBLIC",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WINNER.BK",
+        "companyName": "WINNER GROUP ENTERPRISE PUBLIC ",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WINNER-R.BK",
+        "companyName": "WINNER GROUP ENTERPRISE PUBLIC ",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WIN-R.BK",
+        "companyName": "WYNCOAST INDUSTRIAL PARK PUBLIC",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WORK.BK",
+        "companyName": "WORKPOINT ENTERTAINMENT PUBLIC ",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WORK-R.BK",
+        "companyName": "WORKPOINT ENTERTAINMENT PUBLIC ",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WP.BK",
+        "companyName": "WP ENERGY PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WPH.BK",
+        "companyName": "WATTANAPAT HOSPITAL TRANG PUBLI",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WPH-R.BK",
+        "companyName": "WATTANAPAT HOSPITAL TRANG PUBLI",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "WP-R.BK",
+        "companyName": "WP ENERGY PUBLIC COMPANY LIMITE",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "XO.BK",
+        "companyName": "EXOTIC FOOD PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "XO-R.BK",
+        "companyName": "EXOTIC FOOD PUBLIC COMPANY LIMI",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "YGG.BK",
+        "companyName": "YGGDRAZIL GROUP PUBLIC COMPANY ",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "YGG-R.BK",
+        "companyName": "YGGDRAZIL GROUP PUBLIC COMPANY ",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "YUASA.BK",
+        "companyName": "YUASA BATTERY (THAILAND) PUBLIC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "YUASA-R.BK",
+        "companyName": "YUASA BATTERY (THAILAND) PUBLIC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ZEN.BK",
+        "companyName": "ZEN CORPORATION GROUP PUBLIC CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ZEN-R.BK",
+        "companyName": "ZEN CORPORATION GROUP PUBLIC CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ZIGA.BK",
+        "companyName": "ZIGA INNOVATION PUBLIC COMPANY ",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SET",
+        "symbol": "ZIGA-R.BK",
+        "companyName": "ZIGA INNOVATION PUBLIC COMPANY ",
+        "industryOrCategory": "Basic Materials"
+    }
+]

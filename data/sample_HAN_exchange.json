@@ -1,0 +1,2270 @@
+[
+    {
+        "exchangeCode": "HAN",
+        "symbol": "1B7N.HA",
+        "companyName": "OSISKO MINING INC.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "1BR1.HA",
+        "companyName": "URW (STAPLED SHS)  EO-,05",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "1NBA.HA",
+        "companyName": "ANHEUSER-BUSCH INBEV",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "1T9.HA",
+        "companyName": "TARKETT S.A.  EO 20",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "2FI.HA",
+        "companyName": "FIAT CHRYSLER AUTOM. 0,01",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "2HP.HA",
+        "companyName": "HEWLETT PACKARD ENT.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "2HRA.HA",
+        "companyName": "H+R KGAA  INH. O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "2OY.HA",
+        "companyName": "DOW INC.  DL-,01",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "2U2A.HA",
+        "companyName": "UBM DEVELOPMENT 15/20 FLR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "2X0.HA",
+        "companyName": "CORTEVA INC.  DL -,01",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "2XT.HA",
+        "companyName": "DXC TECHNOLOGY CO. DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "3PNA.HA",
+        "companyName": "PENNON GROUP NEW LS -,407",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "3RB.HA",
+        "companyName": "RECKITT BENCK.GRP LS -,10",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "3RT.HA",
+        "companyName": "RESIDEO TECHN. WI DL,-001",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "3V64.HA",
+        "companyName": "VISA INC. CL. A DL -,0001",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "42BA.HA",
+        "companyName": "BERKELEY GRP HLDGS ORD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "47VS.HA",
+        "companyName": "SIBANYE STILLW.SP.ADR 1/4",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "5E2.HA",
+        "companyName": "ENERGY RECOVERY  DL -,001",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "6D81.HA",
+        "companyName": "DUPONT DE NEMOURS INC. ON",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "6MK.HA",
+        "companyName": "MERCK CO.  DL-,01",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "7AA.HA",
+        "companyName": "APERAM S.A.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "7HP.HA",
+        "companyName": "HP INC  DL -,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "8GC.HA",
+        "companyName": "GLENCORE PLC  DL -,01",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "A2TSN9.HA",
+        "companyName": "SPK.HANNOVER IS.S.520",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "A44.HA",
+        "companyName": "AENA SME S.A.  EO 10",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "AB1.HA",
+        "companyName": "AIR BERLIN PLC  EO -,25",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ABEA.HA",
+        "companyName": "ALPHABET INC.CL.A DL-,001",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ABEC.HA",
+        "companyName": "ALPHABET INC.CL C DL-,001",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ADD.HA",
+        "companyName": "ADLER MODEMAERKTE AG O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ADE.HA",
+        "companyName": "BITCOIN GROUP SE  O.N.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ADJ.HA",
+        "companyName": "ADO PROPERTIES S.A. NPV",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ADS.HA",
+        "companyName": "ADIDAS AG NA O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "AEC1.HA",
+        "companyName": "AMER. EXPRESS  DL -,20",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "AEND.HA",
+        "companyName": "AEGON NV (DEMAT.)  EO-12",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "AFR.HA",
+        "companyName": "AIR FRANCE-KLM INH.  EO 1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "AFX.HA",
+        "companyName": "CARL ZEISS MEDITEC AG",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "AHLA.HA",
+        "companyName": "ALIBABA GR.HLDG SP.ADR 1",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "AHOG.HA",
+        "companyName": "AHOLD DELHAIZE,KON.EO-,01",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "AI3A.HA",
+        "companyName": "AMADEUS IT GRP SA EO 0,01",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "AIL.HA",
+        "companyName": "AIR LIQUIDE INH. EO 5,50",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "AINN.HA",
+        "companyName": "AMER.INTL GRP NEW DL 2,50",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "AIXA.HA",
+        "companyName": "AIXTRON SE NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "AKU1.HA",
+        "companyName": "AKZO NOBEL  EO 0,5",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ALG.HA",
+        "companyName": "ALBIS LEASING AG O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ALU2.HA",
+        "companyName": "ARCONIC INC.  DL 1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "AMD.HA",
+        "companyName": "ADVANCED MIC.DEV.  DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "AMG.HA",
+        "companyName": "AMGEN INC.  DL-,0001",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "AMZ.HA",
+        "companyName": "AMAZON.COM INC.  DL-,01",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "AOD.HA",
+        "companyName": "ANGLOGOLD ASHANTI LTD.ADR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "AOMD.HA",
+        "companyName": "ALSTOM S.A. INH.  EO 7",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "AP2.HA",
+        "companyName": "APPLIED MATERIALS INC.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "APM.HA",
+        "companyName": "AD PEPPER MEDIA  EO 0,05",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ARL.HA",
+        "companyName": "AAREAL BANK AG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ARRD.HA",
+        "companyName": "ARCELORMITTAL S.A. NOUV.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ASG.HA",
+        "companyName": "GENERALI  EO 1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ASME.HA",
+        "companyName": "ASML HOLDING  EO -,09",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "AT1.HA",
+        "companyName": "AROUNDTOWN EO-,01",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ATW.HA",
+        "companyName": "ALLERTHAL-WERKE-AG O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "AXA.HA",
+        "companyName": "AXA S.A. INH.  EO 2,29",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "B4B.HA",
+        "companyName": "METRO AG  ST O.N.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "B4B3.HA",
+        "companyName": "METRO AG  VZO O.N.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "B5A.HA",
+        "companyName": "BAUER AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BAS.HA",
+        "companyName": "BASF SE NA O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BAYN.HA",
+        "companyName": "BAYER AG NA O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BC8.HA",
+        "companyName": "BECHTLE AG O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BCO.HA",
+        "companyName": "BOEING CO.  DL 5",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BCY.HA",
+        "companyName": "BARCLAYS PLC  LS 0,25",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BDT.HA",
+        "companyName": "BERTRANDT AG O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BHP1.HA",
+        "companyName": "BHP GROUP LTD.  DL -,50",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BIJ.HA",
+        "companyName": "BIJOU BRIGITTE O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BIL.HA",
+        "companyName": "BHP GROUP PLC  DL -,50",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BIO.HA",
+        "companyName": "BIOTEST AG ST O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BIO3.HA",
+        "companyName": "BIOTEST AG VZ O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BMT.HA",
+        "companyName": "BRIT.AMER.TOBACCO  LS-,25",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BMW3.HA",
+        "companyName": "BAY.MOTOREN WERKE  VZO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BNF.HA",
+        "companyName": "BILLERUDKORSNAES SK 12,50",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BNP.HA",
+        "companyName": "BNP PARIBAS INH.  EO 2",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BNR.HA",
+        "companyName": "BRENNTAG AG NA O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BON.HA",
+        "companyName": "BOIRON SA INH.  EO 1",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BOSS.HA",
+        "companyName": "HUGO BOSS AG NA O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BOY.HA",
+        "companyName": "BCO BIL.VIZ.ARG.NOM.EO-49",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BPE5.HA",
+        "companyName": "BP PLC  DL-,25",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BRM.HA",
+        "companyName": "BRISTOL-MYERS SQUIBBDL-10",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BSD2.HA",
+        "companyName": "BCO SANTANDER N.EO0,5",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BSN.HA",
+        "companyName": "DANONE S.A. EO -,25",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BVB.HA",
+        "companyName": "BORUSSIA DORTMUND",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "BYW6.HA",
+        "companyName": "BAYWA AG VINK.NA. O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "CAP.HA",
+        "companyName": "ENCAVIS AG  INH. O.N.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "CAR.HA",
+        "companyName": "CARREFOUR S.A. INH.EO 2,5",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "CAT1.HA",
+        "companyName": "CATERPILLAR INC.  DL 1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "CBHD.HA",
+        "companyName": "COLOPLAST NAM. B  DK 1",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "CCC3.HA",
+        "companyName": "COCA-COLA CO.  DL-,25",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "CEC1.HA",
+        "companyName": "CECONOMY AG  VZO O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "CEV.HA",
+        "companyName": "CENTROTEC SE  INH O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "CHV.HA",
+        "companyName": "CHEVRON CORP.  DL-,75",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "CIS.HA",
+        "companyName": "CISCO SYSTEMS  DL-,001",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "CMC.HA",
+        "companyName": "JPMORGAN CHASE  DL 1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "COM.HA",
+        "companyName": "COMDIRECT BANK AG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "CPA.HA",
+        "companyName": "COLGATE-PALMOLIVE  DL 1",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "CRG.HA",
+        "companyName": "CRH PLC  EO-,32",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "CSA.HA",
+        "companyName": "ACCENTURE A  DL-,0000225",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "CVLB.HA",
+        "companyName": "VALE S.A. ADR 1",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "CXR.HA",
+        "companyName": "CSX CORP.  DL 1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "DAI.HA",
+        "companyName": "DAIMLER AG NA O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "DB1.HA",
+        "companyName": "DEUTSCHE BOERSE NA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "DBAN.HA",
+        "companyName": "DT.BETEILIG.AG  NA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "DBK.HA",
+        "companyName": "DEUTSCHE BANK AG NA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "DEQ.HA",
+        "companyName": "DEUTSCHE EUROSHOP NA O.N.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "DLG.HA",
+        "companyName": "DIALOG SEMICOND.  LS-,10",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "DNQ.HA",
+        "companyName": "EQUINOR ASA  NK 2,50",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "DPW.HA",
+        "companyName": "DEUTSCHE POST AG NA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "DRI.HA",
+        "companyName": "1+1 DRILLISCH AG O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "DRW3.HA",
+        "companyName": "DRAEGERWERK VZO O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "DSY1.HA",
+        "companyName": "DASSAULT SYS SE INH.EO0,5",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "DUE.HA",
+        "companyName": "DUERR AG O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "DWNI.HA",
+        "companyName": "DEUTSCHE WOHNEN SE INH",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "E2DE.HA",
+        "companyName": "ENBW INTL FIN. 09/39 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "E2F.HA",
+        "companyName": "ELECTRICI.D.FRANCE E0-,50",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "EBA.HA",
+        "companyName": "EBAY INC.  DL-,001",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "EJR.HA",
+        "companyName": "EAST JAPAN RWY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "EJT1.HA",
+        "companyName": "EASYJET PLC  LS-,27285714",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ENA.HA",
+        "companyName": "ENDESA INH.  EO 1,20",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ENL.HA",
+        "companyName": "ENEL S.P.A.  EO 1",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ERCB.HA",
+        "companyName": "ERICSSON B (FRIA)",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ESL.HA",
+        "companyName": "ESSILORLUXO. INH. EO -,18",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ETG.HA",
+        "companyName": "ENVITEC BIOGAS O.N.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "EUCA.HA",
+        "companyName": "EUROMICRON AG NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "EUK2.HA",
+        "companyName": "EUROKAI KGAA INH.A.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "EUK3.HA",
+        "companyName": "EUROKAI KGAA VZO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "EVD.HA",
+        "companyName": "CTS EVENTIM KGAA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "EVT.HA",
+        "companyName": "EVOTEC SE  INH O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "FB2A.HA",
+        "companyName": "FACEBOOK INC.A DL-,000006",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "FGR.HA",
+        "companyName": "FIRSTGRP PLC  LS-,05",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "FMC1.HA",
+        "companyName": "FORD MOTOR  DL-,01",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "FME.HA",
+        "companyName": "FRESEN.MED.CARE KGAA O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "FPE3.HA",
+        "companyName": "FUCHS PETROL.SE VZO O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "FR1321040.HA",
+        "companyName": "VEOLIA ENVIRONN.16/23 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "FTE.HA",
+        "companyName": "ORANGE INH.  EO 4",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "G14.HA",
+        "companyName": "SIGNIFY N.V.  EO -,01",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "G1A.HA",
+        "companyName": "GEA GROUP AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "G24.HA",
+        "companyName": "SCOUT24 AG NA O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "GBF.HA",
+        "companyName": "BILFINGER SE O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "GCPJ.HA",
+        "companyName": "GENERAL ELECT. 05/35 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "GCWD.HA",
+        "companyName": "GE CAP.EURO.FUND.13/20MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "GCWK.HA",
+        "companyName": "GE CAP.EURO.FUND.13/23MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "GEC.HA",
+        "companyName": "GENL EL. CO.  DL -,06",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "GFT.HA",
+        "companyName": "GFT TECHNOLOGIES SE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "GGS.HA",
+        "companyName": "GIGASET AG O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "GIB.HA",
+        "companyName": "GSW IMMOBILIEN AG",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "GIL.HA",
+        "companyName": "DMG MORI AG O.N.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "GLJ.HA",
+        "companyName": "GRENKE AG NA O.N.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "GOB.HA",
+        "companyName": "ST GOBAIN  EO 4",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "GOS.HA",
+        "companyName": "GOLDMAN SACHS GRP INC.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "GS7.HA",
+        "companyName": "GLAXOSMITHKLINE  LS-,25",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "GSC1.HA",
+        "companyName": "GESCO AG NA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "GTQ1.HA",
+        "companyName": "SIEMENS GAMESA R.E.EO-,17",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "GU8.HA",
+        "companyName": "AVIVA PLC  LS-,25",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "GUI.HA",
+        "companyName": "DIAGEO PLC LS-,28935185",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "GXI.HA",
+        "companyName": "GERRESHEIMER AG",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "GYC.HA",
+        "companyName": "GRAND CITY PROPERT.EO-,10",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "GZF.HA",
+        "companyName": "ENGIE S.A. INH.  EO 1",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "H5E.HA",
+        "companyName": "HELMA EIGENHEIMBAU AG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "HAK.HA",
+        "companyName": "EINBECKER BRAUH.O.N.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "HAL.HA",
+        "companyName": "HALLIBURTON CO.  DL 2,50",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "HAW.HA",
+        "companyName": "HAWESKO HOLDING AG  SVG",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "HBC1.HA",
+        "companyName": "HSBC HLDGS PLC  DL-,50",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "HDD.HA",
+        "companyName": "HEIDELBERG.DRUCKMA.O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "HDI.HA",
+        "companyName": "HOME DEPOT INC.  DL-,05",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "HEN.HA",
+        "companyName": "HENKEL AG+CO.KGAA ST O.N.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "HF1.HA",
+        "companyName": "HAIN CELESTIAL GRP DL-,01",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "HHFA.HA",
+        "companyName": "HAMBURG.HAFEN LOG.A-SP NA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "HLE.HA",
+        "companyName": "HELLA GMBH+CO. KGAA O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "HMSB.HA",
+        "companyName": "HENNES + MAURITZ B SK-125",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "HNK1.HA",
+        "companyName": "HEINEKEN  EO 1,60",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "HNL.HA",
+        "companyName": "DR. HOENLE AG O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "HNM.HA",
+        "companyName": "ORMAT TECHNOLOG.  DL-,001",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "HNR1.HA",
+        "companyName": "HANNOVER RUECK SE NA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "HVB.HA",
+        "companyName": "UESTRA HANN.VERK. INH ON",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "HXCK.HA",
+        "companyName": "ERNST RUSS AG NA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "HYU.HA",
+        "companyName": "HYUNDAI MOT.0,5N.VTG GDRS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "IBE1.HA",
+        "companyName": "IBERDROLA INH.  EO -,75",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "IBM.HA",
+        "companyName": "INTL BUS. MACH.  DL-,20",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "IBRF.HA",
+        "companyName": "IBERDROLA FIN. 10/20 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "IDP.HA",
+        "companyName": "BIOGEN INC. DL -,0005",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "IFX.HA",
+        "companyName": "INFINEON TECH.AG NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "INL.HA",
+        "companyName": "INTEL CORP.  DL-,001",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "INN1.HA",
+        "companyName": "ING GROEP NV  EO -,01",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ISR.HA",
+        "companyName": "ISRA VISION O.N.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "IXD1.HA",
+        "companyName": "INDITEX INH.  EO 0,03",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "JEN.HA",
+        "companyName": "JENOPTIK AG  NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "JNJ.HA",
+        "companyName": "JOHNSON + JOHNSON  DL 1",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "JST.HA",
+        "companyName": "JOST WERKE AG INH.  O.N.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "JUN3.HA",
+        "companyName": "JUNGHEINRICH AG O.N.VZO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "K5FA.HA",
+        "companyName": "KA FINANZ AG 15/20 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "KBX.HA",
+        "companyName": "KNORR-BREMSE AG  INH O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "KCO.HA",
+        "companyName": "KLOECKNER + CO SE NA O.N.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "KFI1.HA",
+        "companyName": "KINGFISHER  LS-,157142857",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "KGX.HA",
+        "companyName": "KION GROUP AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "KPI1.HA",
+        "companyName": "KONICA MINOLTA INC.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "KPN.HA",
+        "companyName": "KON. KPN NV  EO-04",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "KRN.HA",
+        "companyName": "KRONES AG O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "KU2.HA",
+        "companyName": "KUKA AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "KWI.HA",
+        "companyName": "KURITA WATER IND.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "KWS.HA",
+        "companyName": "KWS SAAT KGAA  INH O.N.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "LHA.HA",
+        "companyName": "LUFTHANSA AG VNA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "LIN.HA",
+        "companyName": "LINDE PLC  EO 0,001",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "LLD.HA",
+        "companyName": "LLOYDS BKG GRP  LS-,10",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "LOR.HA",
+        "companyName": "OREAL (L') INH.  EO 0,2",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "LPK.HA",
+        "companyName": "LPKF LASER+ELECTRON.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "M12.HA",
+        "companyName": "M1 KLINIKEN AG  O.N.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "M7Q7.HA",
+        "companyName": "MICRO FOCUS INTL  LS-,10",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "MAK.HA",
+        "companyName": "MATERNUS-KLI.AG O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "MAN.HA",
+        "companyName": "MAN SE ST O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "MAN3.HA",
+        "companyName": "MAN SE VZO O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "MCH.HA",
+        "companyName": "MICHELIN  NOM.  EO 2",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "MDG1.HA",
+        "companyName": "MEDIGENE AG NA O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "MDN.HA",
+        "companyName": "MEDION AG O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "MDO.HA",
+        "companyName": "MCDONALDS CORP.  DL-,01",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "MHR.HA",
+        "companyName": "MILLER (HERMAN)  DL-,20",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "MLP.HA",
+        "companyName": "MLP SE  INH. O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "MMM.HA",
+        "companyName": "3M CO.  DL-,01",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "MOH.HA",
+        "companyName": "LVMH  EO 0,3",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "MOR.HA",
+        "companyName": "MORPHOSYS AG O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "MPCK.HA",
+        "companyName": "MPC MUENCH.PET.CAP.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "MRK.HA",
+        "companyName": "MERCK KGAA O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "MSF.HA",
+        "companyName": "MICROSOFT  DL-,00000625",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "MUV2.HA",
+        "companyName": "MUENCH.RUECKVERS.VNA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "N4WS.HA",
+        "companyName": "NATIONWIDE BLDG 15/22 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "NCB.HA",
+        "companyName": "BANK AMERICA  DL 0,01",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "NFC.HA",
+        "companyName": "NETFLIX INC.  DL-,001",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "NGLB.HA",
+        "companyName": "ANGLO AMERICAN DL-,54945",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "NKE.HA",
+        "companyName": "NIKE INC. B",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "NMM.HA",
+        "companyName": "NEWMONT CORP.  DL 1,60",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "NOA3.HA",
+        "companyName": "NOKIA OYJ EO-,06",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "NOVC.HA",
+        "companyName": "NOVO-NORDISK NAM.B DK-,20",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "NST.HA",
+        "companyName": "NORD.STEINGUT AG O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "NWO.HA",
+        "companyName": "NEW WORK SE  NA O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "NWT.HA",
+        "companyName": "WELLS FARGO + CO.DL 1,666",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "O2C.HA",
+        "companyName": "PETRO WELT TECHNOLOGIE.AG",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "O4B.HA",
+        "companyName": "OVB HOLDING AG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "OMV.HA",
+        "companyName": "OMV AG",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "OMVC.HA",
+        "companyName": "OMV AG 12/22 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "OMVD.HA",
+        "companyName": "OMV AG 12/27 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ORC.HA",
+        "companyName": "ORACLE CORP.  DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "OSR.HA",
+        "companyName": "OSRAM LICHT AG NA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "PAH3.HA",
+        "companyName": "PORSCHE AUTOM.HLDG VZO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "PAT.HA",
+        "companyName": "PATRIZIA AG NA ON",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "PEP.HA",
+        "companyName": "PEPSICO INC.  DL-,0166",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "PES.HA",
+        "companyName": "PEARSON PLC  LS-,25",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "PEU.HA",
+        "companyName": "PEUGEOT SA  EO 1",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "PFE.HA",
+        "companyName": "PFIZER INC.  DL-,05",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "PFV.HA",
+        "companyName": "PFEIFFER VACUUM TECH.O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "PHI1.HA",
+        "companyName": "KONINKL. PHILIPS EO -,20",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "PHM7.HA",
+        "companyName": "ALTRIA GRP INC.  DL-,333",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "PO0.HA",
+        "companyName": "BALLARD PWR SYS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "PPX.HA",
+        "companyName": "KERING S.A. INH.  EO 4",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "PRG.HA",
+        "companyName": "PROCTER GAMBLE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "PRTP.HA",
+        "companyName": "KERING S.A. INH.  EO 4",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "PS4.HA",
+        "companyName": "PHOENIX SOLAR AG  O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "PSAN.HA",
+        "companyName": "PSI SOFTWARE AG NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "PSM.HA",
+        "companyName": "PROSIEBENSAT.1  NA O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "QCI.HA",
+        "companyName": "QUALCOMM INC.  DL-,0001",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "QIA.HA",
+        "companyName": "QIAGEN NV  EO -,01",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "QSC.HA",
+        "companyName": "QSC AG NA O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "R3Q.HA",
+        "companyName": "REC SILICON  NK 1",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "R6C.HA",
+        "companyName": "ROYAL DUTCH SHELL A EO-07",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "R6C3.HA",
+        "companyName": "ROYAL DUTCH SHELL B EO-07",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "R90.HA",
+        "companyName": "ROCKWOOL INTL NAM.B DK 10",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "RAIB.HA",
+        "companyName": "RAIF.LABA NO 15/25 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "RDEB.HA",
+        "companyName": "RELX PLC  LS -,144397",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "REP.HA",
+        "companyName": "REPSOL S.A. INH.  EO 1",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "RHM.HA",
+        "companyName": "RHEINMETALL AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "RIB.HA",
+        "companyName": "RIB SOFTWARE SE  NA EO 1",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "RIO1.HA",
+        "companyName": "RIO TINTO PLC  LS-,10",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "RRU.HA",
+        "companyName": "ROLLS ROYCE HLDGS LS 0.20",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "RYS1.HA",
+        "companyName": "ROYAL BK SCOTLD GRP  LS 1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "S9AD.HA",
+        "companyName": "SEADRILL LTD.  DL 2,-",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "S9P2.HA",
+        "companyName": "SUNPOWER CORP.  DL -,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SAE.HA",
+        "companyName": "SHOP APOTHEKE EUROPE INH.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SANT.HA",
+        "companyName": "S+T AG (Z.REG.MK.Z.)O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SAX.HA",
+        "companyName": "STROEER SE + CO. KGAA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SBS.HA",
+        "companyName": "STRATEC SE  NA O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SDF.HA",
+        "companyName": "K+S AG NA O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SEJ1.HA",
+        "companyName": "SAFRAN INH.  EO -,20",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SFQ.HA",
+        "companyName": "SAF HOLLAND SE  EO -,01",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SFT.HA",
+        "companyName": "SOFTBANK GROUP CORP.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SGE.HA",
+        "companyName": "STE GENERALE INH. EO 1,25",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SHA.HA",
+        "companyName": "SCHAEFFLER AG INH. VZO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SHL.HA",
+        "companyName": "SIEMENS HEALTH.AG NA O.N.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SIE.HA",
+        "companyName": "SIEMENS AG  NA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SII.HA",
+        "companyName": "WHEATON PREC. METALS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SIX3.HA",
+        "companyName": "SIXT SE VZO O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SKB.HA",
+        "companyName": "KOENIG + BAUER AG ST O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SKFB.HA",
+        "companyName": "SKF AB B  SK 0,625",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SLT.HA",
+        "companyName": "SCHALTBAU HOLDING NA O.N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SMHN.HA",
+        "companyName": "SUESS MICROTEC SE NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SND.HA",
+        "companyName": "SCHNEIDER ELEC. INH. EO 4",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SNG.HA",
+        "companyName": "SINGULUS TECHNOL. EO 1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SNH.HA",
+        "companyName": "STEINHOFF INT.HLDG.EO-,50",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SNW.HA",
+        "companyName": "SANOFI SA INHABER  EO 2",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SOBA.HA",
+        "companyName": "AT + T INC.  DL 1",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SOW.HA",
+        "companyName": "SOFTWARE AG  NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SPR.HA",
+        "companyName": "A.SPRINGER SE VNA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SQU.HA",
+        "companyName": "VINCI S.A. INH.  EO 2,50",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SSU.HA",
+        "companyName": "SAMS.EL.0,5SP.GDRS144A/95",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SSUN.HA",
+        "companyName": "SAMSUNG EL./25 GDRS NV PF",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "STM.HA",
+        "companyName": "STABILUS S.A. INH. EO-,01",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "STW5.HA",
+        "companyName": "ENERCITY AG  GEN.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SUR.HA",
+        "companyName": "SURTECO GROUP SE INH O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "SUY1.HA",
+        "companyName": "SAINSBURY-J.- LS-28571428",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "TC1.HA",
+        "companyName": "TELE COLUMBUS AG NA O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "TEG.HA",
+        "companyName": "TAG IMMOBILIEN AG",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "TF0B.HA",
+        "companyName": "TEL.FIN.12/22 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "TIMA.HA",
+        "companyName": "ZEAL NETWORK SE NA O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "TNE5.HA",
+        "companyName": "TELEFONICA INH.  EO 1",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "TNTC.HA",
+        "companyName": "POSTNL N.V. EO -,08",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "TOTB.HA",
+        "companyName": "TOTAL S.A.  EO 2,50",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "TQI.HA",
+        "companyName": "TELECOM ITALIA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "TRVC.HA",
+        "companyName": "CITIGROUP INC. DL -,01",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "TTI.HA",
+        "companyName": "TOM TAILOR HLDG  NA O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "TUI1.HA",
+        "companyName": "TUI AG NA O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "TWR.HA",
+        "companyName": "TWITTER INC.  DL-,000005",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "UBB1.HA",
+        "companyName": "UBS AG LDN 14/21 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "UNH.HA",
+        "companyName": "UNITEDHEALTH GROUP DL-,01",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "UNI2.HA",
+        "companyName": "UNILEVER NAM.  EO -,16",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "UNP.HA",
+        "companyName": "UNION PAC.  DL 2,50",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "UP7.HA",
+        "companyName": "UTD POWER TECHN.AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "USE.HA",
+        "companyName": "EROTIK-ABWICKL. INH EO 1",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "UT8.HA",
+        "companyName": "UBER TECH.  DL-,00001",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "UTC1.HA",
+        "companyName": "UTD TECHN.  DL 1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "UTDI.HA",
+        "companyName": "UTD.INTERNET AG NA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "V6C.HA",
+        "companyName": "VISCOM AG O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "VFP.HA",
+        "companyName": "V.F. CORP.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "VIB3.HA",
+        "companyName": "VILLEROY + BOCH AG VZ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "VNA.HA",
+        "companyName": "VONOVIA SE NA O.N.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "VOW.HA",
+        "companyName": "VOLKSWAGEN AG ST O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "VOW3.HA",
+        "companyName": "VOLKSWAGEN AG VZO O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "VVD.HA",
+        "companyName": "VEOLIA ENVIRONNE. EO 5",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "VVU.HA",
+        "companyName": "VIVENDI S.A. INH.  EO 5,5",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "VWS.HA",
+        "companyName": "VESTAS WIND SYST. NAM.DK1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "VX1.HA",
+        "companyName": "VERTEX PHARMAC.  DL-,01",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "WAF.HA",
+        "companyName": "SILTRONIC AG NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "WCH.HA",
+        "companyName": "WACKER CHEMIE  O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "WCMK.HA",
+        "companyName": "WCM BET.GRD.AG  O.N.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "WDI.HA",
+        "companyName": "WIRECARD AG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "WMT.HA",
+        "companyName": "WALMART DL-,10",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "WSU.HA",
+        "companyName": "WASHTEC AG O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "WUW.HA",
+        "companyName": "WUESTENROT+WUERTT.AG O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XCA.HA",
+        "companyName": "CREDIT AGRICOLE INH. EO 3",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XER2.HA",
+        "companyName": "XEROX HLDGS CORP.  DL 1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XONA.HA",
+        "companyName": "EXXON MOBIL CORP.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XS104762298.HA",
+        "companyName": "NATL BK OF CDA 14/21 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XS107420827.HA",
+        "companyName": "ENBW INTL FIN. 14/26 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XS116935325.HA",
+        "companyName": "GE CAP.EURO.FUND.15/22MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XS130087019.HA",
+        "companyName": "DVB BANK SPF.15/20",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XS143516458.HA",
+        "companyName": "BQ.INTL LUX. 16/21 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XS195502439.HA",
+        "companyName": "COCA-COLA CO 19/21 FLR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XS195502463.HA",
+        "companyName": "COCA-COLA CO 19/22",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XS195502471.HA",
+        "companyName": "COCA-COLA CO 19/26",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XS195502498.HA",
+        "companyName": "COCA-COLA CO 19/31",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XS195853452.HA",
+        "companyName": "POLEN 19/29 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XS196036172.HA",
+        "companyName": "POLEN 19/49 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XS20732024.HA",
+        "companyName": "ENBW INTL FIN. 04/25 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XS27357024.HA",
+        "companyName": "GE CAP.EURO.FUND. 06/21",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XS28842953.HA",
+        "companyName": "GE CAP.EURO.FUND. 07/27",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XS34790809.HA",
+        "companyName": "E.ON INTL FIN. 08/23 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XS49495382.HA",
+        "companyName": "DT.TELEK.INTL F.10/20 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XS69040624.HA",
+        "companyName": "OMV AG 11/21 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XS91855712.HA",
+        "companyName": "WESTPAC BKG 13/20 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XS93438922.HA",
+        "companyName": "ROB.BOSCH INV.NL 13/21MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "XS99966726.HA",
+        "companyName": "TEL.FIN. 13/21 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ZAL.HA",
+        "companyName": "ZALANDO SE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ZEG.HA",
+        "companyName": "ASTRAZENECA PLC  DL-,25",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ZG8D.HA",
+        "companyName": "UBS AG LDN 10/22 MTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ZIL2.HA",
+        "companyName": "ELRINGKLINGER AG NA O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ZJS1.HA",
+        "companyName": "JINKOSOLAR ADR/4 DL-00002",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ZO1.HA",
+        "companyName": "ZOOPLUS AG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HAN",
+        "symbol": "ZZXH.HA",
+        "companyName": "OEBB INFRAST 14/29 MTN",
+        "industryOrCategory": "N/A"
+    }
+]

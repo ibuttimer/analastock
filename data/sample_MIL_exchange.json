@@ -1,0 +1,1778 @@
+[
+    {
+        "exchangeCode": "MIL",
+        "symbol": "4AIM.MI",
+        "companyName": "4AIM SICAF",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "A2A.MI",
+        "companyName": "A2A",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ABI.MI",
+        "companyName": "ANHEUSER-BUSCH",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ABS.MI",
+        "companyName": "ARTERRA BIOSCIENCE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ABT.MI",
+        "companyName": "ABITARE IN",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ABTG.MI",
+        "companyName": "ALFIO BARDOLLA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ACE.MI",
+        "companyName": "ACEA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ACO.MI",
+        "companyName": "ACOTEL GROUP",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ACS.MI",
+        "companyName": "ACSM-AGAM",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "AD.MI",
+        "companyName": "AHOLD DEL",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ADB.MI",
+        "companyName": "AEROPORTO GUGLIELMO MARCONI DI ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "AED.MI",
+        "companyName": "AEDES",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "AEF.MI",
+        "companyName": "AEFFE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "AF.MI",
+        "companyName": "AIR FRANCE-KLM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "AGL.MI",
+        "companyName": "AUTOGRILL SPA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "AGN.MI",
+        "companyName": "AEGON",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "AI.MI",
+        "companyName": "AIR LIQUIDE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "AIR.MI",
+        "companyName": "AIRBUS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ALK.MI",
+        "companyName": "ALKEMY",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ALV.MI",
+        "companyName": "ALLIANZ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "AMD.MI",
+        "companyName": "ADVANCED MICRO DEVICES",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "AMGN.MI",
+        "companyName": "AMGEN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "AMP.MI",
+        "companyName": "AMPLIFON",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ANIM.MI",
+        "companyName": "ANIMA HOLDING",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ARN.MI",
+        "companyName": "ALERION",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ASC.MI",
+        "companyName": "ASCOPIAVE",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ASR.MI",
+        "companyName": "A.S. ROMA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ASSI.MI",
+        "companyName": "ASSITECA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "AST.MI",
+        "companyName": "ASTALDI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "AT.MI",
+        "companyName": "ASTM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ATH.MI",
+        "companyName": "AMBIENTHESIS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ATL.MI",
+        "companyName": "ATLANTIA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "AUTME.MI",
+        "companyName": "AUTOSTRADE MERID",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "AV.MI",
+        "companyName": "ANTARES VISION",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "AVIO.MI",
+        "companyName": "AVIO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "AXA.MI",
+        "companyName": "AXA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "AZM.MI",
+        "companyName": "AZIMUT",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "B.MI",
+        "companyName": "BASTOGI SPA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BAMI.MI",
+        "companyName": "BANCO BPM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BAN.MI",
+        "companyName": "BASICNET",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BAY.MI",
+        "companyName": "BAYER",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BB.MI",
+        "companyName": "BB BIOTECH",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BBVA.MI",
+        "companyName": "BBVA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BC.MI",
+        "companyName": "BRUNELLO CUCINELLI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BCM.MI",
+        "companyName": "BIANCAMANO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BE.MI",
+        "companyName": "BEGHELLI",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BEC.MI",
+        "companyName": "B&C SPEAKERS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BET.MI",
+        "companyName": "BE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BFE.MI",
+        "companyName": "BCA FINNAT",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BFF.MI",
+        "companyName": "BANCA FARMAFACTORING",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BGN.MI",
+        "companyName": "BANCA GENERALI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BIA.MI",
+        "companyName": "BIALETTI INDUSTRIE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BIM.MI",
+        "companyName": "BANCA INTERMOBILIARE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BLUE.MI",
+        "companyName": "BLUE FINANCIAL COMMUNICATION",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BMED.MI",
+        "companyName": "BANCA MEDIOLANUM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BMPS.MI",
+        "companyName": "BCA MPS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BMW.MI",
+        "companyName": "BMW",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BOR.MI",
+        "companyName": "BORGOSESIA R",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BPE.MI",
+        "companyName": "BPER BANCA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BPSO.MI",
+        "companyName": "BCA POP SONDRIO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BRE.MI",
+        "companyName": "BREMBO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BRI.MI",
+        "companyName": "BRIOSCHI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BSS.MI",
+        "companyName": "BIESSE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BST.MI",
+        "companyName": "BANCA SISTEMA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BZU.MI",
+        "companyName": "BUZZI UNICEM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "BZUR.MI",
+        "companyName": "BUZZI UNICEM     RNC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "CASS.MI",
+        "companyName": "CATTOLICA ASS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "CBI.MI",
+        "companyName": "COSE BELLE D'ITALIA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "CDG.MI",
+        "companyName": "CASTA DIVA GROUP",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "CED.MI",
+        "companyName": "CALTAGIRONE EDIT",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "CEM.MI",
+        "companyName": "CEMENTIR HOLDING",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "CERV.MI",
+        "companyName": "CERVED GROUP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "CLG.MI",
+        "companyName": "CALEIDO GROUP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "CLI.MI",
+        "companyName": "CENTRALE DEL LATTE D'ITALIA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "COV.MI",
+        "companyName": "COVER 50",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "CRES.MI",
+        "companyName": "COIMA RES",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "CULT.MI",
+        "companyName": "CULTI MILANO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "CVAL.MI",
+        "companyName": "CREDITO VALTELLINESE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "DAI.MI",
+        "companyName": "DAIMLER",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "DAL.MI",
+        "companyName": "DATALOGIC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "DAN.MI",
+        "companyName": "DANIELI & C",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "DANR.MI",
+        "companyName": "DANIELI & C RISP NC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "DB1.MI",
+        "companyName": "DEUTSCHE BOERSE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "DBA.MI",
+        "companyName": "DBA GROUP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "DBK.MI",
+        "companyName": "DEUTSCHE BANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "DEA.MI",
+        "companyName": "DEA CAPITAL",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "DGT.MI",
+        "companyName": "DIGITOUCH",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "DGV.MI",
+        "companyName": "DIGITAL VALUE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "DHH.MI",
+        "companyName": "DOMINION HOSTING HOLDING",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "DIA.MI",
+        "companyName": "DIASORIN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "DIB.MI",
+        "companyName": "DIGITAL BROS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "DIG.MI",
+        "companyName": "DIGITAL360",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "DIS.MI",
+        "companyName": "D'AMICO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "DLG.MI",
+        "companyName": "DE'LONGHI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "DM.MI",
+        "companyName": "DIGITAL MAGICS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "DOV.MI",
+        "companyName": "DOVALUE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "DOX.MI",
+        "companyName": "DOXEE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "DPW.MI",
+        "companyName": "DEUTSCHE POST",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ECNL.MI",
+        "companyName": "AQUAFIL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "EDAC.MI",
+        "companyName": "EDILIZIACROBATICA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "EDNR.MI",
+        "companyName": "EDISON R",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "EEMS.MI",
+        "companyName": "EEMS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "EL.MI",
+        "companyName": "ESSILORLUXOTTICA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ELC.MI",
+        "companyName": "ELICA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ELES.MI",
+        "companyName": "ELES",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ELIN.MI",
+        "companyName": "ELETTRA INVESTIMENTI",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ELN.MI",
+        "companyName": "EL.EN.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "EM.MI",
+        "companyName": "EMAK",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "EMC.MI",
+        "companyName": "ENERGICA MOTOR COMPANY",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ENAV.MI",
+        "companyName": "ENAV",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ENEL.MI",
+        "companyName": "ENEL",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ENGI.MI",
+        "companyName": "ENGIE",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ENI.MI",
+        "companyName": "ENI",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ENT.MI",
+        "companyName": "ENERTRONICA SANTERNO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "EPR.MI",
+        "companyName": "EPRICE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "EQUI.MI",
+        "companyName": "EQUITA GROUP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ERG.MI",
+        "companyName": "ERG",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ETH.MI",
+        "companyName": "EUROTECH",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "EUK.MI",
+        "companyName": "EUKEDOS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "EVA.MI",
+        "companyName": "ASKOLL EVA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "EVK.MI",
+        "companyName": "EVONIK INDUSTRIES",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "EXO.MI",
+        "companyName": "EXOR",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "EXSY.MI",
+        "companyName": "EXPERT SYSTEM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "FARM.MI",
+        "companyName": "H-FARM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "FF.MI",
+        "companyName": "FINE FOODS & PHARMACEUTICALS NT",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "FKR.MI",
+        "companyName": "FALCK RENEWABLES",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "FM.MI",
+        "companyName": "FIERA MILANO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "G.MI",
+        "companyName": "GENERALI ASS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "GAB.MI",
+        "companyName": "GABETTI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "GAMB.MI",
+        "companyName": "GAMBERO ROSSO",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "GBUS.MI",
+        "companyName": "GIBUS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "GE.MI",
+        "companyName": "GEFRAN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "GEL.MI",
+        "companyName": "GEL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "GEO.MI",
+        "companyName": "GEOX",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "GEQ.MI",
+        "companyName": "GEQUITY",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "GG.MI",
+        "companyName": "GIGLIO GROUP",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "GHC.MI",
+        "companyName": "GAROFALO HEALTH CARE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "GILD.MI",
+        "companyName": "GILEAD SCIENCES",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "GIS.MI",
+        "companyName": "GISMONDI 1754",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "GLE.MI",
+        "companyName": "SOCIETE GENERALE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "GO.MI",
+        "companyName": "GO INTERNET",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "GOOG.MI",
+        "companyName": "ALPHABET CLASSE C",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "GOOGL.MI",
+        "companyName": "ALPHABET CLASSE A",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "GPI.MI",
+        "companyName": "GPI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "GSP.MI",
+        "companyName": "GAS PLUS",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "HER.MI",
+        "companyName": "HERA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "IB.MI",
+        "companyName": "INIZIATIVE BRESCIANE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ICF.MI",
+        "companyName": "ICF GROUP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "IE.MI",
+        "companyName": "IERVOLINO ENTERTAINMENT",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "IEG.MI",
+        "companyName": "ITALIAN EXHIBITION GROUP",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "IF.MI",
+        "companyName": "BANCA IFIS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "IGV.MI",
+        "companyName": "I GRANDI VIAGGI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ILTY.MI",
+        "companyName": "ILLIMITY BANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "INDB.MI",
+        "companyName": "INDEL B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "INGA.MI",
+        "companyName": "ING GROEP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "IP.MI",
+        "companyName": "INTERPUMP GROUP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ISP.MI",
+        "companyName": "INTESA SANPAOLO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ITW.MI",
+        "companyName": "IT WAY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "IVS.MI",
+        "companyName": "IVS GROUP",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "IWB.MI",
+        "companyName": "ITALIAN WINE BRANDS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "JUVE.MI",
+        "companyName": "JUVENTUS FC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "KER.MI",
+        "companyName": "KERING",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "KI.MI",
+        "companyName": "KI GROUP",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "LCC.MI",
+        "companyName": "LIFE CARE CAPITAL",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "LD.MI",
+        "companyName": "LA DORIA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "LDO.MI",
+        "companyName": "LEONARDO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "LFG.MI",
+        "companyName": "LEONE FILM GROUP",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "LIT.MI",
+        "companyName": "RETELIT",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "LMG.MI",
+        "companyName": "LUCISANO MEDIA GROUP",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "LON.MI",
+        "companyName": "LONGINO&CARDENAL",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "LR.MI",
+        "companyName": "LANDI RENZO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "LUVE.MI",
+        "companyName": "LUVE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "LVEN.MI",
+        "companyName": "LVENTURE GROUP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "LVMH.MI",
+        "companyName": "LVMH",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MAIL.MI",
+        "companyName": "MAILUP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MAPS.MI",
+        "companyName": "MAPS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MARP.MI",
+        "companyName": "MARZOCCHI POMPE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MARR.MI",
+        "companyName": "MARR",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MASI.MI",
+        "companyName": "MASI AGRICOLA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MB.MI",
+        "companyName": "MEDIOBANCA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MFT.MI",
+        "companyName": "MATICA FINTEC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MIT.MI",
+        "companyName": "MITTEL",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MLM.MI",
+        "companyName": "MOLMED",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MN.MI",
+        "companyName": "MONDADORI EDIT",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MOL.MI",
+        "companyName": "MUTUIONLINE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MOLD.MI",
+        "companyName": "COSTAMP GROUP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MON.MI",
+        "companyName": "MONRIF",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MONC.MI",
+        "companyName": "MONCLER",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MS.MI",
+        "companyName": "MEDIASET S.P.A",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MSFT.MI",
+        "companyName": "MICROSOFT CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MSU.MI",
+        "companyName": "MONDO TV SUISSE",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MT.MI",
+        "companyName": "MAIRE TECNIMONT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MTF.MI",
+        "companyName": "MONDO TV FRANCE",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MTV.MI",
+        "companyName": "MONDO TV",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MU.MI",
+        "companyName": "MICRON TECHNOLOGY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MUV2.MI",
+        "companyName": "MUNICH RE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "MZB.MI",
+        "companyName": "MASSIMO ZANETTI BEVERAGE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "NET.MI",
+        "companyName": "NET INSURANCE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "NEXI.MI",
+        "companyName": "NEXI",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "NFLX.MI",
+        "companyName": "NETFLIX",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "NOKIA.MI",
+        "companyName": "NOKIA CORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "NPI.MI",
+        "companyName": "NOTORIOUS PICTURES",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "NR.MI",
+        "companyName": "NOVA RE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "NRST.MI",
+        "companyName": "NEUROSOFT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "NSP.MI",
+        "companyName": "NEOSPERIENCE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "NVDA.MI",
+        "companyName": "NVIDIA CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "NWL.MI",
+        "companyName": "NEWLAT FOOD",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "OS.MI",
+        "companyName": "OFFICINA STELLARE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "PAN.MI",
+        "companyName": "PANARIAGROUP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "PINF.MI",
+        "companyName": "PININFARINA SPA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "PIRC.MI",
+        "companyName": "PIRELLI & C",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "PITE.MI",
+        "companyName": "PITECO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "PLC.MI",
+        "companyName": "PLC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "POPR.MI",
+        "companyName": "POLIGRAFICI PRINTING",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "PQ.MI",
+        "companyName": "PIQUADRO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "PRI.MI",
+        "companyName": "PRIMA INDUSTRIE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "PRM.MI",
+        "companyName": "PRISMI",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "PRO.MI",
+        "companyName": "BCA PROFILO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "PRT.MI",
+        "companyName": "ESPRINET",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "PRY.MI",
+        "companyName": "PRYSMIAN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "PSA.MI",
+        "companyName": "PORTALE SARDEGNA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "PSM.MI",
+        "companyName": "PROSIEBENSAT1 MEDIA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "PST.MI",
+        "companyName": "POSTE ITALIANE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "PTR.MI",
+        "companyName": "PATTERN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "PUM.MI",
+        "companyName": "PUMA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "PVN.MI",
+        "companyName": "PIOVAN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "RAD.MI",
+        "companyName": "RADICI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "RAT.MI",
+        "companyName": "RATTI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "REC.MI",
+        "companyName": "RECORDATI ORD",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "REY.MI",
+        "companyName": "REPLY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "RLT.MI",
+        "companyName": "RELATECH",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "RM.MI",
+        "companyName": "RENO DE MEDICI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "RN.MI",
+        "companyName": "RISANAMENTO",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "RNO.MI",
+        "companyName": "RENAULT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "RWAY.MI",
+        "companyName": "RAI WAY",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "RWE.MI",
+        "companyName": "RWE",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "S24.MI",
+        "companyName": "IL SOLE 24 ORE",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SAL.MI",
+        "companyName": "SALINI IMPREGILO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SAP.MI",
+        "companyName": "SAP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SCF.MI",
+        "companyName": "SALCEF GROUP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SCM.MI",
+        "companyName": "SOLUTIONS CAPITAL MANAGEMENT SI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SDF.MI",
+        "companyName": "K+S",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SEIF.MI",
+        "companyName": "SOCIETA' EDITORIALE IL FATTO",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SERI.MI",
+        "companyName": "SERI INDUSTRIAL",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SES.MI",
+        "companyName": "SESA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SFER.MI",
+        "companyName": "SALVATORE FERRAGAMO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SFL.MI",
+        "companyName": "SAFILO GROUP",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SG.MI",
+        "companyName": "SAES GETTERS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SGO.MI",
+        "companyName": "COMPAGNIE DE SAINT-GOBAIN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SGR.MI",
+        "companyName": "SAES GETTERS RISP NC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SHE.MI",
+        "companyName": "SHEDIR PHARMA GROUP",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SICT.MI",
+        "companyName": "SICIT GROUP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SIT.MI",
+        "companyName": "SIT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SITI.MI",
+        "companyName": "SITI - B&T",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SL.MI",
+        "companyName": "SANLORENZO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SO.MI",
+        "companyName": "SOGEFI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SOL.MI",
+        "companyName": "SOL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SOM.MI",
+        "companyName": "SOMEC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SPM.MI",
+        "companyName": "SAIPEM",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SPTV.MI",
+        "companyName": "SPACTIV",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SRG.MI",
+        "companyName": "SNAM",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SRI.MI",
+        "companyName": "SERVIZI ITALIA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SRS.MI",
+        "companyName": "SARAS",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "SSL.MI",
+        "companyName": "S.S. LAZIO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "STM.MI",
+        "companyName": "STMICROELECTRONICS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "TAS.MI",
+        "companyName": "TAS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "TEN.MI",
+        "companyName": "TENARIS",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "TGYM.MI",
+        "companyName": "TECHNOGYM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "TIP.MI",
+        "companyName": "TAMBURI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "TIS.MI",
+        "companyName": "TISCALI",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "TIT.MI",
+        "companyName": "TELECOM ITALIA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "TITR.MI",
+        "companyName": "TELECOM ITALIA R",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "TLS.MI",
+        "companyName": "TELESIA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "TNXT.MI",
+        "companyName": "TINEXTA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "TOD.MI",
+        "companyName": "TOD'S",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "TPS.MI",
+        "companyName": "TPS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "TRN.MI",
+        "companyName": "TERNA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "TSLA.MI",
+        "companyName": "TESLA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "TTT.MI",
+        "companyName": "TITANMET",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "TWL.MI",
+        "companyName": "TRAWELL CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "TXT.MI",
+        "companyName": "TXT E-SOLUTIONS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "TYA.MI",
+        "companyName": "TOSCANA AEROPORTI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "UBI.MI",
+        "companyName": "UBI BANCA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "URW.MI",
+        "companyName": "WFD UNIBAIL-RODAMCO",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "VALU.MI",
+        "companyName": "GABELLI VALUE FOR ITALY",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "VE.MI",
+        "companyName": "VISIBILIA EDITORE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "VIM.MI",
+        "companyName": "VIMI FASTENERS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "VLS.MI",
+        "companyName": "VALSOIA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "VNA.MI",
+        "companyName": "VONOVIA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "VTY.MI",
+        "companyName": "VETRYA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "WEB.MI",
+        "companyName": "WEBSOLUTE",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "WIIT.MI",
+        "companyName": "WIIT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "WMC.MI",
+        "companyName": "WM CAPITAL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "XPR.MI",
+        "companyName": "EXPRIVIA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ZUC.MI",
+        "companyName": "ZUCCHI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MIL",
+        "symbol": "ZV.MI",
+        "companyName": "ZIGNAGO VETRO",
+        "industryOrCategory": "Consumer Cyclical"
+    }
+]

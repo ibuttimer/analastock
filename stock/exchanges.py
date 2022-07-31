@@ -8,7 +8,8 @@ import requests
 
 from utils import (
     info, get_env_setting, DEFAULT_RAPID_CREDS_FILE, DEFAULT_RAPID_CREDS_PATH,
-    DEFAULT_DATA_PATH, load_json_file, http_get
+    DEFAULT_DATA_PATH, load_json_file, http_get, sample_exchange_path,
+    sample_exchanges_path
 )
 
 from .enums import DataMode
@@ -33,9 +34,6 @@ RAPID_YAHOO_COMPANIES_URL = \
 
 RAPID_QUOTA_LIMIT = 'X-RateLimit-Requests-Limit'
 RAPID_QUOTA_REMAIN = 'X-RateLimit-Requests-Remaining'
-
-SAMPLE_EXCHANGES_DATA = 'sample_exchanges.json'
-SAMPLE_COMPANY_DATA = 'sample_{exchange}_exchange.json'
 
 
 def download_exchanges(data_mode: DataMode = DataMode.LIVE) -> StockDownload:
@@ -65,13 +63,7 @@ def download_exchanges(data_mode: DataMode = DataMode.LIVE) -> StockDownload:
             data = json.loads(response.text)
     else:
         data = load_json_file(
-                    os.path.abspath(
-                            os.path.join(
-                                get_env_setting('DATA_PATH', DEFAULT_DATA_PATH),
-                                SAMPLE_EXCHANGES_DATA
-                            )
-                        )
-                )
+                    sample_exchanges_path())
 
     return StockDownload.download_of(data)
 
@@ -109,13 +101,7 @@ def download_companies(
             data = json.loads(response.text)
     else:
         data = load_json_file(
-                    os.path.abspath(
-                            os.path.join(
-                                get_env_setting('DATA_PATH', DEFAULT_DATA_PATH),
-                                SAMPLE_COMPANY_DATA.format(exchange=exchange)
-                            )
-                        )
-                )
+                    sample_exchange_path(exchange))
 
     return StockDownload.download_of(data)
 

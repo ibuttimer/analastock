@@ -1,0 +1,2012 @@
+[
+    {
+        "exchangeCode": "MEX",
+        "symbol": "AA1.MX",
+        "companyName": "ALCOA CORPORATION",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "AAL.MX",
+        "companyName": "AMERICAN AIRLINES GROUP INC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "AAPL.MX",
+        "companyName": "APPLE INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ABMD.MX",
+        "companyName": "ABIOMED INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "AC.MX",
+        "companyName": "ARCA CONTINENTAL SAB DE CV",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ACCELSAB.MX",
+        "companyName": "ACCEL SAB DE CV",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ACTINVRB.MX",
+        "companyName": "CORP ACTINVER SAB DE CV",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ADBE.MX",
+        "companyName": "ADOBE INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ADN.MX",
+        "companyName": "KONINKLIJKE AHOLD DELHAIZE NV",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ADSK.MX",
+        "companyName": "AUTODESK INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ADSN.MX",
+        "companyName": "ADIDAS AG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "AEROMEX.MX",
+        "companyName": "GRUPO AEROMEXICO SAB DE CV",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "AGUA.MX",
+        "companyName": "GRUPO ROTOPLAS SAB DE CV",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "AKS.MX",
+        "companyName": "AK STEEL HOLDING CORP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ALB.MX",
+        "companyName": "ALBEMARLE CORP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ALEATIC.MX",
+        "companyName": "ALEATICA SAB DE CV",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ALFAA.MX",
+        "companyName": "ALFA S.A.B. DE C.V.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ALPEKA.MX",
+        "companyName": "ALPEK SAB DE CV",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ALSEA.MX",
+        "companyName": "ALSEA SAB DE CV",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "AMAT.MX",
+        "companyName": "APPLIED MATERIALS INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "AMD.MX",
+        "companyName": "ADVANCED MICRO DEVICES INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "AMGN.MX",
+        "companyName": "AMGEN INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "AMXL.MX",
+        "companyName": "AMERICA MOVIL SAB DE CV",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "AMZN.MX",
+        "companyName": "AMAZON COM INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ANB.MX",
+        "companyName": "ANHEUSER-BUSCH INBEV SA/NV",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ANET.MX",
+        "companyName": "ARISTA NETWORKS INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ANGELD10.MX",
+        "companyName": "ACTINVER CASA DE BOLSA SA DE CV",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ARA.MX",
+        "companyName": "CONSORCIO ARA SAB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ASMLN.MX",
+        "companyName": "ASML HOLDING NV",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ASURB.MX",
+        "companyName": "GPO AEROPORTUARIO DEL SURESTE S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ATSG.MX",
+        "companyName": "AIR TRANSPORT SERVICES GROUP IN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ATVI.MX",
+        "companyName": "ACTIVISION BLIZZARD INC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "AUTLANB.MX",
+        "companyName": "CIA MINERA AUTLAN SAB DE CV",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "AVGO.MX",
+        "companyName": "BROADCOM INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "AXP.MX",
+        "companyName": "AMERICAN EXPRESS CO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "AXTELCPO.MX",
+        "companyName": "AXTEL SAB DE CV",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "AZTECACPO.MX",
+        "companyName": "TV AZTECA SAB DE CV",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BA.MX",
+        "companyName": "BOEING CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BABAN.MX",
+        "companyName": "ALIBABA GROUP HOLDING LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BAC.MX",
+        "companyName": "BANK OF AMERICA CORPORATION",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BACHOCOB.MX",
+        "companyName": "INDUSTRIAS BACHOCO SAB DE CV",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BBAJIOO.MX",
+        "companyName": "BANCO DEL BAJIO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BBVA.MX",
+        "companyName": "BANCO BILBAO VIZCAYA ARGENTARIA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BHCN.MX",
+        "companyName": "BAUSCH HEALTH COMPANIES INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BIDUN.MX",
+        "companyName": "BAIDU INC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BIIB.MX",
+        "companyName": "BIOGEN INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BIMBOA.MX",
+        "companyName": "GRUPO BIMBO SAB DE CV",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BK.MX",
+        "companyName": "BANK OF NEW YORK MELLON CORP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BKNG.MX",
+        "companyName": "BOOKING HOLDINGS INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BKTN.MX",
+        "companyName": "BANKINTER SA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BMWM5N.MX",
+        "companyName": "BAYERISCHE MOTOREN WERKE AG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BMY.MX",
+        "companyName": "BRISTOL-MYERS SQUIBB CO",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BOLSAA.MX",
+        "companyName": "BOLSA MEXICANA DE VALORES SAB D",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BOSSN.MX",
+        "companyName": "HUGO BOSS AG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BRFSN.MX",
+        "companyName": "BRF SA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BRKB.MX",
+        "companyName": "BERKSHIRE HATHAWAY INC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BSMXB.MX",
+        "companyName": "BANCO SANTANDER MEXICO SA",
+        "industryOrCategory": "Financial"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BSX.MX",
+        "companyName": "BOSTON SCIENTIFIC CORP",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "BYND.MX",
+        "companyName": "BEYOND MEAT INC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "CADUA.MX",
+        "companyName": "CORPOVAEL S.A. DE C.V.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "CAFEN.MX",
+        "companyName": "CONSTRUCCIONES Y AUXILIAR DE FE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "CASHN.MX",
+        "companyName": "PROSEGUR CASH",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "CEMEXCPO.MX",
+        "companyName": "CEMEX S.A.B. DE C.V.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "CEON.MX",
+        "companyName": "CNOOC LIMITED",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "CHD.MX",
+        "companyName": "CHURCH & DWIGHT",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "CHDRAUIB.MX",
+        "companyName": "GRUPO COMERCIAL CHEDRAUI SAB DE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "CHK.MX",
+        "companyName": "CHESAPEAKE ENERGY CORP",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "CHLN.MX",
+        "companyName": "CHINA MOBILE LTD",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "CI.MX",
+        "companyName": "CIGNA HOLDING COMPANY",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "CMG.MX",
+        "companyName": "CHIPOTLE MEXICAN GRILL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "COST.MX",
+        "companyName": "COSTCO WHOLESALE CORP",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "CREAL.MX",
+        "companyName": "CREDITO REAL SAB DE CV SOFOM ER",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "CSCO.MX",
+        "companyName": "CISCO SYSTEMS INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "CUERVO.MX",
+        "companyName": "BECLE SAB DE CV",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "CULTIBAB.MX",
+        "companyName": "ORGANIZACION CULTIBA SAB DE CV",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "CVS.MX",
+        "companyName": "CVS HEALTH CORPORATION",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "DAL.MX",
+        "companyName": "DELTA AIR LINES INC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "DANHOS13.MX",
+        "companyName": "BCO NAC MEX SA INT GRP FIN BANA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "DBN.MX",
+        "companyName": "DEUTSCHE BANK AG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "DD.MX",
+        "companyName": "DUPONT DE NEMOURS INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "DEON.MX",
+        "companyName": "DIAGEO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "DIABLOI10.MX",
+        "companyName": "ACTINVER CASA DE BOLSA SA DE CV",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "DIS.MX",
+        "companyName": "WALT DISNEY COMPANY (THE)",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "DLTR.MX",
+        "companyName": "DOLLAR TREE INC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "DOCU.MX",
+        "companyName": "DOCUSIGN INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "DOW1.MX",
+        "companyName": "DOW INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "DPWN.MX",
+        "companyName": "DEUTSCHE POST AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "DPZ.MX",
+        "companyName": "DOMINOS PIZZA INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "DSMN.MX",
+        "companyName": "KONINKLIJKE DSM NV",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "DSYN.MX",
+        "companyName": "DASSAULT SYSTEMES",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "DVN.MX",
+        "companyName": "DEVON ENERGY CORP",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "DXCM.MX",
+        "companyName": "DEXCOM INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "EATN.MX",
+        "companyName": "AMREST HOLDINGS SE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "EBON.MX",
+        "companyName": "ERSTE GROUP BANK AG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "EDUN.MX",
+        "companyName": "NEW ORIENTAL ED & TECHNOLOGY GP",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ELEKTRA.MX",
+        "companyName": "GRUPO ELEKTRA SAB DE CV",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ELEMENT.MX",
+        "companyName": "ELEMENTIA S.A",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "EMR.MX",
+        "companyName": "EMERSON ELECTRIC CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "EW.MX",
+        "companyName": "EDWARDS LIFESCIENCES CORP",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "F.MX",
+        "companyName": "FORD MOTOR CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "FANG.MX",
+        "companyName": "DIAMONDBACK ENERGY INC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "FCFE18.MX",
+        "companyName": "CIBANCO SA INSTIT DE BANCA MULT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "FCX.MX",
+        "companyName": "FREEPORT-MCMORAN INC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "FDRN.MX",
+        "companyName": "FLUIDRA SA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "FEMSAUB.MX",
+        "companyName": "FOMENTO ECONOMICO MEXICANO SAB ",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "FEMSAUBD.MX",
+        "companyName": "FOMENTO ECONOMICO MEXICANO SAB ",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "FHIPO14.MX",
+        "companyName": "BANCO INVEX S.A. CBFI (FIDEICOM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "FIBRAHD15.MX",
+        "companyName": "BANCO ACTINVER SA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "FIBRAMQ12.MX",
+        "companyName": "CIBANCO SA INSTIT DE BANCA MULT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "FIBRAPL14.MX",
+        "companyName": "BANCO ACTINVER SA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "FIBRATC14.MX",
+        "companyName": "NACIONAL FINANCIERA SNC INSTITU",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "FIHO12.MX",
+        "companyName": "DEUTSCHE BANK MEXICO S.A.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "FINN13.MX",
+        "companyName": "DEUTSCHE BANK MEXICO S.A.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "FMTY14.MX",
+        "companyName": "BANCO INVEX S.A.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "FRAGUAB.MX",
+        "companyName": "CORPORATIVA FRAGUA SAB DE CV",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "FSHOP13.MX",
+        "companyName": "CIBANCO SA INSTIT DE BANCA MULT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "FSLR.MX",
+        "companyName": "FIRST SOLAR INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "FUNO11.MX",
+        "companyName": "BANCO ACTINVER SA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GAPB.MX",
+        "companyName": "GPO AEROPORTUARIO DEL PACIFICO ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GCARSOA1.MX",
+        "companyName": "GRUPO CARSO SAB DE CV",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GCC.MX",
+        "companyName": "GRUPO CEMENTOS DE CHIHUAHUA SAB",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GD.MX",
+        "companyName": "GENERAL DYNAMICS CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GE.MX",
+        "companyName": "GENERAL ELECTRIC CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GENTERA.MX",
+        "companyName": "GENTERA SAB DE CV",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GESTN.MX",
+        "companyName": "GESTAMP AUTOMOCION",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GFAMSAA.MX",
+        "companyName": "GRUPO FAMSA SAB DE CV",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GFINBURO.MX",
+        "companyName": "GRUPO FINANCIERO INBURSA SAB DE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GFMULTIO.MX",
+        "companyName": "GRUPO FINANCIERO MULTIVA S.A.B.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GFNORTEO.MX",
+        "companyName": "GRUPO FINANCIERO BANORTE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GICSAB.MX",
+        "companyName": "GRUPO GICSA SAB DE CV",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GILD.MX",
+        "companyName": "GILEAD SCIENCES INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GISSAA.MX",
+        "companyName": "GRUPO INDUSTRIAL SALTILLO SAB D",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GLNGN.MX",
+        "companyName": "GOLAR LNG LIMITED",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GM.MX",
+        "companyName": "GENERAL MOTORS CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GMEXICOB.MX",
+        "companyName": "GRUPO MEXICO SAB DE CV",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GMXT.MX",
+        "companyName": "GMEXICO TRANSPORTES SAB DE CV",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GOLDN.MX",
+        "companyName": "BARRICK GOLD CORPORATION",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GOOG.MX",
+        "companyName": "ALPHABET INC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GOOGL.MX",
+        "companyName": "ALPHABET INC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GPN.MX",
+        "companyName": "GLOBAL PAYMENTS INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GRUMAB.MX",
+        "companyName": "GRUMA SAB DE CV",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GS.MX",
+        "companyName": "GOLDMAN SACHS GROUP INC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "GSKN.MX",
+        "companyName": "GLAXOSMITHKLINE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "HBAN.MX",
+        "companyName": "HUNTINGTON BANCSHARES INC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "HCITY.MX",
+        "companyName": "HOTELES CITY EXPRESS SAB DE CV",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "HD.MX",
+        "companyName": "HOME DEPOT INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "HDBN.MX",
+        "companyName": "HDFC BANK LTD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "HEIAN.MX",
+        "companyName": "HEINEKEN NV",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "HERDEZ.MX",
+        "companyName": "GRUPO HERDEZ SAB DE CV",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "HOMEX.MX",
+        "companyName": "DESARROLLADORA HOMEX SAB DE CV",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "HOTEL.MX",
+        "companyName": "GRUPO HOTELERO SANTA FE SAB DE ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "HPE.MX",
+        "companyName": "HEWLETT PACKARD ENTERPRISE CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "HSY.MX",
+        "companyName": "HERSHEY COMPANY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "HTZ.MX",
+        "companyName": "HERTZ GLOBAL HOLDINGS INC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "HUBS.MX",
+        "companyName": "HUBSPOT INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "IBM.MX",
+        "companyName": "INTERNATIONAL BUS MACH CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ICE.MX",
+        "companyName": "INTERCONTINENTAL EXCHANGE INC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ICHB.MX",
+        "companyName": "INDUSTRIAS CH SAB DE CV",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "IDEALB-1.MX",
+        "companyName": "IMPULSORA DEL DESAROLLO Y EL EM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "IENOVA.MX",
+        "companyName": "INFRAESTRUCTURA ENERGETICA NOVA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "IQV.MX",
+        "companyName": "IQVIA HOLDINGS INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ISRG.MX",
+        "companyName": "INTUITIVE SURGICAL INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ITUBN.MX",
+        "companyName": "ITAU UNIBANCO HOLDINGS S.A.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ITXN.MX",
+        "companyName": "INDITEX (IND.DE DISENO TEXTIL S",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "IVVPESOISHRS.MX",
+        "companyName": "BCO NAC MEX SA INT GRP FIN BANA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "JDN.MX",
+        "companyName": "JD.COM INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "JKSN.MX",
+        "companyName": "JINKOSOLAR HOLDING CO LTD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "JNJ.MX",
+        "companyName": "JOHNSON & JOHNSON",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "JPM.MX",
+        "companyName": "JPMORGAN CHASE & CO.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "KEYS.MX",
+        "companyName": "KEYSIGHT TECHNOLOGIES INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "KHC.MX",
+        "companyName": "KRAFT HEINZ CO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "KIMBERA.MX",
+        "companyName": "KIMBERLY-CLARK DE MEXICO SAB DE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "KLAC.MX",
+        "companyName": "KLA CORPORATION",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "KLN.MX",
+        "companyName": "KIRKLAND LAKE GOLD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "KMT.MX",
+        "companyName": "KENNAMETAL INC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "KOFUBL.MX",
+        "companyName": "COCA-COLA FEMSA S.A.B. DE C.V.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "KR.MX",
+        "companyName": "KROGER CO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "LABB.MX",
+        "companyName": "GENOMMA LAB INTERNACIONAL SAB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "LACOMERUBC.MX",
+        "companyName": "LACOMER SAB DE CV",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "LALAB.MX",
+        "companyName": "GRUPO LALA SAB DE CV",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "LAMOSA.MX",
+        "companyName": "GRUPO LAMOSA SAB DE CV",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "LB.MX",
+        "companyName": "LIMITED BRANDS INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "LIVEPOL1.MX",
+        "companyName": "EL PUERTO DE LIVERPOOL SAB DE C",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "LIVEPOLC-1.MX",
+        "companyName": "EL PUERTO DE LIVERPOOL SAB DE C",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "LKN.MX",
+        "companyName": "LUCKIN COFFEE INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "LMT.MX",
+        "companyName": "LOCKHEED MARTIN CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "LULU.MX",
+        "companyName": "LULULEMON ATHLETICA INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "LUV.MX",
+        "companyName": "SOUTHWEST AIRLINES CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "LVS.MX",
+        "companyName": "LAS VEGAS SANDS CORP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "LYV.MX",
+        "companyName": "LIVE NATION ENTERTAINMENT INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "M.MX",
+        "companyName": "MACY'S INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MA.MX",
+        "companyName": "MASTERCARD INCORPORATED",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MASI.MX",
+        "companyName": "MASIMO CORPORATION",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MAXCOMA.MX",
+        "companyName": "MAXCOM TELECOMUNICACIONES SA DE",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MCK.MX",
+        "companyName": "MCKESSON CORPORATION",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MCMN.MX",
+        "companyName": "MIQUEL Y COSTAS MIQUEL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MDB.MX",
+        "companyName": "MONGODB INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MEDICAB.MX",
+        "companyName": "MEDICA SUR SAB DE CV",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MEGACPO.MX",
+        "companyName": "MEGACABLE HOLDINGS SAB DE CV",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MELN.MX",
+        "companyName": "MELIA HOTELS INTERNATIONAL SA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MEOHN.MX",
+        "companyName": "METHANEX CORP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MEXRISKISHRS.MX",
+        "companyName": "NACIONAL FINANCIERA SNC INSTITU",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MFRISCOA-1.MX",
+        "companyName": "MINERA FRISCO SAB DE CV",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MFRISCOA-2.MX",
+        "companyName": "MINERA FRISCO SAB DE CV",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MGM.MX",
+        "companyName": "MGM RESORTS INTERNATIONAL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MINSAB.MX",
+        "companyName": "GRUPO MINSA SAB DE CV",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MMM.MX",
+        "companyName": "3M COMPANY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MO.MX",
+        "companyName": "ALTRIA GROUP INC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MOMON.MX",
+        "companyName": "MOMO INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MONEXB.MX",
+        "companyName": "MONEX SAB DE CV",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MPC.MX",
+        "companyName": "MARATHON PETROLEUM CORP",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MRK.MX",
+        "companyName": "MERCK & CO INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MRNA.MX",
+        "companyName": "MODERNA INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MRVLN.MX",
+        "companyName": "MARVELL TECH GROUP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MS.MX",
+        "companyName": "MORGAN STANLEY",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MSFT.MX",
+        "companyName": "MICROSOFT CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MTN.MX",
+        "companyName": "VAIL RESORTS INC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "MUX.MX",
+        "companyName": "MCEWEN MINING INC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "NAFTRACISHRS.MX",
+        "companyName": "NACIONAL FINANCIERA SNC INSTITU",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "NCLHN.MX",
+        "companyName": "NORWEGIAN CRUISE LINE HLDGS LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "NEM.MX",
+        "companyName": "NEWMONT CORPORATION",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "NEMAKA.MX",
+        "companyName": "NEMAK SAB DE CV",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "NFLX.MX",
+        "companyName": "NETFLIX INC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "NGN.MX",
+        "companyName": "NOVAGOLD RESOURCES INC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "NION.MX",
+        "companyName": "NIO INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "NKE.MX",
+        "companyName": "NIKE INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "NOKN.MX",
+        "companyName": "NOKIA OYJ",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "NOWW.MX",
+        "companyName": "SERVICENOW INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "NTDOYN.MX",
+        "companyName": "NINTENDO CO LTD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "NVDA.MX",
+        "companyName": "NVIDIA CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "NVON.MX",
+        "companyName": "NOVO NORDISK A/S",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "NVSN.MX",
+        "companyName": "NOVARTIS AG",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "OI.MX",
+        "companyName": "O-I GLASS INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "OMAB.MX",
+        "companyName": "GRUPO AEROPORTUARIO DEL CENTRO ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ORBIA.MX",
+        "companyName": "ORBIA ADVANCE CORP S A B DE CV",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "OXY1.MX",
+        "companyName": "OCCIDENTAL PETROLEUM CORP",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "PANW.MX",
+        "companyName": "PALO ALTO NETWORKS INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "PAPPEL.MX",
+        "companyName": "BIO PAPPEL  S.A.B.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "PBF.MX",
+        "companyName": "PBF ENERGY INC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "PBRN.MX",
+        "companyName": "PETROLEO BRASILEIRO SA PETROBRA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "PE&OLES.MX",
+        "companyName": "INDUSTRIAS PENOLES S.A.B. DE C.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "PE.MX",
+        "companyName": "PARSLEY ENERGY INC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "PEP.MX",
+        "companyName": "PEPSICO INC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "PG.MX",
+        "companyName": "PROCTER & GAMBLE CO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "PHIAN.MX",
+        "companyName": "KONINKLIJKE PHILIPS NV",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "PINFRA.MX",
+        "companyName": "PROMOTORA Y OPERADORA DE INFRST",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "PINFRAL.MX",
+        "companyName": "PROMOTORA Y OPERADORA DE INFRST",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "PINS.MX",
+        "companyName": "PINTEREST INC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "POCHTECB.MX",
+        "companyName": "GRUPO POCHTECA SAB DE CV",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "PRU.MX",
+        "companyName": "PRUDENTIAL FINANCIAL INC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "PSGN.MX",
+        "companyName": "PROSEGUR COMPANIA SEGURIDAD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "PXD.MX",
+        "companyName": "PIONEER NATURAL RESOURCES CO",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "PYPL.MX",
+        "companyName": "PAYPAL HOLDINGS INC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "Q.MX",
+        "companyName": "QUALITAS CONTROLADORA SAB DE CV",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "QCOM.MX",
+        "companyName": "QUALCOMM INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "QVGMEX18.MX",
+        "companyName": "ACTINVER CASA DE BOLSA SA DE CV",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "RA.MX",
+        "companyName": "REGIONAL SAB DE CV",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "RACEN.MX",
+        "companyName": "FERRARI N V",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "RCL.MX",
+        "companyName": "ROYAL CARIBBEAN CRUISES",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "RDSA.MX",
+        "companyName": "ROYAL DUTCH SHELL",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "RDSB.MX",
+        "companyName": "ROYAL DUTCH SHELL",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "REGN.MX",
+        "companyName": "REGENERON PHARMACEUTICALS INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ROGN.MX",
+        "companyName": "ROCHE HOLDINGS AG",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "SAN.MX",
+        "companyName": "BANCO SANTANDER SA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "SBUX.MX",
+        "companyName": "STARBUCKS CORP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "SHOPN.MX",
+        "companyName": "SHOPIFY INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "SHW.MX",
+        "companyName": "SHERWIN-WILLIAMS CO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "SIMECB.MX",
+        "companyName": "GRUPO SIMEC SAB DE CV",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "SITESB-1.MX",
+        "companyName": "TELESITES SAB DE CV",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "SMSNN.MX",
+        "companyName": "SAMSUNG ELECTRONICS CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "SORIANAB.MX",
+        "companyName": "ORGANIZACION SORIANA SAB DE CV",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "SSNC.MX",
+        "companyName": "SS&C TECHNOLOGIES HOLDINGS INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "STLD.MX",
+        "companyName": "STEEL DYNAMICS INC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "STZ.MX",
+        "companyName": "CONSTELLATION BRANDS INC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "SUN.MX",
+        "companyName": "SCHNEIDER ELECTRIC SE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "T.MX",
+        "companyName": "AT&T INC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "TALN.MX",
+        "companyName": "TAL EDUCATION GROUP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "TCEHYN.MX",
+        "companyName": "TENCENT HOLDINGS LIMITED",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "TCOMN.MX",
+        "companyName": "TRIP COM GROUP LTD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "TEAKCPO.MX",
+        "companyName": "PROTEAK UNO SAB DE CV",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "TERRA13.MX",
+        "companyName": "CIBANCO SA INSTIT DE BANCA MULT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "TJX.MX",
+        "companyName": "TJX COS INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "TKN.MX",
+        "companyName": "TEEKAY CORPORATION",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "TLEVISACPO.MX",
+        "companyName": "GRUPO TELEVISA SAB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "TMMA.MX",
+        "companyName": "GRUPO TMM S.A.B.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "TMUS.MX",
+        "companyName": "T-MOBILE US INC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "TRAXIONA.MX",
+        "companyName": "GRUPO TRAXION SAB DE CV",
+        "industryOrCategory": "Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "TSLA.MX",
+        "companyName": "TESLA INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "TSMN.MX",
+        "companyName": "TAIWAN SEMICONDUCTOR MANUFACTUR",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "TSN.MX",
+        "companyName": "TYSON FOODS INC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "TSUN.MX",
+        "companyName": "TIM PARTICIPACOES SA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "TUBN.MX",
+        "companyName": "TUBACEX SA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "TWTR.MX",
+        "companyName": "TWITTER INC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "TX.MX",
+        "companyName": "TERNIUM SA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "TXN.MX",
+        "companyName": "TEXAS INSTRUMENTS INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "UAL.MX",
+        "companyName": "UNITED AIRLINES HOLDINGS INC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "UBER.MX",
+        "companyName": "UBER TECHNOLOGIES INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "UBIN.MX",
+        "companyName": "UBISOFT ENTERTAINMENT",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "UBSN.MX",
+        "companyName": "UBS GROUP AG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "UNH.MX",
+        "companyName": "UNITEDHEALTH GROUP INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "UNIFINA.MX",
+        "companyName": "UNIFIN FINANCIERA SAB DE CV SO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "UPS.MX",
+        "companyName": "UNITED PARCEL SERVICE INC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "URBI.MX",
+        "companyName": "URBI DESARROLLOS URBANOS SAB DE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "UTSI.MX",
+        "companyName": "UTSTARCOM HOLDINGS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "UTX.MX",
+        "companyName": "UNITED TECHNOLOGIES CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "V.MX",
+        "companyName": "VISA INC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "VALEN.MX",
+        "companyName": "VALE S.A.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "VALUEGFO.MX",
+        "companyName": "VALUE GRUPO FINANCIERO SAB DE C",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "VAR.MX",
+        "companyName": "VARIAN MEDICAL SYSTEMS INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "VESTA.MX",
+        "companyName": "CORPORACION INMOBILIARIA VESTA ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "VINTE.MX",
+        "companyName": "VINTE VIVIENDAS INTEG S.A.P.I.D",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "VIPSN.MX",
+        "companyName": "VIPSHOP HLDGS LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "VITROA.MX",
+        "companyName": "VITRO SAB DE CV",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "VIVENN.MX",
+        "companyName": "VIVENDI SA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "VLO.MX",
+        "companyName": "VALERO ENERGY CORP",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "VODN.MX",
+        "companyName": "VODAFONE GROUP",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "VOLARA.MX",
+        "companyName": "CONTROLADORA VUELA CIA DE AVIAC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "VOW3N.MX",
+        "companyName": "VOLKSWAGEN AG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "VRTX.MX",
+        "companyName": "VERTEX PHARMACEUTICAL",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "VZ.MX",
+        "companyName": "VERIZON COMMUNICATIONS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "WALMEX.MX",
+        "companyName": "WAL-MART DE MEXICO SAB DE CV",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "WBA.MX",
+        "companyName": "WALGREENS BOOTS ALLIANCE INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "WDC.MX",
+        "companyName": "WESTERN DIGITAL CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "WFC.MX",
+        "companyName": "WELLS FARGO & COMPANY",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "WLL.MX",
+        "companyName": "WHITING PETROLEUM CORP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "WMT.MX",
+        "companyName": "WALMART INC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "WRK.MX",
+        "companyName": "WESTROCK CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "WYNN.MX",
+        "companyName": "WYNN RESORTS LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "X.MX",
+        "companyName": "UNITED STATES STEEL CORP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "XLNX.MX",
+        "companyName": "XILINX INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "XOM.MX",
+        "companyName": "EXXON MOBIL CORPORATION",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "YUM.MX",
+        "companyName": "YUM BRANDS INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "YUMC.MX",
+        "companyName": "YUM CHINA HOLDINGS INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "YYN.MX",
+        "companyName": "JOYY INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MEX",
+        "symbol": "ZEN.MX",
+        "companyName": "ZENDESK INC",
+        "industryOrCategory": "N/A"
+    }
+]

@@ -1,0 +1,116 @@
+[
+    {
+        "exchangeCode": "CCS",
+        "symbol": "ABC-A.CR",
+        "companyName": "BANCO DEL CARIBE, C.A. BANCO UN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CCS",
+        "symbol": "BPV.CR",
+        "companyName": "BANCO PROVINCIAL, S.A. BANCO UN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CCS",
+        "symbol": "BVCC.CR",
+        "companyName": "BOLSA DE VALORES DE CARACAS, C.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CCS",
+        "symbol": "BVL.CR",
+        "companyName": "BANCO DE VENEZUELA, S.A. BANCO ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CCS",
+        "symbol": "DOM.CR",
+        "companyName": "DOMINGUEZ CIA, S.A",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "CCS",
+        "symbol": "EFE.CR",
+        "companyName": "PRODUCTOS EFE, S.A.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CCS",
+        "symbol": "FNC.CR",
+        "companyName": "FABRICA NACIONAL DE CEMENTOS, C",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CCS",
+        "symbol": "FVI-A.CR",
+        "companyName": "FONDO DE VALORES INMOBILIARIOS ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "CCS",
+        "symbol": "FVI-B.CR",
+        "companyName": "FONDO DE VALORES INMOBILIARIOS ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "CCS",
+        "symbol": "GQ911P.CR",
+        "companyName": "O. Q.  GRUPO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CCS",
+        "symbol": "GZL.CR",
+        "companyName": "GRUPO ZULIANO, C.A. S.A.C.A",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CCS",
+        "symbol": "IVC.CR",
+        "companyName": "INVACA, INMUEBLES, VALORES Y CA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CCS",
+        "symbol": "MPA.CR",
+        "companyName": "MANUFACTURAS DE PAPEL, S.A.C.A.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CCS",
+        "symbol": "MVZ-A.CR",
+        "companyName": "MERCANTIL SERVICIOS FINANCIEROS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CCS",
+        "symbol": "MVZ-B.CR",
+        "companyName": "MERCANTIL SERVICIOS FINANCIEROS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CCS",
+        "symbol": "PGR.CR",
+        "companyName": "PROAGRO, C.A.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CCS",
+        "symbol": "RST-B.CR",
+        "companyName": "C.A. RON SANTA TERESA (CLASE B)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CCS",
+        "symbol": "SVS.CR",
+        "companyName": "SIDERURGICA VENEZOLANA 'SIVENSA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CCS",
+        "symbol": "TDV-D.CR",
+        "companyName": "C.A. NACIONAL TELEFONOS DE VENE",
+        "industryOrCategory": "Communication Services"
+    }
+]

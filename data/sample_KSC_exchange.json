@@ -1,0 +1,4418 @@
+[
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000040.KS",
+        "companyName": "KR MOTORS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000050.KS",
+        "companyName": "Kyungbang",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000060.KS",
+        "companyName": "Meritz Insurance",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000075.KS",
+        "companyName": "SAMYANGHOLDINGS(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000080.KS",
+        "companyName": "HITEJINRO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000087.KS",
+        "companyName": "HITEJINRO(2PB)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000100.KS",
+        "companyName": "Yuhan",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000105.KS",
+        "companyName": "Yuhan(1P)",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000120.KS",
+        "companyName": "CJ LOGISTICS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000140.KS",
+        "companyName": "HITEJINROHOLDINGS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000145.KS",
+        "companyName": "HITEJINROHOLDINGS(1P)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000150.KS",
+        "companyName": "DOOSAN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000155.KS",
+        "companyName": "DOOSAN(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000157.KS",
+        "companyName": "DOOSAN(2PB)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000210.KS",
+        "companyName": "DaelimInd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000215.KS",
+        "companyName": "DaelimInd(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000225.KS",
+        "companyName": "YuyuPharma(1P)",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000227.KS",
+        "companyName": "YuyuPharma(2PB)",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000270.KS",
+        "companyName": "KiaMtr",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000320.KS",
+        "companyName": "NorooHoldings",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000325.KS",
+        "companyName": "NorooHoldings(1P)",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000370.KS",
+        "companyName": "Hanwha General Ins",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000430.KS",
+        "companyName": "DaewonKangup",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000490.KS",
+        "companyName": "Daedong",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000520.KS",
+        "companyName": "SamilPharm",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000540.KS",
+        "companyName": "HeungkukF&MIns",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000545.KS",
+        "companyName": "HeungkukF&MIns(1P)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000547.KS",
+        "companyName": "HeungkukF&MIns(2PB)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000660.KS",
+        "companyName": "SK hynix",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000670.KS",
+        "companyName": "Youngpoong",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000700.KS",
+        "companyName": "EUSU HOLDINGS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000720.KS",
+        "companyName": "HyundaiEng&Const",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000725.KS",
+        "companyName": "HyundaiEng&Con(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000810.KS",
+        "companyName": "SamsungF&MIns",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000850.KS",
+        "companyName": "HMT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000860.KS",
+        "companyName": "KANGNAM JEVISCO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000885.KS",
+        "companyName": "Hanwha(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "00088K.KS",
+        "companyName": "HANWHA(3PB)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000890.KS",
+        "companyName": "BohaeBrew",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "000990.KS",
+        "companyName": "DB HiTek",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001045.KS",
+        "companyName": "CJ(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "00104K.KS",
+        "companyName": "CJ(4PC)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001060.KS",
+        "companyName": "JWPHARMA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001065.KS",
+        "companyName": "JWPHARMA(1P)",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001067.KS",
+        "companyName": "JWPHARMA(2PB)",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001070.KS",
+        "companyName": "TaihanTextl",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001080.KS",
+        "companyName": "ManhoRope&Wire",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001120.KS",
+        "companyName": "LGInt",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001130.KS",
+        "companyName": "DaehanFlrMill",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001140.KS",
+        "companyName": "KUKBO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001200.KS",
+        "companyName": "EUGENEIS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001210.KS",
+        "companyName": "KumhoElec",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001250.KS",
+        "companyName": "GS Global",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001260.KS",
+        "companyName": "NamkwangEng&Const",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001270.KS",
+        "companyName": "BookookSecu",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001275.KS",
+        "companyName": "BookookSecu(1P)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001340.KS",
+        "companyName": "PaikkwangInd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001390.KS",
+        "companyName": "KGC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001430.KS",
+        "companyName": "SBC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001440.KS",
+        "companyName": "TaihanElecWire",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001450.KS",
+        "companyName": "Hyundai M&F INS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001460.KS",
+        "companyName": "BYC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001465.KS",
+        "companyName": "BYC(1P)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001515.KS",
+        "companyName": "SKSecu(1P)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001520.KS",
+        "companyName": "TONGYANG",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001525.KS",
+        "companyName": "TONGYANG(1P)",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001527.KS",
+        "companyName": "TONGYANG(2PB)",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001529.KS",
+        "companyName": "TONGYANG(3PB)",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001570.KS",
+        "companyName": "Kumyang",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001620.KS",
+        "companyName": "KBIDK",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001630.KS",
+        "companyName": "CHONGKUNDANG HOLDINGS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001685.KS",
+        "companyName": "Daesang(1P)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001725.KS",
+        "companyName": "ShinyoungSecu(1P)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001745.KS",
+        "companyName": "SKNetworks(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001750.KS",
+        "companyName": "HanyangSecu",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001755.KS",
+        "companyName": "HanyangSecu(1P)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001780.KS",
+        "companyName": "ALUKO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001795.KS",
+        "companyName": "TS(1P)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001799.KS",
+        "companyName": "TS(3PB)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "001940.KS",
+        "companyName": "KISCO Holdings",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002020.KS",
+        "companyName": "KOLON CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002025.KS",
+        "companyName": "KOLON CORP(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002030.KS",
+        "companyName": "ASIA HOLDINGS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002070.KS",
+        "companyName": "NAMYEUNG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002100.KS",
+        "companyName": "Kyungnong",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002140.KS",
+        "companyName": "KorInd",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002150.KS",
+        "companyName": "DOHWA ENGINEERING",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002200.KS",
+        "companyName": "KorExptPkgInd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002210.KS",
+        "companyName": "DongsungPharm",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002220.KS",
+        "companyName": "HanilIron&Stl",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002240.KS",
+        "companyName": "KISWire",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002300.KS",
+        "companyName": "HankukPaprMfg",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002310.KS",
+        "companyName": "AsiaPaprMfg",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002320.KS",
+        "companyName": "HanjinTrnspt",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002350.KS",
+        "companyName": "NEXENTIRE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002355.KS",
+        "companyName": "NEXENTIRE(1PB)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002380.KS",
+        "companyName": "KCC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002460.KS",
+        "companyName": "HwasungInd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002620.KS",
+        "companyName": "JEIL PHARMA HOLDINGS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002720.KS",
+        "companyName": "Kukje Pharma",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002785.KS",
+        "companyName": "CHINHUNG INT(1PB)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002787.KS",
+        "companyName": "CHINHUNG INT (2PB)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002795.KS",
+        "companyName": "AmoreG(1P)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "00279K.KS",
+        "companyName": "AMOREG(3PC)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002820.KS",
+        "companyName": "Sunchang",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002840.KS",
+        "companyName": "MiwonComcl",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002920.KS",
+        "companyName": "YoosungEnt",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002960.KS",
+        "companyName": "HankookShellOil",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002990.KS",
+        "companyName": "KumhoIndustrial",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "002995.KS",
+        "companyName": "KumhoIndustrial(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003000.KS",
+        "companyName": "BukwangPharm",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003030.KS",
+        "companyName": "SeAH Steel Holdings",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003060.KS",
+        "companyName": "Aprogen pharmaceuticals",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003070.KS",
+        "companyName": "KolonGlobal",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003075.KS",
+        "companyName": "KolonGlobal(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003090.KS",
+        "companyName": "Daewoong",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003160.KS",
+        "companyName": "DI",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003220.KS",
+        "companyName": "Daewonpharm",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003230.KS",
+        "companyName": "SamyangFood",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003240.KS",
+        "companyName": "TaekwangInd",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003280.KS",
+        "companyName": "HeungaShipping",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003300.KS",
+        "companyName": "HANILHOLDINGS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003415.KS",
+        "companyName": "SsangyongCement(1P)",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003460.KS",
+        "companyName": "YuhwaSecu",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003465.KS",
+        "companyName": "YuhwaSecu(1P)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003470.KS",
+        "companyName": "Yuanta Securities",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003475.KS",
+        "companyName": "Yuanta Securities(1P)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003480.KS",
+        "companyName": "HHICHoldings",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003490.KS",
+        "companyName": "KAL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003495.KS",
+        "companyName": "KAL(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003520.KS",
+        "companyName": "YUNGJIN PHARM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003535.KS",
+        "companyName": "H.I.S.C(1P)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003545.KS",
+        "companyName": "DaishinSecu(1P)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003547.KS",
+        "companyName": "DAISHINSECU(2PB)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003550.KS",
+        "companyName": "LG Corp.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003580.KS",
+        "companyName": "NEXT SCIENCE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003610.KS",
+        "companyName": "Pangrim",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003650.KS",
+        "companyName": "MichangOil",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003670.KS",
+        "companyName": "POSCO CHEMICAL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003680.KS",
+        "companyName": "HansungEnt",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003830.KS",
+        "companyName": "DaehanSynthFibr",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "003925.KS",
+        "companyName": "NamyangDairy(1P)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004000.KS",
+        "companyName": "LOTTE Fine Chem",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004020.KS",
+        "companyName": "HYUNDAI STEEL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004100.KS",
+        "companyName": "TaeyangMtl",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004105.KS",
+        "companyName": "TaeyangMtl(1P)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004140.KS",
+        "companyName": "DongbangTrnspt&Log",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004150.KS",
+        "companyName": "HANSOL HOLDINGS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004170.KS",
+        "companyName": "Shinsegae",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004200.KS",
+        "companyName": "KorDev",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004250.KS",
+        "companyName": "NPC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004255.KS",
+        "companyName": "NPC(1P)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004270.KS",
+        "companyName": "Namsung",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004310.KS",
+        "companyName": "Hyundai pharm",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004365.KS",
+        "companyName": "SEBANG(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004370.KS",
+        "companyName": "Nongshim",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004415.KS",
+        "companyName": "SeoulFoodInd(1P)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004440.KS",
+        "companyName": "DAELIM C&S",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004540.KS",
+        "companyName": "KleanNara",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004545.KS",
+        "companyName": "KleanNara(1P)",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004565.KS",
+        "companyName": "HYUNDAI BNG STEEL(1P)",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004690.KS",
+        "companyName": "Samchully",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004710.KS",
+        "companyName": "HansolTechnics",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004720.KS",
+        "companyName": "WOORIDUL PHARM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004830.KS",
+        "companyName": "Duksung",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004835.KS",
+        "companyName": "Duksung(1P)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004840.KS",
+        "companyName": "DRB Holding",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004870.KS",
+        "companyName": "T'way Holdings",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004890.KS",
+        "companyName": "DIC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004970.KS",
+        "companyName": "Silla",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "004985.KS",
+        "companyName": "SungshinCement(1P)",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "00499K.KS",
+        "companyName": "LOTTE(1P)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005010.KS",
+        "companyName": "HUSTEEL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005110.KS",
+        "companyName": "Hanchang",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005190.KS",
+        "companyName": "DongsungChem",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005257.KS",
+        "companyName": "GCH Corp(2PB)",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005300.KS",
+        "companyName": "LotteChilsung",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005305.KS",
+        "companyName": "LotteChilsung(1P)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005320.KS",
+        "companyName": "Kukdong",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005380.KS",
+        "companyName": "HyundaiMtr",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005385.KS",
+        "companyName": "HyundaiMtr(1P)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005387.KS",
+        "companyName": "HyundaiMtr(2PB)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005389.KS",
+        "companyName": "HyundaiMtr(3PB)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005490.KS",
+        "companyName": "POSCO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005690.KS",
+        "companyName": "Pharmicell",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005720.KS",
+        "companyName": "NEXEN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005725.KS",
+        "companyName": "NEXEN(1P)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005740.KS",
+        "companyName": "CROWNHAITAI Holdings",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005745.KS",
+        "companyName": "CROWNHAITAI Holdings(1P)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005810.KS",
+        "companyName": "POONGSAN HOLDINGS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005820.KS",
+        "companyName": "Wonlim",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005830.KS",
+        "companyName": "DB INSURANCE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005870.KS",
+        "companyName": "HuneedTechnologies",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005880.KS",
+        "companyName": "KorLine",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005930.KS",
+        "companyName": "SamsungElec",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005935.KS",
+        "companyName": "SamsungElec(1P)",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005940.KS",
+        "companyName": "NHIS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005945.KS",
+        "companyName": "NHIS(1P)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005960.KS",
+        "companyName": "Dongbu Corporation",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "005965.KS",
+        "companyName": "Dongbu(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "006040.KS",
+        "companyName": "DongwonInd",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "006120.KS",
+        "companyName": "SK Discovery",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "006125.KS",
+        "companyName": "SK Discovery(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "006200.KS",
+        "companyName": "KECHOLDINGS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "006220.KS",
+        "companyName": "Jeju BK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "006280.KS",
+        "companyName": "GC Corp",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "006340.KS",
+        "companyName": "DaewonCbl",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "006345.KS",
+        "companyName": "DaewonCbl(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "006360.KS",
+        "companyName": "GS E&C",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "006370.KS",
+        "companyName": "DaeguDptStr",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "006390.KS",
+        "companyName": "HANIL HYUNDAI CEMENT",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "006400.KS",
+        "companyName": "SAMSUNG SDI CO.,LTD.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "006405.KS",
+        "companyName": "SAMSUNG SDI(1P)",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "006650.KS",
+        "companyName": "KPIC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "006740.KS",
+        "companyName": "YoungpoongPaprMfg",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "006800.KS",
+        "companyName": "MIRAE ASSET DAEWOO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "006805.KS",
+        "companyName": "MIRAE ASSET DAEWOO(1P)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "00680K.KS",
+        "companyName": "MIRAE ASSET DAEWOO(2PB)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "006840.KS",
+        "companyName": "AK Holdings",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "006980.KS",
+        "companyName": "WoosungFeed",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "007070.KS",
+        "companyName": "GS Retail",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "007120.KS",
+        "companyName": "MiraeING",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "007160.KS",
+        "companyName": "SajoInd",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "007210.KS",
+        "companyName": "Byuksan",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "007340.KS",
+        "companyName": "DTR AUTOMOTIVE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "007460.KS",
+        "companyName": "Aprogen KIC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "007810.KS",
+        "companyName": "KorCirc",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "007815.KS",
+        "companyName": "KorCirc(1P)",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "00781K.KS",
+        "companyName": "KOR CIRC(2PB)",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "008260.KS",
+        "companyName": "NI STEEL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "008350.KS",
+        "companyName": "NamsunAlum",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "008355.KS",
+        "companyName": "NamsunAlum(1P)",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "008490.KS",
+        "companyName": "SUHEUNG",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "008600.KS",
+        "companyName": "WillBes",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "008700.KS",
+        "companyName": "AnamElec",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "008730.KS",
+        "companyName": "YoulchonChem",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "008770.KS",
+        "companyName": "HtlShilla",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "008775.KS",
+        "companyName": "HtlShilla(1P)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "008870.KS",
+        "companyName": "Kumbi",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "008930.KS",
+        "companyName": "Hanmi Science",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "008970.KS",
+        "companyName": "DongyangStlPipe",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009070.KS",
+        "companyName": "KCTC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009140.KS",
+        "companyName": "KyunginElec",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009150.KS",
+        "companyName": "SamsungElecMech",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009155.KS",
+        "companyName": "SamsungElecMech(1P)",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009180.KS",
+        "companyName": "Hansol Logistics",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009190.KS",
+        "companyName": "DaiyangMtl",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009240.KS",
+        "companyName": "Hanssem",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009270.KS",
+        "companyName": "Shinwon",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009275.KS",
+        "companyName": "Shinwon(1P)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009290.KS",
+        "companyName": "KwangdongPharm",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009410.KS",
+        "companyName": "TAEYOUNG E&C",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009415.KS",
+        "companyName": "TAEYOUNG E&C(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009420.KS",
+        "companyName": "HANALL BIOPHARMA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009440.KS",
+        "companyName": "KC Green Holdings",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009450.KS",
+        "companyName": "KYUNGDONGNAVIEN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009540.KS",
+        "companyName": "KSOE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009680.KS",
+        "companyName": "MT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009770.KS",
+        "companyName": "SAMJUNGPULP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009810.KS",
+        "companyName": "NK MULSAN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009830.KS",
+        "companyName": "HANWHA SOLUTIONS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009835.KS",
+        "companyName": "HANWHA SOLUTIONS(1P)",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "009970.KS",
+        "companyName": "YoungoneHoldings",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "010040.KS",
+        "companyName": "Krc",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "010100.KS",
+        "companyName": "KorFlange",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "010120.KS",
+        "companyName": "LSINDUSTRIALSYSTEMS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "010130.KS",
+        "companyName": "KorZinc",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "010140.KS",
+        "companyName": "SamsungHvyInd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "010145.KS",
+        "companyName": "SamsungHvyInd(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "010400.KS",
+        "companyName": "WOOJINI&S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "010420.KS",
+        "companyName": "HANSOLPNS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "010580.KS",
+        "companyName": "JICO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "010600.KS",
+        "companyName": "WELLBIOTEC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "010620.KS",
+        "companyName": "HyundaiMipoDock",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "010660.KS",
+        "companyName": "HWACHEON",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "010690.KS",
+        "companyName": "Hwashin",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "010770.KS",
+        "companyName": "PHHC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "010955.KS",
+        "companyName": "S-Oil(1P)",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "011000.KS",
+        "companyName": "GENEONE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "011070.KS",
+        "companyName": "LG Innotek",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "011090.KS",
+        "companyName": "Enex",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "011155.KS",
+        "companyName": "CJSEAFOOD(1P)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "011170.KS",
+        "companyName": "LOTTE CHEMICAL Corp",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "011200.KS",
+        "companyName": "HyundaiMercMar",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "011210.KS",
+        "companyName": "HYUNDAI WIA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "011230.KS",
+        "companyName": "SamwhaElec",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "011280.KS",
+        "companyName": "Tailim Pkg",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "011300.KS",
+        "companyName": "Seongan",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "011390.KS",
+        "companyName": "BusanInd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "011500.KS",
+        "companyName": "HANNONG",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "011690.KS",
+        "companyName": "YUYANG D&U",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "011700.KS",
+        "companyName": "HanshinMach",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "011760.KS",
+        "companyName": "HyundaiCorp",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "011780.KS",
+        "companyName": "KumhoPetrochem",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "011785.KS",
+        "companyName": "KumhoPetrochem(1P)",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "012030.KS",
+        "companyName": "DB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "012160.KS",
+        "companyName": "YOUNG HEUNG I&S",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "012200.KS",
+        "companyName": "KeyangElecMach",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "012205.KS",
+        "companyName": "KeyangElecMach(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "012280.KS",
+        "companyName": "YeonghwaMtl",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "012320.KS",
+        "companyName": "KYUNGDONG INVEST",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "012330.KS",
+        "companyName": "Mobis",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "012450.KS",
+        "companyName": "HANWHA AEROSPACE CO LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "012510.KS",
+        "companyName": "DOUZONE BIZON",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "012630.KS",
+        "companyName": "HDC HOLDINGS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "012690.KS",
+        "companyName": "Monalisa",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "012750.KS",
+        "companyName": "S-1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "012800.KS",
+        "companyName": "DAECHANG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "013520.KS",
+        "companyName": "HS R&A",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "013570.KS",
+        "companyName": "DY",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "013580.KS",
+        "companyName": "KyeryongConst",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "013700.KS",
+        "companyName": "CAMUS E&S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "013870.KS",
+        "companyName": "GMB Korea",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "013890.KS",
+        "companyName": "ZINUS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "014160.KS",
+        "companyName": "DaeyoungPkg",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "014280.KS",
+        "companyName": "KUMKANG KIND",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "014285.KS",
+        "companyName": "KUMKANG KIND(1P)",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "014440.KS",
+        "companyName": "YoungboChem",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "014530.KS",
+        "companyName": "KukdongOil&Chem.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "014790.KS",
+        "companyName": "Halla",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "014825.KS",
+        "companyName": "DWS(1P)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "014915.KS",
+        "companyName": "SungmoonElec(1P)",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "014990.KS",
+        "companyName": "In the F",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "015020.KS",
+        "companyName": "e-STARCO",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "015230.KS",
+        "companyName": "DaechangForging",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "015360.KS",
+        "companyName": "Yesco Holdings",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "016090.KS",
+        "companyName": "Daehyun",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "016450.KS",
+        "companyName": "HansaeYes24Holdings",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "016610.KS",
+        "companyName": "DBFI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "016710.KS",
+        "companyName": "DAESUNG HOLDINGS",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "016880.KS",
+        "companyName": "WOONGJIN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "017040.KS",
+        "companyName": "KWANG MYUNG ELEC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "017370.KS",
+        "companyName": "WooshinSystems",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "017390.KS",
+        "companyName": "SeoulCtyGas",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "017670.KS",
+        "companyName": "SKTelecom",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "017800.KS",
+        "companyName": "HyundaiElev",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "017810.KS",
+        "companyName": "PMO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "017960.KS",
+        "companyName": "HankukCarbon",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "018260.KS",
+        "companyName": "SAMSUNG SDS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "018500.KS",
+        "companyName": "DONGWON METAL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "018880.KS",
+        "companyName": "Hanon Systems",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "019170.KS",
+        "companyName": "ShinpoongPharm",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "019175.KS",
+        "companyName": "ShinpoongPharm(1P)",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "019180.KS",
+        "companyName": "THN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "020120.KS",
+        "companyName": "KidariStudio",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "020150.KS",
+        "companyName": "ILJIN MATERIALS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "020560.KS",
+        "companyName": "Asiana Airlines",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "023150.KS",
+        "companyName": "MHETHANOL",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "023350.KS",
+        "companyName": "KECC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "023450.KS",
+        "companyName": "DONGNAMCHEMICAL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "023530.KS",
+        "companyName": "LOTTE SHOPPING",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "023590.KS",
+        "companyName": "DaouTech",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "023960.KS",
+        "companyName": "SC ENGINEERING",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "024070.KS",
+        "companyName": "WISCOM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "024090.KS",
+        "companyName": "DCM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "024720.KS",
+        "companyName": "KOLMAR KOREA HOLDINGS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "024890.KS",
+        "companyName": "DaewonChem",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "024900.KS",
+        "companyName": "DuckYangInd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "025000.KS",
+        "companyName": "KPXCHEMICAL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "025540.KS",
+        "companyName": "KorElecTerm",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "025560.KS",
+        "companyName": "Mirae",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "025750.KS",
+        "companyName": "HomeDeco",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "026890.KS",
+        "companyName": "DPC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "026940.KS",
+        "companyName": "Bookook Steel",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "026960.KS",
+        "companyName": "DONGSUH",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "027410.KS",
+        "companyName": "BGF",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "028050.KS",
+        "companyName": "SamsungEng",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "028100.KS",
+        "companyName": "Dong Ah E&C",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "028260.KS",
+        "companyName": "SAMSUNG C&T",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "02826K.KS",
+        "companyName": "SAMSUNG C&T(1PB)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "030200.KS",
+        "companyName": "KT",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "030610.KS",
+        "companyName": "KYOBOSECURITIES",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "030720.KS",
+        "companyName": "DongwonFish",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "030790.KS",
+        "companyName": "TYNETWORKS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "031430.KS",
+        "companyName": "SHINSEGAE INTERNATIONAL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "031440.KS",
+        "companyName": "SF",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "032350.KS",
+        "companyName": "LOTTE TOUR",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "032560.KS",
+        "companyName": "HwangKum S&T",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "032640.KS",
+        "companyName": "LG Uplus",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "032830.KS",
+        "companyName": "SAMSUNG LIFE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "033240.KS",
+        "companyName": "JahwaElec",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "033270.KS",
+        "companyName": "KUP",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "033780.KS",
+        "companyName": "KT&G",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "033920.KS",
+        "companyName": "Muhak",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "034220.KS",
+        "companyName": "LG Display",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "034310.KS",
+        "companyName": "NICE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "034590.KS",
+        "companyName": "INCHEON CITY GAS",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "034730.KS",
+        "companyName": "SK",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "03473K.KS",
+        "companyName": "SK(1P)",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "034830.KS",
+        "companyName": "KOREIT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "035150.KS",
+        "companyName": "Baiksan",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "035250.KS",
+        "companyName": "Kangwonland",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "035420.KS",
+        "companyName": "NAVER",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "036420.KS",
+        "companyName": "Jcontentree",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "036460.KS",
+        "companyName": "Kogas",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "036570.KS",
+        "companyName": "NCsoft",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "037270.KS",
+        "companyName": "YGP",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "037560.KS",
+        "companyName": "LG HelloVision",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "039130.KS",
+        "companyName": "HANATOUR SERVICE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "039490.KS",
+        "companyName": "KIWOOM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "042670.KS",
+        "companyName": "DSINFRA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "042700.KS",
+        "companyName": "HANMISemi",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "044380.KS",
+        "companyName": "JOOYONTECH",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "044450.KS",
+        "companyName": "KSS LINE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "044820.KS",
+        "companyName": "COSMAX bti",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "047040.KS",
+        "companyName": "DWEC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "047050.KS",
+        "companyName": "POSCO INTERNATIONAL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "047810.KS",
+        "companyName": "KOREA AEROSPACE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "049770.KS",
+        "companyName": "DongwonF&B",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "049800.KS",
+        "companyName": "WOOJIN PLAIMM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "051600.KS",
+        "companyName": "KEPCO KPS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "051900.KS",
+        "companyName": "LGH&H",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "051905.KS",
+        "companyName": "LGH&H(1P)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "051910.KS",
+        "companyName": "LGCHEM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "051915.KS",
+        "companyName": "LGCHEM(1P)",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "052690.KS",
+        "companyName": "KEPCO E&C",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "053690.KS",
+        "companyName": "HanmiGlobal",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "055490.KS",
+        "companyName": "TAPEX",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "055550.KS",
+        "companyName": "ShinhanGroup",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "058430.KS",
+        "companyName": "POSCO C&C",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "058730.KS",
+        "companyName": "DASCO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "058850.KS",
+        "companyName": "KTcs",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "058860.KS",
+        "companyName": "KTis",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "064350.KS",
+        "companyName": "HYUNDAI ROTEM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "066570.KS",
+        "companyName": "LGELECTRONICS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "066575.KS",
+        "companyName": "LGELECTRONICS(1P)",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "067830.KS",
+        "companyName": "SAVEZONEI&C",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "068400.KS",
+        "companyName": "SK RENT A CAR",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "069260.KS",
+        "companyName": "Huchems",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "069460.KS",
+        "companyName": "DAEHOAL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "069620.KS",
+        "companyName": "DAEWOONG PHARM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "069640.KS",
+        "companyName": "HANSAEMK",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "069730.KS",
+        "companyName": "DSRWIRE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "069960.KS",
+        "companyName": "HYUNDAIDEPTST",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "070960.KS",
+        "companyName": "YP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "071050.KS",
+        "companyName": "KIH",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "071055.KS",
+        "companyName": "KIH(1P)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "071090.KS",
+        "companyName": "HISTEEL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "071320.KS",
+        "companyName": "KDHC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "071840.KS",
+        "companyName": "LOTTE Himart",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "071950.KS",
+        "companyName": "KOAS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "071970.KS",
+        "companyName": "STX Heavy Industries",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "072710.KS",
+        "companyName": "NongshimHoldings",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "073240.KS",
+        "companyName": "KUMHOTIRE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "074610.KS",
+        "companyName": "NANOMEDICS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "075580.KS",
+        "companyName": "SEJIN HEAVY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "078930.KS",
+        "companyName": "GS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "078935.KS",
+        "companyName": "GS(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "079430.KS",
+        "companyName": "HYUNDAILIVART",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "079550.KS",
+        "companyName": "LIG Nex1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "081000.KS",
+        "companyName": "ILJIN DIAMOND",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "081660.KS",
+        "companyName": "Fila Holdings",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "082640.KS",
+        "companyName": "TONGYANG LIFE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "082740.KS",
+        "companyName": "HSD Engine",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "083420.KS",
+        "companyName": "GREEN CHEMICAL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "084670.KS",
+        "companyName": "DONGYANG EXPRESS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "084680.KS",
+        "companyName": "E-WORLD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "084690.KS",
+        "companyName": "Daesang Holdings",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "084695.KS",
+        "companyName": "Daesang Holdings(1P)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "084870.KS",
+        "companyName": "TBH GLOBAL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "085620.KS",
+        "companyName": "MIRAE ASSET LIFE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "086280.KS",
+        "companyName": "HYUNDAIGLOVIS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "086790.KS",
+        "companyName": "HANAFINANCIALGR",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "088260.KS",
+        "companyName": "E KOCREF",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "088350.KS",
+        "companyName": "HANWHA LIFE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "088790.KS",
+        "companyName": "JINDO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "088980.KS",
+        "companyName": "MKIF",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "089590.KS",
+        "companyName": "JEJUAIR",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "090430.KS",
+        "companyName": "AMOREPACIFIC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "090435.KS",
+        "companyName": "AMOREPACIFIC(1P)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "091810.KS",
+        "companyName": "TWAYAIR",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "092200.KS",
+        "companyName": "DIC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "092220.KS",
+        "companyName": "KEC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "092230.KS",
+        "companyName": "KPXHOLDINGS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "092440.KS",
+        "companyName": "KISHIN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "092780.KS",
+        "companyName": "DONGYANG PISTON",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "093050.KS",
+        "companyName": "LF",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "093230.KS",
+        "companyName": "EID",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "093240.KS",
+        "companyName": "HYUNGJI ELITE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "095570.KS",
+        "companyName": "AJ Networks",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "095720.KS",
+        "companyName": "WOONGJIN THINKBIG",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "096760.KS",
+        "companyName": "JW HOLDINGS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "096770.KS",
+        "companyName": "SK Innovation",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "097955.KS",
+        "companyName": "CJ CheilJedang(1P)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "100220.KS",
+        "companyName": "VISANG",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "100250.KS",
+        "companyName": "Chinyang Holdings",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "100840.KS",
+        "companyName": "S&T",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "102260.KS",
+        "companyName": "DONGSUNG CORPORATION",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "103590.KS",
+        "companyName": "ILJIN ELECTRIC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "108670.KS",
+        "companyName": "LG HAUSYS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "108675.KS",
+        "companyName": "LG HAUSYS(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "111110.KS",
+        "companyName": "Hojeon",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "111770.KS",
+        "companyName": "Youngone Corp",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "114090.KS",
+        "companyName": "GKL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "118000.KS",
+        "companyName": "WOORIDUL HUEBRAIN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "119650.KS",
+        "companyName": "KC COTTRELL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "120030.KS",
+        "companyName": "CHOSUN WELDING",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "120110.KS",
+        "companyName": "KOLON IND",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "120115.KS",
+        "companyName": "KOLON IND(1P)",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "123890.KS",
+        "companyName": "KAIT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "126560.KS",
+        "companyName": "Hyundai HCN",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "128940.KS",
+        "companyName": "HanmiPharm",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "134380.KS",
+        "companyName": "MCC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "134790.KS",
+        "companyName": "Sidiz",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "138040.KS",
+        "companyName": "Meritz Financial",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "138250.KS",
+        "companyName": "NS Shopping",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "138490.KS",
+        "companyName": "KOLON PLASTICS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "138930.KS",
+        "companyName": "BNK Financial Group",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "139130.KS",
+        "companyName": "DGB Financial Group",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "139480.KS",
+        "companyName": "emart",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "140910.KS",
+        "companyName": "A REIT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "144620.KS",
+        "companyName": "KOLON MATERIALS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "145270.KS",
+        "companyName": "KTOPREITs",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "145990.KS",
+        "companyName": "SYC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "152330.KS",
+        "companyName": "KOREA AUTOGLASS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "153360.KS",
+        "companyName": "Hi Gold No.3",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "155660.KS",
+        "companyName": "DSR",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "159650.KS",
+        "companyName": "Hi Gold No.8",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "161390.KS",
+        "companyName": "HANKOOK TIRE & TECHNOLOGY",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "161890.KS",
+        "companyName": "KOLMAR KOREA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "163560.KS",
+        "companyName": "DRB Industrial",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "170900.KS",
+        "companyName": "Donga ST",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "172580.KS",
+        "companyName": "Hi Gold No.12",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "175330.KS",
+        "companyName": "JB Financial Group",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "18064K.KS",
+        "companyName": "HANJINKAL(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "181710.KS",
+        "companyName": "NHN",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "192080.KS",
+        "companyName": "DoubleUGames",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "192650.KS",
+        "companyName": "DREAMTECH",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "194370.KS",
+        "companyName": "JS CORP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "204210.KS",
+        "companyName": "MODETOURREIT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "204320.KS",
+        "companyName": "MANDO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "207940.KS",
+        "companyName": "SAMSUNG BIOLOGICS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "210540.KS",
+        "companyName": "DY POWER",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "210980.KS",
+        "companyName": "SKD&D",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "213500.KS",
+        "companyName": "HANSOLPAPER",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "214390.KS",
+        "companyName": "KYONGBO",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "227840.KS",
+        "companyName": "HYUNDAI CORPORATION HOLDINGS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "229640.KS",
+        "companyName": "LS C&S ASIA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "234080.KS",
+        "companyName": "JW LIFESCIENCE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "241560.KS",
+        "companyName": "Doosan Bobcat",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "241590.KS",
+        "companyName": "H.S.ENTERPRISE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "248170.KS",
+        "companyName": "SEMPIO FOODS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "251270.KS",
+        "companyName": "Netmarble",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "26490K.KS",
+        "companyName": "CROWN(1P)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "267250.KS",
+        "companyName": "HYUNDAI HEAVY INDUSTRIES HOLDIN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "267260.KS",
+        "companyName": "HYUNDAI ELECTRIC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "267270.KS",
+        "companyName": "HYUNDAI CE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "267290.KS",
+        "companyName": "KYUNGDONG CITY GAS",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "268280.KS",
+        "companyName": "MIWON SC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "271980.KS",
+        "companyName": "JEIL PHARM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "272210.KS",
+        "companyName": "HANWHA SYSTEMS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "272450.KS",
+        "companyName": "JIN AIR",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "281820.KS",
+        "companyName": "KCTECH",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "282330.KS",
+        "companyName": "BGF Retail",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "282690.KS",
+        "companyName": "DONG AH TIRE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "284740.KS",
+        "companyName": "CUCKOO HOMESYS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "285130.KS",
+        "companyName": "SKCHEM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "286940.KS",
+        "companyName": "LOTTE DATA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "293480.KS",
+        "companyName": "Hana Pharm",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "293940.KS",
+        "companyName": "Shinhan Alpha REIT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "294870.KS",
+        "companyName": "HDC-OP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "298040.KS",
+        "companyName": "HYOSUNG HEAVY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "298690.KS",
+        "companyName": "AirBusan",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "307950.KS",
+        "companyName": "HyundaiAutoever",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "308170.KS",
+        "companyName": "CENTRAL MOTEK",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "316140.KS",
+        "companyName": "WooriFinancialGroup",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "317400.KS",
+        "companyName": "XI SND",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "322000.KS",
+        "companyName": "HES",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "336260.KS",
+        "companyName": "Doosanfc",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "33626K.KS",
+        "companyName": "Doosanfc(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "33626L.KS",
+        "companyName": "Doosanfc(2PB)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "338100.KS",
+        "companyName": "NH Prime REIT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "344820.KS",
+        "companyName": "KCC GLASS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500001.KS",
+        "companyName": "Shinhan K200 USD Futures BuySel",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500002.KS",
+        "companyName": "Shinhan USD K200 Futures BuySel",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500003.KS",
+        "companyName": "Shinhan Inverse WTI Futures ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500004.KS",
+        "companyName": "Shinhan Brent Futures ETN(H)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500005.KS",
+        "companyName": "Shinhan Inverse Brent Futures E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500009.KS",
+        "companyName": "Shinhan DJIA Futures ETN(H)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500010.KS",
+        "companyName": "Shinhan Inverse DJIA Futures ET",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500013.KS",
+        "companyName": "Shinhan Corn Futures ETN(H)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500014.KS",
+        "companyName": "Shinhan Inverse Corn Futures ET",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500015.KS",
+        "companyName": "Shinhan WTI Futures ETN(H)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500016.KS",
+        "companyName": "Shinhan Gold Futures ETN(H)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500017.KS",
+        "companyName": "Shinhan Silver Futures ETN(H)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500018.KS",
+        "companyName": "Shinhan Copper Futures ETN(H)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500019.KS",
+        "companyName": "Shinhan Leverage WTI Futures ET",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500020.KS",
+        "companyName": "Shinhan Leverage DJIA Futures E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500021.KS",
+        "companyName": "Shinhan Natural Gas Futures ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500022.KS",
+        "companyName": "Shinhan Inverse NaturalGasFutur",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500023.KS",
+        "companyName": "Shinhan Soybeans Futures ETN(H)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500027.KS",
+        "companyName": "Shinhan Inverse 2X WTI Futures ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500028.KS",
+        "companyName": "Shinhan Inverse 2X DJIA Futures",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500030.KS",
+        "companyName": "Shinhan Inverse 2X Silver Futur",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500031.KS",
+        "companyName": "Shinhan 2X Natural Gas Futures ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500032.KS",
+        "companyName": "Shinhan -2X Natural Gas Futures",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500036.KS",
+        "companyName": "Shinhan Inverse 2X USD Futures ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500037.KS",
+        "companyName": "Shinhan Leverage Gold Futures E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500038.KS",
+        "companyName": "Shinhan Inverse 2X Gold Futures",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500039.KS",
+        "companyName": "Shinhan K200 Enhanced Condor 4/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500041.KS",
+        "companyName": "Shinhan Inverse 2X Copper Futur",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500042.KS",
+        "companyName": "Shinhan K200 Enhanced Condor 6/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500043.KS",
+        "companyName": "Shinhan K200 Condor 4/10% 2204-",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500046.KS",
+        "companyName": "Shinhan K200 Mthly Short Strang",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500047.KS",
+        "companyName": "Shinhan K200 Mthly Short Strang",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500049.KS",
+        "companyName": "Shinhan K200 Strangle 5% Call 2",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500051.KS",
+        "companyName": "Shinhan Inverse 2X S&P500 Futur",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500052.KS",
+        "companyName": "Shinhan FnGuide 5G Theme ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500053.KS",
+        "companyName": "Shinhan 2X Natural Gas Futures ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "500054.KS",
+        "companyName": "Shinhan -2X Natural Gas Futures",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "510001.KS",
+        "companyName": "Daishin WTI Oil Futures ETN(H)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "510002.KS",
+        "companyName": "Daishin Zinc Futures ETN(H)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "510003.KS",
+        "companyName": "Daishin Nickel Futures ETN(H)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "510004.KS",
+        "companyName": "Daishin Inverse Zinc Futures ET",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "510005.KS",
+        "companyName": "Daishin 2X Zinc Futures ETN(H)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "510007.KS",
+        "companyName": "Daishin 2X Nickel Futures ETN(H",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "510008.KS",
+        "companyName": "Daishin Iron Ore Futures ETN(H)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "510009.KS",
+        "companyName": "Daishin Inverse Iron Ore Future",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "510010.KS",
+        "companyName": "Daishin 2X Inverse Nickel Futur",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "510011.KS",
+        "companyName": "Daishin Gold Covered Call TG 5%",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "520003.KS",
+        "companyName": "MiraeAsset Commodity Futures ET",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "520004.KS",
+        "companyName": "MiraeAsset Electronics Core5 ET",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "520005.KS",
+        "companyName": "MiraeAsset Inverse Electronics ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "520006.KS",
+        "companyName": "MiraeAsset EnergyChem. Core5 ET",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "520007.KS",
+        "companyName": "MiraeAsset Inverse EnergyChem. ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "520009.KS",
+        "companyName": "MiraeAsset Leverage Crude Futur",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "520010.KS",
+        "companyName": "MiraeAsset Crude Futures ETN(H)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "520012.KS",
+        "companyName": "MiraeAsset Australia ASX200 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "520013.KS",
+        "companyName": "MiraeAsset Q150 Core5 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "520015.KS",
+        "companyName": "MiraeAsset Inverse Media Ent. C",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "520020.KS",
+        "companyName": "MiraeAsset US Senior Loan 100 E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "520026.KS",
+        "companyName": "MiraeAsset KOSPI ShortStrangle ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "520029.KS",
+        "companyName": "MiraeAsset S-S 5% Auto-KO-C 220",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "530003.KS",
+        "companyName": "Samsung Momentum Top Pick ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "530007.KS",
+        "companyName": "Samsung Leisure Theme ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "530011.KS",
+        "companyName": "Samsung Online Shopping Theme E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "530012.KS",
+        "companyName": "Samsung Chemicals Theme ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "530013.KS",
+        "companyName": "Samsung KTOP30 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "530014.KS",
+        "companyName": "Samsung China A50 Futures ETN(H",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "530016.KS",
+        "companyName": "Samsung US Large Cap Value ETN(",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "530019.KS",
+        "companyName": "Samsung US Large Cap Growth ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "530020.KS",
+        "companyName": "Samsung US Large Cap Value ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "530022.KS",
+        "companyName": "Samsung US Mid & Small Cap Valu",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "530031.KS",
+        "companyName": "Samsung Leverage WTI Futures ET",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "530033.KS",
+        "companyName": "Samsung Alerian Energy Infra ML",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "530036.KS",
+        "companyName": "Samsung Inverse 2X WTI Futures ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "530037.KS",
+        "companyName": "Samsung Leverage Natural Gas Fu",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "530038.KS",
+        "companyName": "Samsung -2X Natural Gas Futures",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "530053.KS",
+        "companyName": "Samsung KOSPI PutWrite ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "530056.KS",
+        "companyName": "Samsung Inverse 2X Gold Futures",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "530064.KS",
+        "companyName": "Samsung Inverse 2X Copper Futur",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "530065.KS",
+        "companyName": "Samsung S&P500 VIX S/T Futures ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "530066.KS",
+        "companyName": "Samsung KOSPI PutWrite 4% OTM E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "530067.KS",
+        "companyName": "Samsung KRX Gold Spot ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550002.KS",
+        "companyName": "QV WISE Dividend ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550003.KS",
+        "companyName": "QV Smart Rebalancing 250/3 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550004.KS",
+        "companyName": "QV LongShort K150 Buy Low VOL S",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550005.KS",
+        "companyName": "QV Energy TOP5 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550006.KS",
+        "companyName": "QV Domestic consumer goods TOP5",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550007.KS",
+        "companyName": "QV Ship building TOP5 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550008.KS",
+        "companyName": "QV Software TOP5 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550009.KS",
+        "companyName": "QV Hardware TOP5 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550010.KS",
+        "companyName": "QV Transportation TOP5 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550011.KS",
+        "companyName": "QV Automotive TOP5 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550012.KS",
+        "companyName": "QV Medical TOP5 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550013.KS",
+        "companyName": "QV Chemical TOP5 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550014.KS",
+        "companyName": "QV Biotech TOP5 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550015.KS",
+        "companyName": "QV Pharmaceutical TOP5 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550016.KS",
+        "companyName": "QV Construction TOP5 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550033.KS",
+        "companyName": "QV Smart Rebalancing 260/4 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550041.KS",
+        "companyName": "QV US IT TOP5 ETN(H)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550042.KS",
+        "companyName": "QV 2X WTI Crude Oil Futures ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550043.KS",
+        "companyName": "QV -2X WTI Crude Oil Futures ET",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550044.KS",
+        "companyName": "QV 2X S&P500 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550045.KS",
+        "companyName": "QV -2X S&P500 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550046.KS",
+        "companyName": "QV 2X 10Y KTB Futures ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550052.KS",
+        "companyName": "QV MSCI EAFE ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550053.KS",
+        "companyName": "QV Inverse MSCI EAFE ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550054.KS",
+        "companyName": "QV Leverage MSCI EAFE ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550055.KS",
+        "companyName": "QV Inverse Leverage MSCI EAFE E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550056.KS",
+        "companyName": "QV KOSPI 5% Short strangle OTM ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550057.KS",
+        "companyName": "QV KOSPI Vol Matching Strangle ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "550058.KS",
+        "companyName": "QV S&P500 VIX S/T Futures ETN B",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570008.KS",
+        "companyName": "TRUE SectorTopPick ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570019.KS",
+        "companyName": "TRUE KOSPI Short Strangle 5% OT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570020.KS",
+        "companyName": "TRUE KOSPI Covered Call ETN B",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570021.KS",
+        "companyName": "TRUE KOSPI Covered Put ETN B",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570022.KS",
+        "companyName": "TRUE Leverage S&P500 futures ET",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570023.KS",
+        "companyName": "TRUE Inverse 2X S&P500 futures ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570025.KS",
+        "companyName": "TRUE Inverse EURO STOXX 50 ETN(",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570026.KS",
+        "companyName": "TRUE Leverage EURO STOXX 50 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570027.KS",
+        "companyName": "TRUE Inverse 2X EURO STOXX 50 E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570028.KS",
+        "companyName": "TRUE Inverse HSCEI ETN(H) B",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570029.KS",
+        "companyName": "TRUE KOSPI Short Strangle 3% OT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570030.KS",
+        "companyName": "TRUE KOSPI Short Strangle ATM E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570032.KS",
+        "companyName": "TRUE Inverse 2X HSCEI ETN(H)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570034.KS",
+        "companyName": "TRUE Japan Yen Futures ETN B",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570035.KS",
+        "companyName": "TRUE Leverage Japan Yen Futures",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570036.KS",
+        "companyName": "TRUE Inverse Japan Yen Futures ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570037.KS",
+        "companyName": "TRUE Euro Futures ETN B",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570038.KS",
+        "companyName": "TRUE Inverse Euro Futures ETN B",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570042.KS",
+        "companyName": "TRUE lnverse Nasdaq 100 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570043.KS",
+        "companyName": "TRUE Leverage Nasdaq 100 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570044.KS",
+        "companyName": "TRUE lnverse 2X Nasdaq100 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570045.KS",
+        "companyName": "TRUE 2X Natural Gas futures ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "570046.KS",
+        "companyName": "TRUE -2X Natural Gas futures ET",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "580006.KS",
+        "companyName": "KB KTOP30 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "580007.KS",
+        "companyName": "KB KQ Bluechip30 ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "580008.KS",
+        "companyName": "KB KOSPI Short Strangle 5% OTM ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "580009.KS",
+        "companyName": "KB KOSPI mountain ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "580010.KS",
+        "companyName": "KB Wise Average Down Trading ET",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "590004.KS",
+        "companyName": "MiraeAsset Europe Mid Cap ETN(H",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "590005.KS",
+        "companyName": "MiraeAsset Japan Large Cap ETN(",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "590006.KS",
+        "companyName": "MiraeAsset Japan Mid Cap ETN(H)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "590012.KS",
+        "companyName": "MiraeAsset Global REIT ETN(H)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "590013.KS",
+        "companyName": "MiraeAsset United States REIT E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "590016.KS",
+        "companyName": "MiraeAsset MSCI USA Healthcare ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "590017.KS",
+        "companyName": "MiraeAsset USA High Dividend ET",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "590018.KS",
+        "companyName": "MiraeAsset China Shenzhen 100 E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "700001.KS",
+        "companyName": "Hana KOSPI Vol Following Short ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "7010177A.KS",
+        "companyName": "Tokyo Office 1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "70101781.KS",
+        "companyName": "Tokyo Small-medium Office 1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "70101B99.KS",
+        "companyName": "KIM Tokyo Hanzomon Office",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "70901B95.KS",
+        "companyName": "Daishin Japan Heim 03 A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "72504A3B.KS",
+        "companyName": "SHBNPP Seoul Metro 9 No.4",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "74201773.KS",
+        "companyName": "Hana Alternative NASA Real Esta",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "74401722.KS",
+        "companyName": "MiraeassetMAPSBrazilTrust 1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "74401769.KS",
+        "companyName": "MAPS US 9-2",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "74401773.KS",
+        "companyName": "MAPS AUSTRALIA 2",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "74401777.KS",
+        "companyName": "MAPS US 11",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "74601669.KS",
+        "companyName": "Meritz Vietnam Balanced",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "74701B8A.KS",
+        "companyName": "IGIS No.229 Class A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "74701B97.KS",
+        "companyName": "Igis Global No.281 Class A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "75601776.KS",
+        "companyName": "RK R.E No.1 ClassA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "75602782.KS",
+        "companyName": "RK R.E No.2 ClassA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KSC",
+        "symbol": "75701B93.KS",
+        "companyName": "Hyundai YouFirst Realestate 25 ",
+        "industryOrCategory": "N/A"
+    }
+]

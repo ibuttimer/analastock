@@ -1,14 +1,14 @@
 """
 Utils package
 """
-from .input import get_input, InputParam, user_confirm
+from .input import get_input, InputParam, user_confirm, get_int
 from .output import (
     error, info, assistance, Colour, colorise, display, title, WrapMode
 )
 from .menu import MenuEntry, CloseMenuEntry, Menu
 from .misc import (
-    get_env_setting, last_day_of_month, load_json_file, friendly_date,
-    filter_data_frame_by_date, DateFormat, convert_date_time
+    get_env_setting, last_day_of_month, load_json_file, save_json_file,
+    friendly_date, filter_data_frame_by_date, DateFormat, convert_date_time
 )
 from .constants import (
     DEFAULT_CREDS_FILE, DEFAULT_CREDS_PATH, DEFAULT_RAPID_CREDS_FILE,
@@ -18,11 +18,13 @@ from .constants import (
 )
 from .comms import http_get, wrapped_get
 from .pagination import Pagination
+from .paths import sample_exchanges_path, sample_exchange_path
 
 __all__ = [
     'get_input',
     'InputParam',
     'user_confirm',
+    'get_int',
 
     'Colour',
     'error',
@@ -40,6 +42,7 @@ __all__ = [
     'get_env_setting',
     'last_day_of_month',
     'load_json_file',
+    'save_json_file',
     'friendly_date',
     'filter_data_frame_by_date',
     'DateFormat',
@@ -62,5 +65,8 @@ __all__ = [
     'http_get',
     'wrapped_get',
 
-    'Pagination'
+    'Pagination',
+
+    'sample_exchanges_path',
+    'sample_exchange_path'
 ]

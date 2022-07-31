@@ -1,0 +1,1442 @@
+[
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ABBN.SW",
+        "companyName": "ABB LTD N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ABT.SW",
+        "companyName": "ABBOTT LABOR",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ACHI-USD.SW",
+        "companyName": "ACHIKO N",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ADEN.SW",
+        "companyName": "ADECCO N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ADVN.SW",
+        "companyName": "ADVAL TECH N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ADXN.SW",
+        "companyName": "ADDEX N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "AEVS.SW",
+        "companyName": "AEVIS N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "AFP.SW",
+        "companyName": "ALUFLEXPACK N",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "AIRE.SW",
+        "companyName": "AIRESIS N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ALC.SW",
+        "companyName": "ALCON N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ALLN.SW",
+        "companyName": "ALLREAL N",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ALPN.SW",
+        "companyName": "ALPINE SELECT N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ALPNE.SW",
+        "companyName": "ALPINE SELECT N 2. LINIE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ALSN.SW",
+        "companyName": "ALSO N",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "AMS.SW",
+        "companyName": "AMS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "APGN.SW",
+        "companyName": "APG SGA N",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ARBN.SW",
+        "companyName": "ARBONIA N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ARON.SW",
+        "companyName": "Arundel N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ARYN.SW",
+        "companyName": "ARYZTA N",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ASCN.SW",
+        "companyName": "ASCOM N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ASWN.SW",
+        "companyName": "ASMALLWORLD N",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "AUTN.SW",
+        "companyName": "AUTONEUM N",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BAER.SW",
+        "companyName": "JULIUS BAER N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BAERE.SW",
+        "companyName": "JULIUS BAER N  2. LINIE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BALN.SW",
+        "companyName": "BALOISE N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BALNE.SW",
+        "companyName": "BALOISE N 2. LINIE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BANB.SW",
+        "companyName": "BACHEM N -B-",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BARN.SW",
+        "companyName": "BARRY CALLEBAUT N",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BBN.SW",
+        "companyName": "BELLEVUE GROUP N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BCGE.SW",
+        "companyName": "BC GENEVE N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BCHN.SW",
+        "companyName": "BURCKHARDT N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BCJ.SW",
+        "companyName": "BC JURA N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BCVN.SW",
+        "companyName": "BC VAUD N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BEAN.SW",
+        "companyName": "BELIMO N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BEKN.SW",
+        "companyName": "BEKB / BCBE N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BELL.SW",
+        "companyName": "BELL FOOD GROUP N",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BION.SW",
+        "companyName": "BB BIOTECH N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BKW.SW",
+        "companyName": "BKW N",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BLIN.SW",
+        "companyName": "BFW LIEGENSCHAFTEN N",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BLKB.SW",
+        "companyName": "BASELLAND KB PS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BOBNN.SW",
+        "companyName": "BOBST GRP N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BOSN.SW",
+        "companyName": "BOSSARD N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BPDG.SW",
+        "companyName": "BANQUE PROFIL DE GESTION N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BRKN.SW",
+        "companyName": "BURKHALTER N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BSKP.SW",
+        "companyName": "BASLER KB PS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BSLN.SW",
+        "companyName": "BASILEA N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BUCN.SW",
+        "companyName": "BUCHER N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "BVZN.SW",
+        "companyName": "BVZ HOL N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "CALN.SW",
+        "companyName": "CALIDA N",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "CASN.SW",
+        "companyName": "CASTLE ALT N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "CFR.SW",
+        "companyName": "RICHEMONT N",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "CFT.SW",
+        "companyName": "CIE FIN TR I",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "CICN.SW",
+        "companyName": "CICOR TECH N",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "CIE.SW",
+        "companyName": "CI COM SA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "CLN.SW",
+        "companyName": "CLARIANT N",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "CLTN.SW",
+        "companyName": "COLTENE N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "CLXN.SW",
+        "companyName": "CREALOGIX N",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "CMBN.SW",
+        "companyName": "CEMBRA MONEY BANK N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "CON.SW",
+        "companyName": "CONZZETA N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "COPN.SW",
+        "companyName": "COSMO PHARM N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "COTN.SW",
+        "companyName": "COMET N",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "CPEN.SW",
+        "companyName": "CASTLE PRIVATE N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "CSGN.SW",
+        "companyName": "CS GROUP N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "CSGNE.SW",
+        "companyName": "CS GROUP N 2. LINIE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "DAE.SW",
+        "companyName": "DAETWYLER I",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "DCN.SW",
+        "companyName": "DATACOLOR N",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "DESN.SW",
+        "companyName": "DOTTIKON ES N",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "DKSH.SW",
+        "companyName": "DKSH N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "DOKA.SW",
+        "companyName": "dormakaba N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "DUFN.SW",
+        "companyName": "DUFRY N",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "EDHN.SW",
+        "companyName": "ENERGIEDIENST N",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "EFGN.SW",
+        "companyName": "EFG INTERNATIONAL N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ELMN.SW",
+        "companyName": "ELMA ELECTRONIC N",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "EMMN.SW",
+        "companyName": "EMMI N",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "EMSN.SW",
+        "companyName": "EMS-CHEMIE N",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "EPH.SW",
+        "companyName": "EASTERN PROP HLD",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "EVE.SW",
+        "companyName": "EVOLVA N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "FHZN.SW",
+        "companyName": "FLUGHAFEN ZUERICH N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "FI.SW",
+        "companyName": "FISCHER N",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "FORN.SW",
+        "companyName": "FORBO N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "FREN.SW",
+        "companyName": "Fundamenta Real Estate N",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "FTON.SW",
+        "companyName": "FEINTOOL N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "GALE.SW",
+        "companyName": "GALENICA N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "GAM.SW",
+        "companyName": "GAM N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "GAV.SW",
+        "companyName": "GAVAZZI I",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "GE.SW",
+        "companyName": "GEN ELEC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "GEBN.SW",
+        "companyName": "GEBERIT N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "GEBNE.SW",
+        "companyName": "GEBERIT N 2. LINIE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "GIVN.SW",
+        "companyName": "GIVAUDAN N",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "GLKBN.SW",
+        "companyName": "GLARNER KB N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "GMI.SW",
+        "companyName": "GMSA N",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "GRKP.SW",
+        "companyName": "GRAUB KB PS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "GUR.SW",
+        "companyName": "GURIT I",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "HBMN.SW",
+        "companyName": "HBM N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "HELN.SW",
+        "companyName": "HELVETIA HOLDING N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "HIAG.SW",
+        "companyName": "HIAG IMMOBILIEN N",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "HLEE.SW",
+        "companyName": "HIGHLIGHT E AND E I",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "HOCN.SW",
+        "companyName": "HOCHDORF N",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "HREN.SW",
+        "companyName": "ROMANDE ENERGIE N",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "HUBN.SW",
+        "companyName": "HUBER+SUHNER N",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "IDIA.SW",
+        "companyName": "IDORSIA N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "IFCN.SW",
+        "companyName": "INFICON N",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "IGPH.SW",
+        "companyName": "IGEA Pharma N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "IMPN.SW",
+        "companyName": "IMPLENIA N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "INRN.SW",
+        "companyName": "INTERROLL N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "IREN.SW",
+        "companyName": "INVESTIS N",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ISN.SW",
+        "companyName": "INTERSHOP N",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "JFN.SW",
+        "companyName": "JUNGFRAUBAHN HLD N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "KARN.SW",
+        "companyName": "KARDEX N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "KLIN.SW",
+        "companyName": "KLINGELNBERG N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "KNIN.S",
+        "companyName": "KUEHNE+NAGEL INT N",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "KNIN.SW",
+        "companyName": "KUEHNE+NAGEL INT N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "KOMN.SW",
+        "companyName": "KOMAX N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "KURN.SW",
+        "companyName": "Kuros N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "LAND.SW",
+        "companyName": "Landis+Gyr N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "LECN.SW",
+        "companyName": "LECLANCHE N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "LEHN.SW",
+        "companyName": "LEM N",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "LEON.SW",
+        "companyName": "LEONTEQ N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "LHN.SW",
+        "companyName": "LAFARGEHOLCIM N",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "LINN.SW",
+        "companyName": "BK LINTH N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "LISN.SW",
+        "companyName": "LINDT N",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "LISP.SW",
+        "companyName": "LINDT PS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "LLBN.SW",
+        "companyName": "LIECHT LANDBK N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "LLQ.SW",
+        "companyName": "LALIQUE GROUP N",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "LMN.SW",
+        "companyName": "lastminute.com N.V.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "LOGN.SW",
+        "companyName": "LOGITECH N",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "LONN.SW",
+        "companyName": "LONZA N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "LUKN.SW",
+        "companyName": "LUZERNER KB N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "LUMX.SW",
+        "companyName": "LUMX GROUP N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "MBTN.SW",
+        "companyName": "MEYER BURGER N",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "MCHN.SW",
+        "companyName": "MCH GROUP N",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "MED.SW",
+        "companyName": "MEDARTIS N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "METN.SW",
+        "companyName": "Metall Zug AG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "MIKN.SW",
+        "companyName": "MIKRON N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "MMM.SW",
+        "companyName": "3M",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "MOBN.SW",
+        "companyName": "MOBIMO N",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "MOLN.SW",
+        "companyName": "MOLECULAR PARTNERS N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "MOVE.SW",
+        "companyName": "MEDACTA GROUP N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "MOZN.SW",
+        "companyName": "MOBILEZONE N",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "MTG.SW",
+        "companyName": "MEIER TOBLER N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "NESN.SW",
+        "companyName": "NESTLE N",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "NESNE.SW",
+        "companyName": "NESTLE N 2. LINIE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "NEWN.SW",
+        "companyName": "NEW VALUE N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "NIBEB.SW",
+        "companyName": "NIBE Industrier AB N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "NOVN.SW",
+        "companyName": "NOVARTIS N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "NREN.SW",
+        "companyName": "Novavest Real Estate N",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "NWRN.SW",
+        "companyName": "NEWRON PHARMA N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "OBSN.SW",
+        "companyName": "OBSEVA N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ODHN.SW",
+        "companyName": "ORASCOM DEVELOPMENT HLD AG N",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "OERL.SW",
+        "companyName": "OC OERLIKON N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ORON.SW",
+        "companyName": "ORIOR N",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "PARG.SW",
+        "companyName": "PARGESA I",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "PB409.SW",
+        "companyName": "Downing Four VCT Dp2011 Gen A ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "PEAN.SW",
+        "companyName": "Peach Property N",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "PEHN.SW",
+        "companyName": "PRIVATE EQUITY N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "PGHN.SW",
+        "companyName": "PARTNERS GROUP N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "PLAN.SW",
+        "companyName": "PLAZZA N",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "PMAG.SW",
+        "companyName": "PIERER Mobility AG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "PMI.SW",
+        "companyName": "PHILIP MRRS INT-WI",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "PNHO.SW",
+        "companyName": "POENINA HOLDING N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "POLN.SW",
+        "companyName": "Polyphor N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "PRFN.SW",
+        "companyName": "PERFECT N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "PSPN.SW",
+        "companyName": "PSP N",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "RAP.SW",
+        "companyName": "Rapid Nutrition N",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "RIEN.SW",
+        "companyName": "RIETER N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "RLF.SW",
+        "companyName": "RELIEF THERAPEUTICS N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "RO.SW",
+        "companyName": "ROCHE I",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ROG.SW",
+        "companyName": "ROCHE GS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ROL.SW",
+        "companyName": "VON ROLL I",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ROSE.SW",
+        "companyName": "ZUR ROSE GROUP N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SAHN.SW",
+        "companyName": "SCHAFFNER N",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SANN.SW",
+        "companyName": "SANTHERA N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SCHN.SW",
+        "companyName": "SCHINDLER N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SCHP.S",
+        "companyName": "SCHINDLER PS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SCHP.SW",
+        "companyName": "SCHINDLER PS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SCMN.SW",
+        "companyName": "SWISSCOM N",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SENS.SW",
+        "companyName": "SENSIRION N",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SFPN.SW",
+        "companyName": "SF Urban Properties N",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SFSN.SW",
+        "companyName": "SFS Group N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SFZN.SW",
+        "companyName": "SIEGFRIED N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SGKN.SW",
+        "companyName": "ST GALLER KB N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SGSN.SW",
+        "companyName": "SGS N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SGSNE.SW",
+        "companyName": "SGS N 2. LINIE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SHLTN.SW",
+        "companyName": "SHL TELEMEDICINE N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SIGN.S",
+        "companyName": "SIG Combibloc Grp N",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SIGN.SW",
+        "companyName": "SIG Combibloc Grp N",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SIKA.SW",
+        "companyName": "SIKA N",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SKIN.SW",
+        "companyName": "CASSIOPEA N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SLHN.SW",
+        "companyName": "SWISS LIFE HOLDING AG N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SLHNE.SW",
+        "companyName": "SWISS LIFE HOLDING N 2. LINIE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SNBN.SW",
+        "companyName": "SNB N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SOON.SW",
+        "companyName": "SONOVA N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SOONE.SW",
+        "companyName": "SONOVA N 2. LINIE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SPCE.SW",
+        "companyName": "SPCE N",
+        "industryOrCategory": "Financial"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SPSN.SW",
+        "companyName": "SWISS PRIME SITE N",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SQN.SW",
+        "companyName": "SWISSQUOTE N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SRAIL.SW",
+        "companyName": "STADLER RAIL N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SRCG.SW",
+        "companyName": "SUNRISE N",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SREN.SW",
+        "companyName": "SWISS RE N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "STLN.SW",
+        "companyName": "SCHMOLZ+BICKENBACH AG N",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "STMN.SW",
+        "companyName": "STRAUMANN N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SUN.SW",
+        "companyName": "SULZER N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SWON.SW",
+        "companyName": "SOFTWAREONE N",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "SWTQ.SW",
+        "companyName": "SCHWEITER I",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "TECN.SW",
+        "companyName": "TECAN GROUP AG N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "TEMN.SW",
+        "companyName": "TEMENOS N",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "TIBN.SW",
+        "companyName": "TITL BN BERG N",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "TKBP.SW",
+        "companyName": "THURGAUER KB PS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "TOHN.SW",
+        "companyName": "TORNOS N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "TXGN.SW",
+        "companyName": "TX GROUP N",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "UBSG.SW",
+        "companyName": "UBS GROUP N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "UBSGE.SW",
+        "companyName": "UBS GROUP N 2. LINIE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "UBXN.SW",
+        "companyName": "U-BLOX N",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "UHR.SW",
+        "companyName": "SWATCH GROUP I",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "UHRN.SW",
+        "companyName": "SWATCH GROUP N",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "VACN.SW",
+        "companyName": "VAT GROUP N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "VAHN.SW",
+        "companyName": "VAUDOISE ASSU N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "VALN.SW",
+        "companyName": "VALORA N",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "VARN.SW",
+        "companyName": "VARIA US PROPERTIES N",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "VATN.SW",
+        "companyName": "VALIANT N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "VBSN.SW",
+        "companyName": "IVF HARTMANN N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "VET.SW",
+        "companyName": "VETROPACK I",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "VIFN.SW",
+        "companyName": "VIFOR N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "VILN.SW",
+        "companyName": "VILLARS N",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "VLRT.SW",
+        "companyName": "VALARTIS GROUP N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "VONN.SW",
+        "companyName": "VONTOBEL N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "VPBN.SW",
+        "companyName": "VPB VADUZ N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "VW.SW",
+        "companyName": "VW",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "VW-V.SW",
+        "companyName": "VW VZ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "VZN.SW",
+        "companyName": "VZ HOLDING N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "WARN.SW",
+        "companyName": "WARTECK N",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "WIHN.SW",
+        "companyName": "WISeKey N",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "WKBN.SW",
+        "companyName": "WALLISER KB N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "YPSN.SW",
+        "companyName": "YPSOMED HLDG",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ZEHN.SW",
+        "companyName": "ZEHNDER N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ZUBN.SW",
+        "companyName": "ZUEBLIN IMM N",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ZUGER.SW",
+        "companyName": "ZUGER KB N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ZUGN.SW",
+        "companyName": "ZUG ESTATES HOLDING AG",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ZURN.SW",
+        "companyName": "ZURICH INSURANCE N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "EBS",
+        "symbol": "ZWM.SW",
+        "companyName": "ZWAHLEN I",
+        "industryOrCategory": "Basic Materials"
+    }
+]

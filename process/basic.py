@@ -2,6 +2,7 @@
 Processing related functions
 """
 from typing import Callable, List, Union
+import time
 
 from pandas import DataFrame, concat
 from stock import (
@@ -14,7 +15,8 @@ from sheets import (
     check_partial
 )
 from utils import (
-    CloseMenuEntry, Menu, MenuEntry, info, ABORT, get_input, title, user_confirm
+    CloseMenuEntry, Menu, MenuEntry, info, error, ABORT, get_input, title,
+    user_confirm, get_int, save_json_file, sample_exchange_path
 )
 from .results import display_single
 
@@ -30,6 +32,9 @@ SYMBOL_MENU_HELP = f"Choose '{SYMBOL_ENTRY}' if the stock symbol is known, or"\
                    f"'{SEARCH_ENTRY}' to search by company name"
 COMPANY_SEARCH_HELP = f"Enter company name or part of name to search for, "\
                       f"or '{ABORT}' to cancel"
+CLEAR_HELP = "Clear data previously saved"
+PAUSE_HELP = "Enter pause in seconds between exchange data downloads"
+SAMPLE_HELP = "Save data as samples for reuse"
 
 def process_ibm():
     """ Process canned IBM stock """
@@ -217,10 +222,23 @@ def process_exchanges():
 
     # HACK sample data for now
     data_mode = DataMode.SAMPLE
+    #data_mode = DataMode.LIVE
 
     if user_confirm(
         'This operation may take some time, '\
         'please confirm it is ok to proceed'):
+
+        def valid_pause(pause: str) -> bool:
+            is_ok = pause.isnumeric() and int(pause) >= 0
+            if not is_ok:
+                error('Enter a number greater than or equal to zero')
+            return is_ok
+
+        confirm_each = user_confirm('Confirm each download')
+        clear_sheet = user_confirm('Clear existing data', help_text=CLEAR_HELP)
+        pause = get_int('Enter inter-exchange pause in seconds',
+                        validate=valid_pause, help_text=PAUSE_HELP)
+        save_sample = user_confirm('Save as sample data', help_text=SAMPLE_HELP)
 
         exchanges = save_exchanges(
             download_exchanges(data_mode=data_mode)
@@ -229,19 +247,26 @@ def process_exchanges():
         if exchanges:
             for i, exchange in enumerate(exchanges):
 
-                # HACK skip the exchange saved already
-                if i < 4:
-                    continue
-
                 code = exchange['exchangeCode']
+
+                if confirm_each:
+                    if not user_confirm(f'Process {code}'):
+                        continue
+
                 info(f"{i+ 1}/{len(exchanges)}: Processing {code}")
 
-                save_companies(
-                    download_companies(code),    #, data_mode=data_mode),
-                    clear_sheet=i == 0
-                )
+                companies_data = download_companies(code, data_mode=data_mode)
 
-                break   # HACK so just one exchange for now
+                companies_list = save_companies(
+                                    companies_data, clear_sheet=clear_sheet)
+                clear_sheet = False
+
+                if save_sample:
+                    save_json_file(
+                        sample_exchange_path(code), companies_list)
+
+                if pause:
+                    time.sleep(pause)
 
 
 def company_name_search() -> bool:

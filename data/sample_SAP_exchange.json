@@ -1,0 +1,110 @@
+[
+    {
+        "exchangeCode": "SAP",
+        "symbol": "1449.S",
+        "companyName": "FUJI JAPAN CO LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAP",
+        "symbol": "1734.S",
+        "companyName": "KITA KOUDENSHA CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAP",
+        "symbol": "1832.S",
+        "companyName": "HOKKAI ELECTRICAL CONSTRUCTION",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAP",
+        "symbol": "2137.S",
+        "companyName": "HIKARI HEIGHTS-VARUS CO.LTD.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAP",
+        "symbol": "2218.S",
+        "companyName": "NICHIRYO BAKING CO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAP",
+        "symbol": "2501.S",
+        "companyName": "SAPPORO HOLDINGS LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAP",
+        "symbol": "2503.S",
+        "companyName": "KIRIN HOLDINGS COMPANY LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAP",
+        "symbol": "2930.S",
+        "companyName": "KITANOTATSUJIN CORP",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAP",
+        "symbol": "2976.S",
+        "companyName": "NIPPON GRANDE CO LTD",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAP",
+        "symbol": "3055.S",
+        "companyName": "HOKUYAKU TAKEYAMA HOLDINGS INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAP",
+        "symbol": "3136.S",
+        "companyName": "ECONOS CO LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAP",
+        "symbol": "3802.S",
+        "companyName": "ECOMIC CO.LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAP",
+        "symbol": "3849.S",
+        "companyName": "NIPPON TECHNO LAB INC.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAP",
+        "symbol": "3977.S",
+        "companyName": "FUSION CO LTD (JP)",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SAP",
+        "symbol": "4834.S",
+        "companyName": "CAREER BANK",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAP",
+        "symbol": "7011.S",
+        "companyName": "MITSUBISHI HEAVY INDUSTRIES",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAP",
+        "symbol": "8594.S",
+        "companyName": "NAKAMICHI LEASING CO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAP",
+        "symbol": "9027.S",
+        "companyName": "LOGINET JAPAN CO LTD",
+        "industryOrCategory": "Industrials"
+    }
+]

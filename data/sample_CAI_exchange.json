@@ -1,0 +1,902 @@
+[
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS01041C010.CA",
+        "companyName": "Ismailia National Food Industri",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS01071C017.CA",
+        "companyName": "Wadi Kom Ombo Land Reclamation",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS01081C016.CA",
+        "companyName": "General Company For Land Reclam",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS02051C018.CA",
+        "companyName": "Cairo Poultry",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS02091C014.CA",
+        "companyName": "Mansourah Poultry",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS02211C018.CA",
+        "companyName": "Egypt for Poultry",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS10001C013.CA",
+        "companyName": "Asek Company for Mining    - As",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS21171C011.CA",
+        "companyName": "Zahraa Maadi Investment & Devel",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS21351C019.CA",
+        "companyName": "Arabia Investments Holding",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS213S1C010.CA",
+        "companyName": "Egyptians For Investment & Urba",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS21451C017.CA",
+        "companyName": "Delta Construction & Rebuilding",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS214Q1C011.CA",
+        "companyName": "Ismailia Development and Real E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS21531C016.CA",
+        "companyName": "Elsaeed Contracting& Real Estat",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS21541C015.CA",
+        "companyName": "Giza General Contracting",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS22171C010-EGP.CA",
+        "companyName": "Industrial & Engineering Projec",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS221V1C015.CA",
+        "companyName": "M.B Engineering",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS23111C015.CA",
+        "companyName": "Nasr Company for Civil Works",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS23141C012.CA",
+        "companyName": "The Egyptian Company for Constr",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS233E1C012.CA",
+        "companyName": "Brothers Solidarity For Real Es",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS30031C016.CA",
+        "companyName": "Arabian Food Industries DOMTY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS300L1C011.CA",
+        "companyName": "El Nasr For Manufacturing Agric",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS30201C015.CA",
+        "companyName": "Delta Sugar",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS30221C013.CA",
+        "companyName": "The Arab Dairy Products Co. Ara",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS30291C016.CA",
+        "companyName": "Sharkia National Food",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS30301C013-EGP.CA",
+        "companyName": "Souhag National Food Industries",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS30361C017.CA",
+        "companyName": "North Cairo Mills",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS30411C010.CA",
+        "companyName": "South Cairo & Giza Mills & Bake",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS30421C019.CA",
+        "companyName": "Middle & West Delta Flour Mills",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS30431C018.CA",
+        "companyName": "Egyptian Starch & Glucose",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS30451C016.CA",
+        "companyName": "Upper Egypt Flour Mills",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS30581C010.CA",
+        "companyName": "Cairo Oils & Soap",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS305I1C011.CA",
+        "companyName": "Edita Food Industries S.A.E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS30901C010.CA",
+        "companyName": "Juhayna Food Industries",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS32041C013.CA",
+        "companyName": "Alexandria Spinning & Weaving (",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS32161C019.CA",
+        "companyName": "Golden Textiles & Clothes Wool",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS32221C011.CA",
+        "companyName": "Arab Cotton Ginning",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS32331C018.CA",
+        "companyName": "ARAB POLVARA SPINNING & WEAVING",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS33041C012.CA",
+        "companyName": "Oriental Weavers",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS33061C010.CA",
+        "companyName": "El Nasr Clothes & Textiles (Kab",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS33321C018.CA",
+        "companyName": "Dice Sport & Casual Wear",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS36021C011.CA",
+        "companyName": "Rakta Paper Manufacturing",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS380P1C010.CA",
+        "companyName": "Alexandria Mineral Oils Company",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS380S1C017.CA",
+        "companyName": "Sidi Kerir Petrochemicals",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS38171C012.CA",
+        "companyName": "Glaxo Smith Kline",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS38191C010.CA",
+        "companyName": "Abou Kir Fertilizers",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS38201C017.CA",
+        "companyName": "Egyptian Chemical Industries (K",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS38211C016.CA",
+        "companyName": "Misr Chemical Industries",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS38251C012.CA",
+        "companyName": "Extracted Oils",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS38321C013.CA",
+        "companyName": "Arab Pharmaceuticals",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS38331C012.CA",
+        "companyName": "El-Nile Co. For Pharmaceuticals",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS38381C017.CA",
+        "companyName": "Egyptian Financial & Industrial",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS38391C016.CA",
+        "companyName": "Cairo Pharmaceuticals",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS38411C012.CA",
+        "companyName": "Kafr El Zayat Pesticides",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS39061C014.CA",
+        "companyName": "Misr Fretilizers Production Com",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3A221C018.CA",
+        "companyName": "Rubex International for Plastic",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3C071C015.CA",
+        "companyName": "El Ezz Porcelain (Gemma)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3C111C019.CA",
+        "companyName": "Ceramic & Porcelain",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3C121C018-EGP.CA",
+        "companyName": "National Cement",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3C161C014.CA",
+        "companyName": "Lecico Egypt",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3C181C012.CA",
+        "companyName": "Suez Cement",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3C251C013.CA",
+        "companyName": "Ezz Steel",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3C351C011.CA",
+        "companyName": "South Valley Cement",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3C371C019.CA",
+        "companyName": "Misr Beni Suef Cement",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3C391C017.CA",
+        "companyName": "Misr Cement (Qena)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3D041C017.CA",
+        "companyName": "EL Ezz Aldekhela Steel  -   Ale",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3D061C015.CA",
+        "companyName": "Egyptian Iron & Steel",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3D0C1C018.CA",
+        "companyName": "Misr National Steel - Ataqa",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3E181C010.CA",
+        "companyName": "Egypt Aluminum",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3E1E1C013.CA",
+        "companyName": "Arab Valves Company",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3E3B1C014.CA",
+        "companyName": "Integrated Engineering Group S.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3F021C017.CA",
+        "companyName": "Engineering Industries (ICON)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3G111C015.CA",
+        "companyName": "El Arabia Engineering Industrie",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3G231C011.CA",
+        "companyName": "Electro Cable Egypt",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3I1D1C015.CA",
+        "companyName": "Union Pharmacist Company For Me",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3J041C011.CA",
+        "companyName": "Modern Company for water proofi",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS3J2D1C012.CA",
+        "companyName": "Arabian Rocks Plastic Industrie",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS415I1C018.CA",
+        "companyName": "Genial Tours",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS42051C010.CA",
+        "companyName": "Egyptian Transport (EGYTRANS)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS42111C012.CA",
+        "companyName": "Alexandria Containers and goods",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS44012C010.CA",
+        "companyName": "Maridive & oil services",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS47021C018.CA",
+        "companyName": "United Arab Shipping",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS48001C019-EGP.CA",
+        "companyName": "Vodafone Egypt Telecommunicatio",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS48022C015.CA",
+        "companyName": "Egyptian Satellites (NileSat)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS50091C015.CA",
+        "companyName": "Assiut Islamic Trading",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS51191C012.CA",
+        "companyName": "Samad Misr -EGYFERT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS512O1C012.CA",
+        "companyName": "Ibnsina Pharma",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS52041C018.CA",
+        "companyName": "Northern Upper Egypt Developmen",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS53051C016.CA",
+        "companyName": "Misr Duty Free Shops",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS551D1C017.CA",
+        "companyName": "Barbary Investment Group ( BIG)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS60101C010.CA",
+        "companyName": "Al Baraka Bank Egypt",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS60111C019.CA",
+        "companyName": "Abu Dhabi Islamic Bank- Egypt",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS60121C018.CA",
+        "companyName": "Commercial International Bank (",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS60182C010.CA",
+        "companyName": "Egyptian Gulf Bank",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS60241C014.CA",
+        "companyName": "Export Development Bank of Egyp",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS60301C016.CA",
+        "companyName": "Housing & Development Bank",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS60321C014.CA",
+        "companyName": "Faisal Islamic Bank of Egypt - ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS63031C016.CA",
+        "companyName": "Delta Insurance",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS63041C015.CA",
+        "companyName": "Mohandes Insurance",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS65011C016.CA",
+        "companyName": "Arab Real Estate Investment CO.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS65061C011.CA",
+        "companyName": "United Housing & Development",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS65071C010.CA",
+        "companyName": "El Kahera Housing",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS65091C018.CA",
+        "companyName": "El Shams Housing & Urbanization",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS65131C012.CA",
+        "companyName": "National Housing for Profession",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS651B1C018.CA",
+        "companyName": "Gulf Canadian Real Estate Inves",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS65211C012.CA",
+        "companyName": "Egyptian Real Estate Group",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS65341C017.CA",
+        "companyName": "Egyptians Housing Development &",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS65441C015.CA",
+        "companyName": "Mena Touristic & Real Estate In",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS65511C015.CA",
+        "companyName": "National Real Estate Bank  for ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS65541C012.CA",
+        "companyName": "Cairo For Investment And Real E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS65551C011.CA",
+        "companyName": "El Obour Real Estate Investment",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS65571C019.CA",
+        "companyName": "Medinet Nasr Housing",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS65591C017.CA",
+        "companyName": "Heliopolis Housing",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS655L1C012.CA",
+        "companyName": "Palm Hills Development Company",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS65771C015.CA",
+        "companyName": "El Arabia for Land Reclamation",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS65851C015.CA",
+        "companyName": "Six of October Development & In",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS659E1C017.CA",
+        "companyName": "Emerald Real Estate Investment",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS67221C019.CA",
+        "companyName": "Arab Moltaka Investments Co",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS67391C010.CA",
+        "companyName": "Nile City Investment",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS673Y1C015.CA",
+        "companyName": "Emaar Misr for Development",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS675S1C011.CA",
+        "companyName": "Amer Group Holding",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS681D1C010.CA",
+        "companyName": "Egyptian Arabian (cmar)  Securi",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS69021C011.CA",
+        "companyName": "El Ahli Investment and Developm",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS69071C016-EGP.CA",
+        "companyName": "The Holding Company for Financi",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS69082C013.CA",
+        "companyName": "Egyptian Kuwaiti Holding",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS690C1C010.CA",
+        "companyName": "Raya Holding For Financial Inve",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS69101C011.CA",
+        "companyName": "Egyptian Financial Group-Hermes",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS69182C011.CA",
+        "companyName": "Naeem Holding",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS691A1C011.CA",
+        "companyName": "Prime Holding",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS691G1C015.CA",
+        "companyName": "Belton Financial Holding",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS691L1C018.CA",
+        "companyName": "Pioneers Holding",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS691S1C011.CA",
+        "companyName": "T M G Holding",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS691T1C010.CA",
+        "companyName": "B Investments Holding",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS693V1C014.CA",
+        "companyName": "Orascom Investment Holding",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS694A1C018.CA",
+        "companyName": "Porto Group",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS70081C012.CA",
+        "companyName": "Misr Hotels",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS70271C019.CA",
+        "companyName": "Remco for Touristic Villages Co",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS70321C012.CA",
+        "companyName": "Orascom Development Egypt",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS70431C019.CA",
+        "companyName": "Egyptian for Tourism Resorts",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS70571C012.CA",
+        "companyName": "Sharm Dreams Co. for Tourism In",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS70GV1C015.CA",
+        "companyName": "Golden Coast Company",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS70P91C010.CA",
+        "companyName": "Marsa Marsa Alam For Tourism De",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS70R91C016.CA",
+        "companyName": "El Wadi For International and I",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS72011C017.CA",
+        "companyName": "Nozha International Hospital",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS729F1C012.CA",
+        "companyName": "The Egyptian Modern Education S",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS729J1C018.CA",
+        "companyName": "Cleopatra Hospital Company",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS73BR1C013.CA",
+        "companyName": "Speed Medical",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS75011C014.CA",
+        "companyName": "MM Group For Industry And Inter",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS78021C010.CA",
+        "companyName": "Egyptian Media Production City",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS79072C012.CA",
+        "companyName": "TransOceans Tours",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CAI",
+        "symbol": "EGS95001C011.CA",
+        "companyName": "Orascom Construction PLC",
+        "industryOrCategory": "N/A"
+    }
+]

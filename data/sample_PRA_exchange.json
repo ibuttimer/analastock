@@ -1,0 +1,248 @@
+[
+    {
+        "exchangeCode": "PRA",
+        "symbol": "ANDR.PR",
+        "companyName": "ANDRITZ AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "ASOSI.PR",
+        "companyName": "ASOLERO SICAV AS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "AVST.PR",
+        "companyName": "AVAST PLC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "CETV.PR",
+        "companyName": "CENT EURO MEDIA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "COLIN.PR",
+        "companyName": "COLBER PODF. I",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "COPIA.PR",
+        "companyName": "CONVENIO PIA SICAV",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "CZ0003704413.PR",
+        "companyName": "J&T BANKA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "CZ0003704421.PR",
+        "companyName": "J&T BK III 9% PERP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "DBK.PR",
+        "companyName": "DEUTSCHE BANK AG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "DTE.PR",
+        "companyName": "DEUTSCHE TELEKOM",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "EFORU.PR",
+        "companyName": "E4U AKCIOVA SPOLOC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "ERBAG.PR",
+        "companyName": "ERSTE GROUP BK AG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "KARIN.PR",
+        "companyName": "KARO INVEST.A.S",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "KGH.PR",
+        "companyName": "KGHM POLSKA MIEDZ",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "KOMB.PR",
+        "companyName": "KOMERCNI BANKA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "MOL.PR",
+        "companyName": "MOL HUNGARIAN OIL",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "MONET.PR",
+        "companyName": "MONETA MONEY BANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "NOKIA.PR",
+        "companyName": "NOKIA OYJ",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "OMV.PR",
+        "companyName": "OMV AG",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "PATTR.PR",
+        "companyName": "PATRONUS 3 SICAV",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "PILSE.PR",
+        "companyName": "PILSENINVEST SICAV",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "PKN.PR",
+        "companyName": "PKN ORLEN SA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "PKO.PR",
+        "companyName": "POWSZECHNA KASA OS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "PRAB.PR",
+        "companyName": "PRABOS PLUS A.S.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "PVT.PR",
+        "companyName": "RMS MEZZANINE AS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "RDSA.PR",
+        "companyName": "ROYAL DUTCH SHELL",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "SPIIF.PR",
+        "companyName": "SPILBERK IFPZK AS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "STIFB.PR",
+        "companyName": "STING TR.B SICAV",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "STOCK.PR",
+        "companyName": "STOCK SPIRITS GROU",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "TABAK.PR",
+        "companyName": "PHILIP MORRIS(CZ)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "TELEC.PR",
+        "companyName": "O2 CZECH REPUBLIC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "TOMA.PR",
+        "companyName": "TOMA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "TOUIN.PR",
+        "companyName": "TOURB. INV.SICAV A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "ULVR.PR",
+        "companyName": "UNILEVER PLC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "VGP.PR",
+        "companyName": "VGP N.V.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "VIG.PR",
+        "companyName": "VIENNA INS GRP AG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "VOE.PR",
+        "companyName": "VOESTALPINE AG",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "VOLVB.PR",
+        "companyName": "VOLVO AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "VOW.PR",
+        "companyName": "VOLKSWAGEN AG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "WIE.PR",
+        "companyName": "WIENERBERGER AG",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PRA",
+        "symbol": "ZMJSI.PR",
+        "companyName": "II PODF. ZMJ SICAV",
+        "industryOrCategory": "N/A"
+    }
+]

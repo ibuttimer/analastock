@@ -1,0 +1,98 @@
+[
+    {
+        "exchangeCode": "ICE",
+        "symbol": "ARION.IC",
+        "companyName": "Arion banki hf.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "ICE",
+        "symbol": "EIK.IC",
+        "companyName": "Eik fasteignaflag hf",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "ICE",
+        "symbol": "FESTI.IC",
+        "companyName": "Festi hf.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "ICE",
+        "symbol": "HAGA.IC",
+        "companyName": "Hagar hf.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "ICE",
+        "symbol": "HEIMA.IC",
+        "companyName": "Heimavellir hf.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "ICE",
+        "symbol": "ICEAIR.IC",
+        "companyName": "Icelandair Group hf.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "ICE",
+        "symbol": "ICESEA.IC",
+        "companyName": "Iceland Seafood International h",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "ICE",
+        "symbol": "KVIKA.IC",
+        "companyName": "Kvika banki hf.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "ICE",
+        "symbol": "MAREL.IC",
+        "companyName": "Marel hf.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "ICE",
+        "symbol": "ORIGO.IC",
+        "companyName": "Origo hf.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "ICE",
+        "symbol": "REGINN.IC",
+        "companyName": "Reginn hf.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "ICE",
+        "symbol": "REITIR.IC",
+        "companyName": "Reitir fasteignaflag hf",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "ICE",
+        "symbol": "SIMINN.IC",
+        "companyName": "Sminn hf.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "ICE",
+        "symbol": "SJOVA.IC",
+        "companyName": "Sjv-Almennar tryggingar hf.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "ICE",
+        "symbol": "TM.IC",
+        "companyName": "TM hf.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "ICE",
+        "symbol": "VIS.IC",
+        "companyName": "Vtryggingaflag slands hf.",
+        "industryOrCategory": "Financial Services"
+    }
+]

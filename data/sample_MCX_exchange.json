@@ -1,0 +1,1202 @@
+[
+    {
+        "exchangeCode": "MCX",
+        "symbol": "ABRD.ME",
+        "companyName": "ABRAU-DURSO PJSC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "AFKS.ME",
+        "companyName": "SISTEMA PJSFC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "AFLT.ME",
+        "companyName": "AEROFLOT PJSC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "AGRO.ME",
+        "companyName": "ROS AGRO PLC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "AKRN.ME",
+        "companyName": "ACRON PJSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "ALBK.ME",
+        "companyName": "BEST EFFORTS BANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "ALNU.ME",
+        "companyName": "ALROSA-NYURBA PJSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "ALRS.ME",
+        "companyName": "ALROSA PJSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "AMEZ.ME",
+        "companyName": "ASHINSKIY METALLUR",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "APTK.ME",
+        "companyName": "PHARMACY CHAIN 36.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "AQUA.ME",
+        "companyName": "RUSSIAN AQUACULTUR",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "ARSA.ME",
+        "companyName": "ARSAGERA ASSET MGM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "BANE.ME",
+        "companyName": "BASHNEFT PJSC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "BANEP.ME",
+        "companyName": "BASHNEFT PJSC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "BELU.ME",
+        "companyName": "BELUGA GROUP",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "BLNG.ME",
+        "companyName": "BELON",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "BRZL.ME",
+        "companyName": "BURYATZOLOTO PJSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "BSPB.ME",
+        "companyName": "BANK ST PETERSBURG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "CHEP.ME",
+        "companyName": "CHELYABINSK PIPE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "CHGZ.ME",
+        "companyName": "RN-WESTERN SIBERIA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "CHMF.ME",
+        "companyName": "SEVERSTAL PJSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "CHMK.ME",
+        "companyName": "CHELYABINSK MET PL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "CNTL.ME",
+        "companyName": "CENTRAL TELEGRAPH",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "DASB.ME",
+        "companyName": "DAGESTAN ENERGY SU",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "DIOD.ME",
+        "companyName": "DIOD PJSC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "DSKY.ME",
+        "companyName": "DETSKY MIR PUBLIC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "DVEC.ME",
+        "companyName": "FAR EASTERN ENERGY",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "DZRDP.ME",
+        "companyName": "DONSKOY FACTORY OF",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "ELTZ.ME",
+        "companyName": "ELECTROZINK PJSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "ENPG.ME",
+        "companyName": "EN+ GROUP INT.PJSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "ENPL.ME",
+        "companyName": "EN+ GROUP INT.PJSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "ENRU.ME",
+        "companyName": "ENEL RUSSIA PJSC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "ETLN.ME",
+        "companyName": "ETALON GROUP PLC",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "FEES.ME",
+        "companyName": "FSK EES PJSC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "FESH.ME",
+        "companyName": "FAR-EASTERN SHIPPI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "FIVE.ME",
+        "companyName": "X5 RETAIL GROUP NV",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "GAZA.ME",
+        "companyName": "GAZ PUBLIC JOINT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "GAZAP.ME",
+        "companyName": "GAZ PUBLIC JOINT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "GAZP.ME",
+        "companyName": "GAZPROM PJSC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "GCHE.ME",
+        "companyName": "CHERKIZOVO GROUP",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "GEMA.ME",
+        "companyName": "INTL MED CNTR OF B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "GMKN.ME",
+        "companyName": "MMC NORILSK NICKEL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "GTLC.ME",
+        "companyName": "GAS TO LIQUID PJSC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "GTRK.ME",
+        "companyName": "GLOBALTRUCK MGMT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "HALS.ME",
+        "companyName": "HALS-DEVELOPMENT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "HIMCP.ME",
+        "companyName": "KHIMPROM PJSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "HYDR.ME",
+        "companyName": "RUSHYDRO PJSC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "IRAO.ME",
+        "companyName": "INTER RAO UES PJSC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "ISKJ.ME",
+        "companyName": "HUMAN STEM CELLS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "JNOS.ME",
+        "companyName": "SLAVNEFT YAROSLAVN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "JNOSP.ME",
+        "companyName": "SLAVNEFT YAROSLAVN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KAZT.ME",
+        "companyName": "KUIBYSHEVAZOT PJSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KAZTP.ME",
+        "companyName": "KUIBYSHEVAZOT PJSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KBSB.ME",
+        "companyName": "TNS ENERGO KUBAN",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KBTK.ME",
+        "companyName": "KUZBASSKAYA TOP CO",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KCHE.ME",
+        "companyName": "KAMCHATSKENERGO P",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KCHEP.ME",
+        "companyName": "KAMCHATSKENERGO P",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KGKC.ME",
+        "companyName": "KURGAN GENERATION",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KGKCP.ME",
+        "companyName": "KURGAN GENERATION",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KLSB.ME",
+        "companyName": "KALUGA POWER SALE",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KMAZ.ME",
+        "companyName": "KAMAZ PTC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KMEZ.ME",
+        "companyName": "KOVROV MECHANICAL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KOGK.ME",
+        "companyName": "KORSHYNOV MINING",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KRKN.ME",
+        "companyName": "SARATOV OIL REFINE",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KRKOP.ME",
+        "companyName": "KRASNY KOTELSHCHIK",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KROT.ME",
+        "companyName": "KRASNYJ OCTYABR",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KROTP.ME",
+        "companyName": "KRASNYJ OCTYABR",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KRSB.ME",
+        "companyName": "KRASNOYARSKENERGOS",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KRSBP.ME",
+        "companyName": "KRASNOYARSKENERGOS",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KTSB.ME",
+        "companyName": "KOSTROMSKAYA SBYTO",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KTSBP.ME",
+        "companyName": "KOSTROMSKAYA SBYTO",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KUBE.ME",
+        "companyName": "KUBANENERGO PJSC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KUZB.ME",
+        "companyName": "KUZNETSKY BANK PUB",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KZOS.ME",
+        "companyName": "ORGANICHESKY SINTE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "KZOSP.ME",
+        "companyName": "ORGANICHESKY SINTE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "LKOH.ME",
+        "companyName": "OIL CO LUKOIL PJSC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "LNTA.ME",
+        "companyName": "LENTA PLC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "LNZL.ME",
+        "companyName": "LENZOLOTO PJSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "LNZLP.ME",
+        "companyName": "LENZOLOTO PJSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "LSNGP.ME",
+        "companyName": "LENENERGO PJSC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "LSRG.ME",
+        "companyName": "LSR GROUP PJSC",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "LVHK.ME",
+        "companyName": "LEVENHUK AO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "MAGEP.ME",
+        "companyName": "MAGADANENERGO PJSC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "MAGN.ME",
+        "companyName": "MAGNITOGORSK IRON&",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "MFGS.ME",
+        "companyName": "SLAVNEFT-MEGIONNEF",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "MGNT.ME",
+        "companyName": "MAGNIT PJSC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "MGTS.ME",
+        "companyName": "MOSCOW CITY TELEPH",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "MISBP.ME",
+        "companyName": "TNS ENERGO MARI EL",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "MOEX.ME",
+        "companyName": "MOSCOW EXCHANGE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "MRKK.ME",
+        "companyName": "IDGC NTH CAUC PJSC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "MRKP.ME",
+        "companyName": "IDGC CENTR & VOLGA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "MRKU.ME",
+        "companyName": "MRSK URALA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "MRKV.ME",
+        "companyName": "IDGC OF VOLGA PJSC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "MRKZ.ME",
+        "companyName": "IDGC OF NORTH WEST",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "MRSB.ME",
+        "companyName": "MORDOVIA ENERGY RE",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "MSNG.ME",
+        "companyName": "MOSENERGO PJSC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "MSRS.ME",
+        "companyName": "MOSCOW UNITED ELEC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "MSST.ME",
+        "companyName": "MULTISISTEMA PJSC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "MSTT.ME",
+        "companyName": "MOSTOTREST PJSC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "MTLR.ME",
+        "companyName": "MECHEL PJSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "MTLRP.ME",
+        "companyName": "MECHEL PJSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "MTSS.ME",
+        "companyName": "MTS PJSC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "MVID.ME",
+        "companyName": "M VIDEO PJSC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "NAUK.ME",
+        "companyName": "NPO NAUKA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "NFAZ.ME",
+        "companyName": "NEFAZ PTC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "NKHP.ME",
+        "companyName": "NOVOROSSIYSK GRAIN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "NKNC.ME",
+        "companyName": "NIZHNEKAMSKNEFTEK",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "NKNCP.ME",
+        "companyName": "NIZHNEKAMSKNEFTEK",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "NLMK.ME",
+        "companyName": "NOVOLIPETSK STEEL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "NMTP.ME",
+        "companyName": "NOVOROSSIYSK COMME",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "NNSBP.ME",
+        "companyName": "TNS ENERGO NN PJSC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "NVTK.ME",
+        "companyName": "NOVATEK PJSC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "OBUV.ME",
+        "companyName": "OR PUB JOINT STK C",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "ODVA.ME",
+        "companyName": "MEDIAHOLDING PJSC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "OGKB.ME",
+        "companyName": "OGK-2 PJSC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "OMZZP.ME",
+        "companyName": "UNITED HEAVY MACH",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "OPIN.ME",
+        "companyName": "INGRAD PJSC",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "PAZA.ME",
+        "companyName": "PAVLOVO BUS PJSC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "PHOR.ME",
+        "companyName": "PHOSAGRO PJSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "PIKK.ME",
+        "companyName": "PIK GROUP PJSC",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "PLZL.ME",
+        "companyName": "POLYUS PJSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "PMSB.ME",
+        "companyName": "PERM ENERGY SUPPLY",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "POLY.ME",
+        "companyName": "POLYMETAL INTL PLC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "PRFN.ME",
+        "companyName": "CHELYABINSK PLANT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "PRMB.ME",
+        "companyName": "PRIMORYE COMM BANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "PRTK.ME",
+        "companyName": "PROTEK PJSC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "QIWI.ME",
+        "companyName": "QIWI PLC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "RASP.ME",
+        "companyName": "RASPADSKAYA PJSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "RBCM.ME",
+        "companyName": "RBC PJSC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "RGSS.ME",
+        "companyName": "ROSGOSSTRAKH INS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "RKKE.ME",
+        "companyName": "ENERGIA ROCKET AND",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "RLMNP.ME",
+        "companyName": "ROLLMAN GROUP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "RNFT.ME",
+        "companyName": "RUSSNEFT PJSC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "ROLO.ME",
+        "companyName": "RUSOLOVO PJSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "ROSB.ME",
+        "companyName": "ROSBANK PJSC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "ROSN.ME",
+        "companyName": "ROSNEFT OIL CO",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "RSTI.ME",
+        "companyName": "ROSSETI PJSC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "RSTIP.ME",
+        "companyName": "ROSSETI PJSC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "RTGZ.ME",
+        "companyName": "GAZPROM GA ROSTOV-",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "RTKM.ME",
+        "companyName": "ROSTELECOM PJSC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "RTKMP.ME",
+        "companyName": "ROSTELECOM PJSC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "RUAL.ME",
+        "companyName": "UNITED COMPANY RUS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "RUGR.ME",
+        "companyName": "RUSGRAIN HOLDING",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "RUSP.ME",
+        "companyName": "RUSPOLYMET PJSC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "RZSB.ME",
+        "companyName": "RYAZANENERGOSBYT",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "SBER.ME",
+        "companyName": "SBERBANK OF RUSSIA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "SBERP.ME",
+        "companyName": "SBERBANK OF RUSSIA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "SELG.ME",
+        "companyName": "SELIGDAR PJSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "SELGP.ME",
+        "companyName": "SELIGDAR PJSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "SIBG.ME",
+        "companyName": "SIBERIAN GOSTINEC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "SIBN.ME",
+        "companyName": "GAZPROM NEFT PJSC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "SNGS.ME",
+        "companyName": "SURGUTNEFTEGAS PJS",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "SNGSP.ME",
+        "companyName": "SURGUTNEFTEGAS PJS",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "SVAV.ME",
+        "companyName": "SOLLERS PJSC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "SZPR.ME",
+        "companyName": "NORTH-WESTERN SHIP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "TANL.ME",
+        "companyName": "TANTAL PJSC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "TASB.ME",
+        "companyName": "TAMBOV POWER SUPPL",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "TATN.ME",
+        "companyName": "TATNEFT PJSC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "TATNP.ME",
+        "companyName": "TATNEFT PJSC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "TCSG.ME",
+        "companyName": "TCS GROUP HOLDING",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "TGKA.ME",
+        "companyName": "TGC-1 PJSC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "TGKB.ME",
+        "companyName": "TERRITORIAL GENER",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "TGKBP.ME",
+        "companyName": "TERRITORIAL GENER",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "TGKD.ME",
+        "companyName": "QUADRA-POWER GENER",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "TGKDP.ME",
+        "companyName": "QUADRA-POWER GENER",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "TGKN.ME",
+        "companyName": "TGC-14 PJSC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "TNSE.ME",
+        "companyName": "TNS ENERGO PUBLIC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "TORSP.ME",
+        "companyName": "TOMSK DISTRIBUTION",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "TRCN.ME",
+        "companyName": "TRANSCONTAINER",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "TRMK.ME",
+        "companyName": "TMK PAO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "TRNFP.ME",
+        "companyName": "TRANSNEFT PJSC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "TTLK.ME",
+        "companyName": "TATTELECOM PJSC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "TUZA.ME",
+        "companyName": "TUIMAZINSKIY ZAVOD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "UKUZ.ME",
+        "companyName": "SOUTHERN KUZBASS C",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "UNKL.ME",
+        "companyName": "SOUTHERN URALS NIC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "UPRO.ME",
+        "companyName": "UNIPRO PJSC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "URKZ.ME",
+        "companyName": "URALS STAMPINGS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "USBN.ME",
+        "companyName": "BANK URALSIB PJSC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "UTAR.ME",
+        "companyName": "UTAIR AVIATION",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "UWGN.ME",
+        "companyName": "UNITED WAGON COMPA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "VDSB.ME",
+        "companyName": "VLADIMIR POWER SAL",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "VGSB.ME",
+        "companyName": "VOLGOGRADENERGOSBY",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "VJGZ.ME",
+        "companyName": "VARYOGANNEFTEGAZ P",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "VJGZP.ME",
+        "companyName": "VARYOGANNEFTEGAZ P",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "VLHZ.ME",
+        "companyName": "VLADIMIR CHEMICAL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "VRSB.ME",
+        "companyName": "TNS ENERGO VORONEZ",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "VRSBP.ME",
+        "companyName": "TNS ENERGO VORONEZ",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "VSMO.ME",
+        "companyName": "VSMPO-AVISMA CORPO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "VSYD.ME",
+        "companyName": "VYBORG SHIPYARD P",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "VSYDP.ME",
+        "companyName": "VYBORG SHIPYARD P",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "VTBR.ME",
+        "companyName": "VTB BANK PJSC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "VZRZP.ME",
+        "companyName": "VOZROZHDENIE BANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "WTCM.ME",
+        "companyName": "WORLD TRADE CENTER",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "WTCMP.ME",
+        "companyName": "WORLD TRADE CENTER",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "YKEN.ME",
+        "companyName": "YAKUTSKENERGO PJSC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "YKENP.ME",
+        "companyName": "YAKUTSKENERGO PJSC",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "YNDX.ME",
+        "companyName": "YANDEX N.V.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "YRSB.ME",
+        "companyName": "TNS ENERGO YAROSAV",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "ZILL.ME",
+        "companyName": "LIKHACHOV PLANT PJ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCX",
+        "symbol": "ZVEZ.ME",
+        "companyName": "ZVEZDA PJSC",
+        "industryOrCategory": "Consumer Cyclical"
+    }
+]

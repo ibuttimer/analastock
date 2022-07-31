@@ -1,0 +1,182 @@
+[
+    {
+        "exchangeCode": "BUD",
+        "symbol": "4IG.BD",
+        "companyName": "4IG NYILVANOSAN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "ALTEO.BD",
+        "companyName": "ALTEO ENERGIASZOLG",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "AUTOW.BD",
+        "companyName": "AUTOWALLIS PLC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "BASF.BD",
+        "companyName": "BASF SE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "BIF.BD",
+        "companyName": "BIF",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "BMW.BD",
+        "companyName": "BAYER MOTOREN WERK",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "CIG.BD",
+        "companyName": "CIG PANNONIA LIFE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "DAIML.BD",
+        "companyName": "DAIMLER AG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "DBANK.BD",
+        "companyName": "DEUTSCHE BANK AG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "EHEP.BD",
+        "companyName": "ELSO HAZAI ENERGIA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "EMASZ.BD",
+        "companyName": "EMASZ",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "EON.BD",
+        "companyName": "E.ON SE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "EST.BD",
+        "companyName": "EST MEDIA HOLDING",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "FORRA.BD",
+        "companyName": "FORRAS TST & INV",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "FUTUR.BD",
+        "companyName": "FUTURAQUA MINERAL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "GSP.BD",
+        "companyName": "GRAPHISOFT PARK SE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "HU0000009907.BD",
+        "companyName": "KARPOTLASI JEGY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "KPACK.BD",
+        "companyName": "KARTONPACK",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "KSOFT.BD",
+        "companyName": "KEY SOFT COMPUTER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "MAST.BD",
+        "companyName": "MASTERPLAST SHARE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "MOL.BD",
+        "companyName": "MOL HUNGARIAN OIL",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "MTEL.BD",
+        "companyName": "MAGYAR TELEKOM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "OPUS.BD",
+        "companyName": "OPUS GLOBAL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "OTP.BD",
+        "companyName": "OTP BANK PLC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "OTT1.BD",
+        "companyName": "OTT-ONE NYRT",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "RABA.BD",
+        "companyName": "RABA JARMUIPARI HG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "RICHT.BD",
+        "companyName": "GEDEON RICHTER PLC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "THYSS.BD",
+        "companyName": "THYSSENKRUPP AG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "WABS.BD",
+        "companyName": "WABERER'S INTERNAT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUD",
+        "symbol": "ZWACK.BD",
+        "companyName": "ZWACK UNICUM CO",
+        "industryOrCategory": "Consumer Defensive"
+    }
+]

@@ -1,0 +1,788 @@
+[
+    {
+        "exchangeCode": "SGO",
+        "symbol": "AAPL.SN",
+        "companyName": "APPLE INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "AAXJ.SN",
+        "companyName": "ISHARES TRUST",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "ABT.SN",
+        "companyName": "ABBOTT LABS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "AESGENER.SN",
+        "companyName": "AES GENER SA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "AGUAS-A.SN",
+        "companyName": "AGUAS ANDINAS S.A.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "ALMENDRAL.SN",
+        "companyName": "ALMENDRAL SA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "AMZN.SN",
+        "companyName": "AMAZON COM INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "ANDINA-A.SN",
+        "companyName": "EMBOTELLA ANDINA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "ANDINA-B.SN",
+        "companyName": "EMBOTELLA ANDINA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "ANTARCHILE.SN",
+        "companyName": "ANTARCHILE SA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "AUSTRALIS.SN",
+        "companyName": "AUSTRALIS SEAFOODS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "BA.SN",
+        "companyName": "BOEING CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "BANVIDA.SN",
+        "companyName": "BANVIDA SA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "BCI.SN",
+        "companyName": "BCO CREDITO INVERS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "BESALCO.SN",
+        "companyName": "BESALCO SA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "BLUMAR.SN",
+        "companyName": "BLUMAR SA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "BSANTANDER.SN",
+        "companyName": "BCO SANTANDER-CHIL",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CAMANCHACA.SN",
+        "companyName": "COMPANIA PESQUERA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CAP.SN",
+        "companyName": "CAP SA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CENCOSUD.SN",
+        "companyName": "CENCOSUD SA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIADAG-A.SN",
+        "companyName": "LARRAIN VIAL ACT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIAFESA.SN",
+        "companyName": "LARRAIN VIAL ACT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIAMDDC-E.SN",
+        "companyName": "AMERIS CAP ADM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIBCHBLEN.SN",
+        "companyName": "BANCHILE ADMINISTR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIBCHDC35.SN",
+        "companyName": "BANCHILE ADMINISTR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIBCHDECH.SN",
+        "companyName": "BANCHILE ADMINISTR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIBCHDEGB.SN",
+        "companyName": "BANCHILE ADMINISTR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIBCHMPGB.SN",
+        "companyName": "BANCHILE ADMINISTR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIBCHMPUS.SN",
+        "companyName": "BANCHILE ADMINISTR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIBDEUDAN.SN",
+        "companyName": "BICE INVER ADMINIS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIBPDCCHA.SN",
+        "companyName": "BTG PACTUAL CHILE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIBTGCYFA.SN",
+        "companyName": "BTG PACTUAL CHILE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIBTGRCA.SN",
+        "companyName": "BTG PACTUAL CHILE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIBTGRRA.SN",
+        "companyName": "BTG PACTUAL CHILE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIDHS1.SN",
+        "companyName": "LARRAIN VIAL ACT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIEAEQARA.SN",
+        "companyName": "EUROAMERICA AGF SA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIETFCC.SN",
+        "companyName": "SINGULAR ASSET M A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIIMDLAT.SN",
+        "companyName": "MONEDA SA ADM GEN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFILCPCA-E.SN",
+        "companyName": "LINK CAPITAL PARTN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFILEASA.SN",
+        "companyName": "SARTOR ADM GEN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFILVMXA-E.SN",
+        "companyName": "LARRAIN VIAL ACT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFILVPARI1.SN",
+        "companyName": "LARRAIN VIAL ACT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIMBDPA-E.SN",
+        "companyName": "MBI ADMIN GEN FDO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIMBIDA-A.SN",
+        "companyName": "MBI ADMIN GEN FDO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIMBIDT-B.SN",
+        "companyName": "MBI ADMIN GEN FDO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIMBIDT-I.SN",
+        "companyName": "MBI ADMIN GEN FDO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIMBIGL-A.SN",
+        "companyName": "MBI ADMIN GEN FDO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIMBIGL-C.SN",
+        "companyName": "MBI ADMIN GEN FDO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIMBIRF-A.SN",
+        "companyName": "MBI ADMIN GEN FDO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIMBIRFUS.SN",
+        "companyName": "MBI ADMIN GEN FDO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIMBIRT-A.SN",
+        "companyName": "MBI ADMIN GEN FDO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIMDCHI.SN",
+        "companyName": "MONEDA SA ADM GEN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIMIDMA-E.SN",
+        "companyName": "SARTOR ADM GEN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIMRCLP.SN",
+        "companyName": "MONEDA SA ADM GEN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIMSC.SN",
+        "companyName": "MONEDA SA ADM GEN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIMSIGLO.SN",
+        "companyName": "BICE INVER ADMINIS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFINHRFLA.SN",
+        "companyName": "NEVASA HMC S.A.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFINRENTAS.SN",
+        "companyName": "INDEPENDENCIA ADM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIPIONERO.SN",
+        "companyName": "MONEDA SA ADM GEN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIQAC.SN",
+        "companyName": "QUEST ADM GEN FD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIQDIA-E.SN",
+        "companyName": "QUEST ADM GEN FD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIQGE-A.SN",
+        "companyName": "QUEST ADM GEN FD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIQRGH.SN",
+        "companyName": "QUEST ADM GEN FD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFISIFB107.SN",
+        "companyName": "ADM GEN FDO SECURI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFITACTI-A.SN",
+        "companyName": "SARTOR ADM GEN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFITACTI-E.SN",
+        "companyName": "SARTOR ADM GEN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFIXLCDA-E.SN",
+        "companyName": "XLC ADM GEN FD SA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CFMITNIPSA.SN",
+        "companyName": "ITAU ADM GEN FD SA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CGEGAS.SN",
+        "companyName": "CGE GAS NATURAL SA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CHILE.SN",
+        "companyName": "BANCO DE CHILE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CMPC.SN",
+        "companyName": "EMPRESAS CMPC SA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "COLBUN.SN",
+        "companyName": "COLBUN S.A.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "CONCHATORO.SN",
+        "companyName": "VINA CONCHA Y TORO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "COPEC.SN",
+        "companyName": "EMPRESAS COPEC SA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "ECL.SN",
+        "companyName": "ENGIE ENERGIA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "EDELPA.SN",
+        "companyName": "ENVASES PACIFICO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "EISA.SN",
+        "companyName": "ECHEVERRIA IZQ SA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "EMBONOR-B.SN",
+        "companyName": "COCA COLA EMBONOR",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "ENAEX.SN",
+        "companyName": "ENAEX SA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "ENELAM.SN",
+        "companyName": "ENEL AMERICAS SA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "ENELCHILE.SN",
+        "companyName": "ENEL CHILE SA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "ENELGXCH.SN",
+        "companyName": "ENEL GENERACION CH",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "ENJOY.SN",
+        "companyName": "ENJOY SA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "ENTEL.SN",
+        "companyName": "EMP NAC TELECOMUNI",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "ESSBIO-C.SN",
+        "companyName": "ESSBIO SA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "FALABELLA.SN",
+        "companyName": "S A C I FALABELLA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "GASCO.SN",
+        "companyName": "EMPRESAS GASCO SA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "HABITAT.SN",
+        "companyName": "AFP HABITAT SA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "HF.SN",
+        "companyName": "HORTIFRUT S.A.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "HITES.SN",
+        "companyName": "EMPRESAS HITES S A",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "IAM.SN",
+        "companyName": "INVERSIONES AGUAS",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "IANSA.SN",
+        "companyName": "EMPRESAS IANSA SA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "IAU.SN",
+        "companyName": "ISHARES GOLD TRUST",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "ILC.SN",
+        "companyName": "INV LA CONSTRUCCIO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "INDISA.SN",
+        "companyName": "INST DIAGNOSTICO",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "JNJ.SN",
+        "companyName": "JOHNSON & JOHNSON",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "LAS-CONDES.SN",
+        "companyName": "CLINICA LAS CONDES",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "LTM.SN",
+        "companyName": "LATAM AIRLINES GP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "MALLPLAZA.SN",
+        "companyName": "PLAZA SA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "MANQUEHUE.SN",
+        "companyName": "INMOBIL MANQUEHUE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "MARBELLACC.SN",
+        "companyName": "MARBELLA COUNTRY C",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "MASISA.SN",
+        "companyName": "MASISA S.A.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "MO.SN",
+        "companyName": "ALTRIA GROUP INC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "MOLLER.SN",
+        "companyName": "EMP CONSTR MOLLER",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "MOLYMET.SN",
+        "companyName": "MOLIBDENOS Y METAL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "MRK.SN",
+        "companyName": "MERCK & CO INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "MSFT.SN",
+        "companyName": "MICROSOFT CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "MULTIFOODS.SN",
+        "companyName": "MULTIEXPORT FOODS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "NKE.SN",
+        "companyName": "NIKE INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "NORTEGRAN.SN",
+        "companyName": "NORTE GRANDE SA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "NUEVAPOLAR.SN",
+        "companyName": "EMPRESAS LA POLAR",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "ORO-BLANCO.SN",
+        "companyName": "SOCD INV ORO BLANC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "PARAUCO.SN",
+        "companyName": "PARQUE ARAUCO SA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "PASUR.SN",
+        "companyName": "FORESTAL PACIFICO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "PFE.SN",
+        "companyName": "PFIZER INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "PUCOBRE.SN",
+        "companyName": "SOCIEDAD PUNTA DEL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "QUINENCO.SN",
+        "companyName": "QUINENCO SA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "RIPLEY.SN",
+        "companyName": "RIPLEY CORP SA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "SALMOCAM.SN",
+        "companyName": "SALMONES CAMANCHAC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "SCHWAGER.SN",
+        "companyName": "SCHWAGER ENERGY SA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "SECURITY.SN",
+        "companyName": "GRUPO SECURITY SA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "SMSAAM.SN",
+        "companyName": "SOCIEDAD MATRIZ SA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "SONDA.SN",
+        "companyName": "SONDA S.A.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "SQM-A.SN",
+        "companyName": "QUIMICA Y MINERA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "SQM-B.SN",
+        "companyName": "QUIMICA Y MINERA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "TRICOT.SN",
+        "companyName": "EMPRESAS TRICOT SA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "V.SN",
+        "companyName": "VISA INC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "VAPORES.SN",
+        "companyName": "SUDAMERICANA VAPOR",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "VENTANAS.SN",
+        "companyName": "PUERTO VENTANAS SA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "WATTS.SN",
+        "companyName": "WATTS SA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SGO",
+        "symbol": "ZOFRI.SN",
+        "companyName": "ZONA FRANCA IQUIQU",
+        "industryOrCategory": "Real Estate"
+    }
+]

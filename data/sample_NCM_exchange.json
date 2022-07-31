@@ -1,0 +1,4196 @@
+[
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ABEO",
+        "companyName": "Abeona Therapeutics Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ABIO",
+        "companyName": "ARCA biopharma, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ACAMU",
+        "companyName": "Acamar Partners Acquisition Cor",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ACER",
+        "companyName": "Acer Therapeutics Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ACHV",
+        "companyName": "Achieve Life Sciences, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ACNB",
+        "companyName": "ACNB Corporation",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ACST",
+        "companyName": "Acasti Pharma, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ADIL",
+        "companyName": "Adial Pharmaceuticals, Inc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ADMP",
+        "companyName": "Adamis Pharmaceuticals Corporat",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AEHR",
+        "companyName": "Aehr Test Systems",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AEMD",
+        "companyName": "Aethlon Medical, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AEYE",
+        "companyName": "AudioEye, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AEZS",
+        "companyName": "Aeterna Zentaris Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AFH",
+        "companyName": "Atlas Financial Holdings, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AGMH",
+        "companyName": "AGM Group Holdings Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AGRX",
+        "companyName": "Agile Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AHPI",
+        "companyName": "Allied Healthcare Products, Inc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AIHS",
+        "companyName": "Senmiao Technology Limited",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AIRG",
+        "companyName": "Airgain, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AKER",
+        "companyName": "Akers Biosciences Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AKTS",
+        "companyName": "Akoustis Technologies, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AKTX",
+        "companyName": "Akari Therapeutics Plc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ALAC",
+        "companyName": "Alberton Acquisition Corporatio",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ALACR",
+        "companyName": "Alberton Acquisition Corporatio",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ALBO",
+        "companyName": "Albireo Pharma, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ALDX",
+        "companyName": "Aldeyra Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ALGR",
+        "companyName": "Allegro Merger Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ALGRR",
+        "companyName": "Allegro Merger Corp.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ALRN",
+        "companyName": "Aileron Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ALRS",
+        "companyName": "Alerus Financial Corporation",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ALYA",
+        "companyName": "Alithya Group inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AMCI",
+        "companyName": "AMCI Acquisition Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AMEH",
+        "companyName": "Apollo Medical Holdings, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AMRH",
+        "companyName": "Ameri Holdings, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ANCN",
+        "companyName": "Anchiano Therapeutics Ltd.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ANDA",
+        "companyName": "Andina Acquisition Corp. III",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ANDAR",
+        "companyName": "Andina Acquisition Corp. III",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ANDAU",
+        "companyName": "Andina Acquisition Corp. III",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ANIX",
+        "companyName": "Anixa Biosciences, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ANY",
+        "companyName": "Sphere 3D Corp.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "APOP",
+        "companyName": "Cellect Biotechnology Ltd.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "APPS",
+        "companyName": "Digital Turbine, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "APTO",
+        "companyName": "Aptose Biosciences, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "APVO",
+        "companyName": "Aptevo Therapeutics Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AQB",
+        "companyName": "AquaBounty Technologies, Inc.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AQMS",
+        "companyName": "Aqua Metals, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ARDS",
+        "companyName": "Aridis Pharmaceuticals Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AREC",
+        "companyName": "American Resources Corporation",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ARPO",
+        "companyName": "Aerpio Pharmaceuticals, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ARTL",
+        "companyName": "ARTELO BIOSCIENCES INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ARTW",
+        "companyName": "Art's-Way Manufacturing Co., In",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ARYA",
+        "companyName": "ARYA Sciences Acquisition Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ARYAU",
+        "companyName": "ARYA Sciences Acquisition Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ASTC",
+        "companyName": "Astrotech Corporation",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ATHE",
+        "companyName": "Alterity Therapeutics Limited",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ATHX",
+        "companyName": "Athersys, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ATLO",
+        "companyName": "Ames National Corporation",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ATOM",
+        "companyName": "Atomera Incorporated",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ATOS",
+        "companyName": "Atossa Genetics Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ATRS",
+        "companyName": "Antares Pharma, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ATXI",
+        "companyName": "Avenue Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AUTO",
+        "companyName": "AutoWeb, Inc.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AVCO",
+        "companyName": "Avalon GloboCare Corp.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AVEO",
+        "companyName": "AVEO Pharmaceuticals, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AVGR",
+        "companyName": "Avinger, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AVXL",
+        "companyName": "Anavex Life Sciences Corp.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AXAS",
+        "companyName": "Abraxas Petroleum Corporation",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AXDX",
+        "companyName": "Accelerate Diagnostics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AXGN",
+        "companyName": "Axogen, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "AZRX",
+        "companyName": "AzurRx BioPharma, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BASI",
+        "companyName": "Bioanalytical Systems, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BBCP",
+        "companyName": "Concrete Pumping Holdings, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BCDA",
+        "companyName": "BIOCARDIA INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BCLI",
+        "companyName": "Brainstorm Cell Therapeutics In",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BCOW",
+        "companyName": "1895 Bancorp of Wisconsin, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BCTF",
+        "companyName": "Bancorp 34, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BFC",
+        "companyName": "Bank First National Corporation",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BFRA",
+        "companyName": "Biofrontera AG American Deposit",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BHTG",
+        "companyName": "BioHiTech Global, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BIMI",
+        "companyName": "NF Energy Saving Corporation",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BIOC",
+        "companyName": "Biocept, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BIOL",
+        "companyName": "Biolase, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BKSC",
+        "companyName": "Bank of South Carolina Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BKYI",
+        "companyName": "BIO-key International, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BLFS",
+        "companyName": "BioLife Solutions, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BLIN",
+        "companyName": "Bridgeline Digital, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BLNK",
+        "companyName": "Blink Charging Co.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BLRX",
+        "companyName": "BioLineRx Ltd.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BMRA",
+        "companyName": "Biomerica, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BMRC",
+        "companyName": "Bank of Marin Bancorp",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BNGO",
+        "companyName": "Bionano Genomics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BNSO",
+        "companyName": "Bonso Electronics International",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BNTC",
+        "companyName": "Benitec Biopharma Limited",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BOMN",
+        "companyName": "Boston Omaha Corporation",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BOSC",
+        "companyName": "B.O.S. Better Online Solutions",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BOTJ",
+        "companyName": "Bank of the James Financial Gro",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BOXL",
+        "companyName": "Boxlight Corporation",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BPTH",
+        "companyName": "Bio-Path Holdings, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BRPA",
+        "companyName": "Big Rock Partners Acquisition C",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BRPAR",
+        "companyName": "Big Rock Partners Acquisition C",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BSGM",
+        "companyName": "BioSig Technologies, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BSQR",
+        "companyName": "BSQUARE Corporation",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BTAI",
+        "companyName": "BioXcel Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BURG",
+        "companyName": "Chanticleer Holdings, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BVSN",
+        "companyName": "BroadVision, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BVXV",
+        "companyName": "BiondVax Pharmaceuticals Ltd.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BWB",
+        "companyName": "Bridgewater Bancshares, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BWEN",
+        "companyName": "Broadwind Energy, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BYFC",
+        "companyName": "Broadway Financial Corporation",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "BYSI",
+        "companyName": "BeyondSpring, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CAAS",
+        "companyName": "China Automotive Systems, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CAPR",
+        "companyName": "Capricor Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CARV",
+        "companyName": "Carver Bancorp, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CASI",
+        "companyName": "CASI Pharmaceuticals, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CATC",
+        "companyName": "Cambridge Bancorp",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CBAT",
+        "companyName": "CBAK Energy Technology, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CBIO",
+        "companyName": "Catalyst Biosciences, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CBLI",
+        "companyName": "Cleveland BioLabs, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CBMB",
+        "companyName": "CBM Bancorp, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CCCL",
+        "companyName": "China Ceramics Co., Ltd.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CCRC",
+        "companyName": "China Customer Relations Center",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CDEV",
+        "companyName": "Centennial Resource Development",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CDMO",
+        "companyName": "Avid Bioservices, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CDMOP",
+        "companyName": "Avid Bioservices, Inc. - 10.50%",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CELH",
+        "companyName": "Celsius Holdings, Inc.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CEMI",
+        "companyName": "Chembio Diagnostics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CETXP",
+        "companyName": "Cemtrex Inc. - Series 1 Preferr",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CFBI",
+        "companyName": "Community First Bancshares, Inc",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CFFA",
+        "companyName": "CF Finance Acquisition Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CFFAU",
+        "companyName": "CF Finance Acquisition Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CGIX",
+        "companyName": "Cancer Genetics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CHCI",
+        "companyName": "Comstock Holding Companies, Inc",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CHEK",
+        "companyName": "Check-Cap Ltd.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CHFS",
+        "companyName": "CHF Solutions, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CHNR",
+        "companyName": "China Natural Resources, Inc.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CIVB",
+        "companyName": "Civista Bancshares, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CJJD",
+        "companyName": "China Jo-Jo Drugstores, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CKPT",
+        "companyName": "Checkpoint Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CLBS",
+        "companyName": "Caladrius Biosciences, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CLDB",
+        "companyName": "Cortland Bancorp",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CLDX",
+        "companyName": "Celldex Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CLGN",
+        "companyName": "CollPlant Holdings, Ltd.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CLRB",
+        "companyName": "Cellectar Biosciences, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CLWT",
+        "companyName": "Euro Tech Holdings Company Limi",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CNAT",
+        "companyName": "Conatus Pharmaceuticals Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CNET",
+        "companyName": "ChinaNet Online Holdings, Inc.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CNNB",
+        "companyName": "CINCINNATI BANCORP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "COCP",
+        "companyName": "Cocrystal Pharma, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CODA",
+        "companyName": "Coda Octopus Group, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CODX",
+        "companyName": "Co-Diagnostics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "COFS",
+        "companyName": "CHOICEONE FINANCIAL SERVICES IN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "COOP",
+        "companyName": "Mr. Cooper Group Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CORT",
+        "companyName": "Corcept Therapeutics Incorporat",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CORV",
+        "companyName": "Correvio Pharma Corp.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CPRX",
+        "companyName": "Catalyst Pharmaceuticals, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CPSH",
+        "companyName": "CPS Technologies Corp.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CPST",
+        "companyName": "Capstone Turbine Corporation",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CPTAG",
+        "companyName": "Capitala Finance Corp. - 5.75% ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CREG",
+        "companyName": "China Recycling Energy Corporat",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CREX",
+        "companyName": "Creative Realities, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CRSA",
+        "companyName": "CRESCENT ACQUISITION CORP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CRSAU",
+        "companyName": "Crescent Acquisition Corp",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CTHR",
+        "companyName": "Charles & Colvard Ltd.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CTIC",
+        "companyName": "CTI BioPharma Corp.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CTRC",
+        "companyName": "Centric Brands Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CTRM",
+        "companyName": "Castor Maritime Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CTXR",
+        "companyName": "Citius Pharmaceuticals, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CUE",
+        "companyName": "Cue Biopharma, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CUI",
+        "companyName": "CUI Global, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CVCY",
+        "companyName": "Central Valley Community Bancor",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CVV",
+        "companyName": "CVD Equipment Corporation",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CYCC",
+        "companyName": "Cyclacel Pharmaceuticals, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CYCCP",
+        "companyName": "Cyclacel Pharmaceuticals, Inc. ",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CYRN",
+        "companyName": "CYREN Ltd.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "CZNC",
+        "companyName": "Citizens & Northern Corp",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "DAIO",
+        "companyName": "Data I/O Corporation",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "DARE",
+        "companyName": "Dare Bioscience, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "DCAR",
+        "companyName": "DropCar, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "DCIX",
+        "companyName": "Performance Shipping Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "DDMX",
+        "companyName": "DD3 Acquisition Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "DENN",
+        "companyName": "Denny's Corporation",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "DFFN",
+        "companyName": "Diffusion Pharmaceuticals Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "DGLY",
+        "companyName": "Digital Ally, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "DJCO",
+        "companyName": "Daily Journal Corp. (S.C.)",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "DLHC",
+        "companyName": "DLH Holdings Corp.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "DLPN",
+        "companyName": "Dolphin Entertainment, Inc.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "DMAC",
+        "companyName": "DiaMedica Therapeutics Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "DRIO",
+        "companyName": "DarioHealth Corp.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "DRRX",
+        "companyName": "DURECT Corporation",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "DTSS",
+        "companyName": "Datasea Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "DUOT",
+        "companyName": "DUOS TECHNOLOGIES GROUP INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "DVAX",
+        "companyName": "Dynavax Technologies Corporatio",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "DYAI",
+        "companyName": "DYADIC INTERNATIONAL INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "DYNT",
+        "companyName": "Dynatronics Corporation",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "DZSI",
+        "companyName": "DASAN Zhone Solutions, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "EARS",
+        "companyName": "Auris Medical Holding Ltd.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "EAST",
+        "companyName": "Eastside Distilling, Inc.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "EDNT",
+        "companyName": "Edison Nation, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "EDRY",
+        "companyName": "EuroDry Ltd.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "EDTX",
+        "companyName": "EdtechX Holdings Acquisition Co",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "EDTXU",
+        "companyName": "EdtechX Holdings Acquisition Co",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "EFOI",
+        "companyName": "Energy Focus, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "EGAN",
+        "companyName": "eGain Corporation",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "EGBN",
+        "companyName": "Eagle Bancorp, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "EKSO",
+        "companyName": "Ekso Bionics Holdings, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ELSE",
+        "companyName": "Electro-Sensors, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ELTK",
+        "companyName": "Eltek Ltd.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "EMCF",
+        "companyName": "Emclaire Financial Corp",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ENG",
+        "companyName": "ENGlobal Corporation",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ENLV",
+        "companyName": "Enlivex Therapeutics Ltd.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ENOB",
+        "companyName": "Enochian Biosciences, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ENT",
+        "companyName": "Global Eagle Entertainment Inc.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ENTX",
+        "companyName": "Entera Bio Ltd.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "EPIX",
+        "companyName": "ESSA Pharma Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ESEA",
+        "companyName": "Euroseas Ltd.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ESQ",
+        "companyName": "Esquire Financial Holdings, Inc",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ESTA",
+        "companyName": "Establishment Labs Holdings Inc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ESXB",
+        "companyName": "Community Bankers Trust Corpora",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "EVFM",
+        "companyName": "Evofem Biosciences, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "EVOK",
+        "companyName": "Evoke Pharma, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "EVOL",
+        "companyName": "Evolving Systems, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "EVSI",
+        "companyName": "ENVISION SOLAR INTERNATIONAL IN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "EXAS",
+        "companyName": "Exact Sciences Corporation",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "EYEG",
+        "companyName": "Eyegate Pharmaceuticals, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "EYEN",
+        "companyName": "Eyenovia, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "EYES",
+        "companyName": "Second Sight Medical Products, ",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FAMI",
+        "companyName": "Farmmi, Inc. Ordinary Shares",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FAT",
+        "companyName": "FAT Brands Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FBIO",
+        "companyName": "Fortress Biotech, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FBIOP",
+        "companyName": "Fortress Biotech, Inc. - 9.375%",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FBSS",
+        "companyName": "Fauquier Bankshares, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FCBP",
+        "companyName": "First Choice Bancorp",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FENC",
+        "companyName": "Fennec Pharmaceuticals Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FFHL",
+        "companyName": "Fuwei Films (Holdings) Co., Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FH",
+        "companyName": "FH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FLIC",
+        "companyName": "The First of Long Island Corpor",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FLL",
+        "companyName": "Full House Resorts, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FLMN",
+        "companyName": "Falcon Minerals Corporation",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FMCI",
+        "companyName": "Forum Merger II Corporation",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FMNB",
+        "companyName": "Farmers National Banc Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FNCB",
+        "companyName": "FNCB Bancorp Inc. Common Stock",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FNJN",
+        "companyName": "Finjan Holdings, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FORK",
+        "companyName": "Fuling Global Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FRAF",
+        "companyName": "Franklin Financial Services Cor",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FRHC",
+        "companyName": "Freedom Holding Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FRSX",
+        "companyName": "Foresight Autonomous Holdings L",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FSBC",
+        "companyName": "FSB Bancorp, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FSBW",
+        "companyName": "FS Bancorp, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FSFG",
+        "companyName": "First Savings Financial Group, ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FTACU",
+        "companyName": "FinTech Acquisition Corp. III",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FTFT",
+        "companyName": "Future FinTech Group Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FUSB",
+        "companyName": "First US Bancshares, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FUV",
+        "companyName": "Arcimoto, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FVE",
+        "companyName": "Five Star Senior Living Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FWP",
+        "companyName": "Forward Pharma A/S",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "FXNC",
+        "companyName": "FIRST NATIONAL CORPORATION(VA)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GALT",
+        "companyName": "Galectin Therapeutics Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GCBC",
+        "companyName": "Greene County Bancorp, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GENE",
+        "companyName": "Genetic Technologies Ltd",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GEVO",
+        "companyName": "Gevo, Inc.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GHSI",
+        "companyName": "Guardion Health Sciences, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GIGM",
+        "companyName": "GigaMedia Limited",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GLBS",
+        "companyName": "Globus Maritime Limited",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GLBZ",
+        "companyName": "Glen Burnie Bancorp",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GLG",
+        "companyName": "China Bat Group, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GLMD",
+        "companyName": "Galmed Pharmaceuticals Ltd.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GMHI",
+        "companyName": "Gores Metropoulos, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GMHIU",
+        "companyName": "Gores Metropoulos, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GNCA",
+        "companyName": "Genocea Biosciences, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GNPX",
+        "companyName": "Genprex, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GNUS",
+        "companyName": "Genius Brands International, In",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GPAQ",
+        "companyName": "Gordon Pointe Acquisition Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GRBK",
+        "companyName": "Green Brick Partners, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GRNQ",
+        "companyName": "Greenpro Capital Corp.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GROW",
+        "companyName": "U.S. Global Investors, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GRWG",
+        "companyName": "GROWGENERATION CORP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GTIM",
+        "companyName": "Good Times Restaurants Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GTYH",
+        "companyName": "GTY Technology Holdings, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GWGH",
+        "companyName": "GWG Holdings, Inc",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "GYRO",
+        "companyName": "Gyrodyne , LLC",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HBMD",
+        "companyName": "Howard Bancorp, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HBP",
+        "companyName": "Huttig Building Products, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HCACU",
+        "companyName": "Hennessy Capital Acquisition Co",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HCCH",
+        "companyName": "HL Acquisitions Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HCCHR",
+        "companyName": "HL Acquisitions Corp.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HDSN",
+        "companyName": "Hudson Technologies, Inc.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HEBT",
+        "companyName": "Hebron Technology Co., Ltd.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HFBL",
+        "companyName": "Home Federal Bancorp, Inc. of L",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HFFG",
+        "companyName": "HF Foods Group Inc.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HGSH",
+        "companyName": "China HGS Real Estate, Inc.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HHHH",
+        "companyName": "Wealthbridge Acquisition Limite",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HHHHR",
+        "companyName": "Wealthbridge Acquisition Limite",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HHHHU",
+        "companyName": "Wealthbridge Acquisition Limite",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HIHO",
+        "companyName": "Highway Holdings Limited",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HJLI",
+        "companyName": "Hancock Jaffe Laboratories, Inc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HNNA",
+        "companyName": "Hennessy Advisors, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HNRG",
+        "companyName": "Hallador Energy Company",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HOTH",
+        "companyName": "Hoth Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HROW",
+        "companyName": "Harrow Health, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HRTX",
+        "companyName": "Heron Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HSDT",
+        "companyName": "Helius Medical Technologies, In",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HSKA",
+        "companyName": "Heska Corporation",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HTBX",
+        "companyName": "Heat Biologics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HTGM",
+        "companyName": "HTG Molecular Diagnostics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HVBC",
+        "companyName": "HV Bancorp, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "HYRE",
+        "companyName": "HyreCar Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ICCH",
+        "companyName": "ICC Holdings, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "IDRA",
+        "companyName": "Idera Pharmaceuticals, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "IDXG",
+        "companyName": "Interpace Diagnostics Group, In",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "IEA",
+        "companyName": "Infrastructure and Energy Alter",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "IMAC",
+        "companyName": "IMAC Holdings, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "IMRN",
+        "companyName": "Immuron Limited",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "IMTE",
+        "companyName": "Integrated Media Technology Lim",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "IMXI",
+        "companyName": "International Money Express, In",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "INMB",
+        "companyName": "INmune Bio Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "INNT",
+        "companyName": "Innovate Biopharmaceuticals, In",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "INSE",
+        "companyName": "Inspired Entertainment, Inc.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "INTG",
+        "companyName": "The Intergroup Corporation",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "IOTS",
+        "companyName": "Adesto Technologies Corporation",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "IPWR",
+        "companyName": "Ideal Power Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "IROQ",
+        "companyName": "IF Bancorp, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ISIG",
+        "companyName": "Insignia Systems, Inc.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ISNS",
+        "companyName": "Image Sensing Systems, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ITMR",
+        "companyName": "Itamar Medical Ltd. - American ",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "JAGX",
+        "companyName": "Jaguar Health, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "JCTCF",
+        "companyName": "Jewett-Cameron Trading Company",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "JFKKU",
+        "companyName": "8i Enterprises Acquisition Corp",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "JRSH",
+        "companyName": "Jerash Holdings (US), Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "JVA",
+        "companyName": "Coffee Holding Co., Inc.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "JYNT",
+        "companyName": "The Joint Corp.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "KBLM",
+        "companyName": "KBL Merger Corp. IV",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "KBSF",
+        "companyName": "KBS Fashion Group Limited",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "KGJI",
+        "companyName": "Kingold Jewelry Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "KIN",
+        "companyName": "Kindred Biosciences, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "KINS",
+        "companyName": "Kingstone Companies, Inc",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "KMPH",
+        "companyName": "KemPharm, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "KTOV",
+        "companyName": "Kitov Pharma Ltd.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "KZIA",
+        "companyName": "Kazia Therapeutics Limited",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LACQ",
+        "companyName": "Leisure Acquisition Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LACQU",
+        "companyName": "Leisure Acquisition Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LAZY",
+        "companyName": "Lazydays Holdings, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LCNB",
+        "companyName": "LCNB Corporation",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LE",
+        "companyName": "Lands' End, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LEDS",
+        "companyName": "SemiLEDS Corporation",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LFAC",
+        "companyName": "LF Capital Acquistion Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LFACU",
+        "companyName": "LF Capital Acquistion Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LFVN",
+        "companyName": "Lifevantage Corporation",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LIFE",
+        "companyName": "aTyr Pharma, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LIND",
+        "companyName": "Lindblad Expeditions Holdings I",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LIQT",
+        "companyName": "LiqTech International, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LIVE",
+        "companyName": "Live Ventures Incorporated",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LIVX",
+        "companyName": "LiveXLive Media, Inc. Common St",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LJPC",
+        "companyName": "La Jolla Pharmaceutical Company",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LKCO",
+        "companyName": "Luokung Technology Corp",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LLIT",
+        "companyName": "Lianluo Smart Limited",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LMB",
+        "companyName": "Limbach Holdings, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LMFA",
+        "companyName": "LM Funding America, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LOAC",
+        "companyName": "Longevity Acquisition Corporati",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LPCN",
+        "companyName": "Lipocine Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LPTH",
+        "companyName": "LightPath Technologies, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LQDA",
+        "companyName": "Liquidia Technologies, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LTRX",
+        "companyName": "Lantronix, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LUNA",
+        "companyName": "Luna Innovations Incorporated",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "LYL",
+        "companyName": "Dragon Victory International Li",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MARA",
+        "companyName": "Marathon Patent Group, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MARK",
+        "companyName": "Remark Holdings, Inc.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MAYS",
+        "companyName": "J. W. Mays, Inc.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MBCN",
+        "companyName": "Middlefield Banc Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MBII",
+        "companyName": "Marrone Bio Innovations, Inc.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MBINP",
+        "companyName": "Merchants Bancorp - 7.00% Fixed",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MBOT",
+        "companyName": "Microbot Medical Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MBRX",
+        "companyName": "Moleculin Biotech, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MCEP",
+        "companyName": "Mid-Con Energy Partners, LP",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MDGL",
+        "companyName": "Madrigal Pharmaceuticals, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MDGS",
+        "companyName": "Medigus Ltd.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MDJH",
+        "companyName": "MDJM LTD",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MDRR",
+        "companyName": "Medalist Diversified REIT, Inc.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MEET",
+        "companyName": "The Meet Group, Inc.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MEIP",
+        "companyName": "MEI Pharma, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MFNC",
+        "companyName": "Mackinac Financial Corporation",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MGEN",
+        "companyName": "Miragen Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MHLD",
+        "companyName": "Maiden Holdings, Ltd.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MICT",
+        "companyName": "MICT, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MITK",
+        "companyName": "Mitek Systems, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MKGI",
+        "companyName": "Monaker Group, Inc. Common Stoc",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MLND",
+        "companyName": "Millendo Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MMAC",
+        "companyName": "MMA Capital Holdings, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MNCL",
+        "companyName": "Monocle Acquisition Corporation",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MNCLU",
+        "companyName": "Monocle Acquisition Corporation",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MNSB",
+        "companyName": "MAINSTREET BANCSHARES INC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MNTX",
+        "companyName": "Manitex International, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MOGO",
+        "companyName": "Mogo Finance Technology Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MOSY",
+        "companyName": "MoSys, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MOTS",
+        "companyName": "Motus GI Holdings, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MOXC",
+        "companyName": "Moxian, Inc.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MSVB",
+        "companyName": "Mid-Southern Bancorp, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MTC",
+        "companyName": "MMTec, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MTEM",
+        "companyName": "Molecular Templates, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MTP",
+        "companyName": "Midatech Pharma PLC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MTSL",
+        "companyName": "MER Telemanagement Solutions Lt",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MUDS",
+        "companyName": "Mudrick Capital Acquisition Cor",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MUDSU",
+        "companyName": "Mudrick Capital Acquisition Cor",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MVBF",
+        "companyName": "MVB Financial Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MYOS",
+        "companyName": "MYOS RENS Technology Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MYSZ",
+        "companyName": "My Size, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "MYT",
+        "companyName": "Urban Tea, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NAKD",
+        "companyName": "Naked Brand Group Limited",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NAOV",
+        "companyName": "NanoVibronix, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NATR",
+        "companyName": "Nature's Sunshine Products, Inc",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NBEV",
+        "companyName": "New Age Beverages Corporation",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NCBS",
+        "companyName": "Nicolet Bankshares Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NCTY",
+        "companyName": "The9 Limited - American Deposit",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NDRA",
+        "companyName": "ENDRA Life Sciences Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NEBU",
+        "companyName": "Nebula Acquisition Corporation ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NEO",
+        "companyName": "NeoGenomics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NEON",
+        "companyName": "Neonode Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NEPH",
+        "companyName": "NEPHROS INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NEPT",
+        "companyName": "Neptune Wellness Solutions Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NESR",
+        "companyName": "National Energy Services Reunit",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NETE",
+        "companyName": "Net Element, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NEWA",
+        "companyName": "Newater Technology, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NEXT",
+        "companyName": "NextDecade Corporation",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NHLD",
+        "companyName": "National Holdings Corporation",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NHTC",
+        "companyName": "Natural Health Trends Corp. - C",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NKSH",
+        "companyName": "National Bankshares, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NMRD",
+        "companyName": "Nemaura Medical Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NNDM",
+        "companyName": "Nano Dimension Ltd.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NODK",
+        "companyName": "NI Holdings, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NSYS",
+        "companyName": "Nortech Systems Incorporated",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NTEC",
+        "companyName": "Intec Pharma Ltd.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NTRP",
+        "companyName": "Neurotrope, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NTWK",
+        "companyName": "NETSOL Technologies Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NURO",
+        "companyName": "NeuroMetrix, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NVCN",
+        "companyName": "Neovasc Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NVEC",
+        "companyName": "NVE Corporation",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NVEE",
+        "companyName": "NV5 Global, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NVFY",
+        "companyName": "Nova Lifestyle, Inc",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NVIV",
+        "companyName": "InVivo Therapeutics Holdings Co",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NVUS",
+        "companyName": "Novus Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NWGI",
+        "companyName": "NEWGIOCO GROUP INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NXTD",
+        "companyName": "NXT-ID Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "NYMX",
+        "companyName": "Nymox Pharmaceutical Corporatio",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "OAS",
+        "companyName": "Oasis Petroleum Inc.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "OBCI",
+        "companyName": "Ocean Bio-Chem, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "OCCIP",
+        "companyName": "OFS Credit Company, Inc. - 6.87",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "OESX",
+        "companyName": "Orion Energy Systems, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "OMEX",
+        "companyName": "Odyssey Marine Exploration, Inc",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ONCS",
+        "companyName": "OncoSec Medical Incorporated",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ONCY",
+        "companyName": "Oncolytics Biotech Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ONTX",
+        "companyName": "Onconova Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ONVO",
+        "companyName": "Organovo Holdings, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "OPES",
+        "companyName": "Opes Acquisition Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "OPNT",
+        "companyName": "Opiant Pharmaceuticals, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "OPOF",
+        "companyName": "Old Point Financial Corporation",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "OPTT",
+        "companyName": "Ocean Power Technologies, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ORGO",
+        "companyName": "Organogenesis Holdings Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ORMP",
+        "companyName": "Oramed Pharmaceuticals Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ORRF",
+        "companyName": "Orrstown Financial Services Inc",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "OSN",
+        "companyName": "Ossen Innovation Co., Ltd.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "OSS",
+        "companyName": "One Stop Systems, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "OSW",
+        "companyName": "OneSpaWorld Holdings Limited",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "OTLK",
+        "companyName": "Outlook Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "OTTW",
+        "companyName": "Ottawa Bancorp, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "OVLY",
+        "companyName": "Oak Valley Bancorp (CA)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "OXBR",
+        "companyName": "Oxbridge Re Holdings Limited",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PACQ",
+        "companyName": "Pure Acquisition Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PACQU",
+        "companyName": "Pure Acquisition Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PANL",
+        "companyName": "Pangaea Logistics Solutions Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PAVM",
+        "companyName": "PAVmed Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PBBI",
+        "companyName": "PB Bancorp, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PBHC",
+        "companyName": "Pathfinder Bancorp, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PBTS",
+        "companyName": "Powerbridge Technologies Co., L",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PCOM",
+        "companyName": "Points International, Ltd.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PCSB",
+        "companyName": "PCSB Financial Corporation",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PCYG",
+        "companyName": "Park City Group, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PCYO",
+        "companyName": "Pure Cycle Corporation",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PDEX",
+        "companyName": "Pro-Dex, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PDSB",
+        "companyName": "PDS Biotechnology Corporation",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PEIX",
+        "companyName": "Pacific Ethanol, Inc.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PESI",
+        "companyName": "Perma-Fix Environmental Service",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PETZ",
+        "companyName": "TDH Holdings, Inc.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PFIE",
+        "companyName": "Profire Energy, Inc.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PFSW",
+        "companyName": "PFSweb, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PHCF",
+        "companyName": "Puhui Wealth Investment Managem",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PHIO",
+        "companyName": "Phio Pharmaceuticals Corp.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PHUN",
+        "companyName": "Phunware, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PIRS",
+        "companyName": "Pieris Pharmaceuticals, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PIXY",
+        "companyName": "ShiftPixy, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PKBK",
+        "companyName": "Parke Bancorp, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PLL",
+        "companyName": "Piedmont Lithium Limited - Amer",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PLSE",
+        "companyName": "Pulse Biosciences, Inc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PLUG",
+        "companyName": "Plug Power, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PLXP",
+        "companyName": "PLx Pharma Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PMD",
+        "companyName": "Psychemedics Corporation",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PME",
+        "companyName": "Pingtan Marine Enterprise Ltd.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PNRG",
+        "companyName": "PrimeEnergy Resources Corporati",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "POLA",
+        "companyName": "Polar Power, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "POPE",
+        "companyName": "Pope Resources - Limited Partne",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PPSI",
+        "companyName": "Pioneer Power Solutions, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PRPH",
+        "companyName": "ProPhase Labs, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PRPL",
+        "companyName": "Purple Innovation, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PRPO",
+        "companyName": "Precipio, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PRTH",
+        "companyName": "Priority Technology Holdings, I",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PSTI",
+        "companyName": "Pluristem Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PTE",
+        "companyName": "PolarityTE, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PUB",
+        "companyName": "People's Utah Bancorp",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PULM",
+        "companyName": "Pulmatrix, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PVBC",
+        "companyName": "Provident Bancorp, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "PXS",
+        "companyName": "Pyxis Tankers Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "QBAK",
+        "companyName": "Qualstar Corporation",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "QRHC",
+        "companyName": "Quest Resource Holding Corporat",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "QUIK",
+        "companyName": "QuickLogic Corporation",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "QUMU",
+        "companyName": "Qumu Corporation",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RADA",
+        "companyName": "RADA Electronic Industries Ltd.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RAND",
+        "companyName": "Rand Capital Corporation",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RAVE",
+        "companyName": "Rave Restaurant Group, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RBCN",
+        "companyName": "Rubicon Technology, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RBKB",
+        "companyName": "Rhinebeck Bancorp, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RBNC",
+        "companyName": "Reliant Bancorp, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RCON",
+        "companyName": "Recon Technology, Ltd.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RDCM",
+        "companyName": "Radcom Ltd.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RDI",
+        "companyName": "Reading International Inc",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RDIB",
+        "companyName": "Reading International Inc",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RDVT",
+        "companyName": "Red Violet, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "REED",
+        "companyName": "Reeds, Inc.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "REFR",
+        "companyName": "Research Frontiers Incorporated",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RELV",
+        "companyName": "Reliv' International, Inc.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "REPH",
+        "companyName": "Recro Pharma, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RESN",
+        "companyName": "Resonant Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RETO",
+        "companyName": "ReTo Eco-Solutions, Inc.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RGLS",
+        "companyName": "Regulus Therapeutics Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RIBT",
+        "companyName": "RiceBran Technologies",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RIOT",
+        "companyName": "Riot Blockchain, Inc",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RKDA",
+        "companyName": "Arcadia Biosciences, Inc.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RLMD",
+        "companyName": "RELMADA THERAPEUTICS INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RMBL",
+        "companyName": "RumbleOn, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RMR",
+        "companyName": "The RMR Group Inc.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ROSE",
+        "companyName": "Rosehill Resources Inc.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ROSEU",
+        "companyName": "Rosehill Resources Inc.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RTTR",
+        "companyName": "Ritter Pharmaceuticals, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "RWLK",
+        "companyName": "ReWalk Robotics Ltd.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SAEX",
+        "companyName": "SAExploration Holdings, Inc.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SAMA",
+        "companyName": "Schultze Special Purpose Acquis",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SAMAU",
+        "companyName": "Schultze Special Purpose Acquis",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SANW",
+        "companyName": "S&W Seed Company",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SAVA",
+        "companyName": "Cassava Sciences, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SBFG",
+        "companyName": "SB Financial Group, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SBPH",
+        "companyName": "Spring Bank Pharmaceuticals, In",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SBT",
+        "companyName": "Sterling Bancorp, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SCKT",
+        "companyName": "Socket Mobile, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SCON",
+        "companyName": "Superconductor Technologies Inc",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SEED",
+        "companyName": "Origin Agritech Limited",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SEEL",
+        "companyName": "Seelos Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SELF",
+        "companyName": "Global Self Storage, Inc.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SES",
+        "companyName": "Synthesis Energy Systems, Inc.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SFBC",
+        "companyName": "Sound Financial Bancorp, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SFET",
+        "companyName": "Safe-T Group Ltd.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SGBX",
+        "companyName": "SG Blocks, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SGLB",
+        "companyName": "Sigma Labs, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SGMA",
+        "companyName": "SigmaTron International, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SGRP",
+        "companyName": "SPAR Group, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SHIP",
+        "companyName": "Seanergy Maritime Holdings Corp",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SHSP",
+        "companyName": "SharpSpring, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SIC",
+        "companyName": "Select Interior Concepts, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SIEB",
+        "companyName": "Siebert Financial Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SIFY",
+        "companyName": "Sify Technologies Limited - Ame",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SINO",
+        "companyName": "Sino-Global Shipping America, L",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SINT",
+        "companyName": "SiNtx Technologies, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SKYS",
+        "companyName": "Sky Solar Holdings, Ltd.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SLGG",
+        "companyName": "Super League Gaming, Inc.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SLNO",
+        "companyName": "Soleno Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SLP",
+        "companyName": "Simulations Plus, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SLS",
+        "companyName": "SELLAS Life Sciences Group, Inc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SMED",
+        "companyName": "Sharps Compliance Corp.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SMIT",
+        "companyName": "Schmitt Industries, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SMPL",
+        "companyName": "The Simply Good Foods Company",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SMRT",
+        "companyName": "Stein Mart, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SMSI",
+        "companyName": "Smith Micro Software, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SNES",
+        "companyName": "SenesTech, Inc.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SNOA",
+        "companyName": "Sonoma Pharmaceuticals, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SNSS",
+        "companyName": "Sunesis Pharmaceuticals, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SOLO",
+        "companyName": "Electrameccanica Vehicles Corp.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SOLY",
+        "companyName": "Soliton, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SPCB",
+        "companyName": "SuperCom, Ltd.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SPEX",
+        "companyName": "Spherix Incorporated",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SPNS",
+        "companyName": "Sapiens International Corporati",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SPRT",
+        "companyName": "Support.com, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SQBG",
+        "companyName": "Sequential Brands Group, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SRNE",
+        "companyName": "Sorrento Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SRTS",
+        "companyName": "Sensus Healthcare, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SSKN",
+        "companyName": "Strata Skin Sciences, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SSNT",
+        "companyName": "SilverSun Technologies, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SSTI",
+        "companyName": "ShotSpotter, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "STAF",
+        "companyName": "Staffing 360 Solutions, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "STKS",
+        "companyName": "The ONE Group Hospitality, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "STML",
+        "companyName": "Stemline Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "STND",
+        "companyName": "Standard AVB Financial Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "STRM",
+        "companyName": "Streamline Health Solutions, In",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SUMR",
+        "companyName": "Summer Infant, Inc.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SUNW",
+        "companyName": "Sunworks, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SVBI",
+        "companyName": "Severn Bancorp Inc",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SWKH",
+        "companyName": "SWK HOLDINGS CORPORATION",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "SXTC",
+        "companyName": "China SXT Pharmaceuticals, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TACO",
+        "companyName": "Del Taco Restaurants, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TAIT",
+        "companyName": "Taitron Components Incorporated",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TANH",
+        "companyName": "Tantech Holdings Ltd.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TAOP",
+        "companyName": "Taoping Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TAYD",
+        "companyName": "Taylor Devices, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TBLT",
+        "companyName": "ToughBuilt Industries, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TC",
+        "companyName": "TuanChe Limited",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TCCO",
+        "companyName": "Technical Communications Corpor",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TCFC",
+        "companyName": "The Community Financial Corpora",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TCON",
+        "companyName": "TRACON Pharmaceuticals, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TCX",
+        "companyName": "Tucows Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TDAC",
+        "companyName": "Trident Acquisitions Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TELL",
+        "companyName": "Tellurian Inc.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TENX",
+        "companyName": "Tenax Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TEUM",
+        "companyName": "Pareteum Corporation",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TGEN",
+        "companyName": "Tecogen Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TGLS",
+        "companyName": "Tecnoglass Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TGTX",
+        "companyName": "TG Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TH",
+        "companyName": "Target Hospitality Corp.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "THCB",
+        "companyName": "Tuscan Holdings Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "THCBU",
+        "companyName": "Tuscan Holdings Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TIBR",
+        "companyName": "Tiberius Acquisition Corporatio",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TIPT",
+        "companyName": "Tiptree Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TMDI",
+        "companyName": "Titan Medical Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TMSR",
+        "companyName": "TMSR Holding Company Limited - ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TOPS",
+        "companyName": "TOP Ships Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TOTA",
+        "companyName": "Tottenham Acquisition I Limited",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TOTAR",
+        "companyName": "Tottenham Acquisition I Limited",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TRCH",
+        "companyName": "Torchlight Energy Resources, In",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TRIL",
+        "companyName": "Trillium Therapeutics Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TRMT",
+        "companyName": "Tremont Mortgage Trust",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TRNX",
+        "companyName": "Taronis Technologies, Inc.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TROV",
+        "companyName": "TrovaGene, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TRPX",
+        "companyName": "Therapix Biosciences Ltd.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TRVN",
+        "companyName": "Trevena, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TSRI",
+        "companyName": "TSR, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TTNP",
+        "companyName": "Titan Pharmaceuticals, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TWMC",
+        "companyName": "Trans World Entertainment Corp.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TWNK",
+        "companyName": "Hostess Brands, Inc.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TYHT",
+        "companyName": "Shineco, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TYME",
+        "companyName": "Tyme Technologies, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "TZAC",
+        "companyName": "Tenzing Acquisition Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "UBCP",
+        "companyName": "United Bancorp, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "UFPT",
+        "companyName": "UFP Technologies, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "UIHC",
+        "companyName": "United Insurance Holdings Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "USAU",
+        "companyName": "U.S. Gold Corp.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "USEG",
+        "companyName": "U.S. Energy Corp.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "USWS",
+        "companyName": "U.S. Well Services, Inc.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "VALU",
+        "companyName": "Value Line, Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "VBFC",
+        "companyName": "Village Bank and Trust Financia",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "VBIV",
+        "companyName": "VBI Vaccines, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "VCEL",
+        "companyName": "Vericel Corporation",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "VCNX",
+        "companyName": "Vaccinex, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "VERB",
+        "companyName": "Verb Technology Company, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "VERU",
+        "companyName": "Veru Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "VFF",
+        "companyName": "Village Farms International, In",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "VISL",
+        "companyName": "Vislink Technologies, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "VRML",
+        "companyName": "Vermillion, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "VRRM",
+        "companyName": "Verra Mobility Corporation",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "VTGN",
+        "companyName": "VistaGen Therapeutics, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "VTIQ",
+        "companyName": "VectoIQ Acquisition Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "VTIQU",
+        "companyName": "VectoIQ Acquisition Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "VTNR",
+        "companyName": "Vertex Energy, Inc",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "VTSI",
+        "companyName": "VirTra, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "VUZI",
+        "companyName": "Vuzix Corporation",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "VVPR",
+        "companyName": "VivoPower International PLC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "WATT",
+        "companyName": "Energous Corporation",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "WHLM",
+        "companyName": "Wilhelmina International, Inc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "WHLR",
+        "companyName": "Wheeler Real Estate Investment ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "WHLRD",
+        "companyName": "Wheeler Real Estate Investment ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "WHLRP",
+        "companyName": "Wheeler Real Estate Investment ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "WILC",
+        "companyName": "G. Willi-Food International,  L",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "WINS",
+        "companyName": "Wins Finance Holdings Inc.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "WKHS",
+        "companyName": "Workhorse Group, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "WORX",
+        "companyName": "SCWorx Corp.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "WRLS",
+        "companyName": "Pensare Acquisition Corp.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "WRLSR",
+        "companyName": "Pensare Acquisition Corp.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "WRTC",
+        "companyName": "Wrap Technologies, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "WSC",
+        "companyName": "WillScot Corporation",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "WSTL",
+        "companyName": "Westell Technologies, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "WVVI",
+        "companyName": "Willamette Valley Vineyards, In",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "WVVIP",
+        "companyName": "Willamette Valley Vineyards, In",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "WWR",
+        "companyName": "Westwater Resources, Inc.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "XBIO",
+        "companyName": "Xenetic Biosciences, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "XCUR",
+        "companyName": "EXICURE INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "XELA",
+        "companyName": "Exela Technologies, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "XFOR",
+        "companyName": "X4 Pharmaceuticals, Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "XSPA",
+        "companyName": "XpresSpa Group, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "XTLB",
+        "companyName": "XTL Biopharmaceuticals Ltd.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "YTEN",
+        "companyName": "Yield10 Bioscience, Inc.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "YTRA",
+        "companyName": "Yatra Online, Inc.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "YVR",
+        "companyName": "Liquid Media Group Ltd.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ZKIN",
+        "companyName": "ZK International Group Co., Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ZN",
+        "companyName": "Zion Oil & Gas Inc",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ZSAN",
+        "companyName": "Zosano Pharma Corporation",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NCM",
+        "symbol": "ZYXI",
+        "companyName": "Zynex, Inc.",
+        "industryOrCategory": "Healthcare"
+    }
+]

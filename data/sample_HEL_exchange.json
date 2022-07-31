@@ -1,0 +1,680 @@
+[
+    {
+        "exchangeCode": "HEL",
+        "symbol": "ACG1V.HE",
+        "companyName": "Aspocomp Group Plc",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "AFAGR.HE",
+        "companyName": "Afarak Group Plc",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "AKTIA.HE",
+        "companyName": "Aktia Bank Plc",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "ALBAV.HE",
+        "companyName": "Bank of land Plc A",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "ALBBV.HE",
+        "companyName": "Bank of land Plc B",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "ALMA.HE",
+        "companyName": "Alma Media Corporation",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "ALTIA.HE",
+        "companyName": "Altia Plc",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "AM1.HE",
+        "companyName": "Ahlstrom-Munksj Oyj",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "APETIT.HE",
+        "companyName": "Apetit Plc",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "ASPO.HE",
+        "companyName": "Aspo Plc",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "ATG1V.HE",
+        "companyName": "Asiakastieto Group Oyj",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "ATRAV.HE",
+        "companyName": "Atria Plc A",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "BAS1V.HE",
+        "companyName": "Basware Corporation",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "BIOBV.HE",
+        "companyName": "Biohit Oyj B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "BITTI.HE",
+        "companyName": "Bittium Corporation",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "CAPMAN.HE",
+        "companyName": "CapMan Plc",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "CONSTI.HE",
+        "companyName": "Consti Yhtit Oyj",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "DIGIA.HE",
+        "companyName": "Digia Plc",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "DOV1V.HE",
+        "companyName": "Dovre Group Plc",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "EAB.HE",
+        "companyName": "EAB Group Oyj",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "ELEAV.HE",
+        "companyName": "Elecster Oyj A",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "ELISA.HE",
+        "companyName": "Elisa Corporation",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "ENEDO.HE",
+        "companyName": "Enedo Plc",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "EQV1V.HE",
+        "companyName": "eQ Oyj",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "ERIBR.HE",
+        "companyName": "Ericsson, Telefonab. L M ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "ETTE.HE",
+        "companyName": "Etteplan Oyj",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "EVLI.HE",
+        "companyName": "Evli Pankki Oyj",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "EXL1V.HE",
+        "companyName": "Exel Composites Plc",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "FSC1V.HE",
+        "companyName": "F-Secure Corporation",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "HARVIA.HE",
+        "companyName": "Harvia Plc",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "HKSAV.HE",
+        "companyName": "HKScan Oyj  A",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "HOIVA.HE",
+        "companyName": "Hoivatilat Oyj",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "HONBS.HE",
+        "companyName": "Honkarakenne Oyj B",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "HUH1V.HE",
+        "companyName": "Huhtamki Oyj",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "ILK1S.HE",
+        "companyName": "Ilkka-Yhtym Oyj 1",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "ILK2S.HE",
+        "companyName": "Ilkka-Yhtym Oyj 2",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "INVEST.HE",
+        "companyName": "Investors House Oyj",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "KCR.HE",
+        "companyName": "Konecranes Plc",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "KELAS.HE",
+        "companyName": "Kesla Oyj A",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "KESKOA.HE",
+        "companyName": "Kesko Corporation A",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "KESKOB.HE",
+        "companyName": "Kesko Corporation B",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "KNEBV.HE",
+        "companyName": "KONE Corporation",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "KOJAMO.HE",
+        "companyName": "Kojamo Plc",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "KSLAV.HE",
+        "companyName": "Keskisuomalainen Oyj A",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "LAT1V.HE",
+        "companyName": "Lassila & Tikanoja Plc",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "LEHTO.HE",
+        "companyName": "Lehto Group Oyj",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "MARAS.HE",
+        "companyName": "Martela Oyj A",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "METSA.HE",
+        "companyName": "Mets Board Oyj A",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "METSB.HE",
+        "companyName": "Mets Board Oyj B",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "METSO.HE",
+        "companyName": "Metso Corporation",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "MMO1V.HE",
+        "companyName": "Marimekko Corporation",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "MUSTI.HE",
+        "companyName": "Musti Group Plc",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "NDA-FI.HE",
+        "companyName": "Nordea Bank Abp",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "NEO1V.HE",
+        "companyName": "Neo Industrial Oyj",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "NESTE.HE",
+        "companyName": "Neste Corporation",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "NIXU.HE",
+        "companyName": "Nixu Oyj",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "NOHO.HE",
+        "companyName": "NoHo Partners Oyj",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "NOKIA.HE",
+        "companyName": "Nokia Corporation",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "OKDAV.HE",
+        "companyName": "Oriola Corporation A",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "OKDBV.HE",
+        "companyName": "Oriola Corporation B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "OLVAS.HE",
+        "companyName": "Olvi Plc A",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "ORNAV.HE",
+        "companyName": "Orion Corporation A",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "ORNBV.HE",
+        "companyName": "Orion Corporation B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "PNA1V.HE",
+        "companyName": "Panostaja Oyj",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "PON1V.HE",
+        "companyName": "Ponsse Oyj 1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "PUMU.HE",
+        "companyName": "PunaMusta Media Oyj",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "QPR1V.HE",
+        "companyName": "QPR Software Plc",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "QTCOM.HE",
+        "companyName": "Qt Group Oyj",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "RAIKV.HE",
+        "companyName": "Raisio Plc K",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "RAIVV.HE",
+        "companyName": "Raisio Plc Vaihto-osake",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "RAP1V.HE",
+        "companyName": "Rapala VMC Corporation",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "RAUTE.HE",
+        "companyName": "Raute Corporation A",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "REG1V.HE",
+        "companyName": "Revenio Group Corporation",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "ROBIT.HE",
+        "companyName": "Robit Oyj",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "ROVIO.HE",
+        "companyName": "Rovio Entertainment Corporation",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "SAA1V.HE",
+        "companyName": "Sanoma Corporation",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "SAGCV.HE",
+        "companyName": "Saga Furs Oyj C",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "SAMPO.HE",
+        "companyName": "Sampo Plc A",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "SCANFL.HE",
+        "companyName": "Scanfil Plc",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "SIEVI.HE",
+        "companyName": "Sievi Capital plc",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "SIILI.HE",
+        "companyName": "Siili Solutions Oyj",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "SOLTEQ.HE",
+        "companyName": "Solteq Oyj",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "SOSI1.HE",
+        "companyName": "Sotkamo Silver AB",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "SRV1V.HE",
+        "companyName": "SRV Group Plc",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "SSABAH.HE",
+        "companyName": "SSAB AB ser. A",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "SSABBH.HE",
+        "companyName": "SSAB AB ser. B",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "SSH1V.HE",
+        "companyName": "SSH Communications Security Oyj",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "STCAS.HE",
+        "companyName": "Stockmann Plc A",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "STCBV.HE",
+        "companyName": "Stockmann Plc B",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "STERV.HE",
+        "companyName": "Stora Enso Oyj R",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "SUY1V.HE",
+        "companyName": "Suominen Oyj",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "TAALA.HE",
+        "companyName": "Taaleri Oyj",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "TALLINK.HE",
+        "companyName": "AS Tallink Grupp FDR",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "TELIA1.HE",
+        "companyName": "Telia Company AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "TEM1V.HE",
+        "companyName": "Tecnotree Corporation",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "TIETO.HE",
+        "companyName": "TietoEVRY Corporation",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "TIK1V.HE",
+        "companyName": "Tikkurila Oyj",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "TLT1V.HE",
+        "companyName": "Teleste Corporation",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "TNOM.HE",
+        "companyName": "Talenom Oyj",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "TOKMAN.HE",
+        "companyName": "Tokmanni Group Oyj",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "TRH1V.HE",
+        "companyName": "Trainers House Plc",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "TTALO.HE",
+        "companyName": "Terveystalo Plc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "TYRES.HE",
+        "companyName": "Nokian Tyres Plc",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "UPM.HE",
+        "companyName": "UPM-Kymmene Corporation",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "UUTEC.HE",
+        "companyName": "Plc Uutechnic Group Oyj",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "VAIAS.HE",
+        "companyName": "Vaisala Corporation A",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "VALMT.HE",
+        "companyName": "Valmet Corporation",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "VALOE.HE",
+        "companyName": "Valoe Oyj",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "VIK1V.HE",
+        "companyName": "Viking Line Abp",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "WRT1V.HE",
+        "companyName": "Wartsila Corporation",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "WUF1V.HE",
+        "companyName": "Wulff Group Plc",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "YEINT.HE",
+        "companyName": "Yleiselektroniikka Oyj",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "HEL",
+        "symbol": "YIT.HE",
+        "companyName": "YIT Corporation",
+        "industryOrCategory": "Industrials"
+    }
+]

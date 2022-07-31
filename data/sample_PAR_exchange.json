@@ -1,0 +1,3482 @@
+[
+    {
+        "exchangeCode": "PAR",
+        "symbol": "98GPB.PA",
+        "companyName": "SX5E2     PI 1223B",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "AB.PA",
+        "companyName": "AB SCIENCE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ABCA.PA",
+        "companyName": "ABC ARBITRAGE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ABEO.PA",
+        "companyName": "ABEO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ABIO.PA",
+        "companyName": "ALBIOMA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ABNX.PA",
+        "companyName": "ABIONYX PHARMA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ABVX.PA",
+        "companyName": "ABIVAX",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "AC.PA",
+        "companyName": "ACCOR",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACA.PA",
+        "companyName": "CREDIT AGRICOLE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAFR.PA",
+        "companyName": "CA4.25%04FEB23",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAFZ.PA",
+        "companyName": "CA4.25%JUL2021",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAGO.PA",
+        "companyName": "CA4.55%8FEB2022",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAGU.PA",
+        "companyName": "CASA4.10%17APR2024",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAGW.PA",
+        "companyName": "CA4%29JUNE2021",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAHJ.PA",
+        "companyName": "CASA0%9AUG22",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAHM.PA",
+        "companyName": "CASA3.50%2OCT2022",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAHQ.PA",
+        "companyName": "CA3.15%29OCT2022",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAHS.PA",
+        "companyName": "CA2,82%27DEC2022",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAJD.PA",
+        "companyName": "CASA3.15%19JUL2023",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAJI.PA",
+        "companyName": "CA4.50%29SEPT2021",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAJN.PA",
+        "companyName": "CASA3.39%18OCT23",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAJP.PA",
+        "companyName": "CASA3.15%23DEC2023",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAJR.PA",
+        "companyName": "CASA3.03%21FEB24",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAJS.PA",
+        "companyName": "CASALB6.5%PL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAJV.PA",
+        "companyName": "CASA2.9%7MAY2024",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAJY.PA",
+        "companyName": "CASA2.75%20JUN2024",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAKG.PA",
+        "companyName": "CASA3.00%22DEC2024",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAKI.PA",
+        "companyName": "CASA3%2FEB2025",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAKN.PA",
+        "companyName": "CASA2.7%14APR2025",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAKP.PA",
+        "companyName": "CASA2.7%15JUL2025",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAKQ.PA",
+        "companyName": "CASA2.8%16OCT25",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAKR.PA",
+        "companyName": "CASA3%21DEC25",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAKV.PA",
+        "companyName": "CASA2.8%26JAN26",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAKZ.PA",
+        "companyName": "CASA2.85%27APR26",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACALG.PA",
+        "companyName": "CASA2.30%24OCT2026",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACALH.PA",
+        "companyName": "CASA2.50%22DEC2026",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACALK.PA",
+        "companyName": "CASA1.3%08FEB27",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACALL.PA",
+        "companyName": "CASA1.5%02MAY27",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACALM.PA",
+        "companyName": "CASA2.0%02MAY27",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACALS.PA",
+        "companyName": "CASA1,4%20JUL27",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACALU.PA",
+        "companyName": "CASA1.75%24OCT27",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACALV.PA",
+        "companyName": "CASA1.25%24OCT27",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACALW.PA",
+        "companyName": "CASA1.2%21DEC27",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACALX.PA",
+        "companyName": "CASA1.6%21DEC27",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACALY.PA",
+        "companyName": "CASA1.35%4MAY28",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACALZ.PA",
+        "companyName": "CASA1.8%4MAY28",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAMA.PA",
+        "companyName": "CASA1.9%26JUL28",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAMB.PA",
+        "companyName": "CASA1.4%26JUL28",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAMD.PA",
+        "companyName": "CASA2.05%30OCT28",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAMI.PA",
+        "companyName": "CASA1.5%20DEC2028",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAMJ.PA",
+        "companyName": "CASA1.65%6FEB2029",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAMK.PA",
+        "companyName": "CASA2.35%6FEB29",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAMV.PA",
+        "companyName": "CASA1.15%7MAY29",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAMW.PA",
+        "companyName": "CASA1.7%7MAY2029",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAMY.PA",
+        "companyName": "CASA1.50%26JUL2029",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAMZ.PA",
+        "companyName": "CASA1.00%26JUL2029",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ACAN.PA",
+        "companyName": "ACANTHE DEV.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ADOC.PA",
+        "companyName": "ADOCIA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ADP.PA",
+        "companyName": "ADP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ADV.PA",
+        "companyName": "ADVENIS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ADVIC.PA",
+        "companyName": "ADVICENNE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "AF.PA",
+        "companyName": "AIR FRANCE -KLM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "AFAD.PA",
+        "companyName": "AIRFRKL3.875%JUN21",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "AGTA.PA",
+        "companyName": "AGTA RECORD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "AI.PA",
+        "companyName": "AIR LIQUIDE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "AIR.PA",
+        "companyName": "AIRBUS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "AKA.PA",
+        "companyName": "AKKA TECHNOLOGIES",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "AKE.PA",
+        "companyName": "ARKEMA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "AKOM.PA",
+        "companyName": "AERKOMM INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "AKW.PA",
+        "companyName": "AKWEL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALADM.PA",
+        "companyName": "ADTHINK",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALAGP.PA",
+        "companyName": "AGRIPOWER",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALAGR.PA",
+        "companyName": "AGROGENERATION",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALALO.PA",
+        "companyName": "ACHETER-LOUER.FR",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALAMG.PA",
+        "companyName": "AUPLATA MINING GR",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALANT.PA",
+        "companyName": "ANTEVENIO",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALAQU.PA",
+        "companyName": "AQUILA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALATF.PA",
+        "companyName": "ARTEFACT",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALAVY.PA",
+        "companyName": "AUDIOVALLEY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALBDM.PA",
+        "companyName": "BD MULTI MEDIA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALBFR.PA",
+        "companyName": "SIDETRADE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALBIO.PA",
+        "companyName": "BIOSYNEX",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALBKK.PA",
+        "companyName": "BAIKOWSKI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALBLD.PA",
+        "companyName": "BILENDI",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALBLU.PA",
+        "companyName": "BLUELINEA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALBOU.PA",
+        "companyName": "BOURRELIER GROUP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALBPS.PA",
+        "companyName": "BIOPHYTIS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALBUD.PA",
+        "companyName": "MINT",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALD.PA",
+        "companyName": "ALD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALDAR.PA",
+        "companyName": "DAMARTEX",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALDBL.PA",
+        "companyName": "BERNARD LOISEAU",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALDBT.PA",
+        "companyName": "DBT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALDBY.PA",
+        "companyName": "DELTA DRONE BSA Y",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALDEL.PA",
+        "companyName": "DELFINGEN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALDIE.PA",
+        "companyName": "DIETSWELL",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALDLS.PA",
+        "companyName": "D.L.S.I.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALDNE.PA",
+        "companyName": "DONTNOD",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALDNX.PA",
+        "companyName": "DNXCORP",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALDR.PA",
+        "companyName": "DELTA DRONE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALDRV.PA",
+        "companyName": "DRONE VOLT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALDUB.PA",
+        "companyName": "ENCRES DUBUIT",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALEMV.PA",
+        "companyName": "EMOVA GROUP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALENE.PA",
+        "companyName": "ENERTIME",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALENT.PA",
+        "companyName": "ENTREPARTICULIERS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALEO2.PA",
+        "companyName": "EO2",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALESA.PA",
+        "companyName": "ECOSLOPS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALESK.PA",
+        "companyName": "ESKER",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALEUP.PA",
+        "companyName": "EUROPLASMA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALEZV.PA",
+        "companyName": "EASYVISTA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALFBA.PA",
+        "companyName": "FASHION B AIR",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALFOC.PA",
+        "companyName": "FOCUS HOME INT",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALGAU.PA",
+        "companyName": "GAUSSIN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALGEP.PA",
+        "companyName": "GLOBAL ECOPOWER",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALGEV.PA",
+        "companyName": "GEVELOT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALGIL.PA",
+        "companyName": "GROUPE GUILLIN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALGLD.PA",
+        "companyName": "GOLD BY GOLD",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALHGR.PA",
+        "companyName": "HOFFMANN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALHIO.PA",
+        "companyName": "HIOLLE INDUSTRIES",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALHRG.PA",
+        "companyName": "HERIGE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALHYG.PA",
+        "companyName": "HYBRIGENICS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALKAL.PA",
+        "companyName": "KALRAY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALKKO.PA",
+        "companyName": "KKO INTERNATIONAL",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALLAN.PA",
+        "companyName": "LANSON-BCC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALLDL.PA",
+        "companyName": "GROUPE LDLC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALLEX.PA",
+        "companyName": "LEXIBOOK LINGUIST.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALLHB.PA",
+        "companyName": "LES HOTELS BAVEREZ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALLIX.PA",
+        "companyName": "WALLIX",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALM.PA",
+        "companyName": "ALPHA MOS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALMAK.PA",
+        "companyName": "MAKHEIA GROUP",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALMAR.PA",
+        "companyName": "MARE NOSTRUM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALMAS.PA",
+        "companyName": "MASTRAD",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALMBS.PA",
+        "companyName": "MND BSA 2019",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALMDG.PA",
+        "companyName": "MGI DIGITAL GRAPHI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALMED.PA",
+        "companyName": "MEDICREA INTERNAT.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALMET.PA",
+        "companyName": "METHANOR",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALMIC.PA",
+        "companyName": "MICROWAVE VISION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALMII.PA",
+        "companyName": "M2I",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALMIL.PA",
+        "companyName": "1000MERCIS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALMND.PA",
+        "companyName": "MND",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALMOU.PA",
+        "companyName": "MOULINVEST",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALMUN.PA",
+        "companyName": "MUNIC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALNOV.PA",
+        "companyName": "NOVACYT",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALNSE.PA",
+        "companyName": "NSE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALNXT.PA",
+        "companyName": "NEXTEDIA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALO.PA",
+        "companyName": "ALSTOM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALP.PA",
+        "companyName": "ADL PARTNER",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALPAT.PA",
+        "companyName": "PLANT ADVANCED",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALPAU.PA",
+        "companyName": "PAULIC MEUNERIE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALPCI.PA",
+        "companyName": "PRIMECITY",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALPCV.PA",
+        "companyName": "CERINNOV GROUP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALPER.PA",
+        "companyName": "LA PERLA FASHION",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALPHA.PA",
+        "companyName": "PHARNEXT",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALPHS.PA",
+        "companyName": "PHARMASIMPLE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALPHY.PA",
+        "companyName": "ALES GROUPE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALPIX.PA",
+        "companyName": "PIXIUM VISION",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALPJT.PA",
+        "companyName": "POUJOULAT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALPLA.PA",
+        "companyName": "PLANET MEDIA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALPRE.PA",
+        "companyName": "PREDILIFE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALPRO.PA",
+        "companyName": "PRODWARE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALQGC.PA",
+        "companyName": "QUANTUM GENOMICS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALQP.PA",
+        "companyName": "QUADPACK",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALQWA.PA",
+        "companyName": "QWAMPLIFY",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALREA.PA",
+        "companyName": "REALITES",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALS30.PA",
+        "companyName": "SOLUTIONS 30 SE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALSAF.PA",
+        "companyName": "SAFE ORTHOPAEDICS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALSEN.PA",
+        "companyName": "SENSORION",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALSIP.PA",
+        "companyName": "SI PARTICIPATIONS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALSTW.PA",
+        "companyName": "STREAMWIDE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALT.PA",
+        "companyName": "ALTRAN TECHN.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALTA.PA",
+        "companyName": "ALTAREA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALTBG.PA",
+        "companyName": "THE BLOCKCHAIN GP",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALTER.PA",
+        "companyName": "THERADIAG",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALTEV.PA",
+        "companyName": "ENVEA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALTHE.PA",
+        "companyName": "THERACLION",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALTHX.PA",
+        "companyName": "THERANEXUS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALTRI.PA",
+        "companyName": "TRILOGIQ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALTTI.PA",
+        "companyName": "TTI",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALTUR.PA",
+        "companyName": "ALTUR INVEST.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALTUV.PA",
+        "companyName": "BIO-UV GROUP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALTXC.PA",
+        "companyName": "TXCOM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALUCI.PA",
+        "companyName": "LUCIBEL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALUVI.PA",
+        "companyName": "UV GERMI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALVAL.PA",
+        "companyName": "VALBIOTIS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALVDM.PA",
+        "companyName": "VOYAGEURS DU MONDE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALVER.PA",
+        "companyName": "VERGNET",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALVGO.PA",
+        "companyName": "VOGO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALVIV.PA",
+        "companyName": "VISIATIV",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALVMG.PA",
+        "companyName": "VISIOMED GROUP",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALVU.PA",
+        "companyName": "VENTE UNIQUE.COM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALWEC.PA",
+        "companyName": "WE.CONNECT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALWED.PA",
+        "companyName": "WEDIA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ALWIT.PA",
+        "companyName": "WITBE",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "AM.PA",
+        "companyName": "DASSAULT AVIATION",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "AMEBA.PA",
+        "companyName": "AMOEBA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "AMPLI.PA",
+        "companyName": "AMPLITUDE SURGICAL",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "AMUN.PA",
+        "companyName": "AMUNDI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ANVBU.PA",
+        "companyName": "ANEVIA BSA A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "APR.PA",
+        "companyName": "APRIL",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ARG.PA",
+        "companyName": "ARGAN",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ASP.PA",
+        "companyName": "A.S.T. GROUPE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ASY.PA",
+        "companyName": "ASSYSTEM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ATA.PA",
+        "companyName": "ATARI",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ATE.PA",
+        "companyName": "ALTEN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ATEME.PA",
+        "companyName": "ATEME",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ATI.PA",
+        "companyName": "ACTIA GROUP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ATO.PA",
+        "companyName": "ATOS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "AUB.PA",
+        "companyName": "AUBAY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "AUGR.PA",
+        "companyName": "AUGROS COSMETICS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "AURS.PA",
+        "companyName": "AURES TECHNOLOGIES",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "AUTAB.PA",
+        "companyName": "AUT3.40%22NOV2022",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "AXW.PA",
+        "companyName": "AXWAY SOFTWARE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BAIN.PA",
+        "companyName": "BAINS MER MONACO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BALYO.PA",
+        "companyName": "BALYO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BASS.PA",
+        "companyName": "BASSAC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BB.PA",
+        "companyName": "BIC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BCAS.PA",
+        "companyName": "CAPELLI6.25%MAY22",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BCRA.PA",
+        "companyName": "BACCARAT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BELI.PA",
+        "companyName": "BELIER",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BEN.PA",
+        "companyName": "BENETEAU",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BERR.PA",
+        "companyName": "FIN.ETANG BERRE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BFCAC.PA",
+        "companyName": "BFCMZC16JUN20",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BIG.PA",
+        "companyName": "BIGBEN INTERACTIVE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BIM.PA",
+        "companyName": "BIOMERIEUX",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BLC.PA",
+        "companyName": "BASTIDE LE CONFORT",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BLUBS.PA",
+        "companyName": "BLUELINEA BSA J",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BLUE.PA",
+        "companyName": "BLUE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BN.PA",
+        "companyName": "DANONE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BND.PA",
+        "companyName": "BUSINESS ET DECIS.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BNP.PA",
+        "companyName": "BNP PARIBAS ACT.A",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BOI.PA",
+        "companyName": "BOIRON",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BOL.PA",
+        "companyName": "BOLLORE",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BOLNV.PA",
+        "companyName": "BOLLORE NV20",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BON.PA",
+        "companyName": "BONDUELLE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BOOST.PA",
+        "companyName": "BOOSTHEAT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BPCAP.PA",
+        "companyName": "BPCE4.03%2JUL2020",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BPCAR.PA",
+        "companyName": "BPCE 3.8%17DEC2020",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BPCEN.PA",
+        "companyName": "BPCE3.30%JUL2020",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BPCFP.PA",
+        "companyName": "BPCE3.03%OCT2022",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BPCMJ.PA",
+        "companyName": "BPCE3.85%25JUN2026",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BPCOG.PA",
+        "companyName": "BPCE3.1%17FEB2027",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BPCSM.PA",
+        "companyName": "BPCE3%19JUL2026",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BUDBS.PA",
+        "companyName": "MINT BS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BUI.PA",
+        "companyName": "BARBARA BUI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BUR.PA",
+        "companyName": "BURELLE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "BVI.PA",
+        "companyName": "BUREAU VERITAS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CAAD.PA",
+        "companyName": "CAASSUR2.625%JAN48",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CAF.PA",
+        "companyName": "CRCAM PARIS ET IDF",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CAJAC.PA",
+        "companyName": "CA2.75%17AVR23",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CAJAF.PA",
+        "companyName": "CASA1.55%6FEB28",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CAJAG.PA",
+        "companyName": "CASA1.20%6FEB28",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CAT31.PA",
+        "companyName": "CA TOULOUSE 31 CCI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CATG.PA",
+        "companyName": "CATANA GROUP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CATS.PA",
+        "companyName": "CASINO TV TSDI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CBOT.PA",
+        "companyName": "CBO TERRITORIA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CCN.PA",
+        "companyName": "CRCAM NORM.SEINE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CDA.PA",
+        "companyName": "ALPES (COMPAGNIE)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CDI.PA",
+        "companyName": "CHRISTIAN DIOR",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CEN.PA",
+        "companyName": "GROUPE CRIT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CFMAE.PA",
+        "companyName": "CMNE4.25%27JUN2026",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CGGBS.PA",
+        "companyName": "CGG BSA 1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CGGBT.PA",
+        "companyName": "CGG BSA 2",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CIV.PA",
+        "companyName": "CRCAM ILLE-VIL.CCI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CLAL.PA",
+        "companyName": "LCL4,40%13JUL2021",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CMNEA.PA",
+        "companyName": "CMNE3.40%22DEC26",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CMO.PA",
+        "companyName": "CRCAM MORBIHAN CCI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CN0001265163.PA",
+        "companyName": "CHINE 5% 1903",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CNP.PA",
+        "companyName": "CNP ASSURANCES",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CNPAP.PA",
+        "companyName": "CNP TSDI 6,5 3+TV",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CNPBP.PA",
+        "companyName": "CNP TSDI 6,25 TV",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CO.PA",
+        "companyName": "CASINO GUICHARD",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "COX.PA",
+        "companyName": "NICOX",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CRAP.PA",
+        "companyName": "CRCAM ALP.PROV.CCI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CRAV.PA",
+        "companyName": "CRCAM ATL.VEND.CCI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CRLA.PA",
+        "companyName": "CRCAM LANGUED CCI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CRLO.PA",
+        "companyName": "CRCAM LOIRE HTE L.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CS.PA",
+        "companyName": "AXA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CSNV.PA",
+        "companyName": "AXA NV20",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CYBBS.PA",
+        "companyName": "CYBERGUN BSA 1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "CYBO.PA",
+        "companyName": "CYBERG3.32%18OCT20",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "DBG.PA",
+        "companyName": "DERICHEBOURG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "DBV.PA",
+        "companyName": "DBV TECHNOLOGIES",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "DEC.PA",
+        "companyName": "JC DECAUX SA.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "DEDAL.PA",
+        "companyName": "DEDALUS FRANCE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "DG.PA",
+        "companyName": "VINCI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "DGE.PA",
+        "companyName": "DIAGEO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "DGM.PA",
+        "companyName": "DIAGNOSTIC MEDICAL",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "DIG.PA",
+        "companyName": "DIGIGRAM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "DIM.PA",
+        "companyName": "SARTORIUS STED BIO",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "DLTA.PA",
+        "companyName": "DELTA PLUS GROUP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "DPAM.PA",
+        "companyName": "DOCK.PETR.AMBES AM",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "DPT.PA",
+        "companyName": "ST DUPONT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "DSY.PA",
+        "companyName": "DASSAULT SYSTEMES",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "DVT.PA",
+        "companyName": "DEVOTEAM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "EC.PA",
+        "companyName": "TOTAL GABON",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ECASA.PA",
+        "companyName": "ECA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ECP.PA",
+        "companyName": "EUROPACORP",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "EDEN.PA",
+        "companyName": "EDENRED",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "EDF.PA",
+        "companyName": "EDF",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "EDFAV.PA",
+        "companyName": "EDF3.875%18JAN2022",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "EDI.PA",
+        "companyName": "MEDIA 6",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "EIFF.PA",
+        "companyName": "TOUR EIFFEL",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "EKI.PA",
+        "companyName": "EKINOPS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "EL.PA",
+        "companyName": "ESSILORLUXOTTICA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ELEC.PA",
+        "companyName": "ELEC.STRASBOURG",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ELIOR.PA",
+        "companyName": "ELIOR GROUP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ELIS.PA",
+        "companyName": "ELIS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "EMG.PA",
+        "companyName": "EUROMEDIS GROUPE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "EN.PA",
+        "companyName": "BOUYGUES",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ENGI.PA",
+        "companyName": "ENGIE",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ENX.PA",
+        "companyName": "EURONEXT",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "EOS.PA",
+        "companyName": "ACTEOS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "EOSI.PA",
+        "companyName": "EOS IMAGING",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "EPS.PA",
+        "companyName": "ENGIE EPS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ERA.PA",
+        "companyName": "ERAMET",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ERAE.PA",
+        "companyName": "ERA5.875%21MAY25",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ERF.PA",
+        "companyName": "EUROFINS SCIENT.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ERFNV.PA",
+        "companyName": "EUROFINS NV20",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ERYP.PA",
+        "companyName": "ERYTECH PHARMA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ES.PA",
+        "companyName": "ESSO",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ESI.PA",
+        "companyName": "ESI GROUP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ETL.PA",
+        "companyName": "EUTELSAT COMMUNIC.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "EUCAR.PA",
+        "companyName": "EUROPCAR MOBILITY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "EURBU.PA",
+        "companyName": "EUROPLASMA BSC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "EURS.PA",
+        "companyName": "FONCIERE EURIS",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "EXAC.PA",
+        "companyName": "EXACOMPTA CLAIREF.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "EXPL.PA",
+        "companyName": "EXPLOSIFS PROD.CHI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "FATL.PA",
+        "companyName": "FONCIERE ATLAND",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "FBEL.PA",
+        "companyName": "BEL",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "FGA.PA",
+        "companyName": "FIGEAC AERO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "FGR.PA",
+        "companyName": "EIFFAGE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "FLE.PA",
+        "companyName": "FLEURY MICHON",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "FLO.PA",
+        "companyName": "GROUPE FLO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "FLY.PA",
+        "companyName": "FONCIERE LYONNAISE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "FNAC.PA",
+        "companyName": "FNAC DARTY",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "FP.PA",
+        "companyName": "TOTAL",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "FPG.PA",
+        "companyName": "UNION TECH.INFOR.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "FPN.PA",
+        "companyName": "FONC. PARIS NORD",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "FR.PA",
+        "companyName": "VALEO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "FR0000047821.PA",
+        "companyName": "DIACTPFRN29OCT49",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "FTI.PA",
+        "companyName": "TECHNIPFMC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GALIM.PA",
+        "companyName": "GALIMMO",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GAM.PA",
+        "companyName": "GAUMONT",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GAUBS.PA",
+        "companyName": "GAUSSIN BSAR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GBT.PA",
+        "companyName": "GUERBET",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GDS.PA",
+        "companyName": "RAMSAY GEN SANTE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GEA.PA",
+        "companyName": "GEA GRENOBL.ELECT.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GECBT.PA",
+        "companyName": "GECI INTL BSAR A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GECP.PA",
+        "companyName": "GECI INTL",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GENX.PA",
+        "companyName": "GENERIX GROUP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GET.PA",
+        "companyName": "GETLINK SE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GFC.PA",
+        "companyName": "GECINA NOM.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GID.PA",
+        "companyName": "EGIDE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GLE.PA",
+        "companyName": "SOCIETE GENERALE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GLO.PA",
+        "companyName": "GL EVENTS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GNE.PA",
+        "companyName": "GENERAL ELECTRIC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GNFT.PA",
+        "companyName": "GENFIT",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GNRO.PA",
+        "companyName": "GENEURO",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GPATR.PA",
+        "companyName": "GROUPAMA6.375%PL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GPE.PA",
+        "companyName": "GPE GROUP PIZZORNO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GRVO.PA",
+        "companyName": "GRAINES VOLTZ",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GTT.PA",
+        "companyName": "GTT",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GUI.PA",
+        "companyName": "GUILLEMOT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "GV.PA",
+        "companyName": "GENOMIC VISION",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "HCO.PA",
+        "companyName": "HIGH CO",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "HDP.PA",
+        "companyName": "HOTELS DE PARIS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "HEXA.PA",
+        "companyName": "HEXAOM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "HF.PA",
+        "companyName": "HF",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "HIPAY.PA",
+        "companyName": "HIPAY GROUP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "HO.PA",
+        "companyName": "THALES",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "HOP.PA",
+        "companyName": "HOPSCOTCH GROUPE",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "HSB.PA",
+        "companyName": "HSBC HOLDINGS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "IAM.PA",
+        "companyName": "MAROC TELECOM",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "IDL.PA",
+        "companyName": "ID LOGISTICS GROUP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "IGE.PA",
+        "companyName": "IGE + XAO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ING.PA",
+        "companyName": "INGENICO GROUP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "IPH.PA",
+        "companyName": "INNATE PHARMA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "IRD.PA",
+        "companyName": "GROUPE IRD",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ITL.PA",
+        "companyName": "IT LINK",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "JBOG.PA",
+        "companyName": "JACQUES BOGART",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "JCQ.PA",
+        "companyName": "JACQUET METAL SCE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "KAZI.PA",
+        "companyName": "ORCHESTRA-PREMAMAN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "KER.PA",
+        "companyName": "KERING",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "KEY.PA",
+        "companyName": "KEYRUS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "KN.PA",
+        "companyName": "NATIXIS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "KOF.PA",
+        "companyName": "KAUFMAN ET BROAD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "LACR.PA",
+        "companyName": "LACROIX SA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "LAF.PA",
+        "companyName": "LAFUMA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "LAT.PA",
+        "companyName": "LATECOERE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "LBIRD.PA",
+        "companyName": "LUMIBIRD",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "LFDE.PA",
+        "companyName": "FRANCAISE ENERGIE",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "LHN.PA",
+        "companyName": "LAFARGEHOLCIM LTD",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "LI.PA",
+        "companyName": "KLEPIERRE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "LIN.PA",
+        "companyName": "LINEDATA SERVICES",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "LOCAL.PA",
+        "companyName": "SOLOCAL GROUP",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "LR.PA",
+        "companyName": "LEGRAND",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "LTA.PA",
+        "companyName": "ALTAMIR",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "LYS.PA",
+        "companyName": "LYSOGENE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MAGIS.PA",
+        "companyName": "YMAGIS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MALT.PA",
+        "companyName": "MALTERIES FCO-BEL.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MAN.PA",
+        "companyName": "MANUTAN INTL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MAU.PA",
+        "companyName": "MAUREL ET PROM",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MBWBT.PA",
+        "companyName": "MBWS BSA 2022",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MBWS.PA",
+        "companyName": "MBWS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MC.PA",
+        "companyName": "LVMH",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MCPHY.PA",
+        "companyName": "MCPHY ENERGY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MDM.PA",
+        "companyName": "MAISONS DU MONDE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MDW.PA",
+        "companyName": "MEDIAWAN",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MDWBS.PA",
+        "companyName": "MEDIAWAN WAR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MEMS.PA",
+        "companyName": "MEMSCAP REGPT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MERY.PA",
+        "companyName": "MERCIALYS",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "METEX.PA",
+        "companyName": "METABOLIC EXPLORER",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MF.PA",
+        "companyName": "WENDEL",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MKEA.PA",
+        "companyName": "MAUNA KEA TECH",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ML.PA",
+        "companyName": "MICHELIN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLAHC.PA",
+        "companyName": "HEALTH",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLAIM.PA",
+        "companyName": "AIR MARINE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLBAT.PA",
+        "companyName": "BATLA MINERALS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLBSP.PA",
+        "companyName": "BLUE SHARK POWER",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLCFD.PA",
+        "companyName": "CH.FER DEPARTEMENT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLCMB.PA",
+        "companyName": "CIE DU MONT BLANC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLEDR.PA",
+        "companyName": "EAUX DE ROYAN",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLERO.PA",
+        "companyName": "EUROLAND CORPORATE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLFSG.PA",
+        "companyName": "FRANCE SOIR GROUPE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLGEQ.PA",
+        "companyName": "GENTLEMENS EQUITY",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLGML.PA",
+        "companyName": "GOUR MEDICAL",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLHPE.PA",
+        "companyName": "HOPENING",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLKRI.PA",
+        "companyName": "KRIEF GROUP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLMAI.PA",
+        "companyName": "MAISONS D'AUJOURD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLMGL.PA",
+        "companyName": "MAGILLEM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLMMC.PA",
+        "companyName": "MULTIMICROCLOUD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLMON.PA",
+        "companyName": "MONFINANCIER",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLMUL.PA",
+        "companyName": "MULANN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLNMA.PA",
+        "companyName": "MIGUET ET ASSOCIES",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLPHO.PA",
+        "companyName": "PHOTONIKE CAPITAL",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLPRX.PA",
+        "companyName": "PARX MATERIALS NV",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLROU.PA",
+        "companyName": "ROUSSELET CENTRIF.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLSEQ.PA",
+        "companyName": "SEQUA PETROLEUM NV",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLSML.PA",
+        "companyName": "SMALTO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLTRA.PA",
+        "companyName": "TRAMWAYS DE ROUEN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLUMG.PA",
+        "companyName": "UMALIS GROUP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLVIS.PA",
+        "companyName": "VISIO NERF",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLWEA.PA",
+        "companyName": "WEACCESS GROUP",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MLZAM.PA",
+        "companyName": "ZCCM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MMB.PA",
+        "companyName": "LAGARDERE S.C.A.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MMT.PA",
+        "companyName": "METROPOLE TV",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MRB.PA",
+        "companyName": "MR BRICOLAGE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MRK.PA",
+        "companyName": "MERCK AND CO INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MRM.PA",
+        "companyName": "M.R.M",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MRN.PA",
+        "companyName": "MERSEN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MSTY.PA",
+        "companyName": "MAINSTAY MEDICAL",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MTU.PA",
+        "companyName": "MANITOU BF",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "MUN.PA",
+        "companyName": "MICROPOLE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "NACON.PA",
+        "companyName": "NACON",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "NANO.PA",
+        "companyName": "NANOBIOTIX",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "NAVYA.PA",
+        "companyName": "NAVYA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "NEOEN.PA",
+        "companyName": "NEOEN",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "NEX.PA",
+        "companyName": "NEXANS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "NEXTS.PA",
+        "companyName": "NEXTSTAGE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "NOKIA.PA",
+        "companyName": "NOKIA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "NR21.PA",
+        "companyName": "NR21",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "NRG.PA",
+        "companyName": "NRJ GROUP",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "NRO.PA",
+        "companyName": "NEURONES",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "NXI.PA",
+        "companyName": "NEXITY",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "OLG.PA",
+        "companyName": "OL GROUPE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "OPN.PA",
+        "companyName": "GROUPE OPEN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "OR.PA",
+        "companyName": "L'OREAL",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ORIA.PA",
+        "companyName": "FIDUCIAL REAL EST.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "PABSA.PA",
+        "companyName": "PARROT BSA 1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "PAR.PA",
+        "companyName": "PAREF",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "PARP.PA",
+        "companyName": "GROUPE PARTOUCHE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "PARRO.PA",
+        "companyName": "PARROT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "PAT.PA",
+        "companyName": "PATRIMOINE ET COMM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "PERR.PA",
+        "companyName": "PERRIER (GERARD)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "PHA.PA",
+        "companyName": "PHARMAGEST INTER.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "PIG.PA",
+        "companyName": "HAULOTTE GROUP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "POM.PA",
+        "companyName": "PLASTIC OMNIUM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "POXEL.PA",
+        "companyName": "POXEL",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "PRBS1.PA",
+        "companyName": "PROLOG BSAAR20",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "PRC.PA",
+        "companyName": "ARTMARKET COM",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "PREC.PA",
+        "companyName": "PRECIA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "PROBT.PA",
+        "companyName": "PROLOGUE BSA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "PSAT.PA",
+        "companyName": "PASSAT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "PSB.PA",
+        "companyName": "PSB INDUSTRIES",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "PUB.PA",
+        "companyName": "PUBLICIS GROUPE SA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "PUBBS.PA",
+        "companyName": "PUBLICIS BSA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "PVL.PA",
+        "companyName": "PLAST.VAL LOIRE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "PWG.PA",
+        "companyName": "PRODWAYS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "QDT.PA",
+        "companyName": "QUADIENT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "QUTAA.PA",
+        "companyName": "QUARTUS7%19JUN22",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "RADAB.PA",
+        "companyName": "RADIA5.15%JUN21",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "RAL.PA",
+        "companyName": "RALLYE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "RBO.PA",
+        "companyName": "ROCHE BOBOIS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "RBT.PA",
+        "companyName": "ROBERTET",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "RCO.PA",
+        "companyName": "REMY COINTREAU",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "RF.PA",
+        "companyName": "EURAZEO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "RI.PA",
+        "companyName": "PERNOD RICARD",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "RIN.PA",
+        "companyName": "VILMORIN & CIE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "RMS.PA",
+        "companyName": "HERMES INTL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "RNO.PA",
+        "companyName": "RENAULT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ROCBS.PA",
+        "companyName": "ROCTOOL BSA 2020",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "ROTH.PA",
+        "companyName": "ROTHSCHILD & CO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "RUI.PA",
+        "companyName": "RUBIS",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "RX.PA",
+        "companyName": "RECYLEX S.A.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "RXL.PA",
+        "companyName": "REXEL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SABE.PA",
+        "companyName": "SAINT JEAN GROUPE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SAF.PA",
+        "companyName": "SAFRAN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SAMS.PA",
+        "companyName": "SAMSE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SAN.PA",
+        "companyName": "SANOFI",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SANNV.PA",
+        "companyName": "SANOFI NV20",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SAVE.PA",
+        "companyName": "SAVENCIA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SCHP.PA",
+        "companyName": "SECHE ENVIRONNEM.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SCR.PA",
+        "companyName": "SCOR SE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SDG.PA",
+        "companyName": "SYNERGIE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SDT.PA",
+        "companyName": "VISIODENT",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SEC.PA",
+        "companyName": "SODITECH",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SEFER.PA",
+        "companyName": "SERGEFERRARI GROUP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SELER.PA",
+        "companyName": "SELECTIRENTE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SESG.PA",
+        "companyName": "SES",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SESL.PA",
+        "companyName": "SES IMAGOTAG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SEV.PA",
+        "companyName": "SUEZ",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SFBS.PA",
+        "companyName": "SOFIBUS PATRIMOINE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SFPI.PA",
+        "companyName": "GROUPE SFPI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SGO.PA",
+        "companyName": "SAINT GOBAIN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SIGHT.PA",
+        "companyName": "GENSIGHT BIOLOGICS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SII.PA",
+        "companyName": "SII",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SK.PA",
+        "companyName": "S.E.B.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SLB.PA",
+        "companyName": "SCHLUMBERGER",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SMCP.PA",
+        "companyName": "SMCP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SMTPC.PA",
+        "companyName": "SMTPC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SO.PA",
+        "companyName": "SOMFY SA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SOFR.PA",
+        "companyName": "SOFRAGI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SOI.PA",
+        "companyName": "SOITEC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SOP.PA",
+        "companyName": "SOPRA STERIA GROUP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SPIAA.PA",
+        "companyName": "SPIE3.125%22MAR24",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SPIE.PA",
+        "companyName": "SPIE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SQI.PA",
+        "companyName": "SQLI",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SRP.PA",
+        "companyName": "SHOWROOMPRIVE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SSI.PA",
+        "companyName": "SUPERSONIC IMAGINE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "STF.PA",
+        "companyName": "STEF",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "STM.PA",
+        "companyName": "STMICROELECTRONICS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SU.PA",
+        "companyName": "SCHNEIDER ELECTRIC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SW.PA",
+        "companyName": "SODEXO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "SWP.PA",
+        "companyName": "SWORD GROUP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "TCH.PA",
+        "companyName": "TECHNICOLOR",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "TEP.PA",
+        "companyName": "TELEPERFORMANCE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "TES.PA",
+        "companyName": "TESSI",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "TFF.PA",
+        "companyName": "TFF GROUP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "TFI.PA",
+        "companyName": "TF1",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "THEP.PA",
+        "companyName": "THERMADOR GROUPE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "TIPI.PA",
+        "companyName": "TIPIAK",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "TKO.PA",
+        "companyName": "TIKEHAU CAPITAL",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "TKTT.PA",
+        "companyName": "TARKETT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "TNG.PA",
+        "companyName": "TRANSGENE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "TOUAC.PA",
+        "companyName": "TOUAX7.95%PL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "TOUP.PA",
+        "companyName": "TOUAX",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "TRI.PA",
+        "companyName": "TRIGANO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "TVLY.PA",
+        "companyName": "TIVOLY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "TVRB.PA",
+        "companyName": "TELEVERBIER",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "UBI.PA",
+        "companyName": "UBISOFT ENTERTAIN",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "UG.PA",
+        "companyName": "PEUGEOT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "VAC.PA",
+        "companyName": "PIERRE VACANCES",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "VCT.PA",
+        "companyName": "VICAT",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "VERBS.PA",
+        "companyName": "VERGNET BSA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "VETO.PA",
+        "companyName": "VETOQUINOL",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "VIE.PA",
+        "companyName": "VEOLIA ENVIRON.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "VIRP.PA",
+        "companyName": "VIRBAC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "VIV.PA",
+        "companyName": "VIVENDI",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "VK.PA",
+        "companyName": "VALLOUREC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "VLA.PA",
+        "companyName": "VALNEVA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "VLAP.PA",
+        "companyName": "VALNEVA PREF",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "VLTSA.PA",
+        "companyName": "VOLTALIA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "VMGBS.PA",
+        "companyName": "VISIOMED BSA2018-1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "VMX.PA",
+        "companyName": "VERIMATRIX",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "VRAP.PA",
+        "companyName": "VRANKEN-POMMERY",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "VRLA.PA",
+        "companyName": "VERALLIA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "WAVE.PA",
+        "companyName": "WAVESTONE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "WLN.PA",
+        "companyName": "WORLDLINE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "XFAB.PA",
+        "companyName": "X-FAB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "XIL.PA",
+        "companyName": "XILAM ANIMATION",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "PAR",
+        "symbol": "XPO.PA",
+        "companyName": "XPO LOGISTICS",
+        "industryOrCategory": "Industrials"
+    }
+]

@@ -1,0 +1,614 @@
+[
+    {
+        "exchangeCode": "TLO",
+        "symbol": "0Q3.TI",
+        "companyName": "BEYOND MEAT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "1BR1.TI",
+        "companyName": "WFD UNIBAIL-RODAMCO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "3V64.TI",
+        "companyName": "VISA - CLASSE A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "5G5.TI",
+        "companyName": "GOPRO - CLASSE A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "ABEC.TI",
+        "companyName": "AZIONE ALPHABET - CLASS C",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "ADE.TI",
+        "companyName": "BITCOIN GROUP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "ADSG-U.TI",
+        "companyName": "ADIDAS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "AFX.TI",
+        "companyName": "CARL ZEISS MEDITEC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "AGN.TI",
+        "companyName": "AEGON",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "AH-U.TI",
+        "companyName": "KONINKLIJKE AHOLD DELHAIZE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "AIRF-U.TI",
+        "companyName": "AIR FRANCE KLM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "AIRP-U.TI",
+        "companyName": "L'AIR LIQUIDE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "ALV.TI",
+        "companyName": "ALLIANZ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "AMA-U.TI",
+        "companyName": "AMAZON.COM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "AMD-U.TI",
+        "companyName": "ADVANCED MICRO DEVICES",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "AP-U.TI",
+        "companyName": "APPLE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "AXA.TI",
+        "companyName": "AXA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "BASF.TI",
+        "companyName": "BASF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "BAY.TI",
+        "companyName": "BAYER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "BEI.TI",
+        "companyName": "BEIERSDORF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "BIIB-U.TI",
+        "companyName": "BIOGEN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "BMW.TI",
+        "companyName": "BMW",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "BNP.TI",
+        "companyName": "BNP PARIBAS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "BOE-U.TI",
+        "companyName": "BOEING",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "BOSS.TI",
+        "companyName": "HUGO BOSS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "BRM.TI",
+        "companyName": "BRISTOL-MYERS SQUIBB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "BRYN.TI",
+        "companyName": "BERKSHIRE HATHAWAY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "COK-U.TI",
+        "companyName": "THE COCA-COLA COMPANY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "DB1GN.TI",
+        "companyName": "DEUTSCHE BOERSE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "DBK.TI",
+        "companyName": "DEUTSCHE BANK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "DCX.TI",
+        "companyName": "DAIMLER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "DTE.TI",
+        "companyName": "DEUTSCHE TELEKOM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "EAD-U.TI",
+        "companyName": "AIRBUS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "EBAY-U.TI",
+        "companyName": "EBAY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "ELE-U.TI",
+        "companyName": "ENDESA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "EOA.TI",
+        "companyName": "E.ON",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "ERCB.TI",
+        "companyName": "ERICSSON - CLASS B",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "ERT.TI",
+        "companyName": "ELECTRONIC ARTS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "EVT.TI",
+        "companyName": "EVOTEC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "GIS.TI",
+        "companyName": "GILEAD SCIENCES",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "GLE.TI",
+        "companyName": "SOCIETE GENERALE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "GOOGL.TI",
+        "companyName": "AZIONE ALPHABET - CLASS A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "GTQ1.TI",
+        "companyName": "SIEMENS GAMESA RENEWABLE ENERGY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "HEI.TI",
+        "companyName": "HEIDELBERG CEMENT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "HEIA-U.TI",
+        "companyName": "HEINEKEN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "INGA-U.TI",
+        "companyName": "ING GROEP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "JNJ-U.TI",
+        "companyName": "JOHNSON & JOHNSON",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "JPM.TI",
+        "companyName": "J.P. MORGAN CHASE & CO.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "KEL.TI",
+        "companyName": "KELLOGG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "KHC-U.TI",
+        "companyName": "THE KRAFT HEINZ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "KPN-U.TI",
+        "companyName": "KONINKLIJKE KPN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "KPR.TI",
+        "companyName": "KLEPIERRE REIT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "LF-U.TI",
+        "companyName": "DEUTSCHE LUFTHANSA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "LVMH.TI",
+        "companyName": "LVMH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "M4I.TI",
+        "companyName": "MASTERCARD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "MICP-U.TI",
+        "companyName": "MICHELIN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "MMM.TI",
+        "companyName": "3M",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "MRK-U.TI",
+        "companyName": "MERCK & CO.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "MT-U.TI",
+        "companyName": "ARCELORMITTAL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "MTX.TI",
+        "companyName": "MTU AERO ENGINES",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "NFC.TI",
+        "companyName": "NETFLIX",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "NKE.TI",
+        "companyName": "NIKE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "NOK1V.TI",
+        "companyName": "NOKIA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "OCI1.TI",
+        "companyName": "ACS ACTIVIDADES CONS.Y SERVICIO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "OREP-U.TI",
+        "companyName": "L'OREAL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "OSR-U.TI",
+        "companyName": "OSRAM LICHT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "PCG.TI",
+        "companyName": "PG&E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "PEUP-U.TI",
+        "companyName": "PEUGEOT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "PG-U.TI",
+        "companyName": "PROCTER & GAMBLE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "PNE3.TI",
+        "companyName": "PNE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "PP.TI",
+        "companyName": "KERING",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "PSM.TI",
+        "companyName": "PROSIEBENSAT1 MEDIA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "PYPL-U.TI",
+        "companyName": "PAYPAL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "QC-U.TI",
+        "companyName": "QUALCOMM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "RE21.TI",
+        "companyName": "RED ELECTRICA CORP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "RWE.TI",
+        "companyName": "RWE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "SANT.TI",
+        "companyName": "BANCO SANTANDER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "SDF.TI",
+        "companyName": "K+S",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "SGEF-U.TI",
+        "companyName": "VINCI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "SGOB-U.TI",
+        "companyName": "SAINT-GOBAIN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "SIE.TI",
+        "companyName": "SIEMENS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "SQI.TI",
+        "companyName": "SIMON PROPERTY GROUP REIT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "SRB.TI",
+        "companyName": "STARBUCKS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "T.TI",
+        "companyName": "AT&T",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "TGR.TI",
+        "companyName": "YUM! BRANDS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "TKAG-U.TI",
+        "companyName": "THYSSENKRUPP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "TN8.TI",
+        "companyName": "THERMO FISHER SCIENTIFIC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "TOT.TI",
+        "companyName": "TOTAL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "UWS.TI",
+        "companyName": "WASTE MANAGEMENT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "VOW3-U.TI",
+        "companyName": "VOLKSWAGEN PREF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "VOWG-U.TI",
+        "companyName": "VOLKSWAGEN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "VVD.TI",
+        "companyName": "VEOLIA ENVIRONNEMENT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "VZ.TI",
+        "companyName": "VERIZON COMMUNICATIONS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "WCH.TI",
+        "companyName": "WACKER CHEMIE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "WDC.TI",
+        "companyName": "WESTERN DIGITAL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "WDI.TI",
+        "companyName": "WIRECARD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "WD-U.TI",
+        "companyName": "THE WALT DISNEY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "WHC.TI",
+        "companyName": "WEYERHAEUSER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "WMT-U.TI",
+        "companyName": "WALMART",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "XLNX-U.TI",
+        "companyName": "XILINX",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "XOM-U.TI",
+        "companyName": "EXXON MOBIL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TLO",
+        "symbol": "ZAL.TI",
+        "companyName": "ZALANDO",
+        "industryOrCategory": "N/A"
+    }
+]

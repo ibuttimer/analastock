@@ -1,0 +1,740 @@
+[
+    {
+        "exchangeCode": "BRU",
+        "symbol": "ABI.BR",
+        "companyName": "AB INBEV",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "ABO.BR",
+        "companyName": "ABO GROUP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "ACCB.BR",
+        "companyName": "ACCENTIS",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "ACKB.BR",
+        "companyName": "ACKERMANS V.HAAREN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "ACPH.BR",
+        "companyName": "ACACIA PHARMA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "AED.BR",
+        "companyName": "AEDIFICA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "AGFB.BR",
+        "companyName": "AGFA-GEVAERT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "AGS.BR",
+        "companyName": "AGEAS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "ARGX.BR",
+        "companyName": "ARGENX SE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "ASIT.BR",
+        "companyName": "ASIT",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "ATE24.BR",
+        "companyName": "ATENOR3.5%5APR24",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "ATEB.BR",
+        "companyName": "ATENOR",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "B263.BR",
+        "companyName": "BELG1.1%4DEC24",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "B267.BR",
+        "companyName": "BELG0.9%4SEP25",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "B272.BR",
+        "companyName": "BELG0.75%4MAR2027",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "BALTA.BR",
+        "companyName": "BALTA GROUP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "BANI.BR",
+        "companyName": "BANIMMO A",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "BAR.BR",
+        "companyName": "BARCO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "BBV.BR",
+        "companyName": "BANCO BILBAO VIZC.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "BCART.BR",
+        "companyName": "BIOCARTIS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "BE0002238070.BR",
+        "companyName": "DECEUN3.75%8DEC22",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "BE0002652338.BR",
+        "companyName": "VRANKEN3%19JUN22",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "BE0002653344.BR",
+        "companyName": "VRANKE3.45%19JUN24",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "BE0002654359.BR",
+        "companyName": "VRANKE3.75%19JUN26",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "BE0002657386.BR",
+        "companyName": "GIMV2.875%5JUL26",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "BE0002677582.BR",
+        "companyName": "VGP2.75%2APR2023",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "BEAB.BR",
+        "companyName": "BEAULIEU-AV. CERT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "BEFB.BR",
+        "companyName": "BEFIMMO",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "BEK20.BR",
+        "companyName": "BEKAER4.75%17OCT20",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "BEKB.BR",
+        "companyName": "BEKAERT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "BNB.BR",
+        "companyName": "BQUE NAT. BELGIQUE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "BOTHE.BR",
+        "companyName": "BONE THERAPEUTICS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "BPOST.BR",
+        "companyName": "BPOST",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "BREB.BR",
+        "companyName": "BREDERODE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "COMB.BR",
+        "companyName": "CIE BOIS SAUVAGE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "CPINV.BR",
+        "companyName": "CARE PROPERTY INV.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "DECB.BR",
+        "companyName": "DECEUNINCK",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "DIE.BR",
+        "companyName": "D'IETEREN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "DIEG.BR",
+        "companyName": "DIEGEM KENNEDYCERT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "DISL.BR",
+        "companyName": "DISTRI-LAND CERT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "ECONB.BR",
+        "companyName": "ECONOCOM GROUP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "ELI.BR",
+        "companyName": "ELIA GROUP",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "ENGB.BR",
+        "companyName": "ROSIER",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "EON.BR",
+        "companyName": "E.ON SE",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "EURN.BR",
+        "companyName": "EURONAV",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "EVS.BR",
+        "companyName": "EVS BROADC.EQUIPM.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "EXM.BR",
+        "companyName": "EXMAR",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "FLUX.BR",
+        "companyName": "FLUXYS BELGIUM D",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "FNG.BR",
+        "companyName": "FNG NV",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "GBLB.BR",
+        "companyName": "GBL",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "GENK.BR",
+        "companyName": "GENK LOGIST. CERT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "GIMB.BR",
+        "companyName": "GIMV",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "GLOG.BR",
+        "companyName": "GLOBAL GRAPHICS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "GREEN.BR",
+        "companyName": "GREENYARD",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "HAMO.BR",
+        "companyName": "HAMON",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "HOMI.BR",
+        "companyName": "HOME INVEST BE.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "IMMOU.BR",
+        "companyName": "IMMO MOURY",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "INTO.BR",
+        "companyName": "INTERVEST OFF-WARE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "JEN.BR",
+        "companyName": "JENSEN-GROUP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "KBC.BR",
+        "companyName": "KBC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "KBCA.BR",
+        "companyName": "KBC ANCORA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "KEYW.BR",
+        "companyName": "KEYWARE TECH.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "KIN.BR",
+        "companyName": "KINEPOLIS GROUP",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "LEAS.BR",
+        "companyName": "LEASINVEST",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "LOTB.BR",
+        "companyName": "LOTUS BAKERIES",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "MCC.BR",
+        "companyName": "IMMO MCC",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "MDXH.BR",
+        "companyName": "MDXHEALTH",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "MELE.BR",
+        "companyName": "MELEXIS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "MEURV.BR",
+        "companyName": "MUNCHENER RUCKVERS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "MIKO.BR",
+        "companyName": "MIKO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "MITRA.BR",
+        "companyName": "MITHRA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "MONT.BR",
+        "companyName": "MONTEA C.V.A.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "MOUR.BR",
+        "companyName": "MOURY CONSTRUCT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "MSF.BR",
+        "companyName": "MICROSOFT CORP SPL",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "NL0013526866.BR",
+        "companyName": "CECMIF6.5%28JUN24",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "NYR.BR",
+        "companyName": "NYRSTAR",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "OBEL.BR",
+        "companyName": "ORANGE BELGIUM",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "ONTEX.BR",
+        "companyName": "ONTEX GROUP",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "PAY.BR",
+        "companyName": "PAYTON PLANAR",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "PIC.BR",
+        "companyName": "PICANOL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "PROX.BR",
+        "companyName": "PROXIMUS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "QFG.BR",
+        "companyName": "QUESTFOR GR-PRICAF",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "QRF.BR",
+        "companyName": "QRF",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "REC.BR",
+        "companyName": "RECTICEL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "RES.BR",
+        "companyName": "RESILUX",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "RET.BR",
+        "companyName": "RETAIL ESTATES",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "ROU.BR",
+        "companyName": "ROULARTA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "SANTA.BR",
+        "companyName": "BANCO SANTANDER",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "SEQUA.BR",
+        "companyName": "SEQUANA MEDICAL",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "SHUR.BR",
+        "companyName": "SHURGARD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "SIOE.BR",
+        "companyName": "SIOEN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "SIP.BR",
+        "companyName": "SIPEF",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "SMAR.BR",
+        "companyName": "SMARTPHOTO GROUP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "SOF.BR",
+        "companyName": "SOFINA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "SOFT.BR",
+        "companyName": "SOFTIMAT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "SOLB.BR",
+        "companyName": "SOLVAY",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "SOLV.BR",
+        "companyName": "SOLVAC NOM(RETAIL)",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "SPA.BR",
+        "companyName": "SPADEL",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "TERB.BR",
+        "companyName": "TER BEKE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "TESB.BR",
+        "companyName": "TESSENDERLO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "TEXF.BR",
+        "companyName": "TEXAF",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "TINC.BR",
+        "companyName": "TINC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "TNET.BR",
+        "companyName": "TELENET GROUP",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "TUB.BR",
+        "companyName": "TUBIZE-FIN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "UCB23.BR",
+        "companyName": "UCB 5.125%2OCT23",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "VAN.BR",
+        "companyName": "VAN DE VELDE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "VASTB.BR",
+        "companyName": "VASTNED RETAIL BEL",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "VDM22.BR",
+        "companyName": "VDMOOR3.06%10JUN22",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "VGP.BR",
+        "companyName": "VGP",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "VGP23.BR",
+        "companyName": "VGP3.9%21SEP2023",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "VGP24.BR",
+        "companyName": "VGP3.25%6JUIL24",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "VGP26.BR",
+        "companyName": "VGP3.5%19MAR2026",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "VIO.BR",
+        "companyName": "VIOHALCO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "VWA.BR",
+        "companyName": "VOLKSWAGEN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "WDP.BR",
+        "companyName": "WDP",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "WDP21.BR",
+        "companyName": "WDP3.375%13JUN21",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "WEB.BR",
+        "companyName": "WAREHOUSES",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "WEHB.BR",
+        "companyName": "WERELDHAVE BELGIUM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "WOLE.BR",
+        "companyName": "WOL. EXTENS. CERT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "WOLS.BR",
+        "companyName": "WOL. SHOPPING CERT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "XIOR.BR",
+        "companyName": "XIOR",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "ZEN.BR",
+        "companyName": "ZENOBE GRAMME CERT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BRU",
+        "symbol": "ZENT.BR",
+        "companyName": "ZENITEL",
+        "industryOrCategory": "Technology"
+    }
+]

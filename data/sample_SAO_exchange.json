@@ -1,0 +1,3890 @@
+[
+    {
+        "exchangeCode": "SAO",
+        "symbol": "A1BM34.SA",
+        "companyName": "ABIOMED INC DRN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "A1EP34.SA",
+        "companyName": "AMERICAN ELEDRN",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "A1LK34.SA",
+        "companyName": "ALASKA AIR GDRN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "A1MT34.SA",
+        "companyName": "APPLIED MATEDRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "A1UT34.SA",
+        "companyName": "AUTODESK INCDRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "AALL34.SA",
+        "companyName": "AMERICAN AIRDRN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "AALR3.SA",
+        "companyName": "ALLIAR      ON      NM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "AAPL34.SA",
+        "companyName": "APPLE       DRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ABCB4.SA",
+        "companyName": "ABC BRASIL  PN      N2",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ABCP11.SA",
+        "companyName": "FII ABC IMOBCI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ABEV3.SA",
+        "companyName": "AMBEV S/A   ON",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ABTT34.SA",
+        "companyName": "ABBOTT      DRN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ABUD34.SA",
+        "companyName": "AB INBEV    DRN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ACNB34.SA",
+        "companyName": "ACCENTURE   DRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ADBE34.SA",
+        "companyName": "ADOBE INC   DRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ADHM1.SA",
+        "companyName": "ADVANCED-DH DO    2,08",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ADHM3.SA",
+        "companyName": "ADVANCED-DH ON",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ADPR34.SA",
+        "companyName": "AUTOMATIC DTDRN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "AFLT3.SA",
+        "companyName": "AFLUENTE T  ON",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "AGRO3.SA",
+        "companyName": "BRASILAGRO  ON      NM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "AIGB34.SA",
+        "companyName": "AIG GROUP   DRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ALPA3.SA",
+        "companyName": "ALPARGATAS  ON      N1",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ALPA4.SA",
+        "companyName": "ALPARGATAS  PN      N1",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ALSO3.SA",
+        "companyName": "ALIANSCSONAEON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ALUP11.SA",
+        "companyName": "ALUPAR      UNT     N2",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ALUP3.SA",
+        "companyName": "ALUPAR      ON      N2",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ALUP4.SA",
+        "companyName": "ALUPAR      PN      N2",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ALZR11.SA",
+        "companyName": "FII ALIANZA CI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "AMAR3.SA",
+        "companyName": "LOJAS MARISAON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "AMGN34.SA",
+        "companyName": "AMGEN       DRN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "AMZO34.SA",
+        "companyName": "AMAZON      DRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ANIM3.SA",
+        "companyName": "ANIMA       ON      NM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "APER3.SA",
+        "companyName": "ALPER S.A.  ON      NM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "APTV34.SA",
+        "companyName": "APTIV PLC   DRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ARMT34.SA",
+        "companyName": "ARCELOR     DRN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ARZZ3.SA",
+        "companyName": "AREZZO CO   ON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ASML34.SA",
+        "companyName": "ASML HOLD   DRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ATOM3.SA",
+        "companyName": "ATOMPAR     ON",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ATSA11.SA",
+        "companyName": "FII HATRIUM CI",
+        "industryOrCategory": "Financial"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ATTB34.SA",
+        "companyName": "ATT INC     DRN",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "AXPB34.SA",
+        "companyName": "AMERICAN EXPDRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "AZEV3.SA",
+        "companyName": "AZEVEDO     ON",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "AZEV4.SA",
+        "companyName": "AZEVEDO     PN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "AZUL4.SA",
+        "companyName": "AZUL        PN      N2",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "B1BT34.SA",
+        "companyName": "TRUIST FINANDRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "B1KR34.SA",
+        "companyName": "BAKER HUGHESDRN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "B1SX34.SA",
+        "companyName": "BOSTON SCIENDRN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "B3SA3.SA",
+        "companyName": "B3          ON      NM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BABA34.SA",
+        "companyName": "ALIBABAGR   DRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BAHI3.SA",
+        "companyName": "BAHEMA      ON      MA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BALM4.SA",
+        "companyName": "BAUMER      PN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BARI11.SA",
+        "companyName": "FII BARIGUI CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BAUH4.SA",
+        "companyName": "EXCELSIOR   PN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BAZA3.SA",
+        "companyName": "AMAZONIA    ON",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BBAS3.SA",
+        "companyName": "BRASIL      ON  EJ  NM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BBDC3.SA",
+        "companyName": "BRADESCO    ON      N1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BBDC4.SA",
+        "companyName": "BRADESCO    PN      N1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BBFI11B.SA",
+        "companyName": "BB FDO DE INVST I",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BBPO11.SA",
+        "companyName": "FII BB PRGIICI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BBRC11.SA",
+        "companyName": "FII BB CORP CI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BBRK3.SA",
+        "companyName": "BR BROKERS  ON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BBSD.SA",
+        "companyName": "BB ETF SP DV",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BBSD11.SA",
+        "companyName": "BB ETF SP DVCI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BBSE3.SA",
+        "companyName": "BBSEGURIDADEON      NM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BBVJ11.SA",
+        "companyName": "FII C JARDIMCI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BCFF11.SA",
+        "companyName": "FII BC FFII CI  ER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BCSA34.SA",
+        "companyName": "SANTANDER   DRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BEEF11.SA",
+        "companyName": "MINERVA     BNS ORD NM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BEEF3.SA",
+        "companyName": "MINERVA     ON      NM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BEES3.SA",
+        "companyName": "BANESTES    ON",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BERK34.SA",
+        "companyName": "BERKSHIRE   DRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BGIP3.SA",
+        "companyName": "BANESE      ON",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BHPG34.SA",
+        "companyName": "BHP GROUP   DRN ED",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BIDI11.SA",
+        "companyName": "BANCO INTER UNT     N2",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BIDI3.SA",
+        "companyName": "BANCO INTER ON      N2",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BIDI4.SA",
+        "companyName": "BANCO INTER PN      N2",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BIIB34.SA",
+        "companyName": "BIOGEN      DRN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BIOM3.SA",
+        "companyName": "BIOMM       ON      MA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BKBR3.SA",
+        "companyName": "BK BRASIL   ON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BKNG34.SA",
+        "companyName": "BOOKING     DRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BLAK34.SA",
+        "companyName": "BLACKROCK   DRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BMEB3.SA",
+        "companyName": "MERC BRASIL ON",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BMGB4.SA",
+        "companyName": "BANCO BMG   PN      N1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BMKS3.SA",
+        "companyName": "BIC MONARK  ON",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BMLC11B.SA",
+        "companyName": "FD INV IMO FII BM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BMYB34.SA",
+        "companyName": "BRISTOLMYERSDRN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BNBR3.SA",
+        "companyName": "NORD BRASIL ON",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BNFS11.SA",
+        "companyName": "FII BANRISULCI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BOAC34.SA",
+        "companyName": "BANK AMERICADRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BOBR4.SA",
+        "companyName": "BOMBRIL     PN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BOEI34.SA",
+        "companyName": "BOEING      DRN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BONY34.SA",
+        "companyName": "BNY MELLON  DRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BOVA.SA",
+        "companyName": "ISHARES BOVA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BOVA11.SA",
+        "companyName": "ISHARES BOVACI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BOVB11.SA",
+        "companyName": "ETF BRAD BOVCI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BOVV.SA",
+        "companyName": "IT NOW IBOV",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BOVV11.SA",
+        "companyName": "IT NOW IBOV CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BPAC11.SA",
+        "companyName": "BTGP BANCO  UNT     N2",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BPAC3.SA",
+        "companyName": "BTGP BANCO  ON      N2",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BPAN4.SA",
+        "companyName": "BANCO PAN   PN      N1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BPFF11.SA",
+        "companyName": "FII ABSOLUTOCI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BPML11.SA",
+        "companyName": "FII BTG SHOPCI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BPRP11.SA",
+        "companyName": "FII BRLPROP CI  ER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BRAP3.SA",
+        "companyName": "BRADESPAR   ON      N1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BRAP4.SA",
+        "companyName": "BRADESPAR   PN      N1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BRAX.SA",
+        "companyName": "ISHARES BRAX",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BRAX11.SA",
+        "companyName": "ISHARES BRAXCI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BRCO11.SA",
+        "companyName": "FII BRESCO  CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BRCR11.SA",
+        "companyName": "FII BC FUND CI  ER",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BRDT3.SA",
+        "companyName": "PETROBRAS BRON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BRFS3.SA",
+        "companyName": "BRF SA      ON      NM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BRGE12.SA",
+        "companyName": "ALFA CONSORCPNF",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BRIV3.SA",
+        "companyName": "ALFA INVEST ON",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BRIV4.SA",
+        "companyName": "ALFA INVEST PN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BRKM3.SA",
+        "companyName": "BRASKEM     ON      N1",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BRKM5.SA",
+        "companyName": "BRASKEM     PNA     N1",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BRKM6.SA",
+        "companyName": "BRASKEM     PNB     N1",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BRML3.SA",
+        "companyName": "BR MALLS PARON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BRPR3.SA",
+        "companyName": "BR PROPERT  ON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BRSR3.SA",
+        "companyName": "BANRISUL    ON      N1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BRSR5.SA",
+        "companyName": "BANRISUL    PNA     N1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BRSR6.SA",
+        "companyName": "BANRISUL    PNB     N1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BRZP11.SA",
+        "companyName": "FIP BRZ IE  CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BSEV3.SA",
+        "companyName": "BIOSEV      ON      NM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BTLG11.SA",
+        "companyName": "FII BTLG    CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BTOW3.SA",
+        "companyName": "B2W DIGITAL ON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BTTL3.SA",
+        "companyName": "BATTISTELLA ON",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "BZLI11.SA",
+        "companyName": "FII BRREALTYCI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "C1IC34.SA",
+        "companyName": "CIGNA CORP  DRN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CAML3.SA",
+        "companyName": "CAMIL       ON      NM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CAON34.SA",
+        "companyName": "CAPITAL ONE DRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CARD3.SA",
+        "companyName": "CSU CARDSYSTON      NM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CASN4.SA",
+        "companyName": "CASAN       PN",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CATP34.SA",
+        "companyName": "CATERPILLAR DRN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CBOP11.SA",
+        "companyName": "FII C BRANCOCI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CCPR3.SA",
+        "companyName": "CYRE COM-CCPON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CCRO3.SA",
+        "companyName": "CCR SA      ON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CEAB3.SA",
+        "companyName": "CEA MODAS   ON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CEDO4.SA",
+        "companyName": "CEDRO       PN      N1",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CESP3.SA",
+        "companyName": "CESP        ON      N1",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CESP5.SA",
+        "companyName": "CESP        PNA     N1",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CESP6.SA",
+        "companyName": "CESP        PNB     N1",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CGAS5.SA",
+        "companyName": "COMGAS      PNA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CGRA4.SA",
+        "companyName": "GRAZZIOTIN  PN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CHKE34.SA",
+        "companyName": "CHESAPEAKE  DRN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CHME34.SA",
+        "companyName": "CME GROUP   DRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CHVX34.SA",
+        "companyName": "CHEVRON     DRN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CIEL3.SA",
+        "companyName": "CIELO       ON      NM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CLSC4.SA",
+        "companyName": "CELESC      PN      N2",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CMCS34.SA",
+        "companyName": "COMCAST     DRN",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CMIG3.SA",
+        "companyName": "CEMIG       ON      N1",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CMIG4.SA",
+        "companyName": "CEMIG       PN      N1",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CNIC34.SA",
+        "companyName": "CANAD NATIONDRN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CNTO3.SA",
+        "companyName": "CENTAURO    ON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "COCA34.SA",
+        "companyName": "COCA COLA   DRN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "COCE5.SA",
+        "companyName": "COELCE      PNA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "COGN3.SA",
+        "companyName": "COGNA ON    ON      NM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "COLG34.SA",
+        "companyName": "COLGATE     DRN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "COPH34.SA",
+        "companyName": "COPHILLIPS  DRN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CPFE3.SA",
+        "companyName": "CPFL ENERGIAON      NM",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CPFF11.SA",
+        "companyName": "FII CAP REITCI  ER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CPLE3.SA",
+        "companyName": "COPEL       ON      N1",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CPLE6.SA",
+        "companyName": "COPEL       PNB     N1",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CPRE3.SA",
+        "companyName": "CPFL RENOVAVON      NM",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CPTS11B.SA",
+        "companyName": "CAPITANIA SEC II",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CRFB3.SA",
+        "companyName": "CARREFOUR BRON      NM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CRIV3.SA",
+        "companyName": "ALFA FINANC ON",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CRPG6.SA",
+        "companyName": "CRISTAL     PNB",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CSAN3.SA",
+        "companyName": "COSAN       ON      NM",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CSCO34.SA",
+        "companyName": "CISCO       DRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CSMG3.SA",
+        "companyName": "COPASA      ON      NM",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CSNA3.SA",
+        "companyName": "SID NACIONALON",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CTGP34.SA",
+        "companyName": "CITIGROUP   DRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CTKA4.SA",
+        "companyName": "KARSTEN     PN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CTNM4.SA",
+        "companyName": "COTEMINAS   PN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CTSA3.SA",
+        "companyName": "SANTANENSE  ON",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CTSH34.SA",
+        "companyName": "COGNIZANT   DRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CVBI11.SA",
+        "companyName": "FII VBI CRI CI  ER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CVCB3.SA",
+        "companyName": "CVC BRASIL  ON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CVSH34.SA",
+        "companyName": "CVS HEALTH  DRN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CXTL11.SA",
+        "companyName": "FII CX TRX  CI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "CYRE3.SA",
+        "companyName": "CYRELA REALTON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "D1OM34.SA",
+        "companyName": "DOMINION ENEDRN",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "D1VN34.SA",
+        "companyName": "DEVON ENERGYDRN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "DASA3.SA",
+        "companyName": "DASA        ON",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "DDNB34.SA",
+        "companyName": "DUPONT N INCDRN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "DGCO34.SA",
+        "companyName": "DOLLAR GENERDRN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "DHER34.SA",
+        "companyName": "DANAHER CORPDRN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "DIRR3.SA",
+        "companyName": "DIRECIONAL  ON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "DISB34.SA",
+        "companyName": "WALT DISNEY DRN",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "DIVO.SA",
+        "companyName": "IT NOW IDIV",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "DIVO11.SA",
+        "companyName": "IT NOW IDIV CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "DMAC11.SA",
+        "companyName": "FII MAC     CI  ERA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "DMMO11.SA",
+        "companyName": "DOMMO       BNS ORD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "DMMO3.SA",
+        "companyName": "DOMMO       ON",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "DOHL4.SA",
+        "companyName": "DOHLER      PN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "DRIT11B.SA",
+        "companyName": "MULTIGESTAO RENDA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "DTEX3.SA",
+        "companyName": "DURATEX     ON      NM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "DUKB34.SA",
+        "companyName": "DUKE ENERGY DRN",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "E1CL34.SA",
+        "companyName": "ECOLAB INC  DRN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "E1OG34.SA",
+        "companyName": "EOG RESOURCEDRN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "E1SE34.SA",
+        "companyName": "EVERSOURCE EDRN",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "E1VR34.SA",
+        "companyName": "EVERGY INC  DRN",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "E1XC34.SA",
+        "companyName": "EXELON CORP DRN",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "EALT4.SA",
+        "companyName": "ACO ALTONA  PN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "EBAY34.SA",
+        "companyName": "EBAY        DRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ECOO.SA",
+        "companyName": "ISHARES ECOO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ECOR3.SA",
+        "companyName": "ECORODOVIAS ON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "EDFO11B.SA",
+        "companyName": "FD INV IMOB ED OUR",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "EDGA11.SA",
+        "companyName": "FII GALERIA CI",
+        "industryOrCategory": "Financial"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "EGIE3.SA",
+        "companyName": "ENGIE BRASILON      NM",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "EKTR3.SA",
+        "companyName": "ELEKTRO     ON",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "EKTR4.SA",
+        "companyName": "ELEKTRO     PN",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ELEK3.SA",
+        "companyName": "ELEKEIROZ   ON",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ELEK4.SA",
+        "companyName": "ELEKEIROZ   PN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ELET3.SA",
+        "companyName": "ELETROBRAS  ON      N1",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ELET5.SA",
+        "companyName": "ELETROBRAS  PNA     N1",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ELET6.SA",
+        "companyName": "ELETROBRAS  PNB     N1",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "EMAE4.SA",
+        "companyName": "EMAE        PN",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "EMBR3.SA",
+        "companyName": "EMBRAER     ON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ENAT3.SA",
+        "companyName": "ENAUTA PART ON      NM",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ENBR3.SA",
+        "companyName": "ENERGIAS BR ON      NM",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ENEV3.SA",
+        "companyName": "ENEVA       ON      NM",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ENGI11.SA",
+        "companyName": "ENERGISA    UNT     N2",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ENGI3.SA",
+        "companyName": "ENERGISA    ON      N2",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ENGI4.SA",
+        "companyName": "ENERGISA    PN      N2",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "EQPA3.SA",
+        "companyName": "EQTL PARA   ON",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "EQTL3.SA",
+        "companyName": "EQUATORIAL  ON      NM",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ESTR4.SA",
+        "companyName": "ESTRELA     PN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ETER3.SA",
+        "companyName": "ETERNIT     ON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "EUCA3.SA",
+        "companyName": "EUCATEX     ON      N1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "EUCA4.SA",
+        "companyName": "EUCATEX     PN      N1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "EVEN3.SA",
+        "companyName": "EVEN        ON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "EXXO34.SA",
+        "companyName": "EXXON MOBIL DRN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "EZTC3.SA",
+        "companyName": "EZTEC       ON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "F1AN34.SA",
+        "companyName": "DIAMONDBACK DRN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "F1EC34.SA",
+        "companyName": "FIRSTENERGY DRN",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "F1NI34.SA",
+        "companyName": "FIDELITY NATDRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "FAED11.SA",
+        "companyName": "FII ANH EDUCCI  ER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "FBOK34.SA",
+        "companyName": "FACEBOOK    DRN",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "FDMO34.SA",
+        "companyName": "FORD MOTORS DRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "FDXB34.SA",
+        "companyName": "FEDEX CORP  DRN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "FESA4.SA",
+        "companyName": "FERBASA     PN      N1",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "FFTD34.SA",
+        "companyName": "FIFTH THIRD DRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "FHER3.SA",
+        "companyName": "FER HERINGERON      NM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "FIGS11.SA",
+        "companyName": "FII GEN SHOPCI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "FIIB11.SA",
+        "companyName": "FII INDL BR CI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "FIND.SA",
+        "companyName": "IT NOW IFNC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "FLMA11.SA",
+        "companyName": "FII S F LIMACI  ER",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "FLRY3.SA",
+        "companyName": "FLEURY      ON      NM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "FMOF11.SA",
+        "companyName": "FII MEMORIALCI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "FPAB11.SA",
+        "companyName": "FII A BRANCACI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "FPOR11.SA",
+        "companyName": "FIP PORT SUDCI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "FRAS3.SA",
+        "companyName": "FRAS-LE     ON      N1",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "FRIO3.SA",
+        "companyName": "METALFRIO   ON      NM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "FSRF11.SA",
+        "companyName": "FISET FL REFCI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "FVBI11.SA",
+        "companyName": "FII VBI 4440CI",
+        "industryOrCategory": "Financial"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "FVPQ11.SA",
+        "companyName": "FII V PARQUECI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "G1WW34.SA",
+        "companyName": "WW GRAINGER DRN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GBIO33.SA",
+        "companyName": "BIOTOSCANA  DR3",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GDBR34.SA",
+        "companyName": "GEN DYNAMICSDRN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GEOO34.SA",
+        "companyName": "GE          DRN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GEPA3.SA",
+        "companyName": "GER PARANAP ON",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GFSA3.SA",
+        "companyName": "GAFISA      ON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GGBR3.SA",
+        "companyName": "GERDAU      ON      N1",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GGBR4.SA",
+        "companyName": "GERDAU      PN      N1",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GILD34.SA",
+        "companyName": "GILEAD      DRN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GMCO34.SA",
+        "companyName": "GENERAL MOT DRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GNDI3.SA",
+        "companyName": "INTERMEDICA ON      NM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GOAU3.SA",
+        "companyName": "GERDAU MET  ON      N1",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GOAU4.SA",
+        "companyName": "GERDAU MET  PN      N1",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GOGL34.SA",
+        "companyName": "ALPHABET    DRN A",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GOGL35.SA",
+        "companyName": "ALPHABET    DRN C",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GOLL4.SA",
+        "companyName": "GOL         PN      N2",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GOVE.SA",
+        "companyName": "IT NOW IGCT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GOVE11.SA",
+        "companyName": "IT NOW IGCT CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GPCP3.SA",
+        "companyName": "GPC PART    ON",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GPIV33.SA",
+        "companyName": "GP INVEST   DR3",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GPRO34.SA",
+        "companyName": "GOPRO       DRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GPSI34.SA",
+        "companyName": "GAP         DRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GRND3.SA",
+        "companyName": "GRENDENE    ON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GSGI34.SA",
+        "companyName": "GOLDMANSACHSDRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GSHP3.SA",
+        "companyName": "GENERALSHOPPON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GTWR11.SA",
+        "companyName": "FII G TOWERSCI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "GUAR3.SA",
+        "companyName": "GUARARAPES  ON",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "H1FC34.SA",
+        "companyName": "HOLLYFRONTIEDRN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HAGA4.SA",
+        "companyName": "HAGA S/A    PN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HALI34.SA",
+        "companyName": "HALLIBURTON DRN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HAPV3.SA",
+        "companyName": "HAPVIDA     ON      NM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HBOR3.SA",
+        "companyName": "HELBOR      ON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HBTT11.SA",
+        "companyName": "FII HABITAT CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HCTR11.SA",
+        "companyName": "FII HECTARE CI  ER",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HETA4.SA",
+        "companyName": "HERCULES    PN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HFOF11.SA",
+        "companyName": "FII HTOPFOF3CI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HGBS11.SA",
+        "companyName": "FII HEDGEBS CI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HGLG11.SA",
+        "companyName": "FII CSHG LOGCI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HGRE11.SA",
+        "companyName": "FII HG REAL CI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HGTX3.SA",
+        "companyName": "CIA HERING  ON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HLOG11.SA",
+        "companyName": "FII HEDGELOGCI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HOME34.SA",
+        "companyName": "HOME DEPOT  DRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HONB34.SA",
+        "companyName": "HONEYWELL   DRN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HOND34.SA",
+        "companyName": "HONDA MO    DRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HOOT4.SA",
+        "companyName": "HOTEIS OTHONPN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HOSI11.SA",
+        "companyName": "FII HOUSI   CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HPDP11.SA",
+        "companyName": "FII HEDGE RECI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HRDF11.SA",
+        "companyName": "FII HREALTY CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HSML11.SA",
+        "companyName": "FII HSI MALLCI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HTMX11.SA",
+        "companyName": "FII HOTEL MXCI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HUSC11.SA",
+        "companyName": "FII H UNIMEDCI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "HYPE3.SA",
+        "companyName": "HYPERA      ON      NM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "I1VZ34.SA",
+        "companyName": "INVESCO LTD DRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "IBFF11.SA",
+        "companyName": "FII FOF BREICI  ER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "IBMB34.SA",
+        "companyName": "IBM         DRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "IDVL4.SA",
+        "companyName": "INDUSVAL    PN      N2",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "IGBR3.SA",
+        "companyName": "IGB S/A     ON",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "IGTA3.SA",
+        "companyName": "IGUATEMI    ON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "INEP4.SA",
+        "companyName": "INEPAR      PN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "INGG34.SA",
+        "companyName": "ING GROEP   DRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "INTU34.SA",
+        "companyName": "INTUIT INC  DRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "IRBR3.SA",
+        "companyName": "IRBBRASIL REON      NM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "IRDM11.SA",
+        "companyName": "FII IRIDIUM CI  ER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ISUS.SA",
+        "companyName": "IT NOW ISE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ITLC34.SA",
+        "companyName": "INTEL       DRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ITSA3.SA",
+        "companyName": "ITAUSA      ON      N1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ITSA4.SA",
+        "companyName": "ITAUSA      PN      N1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ITUB3.SA",
+        "companyName": "ITAUUNIBANCOON      N1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ITUB4.SA",
+        "companyName": "ITAUUNIBANCOPN      N1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "IVVB11.SA",
+        "companyName": "ISHARE SP500CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "JBDU3.SA",
+        "companyName": "J B DUARTE  ON",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "JBDU4.SA",
+        "companyName": "J B DUARTE  PN",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "JBSS3.SA",
+        "companyName": "JBS         ON      NM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "JCPC34.SA",
+        "companyName": "JC PENNEY   DRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "JDCO34.SA",
+        "companyName": "JD COM      DRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "JFEN3.SA",
+        "companyName": "JOAO FORTES ON",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "JHSF3.SA",
+        "companyName": "JHSF PART   ON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "JNJB34.SA",
+        "companyName": "JOHNSON     DRN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "JOPA3.SA",
+        "companyName": "JOSAPAR     ON",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "JPMC34.SA",
+        "companyName": "JPMORGAN    DRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "JPPA11.SA",
+        "companyName": "FII JPPMOGNOCI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "JPSA3.SA",
+        "companyName": "JEREISSATI  ON",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "JSLG3.SA",
+        "companyName": "JSL         ON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "JSRE11.SA",
+        "companyName": "FII JS REAL CI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "K1EY34.SA",
+        "companyName": "KEYCORP     DRN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "KFOF11.SA",
+        "companyName": "FII KINEAFOFCI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "KINP11.SA",
+        "companyName": "FII EV KINEACI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "KLBN11.SA",
+        "companyName": "KLABIN S/A  UNT     N2",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "KLBN3.SA",
+        "companyName": "KLABIN S/A  ON      N2",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "KLBN4.SA",
+        "companyName": "KLABIN S/A  PN      N2",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "KMBB34.SA",
+        "companyName": "KIMBERLY CL DRN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "KMIC34.SA",
+        "companyName": "KINDER MORGADRN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "KNCR11.SA",
+        "companyName": "FII KINEA RICI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "KNHY11.SA",
+        "companyName": "FII KINEA HYCI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "KNIP11.SA",
+        "companyName": "FII KINEA IPCI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "KNRE11.SA",
+        "companyName": "FII KII REALCI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "LAME3.SA",
+        "companyName": "LOJAS AMERICON      N1",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "LAME4.SA",
+        "companyName": "LOJAS AMERICPN      N1",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "LCAM3.SA",
+        "companyName": "LOCAMERICA  ON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "LEVE3.SA",
+        "companyName": "METAL LEVE  ON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "LIGT3.SA",
+        "companyName": "LIGHT S/A   ON      NM",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "LILY34.SA",
+        "companyName": "LILLY       DRN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "LINX3.SA",
+        "companyName": "LINX        ON      NM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "LIQO3.SA",
+        "companyName": "LIQ         ON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "LLIS3.SA",
+        "companyName": "LE LIS BLANCON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "LMTB34.SA",
+        "companyName": "LOCKHEED    DRN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "LOFT11B.SA",
+        "companyName": "LOFT I FD INV IMO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "LOGG3.SA",
+        "companyName": "LOG COM PROPON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "LOGN3.SA",
+        "companyName": "LOG-IN      ON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "LOWC34.SA",
+        "companyName": "LOWES COMPA DRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "LPSB3.SA",
+        "companyName": "LOPES BRASILON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "LREN3.SA",
+        "companyName": "LOJAS RENNERON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "LUPA3.SA",
+        "companyName": "LUPATECH    ON      NM",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "LVBI11.SA",
+        "companyName": "FII VBI LOG CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "LWSA3.SA",
+        "companyName": "LOCAWEB     ON      NM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "M1GM34.SA",
+        "companyName": "MGM RESORTS DRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "M1KC34.SA",
+        "companyName": "MCCORMICK   DRN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "M1PC34.SA",
+        "companyName": "MARATHON PETDRN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MALL11.SA",
+        "companyName": "FII MALLS BPCI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MATB11.SA",
+        "companyName": "IT NOW IMAT CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MBRF11.SA",
+        "companyName": "FII MERC BR CI  ER",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MCCI11.SA",
+        "companyName": "FII MAUA    CI  ER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MCDC34.SA",
+        "companyName": "MCDONALDS   DRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MDIA3.SA",
+        "companyName": "M.DIASBRANCOON      NM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MDLZ34.SA",
+        "companyName": "MONDELEZ INTDRN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MDNE3.SA",
+        "companyName": "MOURA DUBEUXON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MEAL3.SA",
+        "companyName": "IMC S/A     ON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MELI34.SA",
+        "companyName": "MERCADOLIBREDRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MERC4.SA",
+        "companyName": "MERC FINANC PN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "METB34.SA",
+        "companyName": "METLIFE INC DRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MFII11.SA",
+        "companyName": "FII MERITO ICI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MGEL4.SA",
+        "companyName": "MANGELS INDLPN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MGFF11.SA",
+        "companyName": "FII MOGNO   CI  ER",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MGLU3.SA",
+        "companyName": "MAGAZ LUIZA ON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MILS3.SA",
+        "companyName": "MILLS       ON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MMMC34.SA",
+        "companyName": "3M          DRN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MMXM11.SA",
+        "companyName": "MMX MINER   TPR     NM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MMXM3.SA",
+        "companyName": "MMX MINER   ON      NM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MNDL3.SA",
+        "companyName": "MUNDIAL     ON",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MOAR3.SA",
+        "companyName": "MONT ARANHA ON",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MOOO34.SA",
+        "companyName": "ALTRIA GROUPDRN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MOSC34.SA",
+        "companyName": "MOSAIC CO   DRN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MOVI3.SA",
+        "companyName": "MOVIDA      ON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MRCK34.SA",
+        "companyName": "MERCK       DRN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MRFG3.SA",
+        "companyName": "MARFRIG     ON      NM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MRVE3.SA",
+        "companyName": "MRV         ON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MSCD34.SA",
+        "companyName": "MASTERCARD  DRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MSFT34.SA",
+        "companyName": "MICROSOFT   DRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MSPA3.SA",
+        "companyName": "MELHOR SP   ON",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MTRE3.SA",
+        "companyName": "MITRE REALTYON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MTSA4.SA",
+        "companyName": "METISA      PN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MULT3.SA",
+        "companyName": "MULTIPLAN   ON      N2",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MUTC34.SA",
+        "companyName": "MICRON TECHNDRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MXRF11.SA",
+        "companyName": "FII MAXI RENCI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "MYPK3.SA",
+        "companyName": "IOCHP,MAXIONON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "N1CL34.SA",
+        "companyName": "NORWEGIAN CRDRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "N1OV34.SA",
+        "companyName": "NATIONAL OILDRN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "NEOE3.SA",
+        "companyName": "NEOENERGIA  ON      NM",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "NETE34.SA",
+        "companyName": "NETEASE     DRN",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "NEWL11.SA",
+        "companyName": "FII NEWPORT CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "NFLX34.SA",
+        "companyName": "NETFLIX     DRN",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "NIKE34.SA",
+        "companyName": "NIKE        DRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "NSLU11.SA",
+        "companyName": "FII LOURDES CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "NTCO3.SA",
+        "companyName": "GRUPO NATURAON      NM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "NVHO11.SA",
+        "companyName": "FII NOVOHORICI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ODPV3.SA",
+        "companyName": "ODONTOPREV  ON      NM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "OFSA3.SA",
+        "companyName": "OUROFINO S/AON      NM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "OIBR3.SA",
+        "companyName": "OI          ON      N1",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "OIBR4.SA",
+        "companyName": "OI          PN      N1",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "OMGE3.SA",
+        "companyName": "OMEGA GER   ON      NM",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ONEF11.SA",
+        "companyName": "FII THE ONE CI  ER",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ORCL34.SA",
+        "companyName": "ORACLE      DRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "OSXB3.SA",
+        "companyName": "OSX BRASIL  ON      NM",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "OUJP11.SA",
+        "companyName": "FII OURI JPPCI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "OULG11B.SA",
+        "companyName": "FII OURINVEST LOGI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "OXYP34.SA",
+        "companyName": "OCCIDENT PTRDRN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "P1RG34.SA",
+        "companyName": "PERRIGO CO PDRN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "P1SX34.SA",
+        "companyName": "PHILLIPS 66 DRN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PABY11.SA",
+        "companyName": "FII PANAMBY CI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PATC11.SA",
+        "companyName": "FII PATRIA  CI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PATI4.SA",
+        "companyName": "PANATLANTICAPN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PCAR3.SA",
+        "companyName": "P.ACUCAR-CBDON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PDGR3.SA",
+        "companyName": "PDG REALT   ON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PEPB34.SA",
+        "companyName": "PEPSICO INC DRN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PETR3.SA",
+        "companyName": "PETROBRAS   ON      N2",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PETR4.SA",
+        "companyName": "PETROBRAS   PN      N2",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PFIN11.SA",
+        "companyName": "FIP PERFIN  CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PFIZ34.SA",
+        "companyName": "PFIZER      DRN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PFRM3.SA",
+        "companyName": "PROFARMA    ON      NM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PGCO34.SA",
+        "companyName": "PG          DRN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PHGN34.SA",
+        "companyName": "KOPHILIPS   DRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PHMO34.SA",
+        "companyName": "PHILIP MORRIDRN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PIBB.SA",
+        "companyName": "IT NOW PIBB IBRX",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PIBB11.SA",
+        "companyName": "IT NOW PIBB CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PINE4.SA",
+        "companyName": "PINE        PN      N2",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PLAS3.SA",
+        "companyName": "PLASCAR PARTON",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PLRI11.SA",
+        "companyName": "FII POLO I  CI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PMAM3.SA",
+        "companyName": "PARANAPANEMAON      NM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PNCS34.SA",
+        "companyName": "PNCFNANCIAL DRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PNVL3.SA",
+        "companyName": "DIMED       ON",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PNVL4.SA",
+        "companyName": "DIMED       PN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "POMO3.SA",
+        "companyName": "MARCOPOLO   ON      N2",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "POMO4.SA",
+        "companyName": "MARCOPOLO   PN  ED  N2",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "POSI3.SA",
+        "companyName": "POSITIVO TECON      NM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PQDP11.SA",
+        "companyName": "FII D PEDRO CI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PRIO3.SA",
+        "companyName": "PETRORIO    ON      NM",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PRNR3.SA",
+        "companyName": "PRINER      ON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PRSN11B.SA",
+        "companyName": "PERSONALE I FUNDO",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PRSV11.SA",
+        "companyName": "FII P VARGASCI  ER",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PSSA3.SA",
+        "companyName": "PORTO SEGUROON      NM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PSVM11.SA",
+        "companyName": "PORTO VM    TPR",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PTBL3.SA",
+        "companyName": "PORTOBELLO  ON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "PYPL34.SA",
+        "companyName": "PAYPAL HOLD DRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "QAGR11.SA",
+        "companyName": "FII QUASAR ACI  ER",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "QCOM34.SA",
+        "companyName": "QUALCOMM    DRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "QUAL3.SA",
+        "companyName": "QUALICORP   ON      NM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "R1CL34.SA",
+        "companyName": "ROYAL CARIBBDRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RADL3.SA",
+        "companyName": "RAIADROGASILON      NM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RAIL3.SA",
+        "companyName": "RUMO S.A.   ON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RAPT3.SA",
+        "companyName": "RANDON PART ON      N1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RAPT4.SA",
+        "companyName": "RANDON PART PN      N1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RBBV11.SA",
+        "companyName": "FII JHSF FBVCI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RBCO11.SA",
+        "companyName": "FII R INCOMECI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RBDS11.SA",
+        "companyName": "FII RBRESID2CI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RBED11.SA",
+        "companyName": "FII RIOB ED CI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RBFF11.SA",
+        "companyName": "FII RIOB FF CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RBIV11.SA",
+        "companyName": "FII RBCRI IVCI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RBRD11.SA",
+        "companyName": "FII RB II   CI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RBRP11.SA",
+        "companyName": "FII RBR PROPCI  ER",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RBRY11.SA",
+        "companyName": "FII RBR PCRICI  ER",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RBVA11.SA",
+        "companyName": "FII RIOB VA CI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RCFA11.SA",
+        "companyName": "FII GP RCFA CI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RCRB11.SA",
+        "companyName": "FII RIOB RC CI  ER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RCSL3.SA",
+        "companyName": "RECRUSUL    ON",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RCSL4.SA",
+        "companyName": "RECRUSUL    PN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RDPD11.SA",
+        "companyName": "FII BB PAPIICI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RDSA34.SA",
+        "companyName": "RD SHELL    DRN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RECT11.SA",
+        "companyName": "FII UBSOFFICCI  ER",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "REDE3.SA",
+        "companyName": "REDE ENERGIAON",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RENT3.SA",
+        "companyName": "LOCALIZA    ON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RFOF11.SA",
+        "companyName": "FII RB CFOF CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RIGG34.SA",
+        "companyName": "TRANSOCEAN  DRN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RIOT34.SA",
+        "companyName": "RIO TINTO   DRN ED",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RLOG3.SA",
+        "companyName": "COSAN LOG   ON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RNDP11.SA",
+        "companyName": "FII BB R PAPCI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RNEW11.SA",
+        "companyName": "RENOVA      UNT     N2",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RNEW4.SA",
+        "companyName": "RENOVA      PN      N2",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ROMI3.SA",
+        "companyName": "INDS ROMI   ON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ROST34.SA",
+        "companyName": "ROSS STORES DRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RPMG3.SA",
+        "companyName": "PET MANGUINHON",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RSID3.SA",
+        "companyName": "ROSSI RESID ON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "RVBI11.SA",
+        "companyName": "FII VBI REITCI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "S1YY34.SA",
+        "companyName": "SYSCO CORP  DRN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SAAG11.SA",
+        "companyName": "FII SANT AGECI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SADI11.SA",
+        "companyName": "FII SANT PAPCI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SANB11.SA",
+        "companyName": "SANTANDER BRUNT",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SANB4.SA",
+        "companyName": "SANTANDER BRPN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SAPR11.SA",
+        "companyName": "SANEPAR     UNT     N2",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SAPR3.SA",
+        "companyName": "SANEPAR     ON      N2",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SAPR4.SA",
+        "companyName": "SANEPAR     PN      N2",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SARE11.SA",
+        "companyName": "FII SANT RENCI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SBSP3.SA",
+        "companyName": "SABESP      ON      NM",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SBUB34.SA",
+        "companyName": "STARBUCKS   DRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SCAR3.SA",
+        "companyName": "SAO CARLOS  ON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SDIP11.SA",
+        "companyName": "FII SDI PROPCI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SEER3.SA",
+        "companyName": "SER EDUCA   ON      NM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SGPS3.SA",
+        "companyName": "SPRINGS     ON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SHOW3.SA",
+        "companyName": "TIME FOR FUNON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SHUL4.SA",
+        "companyName": "SCHULZ      PN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SLBG34.SA",
+        "companyName": "SCHLUMBERGERDRN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SLCE3.SA",
+        "companyName": "SLC AGRICOLAON      NM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SLED13.SA",
+        "companyName": "SARAIVA LIVRDM    9,50",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SLED4.SA",
+        "companyName": "SARAIVA LIVRPN      N2",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SMAL11.SA",
+        "companyName": "ISHARES SMALCI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SMLS3.SA",
+        "companyName": "SMILES      ON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SMTO3.SA",
+        "companyName": "SAO MARTINHOON      NM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SNEC34.SA",
+        "companyName": "SONY CORP   DRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SPTW11.SA",
+        "companyName": "FII SP DOWNTCI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SQIA3.SA",
+        "companyName": "SINQIA      ON      NM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "STBP3.SA",
+        "companyName": "SANTOS BRP  ON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SULA11.SA",
+        "companyName": "SUL AMERICA UNT     N2",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SULA3.SA",
+        "companyName": "SUL AMERICA ON      N2",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SULA4.SA",
+        "companyName": "SUL AMERICA PN      N2",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "SUZB3.SA",
+        "companyName": "SUZANO S.A. ON      NM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "T1EC34.SA",
+        "companyName": "TECHNIPFMC PDRN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "T1MU34.SA",
+        "companyName": "T-MOBILE US DRN",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TAEE11.SA",
+        "companyName": "TAESA       UNT     N2",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TAEE3.SA",
+        "companyName": "TAESA       ON      N2",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TAEE4.SA",
+        "companyName": "TAESA       PN      N2",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TASA13.SA",
+        "companyName": "TAURUS ARMASBNS PRE N2",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TASA17.SA",
+        "companyName": "TAURUS ARMASBNS PRE N2",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TASA3.SA",
+        "companyName": "TAURUS ARMASON      N2",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TASA4.SA",
+        "companyName": "TAURUS ARMASPN      N2",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TBOF11.SA",
+        "companyName": "FII TBOFFICECI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TCSA3.SA",
+        "companyName": "TECNISA     ON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TELB3.SA",
+        "companyName": "TELEBRAS    ON",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TEND3.SA",
+        "companyName": "TENDA       ON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TESA12.SA",
+        "companyName": "TERRA SANTA BNS ORD NM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TESA3.SA",
+        "companyName": "TERRA SANTA ON      NM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TEXA34.SA",
+        "companyName": "TEXAS INC   DRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TFOF11.SA",
+        "companyName": "FII HTOPFOF CI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TGAR11.SA",
+        "companyName": "FII TG ATIVOCI",
+        "industryOrCategory": "Financial"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TGMA3.SA",
+        "companyName": "TEGMA       ON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TGTB34.SA",
+        "companyName": "TARGET CORP DRN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "THRA11.SA",
+        "companyName": "FII BM THERACI  ER",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TIET11.SA",
+        "companyName": "AES TIETE E UNT     N2",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TIET3.SA",
+        "companyName": "AES TIETE E ON      N2",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TIET4.SA",
+        "companyName": "AES TIETE E PN      N2",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TIMP3.SA",
+        "companyName": "TIM PART S/AON      NM",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TMCO34.SA",
+        "companyName": "TOYOTAMO    DRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TOTS3.SA",
+        "companyName": "TOTVS       ON      NM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TPIS3.SA",
+        "companyName": "TRIUNFO PARTON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TRIS3.SA",
+        "companyName": "TRISUL      ON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TRNT11.SA",
+        "companyName": "FII TORRE NOCI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TRPL3.SA",
+        "companyName": "TRAN PAULISTON      N1",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TRPL4.SA",
+        "companyName": "TRAN PAULISTPN      N1",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TSLA34.SA",
+        "companyName": "TESLA INC   DRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TSMC34.SA",
+        "companyName": "TAIWANSMFAC DRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TUPY3.SA",
+        "companyName": "TUPY        ON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TWTR34.SA",
+        "companyName": "TWITTER     DRN",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "TXRX4.SA",
+        "companyName": "TEX RENAUX  PN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "U1BE34.SA",
+        "companyName": "UBER TECH INDRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "U1NM34.SA",
+        "companyName": "UNUM GROUP  DRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "UBSG34.SA",
+        "companyName": "UBS GROUP   DRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "UBSR11.SA",
+        "companyName": "FII UBS (BR)CI  ERS",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "UCAS3.SA",
+        "companyName": "UNICASA     ON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "UGPA3.SA",
+        "companyName": "ULTRAPAR    ON      NM",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "ULEV34.SA",
+        "companyName": "UNILEVER    DRN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "UNIP6.SA",
+        "companyName": "UNIPAR      PNB",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "UPSS34.SA",
+        "companyName": "UPS         DRN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "USBC34.SA",
+        "companyName": "US BANCORP  DRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "USIM3.SA",
+        "companyName": "USIMINAS    ON      N1",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "USIM5.SA",
+        "companyName": "USIMINAS    PNA     N1",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "USSX34.SA",
+        "companyName": "US STEEL    DRN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "UTEC34.SA",
+        "companyName": "UNITED TECH DRN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VALE3.SA",
+        "companyName": "VALE        ON      NM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VCJR11.SA",
+        "companyName": "FII VECTIS  CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VERZ34.SA",
+        "companyName": "VERIZON     DRN",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VGIR11.SA",
+        "companyName": "FII VALREIIICI  ER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VIGT11.SA",
+        "companyName": "FIP VINCI IECI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VILG11.SA",
+        "companyName": "FII VINCILOGCI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VINO11.SA",
+        "companyName": "FII VINC CORCI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VISA34.SA",
+        "companyName": "VISA INC    DRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VISC11.SA",
+        "companyName": "FII VINCI SCCI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VIVA3.SA",
+        "companyName": "VIVARA S.A. ON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VIVR3.SA",
+        "companyName": "VIVER       ON      NM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VIVT3.SA",
+        "companyName": "TELEF BRASILON",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VIVT4.SA",
+        "companyName": "TELEF BRASILPN",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VLID3.SA",
+        "companyName": "VALID       ON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VLYB34.SA",
+        "companyName": "VALLEY NTIONDRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VOTS11.SA",
+        "companyName": "FII V MASTERCI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VRTA11.SA",
+        "companyName": "FII FATOR VECI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VRTX34.SA",
+        "companyName": "VERTEX PHARMDRN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VSHO11.SA",
+        "companyName": "FII VOT SHOPCI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VTLT11.SA",
+        "companyName": "FII VOT LOG CI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VULC3.SA",
+        "companyName": "VULCABRAS   ON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VVAR3.SA",
+        "companyName": "VIAVAREJO   ON      NM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "VVPR11.SA",
+        "companyName": "FII V2 PROP CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "W1DC34.SA",
+        "companyName": "WESTERN DIG DRN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "W1MC34.SA",
+        "companyName": "WASTE MANAG DRN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "W1YN34.SA",
+        "companyName": "WYNN RESORTSDRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "WALM34.SA",
+        "companyName": "WAL MART    DRN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "WEGE3.SA",
+        "companyName": "WEG         ON      NM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "WFCO34.SA",
+        "companyName": "WELLS FARGO DRN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "WGBA34.SA",
+        "companyName": "WALGREENS   DRN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "WHRL3.SA",
+        "companyName": "WHIRLPOOL   ON",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "WHRL4.SA",
+        "companyName": "WHIRLPOOL   PN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "WIZS3.SA",
+        "companyName": "WIZ S.A.    ON      NM",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "WLMM4.SA",
+        "companyName": "WLM IND COM PN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "WPLZ11.SA",
+        "companyName": "FII W PLAZA CI",
+        "industryOrCategory": "Financial"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "WSON33.SA",
+        "companyName": "WILSON SONS DR3",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "WTSP11B.SA",
+        "companyName": "FII OURINVEST RE I",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "X1EL34.SA",
+        "companyName": "XCEL ENERGY DRN",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "XPCI11.SA",
+        "companyName": "FII XP CRED CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "XPCM11.SA",
+        "companyName": "FII XP MACAECI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "XPHT11.SA",
+        "companyName": "FII XP HOT  CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "XPHT12.SA",
+        "companyName": "FII XP HOT  CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "XPHT14.SA",
+        "companyName": "FII XP HOT  DM  104,35",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "XPIE11.SA",
+        "companyName": "FIP XP INFRACI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "XPIN11.SA",
+        "companyName": "FII XP INDL CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "XPLG11.SA",
+        "companyName": "FII XP LOG  CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "XPLG12.SA",
+        "companyName": "FII XP LOG  DM  123,33",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "XPML11.SA",
+        "companyName": "FII XP MALLSCI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "XPOM11.SA",
+        "companyName": "FIP XP OMEGACI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "XPPR11.SA",
+        "companyName": "FII XP PROP CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "XPSF11.SA",
+        "companyName": "FII XP SELECCI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "YCHY11.SA",
+        "companyName": "FII YAGUARA CI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "YDUQ3.SA",
+        "companyName": "YDUQS PART  ON      NM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "YUMR34.SA",
+        "companyName": "YUM BRANDS  DRN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SAO",
+        "symbol": "Z1IO34.SA",
+        "companyName": "ZIONSBANCORPDRN",
+        "industryOrCategory": "Financial Services"
+    }
+]

@@ -1,0 +1,3824 @@
+[
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0A00.IL",
+        "companyName": "AKZO NOBEL NV AKZO NOBEL ORD SH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0A02.IL",
+        "companyName": "NEOEN SA NEOEN ORD SHS",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0A0E.IL",
+        "companyName": "KOJAMO OYJ KOJAMO ORD SHS",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0A0N.IL",
+        "companyName": "AMUNDI EURO CORPORATES UCITS ET",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0A0O.IL",
+        "companyName": "AMUNDI FLOATING RATE EURO CORP ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0A0P.IL",
+        "companyName": "AMUNDI S&P 500 UCITS ETF- EUR (",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0A0S.IL",
+        "companyName": "AVALARA INC AVALARA ORD SHS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0A1K.IL",
+        "companyName": "NIO INC NIO AMERICAN DEPOSITARY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0A1O.IL",
+        "companyName": "ZOOM VIDEO COMMUNICATIONS INC Z",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0A1S.IL",
+        "companyName": "DOW INC DOW ORD SHS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0A29.IL",
+        "companyName": "SOLUTIONS 30 SE SOLUTIONS 30 SE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0A2C.IL",
+        "companyName": "CNOOC LTD CNOOC SPON ADR REP 10",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0A2D.IL",
+        "companyName": "CRH PLC CRH ADR REP 1 ORD (CDI)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0A2G.IL",
+        "companyName": "58.COM INC 58 COM ADR REP 2 ORD",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0A2H.IL",
+        "companyName": "51JOB INC 51JOB ADR REP ORD (CD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0A2U.IL",
+        "companyName": "RYANAIR HOLDINGS PLC RYANAIR HO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0A2X.IL",
+        "companyName": "TAL EDUCATION GROUP TAL EDU GRO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0A33.IL",
+        "companyName": "ZTO EXPRESS (CAYMAN) INC ZTO EX",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0AI4.IL",
+        "companyName": "CARLSBERG A/S CARLSBERG B ORD S",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0BNT.IL",
+        "companyName": "KESKO OYJ KESKO ORD SHS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0DHC.IL",
+        "companyName": "CARL ZEISS MEDITEC AG CARL ZEIS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0DLT.IL",
+        "companyName": "DB X-TRACKERS SWISS LARGE CAP I",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0DMM.IL",
+        "companyName": "DB X-TRACKERS II EUZN GOV BD 5-",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0DNH.IL",
+        "companyName": "ATOS SE ATOS ORD SHS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0DP0.IL",
+        "companyName": "BANK POLSKA KASA OPIEKI SA BANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0DPB.IL",
+        "companyName": "BAVARIAN NORDIC A/S BAVARIAN NO",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0DPM.IL",
+        "companyName": "BECHTLE AG BECHTLE ORD SHS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0DVE.IL",
+        "companyName": "BORUSSIA DORTMUND GMBH & CO KGA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0DVR.IL",
+        "companyName": "BANK ZACHODNI WBK SA BANK ZACHO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0DW6.IL",
+        "companyName": "LYXOR UCITS ETF MSCI WORLD HEAL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0DXT.IL",
+        "companyName": "DB X-TRACKERS MSCI WORLD INDEX ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0DXV.IL",
+        "companyName": "DB X-TRACKERS MSCI JP IX UCITS ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0E03.IL",
+        "companyName": "DB X-TRACKERS II JAPAN GOV BOND",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0E05.IL",
+        "companyName": "LYXOR S&P 500 UCITS ETF D-EUR L",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0E3C.IL",
+        "companyName": "DATALOGIC SPA DATALOGIC ORD SHS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0E44.IL",
+        "companyName": "LYXOR EUROMTS 7-10Y INVSTMNT GR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0E4Q.IL",
+        "companyName": "NEL ASA NEL ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0E5H.IL",
+        "companyName": "DB X-TRACKERS IIIBX USD TRS ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0E5M.IL",
+        "companyName": "DE LONGHI SPA DE'LONGHI ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0E6Y.IL",
+        "companyName": "DRILLISCH AG DRILLISCH ORD SHS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0EAW.IL",
+        "companyName": "KAMBI GROUP PLC KAMBI GROUP ORD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0EDM.IL",
+        "companyName": "YANDEX NV YANDEX ORD SHS CLASS ",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0EEE.IL",
+        "companyName": "CTS EVENTIM AG & CO KGAA CTS EV",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0EKR.IL",
+        "companyName": "GIMV INVESTERINGSMAATSCHAPPIJ V",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0EW1.IL",
+        "companyName": "ISRA VISION AG ISRA VISION ORD ",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0EWD.IL",
+        "companyName": "INTERPUMP GROUP SPA INTERPUMP G",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0EXG.IL",
+        "companyName": "JERONIMO MARTINS SGPS SA JERONI",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0EXP.IL",
+        "companyName": "JUNGHEINRICH AG JUNGHEINRICH PR",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0EYG.IL",
+        "companyName": "KBC GROEP NV KBC GROEP ORD SHS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0F08.IL",
+        "companyName": "KONGSBERG GRUPPEN ASA KONGSBERG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0F89.IL",
+        "companyName": "METSO OYJ METSO ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0FA0.IL",
+        "companyName": "MELEXIS NV MELEXIS ORD SHS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0FDT.IL",
+        "companyName": "NEMETSCHEK SE NEMETSCHEK ORD SH",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0FFY.IL",
+        "companyName": "NOKIAN TYRES PLC NOKIAN RENKAAT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0FGH.IL",
+        "companyName": "NORWEGIAN AIR SHUTTLE ASA NORWE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0FM1.IL",
+        "companyName": "PIAGGIO & C SPA PIAGGIO & C ORD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0FMN.IL",
+        "companyName": "POLSKI KONCERN NAFTOWY ORLEN SA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0FMO.IL",
+        "companyName": "POWSZECHNA KASA OSZCZEDNOSCI BA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0FQR.IL",
+        "companyName": "PFEIFFER VACUUM TECHNOLOGY AG P",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0FS8.IL",
+        "companyName": "REC SILICON ASA RENEWABLE ENERG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0FSO.IL",
+        "companyName": "RETAIL ESTATES NV RETAIL ESTATE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0G28.IL",
+        "companyName": "XACT OMX XACT OMXS30 ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0G2G.IL",
+        "companyName": "XACT OMXSB XACT OMXSB UTDELANDE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0G51.IL",
+        "companyName": "XACT EUROPE BULL 2 XACT BULL 2 ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0G68.IL",
+        "companyName": "KENDRION NV KENDRION ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0G7F.IL",
+        "companyName": "XACT BEAR 2 XACT BEAR2 ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0G8C.IL",
+        "companyName": "TELENOR ASA TELENOR ORD SHS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0G9W.IL",
+        "companyName": "MEDIASET ESPANA COMUNICACION SA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0GAF.IL",
+        "companyName": "TELENET GROUP HOLDING NV TELENE",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0GE4.IL",
+        "companyName": "UNITED INTERNET AG UNITED INTER",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0GF6.IL",
+        "companyName": "VEIDEKKE ASA VEIDEKKE ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0GGX.IL",
+        "companyName": "XACT OBX BEAR (UCITS ETF) XACT ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0GH1.IL",
+        "companyName": "XACT NORDIC HIGH DIVIDEND LOW V",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0GJN.IL",
+        "companyName": "WUESTENROT & WUERTTEMBERGISCHE ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0GKA.IL",
+        "companyName": "YIT OYJ YIT ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0GM2.IL",
+        "companyName": "LEROY SEAFOOD GROUP ASA LEROY S",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0GO4.IL",
+        "companyName": "SWEDISH MATCH AB (PUBL) SWEDISH",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0GQE.IL",
+        "companyName": "CLAS OHLSON AB CLAS OHLSON ORD ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0GRP.IL",
+        "companyName": "BIOTAGE AB BIOTAGE ORD SHS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0GRX.IL",
+        "companyName": "HEXAGON AB HEXAGON B ORD SHS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0GTM.IL",
+        "companyName": "DIOS FASTIGHETER AB DIOS FASTIG",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0GW8.IL",
+        "companyName": "GRIEG SEAFOOD ASA GRIEG SEAFOOD",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0GWB.IL",
+        "companyName": "L E LUNDBERGFORETAGEN AB (PUBL)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0GYM.IL",
+        "companyName": "ACKERMANS & VAN HAAREN NV ACKER",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0GZK.IL",
+        "companyName": "ION BEAM APPLICATIONS SA ION BE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0GZV.IL",
+        "companyName": "GETINGE AB GETINGE B ORD SHS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0GZX.IL",
+        "companyName": "DIASORIN SPA DIASORIN ORD SHS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0H00.IL",
+        "companyName": "BANCO DE SABADELL SA BANCO DE S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0H0G.IL",
+        "companyName": "SWECO AB (PUBL) SWECO B ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0H13.IL",
+        "companyName": "INDUSTRIVARDEN AB INDUSTRIVARDE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0H2Z.IL",
+        "companyName": "FASTIGHETS AB BALDER FASTIGHETS",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0H3Q.IL",
+        "companyName": "DEUTSCHE POST AG DEUTSCHE POST ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0H4K.IL",
+        "companyName": "ACCIONA SA ACCIONA ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0H59.IL",
+        "companyName": "ACCOR SA ACCOR ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0H65.IL",
+        "companyName": "JUVENTUS FC SPA JUVENTUS FOOTBA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0H7D.IL",
+        "companyName": "DEUTSCHE BANK AG DEUTSCHE BANK ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0H9P.IL",
+        "companyName": "INTRUM JUSTITIA AB INTRUM JUSTI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0H9X.IL",
+        "companyName": "FRESENIUS MEDICAL CARE AG & CO ",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HAA.IL",
+        "companyName": "FOMENTO DE CONSTRUCCIONES Y CON",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HAC.IL",
+        "companyName": "ACS ACTIVIDADES DE CONSTRUCCION",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HAF.IL",
+        "companyName": "NOKIA OYJ NOKIA ORD SHS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HAT.IL",
+        "companyName": "PERNOD RICARD SA PERNOD RICARD ",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HAU.IL",
+        "companyName": "LVMH MOET HENNESSY LOUIS VUITTO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HB1.IL",
+        "companyName": "CASINO GUICHARD PERRACHON SA CA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HB5.IL",
+        "companyName": "BNP PARIBAS SA BNP PARIBAS ORD ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HBA.IL",
+        "companyName": "ELECTRICITE DE FRANCE SA ELECTR",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HBF.IL",
+        "companyName": "MEDIOBANCA BANCA DI CREDITO FIN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HBP.IL",
+        "companyName": "H & M HENNES & MAURITZ AB HENNE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HBY.IL",
+        "companyName": "SKANDINAVISKA ENSKILDA BANKEN A",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HC0.IL",
+        "companyName": "SANDVIK AB SANDVIK ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HD6.IL",
+        "companyName": "ALPHABET INC ALPHABET ORD  CLAS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HDJ.IL",
+        "companyName": "MEKONOMEN AB MEKONOMEN ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HDP.IL",
+        "companyName": "DAMPSKIBSSELSKABET NORDEN A/S D",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HGZ.IL",
+        "companyName": "LYXOR EUROMTS 3-5Y INVEST GRD (",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HJC.IL",
+        "companyName": "VILMORIN & CIE SA VILMORIN & CI",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HL1.IL",
+        "companyName": "BAIDU INC BAIDU ADR REPTG 1/10 ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HLU.IL",
+        "companyName": "BAOZUN INC BAOZUN ADR REP ORD C",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HNZ.IL",
+        "companyName": "FAGRON NV FAGRON ORD SHS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HTP.IL",
+        "companyName": "VOLVO AB VOLVO CLASS B ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HXI.IL",
+        "companyName": "METROVACESA SA METROVACESA ORD ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HZC.IL",
+        "companyName": "EURAZEO SA EURAZEO ORD SHS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0HZD.IL",
+        "companyName": "WENDEL SE WENDEL ORD SHS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0I3Z.IL",
+        "companyName": "DEUTSCHE EUROSHOP AG DEUTSCHE E",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0I50.IL",
+        "companyName": "TRIP.COM GROUP LTD TRIP.COM GRO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0IGF.IL",
+        "companyName": "NEXANS SA NEXANS ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0IHK.IL",
+        "companyName": "NATIXIS SA NATIXIS ORD SHS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0II2.IL",
+        "companyName": "KONE OYJ KONE ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0IIF.IL",
+        "companyName": "VIVENDI SA VIVENDI ORD SHS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0IIH.IL",
+        "companyName": "KERING SA KERING ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0IKH.IL",
+        "companyName": "KOMERCNI BANKA AS KOMERCNI BANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0IKJ.IL",
+        "companyName": "WARTSILA OYJ ABP WARTSILA ORD S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0IN2.IL",
+        "companyName": "GROUPE BRUXELLES LAMBERT SA GRO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0IN3.IL",
+        "companyName": "JACQUET METAL SERVICE SA JACQUE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0INB.IL",
+        "companyName": "STMICROELECTRONICS NV STMICROEL",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0IQU.IL",
+        "companyName": "MERCIALYS SA MERCIALYS REIT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0IRF.IL",
+        "companyName": "EVOTEC AG EVOTEC ORD SHS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0IRK.IL",
+        "companyName": "ALTAREA SCA ALTAREA ORD SHS",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0IW5.IL",
+        "companyName": "THALES SA THALES ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0IWK.IL",
+        "companyName": "ALTRAN TECHNOLOGIES SA ALTRAN T",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0IXZ.IL",
+        "companyName": "BOLLORE SA BOLLORE ORD SHS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0IYG.IL",
+        "companyName": "GLOBAL X LITHIUM & BATTERY TECH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0IZ8.IL",
+        "companyName": "HENKEL AG & CO KGAA HENKEL ORD ",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0IZC.IL",
+        "companyName": "HENKEL AG & CO KGAA HENKEL & KG",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0J1N.IL",
+        "companyName": "SPAREBANK 1 NORD-NORGE SPAREBAN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0J1Z.IL",
+        "companyName": "NOS SGPS SA NOS SGPS ORD SHS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0J2E.IL",
+        "companyName": "HP INC HP ORD SHS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0J6V.IL",
+        "companyName": "FONCIERE DES REGIONS SA FONCIER",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0J9C.IL",
+        "companyName": "DUERR AG DUERR ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0JOQ.IL",
+        "companyName": "JD.COM INC JD.COM ADR REP 2 ORD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0JOX.IL",
+        "companyName": "JINKOSOLAR HOLDING CO LTD JINKO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0JVS.IL",
+        "companyName": "HYPOPORT AG HYPOPORT N ORD SHS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0JXZ.IL",
+        "companyName": "GALAPAGOS NV GALAPAGOS ORD SHS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0JZ8.IL",
+        "companyName": "GREENYARD NV GREENYARD ORD SHS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0K11.IL",
+        "companyName": "WACKER NEUSON SE WACKER NEUSON ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0K2P.IL",
+        "companyName": "MOMO INC MOMO ADR REP 2 ORD CLA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0K6G.IL",
+        "companyName": "NETEASE INC NETEASE ADR REP 25 ",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0K75.IL",
+        "companyName": "NEW ORIENTAL EDUCATION & TECHNO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0K8D.IL",
+        "companyName": "NOKIA OYJ NOKIA ADR REP ONE ORD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0K8W.IL",
+        "companyName": "DERICHEBOURG SA DERICHEBOURG OR",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0K96.IL",
+        "companyName": "ENCE ENERGIA Y CELULOSA SA ENCE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0K9P.IL",
+        "companyName": "GN STORE NORD A/S GN STORE NORD",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0K9W.IL",
+        "companyName": "HUHTAMAKI OYJ HUHTAMAKI ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0KA0.IL",
+        "companyName": "INGENICO GROUP SA INGENICO GROU",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0KB3.IL",
+        "companyName": "NEXITY SA NEXITY ORD SHS",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0KBQ.IL",
+        "companyName": "RATOS AB RATOS B ORD SHS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0KBT.IL",
+        "companyName": "REN REDES ENERGETICAS NACIONAIS",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0KCP.IL",
+        "companyName": "TESSENDERLO CHEMIE NV TESSENDER",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0KDK.IL",
+        "companyName": "BARCO NV BARCO ORD SHS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0KFE.IL",
+        "companyName": "MUENCHENER RUECKVERSICHERUNGS G",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0KJB.IL",
+        "companyName": "MAN SE MAN ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0KLO.IL",
+        "companyName": "NAVIGATOR COMPANY SA THE NAVIGA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0KUY.IL",
+        "companyName": "PNE WIND AG PNE WIND ORD SHS",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0KVR.IL",
+        "companyName": "KLOECKNER & CO SE KLOECKNER & C",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0L95.IL",
+        "companyName": "SQUARE INC SQUARE ORD SHS CLASS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0LBF.IL",
+        "companyName": "VALE SA VALE ADR REPRESENTING O",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0LBM.IL",
+        "companyName": "TERNA RETE ELETTRICA NAZIONALE ",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0LBN.IL",
+        "companyName": "UNIONE DI BANCHE ITALIANE SPA U",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0LCV.IL",
+        "companyName": "TAIWAN SEMICONDUCTOR MANUFACTUR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0LD0.IL",
+        "companyName": "ENGIE SA ENGIE ORD SHS",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0LD1.IL",
+        "companyName": "IMA INDUSTRIA MACCHINE AUTOMATI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0LKC.IL",
+        "companyName": "VANECK VECTORS GOLD MINERS ETF ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0LN7.IL",
+        "companyName": "AIR FRANCE KLM SA AIR FRANCE-KL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0LNJ.IL",
+        "companyName": "VASTNED RETAIL NV VASTNED RETAI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0LNQ.IL",
+        "companyName": "KONINKLIJKE BAM GROEP NV BAM GR",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0LNT.IL",
+        "companyName": "FUGRO NV FUGRO NV ORD SHS",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0LO8.IL",
+        "companyName": "KONINKLIJKE BOSKALIS WESTMINSTE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0LQ0.IL",
+        "companyName": "VIPSHOP HOLDINGS LTD VIPSHOP HO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0LQ4.IL",
+        "companyName": "KRONES AG KRONES ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0LUG.IL",
+        "companyName": "WEIBO CORP WEIBO ADR REP 1 ORD ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0LX1.IL",
+        "companyName": "CD PROJEKT SA CD PROJECT ORD SH",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0M2B.IL",
+        "companyName": "LINDE PLC LINDE ORD SHS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0M2O.IL",
+        "companyName": "ORION OYJ ORION B ORD SHS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0M2V.IL",
+        "companyName": "ZOOPLUS AG ZOOPLUS ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0M2Z.IL",
+        "companyName": "STATOIL ASA STATOIL ORD SHS",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0M42.IL",
+        "companyName": "ASML HOLDING NV ASML HOLDING AD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0M5J.IL",
+        "companyName": "AKER BP ASA AKER BP ORD SHS",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0M69.IL",
+        "companyName": "OTP BANK NYRT OTP BANK ORD SHS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MDT.IL",
+        "companyName": "ELECTROLUX AB ELECTROLUX B ORD ",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MET.IL",
+        "companyName": "KONECRANES ABP KONECRANES ORD S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MFU.IL",
+        "companyName": "AGFA GEVAERT NV AGFA-GEVAERT OR",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MFW.IL",
+        "companyName": "KBC ANCORA CVA KBC ANCORA ORD S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MFY.IL",
+        "companyName": "ARYZTA AG ARYZTA ORD SHS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MG0.IL",
+        "companyName": "AAREAL BANK AG AAREAL BANK ORD ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MG2.IL",
+        "companyName": "HEIDELBERGCEMENT AG HEIDELBERGC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MG5.IL",
+        "companyName": "ELRINGKLINGER AG ELRINGKLINGER ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MGB.IL",
+        "companyName": "GENMAB A/S GENMAB ORD SHS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MGG.IL",
+        "companyName": "KEMIRA OYJ KEMIRA ORD SHS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MGJ.IL",
+        "companyName": "VICAT SA VICAT ORD SHS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MGR.IL",
+        "companyName": "FAURECIA SA FAURECIA ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MGV.IL",
+        "companyName": "ERAMET SA ERAMET ORD SHS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MH1.IL",
+        "companyName": "BUREAU VERITAS SA BUREAU VERITA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MHC.IL",
+        "companyName": "ERG SPA ERG ORD SHS",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MHM.IL",
+        "companyName": "SCHIBSTED ASA SCHIBSTED ORD SHS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MHP.IL",
+        "companyName": "DNO ASA DNOORD SHS",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MHT.IL",
+        "companyName": "PEAB AB PEAB B ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MHU.IL",
+        "companyName": "INDUSTRIVARDEN AB INDUSTRIVARDE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MHW.IL",
+        "companyName": "VOLVO AB VOLVO CLASS A ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MI3.IL",
+        "companyName": "JM AB JM ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MJF.IL",
+        "companyName": "AMBU A/S AMBU B ORD SHS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MJK.IL",
+        "companyName": "ERSTE GROUP BANK AG ERSTE GROUP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MJX.IL",
+        "companyName": "AKER ASA AKER ORD SHS",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MKM.IL",
+        "companyName": "SLIGRO FOOD GROUP NV SLIGRO FOO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MKO.IL",
+        "companyName": "MELIA HOTELS INTERNATIONAL SA M",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MKW.IL",
+        "companyName": "VISCOFAN SA VISCOFAN ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MKX.IL",
+        "companyName": "VOESTALPINE AG VOESTALPINE ORD ",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MKZ.IL",
+        "companyName": "WIENERBERGER AG WIENERBERGER OR",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0ML1.IL",
+        "companyName": "EDP RENOVAVEIS SA EDP RENOVAVEI",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MLD.IL",
+        "companyName": "ISHARES DJ STOXX 600 DE ISHARES",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MLJ.IL",
+        "companyName": "ISHARES EURO STOXX 50 DE ISHARE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MLM.IL",
+        "companyName": "ISHARES TECDAX DE ISHARES TECDA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MLP.IL",
+        "companyName": "ISHARES STOXX EUROPE MID 200 (D",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MLQ.IL",
+        "companyName": "ISHARES EURO STOXX BANKS DE ISH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MLY.IL",
+        "companyName": "ISHARES EB REXX GOVERNMENT GERM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MM3.IL",
+        "companyName": "ISHARES EURO STOXX DE ISHARES E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MMG.IL",
+        "companyName": "ISHARES STOXX EUROPE SMALL 200 ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MNC.IL",
+        "companyName": "RTL GROUP SA RTL GROUP ORD SHS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MNH.IL",
+        "companyName": "ISHARES NASDAQ-100 (DE) ISHARES",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MNK.IL",
+        "companyName": "ISHARES STOXX EUROPE 600 BANKS ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MNL.IL",
+        "companyName": "ISHARES STOXX EUROPE 600 BASIC ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MOH.IL",
+        "companyName": "ISHARES DJ STOXX 600 OIL & GAS ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MOJ.IL",
+        "companyName": "ISHARES STOXX EUROPE 600 PERSON",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MOL.IL",
+        "companyName": "ISHARES STOXX EUROPE 600 TECHNO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MOM.IL",
+        "companyName": "ISHARES STOXX EUROPE 600 TELECO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MOZ.IL",
+        "companyName": "ISHARES STOXX EUROPE 600 UTILIT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MP0.IL",
+        "companyName": "ISHARES STOXX EUROPE 600 AUTOMO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MP2.IL",
+        "companyName": "ISHARES STOXX EUROPE 600 REAL E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MP6.IL",
+        "companyName": "ETFS DAX 2X SHORT GO UCITS ETF ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MPP.IL",
+        "companyName": "E.ON SE E.ON N ORD SHS",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MPQ.IL",
+        "companyName": "ETFLAB DAX DEKA DAX  UCITS ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MPT.IL",
+        "companyName": "BRENNTAG AG BRENNTAG ORD SHS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MQ4.IL",
+        "companyName": "LYXOR EURO STOXX 50 (DR) UCITS ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MR6.IL",
+        "companyName": "CHR HANSEN HOLDING A/S CHR HANS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MRA.IL",
+        "companyName": "LYXOR MSCI INDIA UCITS ETF C-EU",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MRI.IL",
+        "companyName": "LYXOR CAC 40 DAILY DOUBLE SHORT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MRJ.IL",
+        "companyName": "LYXOR EURO STOXX 50 DAILY SHORT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MRL.IL",
+        "companyName": "LYXOR EURO STOXX 50 DAILY DOUBL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MRP.IL",
+        "companyName": "LYXOR EURO STOXX 50 DAILY LEVER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MRS.IL",
+        "companyName": "LYXOR ETF SHORT CAC 40 LYXOR DA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MRT.IL",
+        "companyName": "LYXOR ETF LEVERAGE CAC 40 LYXOR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MS5.IL",
+        "companyName": "LYXOR DAILY SHORTDAX X2 UCITS E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MSD.IL",
+        "companyName": "COMPUGROUP MEDICAL SE COMPUGROU",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MSJ.IL",
+        "companyName": "TGS NOPEC GEOPHYSICAL COMPANY A",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MUD.IL",
+        "companyName": "LYXOR DAILY LEVDAX UCITS ETF LY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MUM.IL",
+        "companyName": "EDENRED SA EDENRED ORD SHS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MUT.IL",
+        "companyName": "XTRACKERS II FED FDS EFFECT RAT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MV5.IL",
+        "companyName": "EUROFINS SCIENTIFIC SE EUROFINS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MV9.IL",
+        "companyName": "XTRACKERS II GLBAL GOVERNMNT BN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MVP.IL",
+        "companyName": "LYXOR S&P 500 UCITS ETF D-EUR L",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MWN.IL",
+        "companyName": "XACT BEAR XACT BEAR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MYY.IL",
+        "companyName": "POWSZECHNY ZAKLAD UBEZPIECZEN S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0MYZ.IL",
+        "companyName": "STROEER SE & CO KGAA STROEER OR",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0N0B.IL",
+        "companyName": "WALLENIUS WILHELMSEN LOGISTICS ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0N2R.IL",
+        "companyName": "SPROTT PHYSICAL GOLD AND SILVER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0N4T.IL",
+        "companyName": "NORDEA BANK ABP NORDEA BANK ORD",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0N61.IL",
+        "companyName": "AMPLIFON SPA AMPLIFON ORD SHS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0N6B.IL",
+        "companyName": "ARCADIS NV ARCADIS ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0N73.IL",
+        "companyName": "BOLSAS Y MERCADOS ESPANOLES SOC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0N75.IL",
+        "companyName": "BONDUELLE SAS BONDUELLE ORD SHS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0N7D.IL",
+        "companyName": "BURE EQUITY AB BURE EQUITY ORD ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0N7X.IL",
+        "companyName": "CLOETTA AB CLOETTA ORD SHS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0N8F.IL",
+        "companyName": "CEWE STIFTUNG & CO KGAA CEWE ST",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0N9G.IL",
+        "companyName": "ENDESA SA ENDESA ORD SHS",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0N9Z.IL",
+        "companyName": "EVS BROADCAST EQUIPMENT SA EVS ",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NBD.IL",
+        "companyName": "HEINEKEN HOLDING NV HEINEKEN HO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NBI.IL",
+        "companyName": "HAMBURGER HAFEN UND LOGISTIK AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NBX.IL",
+        "companyName": "BANCA IFIS SPA BANCA IFIS ORD S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NC6.IL",
+        "companyName": "INVESTOR AB INVESTOR B ORD SHS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NDA.IL",
+        "companyName": "MANITOU BF SA MANITOU BF ORD SH",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NE1.IL",
+        "companyName": "MEDIASET SPA MEDIASET ORD SHS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NIR.IL",
+        "companyName": "SARTORIUS AG SARTORIUS PREF SHS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NL1.IL",
+        "companyName": "PVA TEPLA AG PVA TEPLA ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NL3.IL",
+        "companyName": "TRELLEBORG AB TRELLEBORG B ORD ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NMI.IL",
+        "companyName": "VTG AG VTG ORD SHS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NMK.IL",
+        "companyName": "VESTAS WIND SYSTEMS A/S VESTAS ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NMR.IL",
+        "companyName": "WERELDHAVE NV WERELDHAVE ORD SH",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NMU.IL",
+        "companyName": "WOLTERS KLUWER NV WOLTERS KLUWE",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NO1.IL",
+        "companyName": "TKH GROUP NV TWENTSCHE KABEL CV",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NOF.IL",
+        "companyName": "PROCTER & GAMBLE CO PROCTER & G",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NOL.IL",
+        "companyName": "ADVA OPTICAL NETWORKING SE ADVA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NP8.IL",
+        "companyName": "AEROPORTS DE PARIS SA AEROPORTS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NPH.IL",
+        "companyName": "CARREFOUR SA CARREFOUR ORD SHS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NPL.IL",
+        "companyName": "CHRISTIAN DIOR SE CHRISTIAN DIO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NPP.IL",
+        "companyName": "KONINKLIJKE DSM NV KONINKILIJKE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NPT.IL",
+        "companyName": "EIFFAGE SA EIFFAGE ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NPV.IL",
+        "companyName": "GAS NATURAL SDG SA GAS NATURAL ",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NQ2.IL",
+        "companyName": "MAPFRE SA MAPFRE ORD SHS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NQH.IL",
+        "companyName": "RHOEN KLINIKUM AG RHOEN KLINIKU",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NR1.IL",
+        "companyName": "VERBUND AG VERBUND ORD SHS",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NR4.IL",
+        "companyName": "WACKER CHEMIE AG WACKER CHEMIE ",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NR7.IL",
+        "companyName": "ZARDOYA OTIS SA ZARDOYA OTIS OR",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NRE.IL",
+        "companyName": "ENEL SPA ENEL ORD SHS",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NRG.IL",
+        "companyName": "BILFINGER SE BILFINGER ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NRN.IL",
+        "companyName": "GRUPO CATALANA OCCIDENTE SA GRU",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NTI.IL",
+        "companyName": "GERRESHEIMER AG GERRESHEIMER OR",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NTM.IL",
+        "companyName": "OESTERREICHISCHE POST AG OSTERR",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NUK.IL",
+        "companyName": "AVANZA BANK HOLDING AB AVANZA B",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NUX.IL",
+        "companyName": "PRYSMIAN SPA PRYSMIAN ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NV5.IL",
+        "companyName": "UPM-KYMMENE OYJ UPM-KYMMENE ORD",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NV7.IL",
+        "companyName": "VIDRALA SA VIDRALA ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NVC.IL",
+        "companyName": "DANSKE BANK A/S DANSKE BANK ORD",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NVL.IL",
+        "companyName": "UBISOFT ENTERTAINMENT SA UBISOF",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NVQ.IL",
+        "companyName": "BUZZI UNICEM SPA BUZZI UNICEM S",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NW4.IL",
+        "companyName": "SAP SE SAP ORD SHS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NW8.IL",
+        "companyName": "SIXT SE SIXT PREF SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NWX.IL",
+        "companyName": "AB SKF SKF B ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NX1.IL",
+        "companyName": "AALBERTS INDUSTRIES NV AALBERTS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NX3.IL",
+        "companyName": "ASM INTERNATIONAL NV ASM INTERN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NXR.IL",
+        "companyName": "RAIFFEISEN BANK INTERNATIONAL A",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NY8.IL",
+        "companyName": "VEOLIA ENVIRONNEMENT SA VEOLIA ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NYZ.IL",
+        "companyName": "BERTRANDT AG BERTRANDT ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NZM.IL",
+        "companyName": "L'OREAL SA L'OREAL ORD SHS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0NZU.IL",
+        "companyName": "ZEALAND PHARMA A/S ZEALAND PHAR",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0O0U.IL",
+        "companyName": "BAYERISCHE MOTOREN WERKE AG BMW",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0O0V.IL",
+        "companyName": "BAYERISCHE MOTOREN WERKE AG BMW",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0O14.IL",
+        "companyName": "MERCK KGAA MERCK ORD SHS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0O1R.IL",
+        "companyName": "FRAPORT AG FRANKFURT AIRPORT SE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0O4B.IL",
+        "companyName": "VAN LANSCHOT KEMPEN NV VAN LANS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0O4N.IL",
+        "companyName": "SAF HOLLAND SA SAF-HOLLAND ORD ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0O5H.IL",
+        "companyName": "ELEKTA AB (PUBL) ELEKTA B ORD S",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0O76.IL",
+        "companyName": "AP MOELLER MAERSK A/S A P MOLLE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0O77.IL",
+        "companyName": "AP MOELLER - MAERSK A/S A P MOL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0O7A.IL",
+        "companyName": "METSA BOARD OYJ METSA BOARD COR",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0O7D.IL",
+        "companyName": "YARA INTERNATIONAL ASA YARA INT",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0O84.IL",
+        "companyName": "DNB ASA DNB ORD SHS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0O8D.IL",
+        "companyName": "KGHM POLSKA MIEDZ SA KGHM POLSK",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0O8F.IL",
+        "companyName": "KONINKLIJKE KPN NV KONINKLIJKE ",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0O8V.IL",
+        "companyName": "KONINKLIJKE VOPAK NV VOPAK ORD ",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0O8X.IL",
+        "companyName": "WIRECARD AG WIRECARD ORD SHS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0O93.IL",
+        "companyName": "HALDEX AB HALDEX ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0OA9.IL",
+        "companyName": "NOLATO AB NOLATO B ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0OAW.IL",
+        "companyName": "MARINE HARVEST ASA MARINE HARVE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0OBQ.IL",
+        "companyName": "DEUTSCHE WOHNEN AG DEUTSCHE WOH",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0OFM.IL",
+        "companyName": "COMPAGNIE GENERALE DES ETABLISS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0OFP.IL",
+        "companyName": "NCC AB NCC B ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0OGK.IL",
+        "companyName": "SUBSEA 7 SA SUBSEA 7 ORD SHS",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0OGQ.IL",
+        "companyName": "AMREST HOLDINGS SE AMREST HOLDI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0OJC.IL",
+        "companyName": "GJENSIDIGE FORSIKRING ASA GJENS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0OLD.IL",
+        "companyName": "ADIDAS AG ADIDAS N ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0OLG.IL",
+        "companyName": "BAUER AG BAUER ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0OLN.IL",
+        "companyName": "DIALOG SEMICONDUCTOR PLC DIALOG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0OMB.IL",
+        "companyName": "SOCIETA CATTOLICA DI ASSICURAZI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0OMK.IL",
+        "companyName": "ESSILOR INTERNATIONAL SA ESSILO",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0ON7.IL",
+        "companyName": "D'IETEREN SA D'IETEREN (D) ORD ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0OP0.IL",
+        "companyName": "DMG MORI AG DMG MORI ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0OPS.IL",
+        "companyName": "KORIAN SA KORIAN ORD SHS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0OQJ.IL",
+        "companyName": "NV BEKAERT SA BEKAERT (D) ORD S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0P47.IL",
+        "companyName": "POSTNL NV POSTNL ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0P6G.IL",
+        "companyName": "YAMANA GOLD INC YAMANA GOLD ORD",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0P6M.IL",
+        "companyName": "SIEMENS AG SIEMENS N ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0P6N.IL",
+        "companyName": "VOLKSWAGEN AG VOLKSWAGEN ORD SH",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0P6O.IL",
+        "companyName": "VOLKSWAGEN AG VOLKSWAGEN NON-VO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0P72.IL",
+        "companyName": "GROUPE EUROTUNNEL SE GROUPE EUR",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0PMJ.IL",
+        "companyName": "SIEMENS HEALTHINEERS AG SIEMENS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0PTN.IL",
+        "companyName": "XBT HOLDING LTD XBT PROVIDER AB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0Q0Y.IL",
+        "companyName": "AEGON N.V. AEGON ORD SHS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0Q11.IL",
+        "companyName": "NORSK HYDRO A.S.A NORSK HYDRO O",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0Q1F.IL",
+        "companyName": "JPMORGAN CHASE & CO JPMORGAN CH",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0Q1N.IL",
+        "companyName": "PFIZER INC PFIZER ORD (CDI)",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0Q1S.IL",
+        "companyName": "VERIZON COMMUNICATIONS INC VERI",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0Q2N.IL",
+        "companyName": "K&S AG K+S ORD SHS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0Q2S.IL",
+        "companyName": "KVAERNER ASA KVAERNER ORD SHS",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0Q3C.IL",
+        "companyName": "SUESS MICROTEC AG SUESS MICROTE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0Q4U.IL",
+        "companyName": "NOVOZYMES A/S NOVOZYMES B ORD S",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0Q57.IL",
+        "companyName": "SPAREBANK 1 SR BANK ASA SPAREBA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0Q6M.IL",
+        "companyName": "UNIPOL GRUPPO FINANZIARIO SPA U",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0Q8F.IL",
+        "companyName": "HUGO BOSS AG HUGO BOSS N ORD SH",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0Q8P.IL",
+        "companyName": "PROSEGUR COMPANIA DE SEGURIDAD ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QAJ.IL",
+        "companyName": "DBV TECHNOLOGIES SA DBV TECHNOL",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QB8.IL",
+        "companyName": "ASML HOLDING NV ASML HOLDING OR",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QBO.IL",
+        "companyName": "COLOPLAST A/S COLOPLAST B ORD S",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QC9.IL",
+        "companyName": "LEG IMMOBILIEN AG LEG IMMOBILIE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QCO.IL",
+        "companyName": "PHARMING GROUP NV PHARMING GROU",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QDS.IL",
+        "companyName": "EVONIK INDUSTRIES AG EVONIK IND",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QE6.IL",
+        "companyName": "TELE2 AB TELE2 B ORD SHS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QFP.IL",
+        "companyName": "RICHTER GEDEON VEGYESZETI GYAR ",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QFT.IL",
+        "companyName": "VONOVIA SE VONOVIA ORD SHS",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QFU.IL",
+        "companyName": "KION GROUP AG KION GROUP ORD SH",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QG5.IL",
+        "companyName": "OCEAN YIELD ASA OCEAN YIELD ASA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QG9.IL",
+        "companyName": "PROSIEBENSAT 1 MEDIA AG PROSIEB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QGG.IL",
+        "companyName": "DIC ASSET AG DIC ASSET ORD SHS",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QGH.IL",
+        "companyName": "OCI NV OCI N.V. ORD SHS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QGJ.IL",
+        "companyName": "MEDIGENE AG MEDIGENE K ORD SHS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QHL.IL",
+        "companyName": "CORBION NV CORBION NV ORD SHS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QII.IL",
+        "companyName": "MONCLER SPA MONCLER ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QIM.IL",
+        "companyName": "CTT CORREIOS DE PORTUGAL SA CTT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QIW.IL",
+        "companyName": "VALMET OYJ VALMET ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QJS.IL",
+        "companyName": "CLARIANT AG CLARIANT ORD SHS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QKI.IL",
+        "companyName": "SWISSCOM AG SWISSCOM ORD SHS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QLR.IL",
+        "companyName": "NOVARTIS AG NOVARTIS ORD SHS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QMV.IL",
+        "companyName": "STRAUMANN HOLDING AG STRAUMANN ",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QNO.IL",
+        "companyName": "LONZA GROUP AG LONZA GROUP ORD ",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QO7.IL",
+        "companyName": "BARRY CALLEBAUT AG BARRY CALLEB",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QOK.IL",
+        "companyName": "ROCHE HOLDING AG ROCHE HOLDING ",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QOS.IL",
+        "companyName": "PEPSICO INC PEPSICO ORD (CDI)",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QOW.IL",
+        "companyName": "TRANSOCEAN LTD TRANSOCEAN ORD S",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QP2.IL",
+        "companyName": "ZURICH INSURANCE GROUP AG ZURIC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QP4.IL",
+        "companyName": "GEORG FISCHER AG FISCHER GEORGE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QP5.IL",
+        "companyName": "CREDIT SUISSE GROUP AG CREDIT S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QQ6.IL",
+        "companyName": "ROCHE HOLDING AG ROCHE HOLDING ",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QR4.IL",
+        "companyName": "NESTLE SA NESTLE ORD SHS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QRL.IL",
+        "companyName": "LAR ESPANA REAL ESTATE SOCIMI S",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QSD.IL",
+        "companyName": "RECIPHARM AB (PUBL) RECIPHARM P",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QSH.IL",
+        "companyName": "FNAC DARTY SA FNAC DARTY ORD SH",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QTI.IL",
+        "companyName": "ANIMA HOLDING SPA ANIMA HOLDING",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QUM.IL",
+        "companyName": "BRUNEL INTERNATIONAL NV BRUNEL ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QUU.IL",
+        "companyName": "AF AB AF B ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QV7.IL",
+        "companyName": "KINEPOLIS GROUP NV KINEPOLIS OR",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QVF.IL",
+        "companyName": "FINECOBANK BANCA FINECO SPA FIN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QVI.IL",
+        "companyName": "WORLDLINE SA WORLDLINE ORD SHS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QVJ.IL",
+        "companyName": "EURONEXT NV EURONEXT ORD SHS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QVL.IL",
+        "companyName": "AFRICA OIL CORP AFRICA OIL ORD ",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QVM.IL",
+        "companyName": "MERLIN PROPERTIES SOCIMI SA MER",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QVP.IL",
+        "companyName": "ELIOR GROUP ELIOR GROUP ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QVU.IL",
+        "companyName": "IMCD NV IMCD GROUP ORD SHS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QVV.IL",
+        "companyName": "NN GROUP NV NN GROUP ORD SHS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QW0.IL",
+        "companyName": "ARGENX NV ARGENX ORD SHS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QXN.IL",
+        "companyName": "ZALANDO SE ZALANDO ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QXR.IL",
+        "companyName": "FIAT CHRYSLER AUTOMOBILES NV FI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QYC.IL",
+        "companyName": "FIRST MAJESTIC SILVER CORP FIRS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QYF.IL",
+        "companyName": "COMCAST CORP COMCAST A ORD (CDI",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QYI.IL",
+        "companyName": "NETFLIX INC NETFLIX ORD (CDI)",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QYP.IL",
+        "companyName": "MICROSOFT CORP MICROSOFT ORD (C",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QYQ.IL",
+        "companyName": "GILEAD SCIENCES INC GILEAD SCIE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QZ0.IL",
+        "companyName": "VISA INC VISA ORD  CLASS A (CDI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QZ1.IL",
+        "companyName": "AT&T INC. AT&T ORD (CDI)",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QZ3.IL",
+        "companyName": "QUALCOMM INC QUALCOMM ORD SHS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QZ6.IL",
+        "companyName": "NIKE INC NIKE ORD  CLASS B (CDI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QZD.IL",
+        "companyName": "ADVANCED MICRO DEVICES INC ADVA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0QZO.IL",
+        "companyName": "WALT DISNEY CO WALT DISNEY ORD ",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R0E.IL",
+        "companyName": "GENERAL MOTORS CO GENERAL MOTOR",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R0G.IL",
+        "companyName": "MONDELEZ INTERNATIONAL INC MOND",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R0O.IL",
+        "companyName": "UNITEDHEALTH GROUP INC UNITEDHE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R0T.IL",
+        "companyName": "AMGEN INC AMGEN ORD (CDI)",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R0X.IL",
+        "companyName": "TESLA INC TESLA ORD (CDI)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R1A.IL",
+        "companyName": "APPLIED MATERIALS INC APPLIED M",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R1G.IL",
+        "companyName": "HOME DEPOT INC HOME DEPOT ORD (",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R1I.IL",
+        "companyName": "NVIDIA CORP NVIDIA ORD SHS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R1M.IL",
+        "companyName": "EXXON MOBIL CORP EXXON MOBIL OR",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R22.IL",
+        "companyName": "BARRICK GOLD CORP BARRICK GOLD ",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R23.IL",
+        "companyName": "HALLIBURTON CO HALLIBURTON ORD ",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R2D.IL",
+        "companyName": "KINROSS GOLD CORP KINROSS GOLD ",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R2F.IL",
+        "companyName": "WELLS FARGO & CO WELLS FARGO OR",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R2O.IL",
+        "companyName": "FREEPORT-MCMORAN INC FREEPORT M",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R2T.IL",
+        "companyName": "MICRON TECHNOLOGY INC MICRON TE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R2Z.IL",
+        "companyName": "MASTERCARD INC MASTERCARD ORD  ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R34.IL",
+        "companyName": "JOHNSON & JOHNSON JOHNSON & JOH",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R37.IL",
+        "companyName": "BERKSHIRE HATHAWAY INC BERKSHIR",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R3P.IL",
+        "companyName": "XXL ASA XXL ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R3T.IL",
+        "companyName": "UBS GROUP AG UBS GROUP REGISTER",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R3Y.IL",
+        "companyName": "ENTRA ASA ENTRA ORD SHS",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R4G.IL",
+        "companyName": "KLOVERN AB KLOVERN ORD SHS",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R4Y.IL",
+        "companyName": "AENA SME SA AENA ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R6J.IL",
+        "companyName": "GRANDVISION NV GRANDVISION BV O",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R6Y.IL",
+        "companyName": "NORDIC NANOVECTOR ASA NORDIC NA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R72.IL",
+        "companyName": "BIOCARTIS GROUP NV BIOCARTIS OR",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R7O.IL",
+        "companyName": "HEXPOL AB HEXPOL ORD SHS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R7R.IL",
+        "companyName": "SVENSKA HANDELSBANKEN AB SVENSK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R7W.IL",
+        "companyName": "PROMOTORA DE INFORMACIONES SA P",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R7Y.IL",
+        "companyName": "WALLENSTAM AB WALLENSTAM B ORD ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R87.IL",
+        "companyName": "ASSA ABLOY AB (PUBL) ASSA ABLOY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R8P.IL",
+        "companyName": "SILTRONIC AG SILTRONIC N ORD SH",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R8S.IL",
+        "companyName": "INFRASTRUTTURE WIRELESS ITALIAN",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R8U.IL",
+        "companyName": "PANDOX AB PANDOX ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R96.IL",
+        "companyName": "FLOW TRADERS NV FLOW TRADERS OR",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0R9K.IL",
+        "companyName": "DEUTSCHE PFANDBRIEFBANK AG DEUT",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RA4.IL",
+        "companyName": "EUROPCAR GROUPE SA EUROPCAR GRO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RAI.IL",
+        "companyName": "EUROPRIS ASA EUROPRIS ORD SHS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RAL.IL",
+        "companyName": "ALTICE NV ALTICE CLASS B ORD SH",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RAQ.IL",
+        "companyName": "KARO PHARMA AB KARO PHARMA ORD ",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RAR.IL",
+        "companyName": "STRATEC BIOMEDICAL AG STRATEC B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RBW.IL",
+        "companyName": "BRAVIDA HOLDING AB BRAVIDA HOLD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RC6.IL",
+        "companyName": "PHARMA MAR SA PHARMA MAR ORD SH",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RC7.IL",
+        "companyName": "HANSA MEDICAL AB HANSA MEDICAL ",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RC9.IL",
+        "companyName": "HORNBACH HOLDING AG & CO KGAA H",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RCG.IL",
+        "companyName": "HAPAG LLOYD AG HAPAG LLOYD ORD ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RCL.IL",
+        "companyName": "INTERTRUST NV INTERTRUST GROUP ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RCO.IL",
+        "companyName": "DOMETIC GROUP AB (PUBL) DOMETIC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RCY.IL",
+        "companyName": "ATTENDO AB (PUBL) ATTENDO ORD S",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RD7.IL",
+        "companyName": "SCANDIC HOTELS GROUP AB SCANDIC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RDM.IL",
+        "companyName": "ABN AMRO GROUP NV ABN AMRO GROU",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RDO.IL",
+        "companyName": "BANCA MEDIOLANUM SPA BANCA MEDI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RDS.IL",
+        "companyName": "KINDRED GROUP PLC KINDRED GROUP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RDT.IL",
+        "companyName": "FERRARI NV FERRARI ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RDU.IL",
+        "companyName": "GRIFOLS SA GRIFOLS ORD SHS CLAS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RDV.IL",
+        "companyName": "GRIFOLS SA GRIFOLS PRF SHS CLAS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RDX.IL",
+        "companyName": "AMUNDI SA AMUNDI ORD SHS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RFP.IL",
+        "companyName": "RESURS HOLDING AB (PUBL) RESURS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RFW.IL",
+        "companyName": "GLOBAL DOMINION ACCESS SA GLOBA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RG6.IL",
+        "companyName": "FLUGHAFEN ZUERICH AG FLUGHAFEN ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RG8.IL",
+        "companyName": "SARTORIUS STEDIM BIOTECH SA SAR",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RGC.IL",
+        "companyName": "MONETA MONEY BANK AS MONETA MON",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RGT.IL",
+        "companyName": "WILLIAM DEMANT HOLDING A/S WILL",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RH1.IL",
+        "companyName": "KINNEVIK AB KINNEVIK ORD SHS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RHD.IL",
+        "companyName": "BASIC FIT NV BASIC-FIT ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RHI.IL",
+        "companyName": "PHILIPS LIGHTING NV PHILIPS LIG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RHL.IL",
+        "companyName": "MAISONS DU MONDE SA MAISONS DU ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RHS.IL",
+        "companyName": "ASR NEDERLAND NV ASR NEDERLAND ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RHZ.IL",
+        "companyName": "FORFARMERS NV FORFARMERS ORD SH",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RI8.IL",
+        "companyName": "KONINKLIJKE AHOLD DELHAIZE NV K",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RIC.IL",
+        "companyName": "ING GROEP NV ING GROEP ORD SHS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RIE.IL",
+        "companyName": "ENAV SPA ENAV SPA ORD SHS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RIH.IL",
+        "companyName": "ALPHABET INC ALPHABET ORD  CLAS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RII.IL",
+        "companyName": "GOLDEN OCEAN GROUP LTD GOLDEN O",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RIT.IL",
+        "companyName": "B2HOLDING ASA B2HOLDING ORD SHS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RIU.IL",
+        "companyName": "NORWEGIAN FINANS HOLDING ASA NO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RJI.IL",
+        "companyName": "ANHEUSER BUSCH INBEV NV ANHEUSE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RJN.IL",
+        "companyName": "BANCO COMERCIAL PORTUGUES SA BA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RKF.IL",
+        "companyName": "CONSTRUCCIONES Y AUXILIAR DE FE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RLT.IL",
+        "companyName": "QIAGEN NV QIAGEN ORD SHS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RNU.IL",
+        "companyName": "NEINOR HOMES SA NEINOR HOMES OR",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RON.IL",
+        "companyName": "BANCA FARMAFACTORING SPA BANCA ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0ROY.IL",
+        "companyName": "DAVIDE CAMPARI MILANO SPA DAVID",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0ROZ.IL",
+        "companyName": "X FAB SILICON FOUNDRIES EV X-FA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RPO.IL",
+        "companyName": "MUNTERS GROUP AB MUNTERS GROUP ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RPV.IL",
+        "companyName": "FRENI BREMBO SPA FRENI BREMBO O",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RPY.IL",
+        "companyName": "BOOZT AB BOOZT ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RQ1.IL",
+        "companyName": "BANKIA SA BANKIA ORD SHS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RQ2.IL",
+        "companyName": "BILIA AB BILIA A ORD SHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RQ9.IL",
+        "companyName": "LUNDIN MINING CORP LUNDIN MININ",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RQN.IL",
+        "companyName": "NSI NV NIEUWE STEEN INVESTMENTS",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RQP.IL",
+        "companyName": "INVESTMENT LATOUR AB LATOUR INV",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RR7.IL",
+        "companyName": "UNICAJA BANCO SA UNICAJA BANCO ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RTC.IL",
+        "companyName": "DELIVERY HERO AG DELIVERY HERO ",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RTE.IL",
+        "companyName": "METRO WHOLESALE & FOOD SPECIALI",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RTR.IL",
+        "companyName": "JOST WERKE AG JOST WERKE ORD SH",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RUE.IL",
+        "companyName": "CATENA MEDIA PLC CATENA MEDIA O",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RUH.IL",
+        "companyName": "AROUNDTOWN SA AROUNDTOWN PROPER",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RUK.IL",
+        "companyName": "MOL PLC MOL HUNGARIAN OIL AND G",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RUZ.IL",
+        "companyName": "NILFISK HOLDING A/S NILFISK HOL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RVE.IL",
+        "companyName": "BAWAG GROUP AG BAWAG GROUP ORD ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0RVJ.IL",
+        "companyName": "CORESTATE CAPITAL HOLDING SA CO",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0SAY.IL",
+        "companyName": "DWS GROUP GMBH & CO KGAA DWS GR",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0UO9.IL",
+        "companyName": "CANOPY GROWTH CORP CANOPY GROWT",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0V1L.IL",
+        "companyName": "INTERNATIONAL PETROLEUM CORP IN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0VVY.IL",
+        "companyName": "JOYY INC YY ADR REP ORD CLASS A",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0W1D.IL",
+        "companyName": "AURELIUS EQUITY OPPORTUNITIES S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0W2Y.IL",
+        "companyName": "BOOKING HOLDINGS INC BOOKING HO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0W9H.IL",
+        "companyName": "LYXOR IBEX35 (DR) UCITS ETF D-E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0WA4.IL",
+        "companyName": "SGAM ETF LEVERAGED S & P/MIB LY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0WA5.IL",
+        "companyName": "LYXOR FTSE MIB DAILY DOUBLE SHO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0WB2.IL",
+        "companyName": "AMUNDI ETF SHORT EURO STOXX 50 ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0X4P.IL",
+        "companyName": "MASMOVIL IBERCOM SA MASMOVIL IB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0XA9.IL",
+        "companyName": "AMUNDI ETF SHORT MSCI USA DAILY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0XBB.IL",
+        "companyName": "LYXOR DAILY DOUBLE SHORT BTP UC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0XC2.IL",
+        "companyName": "LYXOR JAPAN (TOPIX) (DR) UCITS ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0XS9.IL",
+        "companyName": "HOLMEN AB HOLMEN B ORD SHS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0XWG.IL",
+        "companyName": "IQIYI, INC IQIYI ADS REP 7 ORD ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0XXV.IL",
+        "companyName": "ATLAS COPCO AB ATLAS COPCO SERI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0Y5Y.IL",
+        "companyName": "DB X-TRACKERS S&P 500 UCITS ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0YAL.IL",
+        "companyName": "BOLIDEN AB BOLIDEN ORD SHS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0YAY.IL",
+        "companyName": "VITROLIFE AB VITROLIFE ORD SHS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0YO9.IL",
+        "companyName": "WFD UNIBAIL RODAMCO NV WFD UNIB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0YP5.IL",
+        "companyName": "ADYEN NV ADYEN ORD SHS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0YZ2.IL",
+        "companyName": "GEELY AUTOMOBILE HOLDINGS LTD G",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0Z4C.IL",
+        "companyName": "SIKA AG SIKA ORD SHS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0Z4S.IL",
+        "companyName": "TENCENT HOLDINGS LTD TENCENT HO",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0Z6Y.IL",
+        "companyName": "TILRAY INC TILRAY ORD SHS CLASS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "0ZPV.IL",
+        "companyName": "JENOPTIK AG JENOPTIK N ORD SHS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "ACID.IL",
+        "companyName": "ACER INCORPORATED GDR (REPR 5 S",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "AGRO.IL",
+        "companyName": "ROS AGRO PLC GDR (5 REPR 1 ORD)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "AKRN.IL",
+        "companyName": "PJSC ACRON GDR (10 GDRS REPR 1 ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "ATAD.IL",
+        "companyName": "PJSC TATNEFT ADS (REPR 6 ORD RU",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "AXB.IL",
+        "companyName": "AXIS BANK LIMITED GDR EACH REPR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "BLBD.IL",
+        "companyName": "BLOM BANK SAL GDS REPR 1 ORD'B'",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "CBKD.IL",
+        "companyName": "COMMERCIAL INTERNATIONAL BANK (",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "EFID.IL",
+        "companyName": "EDITA FOOD INDUSTRIES S.A.E. GD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "ENPL.IL",
+        "companyName": "EN+ GROUP INTERNATIONAL PUBLIC ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "ETLN.IL",
+        "companyName": "ETALON GROUP PLC GDR (EACH REPR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "FIVE.IL",
+        "companyName": "X5 RETAIL GROUP N.V GDR EACH RE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "FP-.IL",
+        "companyName": "FONDUL PROPRIETATEA S.A. GDR (E",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "GAID.IL",
+        "companyName": "GAIL (INDIA) LD GDR (REPR 6 ORD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "GAZ.IL",
+        "companyName": "PUBLIC JOINT STOCK COMPANY GAZP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "GLPR.IL",
+        "companyName": "GLOBAL PORTS INVESTMENTS PLC GD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "GLTR.IL",
+        "companyName": "GLOBALTRANS INVESTMENT PLC GDR ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "GRTB.IL",
+        "companyName": "GUARANTY TRUST BANK PLC GDR (EA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "HHPD.IL",
+        "companyName": "HON HAI PRECISION INDUSTRY CO. ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "HSBK.IL",
+        "companyName": "JSC HALYK BANK GDR (EACH REPR 4",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "HTSC.IL",
+        "companyName": "HUATAI SECURITIES CO., LTD. GDR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "HYDR.IL",
+        "companyName": "PJSC RUSHYDRO ADR (EACH REPR 10",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "HYUD.IL",
+        "companyName": "HYUNDAI MOTOR COMPANY GDR (REPR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "HYUP.IL",
+        "companyName": "HYUNDAI MOTOR COMPANY GDS (EACH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "KAP.IL",
+        "companyName": "JOINT STOCK COMPANY NATIONAL AT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "LGLD.IL",
+        "companyName": "LG ELECTRONICS INC GDS(REPR 1/2",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "LKOD.IL",
+        "companyName": "PJSC LUKOIL  ADR (EACH REPR 1 O",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "LNTA.IL",
+        "companyName": "LENTA PLC GDR (EACH 5 REPR 1 OR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "LSRG.IL",
+        "companyName": "PJSC LSR GROUP GDR (EACH REPR 1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "LTOD.IL",
+        "companyName": "LARSEN AND TOUBRO LIMITED GDS (",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "MAIL.IL",
+        "companyName": "MAIL.RU GROUP LIMITED GDR (EACH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "MDMG.IL",
+        "companyName": "MD MEDICAL GROUP INVESTMENTS PL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "MGNT.IL",
+        "companyName": "PJSC MAGNIT GDR (5 GDRS REPR 1 ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "MHID.IL",
+        "companyName": "MAHINDRA & MAHINDRA LIMITED GDR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "MHPC.IL",
+        "companyName": "MHP SE GDR (EACH REPR 1 ORD) (R",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "MNOD.IL",
+        "companyName": "PJSC MMC NORILSK NICKEL ADR (10",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "NCSP.IL",
+        "companyName": "PUBLIC JOINT STOCK COMPANY NOVO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "NLB.IL",
+        "companyName": "NOVA LJUBLJANSKA BANKA D.D., LJ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "NLMK.IL",
+        "companyName": "NOVOLIPETSK STEEL GDS EACH REPR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "NVTK.IL",
+        "companyName": "PAO NOVATEK GDR (EACH REPR 10 O",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "OGZD.IL",
+        "companyName": "PJSC GAZPROM LEVEL 1 ADS (REPR ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "OKEY.IL",
+        "companyName": "O'KEY GROUP S.A. GDR (EACH REPR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "PHOR.IL",
+        "companyName": "PJSC PHOSAGRO GDR (3 GDR REPR 1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "PLZL.IL",
+        "companyName": "PUBLIC JOINT STOCK COMPANY POLY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "RIGD.IL",
+        "companyName": "RELIANCE INDUSTRIES LIMITED GDR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "RKMD.IL",
+        "companyName": "OJSC ROSTELECOM ADR (EACH REPR ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "ROSN.IL",
+        "companyName": "ROSNEFT OIL COMPANY  GDRS (EACH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "SBER.IL",
+        "companyName": "SBERBANK OF RUSSIA ADR (EACH RE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "SBID.IL",
+        "companyName": "STATE BANK OF INDIA GDR (EACH R",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "SGGD.IL",
+        "companyName": "SURGUTNEFTEGAS PUBLIC JOINT STO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "SKMD.IL",
+        "companyName": "SK TELECOM CO LD ADS(REPR 1/9 K",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "SMSD.IL",
+        "companyName": "SAMSUNG ELECTRONICS CO LTD (ATT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "SMSN.IL",
+        "companyName": "SAMSUNG ELECTRONICS CO LTD (ATT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "SNGR.IL",
+        "companyName": "SOCIETATEA NATIONALA DE GAZE NA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "SSA.IL",
+        "companyName": "SISTEMA PJSFC GDR (EACH REPR 20",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "SVST.IL",
+        "companyName": "PUBLIC JOINT STOCK COMPANY SEVE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "TCS.IL",
+        "companyName": "TCS GROUP HOLDING PLC GDR (EACH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "TMKS.IL",
+        "companyName": "PAO TMK GDR(EACH REPR 4 ORDS) (",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "TTST.IL",
+        "companyName": "TATA STEEL LIMITED GDR (EACH RE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "IOB",
+        "symbol": "VTBR.IL",
+        "companyName": "JSC VTB BANK GDR (EACH REPR 2,0",
+        "industryOrCategory": "N/A"
+    }
+]

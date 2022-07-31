@@ -30,7 +30,8 @@ def get_input(
         user_prompt (str): Input prompt
         *args (InputParam): parameters
         validate (Callable[[str], Union[Any|None]], optional):
-                Validate user input returning None if invalid. Defaults to None.
+                Validate user input returning a falsy value if invalid.
+                Defaults to None.
         help_text (str, optional): Help text to display. Defaults to None.
         input_form (List[str], optional):
                 List of valid inputs. Defaults to None.
@@ -83,7 +84,7 @@ def user_confirm(msg: str, help_text: str = None) -> bool:
     Get user confirmation
 
     Args:
-        msg (str): check message
+        msg (str): prompt message
 
     Returns:
         bool: True if confirmed, False otherwise
@@ -93,7 +94,7 @@ def user_confirm(msg: str, help_text: str = None) -> bool:
 
     proceed = False
     while True:
-        selection = get_input(msg, help_text=help_text,input_form=['y', 'n'])
+        selection = get_input(msg, help_text=help_text, input_form=['y', 'n'])
 
         selection = selection.lower()
         if selection in ('y', 'yes'):
@@ -104,3 +105,37 @@ def user_confirm(msg: str, help_text: str = None) -> bool:
             break
 
     return proceed
+
+
+def get_int(
+        msg: str, validate: Callable[[str], bool] = None,
+        help_text: str = None) -> int:
+    """
+    Get an integer
+
+    Args:
+        msg (str): prompt message
+        validate (Callable[[str], Union[Any|None]], optional):
+                Validate user input returning None if invalid. Defaults to None.
+        help_text (str, optional): Help text to display. Defaults to None.
+
+    Returns:
+        int: number
+    """
+    if not help_text:
+        help_text="Enter an integer"
+
+    value = None
+    while True:
+        selection = get_input(msg, validate=validate, help_text=help_text)
+
+        if isinstance(selection, str) and selection.isnumeric():
+            value = int(selection)
+            break
+        elif isinstance(selection, int):
+            value = selection
+            break
+
+        error('Enter an integer')
+
+    return value

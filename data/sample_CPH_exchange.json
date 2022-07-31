@@ -1,0 +1,2852 @@
+[
+    {
+        "exchangeCode": "CPH",
+        "symbol": "AAB.CO",
+        "companyName": "Aalborg Boldspilklub A/S",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "AGAT.CO",
+        "companyName": "Agat Ejendomme A/S",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "AGF-B.CO",
+        "companyName": "AGF A/S B",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "AGILC.CO",
+        "companyName": "Agillic A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ALIEUA.CO",
+        "companyName": "Alm. Brand Invest, Europiske Ak",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ALIKOB.CO",
+        "companyName": "Alm. Brand Invest Korte Obligat",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ALIMD.CO",
+        "companyName": "Alm. Brand Invest, Mix Defensiv",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ALIMIX.CO",
+        "companyName": "Alm. Brand Invest, Mix",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ALIMOF.CO",
+        "companyName": "Alm. Brand Invest, Mix Offensiv",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ALINA.CO",
+        "companyName": "Alm. Brand Invest, Nordiske Akt",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ALIVOB.CO",
+        "companyName": "Alm. Brand Invest Virksomhedsob",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ALK-B.CO",
+        "companyName": "ALK-Abell B A/S",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ALMB.CO",
+        "companyName": "Alm. Brand A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "AM-B.CO",
+        "companyName": "Andersen & Martini Holding B A/",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "AMBU-B.CO",
+        "companyName": "Ambu A/S",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "AOJ-P.CO",
+        "companyName": "Brdr. A & O Johansen prf. A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ASTGRP.CO",
+        "companyName": "Astralis Group A/S",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ATHENA.CO",
+        "companyName": "Athena Investments A/S",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ATLA-DKK.CO",
+        "companyName": "Atlantic Petroleum P/F",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BAIAAA.CO",
+        "companyName": "BankInvest Asiatiske Aktier A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BAIBGAAKA.CO",
+        "companyName": "BankInvest Basis Globale Aktier",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BAIBGAKTA.CO",
+        "companyName": "BankInvest Basis Globale Aktier",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BAIDKAAKA.CO",
+        "companyName": "BankInvest Danske Aktier Akk. A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BAIEMAA.CO",
+        "companyName": "BankInvest Emerging Markets Akt",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BAIEMOAKA.CO",
+        "companyName": "BankInvest EM Obligationer Akk.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BAIESCA.CO",
+        "companyName": "BankInvest Europa Small Cap Akt",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BAIKDKOAKA.CO",
+        "companyName": "BankInvest Korte Danske Obl Akk",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BAIKDOBA.CO",
+        "companyName": "BankInvest Korte Danske Obligat",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BAIKHYOA.CO",
+        "companyName": "BankInvest Korte HY Obligatione",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BAILDKOAA.CO",
+        "companyName": "BankInvest Lange Danske Obl. Ak",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BAIMDOA.CO",
+        "companyName": "BankInvest Mellemlange Danske O",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BAIUSCA.CO",
+        "companyName": "BankInvest USA Small Cap Aktier",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BAIVGAA.CO",
+        "companyName": "BankInvest Value Globale Aktier",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BAIVOHYA.CO",
+        "companyName": "BankInvest Virksomhedsobligatio",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BAIVOIGA.CO",
+        "companyName": "BankInvest Virksomhedsobligatio",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BAIVOIGAKA.CO",
+        "companyName": "BankInvest Virksomhedsobl IG Ak",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BAVA.CO",
+        "companyName": "Bavarian Nordic A/S",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BDIDSCAKLA.CO",
+        "companyName": "BIL Danmark Danske Small Cap ak",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BIAEJD.CO",
+        "companyName": "BI Erhvervsejendomme A/S",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BIF.CO",
+        "companyName": "Brndbyernes IF Fodbold A/S",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BIOPOR.CO",
+        "companyName": "BioPorto A/S",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BIV10.CO",
+        "companyName": "BankInvest Optima 10 KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BIV10A.CO",
+        "companyName": "BankInvest Optima 10 Akk. KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BIV30.CO",
+        "companyName": "BankInvest Optima 30 KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BIV30A.CO",
+        "companyName": "BankInvest Optima 30 Akk. KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BIV55.CO",
+        "companyName": "BankInvest Optima 55 KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BIV55A.CO",
+        "companyName": "BankInvest Optima 55 Akk. KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BIV75.CO",
+        "companyName": "BankInvest Optima 75 KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BIV75A.CO",
+        "companyName": "BankInvest Optima 75 Akk. KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BLIGAA.CO",
+        "companyName": "BLS Invest Globale Aktier Akk.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BLKBSCKL.CO",
+        "companyName": "Blue Strait Capital KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BLKDA.CO",
+        "companyName": "BLS Invest Danske Aktier KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BLKGA.CO",
+        "companyName": "BLS Invest Globale Aktier KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BLVIS-A.CO",
+        "companyName": "Blue Vision A/S A",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BNORDIK-CSE.CO",
+        "companyName": "BankNordik P/F",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BO.CO",
+        "companyName": "Bang & Olufsen Holding A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BORD-B.CO",
+        "companyName": "F.E. Bording B A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BOSTAD-B.CO",
+        "companyName": "BoStad A/S B",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "BSKFDAKL.CO",
+        "companyName": "BankInvest Select Fokus Danske ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "CARL-A.CO",
+        "companyName": "Carlsberg A A/S",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "CARL-B.CO",
+        "companyName": "Carlsberg B A/S",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "CBRAIN.CO",
+        "companyName": "cBrain A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "CEMAT.CO",
+        "companyName": "Cemat A/S",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "CHEMM.CO",
+        "companyName": "ChemoMetec A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "CHR.CO",
+        "companyName": "Chr. Hansen Holding A/S",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "CMINOA.CO",
+        "companyName": "Carnegie Wealth Management Nord",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "COIMOD.CO",
+        "companyName": "Coop Opsparing Modig",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "COIMRA.CO",
+        "companyName": "Coop Opsparing Moderat",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "COLO-B.CO",
+        "companyName": "Coloplast B A/S",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "COLUM.CO",
+        "companyName": "Columbus A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "CONFRZ.CO",
+        "companyName": "Conferize A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "CPHCAP-ST.CO",
+        "companyName": "Copenhagen Capital A/S Stam",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "CWIASKL.CO",
+        "companyName": "C WorldWide Asien KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "CWIDKKL.CO",
+        "companyName": "C WorldWide Danmark KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "CWIEMMKL.CO",
+        "companyName": "C WorldWide Emerging Markets KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "CWIGAAKKKL.CO",
+        "companyName": "C WorldWide Globale Aktier - Ak",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "CWIGAEKL.CO",
+        "companyName": "C WorldWide Globale Aktier Etik",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "CWIGAKL.CO",
+        "companyName": "C WorldWide Globale Aktier KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "CWISAKTKL.CO",
+        "companyName": "C WorldWide Stabile Aktier KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DAB.CO",
+        "companyName": "Danske Andelskassers Bank A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DANSKE.CO",
+        "companyName": "Danske Bank A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DANT.CO",
+        "companyName": "Dantax A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DEMANT.CO",
+        "companyName": "Demant A/S",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DFDS.CO",
+        "companyName": "DFDS A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DJS.CO",
+        "companyName": "Den Jyske Sparekasse A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DJUR.CO",
+        "companyName": "Djurslands Bank A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIDIO.CO",
+        "companyName": "Danske Inv Danske Indeksobl KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIDK.CO",
+        "companyName": "Danske Inv Danmark, klasse DKK ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIDKA.CO",
+        "companyName": "Danske Inv Danmark - Akk kl DKK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIDKF.CO",
+        "companyName": "Danske Inv Danmark Fokus kl DKK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIDKISC.CO",
+        "companyName": "Danske Inv DK Indeks Small Cap ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIDKIX.CO",
+        "companyName": "Danske Inv Danmark Indeks kl DK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIDKLOBL.CO",
+        "companyName": "Danske Inv Danske Lange Obl kl ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIDMOBL.CO",
+        "companyName": "Danske Inv Dannebr Mellemla. Ob",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIEEU.CO",
+        "companyName": "Danske Invest steuropa",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIEHY.CO",
+        "companyName": "Danske Inv Euro High Yield-Obl.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIEIGO.CO",
+        "companyName": "Danske Inv Euro Inv Grade-Obl k",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIENGK4.CO",
+        "companyName": "Danske Inv Engros Kommuner 4 KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIENGLO.CO",
+        "companyName": "Danske Inv Engros Global, kl DK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIEU.CO",
+        "companyName": "Danske Inv Europa, klasse DKKd",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIEU2KL.CO",
+        "companyName": "Danske Invest Europa 2 KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIEUADKKH.CO",
+        "companyName": "Danske Inv Europa Akk kl DKKh",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIEUHUAKLDKK.CO",
+        "companyName": "Danske Invest EU Hjt Udbyt - Ak",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIEUIX.CO",
+        "companyName": "Danske Inv Europa Indeks, klass",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIEUIXBNP.CO",
+        "companyName": "Danske Inv Europa Indeks BNP, k",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIEUSC.CO",
+        "companyName": "Danske Inv Europa Small Cap kl ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIEUSCADKK.CO",
+        "companyName": "Danske Inv Europa Small Cap Akk",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIFJIX.CO",
+        "companyName": "Danske Invest Fjernsten Indeks",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIFO.CO",
+        "companyName": "Danske Inv Fonde, kl DKK d",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIGHYB.CO",
+        "companyName": "Danske Inv Glo High Yield-Obl, ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIGI.CO",
+        "companyName": "Danske Inv Global Indeks, kl DK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIGIADKKH.CO",
+        "companyName": "Danske Inv Glob Indeks - Akk, k",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIGLIADKKH.CO",
+        "companyName": "Danske Inv GloLangeIndeksobl Ak",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIGLIO.CO",
+        "companyName": "Danske Inv Glo Lange Indeksobl,",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIGLOP.CO",
+        "companyName": "Danske Inv Global Plus KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIGLOSP.CO",
+        "companyName": "Danske Inv Global StockPicking ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIGLOVO.CO",
+        "companyName": "Danske Inv Globale Virk obl, kl",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIGMI.CO",
+        "companyName": "Danske Inv GloMellemlang IndObl",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIGOM.CO",
+        "companyName": "Danske Inv Globale Obligationsm",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIGSPADKK.CO",
+        "companyName": "Danske Inv Global Stockpick. Ak",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIJAP.CO",
+        "companyName": "Danske Inv Japan, kl DKKd",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIKI.CO",
+        "companyName": "Danske Inv Kina, kl DKK d",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIKO.CO",
+        "companyName": "Danske Inv Danske Korte Obl kl ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIMA.CO",
+        "companyName": "Danske Inv Mix Akk KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIMDA.CO",
+        "companyName": "Danske Inv Mix Defensiv Akk KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIMOA.CO",
+        "companyName": "Danske Inv Mix Obl Akk, kl DKK ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIMOAK.CO",
+        "companyName": "Danske Inv Mix Offensiv Akk KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIMOB.CO",
+        "companyName": "Danske Inv Mix Obligationer KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIMOPA.CO",
+        "companyName": "Danske Inv Mix Offensiv Plus Ak",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKINMAKK.CO",
+        "companyName": "Danske Inv Nye Markeder - Akk, ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKINMOBL.CO",
+        "companyName": "Danske Inv Nye Mark Obl, kl DKK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKINMOBLLV.CO",
+        "companyName": "Danske Inv Nye Mark Obl LokVal,",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKINMOLV.CO",
+        "companyName": "Danske Inv NyeMarkedOblLokVal A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKINMSC.CO",
+        "companyName": "Danske Inv Nye Mark Small Cap, ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKINVO.CO",
+        "companyName": "Danske Inv Nordiske Virk.obl Ak",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKINYM.CO",
+        "companyName": "Danske Inv Nye Markeder, kl DKK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIUSA.CO",
+        "companyName": "Danske Inv USA, kl DKKd",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DKIUSAADKKH.CO",
+        "companyName": "Danske Inv USA Akk, kl DKK h",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DNORD.CO",
+        "companyName": "D/S Norden",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DRLCO.CO",
+        "companyName": "The Drilling Company of 1972 A/",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "DSV.CO",
+        "companyName": "DSV Panalpina A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "EAC.CO",
+        "companyName": "EAC Invest A/S",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "EGNETY.CO",
+        "companyName": "EgnsINVEST Ejd., Tyskland A/S",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ENALYZ.CO",
+        "companyName": "Enalyzer A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ERRIA.CO",
+        "companyName": "Erria A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ESOFT.CO",
+        "companyName": "esoft systems A/S",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FASTPC.CO",
+        "companyName": "FastPassCorp A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FED.CO",
+        "companyName": "Fast Ejendom Danmark A/S",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FFARMS.CO",
+        "companyName": "FirstFarms A/S",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FIIDKM.CO",
+        "companyName": "Falcon Invest Falcon Danske Akt",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FIIEUM.CO",
+        "companyName": "Falcon Invest Falcon Europe Mom",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FLS.CO",
+        "companyName": "FLSmidth & Co. A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FLUG-B.CO",
+        "companyName": "FLUGGER GROUP A/S",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FPIBWEL.CO",
+        "companyName": "Formuepleje Better World Enviro",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FPIBWG.CO",
+        "companyName": "Formuepleje Better World Global",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FPIDKA.CO",
+        "companyName": "Formuepleje Danske Aktier",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FPIEVO.CO",
+        "companyName": "Formuepleje EM Virksomhedsoblig",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FPIGA.CO",
+        "companyName": "Formuepleje Globale Aktier",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FPIGHY.CO",
+        "companyName": "Formuepleje Global High Yield",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FPILIM.CO",
+        "companyName": "Formuepleje LimiTTellus",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FPIPPB.CO",
+        "companyName": "Formuepleje PensionsPlanner Bal",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FPIPPM.CO",
+        "companyName": "Formuepleje PensionsPlanner Mod",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FPKEPI.CO",
+        "companyName": "Formuepleje Epikur KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FPKFO.CO",
+        "companyName": "Formuepleje Fokus KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FPKPAR.CO",
+        "companyName": "Formuepleje Pareto KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FPKPEN.CO",
+        "companyName": "Formuepleje Penta KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FPKSAF.CO",
+        "companyName": "Formuepleje Safe KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "FYNBK.CO",
+        "companyName": "Fynske Bank A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "G4S.CO",
+        "companyName": "G4S plc",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "GABR.CO",
+        "companyName": "Gabriel Holding A/S",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "GERHSP.CO",
+        "companyName": "German High Street Properties A",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "GJ.CO",
+        "companyName": "Glunz & Jensen Holding A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "GMAB.CO",
+        "companyName": "Genmab A/S",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "GN.CO",
+        "companyName": "GN Store Nord A/S",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "GRIEHY.CO",
+        "companyName": "Gudme Raaschou European High Yi",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "GRIEMA.CO",
+        "companyName": "Gudme Raaschou Emerging Markets",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "GRIUSHY.CO",
+        "companyName": "Gudme Raaschou US High Yield",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "GRLA.CO",
+        "companyName": "Grnlandsbanken A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "GYLD-B.CO",
+        "companyName": "Gyldendal B A/S",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "HAID10A.CO",
+        "companyName": "Handelsinvest Defensiv 10 (AK)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "HAID10AKK.CO",
+        "companyName": "Handelsinvest Defensiv 10 Akk (",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "HAID30A.CO",
+        "companyName": "Handelsinvest Defensiv 30 (AK)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "HAIDK.CO",
+        "companyName": "Handelsinvest Danmark",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "HAIDKOBL.CO",
+        "companyName": "Handelsinvest Danske Obligation",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "HAIEU.CO",
+        "companyName": "Handelsinvest Europa",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "HAINAM.CO",
+        "companyName": "Handelsinvest Nordamerika",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "HAIO60A.CO",
+        "companyName": "Handelsinvest Offensiv 60 (AK)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "HAIO80AKK.CO",
+        "companyName": "Handelsinvest Offensiv 80 Akk (",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "HAIOF80A.CO",
+        "companyName": "Handelsinvest Offensiv 80 (AK)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "HAIVER.CO",
+        "companyName": "Handelsinvest Verden",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "HAPPY.CO",
+        "companyName": "Happy Helper A/S",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "HARB-B.CO",
+        "companyName": "Harboes Bryggeri B A/S",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "HART.CO",
+        "companyName": "Brdr.Hartmann A/S",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "HGIGA.CO",
+        "companyName": "Halberg-Gundersen Invest Global",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "HH.CO",
+        "companyName": "H+H International A/S",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "HPIKDOKL.CO",
+        "companyName": "HP Invest Korte Danske Obligati",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "HVID.CO",
+        "companyName": "Hvidbjerg Bank A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "HYPE.CO",
+        "companyName": "Hypefactors A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "IIKMIX.CO",
+        "companyName": "Independent Mix",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "IIVBOND.CO",
+        "companyName": "Independent Bond",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "IIVGEA.CO",
+        "companyName": "Independent Generations Akk",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "IIVGLA.CO",
+        "companyName": "Independent Global Akk",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "IMAIL.CO",
+        "companyName": "InterMail A/S",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "INIDEM.CO",
+        "companyName": "Investin Demetra",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "INIOL2040-50.CO",
+        "companyName": "Investin Optimal Livscyklus 204",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "INIOLC.CO",
+        "companyName": "Investin Optimal Livscyklus 203",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "INIOVM.CO",
+        "companyName": "Investin Optimal VerdensIndex M",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ISS.CO",
+        "companyName": "ISS A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "JDAN.CO",
+        "companyName": "Jeudan A/S",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "JOBNDX.CO",
+        "companyName": "Jobindex A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "JUTBK.CO",
+        "companyName": "Jutlander Bank A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "JYIALVKL.CO",
+        "companyName": "Jyske Invest Aktier Lav Volatil",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "JYIDKAKL.CO",
+        "companyName": "Jyske Invest Danske Aktier KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "JYIEUAKL.CO",
+        "companyName": "Jyske Invest Europiske Aktier K",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "JYIFAVKL.CO",
+        "companyName": "Jyske Invest Favorit Aktier KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "JYIFJEKL.CO",
+        "companyName": "Jyske Invest Fjernsten Aktier K",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "JYIGLOKL.CO",
+        "companyName": "Jyske Invest Globale Aktier KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "JYIINAKL.CO",
+        "companyName": "Jyske Invest Indiske Aktier KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "JYIKIKL.CO",
+        "companyName": "Jyske Invest Kinesiske Aktier K",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "JYIKOBKL.CO",
+        "companyName": "Jyske Invest Korte Obligationer",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "JYILOBKL.CO",
+        "companyName": "Jyske Invest Lange Obligationer",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "JYINOBKL.CO",
+        "companyName": "Jyske Invest Nye Obligationsmar",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "JYINOBVKL.CO",
+        "companyName": "Jyske Invest Nye Obligationsma ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "JYINYAKL.CO",
+        "companyName": "Jyske Invest Nye Aktiemarkeder ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "JYIOBAKKL.CO",
+        "companyName": "Jyske Invest Obligationer og Ak",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "JYIUSAKL.CO",
+        "companyName": "Jyske Invest USA Aktier KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "JYIVIRKKL.CO",
+        "companyName": "Jyske Invest Virksomhedsobligat",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "JYSK.CO",
+        "companyName": "Jyske Bank A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "KBHL.CO",
+        "companyName": "Kbenhavns Lufthavne A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "KLEE-B.CO",
+        "companyName": "Brd. Klee B A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "KONSOL.CO",
+        "companyName": "Konsolidator A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "KRE.CO",
+        "companyName": "Kreditbanken A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "LASP.CO",
+        "companyName": "Ln og Spar Bank A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "LOLB.CO",
+        "companyName": "Lollands Bank A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "LUN.CO",
+        "companyName": "H. Lundbeck A/S",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "LUXOR-B.CO",
+        "companyName": "Luxor B A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "MAERSK-A.CO",
+        "companyName": "A.P. Mller - Mrsk A A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "MAERSK-B.CO",
+        "companyName": "A.P. Mller - Mrsk B A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "MAJDKA.CO",
+        "companyName": "Maj Invest Danske Aktier",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "MAJDKO.CO",
+        "companyName": "Maj Invest Danske Obligationer",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "MAJEMA.CO",
+        "companyName": "Maj Invest Emerging Markets",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "MAJGO.CO",
+        "companyName": "Maj Invest Globale Obligationer",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "MAJMAK.CO",
+        "companyName": "Maj Invest Makro",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "MAJPEN.CO",
+        "companyName": "Maj Invest Pension",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "MAJVAA.CO",
+        "companyName": "Maj Invest Value Aktier Akkumul",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "MAJVAL.CO",
+        "companyName": "Maj Invest Value Aktier",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "MAJVASRI.CO",
+        "companyName": "Maj Invest Value Aktier SRI+",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "MATAS.CO",
+        "companyName": "Matas A/S",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "MIGA-B.CO",
+        "companyName": "Migatronic B A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "MMIGA.CO",
+        "companyName": "Multi Manager Invest Globale Ak",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "MMIGLVAAKT.CO",
+        "companyName": "Multi Manager Inv Globale Value",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "MMIGLVAAKTAKK.CO",
+        "companyName": "Multi Manager Inv Globale Value",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "MMINAM.CO",
+        "companyName": "Multi Manager Invest Nye Aktiem",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "MMINO.CO",
+        "companyName": "Multi Manager Invest Nye obl.ma",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "MNBA.CO",
+        "companyName": "Mns Bank A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDA-DK.CO",
+        "companyName": "Nordea Bank Abp",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDI4KL.CO",
+        "companyName": "Nordea Invest Basis 4 KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIAKL.CO",
+        "companyName": "Nordea Invest Aktier KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIAKTIIKL.CO",
+        "companyName": "Nordea Invest Aktier II KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIB1KL.CO",
+        "companyName": "Nordea Invest Basis 1 KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIB2KL.CO",
+        "companyName": "Nordea Invest Basis 2 KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIB3KL.CO",
+        "companyName": "Nordea Invest Basis 3 KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIDAFKL.CO",
+        "companyName": "Nordea Invest Danske Aktier Fok",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIDKKL.CO",
+        "companyName": "Nordea Invest Danmark KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIEHYKL.CO",
+        "companyName": "Nordea Invest European HY Bonds",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIEMKL.CO",
+        "companyName": "Nordea Invest Emerging markets ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIEMMAENKL.CO",
+        "companyName": "Nordea Invest Em Markets Enhanc",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIESKL.CO",
+        "companyName": "Nordea Invest Emerging Stars KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIEUENHKL.CO",
+        "companyName": "Nordea Invest Europe Enhanced K",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIEUKL.CO",
+        "companyName": "Nordea Invest Europa KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIEUSCKL.CO",
+        "companyName": "Nordea Invest Europa Small Cap ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIFONKL.CO",
+        "companyName": "Nordea Invest Fonde KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIGAIKL.CO",
+        "companyName": "Nordea Inv. Globale Aktier Inde",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIGLENHKL.CO",
+        "companyName": "Nordea Invest Global Enhanced K",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIGOBLKL.CO",
+        "companyName": "Nordea Invest Globale Obligatio",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIGSCKL.CO",
+        "companyName": "Nordea Invest Global Small Cap ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIGSEKL.CO",
+        "companyName": "Nordea Invest Global SmCap Enha",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIGSTKL.CO",
+        "companyName": "Nordea Invest Global Stars KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIGUAKL.CO",
+        "companyName": "Nordea Invest Globale UdbytteAk",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIINDKL.CO",
+        "companyName": "Nordea Invest Indien KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIJAPENHKL.CO",
+        "companyName": "Nordea Invest Japan Enhanced KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIJAPKL.CO",
+        "companyName": "Nordea Invest Japan KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIKIKL.CO",
+        "companyName": "Nordea Invest Kina KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIKOKL.CO",
+        "companyName": "Nordea Invest Korte Obl KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIKOLKL.CO",
+        "companyName": "Nordea Invest Korte Obl Lagerb.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDILAOKL.CO",
+        "companyName": "Nordea Invest Lange Obligatione",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIMLOKL.CO",
+        "companyName": "Nordea Invest Mellemlange Ob KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDINAEKL.CO",
+        "companyName": "Nordea Invest North America Enh",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDINOSKL.CO",
+        "companyName": "Nordea Invest Nordic Stars KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDINSCKL.CO",
+        "companyName": "Nordea Invest Nordic Small Cap ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDISTABAKL.CO",
+        "companyName": "Nordea Invest Stabile Aktier KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDISTABKL.CO",
+        "companyName": "Nordea Invest Stabil Balanceret",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIUSAKL.CO",
+        "companyName": "Nordea Invest USA KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIVOBKL.CO",
+        "companyName": "Nordea Invest Virksomhedsobliga",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NDIVOMKL.CO",
+        "companyName": "Nordea Inv. Verdens Obl.marked ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NETC.CO",
+        "companyName": "Netcompany Group A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NEWCAP.CO",
+        "companyName": "Newcap Holding A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NKT.CO",
+        "companyName": "NKT A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NLFSK.CO",
+        "companyName": "Nilfisk Holding A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NNIT.CO",
+        "companyName": "NNIT A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NORDIC.CO",
+        "companyName": "Nordic Shipholding A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NORTHM.CO",
+        "companyName": "North Media A/S",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NOVO-B.CO",
+        "companyName": "Novo Nordisk B A/S",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NPINV.CO",
+        "companyName": "NPinvestor.com A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NRDF.CO",
+        "companyName": "Nordfyns Bank A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NTG.CO",
+        "companyName": "NTG Nordic Transport Group A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NTR-B.CO",
+        "companyName": "NTR Holding B A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NYIBRA.CO",
+        "companyName": "Nykredit Invest Balanced Risk A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NYIDAA.CO",
+        "companyName": "Nykredit Invest Danske Aktier A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NYIEVO.CO",
+        "companyName": "Nykredit Invest Eur. Virksomhed",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NYIGAS.CO",
+        "companyName": "Nykredit Invest Globale Aktier ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NYIGFA.CO",
+        "companyName": "Nykredit Invest Globale Fokusak",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NYIGSA.CO",
+        "companyName": "Nykredit Invest Globale Aktier ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NYIKA.CO",
+        "companyName": "Nykredit Invest Kreditobligatio",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NYIKO.CO",
+        "companyName": "Nykredit Invest Korte obligatio",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NYIKOA.CO",
+        "companyName": "Nykredit Invest Korte Obligatio",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NYIKRO.CO",
+        "companyName": "Nykredit Invest Kreditobligatio",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NYILOA.CO",
+        "companyName": "Nykredit Invest Lange Obligatio",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NYKBD.CO",
+        "companyName": "Nykredit Invest Balance Defensi",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "NZYM-B.CO",
+        "companyName": "Novozymes B A/S",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ONXEO.CO",
+        "companyName": "Onxeo SA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ORPHA.CO",
+        "companyName": "Orphazyme A/S",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "OSSR.CO",
+        "companyName": "ssur hf.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "PAAL-B.CO",
+        "companyName": "Per Aarsleff Holding A/S B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "PARKEN.CO",
+        "companyName": "PARKEN Sport & Entertainment A/",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "PFIBAA.CO",
+        "companyName": "PFA Invest Balance A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "PFIBAB.CO",
+        "companyName": "PFA Invest Balance B",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "PFIBAC.CO",
+        "companyName": "PFA Invest Balance C",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "PFIDKA.CO",
+        "companyName": "PFA Invest Danske Aktier",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "PFIGLA.CO",
+        "companyName": "PFA Invest Globale Aktier",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "PFIKRB.CO",
+        "companyName": "PFA Invest Kreditobligationer",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "PFIUSA.CO",
+        "companyName": "PFA Invest USA Stabile Aktier",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "PMIPCBAKLNEUR.CO",
+        "companyName": "PortfolioManager PP Cap Basis k",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "PNDORA.CO",
+        "companyName": "Pandora A/S",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "PSNRDC-A.CO",
+        "companyName": "Park Street Nordicom A/S A",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "RBLN-B.CO",
+        "companyName": "Roblon B A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "RBREW.CO",
+        "companyName": "Royal UNIBREW A/S",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "RILBA.CO",
+        "companyName": "Ringkjbing Landbobank A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "RLAINV.CO",
+        "companyName": "Ress Life Investments A/S",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ROCK-A.CO",
+        "companyName": "Rockwool International A A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ROCK-B.CO",
+        "companyName": "Rockwool International B A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ROV.CO",
+        "companyName": "Rovsing A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "RTX.CO",
+        "companyName": "RTX A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SALB.CO",
+        "companyName": "Salling Bank A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SANI.CO",
+        "companyName": "Sanistl A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SAS-DKK.CO",
+        "companyName": "SAS AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SBS.CO",
+        "companyName": "Scandinavian Brake Systems A/S",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SCAPE.CO",
+        "companyName": "Scape Technologies A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SCD.CO",
+        "companyName": "Small Cap Danmark A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SCHO.CO",
+        "companyName": "Schouw & Co. A/S",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SEIBDP.CO",
+        "companyName": "SEBinvest AKL Balance Defensiv ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SEIBSP.CO",
+        "companyName": "SEBinvest AKL Balance Stabil P",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SEIDAAP.CO",
+        "companyName": "SEBinvest AKL Danske Aktier Akk",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SEIDKAP.CO",
+        "companyName": "SEBinvest AKL Danske Aktier P",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SEIEUII.CO",
+        "companyName": "SEBinvest AKL Europa Indeks I",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SEIHYSP.CO",
+        "companyName": "SEBin AKL US HY B Sh Durat (SKY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SEIJHP.CO",
+        "companyName": "SEBinvest AKL Japan Hybrid P",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SEIKOBP.CO",
+        "companyName": "SEBinvest AKL Kreditobligatione",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SEILOBL.CO",
+        "companyName": "SEBinvest Lange Obligationer",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SEINAII.CO",
+        "companyName": "SEBinvest AKL Nordamerika Indek",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SEIUHYBP.CO",
+        "companyName": "SEBinvest AKL US H Yld B (Colum",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SHIGVAKL.CO",
+        "companyName": "Stonehenge Globale Valueaktier ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SHIVMAKL.CO",
+        "companyName": "Stonehenge Value Mix Akkumulere",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SIF.CO",
+        "companyName": "Silkeborg IF Invest A/S",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SIG.CO",
+        "companyName": "Scandinavian Investment Group A",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SIM.CO",
+        "companyName": "SimCorp A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SKAKO.CO",
+        "companyName": "SKAKO A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SKIGLO.CO",
+        "companyName": "SKAGEN Global A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SKIKON.CO",
+        "companyName": "SKAGEN Kon-Tiki A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SKIM2.CO",
+        "companyName": "SKAGEN m2 A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SKJE.CO",
+        "companyName": "Skjern Bank A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SLXIT.CO",
+        "companyName": "Seluxit A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SOLAR-B.CO",
+        "companyName": "Solar B A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPG.CO",
+        "companyName": "SP Group A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIC25KL.CO",
+        "companyName": "Sparindex INDEX OMX C25 KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPICUMKLA.CO",
+        "companyName": "Sparinv Cumulus Value KL A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIDJWKL.CO",
+        "companyName": "Sparindex INDEX DJSI World KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIDKAKLA.CO",
+        "companyName": "Sparinv Danske Aktier KL A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIEMIKL.CO",
+        "companyName": "Sparindex INDEX Emerging Market",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIEUCKL.CO",
+        "companyName": "Sparindex INDEX Europa Small Ca",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIEUVKL.CO",
+        "companyName": "Sparindex INDEX Europa Value KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIGLAMRIKL.CO",
+        "companyName": "Sparindex INDEX Globale Akt Min",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIGVBKLA.CO",
+        "companyName": "Sparinv Inv GraValBo Udb-All Co",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIJAGKL.CO",
+        "companyName": "Sparindex INDEX Japan Growth KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIJASKL.CO",
+        "companyName": "Sparindex INDEX Japan Small Cap",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIJAVKL.CO",
+        "companyName": "Sparindex INDEX Japan Value KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIKOOKLA.CO",
+        "companyName": "Sparinv Korte Obligationer KL A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPILOLKLA.CO",
+        "companyName": "Sparinv Lange Obligationer KL A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIMAAKLA.CO",
+        "companyName": "Sparinv Momentum Aktier Akk. KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIMAKKLA.CO",
+        "companyName": "Sparinv Momentum Aktier KL A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIMLOKLA.CO",
+        "companyName": "Sparinv Mellemlange Obligatione",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIMLRKLA.CO",
+        "companyName": "Sparinv Mix Lav Risiko KL A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIMMRKLA.CO",
+        "companyName": "Sparinv Mix Mellem Risiko KL A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPINOBKLA.CO",
+        "companyName": "Sparinv Nye Obligationsmarkeder",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPISOKLA.CO",
+        "companyName": "Sparindex INDEX Stabile Obl. KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIUSGKL.CO",
+        "companyName": "Sparindex INDEX USA Growth KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIUSSKL.CO",
+        "companyName": "Sparindex INDEX USA Small Cap K",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIUSVKL.CO",
+        "companyName": "Sparindex INDEX USA Value KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIVAKLA.CO",
+        "companyName": "Sparinv Value Aktier KL A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIVEMKLA.CO",
+        "companyName": "Sparinv Value Emerging Markets ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIVEUKLA.CO",
+        "companyName": "Sparinv Value Europa KL A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPIVVNYEMARKLA.CO",
+        "companyName": "Sparinvest Val Virk - Nye Mark ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPKSJF.CO",
+        "companyName": "Sparekassen Sjlland-Fyn A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPNO.CO",
+        "companyName": "Spar Nord Bank A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPVIGAETIKKL.CO",
+        "companyName": "Sparindex INDEX Globale Aktier ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPVIGAKL.CO",
+        "companyName": "Sparindex INDEX Globale Aktier ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPVILRKL.CO",
+        "companyName": "Sparindex INDEX Lav Risiko KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SPVIMRKL.CO",
+        "companyName": "Sparindex INDEX Mellem Risiko K",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SSIBDKKR.CO",
+        "companyName": "Sparinv SICAV - Balance DKK R",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SSIEGVEURR.CO",
+        "companyName": "Sparinv SICAV - Ethical Glob Va",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SSIIGVBEURR.CO",
+        "companyName": "Sparinv SICAV - Inv GradeValBon",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SSILDBDKKR.CO",
+        "companyName": "Sparinv SICAV - Long Danish Bon",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SSIPDKKR.CO",
+        "companyName": "Sparinv SICAV - Procedo DKK R",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SSISDKKR.CO",
+        "companyName": "Sparinv SICAV - Securus DKK R",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SSITAADKKR.CO",
+        "companyName": "Sparinv SICAV - Tactical Asset ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SSIVBGEHYEURR.CO",
+        "companyName": "Sparinv SICAV Val Bo Glo Eth HY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "STG.CO",
+        "companyName": "Scandinavian Tobacco Group A/S",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "STIGEP.CO",
+        "companyName": "Storebrand Global ESG Plus A5",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "STIGM.CO",
+        "companyName": "Storebrand Global Multifactor A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "STIGS.CO",
+        "companyName": "Storebrand Global Solutions A5",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "STIIAM.CO",
+        "companyName": "Storebrand Indeks - Alle Marked",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "STIINM.CO",
+        "companyName": "Storebrand Indeks - Nye Markede",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYDB.CO",
+        "companyName": "Sydbank A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYIBRIKL.CO",
+        "companyName": "Sydinvest BRIK KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYIFJERADKKA.CO",
+        "companyName": "Sydinvest Fjernsten A DKK Akk",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYIFONKL.CO",
+        "companyName": "Sydinvest Fonde KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYIGEAADKK.CO",
+        "companyName": "Sydinvest Globale EM-aktier A D",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYIGEMAADKKA.CO",
+        "companyName": "Sydinvest Globale EM-aktier A D",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYIHYADKK.CO",
+        "companyName": "Sydinvest HjrenteLande A DKK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYIHYADKKA.CO",
+        "companyName": "Sydinvest HjrenteLande A DKK Ak",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYIHYLVADKK.CO",
+        "companyName": "Sydinvest HjrenteLande Lokal Va",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYIHYVADKK.CO",
+        "companyName": "Sydinvest HjrenteLande Valuta A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYIINTADKK.CO",
+        "companyName": "Sydinvest International A DKK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYIKOADKK.CO",
+        "companyName": "Sydinvest Korte Obligationer A ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYILATKL.CO",
+        "companyName": "Sydinvest Latinamerika KL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYIMOADKK.CO",
+        "companyName": "Sydinvest Mellemlange Obligatio",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYIMOADKKA.CO",
+        "companyName": "Sydinvest Mellemlange Obl A DKK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYITYSKADKK.CO",
+        "companyName": "Sydinvest Tyskland A DKK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYIULVADKK.CO",
+        "companyName": "Sydinvest USA Ligev&Val A DKK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYIVIGADKK.CO",
+        "companyName": "Sydinvest Virksomhedsobl IG A D",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYIVLVADKK.CO",
+        "companyName": "Sydinvest Verden Ligevgt & Valu",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYIVLVADKKA.CO",
+        "companyName": "Sydinvest Verden Ligevgt&Val A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYIVOHYADKK.CO",
+        "companyName": "Sydinvest Virksomhedsobl HY A D",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYIVOHYADKKAK.CO",
+        "companyName": "Sydinvest Virksomhedsobl HY A D",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYIVOIGEADKK.CO",
+        "companyName": "Sydinvest Virksomhedsobl IG Eti",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYVBUA.CO",
+        "companyName": "Sydinvest Balanceret Udb A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYVKAA.CO",
+        "companyName": "Sydinvest Konservativ Akk A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYVKUA.CO",
+        "companyName": "Sydinvest Konservativ Udb A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYVVAA.CO",
+        "companyName": "Sydinvest Vkstorienteret Akk A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "SYVVUA.CO",
+        "companyName": "Sydinvest Vkstorienteret Udb A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "TCM.CO",
+        "companyName": "TCM Group A/S",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "TIV.CO",
+        "companyName": "Tivoli A/S",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "TOP.CO",
+        "companyName": "Topdanmark A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "TOTA.CO",
+        "companyName": "Totalbanken A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "TRMD-A.CO",
+        "companyName": "TORM plc A",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "TRYG.CO",
+        "companyName": "Tryg A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "UIE.CO",
+        "companyName": "United International Enterprise",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "VAIGAKA.CO",
+        "companyName": "ValueInvest Global Akk A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "VAIGLOA.CO",
+        "companyName": "ValueInvest Global A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "VAIJAPA.CO",
+        "companyName": "ValueInvest Japan A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "VIPRO.CO",
+        "companyName": "Victoria Properties A/S",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "VIRO.CO",
+        "companyName": "ViroGates A/S",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "VJBA.CO",
+        "companyName": "Vestjysk Bank A/S",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "VWS.CO",
+        "companyName": "Vestas Wind Systems A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "WATURU.CO",
+        "companyName": "Waturu Holding A/S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "WEIAGA.CO",
+        "companyName": "Wealth Invest Amalie Global AK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "WEISGA.CO",
+        "companyName": "Wealth Invest Secure Globale Ak",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "WEISGO.CO",
+        "companyName": "Wealth Invest Secure Globale Ob",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "WEISTA.CO",
+        "companyName": "Wealth Invest Strategi Aktier",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "WEISTS.CO",
+        "companyName": "Wealth Invest Strategi Stabil",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "WEKCABOPTPLI.CO",
+        "companyName": "Wealth Inv AKL AKL CABA Optimal",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "WILPDF.CO",
+        "companyName": "Wealth Invest Linde & Partners ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "WILPGV.CO",
+        "companyName": "Wealth Invest Linde&Partners Gl",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "WIRTEK.CO",
+        "companyName": "WirTek A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CPH",
+        "symbol": "ZEAL.CO",
+        "companyName": "Zealand Pharma A/S",
+        "industryOrCategory": "Healthcare"
+    }
+]

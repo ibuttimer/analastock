@@ -1,0 +1,278 @@
+[
+    {
+        "exchangeCode": "DOH",
+        "symbol": "ABQK.QA",
+        "companyName": "Ahli BanK QPSC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "AHCS.QA",
+        "companyName": "Aamal QPSC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "AKHI.QA",
+        "companyName": "Al Khaleej Takaful Insurance QP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "BLDN.QA",
+        "companyName": "Baladna QPSC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "BRES.QA",
+        "companyName": "Barwa Real Estate QPSC",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "CBQK.QA",
+        "companyName": "The Commercial Bank PSQC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "DBIS.QA",
+        "companyName": "Dlala Brokerage and Investment ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "DHBK.QA",
+        "companyName": "Doha Bank QPSC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "DOHI.QA",
+        "companyName": "Doha Insurance Group QPSC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "ERES.QA",
+        "companyName": "Ezdan Holding Group QPSC",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "GISS.QA",
+        "companyName": "Gulf International Services QPS",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "GWCS.QA",
+        "companyName": "Gulf Warehousing QPSC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "IGRD.QA",
+        "companyName": "Investment Holding Group QPSC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "IHGS.QA",
+        "companyName": "Islamic Holding Group QPSC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "IQCD.QA",
+        "companyName": "Industries Qatar QPSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "KCBK.QA",
+        "companyName": "Al Khalij Commercial Bank PQSC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "MARK.QA",
+        "companyName": "Masraf Al Rayan QPSC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "MCCS.QA",
+        "companyName": "Mannai Corporation QPSC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "MCGS.QA",
+        "companyName": "Medicare Group QPSC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "MERS.QA",
+        "companyName": "Al Meera Consumer Goods QPSC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "MPHC.QA",
+        "companyName": "Mesaieed Petrochemical Holding ",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "MRDS.QA",
+        "companyName": "Mazaya Real Estate Development ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "NLCS.QA",
+        "companyName": "National Leasing Holding QPSC",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "ORDS.QA",
+        "companyName": "Ooredoo QPSC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "QAMC.QA",
+        "companyName": "Qatar Aluminium Manufacturing Q",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "QATI.QA",
+        "companyName": "Qatar Insurance QSPC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "QCFS.QA",
+        "companyName": "Qatar Cinema and Film Distribut",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "QEWS.QA",
+        "companyName": "Qatar Electricity and Water QPS",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "QFBQ.QA",
+        "companyName": "Qatar First Bank LLC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "QFLS.QA",
+        "companyName": "Qatar Fuel QPSC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "QGMD.QA",
+        "companyName": "Qatari German for Medical Devic",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "QGRI.QA",
+        "companyName": "Qatar General Insurance and Rei",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "QGTS.QA",
+        "companyName": "Qatar Gas Transport Ltd QPSC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "QIBK.QA",
+        "companyName": "Qatar Islamic Bank QPSC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "QIGD.QA",
+        "companyName": "Qatari Investors Group QPSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "QIIK.QA",
+        "companyName": "Qatar International Islamic Ban",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "QIMD.QA",
+        "companyName": "Qatar Industrial Manufacturing ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "QISI.QA",
+        "companyName": "Qatar Islamic Insurance Group Q",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "QNBK.QA",
+        "companyName": "Qatar National Bank QPSC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "QNCD.QA",
+        "companyName": "Qatar National Cement QPSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "QNNS.QA",
+        "companyName": "Qatar Navigation QPSC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "QOIS.QA",
+        "companyName": "Qatar Oman Investment QPSC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "UDCD.QA",
+        "companyName": "United Development QPSC",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "VFQS.QA",
+        "companyName": "Vodafone Qatar PQSC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "WDAM.QA",
+        "companyName": "Widam Food QPSC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "DOH",
+        "symbol": "ZHCD.QA",
+        "companyName": "Zad Holding QPSC",
+        "industryOrCategory": "Consumer Defensive"
+    }
+]

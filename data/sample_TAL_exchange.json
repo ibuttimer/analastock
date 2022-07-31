@@ -1,0 +1,116 @@
+[
+    {
+        "exchangeCode": "TAL",
+        "symbol": "ARC1T.TL",
+        "companyName": "Arco Vara",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAL",
+        "symbol": "BLT1T.TL",
+        "companyName": "Baltika",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAL",
+        "symbol": "CPA1T.TL",
+        "companyName": "Coop Pank",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAL",
+        "symbol": "EEG1T.TL",
+        "companyName": "Ekspress Grupp",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "TAL",
+        "symbol": "EFT1T.TL",
+        "companyName": "EfTEN Real Estate Fund III shar",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAL",
+        "symbol": "HAE1T.TL",
+        "companyName": "Harju Elekter",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAL",
+        "symbol": "LHV1T.TL",
+        "companyName": "LHV Group",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAL",
+        "symbol": "MRK1T.TL",
+        "companyName": "Merko Ehitus",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAL",
+        "symbol": "NCN1T.TL",
+        "companyName": "Nordecon",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAL",
+        "symbol": "NHCBHFFT.TL",
+        "companyName": "Baltic Horizon Fund",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "TAL",
+        "symbol": "PKG1T.TL",
+        "companyName": "Pro Kapital Grupp",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAL",
+        "symbol": "PRF1T.TL",
+        "companyName": "PRFoods",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAL",
+        "symbol": "SFG1T.TL",
+        "companyName": "Silvano Fashion Group",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAL",
+        "symbol": "SKN1T.TL",
+        "companyName": "Nordic Fibreboard",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAL",
+        "symbol": "TAL1T.TL",
+        "companyName": "Tallink Grupp",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAL",
+        "symbol": "TKM1T.TL",
+        "companyName": "Tallinna Kaubamaja Grupp",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAL",
+        "symbol": "TPD1T.TL",
+        "companyName": "Trigon Property Development",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAL",
+        "symbol": "TSM1T.TL",
+        "companyName": "Tallinna Sadam",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAL",
+        "symbol": "TVEAT.TL",
+        "companyName": "Tallinna Vesi",
+        "industryOrCategory": "Utilities"
+    }
+]

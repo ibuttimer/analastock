@@ -1,0 +1,5084 @@
+[
+    {
+        "exchangeCode": "GER",
+        "symbol": "0HV.DE",
+        "companyName": "ENVISTA HOLDINGS  DL-,01",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "0Q3.DE",
+        "companyName": "BEYOND MEAT INC.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "0YU.DE",
+        "companyName": "YUM CHINA HLDGS  DL-,01",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "12DA.DE",
+        "companyName": "DELL TECHS INC. C  DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "185.DE",
+        "companyName": "ALCOA CORP. O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "1COV.DE",
+        "companyName": "COVESTRO AG  O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "1FC.DE",
+        "companyName": "FACC AG INH.AKT.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "1N8.DE",
+        "companyName": "ADYEN N.V.  EO-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "1NBA.DE",
+        "companyName": "ANHEUSER-BUSCH INBEV",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "1SI.DE",
+        "companyName": "SNAP INC. CL.A DL-,00001",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "1T2.DE",
+        "companyName": "VST BUILDING TECHS AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "1TY.DE",
+        "companyName": "PROSUS NV  EO -,05",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "1WR.DE",
+        "companyName": "WESTROCK CO.  DL-,01",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "1YD.DE",
+        "companyName": "BROADCOM INC.  DL-,001",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "2EM.DE",
+        "companyName": "ERGOMED PLC  LS -,01",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "2FE.DE",
+        "companyName": "FERRARI N.V.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "2FI.DE",
+        "companyName": "FIAT CHRYSLER AUTOM. 0,01",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "2GB.DE",
+        "companyName": "2G ENERGY AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "2HP.DE",
+        "companyName": "HEWLETT PACKARD ENT.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "2HQ.DE",
+        "companyName": "TILRAY INC. CL.2 DL-,0001",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "2HRA.DE",
+        "companyName": "H+R KGAA  INH. O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "2KD.DE",
+        "companyName": "KINDER MORGAN P DL-,01",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "2M6.DE",
+        "companyName": "MEDTRONIC PLC  DL-,0001",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "2OY.DE",
+        "companyName": "DOW INC.  DL-,01",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "2PP.DE",
+        "companyName": "PAYPAL HDGS INC.DL-,0001",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "2XT.DE",
+        "companyName": "DXC TECHNOLOGY CO. DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "30L3.DE",
+        "companyName": "SOLUTIONS 30 INH.EO-,1275",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "3LN.DE",
+        "companyName": "LIVE NATION ENTMT.DL -,01",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "3RB.DE",
+        "companyName": "RECKITT BENCK.GRP LS -,10",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "3V64.DE",
+        "companyName": "VISA INC. CL. A DL -,0001",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "4AB.DE",
+        "companyName": "ABBVIE INC.  DL-,01",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "4BSB.DE",
+        "companyName": "4BASEBIO AG  NA O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "4DS.DE",
+        "companyName": "DALDRUP+SOEHNE AG",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "4I1.DE",
+        "companyName": "PHILIP MORRIS INTL INC.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "4JMA.DE",
+        "companyName": "JUMIA TECH. SP.ADR/2 O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "5EA.DE",
+        "companyName": "ELANCO ANIMAL HEALTH.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "5FB.DE",
+        "companyName": "FITBIT A  DL-,0001",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "5G5.DE",
+        "companyName": "GOPRO INC. A DL -,0001",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "639.DE",
+        "companyName": "SPOTIFY TECH. S.A.  EUR 1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "68V.DE",
+        "companyName": "BAKER HUGHES CO.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "690D.DE",
+        "companyName": "HAIER SMART HOME CO.D YC1",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "7HP.DE",
+        "companyName": "HP INC  DL -,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "8PSG.DE",
+        "companyName": "INVESC.PHYS.MKT.ETC00 XAU",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "8TRA.DE",
+        "companyName": "TRATON SE  INH O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "93M.DE",
+        "companyName": "MPH HEALTH CARE  INH O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "99SC.DE",
+        "companyName": "NEXR TECHN.SE  INH O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "9LG.DE",
+        "companyName": "LOGMEIN INC.  DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "A1OS.DE",
+        "companyName": "ALL FOR ONE GROUP NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "A4S.DE",
+        "companyName": "AMERIPRISE FINL  DL-,01",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "A7A.DE",
+        "companyName": "FINLAB AG  NA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "A8A.DE",
+        "companyName": "JDC GROUP AG O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AAD.DE",
+        "companyName": "AMADEUS FIRE AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AAG.DE",
+        "companyName": "AUMANN AG  INH O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AAQ.DE",
+        "companyName": "AAP IMPLANTATE AG",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ABEA.DE",
+        "companyName": "ALPHABET INC.CL.A DL-,001",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ABEC.DE",
+        "companyName": "ALPHABET INC.CL C DL-,001",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ABL.DE",
+        "companyName": "ABBOTT LABS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ABR.DE",
+        "companyName": "BARRICK GOLD CORP.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ABS2.DE",
+        "companyName": "PORR AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ACT.DE",
+        "companyName": "ALZCHEM GROUP AG INH O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ACX.DE",
+        "companyName": "BET-AT-HOME.COM AG O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ADB.DE",
+        "companyName": "ADOBE INC.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ADD.DE",
+        "companyName": "ADLER MODEMAERKTE AG O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ADE.DE",
+        "companyName": "BITCOIN GROUP SE  O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ADI.DE",
+        "companyName": "ANALOG DEVICES INC.DL-166",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ADJ.DE",
+        "companyName": "ADO PROPERTIES S.A. NPV",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ADL.DE",
+        "companyName": "ADLER REAL ESTATE AG",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ADLU.DE",
+        "companyName": "ADLER REAL ESTATE Z.UMT.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ADN1.DE",
+        "companyName": "ADESSO SE  INH O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ADS.DE",
+        "companyName": "ADIDAS AG NA O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ADV.DE",
+        "companyName": "ADVA OPT.NETW.SE  O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AEC1.DE",
+        "companyName": "AMER. EXPRESS  DL -,20",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AEIN.DE",
+        "companyName": "ALLGEIER SE  NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AEND.DE",
+        "companyName": "AEGON NV (DEMAT.)  EO-12",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AENF.DE",
+        "companyName": "AEGON NV EO 0,12 NY REG.1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AEP.DE",
+        "companyName": "AMER. EL. PWR  DL 6,50",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AFX.DE",
+        "companyName": "CARL ZEISS MEDITEC AG",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AGB2.DE",
+        "companyName": "AGRANA BET.AG INH.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AGJ.DE",
+        "companyName": "AGCO CORP.  DL-,01",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AHC.DE",
+        "companyName": "HESS CORP.  DL 1",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AHLA.DE",
+        "companyName": "ALIBABA GR.HLDG SP.ADR 8",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AHOG.DE",
+        "companyName": "AHOLD DELHAIZE,KON.EO-,01",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AIL.DE",
+        "companyName": "AIR LIQUIDE INH. EO 5,50",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AINN.DE",
+        "companyName": "AMER.INTL GRP NEW DL 2,50",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AIR.DE",
+        "companyName": "AIRBUS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AIXA.DE",
+        "companyName": "AIXTRON SE NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AJ91.DE",
+        "companyName": "DOCCHECK AG NA O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AK3.DE",
+        "companyName": "AKAMAI TECH.  DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AKX.DE",
+        "companyName": "ANSYS INC.  DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ALD.DE",
+        "companyName": "HONEYWELL INTL  DL1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ALS.DE",
+        "companyName": "ALLSTATE CORP.  DL-,01",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ALU2.DE",
+        "companyName": "ARCONIC INC.  DL 1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ALV.DE",
+        "companyName": "ALLIANZ SE NA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AM3D.DE",
+        "companyName": "SLM SOLUTIONS GRP AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AMD.DE",
+        "companyName": "ADVANCED MIC.DEV.  DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AMG.DE",
+        "companyName": "AMGEN INC.  DL-,0001",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AMZ.DE",
+        "companyName": "AMAZON.COM INC.  DL-,01",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ANL.DE",
+        "companyName": "ANALOG DEVICES INC.DL-166",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ANSS.DE",
+        "companyName": "ANSYS INC.  DL-,01",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AOF.DE",
+        "companyName": "ATOSS SOFTWARE AG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AOMD.DE",
+        "companyName": "ALSTOM S.A. INH.  EO 7",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "APC.DE",
+        "companyName": "APPLE INC.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "APM.DE",
+        "companyName": "AD PEPPER MEDIA  EO 0,05",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AR4.DE",
+        "companyName": "AURELIUS EQ.OPP.  O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ARL.DE",
+        "companyName": "AAREAL BANK AG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ARRD.DE",
+        "companyName": "ARCELORMITTAL S.A. NOUV.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ARRJ.DE",
+        "companyName": "ARCELORMITTAL NY SHS/1 ON",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ART.DE",
+        "companyName": "ARTNET AG NA O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ASG.DE",
+        "companyName": "GENERALI  EO 1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ASL.DE",
+        "companyName": "AKASOL AG  INH. O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ASME.DE",
+        "companyName": "ASML HOLDING  EO -,09",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ASMF.DE",
+        "companyName": "ASML HOLDING NY  EO-,09",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AT1.DE",
+        "companyName": "AROUNDTOWN EO-,01",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AU2.DE",
+        "companyName": "AGRARIUS AG  INH. O.N.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AUD.DE",
+        "companyName": "AUTODESK INC.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AUS.DE",
+        "companyName": "AT+S AUSTR.T.+SYSTEMT.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AVES.DE",
+        "companyName": "AVES ONE AG O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AWC.DE",
+        "companyName": "AMERICAN WATER WKS DL-,01",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AWM.DE",
+        "companyName": "SKYWORKS SOL.  DL-,25",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AXA.DE",
+        "companyName": "AXA S.A. INH.  EO 2,29",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AXP.DE",
+        "companyName": "ALEXION PHARMAC. DL-,0001",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "AZ2.DE",
+        "companyName": "ANDRITZ AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "B4B.DE",
+        "companyName": "METRO AG  ST O.N.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "B4B3.DE",
+        "companyName": "METRO AG  VZO O.N.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "B5A.DE",
+        "companyName": "BAUER AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "B7J.DE",
+        "companyName": "SRV YHTIOET OYJ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "B8F.DE",
+        "companyName": "BIOFRONTERA AG NA O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BAC.DE",
+        "companyName": "VERIZON COMM. INC. DL-,10",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BAS.DE",
+        "companyName": "BASF SE NA O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BASA.DE",
+        "companyName": "BASF SPONS. ADR 1/4",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BAYA.DE",
+        "companyName": "BAYER ADR /1/4",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BAYN.DE",
+        "companyName": "BAYER AG NA O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BBDB.DE",
+        "companyName": "BOMBARDIER INC. CL. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BBVA.DE",
+        "companyName": "BCO BIL.VIZ.ARG.ADR EO,-4",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BBZA.DE",
+        "companyName": "BB BIOTECH NAM.  SF 0,20",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BC8.DE",
+        "companyName": "BECHTLE AG O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BCO.DE",
+        "companyName": "BOEING CO.  DL 5",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BCY.DE",
+        "companyName": "BARCLAYS PLC  LS 0,25",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BDT.DE",
+        "companyName": "BERTRANDT AG O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BEI.DE",
+        "companyName": "BEIERSDORF AG O.N.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BEZ.DE",
+        "companyName": "BERENTZEN-GRP.AG",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BFSA.DE",
+        "companyName": "BEFESA S.A. ORD. O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BIL.DE",
+        "companyName": "BHP GROUP PLC  DL -,50",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BIO.DE",
+        "companyName": "BIOTEST AG ST O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BIO3.DE",
+        "companyName": "BIOTEST AG VZ O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BIRG.DE",
+        "companyName": "BK OF IRELD GRP  EO 1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BLQA.DE",
+        "companyName": "BLACKROCK  CL. A DL -,01",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BMT.DE",
+        "companyName": "BRIT.AMER.TOBACCO  LS-,25",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BMW.DE",
+        "companyName": "BAY.MOTOREN WERKE AG ST",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BMW3.DE",
+        "companyName": "BAY.MOTOREN WERKE  VZO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BNN.DE",
+        "companyName": "B.R.A.I.N. NA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BNP.DE",
+        "companyName": "BNP PARIBAS INH.  EO 2",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BNR.DE",
+        "companyName": "BRENNTAG AG NA O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BNT1.DE",
+        "companyName": "EYEMAXX R.EST.AG",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BOSS.DE",
+        "companyName": "HUGO BOSS AG NA O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BOY.DE",
+        "companyName": "BCO BIL.VIZ.ARG.NOM.EO-49",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BPE.DE",
+        "companyName": "BP PLC DZ/1 DL-,25",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BPE5.DE",
+        "companyName": "BP PLC  DL-,25",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BRH.DE",
+        "companyName": "BERKSHIRE HATHAWAY A DL 5",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BRM.DE",
+        "companyName": "BRISTOL-MYERS SQUIBBDL-10",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BRYN.DE",
+        "companyName": "BERKSH. H.B NEW DL-,00333",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BSD2.DE",
+        "companyName": "BCO SANTANDER N.EO0,5",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BSL.DE",
+        "companyName": "BASLER AG O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BSN.DE",
+        "companyName": "DANONE S.A. EO -,25",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BSP.DE",
+        "companyName": "BAE SYSTEMS PLC  LS-,025",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BST.DE",
+        "companyName": "BASTEI LUEBBE AG  O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BTQ.DE",
+        "companyName": "BT GROUP PLC  LS 0.05",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BVB.DE",
+        "companyName": "BORUSSIA DORTMUND",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BWB.DE",
+        "companyName": "BAADER BANK AG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BYG.DE",
+        "companyName": "BOUYGUES SA INH.  EO 1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BYW.DE",
+        "companyName": "BAYWA AG  NA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BYW6.DE",
+        "companyName": "BAYWA AG VINK.NA. O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "BZF1.DE",
+        "companyName": "VMWARE INC.CLASS A DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "C1V.DE",
+        "companyName": "MVISE AG O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "C6O.DE",
+        "companyName": "CLOVIS ONCOLOGY  DL-,001",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "C9F.DE",
+        "companyName": "CHIPOTLE MEX.GR.  DL -,01",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CAP.DE",
+        "companyName": "ENCAVIS AG  INH. O.N.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CAR.DE",
+        "companyName": "CARREFOUR S.A. INH.EO 2,5",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CAT1.DE",
+        "companyName": "CATERPILLAR INC.  DL 1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CBHD.DE",
+        "companyName": "COLOPLAST NAM. B  DK 1",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CBK.DE",
+        "companyName": "COMMERZBANK AG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CC1.DE",
+        "companyName": "CONSUS R.ESTATE AG  NA ON",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CCAP.DE",
+        "companyName": "CORESTATE CAPITAL HLDG",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CCC3.DE",
+        "companyName": "COCA-COLA CO.  DL-,25",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CDM1.DE",
+        "companyName": "COEUR MINING DL -,01",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CDS.DE",
+        "companyName": "CADENCE DESIGN SYS DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CE2.DE",
+        "companyName": "CROPENERGIES AG",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CEC.DE",
+        "companyName": "CECONOMY AG  ST O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CEC1.DE",
+        "companyName": "CECONOMY AG  VZO O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CEV.DE",
+        "companyName": "CENTROTEC SE  INH O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CFC.DE",
+        "companyName": "UET AG  O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CGN.DE",
+        "companyName": "CIGNA CORP. NEW  DL 1",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CH1A.DE",
+        "companyName": "C.H. ROB. WORLDWIDE NEW",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CHV.DE",
+        "companyName": "CHEVRON CORP.  DL-,75",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CIE1.DE",
+        "companyName": "CIENA CORP. NEW  DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CIS.DE",
+        "companyName": "CISCO SYSTEMS  DL-,001",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CLIQ.DE",
+        "companyName": "CLIQ DIGITAL AG  O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CMC.DE",
+        "companyName": "JPMORGAN CHASE  DL 1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CO3A.DE",
+        "companyName": "COTY INC.CL.A  DL -,01",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "COK.DE",
+        "companyName": "CANCOM SE O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CON.DE",
+        "companyName": "CONTINENTAL AG O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "COP.DE",
+        "companyName": "COMPUGROUP MED.SE O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "COZ.DE",
+        "companyName": "COGNIZANT TECH. SOL.A",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CPA.DE",
+        "companyName": "COLGATE-PALMOLIVE  DL 1",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CPX.DE",
+        "companyName": "CAPSENSIXX AG  INH O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CR6.DE",
+        "companyName": "CREE INC.  DL-,00125",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CS1.DE",
+        "companyName": "CHESAPEAKE EN.  DL-,01",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CSC.DE",
+        "companyName": "CAMPBELL SOUP CO.DL-,0375",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CSH.DE",
+        "companyName": "CENIT AG O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CSQ.DE",
+        "companyName": "CREDITSHELF AG  IA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CTO.DE",
+        "companyName": "COSTCO WHOLESALE  DL-,005",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CTP2.DE",
+        "companyName": "COMCAST CORP.  A  DL-,01",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CTX.DE",
+        "companyName": "CITRIX SYSTEMS  DL-,001",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CVA.DE",
+        "companyName": "CLEVELAND-CLIFFS  DL-,125",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CVS.DE",
+        "companyName": "CVS HEALTH CORP.  DL-,01",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CWC.DE",
+        "companyName": "CEWE STIFT.KGAA  O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CWCG.DE",
+        "companyName": "CEWE STIFT.KGAA  O.N.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CXU.DE",
+        "companyName": "CHURCH + DWIGHT CO. DL 1",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CYR.DE",
+        "companyName": "CYAN AG O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "CYT.DE",
+        "companyName": "CENTURYLINK INC.  DL 1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "D6H.DE",
+        "companyName": "DATAGROUP SE  INH. O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DAI.DE",
+        "companyName": "DAIMLER AG NA O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DAR.DE",
+        "companyName": "DATRON AG INH.O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DB1.DE",
+        "companyName": "DEUTSCHE BOERSE NA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DBAN.DE",
+        "companyName": "DT.BETEILIG.AG  NA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DBD.DE",
+        "companyName": "DIEBOLD NIXDORF DL 1,25",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DBK.DE",
+        "companyName": "DEUTSCHE BANK AG NA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DC6.DE",
+        "companyName": "DISCOVERY A DL-,01",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DC6C.DE",
+        "companyName": "DISCOVERY C DL-,01",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DC7.DE",
+        "companyName": "DISCOVER FINL SRVCS DL-01",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DCO.DE",
+        "companyName": "DEERE CO.  DL 1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DEF.DE",
+        "companyName": "DEFAMA AG",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DEQ.DE",
+        "companyName": "DEUTSCHE EUROSHOP NA O.N.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DEX.DE",
+        "companyName": "DELTICOM AG  NA O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DEZ.DE",
+        "companyName": "DEUTZ AG O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DFTK.DE",
+        "companyName": "DF DT.FORFAIT AG  NA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DFV.DE",
+        "companyName": "DFV DT.FAMIL.VERS. O.N.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DGR.DE",
+        "companyName": "DT.GRUNDST.AUKT.AG",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DHER.DE",
+        "companyName": "DELIVERY HERO SE NA O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DIC.DE",
+        "companyName": "DIC ASSET AG NA O.N.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DLG.DE",
+        "companyName": "DIALOG SEMICOND.  LS-,10",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DLTR.DE",
+        "companyName": "DOLLAR TREE INC.  DL-,01",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DMP.DE",
+        "companyName": "DERMAPHARM HLDG INH O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DMRE.DE",
+        "companyName": "DEMIRE DT.MTS.RE AG",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DP4B.DE",
+        "companyName": "A.P.MOELL.-M.NAM B DK1000",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DPW.DE",
+        "companyName": "DEUTSCHE POST AG NA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DPWA.DE",
+        "companyName": "DEUTSCHE POST SPONS.ADR 1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DQW1.DE",
+        "companyName": "AMS AG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DR0.DE",
+        "companyName": "DT.ROHSTOFF AG NA O.N.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DRI.DE",
+        "companyName": "1+1 DRILLISCH AG O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DRJ.DE",
+        "companyName": "DE RAJ GROUP AG INH O.N.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DRW3.DE",
+        "companyName": "DRAEGERWERK VZO O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DRW8.DE",
+        "companyName": "DRAEGERWERK ST.A.O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DT3.DE",
+        "companyName": "DOLLAR TREE INC.  DL-,01",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DTD2.DE",
+        "companyName": "B+S BANKSYSTEME AG O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DTE.DE",
+        "companyName": "DT.TELEKOM AG NA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DTEA.DE",
+        "companyName": "DEUTSCHE TELEKOM ADR 1",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DUE.DE",
+        "companyName": "DUERR AG O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DUL.DE",
+        "companyName": "ALNYLAM PHARMACE.DL-,0001",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DWD.DE",
+        "companyName": "MORGAN STANLEY  DL-,01",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DWNI.DE",
+        "companyName": "DEUTSCHE WOHNEN SE INH",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DWS.DE",
+        "companyName": "DWS GROUP GMBH+CO.KGAA ON",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DY2.DE",
+        "companyName": "DENTSPLY SIRONA  DL-,01",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "DYH.DE",
+        "companyName": "TARGET CORP.  DL-,0833",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "E2F.DE",
+        "companyName": "ELECTRICI.D.FRANCE E0-,50",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "E3X1.DE",
+        "companyName": "EXPEDIA GRP INC. DL-,0001",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "E4C.DE",
+        "companyName": "ECOTEL COMMUNICATION AG",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "E8X.DE",
+        "companyName": "ELEXXION AG",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "EBA.DE",
+        "companyName": "EBAY INC.  DL-,001",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "EBK.DE",
+        "companyName": "ENBW ENERGIE BAD.-WUE. ON",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "EBO.DE",
+        "companyName": "ERSTE GROUP BNK INH. O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ECF.DE",
+        "companyName": "MOUNTAIN ALLIANCE NA O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ECK.DE",
+        "companyName": "LUDW.BECK A.RATHAUSECK",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ECX.DE",
+        "companyName": "EPIGENOMICS AG NA O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ED4.DE",
+        "companyName": "EDAG ENGINEERING G.SF-,04",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "EIN3.DE",
+        "companyName": "EINHELL GERMANY VZO O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "EJT1.DE",
+        "companyName": "EASYJET PLC  LS-,27285714",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "EKT.DE",
+        "companyName": "ENERGIEKONTOR O.N.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ELG.DE",
+        "companyName": "ELMOS SEMICONDUCTOR AG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "EMH.DE",
+        "companyName": "PFERDEWETTEN.DE AG NA ON",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ENI.DE",
+        "companyName": "ENI S.P.A.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ENL.DE",
+        "companyName": "ENEL S.P.A.  EO 1",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "EOAA.DE",
+        "companyName": "E.ON SE O.N. ADR",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "EOAN.DE",
+        "companyName": "E.ON SE NA O.N.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "EOT.DE",
+        "companyName": "DISH NETWORK CORP.A DL-01",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "EQS.DE",
+        "companyName": "EQS GROUP AG NA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ERCB.DE",
+        "companyName": "ERICSSON B (FRIA)",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ERCG.DE",
+        "companyName": "ERICSSON A (FRIA)",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ERO1.DE",
+        "companyName": "TMC CONTENT GR.AG INH.SF1",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ERWE.DE",
+        "companyName": "ERWE IMMOB. AG INH O.N.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ESY.DE",
+        "companyName": "EASY SOFTWARE AG  NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ETG.DE",
+        "companyName": "ENVITEC BIOGAS O.N.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ETY.DE",
+        "companyName": "ENTERGY CORP.  DL-,01",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "EUZ.DE",
+        "companyName": "ECKERT+ZIEGLER AG O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "EVD.DE",
+        "companyName": "CTS EVENTIM KGAA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "EVK.DE",
+        "companyName": "EVONIK INDUSTRIES NA O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "EVT.DE",
+        "companyName": "EVOTEC SE  INH O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "EW1.DE",
+        "companyName": "EXPEDITORS INTL WASH.DL01",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "EX9.DE",
+        "companyName": "EXELIXIS INC.  DL-,01",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "EXC.DE",
+        "companyName": "EXCEET GROUP SCA RED. A",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "F03.DE",
+        "companyName": "FORTIVE CORP.  DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "F2P.DE",
+        "companyName": "GLU MOBILE INC. DL -,0001",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "F3A.DE",
+        "companyName": "FIRST SOLAR INC. D -,001",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "F3C.DE",
+        "companyName": "SFC ENERGY AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FAA.DE",
+        "companyName": "FABASOFT AG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FAS.DE",
+        "companyName": "FASTENAL CO.  DL-,01",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FB2A.DE",
+        "companyName": "FACEBOOK INC.A DL-,000006",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FBEN.DE",
+        "companyName": "FYBER N.V.  EO -,10",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FC9.DE",
+        "companyName": "FCR IMMOBILIEN AG NA O.N.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FDO.DE",
+        "companyName": "MACYS, INC.  DL-,01",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FDX.DE",
+        "companyName": "FEDEX CORP.  DL-,10",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FF24.DE",
+        "companyName": "FAST FIN24 HLDG INH O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FIE.DE",
+        "companyName": "FIELMANN AG O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FIV.DE",
+        "companyName": "FISERV INC.  DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FMC1.DE",
+        "companyName": "FORD MOTOR  DL-,01",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FME.DE",
+        "companyName": "FRESEN.MED.CARE KGAA O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FMV.DE",
+        "companyName": "FIRST MAJESTIC SILVER",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FNTN.DE",
+        "companyName": "FREENET AG NA O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FOO.DE",
+        "companyName": "SALESFORCE.COM  DL-,001",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FOT.DE",
+        "companyName": "FORTUM OYJ  EO 3,40",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FPE.DE",
+        "companyName": "FUCHS PETROLUB SE O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FPE3.DE",
+        "companyName": "FUCHS PETROL.SE VZO O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FPH.DE",
+        "companyName": "FRANCOTYP-POSTALIA HLDG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FPMB.DE",
+        "companyName": "FREEPORT-MCMORAN INC.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FRA.DE",
+        "companyName": "FRAPORT AG FFM.AIRPORT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FRE.DE",
+        "companyName": "FRESENIUS SE+CO.KGAA O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FRS.DE",
+        "companyName": "FORIS AG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FTE.DE",
+        "companyName": "ORANGE INH.  EO 4",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FTE1.DE",
+        "companyName": "ORANGE S.A. ADR  EO 4",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FTK.DE",
+        "companyName": "FLATEX AG  NA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "FYB.DE",
+        "companyName": "FORMYCON AG",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "G1A.DE",
+        "companyName": "GEA GROUP AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "G24.DE",
+        "companyName": "SCOUT24 AG NA O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "G6P.DE",
+        "companyName": "GOING PUBLIC MEDIA NA ON",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GAG.DE",
+        "companyName": "GORE GERM.OFF.R.E. NA ON",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GAZ.DE",
+        "companyName": "GAZPROM ADR SP./2 RL 5L 5",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GBF.DE",
+        "companyName": "BILFINGER SE O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GBY.DE",
+        "companyName": "SANGAMO THERAP.INC.DL-,01",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GD.DE",
+        "companyName": "GENL DYNAMICS CORP.  DL 1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GDX.DE",
+        "companyName": "GENL DYNAMICS CORP.  DL 1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GEC.DE",
+        "companyName": "GENL EL. CO.  DL -,06",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GFG.DE",
+        "companyName": "GLOBAL FASHION GRP EO-,01",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GFT.DE",
+        "companyName": "GFT TECHNOLOGIES SE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GGS.DE",
+        "companyName": "GIGASET AG O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GIH.DE",
+        "companyName": "GOLD RES CORP.  DL-,001",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GIL.DE",
+        "companyName": "DMG MORI AG O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GIS.DE",
+        "companyName": "GILEAD SCIENCES  DL-,001",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GKS.DE",
+        "companyName": "GK SOFTWARE  INH O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GLJ.DE",
+        "companyName": "GRENKE AG NA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GLW.DE",
+        "companyName": "CORNING INC.  DL -,50",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GME.DE",
+        "companyName": "GERATHERM O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GMM.DE",
+        "companyName": "GRAMMER AG O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GOB.DE",
+        "companyName": "ST GOBAIN  EO 4",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GOS.DE",
+        "companyName": "GOLDMAN SACHS GRP INC.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GRM.DE",
+        "companyName": "GENL MILLS  DL -,10",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GS7.DE",
+        "companyName": "GLAXOSMITHKLINE  LS-,25",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GSC1.DE",
+        "companyName": "GESCO AG NA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GSJ.DE",
+        "companyName": "GERM.STARTUPS GRP NA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GTK.DE",
+        "companyName": "TONKENS AGRAR AG",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GTQ1.DE",
+        "companyName": "SIEMENS GAMESA R.E.EO-,17",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GTY.DE",
+        "companyName": "GATEWAY R.EST.AG O.N.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GUI.DE",
+        "companyName": "DIAGEO PLC LS-,28935185",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GWD.DE",
+        "companyName": "GODEWIND IMMO.AG  NA O.N.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GXI.DE",
+        "companyName": "GERRESHEIMER AG",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GYC.DE",
+        "companyName": "GRAND CITY PROPERT.EO-,10",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "GZF.DE",
+        "companyName": "ENGIE S.A. INH.  EO 1",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "H24.DE",
+        "companyName": "HOME24 SE  INH O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "H9W.DE",
+        "companyName": "HWA AG  INH.O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HAL.DE",
+        "companyName": "HALLIBURTON CO.  DL 2,50",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HAR.DE",
+        "companyName": "HARLEY-DAVID.INC. DL -,01",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HAW.DE",
+        "companyName": "HAWESKO HOLDING AG  SVG",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HBC1.DE",
+        "companyName": "HSBC HLDGS PLC  DL-,50",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HBH.DE",
+        "companyName": "HORNBACH HOLD.ST O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HBM.DE",
+        "companyName": "HORNBACH BAUMARKT AG O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HCL.DE",
+        "companyName": "HECLA MNG  DL-,25",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HDD.DE",
+        "companyName": "HEIDELBERG.DRUCKMA.O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HDI.DE",
+        "companyName": "HOME DEPOT INC.  DL-,05",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HEI.DE",
+        "companyName": "HEIDELBERGCEMENT AG O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HEN.DE",
+        "companyName": "HENKEL AG+CO.KGAA ST O.N.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HEN3.DE",
+        "companyName": "HENKEL AG+CO.KGAA VZO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HFF.DE",
+        "companyName": "HARTFORD FINL SVCS GRP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HFG.DE",
+        "companyName": "HELLOFRESH SE  INH O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HHFA.DE",
+        "companyName": "HAMBURG.HAFEN LOG.A-SP NA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HHH.DE",
+        "companyName": "HOMES+HOLIDAY AG NA O.N.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HLAG.DE",
+        "companyName": "HAPAG-LLOYD AG NA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HLE.DE",
+        "companyName": "HELLA GMBH+CO. KGAA O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HLG.DE",
+        "companyName": "HIGHLIGHT CMNCTS INH.SF 1",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HMSB.DE",
+        "companyName": "HENNES + MAURITZ B SK-125",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HMU.DE",
+        "companyName": "HMS BERGBAU AG",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HNIB.DE",
+        "companyName": "IAC INTERACTIVEC.  DL-,01",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HNK1.DE",
+        "companyName": "HEINEKEN  EO 1,60",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HNL.DE",
+        "companyName": "DR. HOENLE AG O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HNM.DE",
+        "companyName": "ORMAT TECHNOLOG.  DL-,001",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HNR1.DE",
+        "companyName": "HANNOVER RUECK SE NA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HO1.DE",
+        "companyName": "HOLOGIC INC.  DL-,01",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HO7.DE",
+        "companyName": "HORMEL FOODS  DL-,01465",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HOC.DE",
+        "companyName": "HOLIDAYCHECK GRP AG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HOT.DE",
+        "companyName": "HOCHTIEF AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HPBK.DE",
+        "companyName": "HELIAD EQ.PARTN. NA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HRPK.DE",
+        "companyName": "7C SOLARPARKEN AG  O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HRS.DE",
+        "companyName": "L3HARRIS TECHS INC.DL-,01",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HXCK.DE",
+        "companyName": "ERNST RUSS AG NA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "HYQ.DE",
+        "companyName": "HYPOPORT AG  NA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "I8R.DE",
+        "companyName": "IROBOT CORP.  DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "IBE1.DE",
+        "companyName": "IBERDROLA INH.  EO -,75",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "IBM.DE",
+        "companyName": "INTL BUS. MACH.  DL-,20",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "IC2.DE",
+        "companyName": "INTERCONTINENTAL EXCH.INC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "IDP.DE",
+        "companyName": "BIOGEN INC. DL -,0005",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "IES.DE",
+        "companyName": "INTESA SANPAOLO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "IF0.DE",
+        "companyName": "INFLARX N.V.  EO 0,12",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "IFA.DE",
+        "companyName": "IFA HOTEL U.TOURISTI.O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "IFX.DE",
+        "companyName": "INFINEON TECH.AG NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "IGY.DE",
+        "companyName": "INNOGY SE  INH. O.N.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ILM1.DE",
+        "companyName": "MEDIOS AG  O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ILMN.DE",
+        "companyName": "ILLUMINA INC.  DL-,01",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ILU.DE",
+        "companyName": "ILLUMINA INC.  DL-,01",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "IMO1.DE",
+        "companyName": "IMMOFINANZ AG INH.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "INH.DE",
+        "companyName": "INDUS HOLDING AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "INL.DE",
+        "companyName": "INTEL CORP.  DL-,001",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "INN1.DE",
+        "companyName": "ING GROEP NV  EO -,01",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "INNA.DE",
+        "companyName": "ING GP NV SP.ADR/1 EO-,24",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "INP.DE",
+        "companyName": "INTL PAPER  DL 1",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "INS.DE",
+        "companyName": "INSTONE REAL EST.GRP O.N.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "INTU.DE",
+        "companyName": "INTUIT INC.  DL-,01",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "INW1.DE",
+        "companyName": "GBS SOFTWARE AG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "IQL.DE",
+        "companyName": "IQ INTL AG  SF-,01",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "IS7.DE",
+        "companyName": "INTICA SYSTEMS AG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ISR.DE",
+        "companyName": "ISRA VISION O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ITB.DE",
+        "companyName": "IMPERIAL BRANDS PLC LS-10",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ITN.DE",
+        "companyName": "INTERTAINMENT AG INH O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ITU.DE",
+        "companyName": "INTUIT INC.  DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "IUR.DE",
+        "companyName": "KAP AG  INH O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "IURG.DE",
+        "companyName": "KAP AG  INH O.N.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "IVU.DE",
+        "companyName": "IVU TRAFFIC TECHN.AG O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "IXD1.DE",
+        "companyName": "INDITEX INH.  EO 0,03",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "JEN.DE",
+        "companyName": "JENOPTIK AG  NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "JM2.DE",
+        "companyName": "SMUCKER -J.M.-",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "JNJ.DE",
+        "companyName": "JOHNSON + JOHNSON  DL 1",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "JNP.DE",
+        "companyName": "JUNIPER NETWORKS  DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "JST.DE",
+        "companyName": "JOST WERKE AG INH.  O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "JUN3.DE",
+        "companyName": "JUNGHEINRICH AG O.N.VZO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "K1R.DE",
+        "companyName": "KROMI LOGISTIK  INH. O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "KA8.DE",
+        "companyName": "KLASSIK RADIO AG NA O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "KBX.DE",
+        "companyName": "KNORR-BREMSE AG  INH O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "KC4.DE",
+        "companyName": "KONE CORP.(NEW) B O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "KCO.DE",
+        "companyName": "KLOECKNER + CO SE NA O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "KEL.DE",
+        "companyName": "KELLOGG CO.  DL -,25",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "KGX.DE",
+        "companyName": "KION GROUP AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "KHNZ.DE",
+        "companyName": "KRAFT HEINZ CO.DL -,01",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "KIN2.DE",
+        "companyName": "KINROSS GOLD CORP.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "KLA.DE",
+        "companyName": "KLA CORP.  DL -,001",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "KLMT.DE",
+        "companyName": "MUL-LYXOR GREEN BD(DR) A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "KMY.DE",
+        "companyName": "KIMBERLY-CLARK  DL 1,25",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "KPN.DE",
+        "companyName": "KON. KPN NV  EO-04",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "KRN.DE",
+        "companyName": "KRONES AG O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "KSB3.DE",
+        "companyName": "KSB SE+CO.KGAA VZO O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "KSC.DE",
+        "companyName": "KPS AG NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "KTF.DE",
+        "companyName": "MONDELEZ INTL INC. A",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "KU2.DE",
+        "companyName": "KUKA AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "KWG.DE",
+        "companyName": "KHD HUMBOLDT WEDAG O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "KWS.DE",
+        "companyName": "KWS SAAT KGAA  INH O.N.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LAR.DE",
+        "companyName": "LAM RESEARCH CORP. DL-001",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LCR.DE",
+        "companyName": "LAS VEGAS SANDS  DL-,001",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LEG.DE",
+        "companyName": "LEG IMMOBILIEN AG NA O.N.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LEI.DE",
+        "companyName": "LEIFHEIT AG O.N.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LEN.DE",
+        "companyName": "LENZING AG",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LEO.DE",
+        "companyName": "LEONI AG NA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LHA.DE",
+        "companyName": "LUFTHANSA AG VNA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LIK.DE",
+        "companyName": "LIMES SCHLOSSKLINIK. O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LIN.DE",
+        "companyName": "LINDE PLC  EO 0,001",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LLD.DE",
+        "companyName": "LLOYDS BKG GRP  LS-,10",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LLY.DE",
+        "companyName": "ELI LILLY",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LMI.DE",
+        "companyName": "LION E-MOBILITY AG SF-,13",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LO24.DE",
+        "companyName": "LOTTO24 AG NA O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LOM.DE",
+        "companyName": "LOCKHEED MARTIN  DL 1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LOR.DE",
+        "companyName": "OREAL (L') INH.  EO 0,2",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LPK.DE",
+        "companyName": "LPKF LASER+ELECTRON.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LSX.DE",
+        "companyName": "LS TELCOM AG",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LTD.DE",
+        "companyName": "L BRANDS INC.  DL-,50",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LU2.DE",
+        "companyName": "LUMENTUM HLDGS IN.DL-,001",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LUK.DE",
+        "companyName": "LUKOIL SP.ADR  RL-,025",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LUS.DE",
+        "companyName": "LANG+SCHWARZ AG NA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "LXS.DE",
+        "companyName": "LANXESS AG",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "M0Y.DE",
+        "companyName": "MYNARIC AG  INH O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "M12.DE",
+        "companyName": "M1 KLINIKEN AG  O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "M3BK.DE",
+        "companyName": "MIC AG  KONV.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "M4I.DE",
+        "companyName": "MASTERCARD INC.A DL-,0001",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "M4N.DE",
+        "companyName": "MUEHLHAN  O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "M5Z.DE",
+        "companyName": "MANZ AG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "M8G.DE",
+        "companyName": "MEDIA AND GAMES INV. EO 1",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "M8H.DE",
+        "companyName": "MBH CORP. PLC  EO 1",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MA1.DE",
+        "companyName": "MAX21 AG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MAK.DE",
+        "companyName": "MATERNUS-KLI.AG O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MAN.DE",
+        "companyName": "MAN SE ST O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MAN3.DE",
+        "companyName": "MAN SE VZO O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MBB.DE",
+        "companyName": "MBB SE O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MBC.DE",
+        "companyName": "MYBUCKS SA ORD.REG. EO 1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MBK.DE",
+        "companyName": "MERKUR BANK KGAA .O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MCD.DE",
+        "companyName": "MALLINCKRODT PLC  DL -,20",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MCE.DE",
+        "companyName": "MEDIQON GROUP AG O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MCP.DE",
+        "companyName": "MICROCHIP TECH.  DL-,001",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MDG1.DE",
+        "companyName": "MEDIGENE AG NA O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MDN.DE",
+        "companyName": "MEDION AG O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MDO.DE",
+        "companyName": "MCDONALDS CORP.  DL-,01",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MED.DE",
+        "companyName": "MEDICLIN AG",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MF6.DE",
+        "companyName": "MAGFORCE AG",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MGNK.DE",
+        "companyName": "MOLOGEN AG  INH O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MLB1.DE",
+        "companyName": "MERCADOLIBRE INC. DL-,001",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MLL.DE",
+        "companyName": "MUELLER-DIE LILA LOGISTIK",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MLP.DE",
+        "companyName": "MLP SE  INH. O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MMM.DE",
+        "companyName": "3M CO.  DL-,01",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MOH.DE",
+        "companyName": "LVMH  EO 0,3",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MOR.DE",
+        "companyName": "MORPHOSYS AG O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MPRK.DE",
+        "companyName": "MAIER + PARTNER O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MRK.DE",
+        "companyName": "MERCK KGAA O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MSF.DE",
+        "companyName": "MICROSOFT  DL-,00000625",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MTLA.DE",
+        "companyName": "MOTOROLA SOLUTIONS DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MTT.DE",
+        "companyName": "MATTEL INC.  DL 1",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MTX.DE",
+        "companyName": "MTU AERO ENGINES NA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MUB.DE",
+        "companyName": "MUEHLBAUER HOLD.AG O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MUM.DE",
+        "companyName": "MENSCH UND MASCH.O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MUV2.DE",
+        "companyName": "MUENCH.RUECKVERS.VNA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MUX.DE",
+        "companyName": "MUTARES KGAA  NA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MVV1.DE",
+        "companyName": "MVV ENERGIE AG NA O.N.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MWB.DE",
+        "companyName": "MWB FAIRTRADE WPHDLSBK AG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "MXHN.DE",
+        "companyName": "MAX AUTOMATION SE NA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "N2F.DE",
+        "companyName": "NANOFOCUS O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "N4G.DE",
+        "companyName": "THE NAGA GROUP AG NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "N7G.DE",
+        "companyName": "NANOGATE SE  INH. O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NB2.DE",
+        "companyName": "NORTHERN DATA AG INH O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NBG6.DE",
+        "companyName": "NUERNBERGER BET.AG VNA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NC5A.DE",
+        "companyName": "NORCOM INF.TECHN. INH ON",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NCB.DE",
+        "companyName": "BANK AMERICA  DL 0,01",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NDA.DE",
+        "companyName": "AURUBIS AG",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NDX1.DE",
+        "companyName": "NORDEX SE O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NEM.DE",
+        "companyName": "NEMETSCHEK SE O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NESM.DE",
+        "companyName": "NESTLE NAM. ADR/1 SF 1",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NF4.DE",
+        "companyName": "NETFONDS AG  VNA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NFC.DE",
+        "companyName": "NETFLIX INC.  DL-,001",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NFN.DE",
+        "companyName": "NFON AG  INH O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NGLB.DE",
+        "companyName": "ANGLO AMERICAN DL-,54945",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NIIN.DE",
+        "companyName": "NIIIO FIN.GRP AG  NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NKE.DE",
+        "companyName": "NIKE INC. B",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NMM.DE",
+        "companyName": "NEWMONT CORP.  DL 1,60",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NN6.DE",
+        "companyName": "NANOREPRO AG",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NNIC.DE",
+        "companyName": "MMC NOR.NICK.PJSC ADR RL1",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NOA3.DE",
+        "companyName": "NOKIA OYJ EO-,06",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NOAA.DE",
+        "companyName": "NOKIA OYJ A ADR 1/EO-,06",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NOEJ.DE",
+        "companyName": "NORMA GROUP SE NA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NOVA.DE",
+        "companyName": "NOVO-NORDISK B ADR/1DK 10",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NOVC.DE",
+        "companyName": "NOVO-NORDISK NAM.B DK-,20",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NP5.DE",
+        "companyName": "NEWRON PHARMACEUT. EO-,20",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NRA.DE",
+        "companyName": "NRG ENERGY INC.  DL-,01",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NSU.DE",
+        "companyName": "AUDI AG O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NTA.DE",
+        "companyName": "NETAPP INC.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NTAP.DE",
+        "companyName": "NETAPP INC.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NTH.DE",
+        "companyName": "NORTHROP GRUMMAN DL 1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NUVA.DE",
+        "companyName": "NORATIS AG  INH. O.N.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NVD.DE",
+        "companyName": "NVIDIA CORP.  DL-,001",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NVJP.DE",
+        "companyName": "UMICORE S.A.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NWO.DE",
+        "companyName": "NEW WORK SE  NA O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NWT.DE",
+        "companyName": "WELLS FARGO + CO.DL 1,666",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "NXU.DE",
+        "companyName": "NEXUS AG O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "O2C.DE",
+        "companyName": "PETRO WELT TECHNOLOGIE.AG",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "O2D.DE",
+        "companyName": "TELEFONICA DTLD HLDG NA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "O3P.DE",
+        "companyName": "OESTERREICH. POST AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "O4B.DE",
+        "companyName": "OVB HOLDING AG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "O5G.DE",
+        "companyName": "CPI PROPERTY GRP  EO-,10",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "O5H.DE",
+        "companyName": "OPENLIMIT HLDG INH. SF-30",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "OBS.DE",
+        "companyName": "ORBIS AG O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ODP.DE",
+        "companyName": "OFFICE DEPOT INC.  DL-,01",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "OEWA.DE",
+        "companyName": "VERBUND AG  INH. A",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "OHB.DE",
+        "companyName": "OHB SE  O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "OMV.DE",
+        "companyName": "OMV AG",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "OPC.DE",
+        "companyName": "OCCIDENTAL PET.  DL-,20",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ORC.DE",
+        "companyName": "ORACLE CORP.  DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "OSP2.DE",
+        "companyName": "USU SOFTWARE AG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "OSR.DE",
+        "companyName": "OSRAM LICHT AG NA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "OSRD.DE",
+        "companyName": "OSRAM LICHT AG NA Z.VERK.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PA8.DE",
+        "companyName": "PAION O.N",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PAE.DE",
+        "companyName": "PACCAR INC.  DL 1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PAG.DE",
+        "companyName": "PREOS REAL ESTATE NA O.N.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PAH3.DE",
+        "companyName": "PORSCHE AUTOM.HLDG VZO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PAL.DE",
+        "companyName": "PANTAFLIX AG  INH. O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PAT.DE",
+        "companyName": "PATRIZIA AG NA ON",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PAYX.DE",
+        "companyName": "PAYCHEX INC.  DL-,01",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PB9.DE",
+        "companyName": "VIVORYON AG O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PBB.DE",
+        "companyName": "DT.PFANDBRIEFBK AG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PBY.DE",
+        "companyName": "PUBLITY AG NA O.N.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PCE1.DE",
+        "companyName": "BOOKING HLDGS  DL-,008",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PCX.DE",
+        "companyName": "PAYCHEX INC.  DL-,01",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PCZ.DE",
+        "companyName": "PROCREDIT HLDG AG NA EO 5",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PDA.DE",
+        "companyName": "PRO DV AG O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PEP.DE",
+        "companyName": "PEPSICO INC.  DL-,0166",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PES.DE",
+        "companyName": "PEARSON PLC  LS-,25",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PEU.DE",
+        "companyName": "PEUGEOT SA  EO 1",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PFE.DE",
+        "companyName": "PFIZER INC.  DL-,05",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PFV.DE",
+        "companyName": "PFEIFFER VACUUM TECH.O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PGN.DE",
+        "companyName": "PARAGON KGAA  INH O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PHGY.DE",
+        "companyName": "KONINKL. PHILIPS ADR -,20",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PHI1.DE",
+        "companyName": "KONINKL. PHILIPS EO -,20",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PHIA.DE",
+        "companyName": "KONINKL. PHILIPS ADR -,20",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PHM7.DE",
+        "companyName": "ALTRIA GRP INC.  DL-,333",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PLUN.DE",
+        "companyName": "PLUG POWER INC. DL-,01",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PMAG.DE",
+        "companyName": "PIERER MOBILITY AG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PMTA.DE",
+        "companyName": "PTC INC.  DL -,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PNE3.DE",
+        "companyName": "PNE AG  NA O.N.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "POH1.DE",
+        "companyName": "CARNIVAL PLC  DL 1,66",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PPX.DE",
+        "companyName": "KERING S.A. INH.  EO 4",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PRG.DE",
+        "companyName": "PROCTER GAMBLE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PRU.DE",
+        "companyName": "PRUDENTIAL PLC  LS-,05",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PSAN.DE",
+        "companyName": "PSI SOFTWARE AG NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PSM.DE",
+        "companyName": "PROSIEBENSAT.1  NA O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PSON.DE",
+        "companyName": "PEARSON PLC  LS-,25",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PU11.DE",
+        "companyName": "THE SOCIAL CHAIN AG NA ON",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PUM.DE",
+        "companyName": "PUMA SE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "PWO.DE",
+        "companyName": "PROGRESS-WERK OBERK. O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "QB7.DE",
+        "companyName": "QUIRIN PRIVATBK  O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "QCI.DE",
+        "companyName": "QUALCOMM INC.  DL-,0001",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "QIA.DE",
+        "companyName": "QIAGEN NV  EO -,01",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "QSC.DE",
+        "companyName": "QSC AG NA O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "R66.DE",
+        "companyName": "PHILLIPS 66  DL-,01",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "R6C.DE",
+        "companyName": "ROYAL DUTCH SHELL A EO-07",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "R6C3.DE",
+        "companyName": "ROYAL DUTCH SHELL B EO-07",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RAA.DE",
+        "companyName": "RATIONAL AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RAW.DE",
+        "companyName": "RAIFFEISEN BK INTL INH.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RCMN.DE",
+        "companyName": "RCM BETEILIGUNGS NA. O.N.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RDO.DE",
+        "companyName": "SIRIUS XM HLDGS  DL-,001",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "REP.DE",
+        "companyName": "REPSOL S.A. INH.  EO 1",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RHK.DE",
+        "companyName": "RHOEN-KLINIKUM O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RHM.DE",
+        "companyName": "RHEINMETALL AG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RIB.DE",
+        "companyName": "RIB SOFTWARE SE  NA EO 1",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RIO1.DE",
+        "companyName": "RIO TINTO PLC  LS-,10",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RKET.DE",
+        "companyName": "ROCKET INTERNET SE INH ON",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RNL.DE",
+        "companyName": "RENAULT INH.  EO 3,81",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RNL1.DE",
+        "companyName": "RENAU.UNSP.ARD 1/5 EO3,81",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RNY.DE",
+        "companyName": "YAMANA GOLD INC.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ROK.DE",
+        "companyName": "ROCKWELL AU.  DL 1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ROST.DE",
+        "companyName": "ROSS STRS INC.  DL-,01",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RPL.DE",
+        "companyName": "UPM KYMMENE CORP.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RRTL.DE",
+        "companyName": "RTL GROUP",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RSL2.DE",
+        "companyName": "R. STAHL AG NA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RSO.DE",
+        "companyName": "ROSS STRS INC.  DL-,01",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RTN1.DE",
+        "companyName": "RAYTHEON CO.  DL-,01",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RTNB.DE",
+        "companyName": "RAYTHEON CO.  DL-,01",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RWE.DE",
+        "companyName": "RWE AG ST O.N.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RWEA.DE",
+        "companyName": "RWE AG  ADR 1",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RY4C.DE",
+        "companyName": "RYANAIR HLDGS PLC EO-,006",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RY8.DE",
+        "companyName": "ROY ASSET HLDG INH O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "RYS1.DE",
+        "companyName": "ROYAL BK SCOTLD GRP  LS 1",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "S6P.DE",
+        "companyName": "SPIELVGG UNTERHACH. NA ON",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "S92.DE",
+        "companyName": "SMA SOLAR TECHNOL.AG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SAE.DE",
+        "companyName": "SHOP APOTHEKE EUROPE INH.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SANT.DE",
+        "companyName": "S+T AG (Z.REG.MK.Z.)O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SAP.DE",
+        "companyName": "SAP SE O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SAV.DE",
+        "companyName": "SAVANNAH RES PLC  LS -,01",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SAX.DE",
+        "companyName": "STROEER SE + CO. KGAA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SBNC.DE",
+        "companyName": "SBERBANK ADR REGS/4 RL3",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SBS.DE",
+        "companyName": "STRATEC SE  NA O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SC2.DE",
+        "companyName": "NUANCE COMMUNIC.  DL-,001",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SCE.DE",
+        "companyName": "SCHWEIZER ELECTR. NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SD1.DE",
+        "companyName": "SENDR SE NA O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SDF.DE",
+        "companyName": "K+S AG NA O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SDF1.DE",
+        "companyName": "K+S AG SP.ADR 1/2/O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SF3.DE",
+        "companyName": "STS GROUP AG  O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SFD1.DE",
+        "companyName": "SOFTLINE AG  O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SFE.DE",
+        "companyName": "SYNCHRONY FIN.  DL-,001",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SFQ.DE",
+        "companyName": "SAF HOLLAND SE  EO -,01",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SGE.DE",
+        "companyName": "STE GENERALE INH. EO 1,25",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SGL.DE",
+        "companyName": "SGL CARBON SE O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SHA.DE",
+        "companyName": "SCHAEFFLER AG INH. VZO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SHF.DE",
+        "companyName": "SNP SCHNEID.-NEUREIT.O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SHL.DE",
+        "companyName": "SIEMENS HEALTH.AG NA O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SHWK.DE",
+        "companyName": "SHS VIVEON AG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SIE.DE",
+        "companyName": "SIEMENS AG  NA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SII.DE",
+        "companyName": "WHEATON PREC. METALS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SIRI.DE",
+        "companyName": "SIRIUS XM HLDGS  DL-,001",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SIS.DE",
+        "companyName": "FIRST SENSOR AG O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SIX2.DE",
+        "companyName": "SIXT SE ST O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SIX3.DE",
+        "companyName": "SIXT SE VZO O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SJM.DE",
+        "companyName": "SMUCKER -J.M.-",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SKB.DE",
+        "companyName": "KOENIG + BAUER AG ST O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SLL.DE",
+        "companyName": "SCHOELLER-BLECKMANN OILF.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SLT.DE",
+        "companyName": "SCHALTBAU HOLDING NA O.N",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SMHN.DE",
+        "companyName": "SUESS MICROTEC SE NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SMWN.DE",
+        "companyName": "SM WIRTSCHAFTSBER.NA.O.N.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SND.DE",
+        "companyName": "SCHNEIDER ELEC. INH. EO 4",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SNG.DE",
+        "companyName": "SINGULUS TECHNOL. EO 1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SNH.DE",
+        "companyName": "STEINHOFF INT.HLDG.EO-,50",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SNPS.DE",
+        "companyName": "SYNOPSYS INC.  DL-,01",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SNW.DE",
+        "companyName": "SANOFI SA INHABER  EO 2",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SOBA.DE",
+        "companyName": "AT + T INC.  DL 1",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SOT.DE",
+        "companyName": "THE SOUTHERN CO.  DL 5",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SOW.DE",
+        "companyName": "SOFTWARE AG  NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SPM.DE",
+        "companyName": "SPL.MEDIEN AG O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SPR.DE",
+        "companyName": "A.SPRINGER SE VNA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SQU.DE",
+        "companyName": "VINCI S.A. INH.  EO 2,50",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SRB.DE",
+        "companyName": "STARBUCKS CORP.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SRT.DE",
+        "companyName": "SARTORIUS AG O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SRT3.DE",
+        "companyName": "SARTORIUS AG VZO O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ST5.DE",
+        "companyName": "STEICO SE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "STM.DE",
+        "companyName": "STABILUS S.A. INH. EO-,01",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "STO3.DE",
+        "companyName": "STO SE+CO.KGAA VZO O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SUR.DE",
+        "companyName": "SURTECO GROUP SE INH O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SVE.DE",
+        "companyName": "SHAREHOLD.VAL.BET.NA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SW1.DE",
+        "companyName": "SHW AG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SWA.DE",
+        "companyName": "SCHLOSS WACHENHEIM AG O.N",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SWN.DE",
+        "companyName": "SOUTHW. AIRL. CO.  DL 1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SY1.DE",
+        "companyName": "SYMRISE AG INH. O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SYK.DE",
+        "companyName": "STRYKER CORP.  DL-,10",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SYP.DE",
+        "companyName": "SYNOPSYS INC.  DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SYT.DE",
+        "companyName": "SOFTING AG O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SYV.DE",
+        "companyName": "3 D SYS CORP.  DL-,001",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SYZ.DE",
+        "companyName": "SYZYGY AG O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SZ1.DE",
+        "companyName": "SUEZ  EO 4",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SZG.DE",
+        "companyName": "SALZGITTER AG O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "SZU.DE",
+        "companyName": "SUEDZUCKER AG  O.N.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "T1L.DE",
+        "companyName": "S IMMO AG",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "T6A.DE",
+        "companyName": "TRIPADVISOR INC. DL -,001",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "T9Z.DE",
+        "companyName": "ZUMTOBEL GROUP AG INH. A",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TA1.DE",
+        "companyName": "TELEKOM AUSTRIA AG",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TC1.DE",
+        "companyName": "TELE COLUMBUS AG NA O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TCO.DE",
+        "companyName": "TESCO PLC  LS-,05",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TEG.DE",
+        "companyName": "TAG IMMOBILIEN AG",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TGHN.DE",
+        "companyName": "LOGWIN AG NAM. O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TGR.DE",
+        "companyName": "YUM BRANDS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TGT.DE",
+        "companyName": "11 88 0 SOLUTIONS AG",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TIMA.DE",
+        "companyName": "ZEAL NETWORK SE NA O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TINC.DE",
+        "companyName": "BAUMOT GROUP AG  O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TKA.DE",
+        "companyName": "THYSSENKRUPP AG O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TL0.DE",
+        "companyName": "TESLA INC. DL -,001",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TLG.DE",
+        "companyName": "TLG IMMOBILIEN AG",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TLI.DE",
+        "companyName": "TELES AG INFORM.TECHN.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TLX.DE",
+        "companyName": "TALANX AG NA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TMV.DE",
+        "companyName": "TEAMVIEWER AG  INH O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TNE2.DE",
+        "companyName": "TELEFONICA S.A.EO 1 ADR 1",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TNE5.DE",
+        "companyName": "TELEFONICA INH.  EO 1",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TOTB.DE",
+        "companyName": "TOTAL S.A.  EO 2,50",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TPE.DE",
+        "companyName": "PVA TEPLA AG O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TQI.DE",
+        "companyName": "TELECOM ITALIA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TRD1.DE",
+        "companyName": "IM2-US T.BD0-1Y DLD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TRU.DE",
+        "companyName": "TRAUMHAUS AG  INH O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TTI.DE",
+        "companyName": "TOM TAILOR HLDG  NA O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TTK.DE",
+        "companyName": "TAKKT AG O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TTO.DE",
+        "companyName": "TTL BET.GRDBES.AG INH ON",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TUI1.DE",
+        "companyName": "TUI AG NA O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TWR.DE",
+        "companyName": "TWITTER INC.  DL-,000005",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "TXN.DE",
+        "companyName": "TEXAS INSTR.  DL 1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "U9R.DE",
+        "companyName": "UNDER ARMOUR A DL-,000333",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "U9RA.DE",
+        "companyName": "UNDER ARMOUR C DL-,000333",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "UB5.DE",
+        "companyName": "U.S. BANCORP  DL-,01",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "UBK.DE",
+        "companyName": "UMWELTBANK AG O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "UBKG.DE",
+        "companyName": "UMWELTBANK AG O.N.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "UDC.DE",
+        "companyName": "UNIDEVICE AG  INH O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ULC.DE",
+        "companyName": "UNITED LABELS O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "UMDK.DE",
+        "companyName": "UMT UTD MOB.TECHN. O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "UN01.DE",
+        "companyName": "UNIPER SE  NA O.N.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "UN9.DE",
+        "companyName": "UNIQA INSURANCE GROUP AG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "UNH.DE",
+        "companyName": "UNITEDHEALTH GROUP DL-,01",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "UNI2.DE",
+        "companyName": "UNILEVER NAM.  EO -,16",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "UNIN.DE",
+        "companyName": "UNILEVER EO-,16 N.Y.SHS 1",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "UNP.DE",
+        "companyName": "UNION PAC.  DL 2,50",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "UNVB.DE",
+        "companyName": "UNILEVER PLC  LS-,031111",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "UOF.DE",
+        "companyName": "URBAN OUTFITTERS DL-,0001",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "UPAB.DE",
+        "companyName": "UNITED PARCEL SE.B DL-01",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "US8A.DE",
+        "companyName": "MCEWEN MINING INC.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "USY1.DE",
+        "companyName": "UNISYS CORP. NEW  DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "UT8.DE",
+        "companyName": "UBER TECH.  DL-,00001",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "UTC1.DE",
+        "companyName": "UTD TECHN.  DL 1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "UTDI.DE",
+        "companyName": "UTD.INTERNET AG NA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "UUU.DE",
+        "companyName": "3U HOLDING AG",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "UW.DE",
+        "companyName": "WASTE MANAGEMENT (DEL.)",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "UWS.DE",
+        "companyName": "WASTE MANAGEMENT (DEL.)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "UZU.DE",
+        "companyName": "UZIN UTZ AG O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "V6C.DE",
+        "companyName": "VISCOM AG O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VAO.DE",
+        "companyName": "VAPIANO SE  INH. O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VAR1.DE",
+        "companyName": "VARTA AG O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VAS.DE",
+        "companyName": "VOESTALPINE AG",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VBK.DE",
+        "companyName": "VERBIO VER.BIOENERGIE  ON",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VBX.DE",
+        "companyName": "VOLTABOX AG  INH. O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VFP.DE",
+        "companyName": "V.F. CORP.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VGVF.DE",
+        "companyName": "VANG.FTSE DEV.W.U.ETF DLA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VIB3.DE",
+        "companyName": "VILLEROY + BOCH AG VZ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VIH1.DE",
+        "companyName": "VIB VERMOEGEN  NA O.N.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VNA.DE",
+        "companyName": "VONOVIA SE NA O.N.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VNX.DE",
+        "companyName": "NXP SEMICONDUCTORS EO-,20",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VODI.DE",
+        "companyName": "VODAFONE GROUP PLC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VODJ.DE",
+        "companyName": "VODAFONE GRP ADR NEW/10",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VOS.DE",
+        "companyName": "VOSSLOH AG O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VOW.DE",
+        "companyName": "VOLKSWAGEN AG ST O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VOW3.DE",
+        "companyName": "VOLKSWAGEN AG VZO O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VQT.DE",
+        "companyName": "VA-Q-TEC AG NA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VRL.DE",
+        "companyName": "BLACK PEARL DIG. INH O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VROS.DE",
+        "companyName": "VERIANOS REAL ESTATE AG",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VRS.DE",
+        "companyName": "VERISIGN INC.  DL-,001",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VRSN.DE",
+        "companyName": "VERISIGN INC.  DL-,001",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VRTX.DE",
+        "companyName": "VERTEX PHARMAC.  DL-,01",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VSC.DE",
+        "companyName": "4SC AG",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VUAA.DE",
+        "companyName": "V.S+P500 U.ETF DLA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VVD.DE",
+        "companyName": "VEOLIA ENVIRONNE. EO 5",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VVU.DE",
+        "companyName": "VIVENDI S.A. INH.  EO 5,5",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VVV3.DE",
+        "companyName": "OEKOWORLD AG VZNA O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VWS.DE",
+        "companyName": "VESTAS WIND SYST. NAM.DK1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "VX1.DE",
+        "companyName": "VERTEX PHARMAC.  DL-,01",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "W3U.DE",
+        "companyName": "WESTERN UNION CO.  DL-,01",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "W8A.DE",
+        "companyName": "WALGREENS BOOTS AL.DL-,01",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WAC.DE",
+        "companyName": "WACKER NEUSON SE NA O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WAF.DE",
+        "companyName": "SILTRONIC AG NA O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WAH.DE",
+        "companyName": "WOLFTANK-ADISA HLDG O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WB2.DE",
+        "companyName": "WABTEC CORP.  DL-,01",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WBAH.DE",
+        "companyName": "WILD BUNCH AG O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WCH.DE",
+        "companyName": "WACKER CHEMIE  O.N.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WDC.DE",
+        "companyName": "WESTN DIGITAL  DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WDI.DE",
+        "companyName": "WIRECARD AG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WDL.DE",
+        "companyName": "WINDELN.DE SE  INH O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WDP.DE",
+        "companyName": "DISNEY (WALT) CO.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WEG1.DE",
+        "companyName": "WESTGRUND AG",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WEW.DE",
+        "companyName": "WESTWING GROUP  INH. O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WFS.DE",
+        "companyName": "WARIMPEX FIN.U.BETEIL. AG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WGF1.DE",
+        "companyName": "WILLIAMS G.P.HLD.LS-05 DZ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WHC.DE",
+        "companyName": "WEYERHAEUSER CO.  DL 1,25",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WHR.DE",
+        "companyName": "WHIRLPOOL CORP.  DL 1",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WHT1.DE",
+        "companyName": "WHITING PETROLEUM DL-,001",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WIB.DE",
+        "companyName": "WIENERBERGER",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WL6.DE",
+        "companyName": "HEIDELBERG PHARMA AG O.N.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WMB.DE",
+        "companyName": "WILLIAMS COS INC.  DL 1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WMT.DE",
+        "companyName": "WALMART DL-,10",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WSO1.DE",
+        "companyName": "WALLSTREET:ONLINE INH ON",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WSU.DE",
+        "companyName": "WASHTEC AG O.N.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WUW.DE",
+        "companyName": "WUESTENROT+WUERTT.AG O.N.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "WYR.DE",
+        "companyName": "WYNN RESORTS LTD  DL-,01",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "XCA.DE",
+        "companyName": "CREDIT AGRICOLE INH. EO 3",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "XER2.DE",
+        "companyName": "XEROX HLDGS CORP.  DL 1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "XIX.DE",
+        "companyName": "XILINX INC.  DL-,01",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "XONA.DE",
+        "companyName": "EXXON MOBIL CORP.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "XY6.DE",
+        "companyName": "XYLEM INC.  DL-,01",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "YCP.DE",
+        "companyName": "CONOCOPHILLIPS  DL-,01",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "YEL1.DE",
+        "companyName": "YRC WORLDWIDE  DL ,-01",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "YOC.DE",
+        "companyName": "YOC AG O.N.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "YSN.DE",
+        "companyName": "SECUNET SECURITY AG O.N.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ZAL.DE",
+        "companyName": "ZALANDO SE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ZEG.DE",
+        "companyName": "ASTRAZENECA PLC  DL-,25",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ZIL2.DE",
+        "companyName": "ELRINGKLINGER AG NA O.N.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ZIM.DE",
+        "companyName": "ZIMMER BIOMET HLDGS DL-01",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ZO1.DE",
+        "companyName": "ZOOPLUS AG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ZOE.DE",
+        "companyName": "ZOETIS INC. CL.A  DL -,01",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "GER",
+        "symbol": "ZSOL.DE",
+        "companyName": "SOLUTIANCE AG",
+        "industryOrCategory": "Industrials"
+    }
+]

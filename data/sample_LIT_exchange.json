@@ -1,0 +1,110 @@
+[
+    {
+        "exchangeCode": "LIT",
+        "symbol": "AMG1L.VS",
+        "companyName": "Amber Grid",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "LIT",
+        "symbol": "APG1L.VS",
+        "companyName": "Apranga",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "LIT",
+        "symbol": "AUG1L.VS",
+        "companyName": "AUGA group",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "LIT",
+        "symbol": "GRG1L.VS",
+        "companyName": "Grigeo",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "LIT",
+        "symbol": "INL1L.VS",
+        "companyName": "INVL Baltic Farmland",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "LIT",
+        "symbol": "INR1L.VS",
+        "companyName": "INVL Baltic Real Estate",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "LIT",
+        "symbol": "KNF1L.VS",
+        "companyName": "Klaipedos Nafta",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "LIT",
+        "symbol": "KNR1L.VS",
+        "companyName": "Kauno Energija",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "LIT",
+        "symbol": "LNA1L.VS",
+        "companyName": "Linas Agro Group",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "LIT",
+        "symbol": "LNR1L.VS",
+        "companyName": "Ignitis gamyba",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "LIT",
+        "symbol": "NTU1L.VS",
+        "companyName": "Novaturas",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "LIT",
+        "symbol": "PTR1L.VS",
+        "companyName": "Panevezio Statybos Trestas",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "LIT",
+        "symbol": "RSU1L.VS",
+        "companyName": "Rokiskio Suris",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "LIT",
+        "symbol": "SAB1L.VS",
+        "companyName": "Siauliu Bankas",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "LIT",
+        "symbol": "TEL1L.VS",
+        "companyName": "Telia Lietuva",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "LIT",
+        "symbol": "VBL1L.VS",
+        "companyName": "Vilniaus Baldai",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "LIT",
+        "symbol": "VLP1L.VS",
+        "companyName": "Vilkyskiu Pienine",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "LIT",
+        "symbol": "ZMP1L.VS",
+        "companyName": "Zemaitijos Pienas",
+        "industryOrCategory": "Consumer Defensive"
+    }
+]

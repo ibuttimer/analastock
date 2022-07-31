@@ -1,0 +1,1376 @@
+[
+    {
+        "exchangeCode": "BUE",
+        "symbol": "A2E2.BA",
+        "companyName": "ARGENTINA(REP OF) 5.625% GTD SN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "A2E3.BA",
+        "companyName": "ARGENTINA(REP OF) 4.625% SNR 11",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "A2E7.BA",
+        "companyName": "ARGENTINA(REP OF) 6.875% SNR 26",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "AA22.BA",
+        "companyName": "ARGENTINA(REP OF) FRN 04/2022 A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "AA25.BA",
+        "companyName": "ARGENTINA(REP OF) 5.75% BDS 18/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "AA37.BA",
+        "companyName": "ARGENTINA(REP OF) 7.625% BDS 18",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "AAPL.BA",
+        "companyName": "APPLE INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "ABEV.BA",
+        "companyName": "AMBEV SA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "ABT.BA",
+        "companyName": "ABBOTT LABS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "AC17.BA",
+        "companyName": "ARGENTINA(REP OF) 7.125% SNR 28",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "ADBE.BA",
+        "companyName": "ADOBE INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "AF20.BA",
+        "companyName": "ARGENTINA(REP OF) 4.5% BDS 13/0",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "AGRO.BA",
+        "companyName": "AGROMETAL SA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "ALU.BA",
+        "companyName": "ALUAR ALUMINIO ARG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "ALUA.BA",
+        "companyName": "ALUAR ALUMINIO ARG",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "AMD.BA",
+        "companyName": "ADVANCED MICRO DEV",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "AMZN.BA",
+        "companyName": "AMAZON COM INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "AMZND.BA",
+        "companyName": "AMAZON COM INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "AO20.BA",
+        "companyName": "ARGENTINA(REP OF) 8% BDS 08/10/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "ARCO.BA",
+        "companyName": "ARCOS DORADOS HOLD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "AUT.BA",
+        "companyName": "GPO CONCESIONARIO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "AUY.BA",
+        "companyName": "YAMANA GOLD INC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "AXP.BA",
+        "companyName": "AMER EXPRESS CO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "AY24.BA",
+        "companyName": "ARGENTINA(REP OF) 8.75% BDS 07/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "AYPFD.BA",
+        "companyName": "YPF SA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BABA.BA",
+        "companyName": "ALIBABA GROUP HLDG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BA-C.BA",
+        "companyName": "BK OF AMERICA CORP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BBAR.BA",
+        "companyName": "BANCO BBVA ARGENTI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BBD.BA",
+        "companyName": "BCO BRADESCO SA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BBDD.BA",
+        "companyName": "BCO BRADESCO SA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BBV.BA",
+        "companyName": "BBVA(BILB-VIZ-ARG)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BCS.BA",
+        "companyName": "BARCLAYS PLC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BDC22.BA",
+        "companyName": "BUENOS AIRES CITY FRN 01/2022 A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BDC24.BA",
+        "companyName": "BUENOS AIRES CITY FRN SNR 03/20",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BDC28.BA",
+        "companyName": "BUENOS AIRES CITY FRN 02/2028 A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BHI.BA",
+        "companyName": "BCO HIPOTECAR SA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BHIP.BA",
+        "companyName": "BCO HIPOTECAR SA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BIDU.BA",
+        "companyName": "BAIDU INC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BMA.BA",
+        "companyName": "BANCO MACRO S.A.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BOLT.BA",
+        "companyName": "BOLDT SA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BPA.BA",
+        "companyName": "BP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BPAT.BA",
+        "companyName": "BANCO PATAGONIA SA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BPLD.BA",
+        "companyName": "BUENOS AIRES(PROV) 4%-VAR SNR 1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BRIO.BA",
+        "companyName": "BANC SANTANDER RIO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BRIO6.BA",
+        "companyName": "BANC SANTANDER RIO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BYMA.BA",
+        "companyName": "BOLSAS Y MERC.ARG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "BYMAC.BA",
+        "companyName": "BOLSAS Y MERC.ARG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "CAMB.BA",
+        "companyName": "CAMUZZI GAS PAMPEA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "CAPX.BA",
+        "companyName": "CAPEX SA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "CARC.BA",
+        "companyName": "CARBOCLOR S.A.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "CEC.BA",
+        "companyName": "ENEL GENERACION",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "CECO2.BA",
+        "companyName": "ENEL GENERACION",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "CELU.BA",
+        "companyName": "CELULOSA ARGENTINA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "CEPU.BA",
+        "companyName": "CENTRAL PUERTO SA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "CEPUD.BA",
+        "companyName": "CENTRAL PUERTO SA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "CO26.BA",
+        "companyName": "CORDOBA(PROVINCE O 7.125% GTD S",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "COM.BA",
+        "companyName": "SOC COM DEL PLATA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "COME.BA",
+        "companyName": "SOC COM DEL PLATA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "CRES.BA",
+        "companyName": "CRESUD SACIFYA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "CRM.BA",
+        "companyName": "SALESFORCE.COM INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "CS.BA",
+        "companyName": "CREDIT SUISSE GP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "CSCO.BA",
+        "companyName": "CISCO SYSTEMS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "CSDOO.BA",
+        "companyName": "CRESUD SACIFYA 6.5% SNR 16/02/2",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "CSEPO.BA",
+        "companyName": "CRESUD SACIFYA 9% NTS 14/11/202",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "CTIO.BA",
+        "companyName": "CONSULTATIO SA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "CUAP.BA",
+        "companyName": "ARGENTINA(REP OF) 3.31% PIK 31/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "CVH.BA",
+        "companyName": "CABLEVISION HLDG S",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "CX.BA",
+        "companyName": "CEMEX SAB DE CV",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "DESP.BA",
+        "companyName": "DESPEGAR COM CORP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "DGCU2.BA",
+        "companyName": "DISTRIB GAS CUYANA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "DIA0.BA",
+        "companyName": "ARGENTINA(REP OF) 8.28% PIK 31/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "DICA.BA",
+        "companyName": "ARGENTINA(REP OF) 8.28% PIK 31/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "DICY.BA",
+        "companyName": "ARGENTINA(REP OF) 8.28% SNR 31/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "DISN.BA",
+        "companyName": "WALT DISNEY CO.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "DIY0.BA",
+        "companyName": "ARGENTINA(REP OF) 8.28% SNR 31/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "DOM.BA",
+        "companyName": "DOMEC SA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "DOME.BA",
+        "companyName": "DOMEC SA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "DYC.BA",
+        "companyName": "DYCASA SA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "EBAY.BA",
+        "companyName": "EBAY INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "ECO.BA",
+        "companyName": "DISTRIB GAS CUYANA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "EDN.BA",
+        "companyName": "EMP DIS NOR EDENOR",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "ESM.BA",
+        "companyName": "BODEGAS ESMERALDA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "ESME.BA",
+        "companyName": "BODEGAS ESMERALDA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "FCX.BA",
+        "companyName": "FREEPORT-MCMORAN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "FERR.BA",
+        "companyName": "FERRUM SA CERAMICA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "GAMI.BA",
+        "companyName": "B-GAMING S.A.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "GAR.BA",
+        "companyName": "GAROVAGLIO ZORRAQ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "GARO.BA",
+        "companyName": "GAROVAGLIO ZORRAQ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "GBA.BA",
+        "companyName": "NATURGY BAN SA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "GBAN.BA",
+        "companyName": "NATURGY BAN SA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "GCLA.BA",
+        "companyName": "GRUPO CLARIN SA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "GE.BA",
+        "companyName": "GEN ELEC CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "GFG.BA",
+        "companyName": "GPO FIN GALICIA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "GGAL.BA",
+        "companyName": "GPO FIN GALICIA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "GGALD.BA",
+        "companyName": "GPO FIN GALICIA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "GGB.BA",
+        "companyName": "GERDAU SA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "GILD.BA",
+        "companyName": "GILEAD SCIENCES",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "GLNT.BA",
+        "companyName": "GLOBANT SA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "GLX.BA",
+        "companyName": "GLAXOSMITHKLINE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "GOLD.BA",
+        "companyName": "BARRICK GOLD CORP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "GOOGL.BA",
+        "companyName": "ALPHABET INC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "GRIM.BA",
+        "companyName": "GRIMOLDI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "GRM.BA",
+        "companyName": "GRIMOLDI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "GSK.BA",
+        "companyName": "GLAXOSMITHKLINE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "HARG.BA",
+        "companyName": "HOLCIM (ARGENTINA)",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "HAVA.BA",
+        "companyName": "HAVANNA HOLDING SA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "HMY.BA",
+        "companyName": "HARMONY GOLD MNG",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "HPQ.BA",
+        "companyName": "HP INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "HWP.BA",
+        "companyName": "HP INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "IBM.BA",
+        "companyName": "INTL BUSINESS MCHN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "INVJ.BA",
+        "companyName": "INVRS JURAMENTO SA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "IRC1O.BA",
+        "companyName": "IRSA INVERSIONES Y 10% NTS 15/1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "IRS.BA",
+        "companyName": "IRSA INVERSIONES Y",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "IRSA.BA",
+        "companyName": "IRSA INVERSIONES Y",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "ITUB.BA",
+        "companyName": "ITAU UNIBANCO HOLD",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "JD.BA",
+        "companyName": "JD.COM INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "JNJ.BA",
+        "companyName": "JOHNSON & JOHNSON",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "JNJC.BA",
+        "companyName": "JOHNSON & JOHNSON",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "JPM.BA",
+        "companyName": "JPMORGAN CHASE &CO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "LED.BA",
+        "companyName": "LEDESMA AGRICOLA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "LMT.BA",
+        "companyName": "LOCKHEED MARTIN CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "LOMA.BA",
+        "companyName": "LOMA NEGRA CIA IND",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "LON.BA",
+        "companyName": "LONGVIE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "LONG.BA",
+        "companyName": "LONGVIE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "LYG.BA",
+        "companyName": "LLOYDS BANKING GP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "MCD.BA",
+        "companyName": "MCDONALD'S CORP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "MELI.BA",
+        "companyName": "MERCADOLIBRE INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "MELID.BA",
+        "companyName": "MERCADOLIBRE INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "MET.BA",
+        "companyName": "METROGAS SA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "METR.BA",
+        "companyName": "METROGAS SA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "MIRG.BA",
+        "companyName": "MIRGOR SA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "MMM.BA",
+        "companyName": "3M COMPANY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "MO.BA",
+        "companyName": "ALTRIA GROUP INC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "MOL.BA",
+        "companyName": "MOLINOS RIO PLATA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "MOLA.BA",
+        "companyName": "MOLINOS AGRO SA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "MOLI.BA",
+        "companyName": "MOLINOS RIO PLATA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "MOR.BA",
+        "companyName": "MORIXE HERMANOS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "MORI.BA",
+        "companyName": "MORIXE HERMANOS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "MRK.BA",
+        "companyName": "MERCK & CO INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "MSFT.BA",
+        "companyName": "MICROSOFT CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "NFLX.BA",
+        "companyName": "NETFLIX INC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "NKE.BA",
+        "companyName": "NIKE INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "NOKA.BA",
+        "companyName": "NOKIA OYJ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "NVDA.BA",
+        "companyName": "NVIDIA CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "OEST.BA",
+        "companyName": "GPO CONCESIONARIO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "OGZD.BA",
+        "companyName": "GAZPROM PJSC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "PAA0.BA",
+        "companyName": "ARGENTINA(REP OF) 3.75%-VAR BDS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "PAM.BA",
+        "companyName": "PAMPA ENERGIA S.A.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "PAMP.BA",
+        "companyName": "PAMPA ENERGIA S.A.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "PAMPC.BA",
+        "companyName": "PAMPA ENERGIA S.A.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "PARA.BA",
+        "companyName": "ARGENTINA(REP OF) 3.75%-VAR SNR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "PARP.BA",
+        "companyName": "ARGENTINA(REP OF) 1.77%-VAR SNR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "PARY.BA",
+        "companyName": "ARGENTINA(REP OF) 3.75%-VAR SNR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "PAT.BA",
+        "companyName": "IMP Y EX PATAGONIA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "PATA.BA",
+        "companyName": "IMP Y EX PATAGONIA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "PAY0.BA",
+        "companyName": "ARGENTINA(REP OF) 3.75%-VAR SNR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "PBA25.BA",
+        "companyName": "BUENOS AIRES(PROV) FRN 04/2025 ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "PBR.BA",
+        "companyName": "PETROL BRASILEIROS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "PBY22.BA",
+        "companyName": "BUENOS AIRES(PROV) FRN GTD SNR ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "PFE.BA",
+        "companyName": "PFIZER INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "PG.BA",
+        "companyName": "PROCTER & GAMBLE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "PMJ21.BA",
+        "companyName": "MENDOZA(PROV OF) FRN 06/2021 AR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "PR13.BA",
+        "companyName": "ARGENTINA(REP OF) 2% BDS 15/03/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "PR15.BA",
+        "companyName": "ARGENTINA(REP OF) FRN 10/2022 A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "PUM21.BA",
+        "companyName": "PROV DEL CHUBUT 4.5% GTD 30/03/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "PYPL.BA",
+        "companyName": "PAYPAL HOLDINGS IN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "QCOM.BA",
+        "companyName": "QUALCOMM INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "RDS.BA",
+        "companyName": "ROYAL DUTCH SHELL",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "RICH.BA",
+        "companyName": "LAB RICHMOND",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "RIGO.BA",
+        "companyName": "RIGOLLEAU SA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "RPC4O.BA",
+        "companyName": "IRSA PROPIEDADES C 5% MTN 14/09",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "S11O9.BA",
+        "companyName": "ARGENTINA(REP OF) 60.1032% NTS ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "S15N9.BA",
+        "companyName": "ARGENTINA(REP OF) 64.8% NTS 13/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "S18S0.BA",
+        "companyName": "ARGENTINA(REP OF) FRN 09/2020 A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "S29Y0.BA",
+        "companyName": "ARGENTINA(REP OF) 55.5454% NTS ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "S30A0.BA",
+        "companyName": "ARGENTINA(REP OF) 42.57% NTS 29",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "S30S9.BA",
+        "companyName": "ARGENTINA(REP OF) 50.2332% NTS ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "S31L0.BA",
+        "companyName": "ARGENTINA(REP OF) 36.87% NTS 29",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "S31O9.BA",
+        "companyName": "ARGENTINA(REP OF) 48.5% NTS 31/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "SAMI.BA",
+        "companyName": "SAN MIGUEL SA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "SBUX.BA",
+        "companyName": "STARBUCKS CORP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "SEI.BA",
+        "companyName": "MOLINOS JUAN SEMIN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "SLB.BA",
+        "companyName": "SCHLUMBERGER",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "SNAP.BA",
+        "companyName": "SNAP INC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "SNE.BA",
+        "companyName": "SONY CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "SUPV.BA",
+        "companyName": "GRUPO SUPERVIELLE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "T.BA",
+        "companyName": "AT&T INC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "TC20.BA",
+        "companyName": "ARGENTINA(REP OF) 2.25% BDS 28/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "TC21.BA",
+        "companyName": "ARGENTINA(REP OF) 2.5% SNR 22/0",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "TC23.BA",
+        "companyName": "ARGENTINA(REP OF) 4% BDS 06/03/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "TC25P.BA",
+        "companyName": "ARGENTINA(REP OF) 4% BDS 27/04/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "TECO2.BA",
+        "companyName": "TELEC ARGENTINA SA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "TEN.BA",
+        "companyName": "TENARIS S.A.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "TGNO4.BA",
+        "companyName": "TRANSPORT GAS NORT",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "TGSU2.BA",
+        "companyName": "TRANSPORT GAS SUR",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "TJ20.BA",
+        "companyName": "ARGENTINA(REP OF) FRN 06/2020 A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "TO21.BA",
+        "companyName": "ARGENTINA(REP OF) 18.2% SNR 03/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "TO23.BA",
+        "companyName": "ARGENTINA(REP OF) 16% SNR 17/10",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "TO26.BA",
+        "companyName": "ARGENTINA(REP OF) 15.5% SNR 17/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "TOT.BA",
+        "companyName": "TOTAL",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "TRAN.BA",
+        "companyName": "CIA DE TRANSP ENER",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "TSLA.BA",
+        "companyName": "TESLA INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "TVPA.BA",
+        "companyName": "ARGENTINA(REP OF) FRN SNR 12/20",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "TVPP.BA",
+        "companyName": "ARGENTINA(REP OF) FRN SNR 12/20",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "TVPY.BA",
+        "companyName": "ARGENTINA(REP OF) FRN SNR 12/20",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "TWTR.BA",
+        "companyName": "TWITTER INC",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "TXAR.BA",
+        "companyName": "TERNIUM ARGENTINA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "TXARD.BA",
+        "companyName": "TERNIUM ARGENTINA SOCIEDAD ANON",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "U11O9.BA",
+        "companyName": "ARGENTINA(REP OF) 0% T-BILL 11/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "U13S9.BA",
+        "companyName": "ARGENTINA(REP OF) 0% T-BILL 31/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "U15N9.BA",
+        "companyName": "ARGENTINA(REP OF) 0% T-BILL 31/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "U20D9.BA",
+        "companyName": "ARGENTINA(REP OF) 0% T-BILL 31/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "U25O9.BA",
+        "companyName": "ARGENTINA(REP OF) 0% T-BILL 31/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "U27S9.BA",
+        "companyName": "ARGENTINA(REP OF) 0% T-BILL 31/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "U29N9.BA",
+        "companyName": "ARGENTINA(REP OF) 0% T-BILL 31/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "U30G9.BA",
+        "companyName": "ARGENTINA(REP OF) 0% T-BILL 31/",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "V.BA",
+        "companyName": "VISA INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "VALE.BA",
+        "companyName": "VALE S.A.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "VALO.BA",
+        "companyName": "GPO FINANC VALORES",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "VIST.BA",
+        "companyName": "VISTA OIL & GAS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "VSC1O.BA",
+        "companyName": "VISTA OIL GAS 7.88% BDS 31/07/2",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "WFC.BA",
+        "companyName": "WELLS FARGO & CO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "WMT.BA",
+        "companyName": "WALMART INC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "X.BA",
+        "companyName": "UNITED STATES STEE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "XOM.BA",
+        "companyName": "EXXON MOBIL CORP",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "XON.BA",
+        "companyName": "EXXON MOBIL CORP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "YPCUO.BA",
+        "companyName": "YPF SA 8.75% SNR 04/04/24 USD10",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "YPFD.BA",
+        "companyName": "YPF SA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "BUE",
+        "symbol": "YPFDD.BA",
+        "companyName": "YPF SA",
+        "industryOrCategory": "N/A"
+    }
+]

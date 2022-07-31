@@ -1,0 +1,4484 @@
+[
+    {
+        "exchangeCode": "KOE",
+        "symbol": "000440.KQ",
+        "companyName": "JA Enervis",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "001540.KQ",
+        "companyName": "AHN-GOOK PHA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "001810.KQ",
+        "companyName": "M.S",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "001840.KQ",
+        "companyName": "Eehwa",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "003100.KQ",
+        "companyName": "SUN KWANG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "003310.KQ",
+        "companyName": "Daejoo",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "003380.KQ",
+        "companyName": "Harim Holdings",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "003800.KQ",
+        "companyName": "AceBed",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "004590.KQ",
+        "companyName": "KoreaFurni",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "004650.KQ",
+        "companyName": "Changhae Ethanol",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "005160.KQ",
+        "companyName": "DONGKUK",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "005990.KQ",
+        "companyName": "MAEIL HOLDINGS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "006050.KQ",
+        "companyName": "KUKYOUNGG&M",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "006140.KQ",
+        "companyName": "PJ Electro",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "006580.KQ",
+        "companyName": "DaeyangPaper",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "006620.KQ",
+        "companyName": "DongKoo Bio & Pharma",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "006730.KQ",
+        "companyName": "Seobu T&D",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "006910.KQ",
+        "companyName": "BOSUNG POWER",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "006920.KQ",
+        "companyName": "Mohenz",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "007370.KQ",
+        "companyName": "JINYANGPHARM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "007390.KQ",
+        "companyName": "NATURECELL",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "007530.KQ",
+        "companyName": "Youngsin",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "007680.KQ",
+        "companyName": "DAEWON",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "007720.KQ",
+        "companyName": "DAEMYUNG CORPORATION",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "007770.KQ",
+        "companyName": "HANILCHEMIC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "008290.KQ",
+        "companyName": "WPMulsan",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "008370.KQ",
+        "companyName": "Wonpoong",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "009780.KQ",
+        "companyName": "MSC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "010170.KQ",
+        "companyName": "TaihanFiberoptics",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "011040.KQ",
+        "companyName": "KDPharm",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "012620.KQ",
+        "companyName": "Wonil",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "013030.KQ",
+        "companyName": "HY-LOKCO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "013120.KQ",
+        "companyName": "Dongwon",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "013310.KQ",
+        "companyName": "A-JIN INDUSTRY",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "013990.KQ",
+        "companyName": "AGABANG&CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "014100.KQ",
+        "companyName": "MED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "014190.KQ",
+        "companyName": "WONIK CUBE Corp.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "014200.KQ",
+        "companyName": "KANGLIM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "014470.KQ",
+        "companyName": "Bubang",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "014570.KQ",
+        "companyName": "KOREAN DRUG",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "015710.KQ",
+        "companyName": "KOCOM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "015750.KQ",
+        "companyName": "SW HITECH",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "016100.KQ",
+        "companyName": "LEADERS COSMETICS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "016250.KQ",
+        "companyName": "eTEC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "016600.KQ",
+        "companyName": "QCP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "017480.KQ",
+        "companyName": "SAMSCO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "017650.KQ",
+        "companyName": "DaelimPaper",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "017890.KQ",
+        "companyName": "KAI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "018120.KQ",
+        "companyName": "JrDistiller",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "018290.KQ",
+        "companyName": "VT GMP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "018310.KQ",
+        "companyName": "SAMMOK S-FORM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "018620.KQ",
+        "companyName": "WOOGENE B&G",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "019010.KQ",
+        "companyName": "VenueG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "019210.KQ",
+        "companyName": "YG-1",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "019550.KQ",
+        "companyName": "SBI Investment KOREA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "019570.KQ",
+        "companyName": "Leaders Technology Investment",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "019660.KQ",
+        "companyName": "GLOBON",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "019990.KQ",
+        "companyName": "ENERTORK",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "020400.KQ",
+        "companyName": "DaedongMetal",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "021040.KQ",
+        "companyName": "DAEHO P&C",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "021045.KQ",
+        "companyName": "DAEHO P&C(1P)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "021080.KQ",
+        "companyName": "Atinum Investment",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "021320.KQ",
+        "companyName": "KCC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "021880.KQ",
+        "companyName": "MASON CAPITAL",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "022100.KQ",
+        "companyName": "POSCO ICT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "022220.KQ",
+        "companyName": "JEONGSAN AIKANG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "023790.KQ",
+        "companyName": "DongilSteel",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "023890.KQ",
+        "companyName": "HANKOOK ATLASBX",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "023910.KQ",
+        "companyName": "DaihanPharm",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "024060.KQ",
+        "companyName": "Heungu",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "024120.KQ",
+        "companyName": "KBA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "024800.KQ",
+        "companyName": "YOOSUNG T&S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "024810.KQ",
+        "companyName": "E.T.I",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "024840.KQ",
+        "companyName": "KBI METAL",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "024880.KQ",
+        "companyName": "KPF",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "024910.KQ",
+        "companyName": "Kyungchang",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "025320.KQ",
+        "companyName": "Synopex",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "025440.KQ",
+        "companyName": "DAESUNGELTEC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "025770.KQ",
+        "companyName": "KICC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "025880.KQ",
+        "companyName": "KC FEED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "025980.KQ",
+        "companyName": "Ananti",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "026040.KQ",
+        "companyName": "J.ESTINA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "026910.KQ",
+        "companyName": "KwangjinInd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "028080.KQ",
+        "companyName": "HUMAX Holdings",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "028150.KQ",
+        "companyName": "GSHS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "029480.KQ",
+        "companyName": "BARUN Technology",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "029960.KQ",
+        "companyName": "KOENTEC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "030190.KQ",
+        "companyName": "NICE INFO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "030350.KQ",
+        "companyName": "Dragonfly",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "030530.KQ",
+        "companyName": "WONIK HOLDINGS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "030960.KQ",
+        "companyName": "Yangjisa",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "031310.KQ",
+        "companyName": "EYESVISION",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "031390.KQ",
+        "companyName": "GREEN CROSS CELL",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "031510.KQ",
+        "companyName": "AUSTEM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "031980.KQ",
+        "companyName": "PSK HOLDINGS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "032080.KQ",
+        "companyName": "AZTECHWB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "032190.KQ",
+        "companyName": "DAOU DATA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "032500.KQ",
+        "companyName": "KMW",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "032540.KQ",
+        "companyName": "TJ MEDIA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "032685.KQ",
+        "companyName": "SOFTCEN(1P)",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "032820.KQ",
+        "companyName": "WooriTG, Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "032850.KQ",
+        "companyName": "BITComputer",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "032940.KQ",
+        "companyName": "WonIk",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "032960.KQ",
+        "companyName": "DongilTech",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "033050.KQ",
+        "companyName": "JMI",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "033170.KQ",
+        "companyName": "Signetics",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "033200.KQ",
+        "companyName": "MOATECH",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "033310.KQ",
+        "companyName": "DK D&I",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "033320.KQ",
+        "companyName": "JCH Systems",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "033340.KQ",
+        "companyName": "GOODPEOPLE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "0333401A.KQ",
+        "companyName": "GOODPEOPLE 8R",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "033430.KQ",
+        "companyName": "DST",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "033500.KQ",
+        "companyName": "DONGSUNG FINETEC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "033540.KQ",
+        "companyName": "Paratech",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "033560.KQ",
+        "companyName": "BLUECOM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "033830.KQ",
+        "companyName": "TBC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "034950.KQ",
+        "companyName": "KR",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "035080.KQ",
+        "companyName": "Interpark Holdings",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "035200.KQ",
+        "companyName": "PLUMB FAST",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "035460.KQ",
+        "companyName": "KisanTelecom",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "035600.KQ",
+        "companyName": "KGINICIS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "035610.KQ",
+        "companyName": "SOLBORN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "035760.KQ",
+        "companyName": "CJ ENM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "035810.KQ",
+        "companyName": "EASY BIO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "035900.KQ",
+        "companyName": "JYP Ent.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "036000.KQ",
+        "companyName": "YeaRimDang",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "036010.KQ",
+        "companyName": "ABEL",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "036030.KQ",
+        "companyName": "KTH",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "036090.KQ",
+        "companyName": "WIZIT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "036180.KQ",
+        "companyName": "AF",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "036480.KQ",
+        "companyName": "DSMBIO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "036490.KQ",
+        "companyName": "SK Materials",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "036560.KQ",
+        "companyName": "YPPC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "036620.KQ",
+        "companyName": "VirtualTek",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "036640.KQ",
+        "companyName": "HRS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "036670.KQ",
+        "companyName": "KCI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "036710.KQ",
+        "companyName": "SIMMTECH HOLDINGS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "036800.KQ",
+        "companyName": "NICEI&T",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "036930.KQ",
+        "companyName": "JEL",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "037030.KQ",
+        "companyName": "POWERNET",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "037230.KQ",
+        "companyName": "HKPAK",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "037350.KQ",
+        "companyName": "SUNGDO ENG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "037370.KQ",
+        "companyName": "EG",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "037400.KQ",
+        "companyName": "WOOREE LIGHTING",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "037440.KQ",
+        "companyName": "HEERIM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "037460.KQ",
+        "companyName": "SAMJI ELECT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "038290.KQ",
+        "companyName": "Macrogen",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "038390.KQ",
+        "companyName": "RedcapTour",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "038460.KQ",
+        "companyName": "BioSmart",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "038530.KQ",
+        "companyName": "Gold Pacific",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "038540.KQ",
+        "companyName": "Sangsangin",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "038620.KQ",
+        "companyName": "WIZ",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "038680.KQ",
+        "companyName": "SNET",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "039010.KQ",
+        "companyName": "HYUNDAI TEL",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "039020.KQ",
+        "companyName": "EAGON HOLDINGS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "039030.KQ",
+        "companyName": "EO Technics",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "039240.KQ",
+        "companyName": "K-Steel",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "039420.KQ",
+        "companyName": "KL-Net",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "039440.KQ",
+        "companyName": "STI",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "039610.KQ",
+        "companyName": "HS VALVE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "039740.KQ",
+        "companyName": "KIES",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "039840.KQ",
+        "companyName": "DIO",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "039860.KQ",
+        "companyName": "NanoenTek",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "039980.KQ",
+        "companyName": "LEENOS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "040300.KQ",
+        "companyName": "YTN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "040420.KQ",
+        "companyName": "jls",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "041190.KQ",
+        "companyName": "WTIC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "041440.KQ",
+        "companyName": "EVERDIGM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "041510.KQ",
+        "companyName": "SME",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "041910.KQ",
+        "companyName": "ESTECHPHARMA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "041930.KQ",
+        "companyName": "DONGAHWASUNG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "041960.KQ",
+        "companyName": "KOMIPHARM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "042040.KQ",
+        "companyName": "KPM TECH",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "042110.KQ",
+        "companyName": "SCD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "042370.KQ",
+        "companyName": "Vitzro Tech",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "042510.KQ",
+        "companyName": "RaonSecure",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "042520.KQ",
+        "companyName": "HANS BIOMED",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "043150.KQ",
+        "companyName": "VATECH",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "043200.KQ",
+        "companyName": "PARU",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "043220.KQ",
+        "companyName": "HLB POWER",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "043290.KQ",
+        "companyName": "K-MAC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "043340.KQ",
+        "companyName": "Essen Tech",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "043360.KQ",
+        "companyName": "DGI",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "043610.KQ",
+        "companyName": "Genie Music",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "043910.KQ",
+        "companyName": "NNE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "044060.KQ",
+        "companyName": "JOKWANG ILI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "044340.KQ",
+        "companyName": "WINIX",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "044480.KQ",
+        "companyName": "BIOGENETICS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "044490.KQ",
+        "companyName": "TAEWOONG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "044780.KQ",
+        "companyName": "HK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "044960.KQ",
+        "companyName": "Eagle Vet. Tech",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "045100.KQ",
+        "companyName": "HANYANG ENG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "045340.KQ",
+        "companyName": "TSB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "045390.KQ",
+        "companyName": "DAEATI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "045510.KQ",
+        "companyName": "ZWNS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "045660.KQ",
+        "companyName": "ATEC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "046310.KQ",
+        "companyName": "BG T&A",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "046390.KQ",
+        "companyName": "SAMHWA NWS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "046440.KQ",
+        "companyName": "KGMBLS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "046890.KQ",
+        "companyName": "SSC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "046940.KQ",
+        "companyName": "Woowon Development",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "046970.KQ",
+        "companyName": "WOORIRO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "047080.KQ",
+        "companyName": "HBS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "047310.KQ",
+        "companyName": "POWER LOGICS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "048410.KQ",
+        "companyName": "HDBIO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "048430.KQ",
+        "companyName": "YURA TECH.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "048530.KQ",
+        "companyName": "iNtRON Bio",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "048550.KQ",
+        "companyName": "SM C&C",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "048830.KQ",
+        "companyName": "NPK",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "048870.KQ",
+        "companyName": "Synergy Innovation",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "048910.KQ",
+        "companyName": "DAEWON MEDIA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "049080.KQ",
+        "companyName": "GIGALANE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "049120.KQ",
+        "companyName": "FINE DNC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "049430.KQ",
+        "companyName": "KOMELON",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "049630.KQ",
+        "companyName": "JAEYOUNG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "049720.KQ",
+        "companyName": "KORYOINFO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "049950.KQ",
+        "companyName": "meerecompany",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "050090.KQ",
+        "companyName": "PHOENIX MATERIALS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "050120.KQ",
+        "companyName": "LIVEPLEX",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "050540.KQ",
+        "companyName": "HANKOOK Corporation",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "051160.KQ",
+        "companyName": "GAEASOFT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "051360.KQ",
+        "companyName": "TOVIS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "051380.KQ",
+        "companyName": "PCD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "051390.KQ",
+        "companyName": "YW CO.,LTD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "051490.KQ",
+        "companyName": "NARA M&D",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "052020.KQ",
+        "companyName": "STCUBE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "052190.KQ",
+        "companyName": "ESA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "052260.KQ",
+        "companyName": "SKbioland",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "052300.KQ",
+        "companyName": "W Holding Company",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "052330.KQ",
+        "companyName": "KORTEK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "052420.KQ",
+        "companyName": "OSUNG ADVANCED MATERIALS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "052600.KQ",
+        "companyName": "HANNET",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "052670.KQ",
+        "companyName": "CHEIL BIO",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "052900.KQ",
+        "companyName": "KMH HITECH",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "053060.KQ",
+        "companyName": "SAE DONG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "053260.KQ",
+        "companyName": "KEUM KANG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "053270.KQ",
+        "companyName": "G.Y.TECH",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "053280.KQ",
+        "companyName": "YES24",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "053300.KQ",
+        "companyName": "KICA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "053580.KQ",
+        "companyName": "WebCash",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "053590.KQ",
+        "companyName": "HANKOOK Technology",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "053660.KQ",
+        "companyName": "HYUNJIN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "053700.KQ",
+        "companyName": "SAMBO MOTORS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "053950.KQ",
+        "companyName": "KYUNG NAM PHARM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "054050.KQ",
+        "companyName": "N.W BIO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "054410.KQ",
+        "companyName": "KPTU",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "054450.KQ",
+        "companyName": "Telechips",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "054620.KQ",
+        "companyName": "APS Holdings",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "054670.KQ",
+        "companyName": "DHNP",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "054780.KQ",
+        "companyName": "KEYEAST",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "054920.KQ",
+        "companyName": "Hancom WITH",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "054930.KQ",
+        "companyName": "Yooshin",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "054950.KQ",
+        "companyName": "JVM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "056080.KQ",
+        "companyName": "Yujin Robot",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "056190.KQ",
+        "companyName": "SFA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "057030.KQ",
+        "companyName": "YBM NET",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "057880.KQ",
+        "companyName": "Philosys Healthcare",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "058110.KQ",
+        "companyName": "MEKICS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "058400.KQ",
+        "companyName": "KNN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "058470.KQ",
+        "companyName": "LEENO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "058820.KQ",
+        "companyName": "CMG Pharmaceutical",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "059090.KQ",
+        "companyName": "MiCo",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "059120.KQ",
+        "companyName": "AJINEXTEK",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "059210.KQ",
+        "companyName": "META",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "060150.KQ",
+        "companyName": "INSUN ENT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "060240.KQ",
+        "companyName": "LONGTU KOREA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "060250.KQ",
+        "companyName": "NHN KCP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "060260.KQ",
+        "companyName": "NUVOTEC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "060310.KQ",
+        "companyName": "3S KOREA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "060370.KQ",
+        "companyName": "KT Submarine",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "060380.KQ",
+        "companyName": "DY STEC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "060480.KQ",
+        "companyName": "KUKIL METAL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "060560.KQ",
+        "companyName": "Home Center Holdings",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "060570.KQ",
+        "companyName": "Dreamus",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "060590.KQ",
+        "companyName": "CTC BIO",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "060720.KQ",
+        "companyName": "KH VATEC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "060900.KQ",
+        "companyName": "KRP&E",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "061250.KQ",
+        "companyName": "HWAIL PHARM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "062860.KQ",
+        "companyName": "TLi",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "062970.KQ",
+        "companyName": "PPI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "063080.KQ",
+        "companyName": "GAMEVIL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "063440.KQ",
+        "companyName": "SM Life Design",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "063570.KQ",
+        "companyName": "NICE TCM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "063760.KQ",
+        "companyName": "ELP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "064090.KQ",
+        "companyName": "FN REPUBLIC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "064260.KQ",
+        "companyName": "DANAL",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "064510.KQ",
+        "companyName": "ECOMAISTER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "064550.KQ",
+        "companyName": "BIONEER",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "064760.KQ",
+        "companyName": "TCK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "065060.KQ",
+        "companyName": "GNCO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "065130.KQ",
+        "companyName": "TOP ENG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "065170.KQ",
+        "companyName": "NEXT BT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "065350.KQ",
+        "companyName": "SSDELTATECH",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "065370.KQ",
+        "companyName": "WISE iTech",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "065440.KQ",
+        "companyName": "ELUON",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "065450.KQ",
+        "companyName": "VICTEK",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "065500.KQ",
+        "companyName": "Orient Precision Industries",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "065530.KQ",
+        "companyName": "KRTnet",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "065570.KQ",
+        "companyName": "Samyung ENC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "065620.KQ",
+        "companyName": "JENAX",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "065650.KQ",
+        "companyName": "Medifron DBT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "065950.KQ",
+        "companyName": "Welcron",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "066110.KQ",
+        "companyName": "HANP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "066310.KQ",
+        "companyName": "QSI",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "066430.KQ",
+        "companyName": "Y-OPTICS MANUFACTURE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "066590.KQ",
+        "companyName": "WSA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "066620.KQ",
+        "companyName": "KUKBO DESIGN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "066670.KQ",
+        "companyName": "DTC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "066700.KQ",
+        "companyName": "THERAGEN ETEX",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "066900.KQ",
+        "companyName": "DAP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "066980.KQ",
+        "companyName": "Brain Contents CO.,LTD.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "067000.KQ",
+        "companyName": "JoyCity",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "067010.KQ",
+        "companyName": "ECS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "067080.KQ",
+        "companyName": "DH PHARM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "067160.KQ",
+        "companyName": "AfreecaTV",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "067170.KQ",
+        "companyName": "Autech",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "067280.KQ",
+        "companyName": "Multicampus",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "067310.KQ",
+        "companyName": "Hana Micron",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "067570.KQ",
+        "companyName": "NVH",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "067630.KQ",
+        "companyName": "HLBLS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "067730.KQ",
+        "companyName": "LOGISYS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "067900.KQ",
+        "companyName": "Y-ENTEC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "068050.KQ",
+        "companyName": "PAN ENTERTAINMENT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "068240.KQ",
+        "companyName": "DAWONSYS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "068330.KQ",
+        "companyName": "ilShinbiobase Co., Ltd.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "068790.KQ",
+        "companyName": "DMS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "068930.KQ",
+        "companyName": "Digital DS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "069080.KQ",
+        "companyName": "Webzen",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "069410.KQ",
+        "companyName": "nTels",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "069510.KQ",
+        "companyName": "ESTec",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "070300.KQ",
+        "companyName": "Hansol Secure",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "070590.KQ",
+        "companyName": "Hansol Intic",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "071280.KQ",
+        "companyName": "RORZE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "071460.KQ",
+        "companyName": "WINIADIMCHAE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "071670.KQ",
+        "companyName": "A-Tech",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "072470.KQ",
+        "companyName": "W.I.H.C",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "072520.KQ",
+        "companyName": "GenNBio",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "072770.KQ",
+        "companyName": "Yulho",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "072870.KQ",
+        "companyName": "megastudy",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "072950.KQ",
+        "companyName": "VISSEM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "072990.KQ",
+        "companyName": "HCT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "073010.KQ",
+        "companyName": "KSP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "073070.KQ",
+        "companyName": "Esmo",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "073560.KQ",
+        "companyName": "WOORISON F&G",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "073570.KQ",
+        "companyName": "WI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "073640.KQ",
+        "companyName": "SAM WON TECH",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "074430.KQ",
+        "companyName": "AMINOLOGICS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "074600.KQ",
+        "companyName": "WONIK QnC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "075130.KQ",
+        "companyName": "PLANTYNET",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "076080.KQ",
+        "companyName": "WELCRON HANTEC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "076610.KQ",
+        "companyName": "Haesung Optics",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "078020.KQ",
+        "companyName": "eBEST IS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "078130.KQ",
+        "companyName": "KUK-IL PAPER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "078150.KQ",
+        "companyName": "HB Technology",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "078160.KQ",
+        "companyName": "MEDIPOST",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "078350.KQ",
+        "companyName": "HANYANG DIGI",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "078590.KQ",
+        "companyName": "DUAL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "078600.KQ",
+        "companyName": "DAEJOO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "078650.KQ",
+        "companyName": "KOLEN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "078890.KQ",
+        "companyName": "KAON Media",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "079000.KQ",
+        "companyName": "WATOS COREA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "079170.KQ",
+        "companyName": "Hanchang",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "079370.KQ",
+        "companyName": "ZEUS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "079810.KQ",
+        "companyName": "DE&T",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "079940.KQ",
+        "companyName": "GABIA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "080010.KQ",
+        "companyName": "eSANG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "080160.KQ",
+        "companyName": "MODETOUR",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "080220.KQ",
+        "companyName": "JSC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "080420.KQ",
+        "companyName": "Moda-InnoChips",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "080720.KQ",
+        "companyName": "UNION KOREA PHARM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "081580.KQ",
+        "companyName": "SUNGWOO ELEC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "082800.KQ",
+        "companyName": "LUMIMICRO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "082850.KQ",
+        "companyName": "WOOREE BIO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "082920.KQ",
+        "companyName": "VITCELL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "083310.KQ",
+        "companyName": "LOT Vacuum",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "083450.KQ",
+        "companyName": "GST",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "083550.KQ",
+        "companyName": "KM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "083650.KQ",
+        "companyName": "BHI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "083930.KQ",
+        "companyName": "AVACO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "084110.KQ",
+        "companyName": "Huons Global",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "084370.KQ",
+        "companyName": "Eugenetech",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "084850.KQ",
+        "companyName": "ITM Semiconductor",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "084990.KQ",
+        "companyName": "Helixmith",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "085370.KQ",
+        "companyName": "Lutronic",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "08537M.KQ",
+        "companyName": "Lutronic(3PC)",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "085670.KQ",
+        "companyName": "NEWFLEX",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "085810.KQ",
+        "companyName": "Alticast",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "085910.KQ",
+        "companyName": "NEOTIS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "086040.KQ",
+        "companyName": "Biotoxtech",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "086450.KQ",
+        "companyName": "DongKook Pharm",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "086520.KQ",
+        "companyName": "ECOPRO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "086670.KQ",
+        "companyName": "BMT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "086820.KQ",
+        "companyName": "Bio Solution Co.,Ltd.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "086900.KQ",
+        "companyName": "MedyTox",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "087260.KQ",
+        "companyName": "MA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "087600.KQ",
+        "companyName": "Pixelplus",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "087730.KQ",
+        "companyName": "ESMO Materials",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "088130.KQ",
+        "companyName": "DONG A ELTEK",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "088290.KQ",
+        "companyName": "EWON COMFORT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "088800.KQ",
+        "companyName": "Ace Technologies",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "088910.KQ",
+        "companyName": "DONGWOO FARM TO TABLE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "089140.KQ",
+        "companyName": "NEXTURN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "089150.KQ",
+        "companyName": "KCT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "089530.KQ",
+        "companyName": "AT semicon",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "089790.KQ",
+        "companyName": "JT Corp.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "089890.KQ",
+        "companyName": "KOSES",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "089980.KQ",
+        "companyName": "SFTC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "090150.KQ",
+        "companyName": "KWANGJIN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "090360.KQ",
+        "companyName": "Robostar",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "090410.KQ",
+        "companyName": "Duckshin Housing",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "090710.KQ",
+        "companyName": "Hyulim ROBOT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "090740.KQ",
+        "companyName": "YOUNYI",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "090850.KQ",
+        "companyName": "Ezwel",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "091120.KQ",
+        "companyName": "EM-Tech",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "091340.KQ",
+        "companyName": "S&K",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "091970.KQ",
+        "companyName": "Nano Chem Tech",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "091990.KQ",
+        "companyName": "Celltrion Healthcare",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "092070.KQ",
+        "companyName": "DNF",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "092130.KQ",
+        "companyName": "e-Credible",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "092190.KQ",
+        "companyName": "SEOUL VIOSYS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "092600.KQ",
+        "companyName": "NC&",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "092870.KQ",
+        "companyName": "EXICON",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "093190.KQ",
+        "companyName": "Bixolon",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "093320.KQ",
+        "companyName": "KINX",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "094480.KQ",
+        "companyName": "GalaxiaComms",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "094840.KQ",
+        "companyName": "Suprema HQ",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "094850.KQ",
+        "companyName": "Very Good Tour",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "094860.KQ",
+        "companyName": "KORNIC GLORY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "094970.KQ",
+        "companyName": "JMT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "095190.KQ",
+        "companyName": "EMKOREA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "095270.KQ",
+        "companyName": "WAVE ELECTRO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "095610.KQ",
+        "companyName": "TES",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "095700.KQ",
+        "companyName": "Genexine",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "095910.KQ",
+        "companyName": "S-ENERGY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "096040.KQ",
+        "companyName": "E-TRON",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "096530.KQ",
+        "companyName": "SEEGENE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "096640.KQ",
+        "companyName": "MELFAS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "096690.KQ",
+        "companyName": "J. Stephen Lab.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "096870.KQ",
+        "companyName": "LDT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "097520.KQ",
+        "companyName": "MCNEX",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "097800.KQ",
+        "companyName": "Winpac",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "098460.KQ",
+        "companyName": "Koh Young",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "098660.KQ",
+        "companyName": "STO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "099750.KQ",
+        "companyName": "ezCaretech",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "100130.KQ",
+        "companyName": "Dongkuk S&C",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "100590.KQ",
+        "companyName": "Mercury",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "100700.KQ",
+        "companyName": "SEWOONMEDICAL",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "100790.KQ",
+        "companyName": "Mirae Asset Venture",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "101160.KQ",
+        "companyName": "Worldex",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "101170.KQ",
+        "companyName": "WOORIM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "101400.KQ",
+        "companyName": "N CITRON",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "101670.KQ",
+        "companyName": "KSEC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "101730.KQ",
+        "companyName": "Joymax",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "102940.KQ",
+        "companyName": "KLS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "103230.KQ",
+        "companyName": "S&W Corp.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "103840.KQ",
+        "companyName": "WOOYANG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "104040.KQ",
+        "companyName": "Daesung Fine Tec",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "104460.KQ",
+        "companyName": "DYP&F",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "104480.KQ",
+        "companyName": "TK CHEMICAL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "104620.KQ",
+        "companyName": "YBTOUR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "104830.KQ",
+        "companyName": "WIMCO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "105330.KQ",
+        "companyName": "KNW",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "105740.KQ",
+        "companyName": "DK-Lok",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "108320.KQ",
+        "companyName": "Silicon Works",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "108490.KQ",
+        "companyName": "ROBOTIS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "109860.KQ",
+        "companyName": "DONGIL METAL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "109960.KQ",
+        "companyName": "Aprogen H&G",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "110020.KQ",
+        "companyName": "JJBIO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "110990.KQ",
+        "companyName": "DIT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "111870.KQ",
+        "companyName": "SAMBON ELECTRONICS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "112040.KQ",
+        "companyName": "Wemade",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "114190.KQ",
+        "companyName": "KANGWON",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "114450.KQ",
+        "companyName": "KPXLS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "114570.KQ",
+        "companyName": "G-SMATT GLOBAL",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "115160.KQ",
+        "companyName": "HUMAX",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "115180.KQ",
+        "companyName": "Qurient",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "115440.KQ",
+        "companyName": "WooriNet",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "115450.KQ",
+        "companyName": "G-treeBNT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "115500.KQ",
+        "companyName": "KCS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "115960.KQ",
+        "companyName": "YONWOO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "117670.KQ",
+        "companyName": "Alpha Holdings",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "117730.KQ",
+        "companyName": "T-ROBOTICS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "119860.KQ",
+        "companyName": "DANAWA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "121440.KQ",
+        "companyName": "GOLFZON NEWDIN HOLDINGS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "121850.KQ",
+        "companyName": "KOYJ",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "122450.KQ",
+        "companyName": "KMH",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "122640.KQ",
+        "companyName": "YEST",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "122870.KQ",
+        "companyName": "YG Entertainment",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "122990.KQ",
+        "companyName": "WiSoL",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "123010.KQ",
+        "companyName": "iA Networks Co.,Ltd.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "123040.KQ",
+        "companyName": "MS AUTOTECH CO., LTD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "123330.KQ",
+        "companyName": "Genic",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "123410.KQ",
+        "companyName": "KFTC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "123420.KQ",
+        "companyName": "SundayToz",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "123840.KQ",
+        "companyName": "HANIL VACUUM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "125210.KQ",
+        "companyName": "AMOGREENTECH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "126600.KQ",
+        "companyName": "KOPLA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "126870.KQ",
+        "companyName": "NEUROS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "126880.KQ",
+        "companyName": "JNK Heaters",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "127160.KQ",
+        "companyName": "MM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "128540.KQ",
+        "companyName": "ECOCAB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "130580.KQ",
+        "companyName": "NICE D&B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "130740.KQ",
+        "companyName": "TPC Global",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "131220.KQ",
+        "companyName": "DAIHAN Scientific",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "133750.KQ",
+        "companyName": "MegaMD",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "134060.KQ",
+        "companyName": "e-future",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "134580.KQ",
+        "companyName": "DMT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "136480.KQ",
+        "companyName": "HARIM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "136540.KQ",
+        "companyName": "Wins",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "137400.KQ",
+        "companyName": "P&T",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "137950.KQ",
+        "companyName": "JC Chemical",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "138070.KQ",
+        "companyName": "SINJIN SM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "138580.KQ",
+        "companyName": "BusinessOn",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "138610.KQ",
+        "companyName": "NIBEC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "138690.KQ",
+        "companyName": "LIS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "139050.KQ",
+        "companyName": "DAYLIBC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "139670.KQ",
+        "companyName": "KineMaster",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "140410.KQ",
+        "companyName": "Mezzion Pharma",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "140670.KQ",
+        "companyName": "RS Automation",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "140860.KQ",
+        "companyName": "Park Systems",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "141000.KQ",
+        "companyName": "Viatron",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "141080.KQ",
+        "companyName": "LegoChem Bio",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "142280.KQ",
+        "companyName": "GCMS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "142760.KQ",
+        "companyName": "BLS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "144960.KQ",
+        "companyName": "NPP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "145020.KQ",
+        "companyName": "Hugel",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "148140.KQ",
+        "companyName": "BDI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "148150.KQ",
+        "companyName": "Se Gyung Hi Tech",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "151860.KQ",
+        "companyName": "KG ETS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "153460.KQ",
+        "companyName": "NABLE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "153490.KQ",
+        "companyName": "WOOREE E&L",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "155650.KQ",
+        "companyName": "YMC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "158430.KQ",
+        "companyName": "ATON",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "159580.KQ",
+        "companyName": "0TO7",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "160550.KQ",
+        "companyName": "NEW",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "161570.KQ",
+        "companyName": "THE MIDONG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "166090.KQ",
+        "companyName": "Hana Materials",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "173940.KQ",
+        "companyName": "FNC Ent.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "174880.KQ",
+        "companyName": "JangWon",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "175250.KQ",
+        "companyName": "Icure Pharm. Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "177350.KQ",
+        "companyName": "Vessel",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "178320.KQ",
+        "companyName": "SEOJIN SYSTEM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "183300.KQ",
+        "companyName": "KoMiCo",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "184230.KQ",
+        "companyName": "SGA Solutions",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "185490.KQ",
+        "companyName": "Eyegene",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "187220.KQ",
+        "companyName": "DTNC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "187270.KQ",
+        "companyName": "Shin Hwa Contech",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "187790.KQ",
+        "companyName": "NANO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "187870.KQ",
+        "companyName": "Device ENG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "189860.KQ",
+        "companyName": "SJEM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "189980.KQ",
+        "companyName": "Hyungkuk F&B",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "190650.KQ",
+        "companyName": "KOREA ASSET SEC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "192250.KQ",
+        "companyName": "Ksign",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "192390.KQ",
+        "companyName": "Winhitech",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "192440.KQ",
+        "companyName": "Spigen Korea",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "193250.KQ",
+        "companyName": "YJM Games",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "194700.KQ",
+        "companyName": "NOVAREX",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "195990.KQ",
+        "companyName": "Abpro Bio",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "196170.KQ",
+        "companyName": "Alteogen",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "196700.KQ",
+        "companyName": "WAPS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "197140.KQ",
+        "companyName": "DigiCAP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "198440.KQ",
+        "companyName": "KOREA CEMENT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "200130.KQ",
+        "companyName": "KBH",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "200230.KQ",
+        "companyName": "TELCON RF PHARM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "200470.KQ",
+        "companyName": "HISEM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "200780.KQ",
+        "companyName": "BCWORLDPHARM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "201490.KQ",
+        "companyName": "Me2on",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "203650.KQ",
+        "companyName": "Dream Security",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "204270.KQ",
+        "companyName": "JNTC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "204620.KQ",
+        "companyName": "Global Tax Free",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "204630.KQ",
+        "companyName": "Huayi Brothers Korea",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "205100.KQ",
+        "companyName": "XM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "205470.KQ",
+        "companyName": "HUMASIS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "206400.KQ",
+        "companyName": "Entermate",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "206640.KQ",
+        "companyName": "Boditech",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "207760.KQ",
+        "companyName": "Mr. Blue",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "208140.KQ",
+        "companyName": "JUNGDAWN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "208350.KQ",
+        "companyName": "JS.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "208640.KQ",
+        "companyName": "Thumbage",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "208710.KQ",
+        "companyName": "BIOLOG DEVICE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "212560.KQ",
+        "companyName": "NEOOTO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "213090.KQ",
+        "companyName": "MIRAE TECH",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "214310.KQ",
+        "companyName": "Semicon Light",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "214870.KQ",
+        "companyName": "NewGLAB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "215000.KQ",
+        "companyName": "GOLFZON",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "215100.KQ",
+        "companyName": "RoboRobo",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "215380.KQ",
+        "companyName": "WOOJUNG BIO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "215480.KQ",
+        "companyName": "TOEBOX KOREA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "215600.KQ",
+        "companyName": "SillaJen",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "216080.KQ",
+        "companyName": "JETEMA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "217270.KQ",
+        "companyName": "Neptune",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "217500.KQ",
+        "companyName": "RUSSELL",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "217620.KQ",
+        "companyName": "Didim",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "217730.KQ",
+        "companyName": "KANGSTEM BIOTECH",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "217820.KQ",
+        "companyName": "NS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "218150.KQ",
+        "companyName": "MILAE BIORESOURCES",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "218410.KQ",
+        "companyName": "RFHIC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "219550.KQ",
+        "companyName": "MPHK",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "219750.KQ",
+        "companyName": "GTG Wellness",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "220180.KQ",
+        "companyName": "HANDYSOFT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "221980.KQ",
+        "companyName": "KDCHEM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "222040.KQ",
+        "companyName": "COSMAX NBT",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "222810.KQ",
+        "companyName": "Hanryu A.I Center",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "223310.KQ",
+        "companyName": "ESV",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "225330.KQ",
+        "companyName": "CMS Edu",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "225430.KQ",
+        "companyName": "KMP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "225530.KQ",
+        "companyName": "BoKwang Industry",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "225570.KQ",
+        "companyName": "NAT GAMES",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "226360.KQ",
+        "companyName": "Ext",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "226440.KQ",
+        "companyName": "HANSONGNEOTECH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "227100.KQ",
+        "companyName": "DESIGN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "227950.KQ",
+        "companyName": "MICROTECH",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "228670.KQ",
+        "companyName": "Ray",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "228850.KQ",
+        "companyName": "RAYENCE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "230240.KQ",
+        "companyName": "HFR",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "230360.KQ",
+        "companyName": "ECHO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "230980.KQ",
+        "companyName": "Soltworks",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "232140.KQ",
+        "companyName": "YIKC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "234300.KQ",
+        "companyName": "STraffic",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "234920.KQ",
+        "companyName": "Zaigle",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "237820.KQ",
+        "companyName": "PlayD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "238090.KQ",
+        "companyName": "NDFOS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "238120.KQ",
+        "companyName": "LogosBio",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "238200.KQ",
+        "companyName": "BIFIDO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "239340.KQ",
+        "companyName": "ZUMinternet",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "239610.KQ",
+        "companyName": "HLSCIENCE",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "240810.KQ",
+        "companyName": "WONIK IPS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "241520.KQ",
+        "companyName": "DSC Investment",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "241710.KQ",
+        "companyName": "COSMECCA KOREA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "241820.KQ",
+        "companyName": "PCL",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "242040.KQ",
+        "companyName": "NAMU TECH",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "243070.KQ",
+        "companyName": "Huons",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "245620.KQ",
+        "companyName": "EDGC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "246710.KQ",
+        "companyName": "T&R Biofab",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "247540.KQ",
+        "companyName": "ECOPROBM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "250000.KQ",
+        "companyName": "BORATR",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "250930.KQ",
+        "companyName": "YeSUN Tech",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "251370.KQ",
+        "companyName": "YMT",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "251630.KQ",
+        "companyName": "V-ONE TECH",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "251970.KQ",
+        "companyName": "PUM-TECH KOREA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "253450.KQ",
+        "companyName": "Studio Dragon",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "253840.KQ",
+        "companyName": "Sugentech",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "254120.KQ",
+        "companyName": "XAVIS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "255440.KQ",
+        "companyName": "YAS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "256150.KQ",
+        "companyName": "HDCTECH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "256840.KQ",
+        "companyName": "BNC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "256940.KQ",
+        "companyName": "KPS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "258610.KQ",
+        "companyName": "EWK",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "258790.KQ",
+        "companyName": "SOFTCAMP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "258830.KQ",
+        "companyName": "SEJONG MEDICAL",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "259630.KQ",
+        "companyName": "mplus",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "263050.KQ",
+        "companyName": "Eutilex",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "263690.KQ",
+        "companyName": "DRGEM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "263750.KQ",
+        "companyName": "PearlAbyss",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "263800.KQ",
+        "companyName": "DATASOLUTION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "263920.KQ",
+        "companyName": "Blossom M&C",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "264660.KQ",
+        "companyName": "C&G Hitech",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "264850.KQ",
+        "companyName": "Elensys",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "265520.KQ",
+        "companyName": "AP Systems",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "265560.KQ",
+        "companyName": "YHTEC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "267320.KQ",
+        "companyName": "Kyobo 7 SPAC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "267790.KQ",
+        "companyName": "BARREL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "267980.KQ",
+        "companyName": "Maeil Dairies",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "269620.KQ",
+        "companyName": "SYSWORK",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "270520.KQ",
+        "companyName": "G Enone Energy",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "272110.KQ",
+        "companyName": "KnJ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "272290.KQ",
+        "companyName": "INNOX Advanced Materials",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "274090.KQ",
+        "companyName": "Kencoa Aerospace",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "276920.KQ",
+        "companyName": "IBKS No.7 SPAC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "277480.KQ",
+        "companyName": "Shinhan 4th SPAC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "278650.KQ",
+        "companyName": "KNOTUS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "279410.KQ",
+        "companyName": "HA SPAC 4TH",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "279600.KQ",
+        "companyName": "MediaZen",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "281410.KQ",
+        "companyName": "Korea No.6 SPAC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "281740.KQ",
+        "companyName": "DONGBU No.5 SPAC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "286750.KQ",
+        "companyName": "NANOBRICK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "287410.KQ",
+        "companyName": "Yuanta SPAC 3",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "288330.KQ",
+        "companyName": "BRIDGE BIOTHERAPEUTICS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "289080.KQ",
+        "companyName": "SV INVESTMENT",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "290270.KQ",
+        "companyName": "HUNESION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "290380.KQ",
+        "companyName": "Dae Yu",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "290510.KQ",
+        "companyName": "KOREACENTER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "290550.KQ",
+        "companyName": "DKT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "290670.KQ",
+        "companyName": "DAE BO MAGNETIC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "290740.KQ",
+        "companyName": "ActRo",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "291210.KQ",
+        "companyName": "Korea No.7 SPAC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "294140.KQ",
+        "companyName": "LEMON",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "297090.KQ",
+        "companyName": "CS BEARING",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "298380.KQ",
+        "companyName": "ABL Bio",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "299170.KQ",
+        "companyName": "IBKS No.10 SPAC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "299910.KQ",
+        "companyName": "VESPA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "300120.KQ",
+        "companyName": "LaonPeople",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "302550.KQ",
+        "companyName": "REMED",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "303030.KQ",
+        "companyName": "Zinitix Co.,Ltd.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "307070.KQ",
+        "companyName": "SK ACPC NO.4 SPAC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "307160.KQ",
+        "companyName": "HANAMUST6SPAC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "307280.KQ",
+        "companyName": "Kyobo 8 SPAC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "307750.KQ",
+        "companyName": "DaishinBalance No.6",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "307930.KQ",
+        "companyName": "COMPANY K PARTNERS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "309930.KQ",
+        "companyName": "SAMSUNG MUST SPAC 3",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "310840.KQ",
+        "companyName": "NH SPAC 13",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "310870.KQ",
+        "companyName": "Korea No.8 SPAC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "311270.KQ",
+        "companyName": "Kiwoom No.5 SPAC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "313750.KQ",
+        "companyName": "Yuanta SPAC 4",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "313760.KQ",
+        "companyName": "WILLINGS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "317030.KQ",
+        "companyName": "KB No.17 SPAC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "317120.KQ",
+        "companyName": "RANIX",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "317240.KQ",
+        "companyName": "HI-4 SPAC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "317770.KQ",
+        "companyName": "Suprema ID",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "317850.KQ",
+        "companyName": "DAEMO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "318000.KQ",
+        "companyName": "KBIOGEN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "318010.KQ",
+        "companyName": "Pharmsville",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "319400.KQ",
+        "companyName": "NH SPAC 14",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "321260.KQ",
+        "companyName": "Eugene SPAC IV",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "322180.KQ",
+        "companyName": "THiRA-UTECH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "322510.KQ",
+        "companyName": "JLK Inspection",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "322780.KQ",
+        "companyName": "DB Finance No.7 SPAC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "323210.KQ",
+        "companyName": "Ebest Ian SPAC 1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "323230.KQ",
+        "companyName": "Shinhan 5th SPAC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "323280.KQ",
+        "companyName": "SHT-5 SPAC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "323940.KQ",
+        "companyName": "KB No.18 SPAC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "327260.KQ",
+        "companyName": "Metal-Life",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "328380.KQ",
+        "companyName": "MIRAE ASSET DAEWOO SPAC 3",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "330990.KQ",
+        "companyName": "KB No.19 SPAC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "331380.KQ",
+        "companyName": "Eugene SPAC V",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "331520.KQ",
+        "companyName": "Kyobo 9 SPAC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "332290.KQ",
+        "companyName": "DaishinBalanceNo.7 SPAC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "333050.KQ",
+        "companyName": "Shinhan 6th SPAC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "333430.KQ",
+        "companyName": "MIRAE ASSET DAEWOO SPAC 4",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "335890.KQ",
+        "companyName": "IBKS No.11 SPAC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "336060.KQ",
+        "companyName": "Yuanta SPAC V",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "336570.KQ",
+        "companyName": "DaishinBalanceNo.8 SPAC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "337450.KQ",
+        "companyName": "SK NO.5 SPAC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "339950.KQ",
+        "companyName": "NH SPAC 15",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "340120.KQ",
+        "companyName": "HI-5 SPAC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "340350.KQ",
+        "companyName": "SK NO.6 SPAC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "340360.KQ",
+        "companyName": "Yuanta SPAC 6",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "342550.KQ",
+        "companyName": "KB No.20 SPAC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "344050.KQ",
+        "companyName": "SHT-6 SPAC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "347140.KQ",
+        "companyName": "CAPE-ES No.4 SPAC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "900100.KQ",
+        "companyName": "New Pride",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "900250.KQ",
+        "companyName": "Crystal New Material",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "900270.KQ",
+        "companyName": "HENG SHENG GROUP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "900340.KQ",
+        "companyName": "WING YIP FOOD",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "950130.KQ",
+        "companyName": "Access Bio",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "950140.KQ",
+        "companyName": "Englewood Lab",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KOE",
+        "symbol": "950170.KQ",
+        "companyName": "JTC",
+        "industryOrCategory": "Consumer Cyclical"
+    }
+]

@@ -1,0 +1,3494 @@
+[
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1101.TW",
+        "companyName": "TAIWAN CEMENT",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1102.TW",
+        "companyName": "ASIA CEMENT CORP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1103.TW",
+        "companyName": "CHIA HSIN CEMENT CORPORATION",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1109.TW",
+        "companyName": "HSING TA CEMENT CO LTD",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1110.TW",
+        "companyName": "SOUTH EAST CEMENT CO LTD.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1201.TW",
+        "companyName": "WEI CHUAN FOOD CORP",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1203.TW",
+        "companyName": "VE WONG CORPORATION",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1210.TW",
+        "companyName": "GREAT WALL ENTERPRISE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1213.TW",
+        "companyName": "OCEANIC BEVERAGES CO INC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1215.TW",
+        "companyName": "CHAROEN POKPHAND ENTERPRISES CO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1216.TW",
+        "companyName": "UNI-PRESIDENT ENTERPRISES CORP",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1217.TW",
+        "companyName": "AGV PRODUCTS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1220.TW",
+        "companyName": "TAI ROUN PRODUCTS CO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1227.TW",
+        "companyName": "STANDARD FOODS CORPORATION",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1232.TW",
+        "companyName": "TTET UNION CORP",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1256.TW",
+        "companyName": "SUNJUICE HOLDINGS CO LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1301.TW",
+        "companyName": "FORMOSA PLASTIC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1303.TW",
+        "companyName": "NAN YA PLASTIC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1305.TW",
+        "companyName": "CHINA GENERAL PLASTICS CORP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1310.TW",
+        "companyName": "TAIWAN STYRENE MONOMER",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1314.TW",
+        "companyName": "CHINA PETROCHEMICAL DEVELOPMENT",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1319.TW",
+        "companyName": "TONG YANG INDUSTRY",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1323.TW",
+        "companyName": "YONYU PLASTICS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1324.TW",
+        "companyName": "GLOBE INDUSTRIES CORPORATION",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1338.TW",
+        "companyName": "HIROCA HOLDINGS LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1339.TW",
+        "companyName": "Y.C.C. PARTS MFG CO LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1340.TW",
+        "companyName": "VICTORY NEW MATLS LTD CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1402.TW",
+        "companyName": "FAR EASTERN NEW CENTURY CORPORA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1410.TW",
+        "companyName": "NAN-YANG DYEING & FINISHING",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1416.TW",
+        "companyName": "KWONG FONG INDUSTRIES",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1423.TW",
+        "companyName": "REWARD WOOL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1436.TW",
+        "companyName": "HUA YU LIEN DEVELOPMENT CO LTD",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1437.TW",
+        "companyName": "GTM HOLDINGS CORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1438.TW",
+        "companyName": "YU FOUNG INTERNATIONAL CORP",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1439.TW",
+        "companyName": "CHUWA WOOL INDUSTR",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1444.TW",
+        "companyName": "LEALEA ENTERPRISE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1446.TW",
+        "companyName": "HONG HO PRECISION TEXTILE CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1449.TW",
+        "companyName": "CHIA HER INDUSTRIAL CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1452.TW",
+        "companyName": "HONG YI FIBER IND",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1453.TW",
+        "companyName": "TA JIANG DEVELOPMENT CORP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1455.TW",
+        "companyName": "ZIG SHENG INDUSTRIAL CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1456.TW",
+        "companyName": "I-HWA INDUSTRIAL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1457.TW",
+        "companyName": "YI JINN INDUSTRIAL CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1465.TW",
+        "companyName": "WISHER INDUSTRIAL CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1466.TW",
+        "companyName": "ACELON CHEMICAL & FIBER CORPORA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1468.TW",
+        "companyName": "CHANG-HO FIBRE CORP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1470.TW",
+        "companyName": "EVERTEX FABRINOLOGY LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1473.TW",
+        "companyName": "TAINAN ENTERPRISES",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1475.TW",
+        "companyName": "SUMAGH HIGH TECH CORP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1476.TW",
+        "companyName": "ECLAT TEXTILE CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1477.TW",
+        "companyName": "MAKALOT INDUSTRIAL CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1503.TW",
+        "companyName": "SHIHLIN ELEC & ENGINEERING",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1504.TW",
+        "companyName": "TECO ELECTRIC & MACHINERY CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1506.TW",
+        "companyName": "RIGHT WAY INDUSTRIAL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1507.TW",
+        "companyName": "YUNG TAY ENGINEERING",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1512.TW",
+        "companyName": "JUI LI ENTERPRISE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1513.TW",
+        "companyName": "CHUNG HSIN ELECTRIC & MACHINERY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1514.TW",
+        "companyName": "ALLIS ELECTRIC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1516.TW",
+        "companyName": "FALCON POWER CO. LTD.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1519.TW",
+        "companyName": "FORTUNE ELECTRIC CO LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1521.TW",
+        "companyName": "TA YIH INDUSTRIAL CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1524.TW",
+        "companyName": "GORDON AUTO BODY PARTS CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1525.TW",
+        "companyName": "KIANSHEN CORP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1527.TW",
+        "companyName": "BASSO INDUSTRY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1530.TW",
+        "companyName": "AWEA MECHANTRONIC CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1531.TW",
+        "companyName": "KAULIN MANUFACTURING",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1532.TW",
+        "companyName": "CHINA METAL PRODUCTS CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1533.TW",
+        "companyName": "MOBILETRON ELECTRONICS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1536.TW",
+        "companyName": "HOTA INDUSTRIAL MFG CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1537.TW",
+        "companyName": "KUNG LONG BATTERIE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1538.TW",
+        "companyName": "JENN FENG NEW ENERGY CO LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1558.TW",
+        "companyName": "ZENG HSING INDUSTRIAL CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1560.TW",
+        "companyName": "KINIK CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1568.TW",
+        "companyName": "TSANG YOW INDUSTRIAL CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1582.TW",
+        "companyName": "SYNCMOLD ENTERPRISE CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1583.TW",
+        "companyName": "GOODWAY MACHINE CORP.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1589.TW",
+        "companyName": "YEONG GUAN ENERGY TECHNOLOGY GP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1590.TW",
+        "companyName": "AIRTAC INTERNATIONAL GROUP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1592.TW",
+        "companyName": "ENTEREX INTERNATIONAL LIMITED",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1603.TW",
+        "companyName": "CHINA WIRE & CABLE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1604.TW",
+        "companyName": "SAMPO CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1605.TW",
+        "companyName": "WALSIN LIHWA CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1608.TW",
+        "companyName": "HUA ENGINEERING WIRE & CABLE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1609.TW",
+        "companyName": "TA YA ELECTRONIC WIRE & CABLE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1611.TW",
+        "companyName": "CHINA ELECTRIC MANUFACTURE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1612.TW",
+        "companyName": "HONG TAI ELECTRONIC INDUSTRIAL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1614.TW",
+        "companyName": "SANYO ELECTRIC CO(TAIWAN)",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1615.TW",
+        "companyName": "DAH SAN ELECTRIC WIRE & CABLE C",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1616.TW",
+        "companyName": "EVERTOP WIRE CABLE  CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1617.TW",
+        "companyName": "JUNG SHING WIRE CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1618.TW",
+        "companyName": "HOLD-KEY ELECTRIC WIRE & CABLE ",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1701.TW",
+        "companyName": "CHINA CHEMICAL & PHARMACEUTICAL",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1702.TW",
+        "companyName": "NAMCHOW HOLDINGS CO LTD",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1707.TW",
+        "companyName": "GRAPE KING BIO LTD",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1711.TW",
+        "companyName": "EVERLIGHT CHEMICAL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1714.TW",
+        "companyName": "HO TUNG CHEMICAL CORP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1717.TW",
+        "companyName": "ETERNAL MATERIALS CO LTD",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1720.TW",
+        "companyName": "STANDARD CHEM & PHARM CO",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1722.TW",
+        "companyName": "TAIWAN FERTILIZER CO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1723.TW",
+        "companyName": "CHINA STEEL CHEMICAL CORP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1725.TW",
+        "companyName": "YUAN JEN ENTERPRISE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1726.TW",
+        "companyName": "YUNG CHI PAINT & VARNISH MFG CO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1727.TW",
+        "companyName": "CHUNG HWA CHEMICAL INDUSTRIAL W",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1730.TW",
+        "companyName": "FARCENT ENTERPRISE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1733.TW",
+        "companyName": "APEX BIOTECHNOLOGY CORP",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1734.TW",
+        "companyName": "SINPHAR PHARMACEUTICAL CO LTD",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1736.TW",
+        "companyName": "JOHNSON HEALTH TECH",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1737.TW",
+        "companyName": "TAIYEN BIOTECH CO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1760.TW",
+        "companyName": "PANION & BF BIOTECH INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1773.TW",
+        "companyName": "SHINY CHEMICAL INDUSTRIAL CO. L",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1789.TW",
+        "companyName": "SCINOPHARM TAIWAN LTD",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1902.TW",
+        "companyName": "TAIWAN PAPER&PULP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1905.TW",
+        "companyName": "CHUNG HWA PULP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1906.TW",
+        "companyName": "BAOLONG INTERNATIONAL CO LTD",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1907.TW",
+        "companyName": "YFY INC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "1909.TW",
+        "companyName": "LONGCHEN PAPER&PACKAGING CO LTD",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2002.TW",
+        "companyName": "CHINA STEEL CORP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2008.TW",
+        "companyName": "KAO HSIUNG CHANG IRON & STEEL C",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2010.TW",
+        "companyName": "CHUN YUAN STEEL INDUSTRIAL CO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2012.TW",
+        "companyName": "CHUN YU WORKS & CO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2015.TW",
+        "companyName": "FENG HSIN STEEL CO LTD",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2017.TW",
+        "companyName": "QUINTAIN STEEL CO LTD",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2022.TW",
+        "companyName": "TYCOONS GROUP ENTERPRISE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2023.TW",
+        "companyName": "YIEH PHUI ENTERPRISE CO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2027.TW",
+        "companyName": "TA CHEN STAINLESS PIPE CORP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2028.TW",
+        "companyName": "WEI CHIH STEEL INDUSTRIAL CO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2029.TW",
+        "companyName": "SHENG YU STEEL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2030.TW",
+        "companyName": "FROCH ENTERPRISE CO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2031.TW",
+        "companyName": "HSIN KUANG STEEL CO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2033.TW",
+        "companyName": "CHIA TA WORLD",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2034.TW",
+        "companyName": "YC INOX CO LTD",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2038.TW",
+        "companyName": "HAI KWANG ENTERPRISE CORPORATIO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2049.TW",
+        "companyName": "HIWIN TECHNOLOGIES CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2059.TW",
+        "companyName": "KING SLIDE WORKS CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2069.TW",
+        "companyName": "YUEN CHANG STAINLESS STEEL CO L",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2101.TW",
+        "companyName": "NAN KANG RUBBER TIRE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2104.TW",
+        "companyName": "INTERNATIONAL CSRC INVESTMENT H",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2105.TW",
+        "companyName": "CHENG SHIN RUBBER INDUSTRIES",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2106.TW",
+        "companyName": "KENDA RUBBER INDUSTRY",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2108.TW",
+        "companyName": "NANTEX INDUSTRY",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2109.TW",
+        "companyName": "HWA FONG RUBBER INDUSTRIAL CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2114.TW",
+        "companyName": "HSIN YUNG CHIEN CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2115.TW",
+        "companyName": "LU HAI HOLDING CORP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2204.TW",
+        "companyName": "CHINA MOTOR CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2206.TW",
+        "companyName": "SANYANG MOTOR CO LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2207.TW",
+        "companyName": "HOTAI MOTOR CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2227.TW",
+        "companyName": "YULON NISSAN MOTOR CO.LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2233.TW",
+        "companyName": "TURVO INTERNATIONAL CO LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2239.TW",
+        "companyName": "CAYMAN ENGLEY INDUSTRIAL CO. LT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2301.TW",
+        "companyName": "LITE-ON TECHNOLOGY CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2303.TW",
+        "companyName": "UNITED MICRO ELECTRONICS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2308.TW",
+        "companyName": "DELTA ELECTRONIC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2312.TW",
+        "companyName": "KINPO ELECTRONICS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2313.TW",
+        "companyName": "COMPEQ MANUFACTURING",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2314.TW",
+        "companyName": "MICROELECTRONICS TECHNOLOGY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2316.TW",
+        "companyName": "WUS PRINTED CIRCUIT CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2317.TW",
+        "companyName": "HON HAI PRECISION INDUSTRY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2323.TW",
+        "companyName": "CMC MAGNETICS CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2324.TW",
+        "companyName": "COMPAL ELECTRONICS INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2327.TW",
+        "companyName": "YAGEO CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2329.TW",
+        "companyName": "ORIENT SEMICONDUCTOR ELECTRONIC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2330.TW",
+        "companyName": "TAIWAN SEMICONDUCTOR MANUFACTUR",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2331.TW",
+        "companyName": "ELITEGROUP COMPUTER SYSTEMS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2332.TW",
+        "companyName": "D-LINK CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2337.TW",
+        "companyName": "MACRONIX INTERNATIONAL",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2338.TW",
+        "companyName": "TAIWAN MASK CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2342.TW",
+        "companyName": "MOSEL VITELIC INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2344.TW",
+        "companyName": "WINBOND ELECTRONIC CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2345.TW",
+        "companyName": "ACCTON TECHNOLOGY CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2347.TW",
+        "companyName": "SYNNEX TECHNOLOGY INTERNATIONAL",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2348.TW",
+        "companyName": "HIYES INTERNATIONAL CO LTD",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2351.TW",
+        "companyName": "SDI CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2352.TW",
+        "companyName": "QISDA CORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2353.TW",
+        "companyName": "ACER INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2354.TW",
+        "companyName": "FOXCONN TECH CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2355.TW",
+        "companyName": "CHIN-POON INDUSTRIAL",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2357.TW",
+        "companyName": "ASUSTEK COMPUTER INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2360.TW",
+        "companyName": "CHROMA ATE INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2365.TW",
+        "companyName": "KYE SYSTEM CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2369.TW",
+        "companyName": "LINGSEN PRECISION INDUSTRIES",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2371.TW",
+        "companyName": "TATUNG CO LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2373.TW",
+        "companyName": "AURORA CORPORATION",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2374.TW",
+        "companyName": "ABILITY ENTERPRISE CO LTD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2375.TW",
+        "companyName": "KAIMEI ELECTRONIC CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2376.TW",
+        "companyName": "GIGA-BYTE TECHNOLOGY CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2377.TW",
+        "companyName": "MICRO-STAR INTERNATIONAL CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2379.TW",
+        "companyName": "REALTEK SEMICONDUCTOR CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2382.TW",
+        "companyName": "QUANTA COMPUTER",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2383.TW",
+        "companyName": "ELITE MATERIAL CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2385.TW",
+        "companyName": "CHICONY ELECTRONICS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2388.TW",
+        "companyName": "VIA TECHNOLOGIES",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2395.TW",
+        "companyName": "ADVANTECH CO LTD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2399.TW",
+        "companyName": "BIOSTAR MICROTEC INTL",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2408.TW",
+        "companyName": "NANYA TECHNOLOGY CORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2409.TW",
+        "companyName": "AU OPTRONICS CORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2412.TW",
+        "companyName": "CHUNGHWA TELECOM",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2419.TW",
+        "companyName": "HITRON TECHNOLOGY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2420.TW",
+        "companyName": "ZIPPY TECHNOLOGY CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2421.TW",
+        "companyName": "SUNONWEALTH ELECTRIC MACHINE IN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2423.TW",
+        "companyName": "GOOD WILL INSTRUMENT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2424.TW",
+        "companyName": "LUNG HWA ELECTRONICS CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2425.TW",
+        "companyName": "CHAINTECH TECHNOLOGY CORPORATIO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2426.TW",
+        "companyName": "TYNTEK CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2428.TW",
+        "companyName": "THINKING ELECTRONIC INDL",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2429.TW",
+        "companyName": "PAL WONN (TW)CO.LT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2430.TW",
+        "companyName": "TSANN KUEN ENTERPRISE CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2433.TW",
+        "companyName": "HUXEN CORPORATION",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2434.TW",
+        "companyName": "MOSPEC SEMICONDUCTOR CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2436.TW",
+        "companyName": "WELTREND SEMI-CONDUCTOR INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2439.TW",
+        "companyName": "MERRY ELECTRONICS CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2440.TW",
+        "companyName": "SPACE SHUTTLE HI-TECH CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2441.TW",
+        "companyName": "GREATEK ELECTRONICS INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2442.TW",
+        "companyName": "JEAN CO LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2443.TW",
+        "companyName": "LEAD DATA INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2444.TW",
+        "companyName": "ABOCOM SYSTEMS INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2448.TW",
+        "companyName": "EPISTAR CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2449.TW",
+        "companyName": "KING YUAN ELECTRONICS CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2451.TW",
+        "companyName": "TRANSCEND INFORMATION INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2454.TW",
+        "companyName": "MEDIATEK INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2455.TW",
+        "companyName": "VISUAL PHOTONICS EPITAXY CO LTD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2456.TW",
+        "companyName": "CHILISIN ELECTRONICS CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2458.TW",
+        "companyName": "ELAN MICROELECTRONICS CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2460.TW",
+        "companyName": "GEM TERMINAL INDUSTRIAL CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2461.TW",
+        "companyName": "K LASER TECHNOLOGY INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2466.TW",
+        "companyName": "COSMO ELECTRONICS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2467.TW",
+        "companyName": "C SUN MANUFACTURING CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2472.TW",
+        "companyName": "LELON ELECTRONICS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2474.TW",
+        "companyName": "CATCHER TECHNOLOGY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2477.TW",
+        "companyName": "MEILOON INDUSTRIAL CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2478.TW",
+        "companyName": "TA-I TECHNOLOGY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2480.TW",
+        "companyName": "STARK TECHNOLOGY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2481.TW",
+        "companyName": "PAN JIT INTERNATIONAL INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2483.TW",
+        "companyName": "EXCEL CELL ELECTRONICS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2485.TW",
+        "companyName": "ZINWELL",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2489.TW",
+        "companyName": "AMTRAN TECHNOLOGY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2491.TW",
+        "companyName": "FORTUNE ORIENTAL COMPANY LIMITE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2492.TW",
+        "companyName": "WALSIN TECHNOLOGY CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2495.TW",
+        "companyName": "INFORTREND TECHNOLOGY INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2498.TW",
+        "companyName": "HTC CORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2505.TW",
+        "companyName": "KUOYANG CONSTRUCTION",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2506.TW",
+        "companyName": "PACIFIC CONSTRUCTION",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2509.TW",
+        "companyName": "CHAINQUI CONSTRUCTION DEVELOPME",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2511.TW",
+        "companyName": "PRINCE HOUSING DEVELOPMENT CORP",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2514.TW",
+        "companyName": "LONG BON INTERNATIONAL CO. LTD.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2515.TW",
+        "companyName": "BES ENGINEERING",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2516.TW",
+        "companyName": "NEW ASIA CONSTRUCTION & DEVELOP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2520.TW",
+        "companyName": "KINDOM DEVELOPMENT CO LTD",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2524.TW",
+        "companyName": "KINGS TOWN CONSTRUCTION CO",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2527.TW",
+        "companyName": "HUNG CHING DEVELOPMENT & CONSTR",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2537.TW",
+        "companyName": "WE & WIN DEVELOPMENT CO. LTD.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2538.TW",
+        "companyName": "KEE TAI PROPERTIES",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2539.TW",
+        "companyName": "SAKURA DEVELOPMENT CO",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2542.TW",
+        "companyName": "HIGHWEALTH CONSTRUCTION CORP",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2543.TW",
+        "companyName": "HWANG CHANG GENERAL CONTRACTOR ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2546.TW",
+        "companyName": "KEDGE CONSTRUCTION CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2548.TW",
+        "companyName": "HUAKU DEVELOPMENT CO. LTD.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2597.TW",
+        "companyName": "RUENTEX ENGINEERING & CONST. CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2603.TW",
+        "companyName": "EVERGREEN MARINE CORP(TAIWAN)",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2605.TW",
+        "companyName": "SINCERE NAVIGATION CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2606.TW",
+        "companyName": "U-MING MARINE TRANSPORT CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2608.TW",
+        "companyName": "KERRY TJ LOGISTICS COMPANY LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2609.TW",
+        "companyName": "YANG MING MARINE TRANSPORT CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2610.TW",
+        "companyName": "CHINA AIR LINES",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2615.TW",
+        "companyName": "WAN HAI LINES",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2617.TW",
+        "companyName": "TAIWAN NAVIGATION CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2618.TW",
+        "companyName": "EVA AIRWAYS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2630.TW",
+        "companyName": "AIR ASIA CO LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2633.TW",
+        "companyName": "TAIWAN HIGH SPEED RAIL CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2634.TW",
+        "companyName": "AEROSPACE INDUSTRIAL DEVLPMT CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2636.TW",
+        "companyName": "T3EX GLOBAL HOLDINGS CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2637.TW",
+        "companyName": "WISDOM MARINE LINES CO LIMITED",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2642.TW",
+        "companyName": "TAIWAN PELICAN EXPRESS CO LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2701.TW",
+        "companyName": "WAN HWA ENTERPRISE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2704.TW",
+        "companyName": "AMBASSADOR HOTEL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2706.TW",
+        "companyName": "FIRST HOTEL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2707.TW",
+        "companyName": "FORMOSA INTERNATIONAL HOTELS CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2712.TW",
+        "companyName": "FAR GLORY HOTEL CO LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2723.TW",
+        "companyName": "GOURMET MASTER CO LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2727.TW",
+        "companyName": "WOWPRIME CORP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2731.TW",
+        "companyName": "LION TRAVEL SERVICE CO LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2739.TW",
+        "companyName": "MY HUMBLE HOUSE HOSPITALITY MGM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2748.TW",
+        "companyName": "FDC INTERNATIONAL HOTELS CORP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2801.TW",
+        "companyName": "CHANG HWA COMMERCIAL BANK LTD",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2809.TW",
+        "companyName": "KING'S TOWN BANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2812.TW",
+        "companyName": "TAICHUNG COMMERCIAL BANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2820.TW",
+        "companyName": "CHINA BILLS FINANCE CORP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2823.TW",
+        "companyName": "CHINA LIFE INSURANCE (TW)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2834.TW",
+        "companyName": "TAIWAN BUSINESS BANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2836.TW",
+        "companyName": "BANK OF KAOHSIUNG LTD",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2838.TW",
+        "companyName": "UNION BANK OF TAIWAN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2841.TW",
+        "companyName": "TAIWAN LAND DEVELOPMENT CORPORA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2850.TW",
+        "companyName": "SHINKONG INSURANCE CO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2855.TW",
+        "companyName": "PRESIDENT SECURITIES",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2880.TW",
+        "companyName": "HUA NAN FINANCIAL HOLDINGS CO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2881.TW",
+        "companyName": "FUBON FINANCIAL HLDG CO LTD",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2881A.TW",
+        "companyName": "FUBON FINANCIAL HLDG CO LTD",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2881B.TW",
+        "companyName": "FUBON FINANCIAL HLDG CO LTD",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2882.TW",
+        "companyName": "CATHAY FINANCIAL HLDG CO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2883.TW",
+        "companyName": "CHINA DEVELOPMENT FINANCIAL HLD",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2884.TW",
+        "companyName": "E SUN FINANCIAL HOLDINGS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2885.TW",
+        "companyName": "YUANTA FINANCIAL HOLDING CO. LT",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2886.TW",
+        "companyName": "MEGA FINANCIAL HOLDING CO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2887.TW",
+        "companyName": "TAISHIN FINANCIAL HLDGS CO LTD",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2887F.TW",
+        "companyName": "TAISHIN FINANCIAL HLDGS CO LTD",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2888.TW",
+        "companyName": "SHIN KONG FINANCIAL HLDG CO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2888A.TW",
+        "companyName": "SHIN KONG FINANCIAL HLDG CO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2889.TW",
+        "companyName": "IBF FINANCIAL HOLDINGS CO LTD",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2890.TW",
+        "companyName": "SINOPAC FINANCIAL HLDGS CO LTD",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2891.TW",
+        "companyName": "CTBC FINANCIAL HOLDINGS COMPANY",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2891C.TW",
+        "companyName": "CTBC FINANCIAL HOLDINGS COMPANY",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2892.TW",
+        "companyName": "FIRST FINANCIAL HOLDING CO LTD",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2897.TW",
+        "companyName": "O-BANK CO LTD",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2897A.TW",
+        "companyName": "O-BANK CO LTD",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2903.TW",
+        "companyName": "FAR EASTERN DEPARTMENT STORES L",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2905.TW",
+        "companyName": "MERCURIES & ASSOCIATES HOLDING ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2910.TW",
+        "companyName": "TONLIN DEPARTMENT STORE CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2911.TW",
+        "companyName": "LES ENPHANTS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2912.TW",
+        "companyName": "PRESIDENT CHAIN STORE CORP",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2915.TW",
+        "companyName": "RUENTEX INDUSTRIES",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2929.TW",
+        "companyName": "TOPBI INTERNATIONAL HOLDINGS LT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2936.TW",
+        "companyName": "COASTER INTERNATIONAL CO LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "2939.TW",
+        "companyName": "KAYEE INTERNATIONAL GROUP CO LT",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3002.TW",
+        "companyName": "AHOKU ELECTRONIC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3003.TW",
+        "companyName": "KS TERMINALS INC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3004.TW",
+        "companyName": "NATIONAL AEROSPACE FASTENERS CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3005.TW",
+        "companyName": "GETAC TECHNOLOGY CORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3008.TW",
+        "companyName": "LARGAN PRECISION CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3010.TW",
+        "companyName": "WAH LEE INDUSTRIAL CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3011.TW",
+        "companyName": "JI-HAW INDUSTRIAL CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3016.TW",
+        "companyName": "EPISIL PRECISION INCORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3017.TW",
+        "companyName": "ASIA VITAL COMPONENTS CO LTD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3018.TW",
+        "companyName": "TUNG KAI TECHNOLOGY ENGINEERING",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3021.TW",
+        "companyName": "WELLTEND TECHNOLOGY CORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3024.TW",
+        "companyName": "ACTION ELECTRONICS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3026.TW",
+        "companyName": "HOLY STONE ENTERPRISE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3028.TW",
+        "companyName": "ZENITRON CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3029.TW",
+        "companyName": "ZERO ONE TECHNOLOGY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3030.TW",
+        "companyName": "TEST RESEARCH INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3031.TW",
+        "companyName": "BRIGHT LED ELECTRONICS CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3033.TW",
+        "companyName": "WEIKENG INDUSTRIAL CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3034.TW",
+        "companyName": "NOVATEK MICROELECTRONICS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3036.TW",
+        "companyName": "WT MICROELECTRONICS CO LTD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3037.TW",
+        "companyName": "UNIMICRON TECHNOLOGY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3038.TW",
+        "companyName": "EMERGING DISPLAY TECHNOLOGIES C",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3041.TW",
+        "companyName": "ALI CORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3043.TW",
+        "companyName": "POWERCOM CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3044.TW",
+        "companyName": "TRIPOD TECHNOLOGY CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3045.TW",
+        "companyName": "TAIWAN MOBILE CO",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3047.TW",
+        "companyName": "EDIMAX TECHNOLOGY CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3048.TW",
+        "companyName": "EDOM TECHNOLOGY CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3049.TW",
+        "companyName": "HANNSTOUCH SOLUTION INCORPORATE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3050.TW",
+        "companyName": "U-TECH MEDIA CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3052.TW",
+        "companyName": "APEX SCIENCE & ENGINEERING CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3056.TW",
+        "companyName": "ZONGTAI REAL ESTATE DEVELOPMENT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3057.TW",
+        "companyName": "PROMISE TECHNOLOGY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3058.TW",
+        "companyName": "LEADER ELECTRONICS INC (TW)",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3060.TW",
+        "companyName": "MIN AIK TECHNOLOGY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3130.TW",
+        "companyName": "104 CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3189.TW",
+        "companyName": "KINSUS INTERCONNECT TECHNOLOGY ",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3209.TW",
+        "companyName": "ALLTEK TECHNOLOGY CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3231.TW",
+        "companyName": "WISTRON CORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3296.TW",
+        "companyName": "POWERTECH INDUSTRIAL CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3312.TW",
+        "companyName": "G.M.I TECHNOLOGY INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3376.TW",
+        "companyName": "SHIN ZU SHING CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3380.TW",
+        "companyName": "ALPHA NETWORKS INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3383.TW",
+        "companyName": "GENESIS PHOTONICS INC.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3406.TW",
+        "companyName": "GENIUS ELECTRONIC OPTICAL CO.LT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3413.TW",
+        "companyName": "FOXSEMICON INTEGRATED TECHNOLOG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3416.TW",
+        "companyName": "WINMATE COMMUNICATION INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3419.TW",
+        "companyName": "WHA YU INDUSTRIAL CO. LTD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3443.TW",
+        "companyName": "GLOBAL UNICHIP CORP.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3454.TW",
+        "companyName": "VIVOTEK INC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3494.TW",
+        "companyName": "HITI DIGITAL INC.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3501.TW",
+        "companyName": "WELL SHIN TECHNOLOGY CO LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3504.TW",
+        "companyName": "YOUNG OPTICS INC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3515.TW",
+        "companyName": "ASROCK INCORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3528.TW",
+        "companyName": "ANSWER TECHNOLOGY CO. LTD.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3532.TW",
+        "companyName": "FORMOSA SUMCO TECHNOLOGY CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3557.TW",
+        "companyName": "JIA WEI LIFESTYLE INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3576.TW",
+        "companyName": "UNITED RENEWABLE ENERGY CO LTD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3596.TW",
+        "companyName": "ARCADYAN TECHNOLOGY CORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3605.TW",
+        "companyName": "ACES ELECTRONIC CO. LTD.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3617.TW",
+        "companyName": "CYBERPOWER SYSTEMS INC.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3622.TW",
+        "companyName": "YOUNG FAST OPTOELECTRONICS CO. ",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3653.TW",
+        "companyName": "JENTECH PRECISION INDUSTRIAL CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3661.TW",
+        "companyName": "ALCHIP TECHNOLOGIES LIMITD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3665.TW",
+        "companyName": "BIZLINK HOLDING INC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3673.TW",
+        "companyName": "TPK HOLDING CO LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3679.TW",
+        "companyName": "NISHOKU TECHNOLOGY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3682.TW",
+        "companyName": "ASIA PACIFIC TELECOM CO LTD",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3701.TW",
+        "companyName": "FIC GLOBAL INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3702.TW",
+        "companyName": "WPG HOLDINGS LIMITED",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3702A.TW",
+        "companyName": "WPG HOLDINGS LIMITED",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3703.TW",
+        "companyName": "CONTINENTAL HLDGS CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3704.TW",
+        "companyName": "UNIZYX HLDGS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3705.TW",
+        "companyName": "YUNGSHIN GLOBAL HOLDING CORPORA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "3711.TW",
+        "companyName": "ASE TECHNOLOGY HOLDING CO LTD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4104.TW",
+        "companyName": "EXCELSIOR MEDICAL CO LTD",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4106.TW",
+        "companyName": "APEX MEDICAL",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4108.TW",
+        "companyName": "PHYTOHEALTH CORP.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4137.TW",
+        "companyName": "CHLITINA HOLDING LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4141.TW",
+        "companyName": "ROTAM GLOBAL AGROSCIENCES LTD",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4142.TW",
+        "companyName": "ADIMMUNE CORPORATION",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4155.TW",
+        "companyName": "OK BIOTECH CO LTD",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4190.TW",
+        "companyName": "JOURDENESS GROUP LIMITED",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4306.TW",
+        "companyName": "YEM CHIO CO LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4414.TW",
+        "companyName": "ROO HSING CO. LTD.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4426.TW",
+        "companyName": "LI CHENG ENTERPRISE CO. LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4438.TW",
+        "companyName": "QUANG VIET ENTERPRISE CO LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4439.TW",
+        "companyName": "TST GROUP HOLDING LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4526.TW",
+        "companyName": "TONG-TAI MACHINE TOOL CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4540.TW",
+        "companyName": "TBI MOTION TECHNOLOGY CO LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4551.TW",
+        "companyName": "GLOBAL PMX CO LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4557.TW",
+        "companyName": "YUSIN HOLDING CORP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4560.TW",
+        "companyName": "STRONG H MACHINERY TECHNOLOGY (",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4562.TW",
+        "companyName": "YING HAN TECHNOLOGY CO LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4581.TW",
+        "companyName": "WORLD KNOWN MFG (CAYMAN) LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4720.TW",
+        "companyName": "TEX YEAR INDUSTRIES",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4722.TW",
+        "companyName": "QUALIPOLY CHEMICAL CORP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4725.TW",
+        "companyName": "TAIWAN PROSPERITY CHEMICAL CORP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4746.TW",
+        "companyName": "FORMOSA LABORATORIES INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4763.TW",
+        "companyName": "JINAN ACETATE CHEMICAL CO.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4764.TW",
+        "companyName": "DOUBLE BOND CHEMICAL IND CO LTD",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4766.TW",
+        "companyName": "NAN PAO RESINS CHEMICAL CO LTD",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4904.TW",
+        "companyName": "FAR EASTONE TELECOMMUNICATIONS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4906.TW",
+        "companyName": "GEMTEK TECHNOLOGY CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4912.TW",
+        "companyName": "LEMTECH HOLDINGS CO LIMITED",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4915.TW",
+        "companyName": "PRIMAX ELECTRONICS LTD(NEW)",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4927.TW",
+        "companyName": "APEX INTERNATIONAL CO LTD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4935.TW",
+        "companyName": "GLOBAL LIGHTING TECHNOLOGIES IN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4938.TW",
+        "companyName": "PEGATRON CORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4952.TW",
+        "companyName": "GENERALPLUS TECHNOLOGY INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4956.TW",
+        "companyName": "EPILEDS TECHNOLOGIES INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4958.TW",
+        "companyName": "ZHEN DING TECHNOLOGY HOLDING LT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4960.TW",
+        "companyName": "CHENG MEI MATERIALS TECHNOLOGY ",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4961.TW",
+        "companyName": "FITIPOWER INTEGRATED TECHNOLOGY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4967.TW",
+        "companyName": "TEAM GROUP INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4968.TW",
+        "companyName": "RICHWAVE TECHNOLOGY CORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "4994.TW",
+        "companyName": "X-LEGEND ENTERTAINMENT CO LTD",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "5215.TW",
+        "companyName": "KO JA (CAYMAN) CO LTD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "5243.TW",
+        "companyName": "ESON PRECISION IND CO LTD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "5264.TW",
+        "companyName": "CASETEK HOLDINGS LTD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "5269.TW",
+        "companyName": "ASMEDIA TECHNOLOGY INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "5284.TW",
+        "companyName": "JPP HOLDING COMPANY LIMITED",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "5285.TW",
+        "companyName": "JIH LIN TECHNOLOGY CO LTD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "5288.TW",
+        "companyName": "EUROCHARM HOLDINGS CO LTD(TW)",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "5471.TW",
+        "companyName": "SONIX TECHNOLOGY CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "5515.TW",
+        "companyName": "CHIEN KUO CONSTRUCTION CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "5519.TW",
+        "companyName": "LONGDA CONSTRUCTION & DEVELOPME",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "5521.TW",
+        "companyName": "KUNG SING ENGINEERING",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "5522.TW",
+        "companyName": "FARGLORY LAND DEVELOPMENT CO. L",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "5525.TW",
+        "companyName": "SWEETEN REAL ESTATE DEVELOPMENT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "5534.TW",
+        "companyName": "CHONG HONG CONSTRUCTION CO",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "5538.TW",
+        "companyName": "TONG MING ENTERPRISE CO LTD",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "5607.TW",
+        "companyName": "FARGLORY FREE TRADE ZONE INVEST",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "5608.TW",
+        "companyName": "SHIH WEI NAVIGATION",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "5871.TW",
+        "companyName": "CHAILEASE HOLDING COMPANY LIMIT",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "5876.TW",
+        "companyName": "THE SHANGHAI COMM & SAVINGS BAN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "5880.TW",
+        "companyName": "TAIWAN COOPERATIVE FINANCIAL HL",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "5907.TW",
+        "companyName": "GRAND OCEAN RETAIL GROUP LIMITE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6108.TW",
+        "companyName": "APCB INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6115.TW",
+        "companyName": "I-SHENG ELECTRIC WIRE & CABLE C",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6116.TW",
+        "companyName": "HANNSTAR DISPLAY CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6117.TW",
+        "companyName": "IN-WIN DEVELOPMENT INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6120.TW",
+        "companyName": "DARWIN PRECISIONS CORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6128.TW",
+        "companyName": "GENERAL PLASTIC INDUSTRIAL CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6131.TW",
+        "companyName": "JUNTAI INTERNATIONAL CO LTD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6133.TW",
+        "companyName": "GOLDEN BRIDGE ELECTECH INC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6139.TW",
+        "companyName": "L&K ENGINEERING CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6152.TW",
+        "companyName": "PRIME ELECTRONICS&SATELLITICS I",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6153.TW",
+        "companyName": "CAREER TECHNOLOGY CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6155.TW",
+        "companyName": "KINGCORE ELECTRONICS INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6164.TW",
+        "companyName": "LEDTECH ELECTRONICS CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6166.TW",
+        "companyName": "ADLINK TECHNOLOGY INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6176.TW",
+        "companyName": "RADIANT OPTO-ELECTRONICS CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6177.TW",
+        "companyName": "DA-LI CONSTRUCTION CO. LTD.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6184.TW",
+        "companyName": "DAFENG TV LIMITED",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6192.TW",
+        "companyName": "LUMAX INTERNATIONAL CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6196.TW",
+        "companyName": "MARKETECH INTERNATIONAL CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6197.TW",
+        "companyName": "JESS-LINK PRODUCTS CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6201.TW",
+        "companyName": "YA HORNG ELECTRONI",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6202.TW",
+        "companyName": "HOLTEK SEMICONDUCTOR INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6209.TW",
+        "companyName": "KINKO OPTICAL CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6215.TW",
+        "companyName": "AUROTEK CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6216.TW",
+        "companyName": "DRAYTEK CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6226.TW",
+        "companyName": "PARA LIGHT ELECTRONICS CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6235.TW",
+        "companyName": "WAFFER TECHNOLOGY CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6239.TW",
+        "companyName": "POWERTECH TECHNOLOGY INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6251.TW",
+        "companyName": "DYNAMIC ELECTRONICS CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6278.TW",
+        "companyName": "TAIWAN SURFACE MOUNTING TECHNOL",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6281.TW",
+        "companyName": "E-LIFE MALL CORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6282.TW",
+        "companyName": "ACBEL POLYTECH INC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6285.TW",
+        "companyName": "WISTRON NEWEB CORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6409.TW",
+        "companyName": "VOLTRONIC POWER TECHNOLOGY CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6414.TW",
+        "companyName": "ENNOCONN CORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6431.TW",
+        "companyName": "KUANGLI PHOTOELECTRIC TECHNOLOG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6451.TW",
+        "companyName": "SHUNSIN TECHNOLOGY HOLDINGS LTD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6452.TW",
+        "companyName": "PHARMALLY INTERNATIONAL HOLDING",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6456.TW",
+        "companyName": "GENERAL INTERFACE SOLUTION HOLD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6504.TW",
+        "companyName": "NAN LIU ENTERPRISE CO LTD",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6505.TW",
+        "companyName": "FORMOSA PETROCHEMICAL CORPORATI",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6531.TW",
+        "companyName": "AP MEMORY TECHNOLOGY CORPORATIO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6533.TW",
+        "companyName": "ANDES TECHNOLOGY CORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6541.TW",
+        "companyName": "TANVEX BIOPHARMA INC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6579.TW",
+        "companyName": "AAEON TECHNOLOGY INC.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6591.TW",
+        "companyName": "SUN MAX TECH LIMITED",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6592.TW",
+        "companyName": "HOTAI FINANCE CO LTD",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6625.TW",
+        "companyName": "B'IN LIVE CO LTD",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6641.TW",
+        "companyName": "GSD TECHNOLOGIES CO LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6655.TW",
+        "companyName": "KEDING ENTERPRISES CO LTD",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6666.TW",
+        "companyName": "LUO LIH FEN HOLDING CO LTD",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6668.TW",
+        "companyName": "ZHONG YANG TECHNOLOGY CO LTD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6669.TW",
+        "companyName": "WIWYNN CORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6670.TW",
+        "companyName": "FUSHENG PRECISION CO LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6671.TW",
+        "companyName": "SAN NENG GROUP HOLDINGS CO LTD",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6672.TW",
+        "companyName": "VENTEC INTERNATIONAL GROUP CO L",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6674.TW",
+        "companyName": "COMPAL BROADBAND NETWORKS INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6698.TW",
+        "companyName": "FINEMAT APPLIED MATERIALS CO LT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "6706.TW",
+        "companyName": "FITTECH CO LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8016.TW",
+        "companyName": "SITRONIX TECHNOLOGY CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8033.TW",
+        "companyName": "THUNDER TIGER CORP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8046.TW",
+        "companyName": "NAN YA PRINTED CIRCUIT BOARD CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8070.TW",
+        "companyName": "CHANG WAH ELECTROMATERIALS INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8081.TW",
+        "companyName": "GLOBAL MIXED-MODE TECHNOLOGY IN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8110.TW",
+        "companyName": "WALTON ADVANCED ENGINEERING INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8112.TW",
+        "companyName": "SUPREME ELECTRONICS CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8114.TW",
+        "companyName": "POSIFLEX TECHNOLOGIES INC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8131.TW",
+        "companyName": "FORMOSA ADVANCED TECHNOLOGIES",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8150.TW",
+        "companyName": "CHIPMOS TECHNOLOGIES INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8163.TW",
+        "companyName": "DARFON ELECTRONICS CORP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8201.TW",
+        "companyName": "INVENTEC BESTA CO. LTD.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8210.TW",
+        "companyName": "CHENBRO MICOM CO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8222.TW",
+        "companyName": "AERO WIN TECHNOLOGY CORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8271.TW",
+        "companyName": "APACER TECHNOLOGY INC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8341.TW",
+        "companyName": "SUNNY FRIEND ENVIRONMENTAL TECH",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8367.TW",
+        "companyName": "CHIEN SHING HARBOUR SERVICE CO ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8422.TW",
+        "companyName": "CLEANAWAY COMPANY LIMITED",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8427.TW",
+        "companyName": "KEYSHEEN (CAYMAN) HOLDINGS CO L",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8429.TW",
+        "companyName": "JINLI GROUP HOLDINGS LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8443.TW",
+        "companyName": "SHUI-MU INTERNATIONAL CO LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8454.TW",
+        "companyName": "MOMO COM INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8462.TW",
+        "companyName": "POWER WIND HEALTH INDUSTRY INCO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8464.TW",
+        "companyName": "NIEN MADE ENTERPRISE CO LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8466.TW",
+        "companyName": "MJ INTERNATIONAL CO LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8467.TW",
+        "companyName": "BONNY WORLDWIDE LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8473.TW",
+        "companyName": "FOREST WATER ENVIRONMENTAL ENG'",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8478.TW",
+        "companyName": "ALEXANDER MARINE CO LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8480.TW",
+        "companyName": "TAISUN INT.L (HOLDING) CO",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8481.TW",
+        "companyName": "TRANSART GRAPHICS CO LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8482.TW",
+        "companyName": "SHANE GLOBAL HOLDING INC",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8488.TW",
+        "companyName": "JIYUAN PACKAGING HOLDINGS LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8926.TW",
+        "companyName": "TAIWAN COGENERATION CORP",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "8996.TW",
+        "companyName": "KAORI HEAT TREATMENT CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9103.TW",
+        "companyName": "MEDTECS INTERNATIONAL CORP",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "910322.TW",
+        "companyName": "TINGYI(CAYMAN ISLANDS)HLDG CORP",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "910482.TW",
+        "companyName": "SANDMARTIN INTERNATIONAL HLDGS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9105.TW",
+        "companyName": "CAL-COMP ELECTRONICS(THAILAND)",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "910861.TW",
+        "companyName": "DIGITAL CHINA HLDGS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9110.TW",
+        "companyName": "VIETNAM MANUFACTURING & EXPORT ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "911616.TW",
+        "companyName": "DUKANG DISTILLERS HOLDINGS LIMI",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "911622.TW",
+        "companyName": "TYCOONS WORLDWIDE GROUP(THAI)",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "911868.TW",
+        "companyName": "NEO-NEON HOLDINGS LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9136.TW",
+        "companyName": "JU TENG INTERNATIONAL HOLDING L",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9904.TW",
+        "companyName": "POU CHEN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9906.TW",
+        "companyName": "HSIN BA BA CORPORATION",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9907.TW",
+        "companyName": "TON YI INDUSTRIAL CORP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9910.TW",
+        "companyName": "FENG TAY ENTERPRISE CO LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9911.TW",
+        "companyName": "TAIWAN SAKURA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9914.TW",
+        "companyName": "MERIDA INDUSTRY",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9917.TW",
+        "companyName": "TAIWAN SECOM CO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9919.TW",
+        "companyName": "KNH ENTERPRISE CO LTD",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9921.TW",
+        "companyName": "GIANT MANUFACTURING CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9925.TW",
+        "companyName": "TAIWAN SHIN KONG SECURITY CO LT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9926.TW",
+        "companyName": "SHIN HAI GAS CORPORATION",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9931.TW",
+        "companyName": "SHIN KAO GAS",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9937.TW",
+        "companyName": "NATIONAL PETROLEUM CO",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9939.TW",
+        "companyName": "TAIWAN HON CHUAN ENTERPRISE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9941.TW",
+        "companyName": "YULON FINANCE CORPORATION",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9941A.TW",
+        "companyName": "YULON FINANCE CORPORATION",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9943.TW",
+        "companyName": "HOLIDAY ENTERTAINMENT CO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9945.TW",
+        "companyName": "RUENTEX DEVELOPMENT CO LTD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "TAI",
+        "symbol": "9955.TW",
+        "companyName": "SUPER DRAGON TECHNOLOGY CO",
+        "industryOrCategory": "Industrials"
+    }
+]

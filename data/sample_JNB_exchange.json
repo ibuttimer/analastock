@@ -1,0 +1,2090 @@
+[
+    {
+        "exchangeCode": "JNB",
+        "symbol": "4SI.JO",
+        "companyName": "4Sight Holdings Ltd",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ABG.JO",
+        "companyName": "Absa Group Limited",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ABSP.JO",
+        "companyName": "ABSA Bank Ltd Pref",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ACG.JO",
+        "companyName": "Anchor Group Limited",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ACL.JO",
+        "companyName": "ArcelorMittal SA Limited",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ACT.JO",
+        "companyName": "AfroCentric Inv Corp Ltd",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ADH.JO",
+        "companyName": "ADvTECH Ltd",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ADI.JO",
+        "companyName": "Adapt IT Holdings Ltd",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ADR.JO",
+        "companyName": "Adcorp Holdings Limited",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "AEE.JO",
+        "companyName": "African Equity Emp Inv Ltd",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "AEG.JO",
+        "companyName": "Aveng Group Limited",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "AEL.JO",
+        "companyName": "Allied Electronics Corp A",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "AFE.JO",
+        "companyName": "AECI Limited",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "AFEP.JO",
+        "companyName": "AECI Limited 5,5% Pref",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "AFH.JO",
+        "companyName": "Alexander Forbes Grp Hldgs",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "AFT.JO",
+        "companyName": "Afrimat Limited",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "AFX.JO",
+        "companyName": "African Oxygen Limited",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "AGL.JO",
+        "companyName": "Anglo American plc",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "AHA.JO",
+        "companyName": "Arrowhead Prop Ltd A",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "AHL.JO",
+        "companyName": "AH-Vest Limited",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "AIL.JO",
+        "companyName": "African Rainbow Cap Inv",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "AIP.JO",
+        "companyName": "Adcock Ingram Hldgs Ltd",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ALH.JO",
+        "companyName": "Alaris Holdings Ltd",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ALP.JO",
+        "companyName": "Atlantic Leaf Prop Ltd",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "AMS.JO",
+        "companyName": "Anglo American Plat Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "AND.JO",
+        "companyName": "Andulela Inv Hldgs Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ANG.JO",
+        "companyName": "Anglogold Ashanti Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ANH.JO",
+        "companyName": "Anheuser-Busch InBev SA NV",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "APF.JO",
+        "companyName": "Accelerate Prop Fund Ltd",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "APN.JO",
+        "companyName": "Aspen Pharmacare Hldgs Ltd",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ARH.JO",
+        "companyName": "ARB Holdings Limited",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ARI.JO",
+        "companyName": "African Rainbow Min Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ARL.JO",
+        "companyName": "Astral Foods Ltd",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ART.JO",
+        "companyName": "Argent Industrial Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ASC.JO",
+        "companyName": "Ascendis Health Ltd",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ASHGEQ.JO",
+        "companyName": "Ashburton Gbl 1200Eq ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ASHMID.JO",
+        "companyName": "Ashburton Mid Cap ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ASHT40.JO",
+        "companyName": "Ashburton Top 40 ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ASHWGB.JO",
+        "companyName": "Ashburton World GovB ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ASR.JO",
+        "companyName": "Assore Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ATT.JO",
+        "companyName": "Attacq Limited",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "AVI.JO",
+        "companyName": "AVI Ltd",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "AVL.JO",
+        "companyName": "Advanced Health Ltd",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "AVV.JO",
+        "companyName": "Alviva Holdings Ltd",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "AXL.JO",
+        "companyName": "African Phoenix Inv Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "BAT.JO",
+        "companyName": "Brait SE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "BAW.JO",
+        "companyName": "Barloworld Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "BCF.JO",
+        "companyName": "Bowler Metcalf Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "BEL.JO",
+        "companyName": "Bell Equipment Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "BHP.JO",
+        "companyName": "BHP Group Plc",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "BID.JO",
+        "companyName": "BID Corporation Ltd",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "BLU.JO",
+        "companyName": "Blue Label Telecoms Ltd",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "BRN.JO",
+        "companyName": "Brimstone Inv Corp Ltd-N",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "BTI.JO",
+        "companyName": "British American Tob plc",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "BVT.JO",
+        "companyName": "Bidvest Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "BWN.JO",
+        "companyName": "Balwin Properties Ltd",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "CAT.JO",
+        "companyName": "Caxton CTP Publish Print",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "CCO.JO",
+        "companyName": "Capital&Counties Prop plc",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "CFR.JO",
+        "companyName": "Compagnie Fin Richemont",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "CGR.JO",
+        "companyName": "Calgro M3 Hldgs Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "CIL.JO",
+        "companyName": "Cons Infrastructure Grp Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "CKS.JO",
+        "companyName": "Crookes Brothers Ltd",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "CLH.JO",
+        "companyName": "City Lodge Hotels Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "CLI.JO",
+        "companyName": "Clientele Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "CLS.JO",
+        "companyName": "Clicks Group Ltd",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "CMH.JO",
+        "companyName": "Combined Motor Hldgs Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "CML.JO",
+        "companyName": "Coronation Fund Mngrs Ld",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "CMO.JO",
+        "companyName": "Chrometco Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "CND.JO",
+        "companyName": "Conduit Capital Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "COH.JO",
+        "companyName": "Curro Holdings Limited",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "COM.JO",
+        "companyName": "Comair Limited",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "CPI.JO",
+        "companyName": "Capitec Bank Hldgs Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "CPIP.JO",
+        "companyName": "Capitec Bank Hldgs Pref",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "CRP.JO",
+        "companyName": "Capital & Regional Plc",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "CSB.JO",
+        "companyName": "Cashbuild Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "CSG.JO",
+        "companyName": "CSG Holdings Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "CSP500.JO",
+        "companyName": "CoreShares S&P 500",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "CTA.JO",
+        "companyName": "CAPITAL APPRECIATION LTD",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "CTK.JO",
+        "companyName": "Cartrack Holdings Ltd",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "DCCUS2.JO",
+        "companyName": "2YR Dollar Custodial Cert",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "DCCUSD.JO",
+        "companyName": "Dollar Custodial Cert",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "DCP.JO",
+        "companyName": "Dis-Chem Pharmacies Ltd",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "DGH.JO",
+        "companyName": "Distell Group Hldgs Ltd",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "DIB.JO",
+        "companyName": "Dipula Income Fund B",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "DIVTRX.JO",
+        "companyName": "CoreShares DivTrax",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "DLT.JO",
+        "companyName": "Delta Property Fund Ltd",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "DRD.JO",
+        "companyName": "DRD Gold Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "DSBP.JO",
+        "companyName": "Discovery Ltd B pref",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "DSY.JO",
+        "companyName": "Discovery Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "DTC.JO",
+        "companyName": "Datatec Ltd",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ECS.JO",
+        "companyName": "Ecsponent Limited",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "EEL.JO",
+        "companyName": "Efora Energy Limited",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "EFG.JO",
+        "companyName": "Efficient Group Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ELI.JO",
+        "companyName": "Ellies Holdings Ltd",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ELR.JO",
+        "companyName": "ELB Group Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "EMH.JO",
+        "companyName": "E Media Holdings Ltd",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "EMI.JO",
+        "companyName": "Emira Property Fund Ltd",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ENX.JO",
+        "companyName": "enX Group LImited",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "EOH.JO",
+        "companyName": "EOH Holdings Ltd",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "EPE.JO",
+        "companyName": "EPE Capital Partners Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "EPP.JO",
+        "companyName": "EPP N.V.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "EQU.JO",
+        "companyName": "Equites Prop Fund Ltd",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ETF500.JO",
+        "companyName": "1NVEST S&P500 INDEX ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ETF5IT.JO",
+        "companyName": "1nvest S&P500 IT ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ETFBND.JO",
+        "companyName": "1nvest SA Bond ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ETFGGB.JO",
+        "companyName": "1nvest G7 Govt Bond ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ETFGLD.JO",
+        "companyName": "1nvestGold ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ETFGRE.JO",
+        "companyName": "1nvest Global REIT ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ETFPLD.JO",
+        "companyName": "1nvestPalladium ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ETFPLT.JO",
+        "companyName": "1nvestPlatinum ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ETFRHO.JO",
+        "companyName": "1nvestRhodium ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ETFSAP.JO",
+        "companyName": "1nvest SA Property ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ETFSWX.JO",
+        "companyName": "1nvest SWIX 40 ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ETFT40.JO",
+        "companyName": "1nvest TOP 40 ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ETFWLD.JO",
+        "companyName": "1nvest MSCI World ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ETO.JO",
+        "companyName": "Etion Limited",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "EUZ.JO",
+        "companyName": "Europa Metals Limited",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "EXX.JO",
+        "companyName": "Exxaro Resources Ltd",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "FBR.JO",
+        "companyName": "Famous Brands Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "FFA.JO",
+        "companyName": "Fortress REIT Ltd A",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "FFB.JO",
+        "companyName": "Fortress REIT Ltd B",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "FGL.JO",
+        "companyName": "Finbond Group Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "FSR.JO",
+        "companyName": "Firstrand Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "FSRP.JO",
+        "companyName": "Firstrand Ltd B Pref",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "FVT.JO",
+        "companyName": "Fairvest Property Hldgs",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "GAI.JO",
+        "companyName": "Gaia Infrastruct Cap Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "GFI.JO",
+        "companyName": "Gold Fields Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "GLD.JO",
+        "companyName": "New Gold Issuer Ltd",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "GLN.JO",
+        "companyName": "Glencore plc",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "GLODIV.JO",
+        "companyName": "CoreShares GlobalDivTrax",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "GML.JO",
+        "companyName": "Gemfields Group Limited",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "GND.JO",
+        "companyName": "Grindrod Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "GPL.JO",
+        "companyName": "Grand Parade Inv Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "GRT.JO",
+        "companyName": "Growthpoint Prop Ltd",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "GSH.JO",
+        "companyName": "Grindrod Shipping Hldg Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "GTR.JO",
+        "companyName": "Grit Real Estate Inc Grp",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "HAR.JO",
+        "companyName": "Harmony GM Co Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "HCI.JO",
+        "companyName": "Hosken Cons Inv Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "HDC.JO",
+        "companyName": "Hudaco Industries Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "HIL.JO",
+        "companyName": "Homechoice Int plc",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "HLM.JO",
+        "companyName": "Hulamin Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "HMN.JO",
+        "companyName": "Hammerson plc",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "HPB.JO",
+        "companyName": "Hospitality Prop Fund B",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "HUG.JO",
+        "companyName": "Huge Group Ltd",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "HUL.JO",
+        "companyName": "Hulisani Limited",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "HYP.JO",
+        "companyName": "Hyprop Inv Ltd",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "IAP.JO",
+        "companyName": "Investec Australia Prop Fd",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "IBRP1.JO",
+        "companyName": "IB REDEEMABLEPREF1 MAR21",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "IDQ.JO",
+        "companyName": "Indequity Group Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ILE.JO",
+        "companyName": "Imbalie Beauty Limited",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ILU.JO",
+        "companyName": "Indluplace Properties Ltd",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "IMP.JO",
+        "companyName": "Impala Platinum Hlgs Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "INL.JO",
+        "companyName": "Investec Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "INLP.JO",
+        "companyName": "Investec Bank Ltd Pref",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "INP.JO",
+        "companyName": "Investec plc",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "INPPR.JO",
+        "companyName": "Investec plc Pref (Rand)",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "INPR.JO",
+        "companyName": "Investec Ltd Pref",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "IPF.JO",
+        "companyName": "Investec Property Fund Ltd",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "IPL.JO",
+        "companyName": "Imperial Logistics Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ISA.JO",
+        "companyName": "ISA Holdings Limited",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ISB.JO",
+        "companyName": "Insimbi Ind Hldgs Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ITE.JO",
+        "companyName": "Italtile Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ITU.JO",
+        "companyName": "Intu Properties plc",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "IVT.JO",
+        "companyName": "Invicta Holdings Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "JBL.JO",
+        "companyName": "Jubilee Metals Group plc",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "JSE.JO",
+        "companyName": "JSE Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "KAL.JO",
+        "companyName": "Kaap Agri Limited",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "KAP.JO",
+        "companyName": "KAP Industrial Hldgs Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "KBO.JO",
+        "companyName": "Kibo Energy plc",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "KCCGLD.JO",
+        "companyName": "KR Custodial Certificate",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "KDV.JO",
+        "companyName": "Kaydav Group Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "KIO.JO",
+        "companyName": "Kumba Iron Ore Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "KP2.JO",
+        "companyName": "Kore Potash plc",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "KST.JO",
+        "companyName": "PSG Konsult Limited",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "L2D.JO",
+        "companyName": "Liberty Two Degrees LTD",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "L4L.JO",
+        "companyName": "Long 4 Life Limited",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "LAB.JO",
+        "companyName": "Labat Africa Ltd",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "LBH.JO",
+        "companyName": "Liberty Holdings Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "LBR.JO",
+        "companyName": "Libstar Holdings Ltd",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "LEW.JO",
+        "companyName": "Lewis Group Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "LHC.JO",
+        "companyName": "Life Healthc Grp Hldgs Ltd",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MAPPSP.JO",
+        "companyName": "Newfunds MAPPS Protect",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MCG.JO",
+        "companyName": "MultiChoice Group Ltd",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MCZ.JO",
+        "companyName": "MC Mining Limited",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MDI.JO",
+        "companyName": "Master Drilling Grp Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MEI.JO",
+        "companyName": "Mediclinic Int plc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MFL.JO",
+        "companyName": "Metrofile Holdings Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MIX.JO",
+        "companyName": "Mix Telematics Ltd",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MLE.JO",
+        "companyName": "Mettle Investments Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MMP.JO",
+        "companyName": "Marshall Monteagle plc",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MNK.JO",
+        "companyName": "Montauk Holdings Ltd",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MNP.JO",
+        "companyName": "Mondi plc",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MPT.JO",
+        "companyName": "Mpact Limited",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MRF.JO",
+        "companyName": "Merafe Resources Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MRP.JO",
+        "companyName": "Mr Price Group Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MSM.JO",
+        "companyName": "Massmart Holdings Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MSP.JO",
+        "companyName": "MAS Real Estate Inc.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MST.JO",
+        "companyName": "Mustek Ltd",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MTA.JO",
+        "companyName": "Metair Investments Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MTH.JO",
+        "companyName": "Motus Holdings Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MTM.JO",
+        "companyName": "Momentum Met Hldgs Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MTN.JO",
+        "companyName": "MTN Group Ltd",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MTNZF.JO",
+        "companyName": "MTN Zakhele Futhi",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "MUR.JO",
+        "companyName": "Murray & Roberts Hldgs",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NBKP.JO",
+        "companyName": "Nedbank Ltd Pref",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NED.JO",
+        "companyName": "Nedbank Group Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NEWEUR.JO",
+        "companyName": "NEWWAVE EURO ETN 12MAR42",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NEWGBP.JO",
+        "companyName": "NEWWAVE GBP ETN 12MAR42",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NEWPLT.JO",
+        "companyName": "NEWWAVE PLAT ETN 12MAR42",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NEWSLV.JO",
+        "companyName": "NEWWAVE SLV ETN 12MAR42",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NEWUSD.JO",
+        "companyName": "NEWWAVE USD ETN 12MAR42",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NFEDEF.JO",
+        "companyName": "NF VM Defensive EquityETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NFEHGE.JO",
+        "companyName": "NF VM High Growth EQETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NFEMOD.JO",
+        "companyName": "NF VM Moderate Equity ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NFEMOM.JO",
+        "companyName": "NEWFUNDS EQUITY MOM ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NFEVAL.JO",
+        "companyName": "NF Equity Value ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NFEVOL.JO",
+        "companyName": "NF Low Volatility ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NFGOVI.JO",
+        "companyName": "NEWFUNDS GOVI ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NFNAMB.JO",
+        "companyName": "NFNAM 10 Bonds",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NFP.JO",
+        "companyName": "New Frontier Prop Ltd",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NFTRCI.JO",
+        "companyName": "NEWFUNDS TRACI 3-M ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NGPLD.JO",
+        "companyName": "NewGold Palladium ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NGPLT.JO",
+        "companyName": "New Gold Platinum ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NHM.JO",
+        "companyName": "Northam Platinum Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NPK.JO",
+        "companyName": "Nampak Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NPN.JO",
+        "companyName": "Naspers Ltd -N-",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NRP.JO",
+        "companyName": "NEPI Rockcastle Plc",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NT1.JO",
+        "companyName": "Net 1 UEPS Tech Inc",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NTC.JO",
+        "companyName": "Netcare Limited",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NTCP.JO",
+        "companyName": "Netcare Limited Pref",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NUT.JO",
+        "companyName": "Nutritional Holdings Ltd",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NVE.JO",
+        "companyName": "NVest Financial Hldgs Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NVS.JO",
+        "companyName": "Novus Holdings Limited",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "NWL.JO",
+        "companyName": "Nu-World Hldgs Ltd",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "OAO.JO",
+        "companyName": "Oando plc",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "OAS.JO",
+        "companyName": "Oasis Crescent Prop Fund",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "OCE.JO",
+        "companyName": "Oceana Group Ltd",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "OCT.JO",
+        "companyName": "Octodec Invest Ltd",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "OLG.JO",
+        "companyName": "Onelogix Group Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "OMN.JO",
+        "companyName": "Omnia Holdings Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "OMU.JO",
+        "companyName": "Old Mutual Limited",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ORN.JO",
+        "companyName": "Orion Minerals Limited",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "PEM.JO",
+        "companyName": "Pembury Lifestyle Grp Lt",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "PFG.JO",
+        "companyName": "Pioneer Foods Group Ltd",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "PGR.JO",
+        "companyName": "Peregrine Holdings Limited",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "PHM.JO",
+        "companyName": "Phumelela Game Leisure",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "PIK.JO",
+        "companyName": "Pick n Pay Stores Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "PMV.JO",
+        "companyName": "Primeserv Group Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "PPC.JO",
+        "companyName": "PPC Limited",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "PPH.JO",
+        "companyName": "Pepkor Holdings Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "PPR.JO",
+        "companyName": "Putprop Ltd",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "PRX.JO",
+        "companyName": "Prosus N.V.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "PSG.JO",
+        "companyName": "PSG Group Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "QFH.JO",
+        "companyName": "Quantum Foods Hldgs Ltd",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "QLT.JO",
+        "companyName": "Quilter Plc",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "RCL.JO",
+        "companyName": "RCL Foods Limited",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "RDF.JO",
+        "companyName": "Redefine Properties Ltd",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "REM.JO",
+        "companyName": "Remgro Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "REN.JO",
+        "companyName": "Renergen Limited",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "RFG.JO",
+        "companyName": "Rhodes Food Grp Hldg Ltd",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "RLO.JO",
+        "companyName": "Reunert Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "RMH.JO",
+        "companyName": "RMB Holdings Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "RMI.JO",
+        "companyName": "Rand Merchant Inv Hldgs Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "RNI.JO",
+        "companyName": "Reinet Investments S.C.A",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "RPL.JO",
+        "companyName": "RDI REIT P.L.C",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "S32.JO",
+        "companyName": "South32 Limited",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SAC.JO",
+        "companyName": "SA Corp Real Estate Ltd",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SAP.JO",
+        "companyName": "Sappi Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SBAG1.JO",
+        "companyName": "Gold Commodity-Linker ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SBAOIL.JO",
+        "companyName": "SB WTI Oil ETN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SBAPD1.JO",
+        "companyName": "PaladiumCommodity-Linker",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SBAPL1.JO",
+        "companyName": "PlatinumCommodity-Linker",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SBK.JO",
+        "companyName": "Standard Bank Group Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SBKP.JO",
+        "companyName": "Std Bank Group 6,5%Pref",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SBPP.JO",
+        "companyName": "Standard Bank Group Pref",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SCP.JO",
+        "companyName": "Stellar Cap Partners Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SDO.JO",
+        "companyName": "Stadio Holdings Limited",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SEA.JO",
+        "companyName": "Spear REIT Limited",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SEP.JO",
+        "companyName": "Sephaku Holdings Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SFN.JO",
+        "companyName": "Sasfin Holdings Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SFNP.JO",
+        "companyName": "Sasfin Hldgs Ltd Pref",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SHG.JO",
+        "companyName": "Sea Harvest Group Ltd",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SHP.JO",
+        "companyName": "Shoprite Holdings Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SLM.JO",
+        "companyName": "Sanlam Limited",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SMART.JO",
+        "companyName": "CoreShares SciBeta M-FI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SNH.JO",
+        "companyName": "Steinhoff Int Hldgs N.V.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SNV.JO",
+        "companyName": "Santova Logistics Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SOL.JO",
+        "companyName": "Sasol Limited",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SOLBE1.JO",
+        "companyName": "BEE - Sasol Limited",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SPA.JO",
+        "companyName": "Spanjaard Limited",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SPG.JO",
+        "companyName": "Super Group Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SPP.JO",
+        "companyName": "The Spar Group Ltd",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SSK.JO",
+        "companyName": "Stefanuti Stck Hldgs Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SSS.JO",
+        "companyName": "Stor-Age Prop REIT Ltd",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SSW.JO",
+        "companyName": "Sibanye Stillwater Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "STX40.JO",
+        "companyName": "Satrix 40 Portfolio",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "STX500.JO",
+        "companyName": "Satrix S&P 500 Feeder",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "STXEMG.JO",
+        "companyName": "Satrix MSCI EMG Markets",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "STXFIN.JO",
+        "companyName": "Satrix FINI Portfolio",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "STXIND.JO",
+        "companyName": "Satrix INDI Portfolio",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "STXMMT.JO",
+        "companyName": "Satrix Momentum Portfolio",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "STXNDQ.JO",
+        "companyName": "Satrix Nasdaq 100 Prtf",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "STXPRO.JO",
+        "companyName": "Satrix Property Portfolio",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "STXQUA.JO",
+        "companyName": "Satrix Quality SA Port",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "STXRAF.JO",
+        "companyName": "Satrix RAFI 40 Portfolio",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "STXRES.JO",
+        "companyName": "Satrix RESI Portfolio",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "STXSWX.JO",
+        "companyName": "Satrix SWIX Top 40 Portfolio",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "STXWDM.JO",
+        "companyName": "Satrix MSCI World Feeder",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SVN.JO",
+        "companyName": "Sabvest Ltd -N-",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SYG4IR.JO",
+        "companyName": "Sygnia Itrix 4Ind Rev Gb",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SYG500.JO",
+        "companyName": "Sygnia Itrix S&P 500 ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SYGEU.JO",
+        "companyName": "SYGNIA ITRIX EUROSTOXX50",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SYGJP.JO",
+        "companyName": "SYGNIA ITRIX MSCI JAPAN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SYGP.JO",
+        "companyName": "Sygnia Itrix Gbl Pro ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SYGT40.JO",
+        "companyName": "Sygnia Itrix Top 40 ETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SYGUS.JO",
+        "companyName": "SYGNIA ITRIX MSCI US",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "SYGWD.JO",
+        "companyName": "SYGNIA ITRIX MSCI WORLD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "TAS.JO",
+        "companyName": "Taste Hldgs Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "TBG.JO",
+        "companyName": "Tiso Blackstar Group SE",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "TBS.JO",
+        "companyName": "Tiger Brands Ltd",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "TEX.JO",
+        "companyName": "Texton Property Fund Ltd",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "TFG.JO",
+        "companyName": "The Foschini Group Limited",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "TGO.JO",
+        "companyName": "Tsogo Sun Hotels LTD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "TKG.JO",
+        "companyName": "Telkom SA SOC Ltd",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "TMT.JO",
+        "companyName": "Trematon Capital Inv Ltd",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "TON.JO",
+        "companyName": "Tongaat Hulett Ltd",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "TRL.JO",
+        "companyName": "Trellidor Hldgs Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "TRU.JO",
+        "companyName": "Truworths Int Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "TXT.JO",
+        "companyName": "Textainer Group Hldgs Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "UABCPA.JO",
+        "companyName": "UBS ABCPA 05Dec23",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "UABSPA.JO",
+        "companyName": "UBS ABSPA 22Aug23",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "UEFPCA.JO",
+        "companyName": "UBS EFPCA 10Feb23",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "UMMIEA.JO",
+        "companyName": "UBS MMIEA 22Aug23",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "UMMIEB.JO",
+        "companyName": "UBS MMIEB 22Aug23",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "UOMWPA.JO",
+        "companyName": "UBS OMWPA 17Oct23",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "UPCHPA.JO",
+        "companyName": "UBS PCHPA 17Oct23",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "VKE.JO",
+        "companyName": "Vukile Property Fund Ltd",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "VOD.JO",
+        "companyName": "Vodacom Group Ltd",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "VUN.JO",
+        "companyName": "Vunani Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "WBO.JO",
+        "companyName": "Wilson Bayly Hlm-Ovc Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "WEZ.JO",
+        "companyName": "Wesizwe Platinum Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "WHL.JO",
+        "companyName": "Woolworths Holdings Ltd",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "WKF.JO",
+        "companyName": "Workforce Holdings Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "WSL.JO",
+        "companyName": "Wescoal Holdings Ltd",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "YRK.JO",
+        "companyName": "York Timber Holdings Ltd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ZCL.JO",
+        "companyName": "Zarclear Holdings Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ZED.JO",
+        "companyName": "Zeder Inv Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "JNB",
+        "symbol": "ZPLP.JO",
+        "companyName": "Zambezi Plat RF Ltd Pref",
+        "industryOrCategory": "Basic Materials"
+    }
+]

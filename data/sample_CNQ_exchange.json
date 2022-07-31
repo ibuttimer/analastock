@@ -1,0 +1,1556 @@
+[
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "AA.CN",
+        "companyName": "AlbaMnrls",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "ABCS.CN",
+        "companyName": "AbacusHealthPro",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "ACRG-U.CN",
+        "companyName": "AcreageHoldInc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "AFI.CN",
+        "companyName": "AffinorGrowers",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "AGN.CN",
+        "companyName": "AlgernonPharma",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "AGRA.CN",
+        "companyName": "AgraFlora",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "AHG.CN",
+        "companyName": "AlternateHealth",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "AMPD.CN",
+        "companyName": "AMPDVent",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "AOC.CN",
+        "companyName": "AdvantagewonO",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "API.CN",
+        "companyName": "AppiaEnergy Co",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "ARM.CN",
+        "companyName": "ArmadaMerc",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "ASE.CN",
+        "companyName": "AsanteGold",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "ASIA.CN",
+        "companyName": "AsiaCannabis",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "AUSA.CN",
+        "companyName": "AustralisCap",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BAC.CN",
+        "companyName": "BacTechEnviron",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BAMM.CN",
+        "companyName": "BodyandMindInc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BBM.CN",
+        "companyName": "BlueberriesMed",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BBR.CN",
+        "companyName": "BamBamRes",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BBT.CN",
+        "companyName": "Benchmark Botan",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BCFN.CN",
+        "companyName": "BlockchainFound",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BDR.CN",
+        "companyName": "BirdRiver Res",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BE.CN",
+        "companyName": "BeleaveInc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BEAN.CN",
+        "companyName": "Peekaboo Bea",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BETR.CN",
+        "companyName": "BetterLifePhar",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BEV.CN",
+        "companyName": "BevCanna",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BFG.CN",
+        "companyName": "BullfrogGold",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BGRD.CN",
+        "companyName": "BraingridLtd",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BHNG.CN",
+        "companyName": "BhangInc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BIGG.CN",
+        "companyName": "BIGGDigital",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BIO.CN",
+        "companyName": "BiomeGrowInc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BLGV.CN",
+        "companyName": "BelgraviaHart",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BLK.CN",
+        "companyName": "BLOKTechInc",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BLLG.CN",
+        "companyName": "BlueLagoonRes",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BLR.CN",
+        "companyName": "BlackhawkGrow",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BNKR.CN",
+        "companyName": "BunkerHillMng",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BOLT.CN",
+        "companyName": "Bolt Metals",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BOSS.CN",
+        "companyName": "YieldGrowthCorp",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BTC.CN",
+        "companyName": "BlueskyDigital",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BUX.CN",
+        "companyName": "BioMarkDiagnos",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BXXX.CN",
+        "companyName": "BlockXCapCorp",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "BYRN.CN",
+        "companyName": "ByrnaTechInc",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "CANN.CN",
+        "companyName": "HeritageCanna",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "CBDT.CN",
+        "companyName": "EmpowerClinInc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "CCR.CN",
+        "companyName": "GreenRiverGold",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "CHV.CN",
+        "companyName": "Canada House",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "CMC.CN",
+        "companyName": "CieloWaste Sol",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "CRL.CN",
+        "companyName": "CarlData Solutn",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "CRY.CN",
+        "companyName": "Vogogo Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "CURE.CN",
+        "companyName": "BiocureTechInc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "DCSI.CN",
+        "companyName": "DirectComm",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "DDB.CN",
+        "companyName": "DataDepositBox",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "DDI.CN",
+        "companyName": "DebutDiamonds",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "DEEP.CN",
+        "companyName": "DeepRockMinInc",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "DFLY.CN",
+        "companyName": "DraganflyInc",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "DHC.CN",
+        "companyName": "DeerHorn Cap",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "DOSE.CN",
+        "companyName": "RapidDose",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "DST.CN",
+        "companyName": "DundeeSustain",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "EASY.CN",
+        "companyName": "SpeakEasyCanna",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "EAT.CN",
+        "companyName": "NutritionalHi",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "EI.CN",
+        "companyName": "EurogasIntl",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "EOM.CN",
+        "companyName": "Eco Oro Mineral",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "EPIC.CN",
+        "companyName": "LeviathanCanna",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "EPY.CN",
+        "companyName": "ePlayDigital",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "ERTH.CN",
+        "companyName": "EarthRenewInc",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "ETI.CN",
+        "companyName": "EnviroLeach",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "ETR.CN",
+        "companyName": "EtruscusRes",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "EURO.CN",
+        "companyName": "EurolifeBrands",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "EXM.CN",
+        "companyName": "EXMceuticalsInc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "FAT.CN",
+        "companyName": "FarRes Ltd.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "FFNT.CN",
+        "companyName": "4FrontVentCorp",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "FLYY.CN",
+        "companyName": "MediaCentral",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "FOX.CN",
+        "companyName": "FoxRiver Res",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "GABY.CN",
+        "companyName": "GABY Inc.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "GBLC.CN",
+        "companyName": "GraphBlockInc",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "GENM.CN",
+        "companyName": "GenerationMng",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "GFI.CN",
+        "companyName": "GravitasFin",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "GGB.CN",
+        "companyName": "GreenGrowth",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "GHG.CN",
+        "companyName": "GlobalHemp Grp",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "GL.CN",
+        "companyName": "GoldLionResInc",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "GLH.CN",
+        "companyName": "GoldenLeaf",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "GLL.CN",
+        "companyName": "GallagherSec",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "GLM.CN",
+        "companyName": "GoldenLakeE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "GOR.CN",
+        "companyName": "GoldreaRes",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "GSTR.CN",
+        "companyName": "GreenStarBio",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "GTCH.CN",
+        "companyName": "GetchellGold",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "GTII.CN",
+        "companyName": "GreenThumb",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "HARV.CN",
+        "companyName": "HarvestHealth",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "HARY.CN",
+        "companyName": "HarrysMfgInc",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "HBOR.CN",
+        "companyName": "Harborside",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "HEY.CN",
+        "companyName": "HeyBryanMedia",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "HFH.CN",
+        "companyName": "HempforHealth",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "HGP.CN",
+        "companyName": "HeritageGlobal",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "HITI.CN",
+        "companyName": "HighTideInc",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "HOLL.CN",
+        "companyName": "Hollister Bio",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "HP.CN",
+        "companyName": "HelloPal Intl",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "HS.CN",
+        "companyName": "HealthSpace",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "JDF.CN",
+        "companyName": "JDFExplorations",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "JUSH.CN",
+        "companyName": "JushiHdgClassB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "KAL.CN",
+        "companyName": "KalMineralsCorp",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "KBEV.CN",
+        "companyName": "KoiosBeverage",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "KDZ.CN",
+        "companyName": "DizunIntlEntert",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "KMI.CN",
+        "companyName": "KaramMnrls",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "KNR.CN",
+        "companyName": "KontrolEnergy",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "KWG.CN",
+        "companyName": "KWGRes Inc.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "LBM.CN",
+        "companyName": "LionsBayMngCorp",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "LECR.CN",
+        "companyName": "LeocorVentInc",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "LHS.CN",
+        "companyName": "LibertyHealth",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "LIB.CN",
+        "companyName": "Liberty Leaf",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "LION.CN",
+        "companyName": "GlobalLi-IonGrp",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "LLT.CN",
+        "companyName": "LitelinkTechInc",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "LUX.CN",
+        "companyName": "NewloxGold Vent",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "LXX.CN",
+        "companyName": "LexariaBiosci",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MGRO.CN",
+        "companyName": "MustGrowBio",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MGXR.CN",
+        "companyName": "MGXRenewables",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MHY-UN.CN",
+        "companyName": "MarretHiYield",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MICH.CN",
+        "companyName": "MichResource",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MIRL.CN",
+        "companyName": "MineraIRL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MIS.CN",
+        "companyName": "MistangoRiver",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MJ.CN",
+        "companyName": "TrueLeaf",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MJAR.CN",
+        "companyName": "MJardinGroupInc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MJRX.CN",
+        "companyName": "GlobalHealth",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MMAT.CN",
+        "companyName": "Metamaterial",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MMEN.CN",
+        "companyName": "MedMenInc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MMJ.CN",
+        "companyName": "MaticaEnterpr",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MONT.CN",
+        "companyName": "MiramontRes",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MOTA.CN",
+        "companyName": "MotaVentures",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MPXI.CN",
+        "companyName": "MPXIntlCorp",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MRBL.CN",
+        "companyName": "MarbleFinlInc",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MREY.CN",
+        "companyName": "MontereyMnlsInc",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MRM.CN",
+        "companyName": "MicromemTech",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MVMD.CN",
+        "companyName": "MountainValley",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MVT.CN",
+        "companyName": "MaxtechVenture",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MWM.CN",
+        "companyName": "MicronWaste Tec",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MXT.CN",
+        "companyName": "MedXtractor",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "MYM.CN",
+        "companyName": "MYM Nutraceutic",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "NAB.CN",
+        "companyName": "NabisHldgs",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "NBUD.CN",
+        "companyName": "NorthBudFarms",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "NC.CN",
+        "companyName": "NetCentsTech",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "NERD.CN",
+        "companyName": "NerdsOnSite",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "NETC-X.CN",
+        "companyName": "NetcoinsHldgs",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "NGW.CN",
+        "companyName": "NextGreenWave",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "NLB.CN",
+        "companyName": "NewLeafBrands",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "NLR.CN",
+        "companyName": "NorthLightResCo",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "NOM.CN",
+        "companyName": "NorsemontMng",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "NSAU.CN",
+        "companyName": "MegumaGoldCo",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "NSG.CN",
+        "companyName": "NorthstarGold",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "NSHS.CN",
+        "companyName": "NanoSphereHlth",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "NTAR.CN",
+        "companyName": "NexTechARSolCo",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "NTM.CN",
+        "companyName": "NewTechMnrls",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "NUGT.CN",
+        "companyName": "ProphecyPota",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "NUR.CN",
+        "companyName": "NuranWireless",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "NWES.CN",
+        "companyName": "NewWave",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "OILS.CN",
+        "companyName": "NextleafSolns",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "PAID.CN",
+        "companyName": "XTMInc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "PDO.CN",
+        "companyName": "PUDOInc.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "PERK.CN",
+        "companyName": "Perk Labs Inc.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "PIKE.CN",
+        "companyName": "Pike MtnMnls",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "PKG.CN",
+        "companyName": "ParcelPalTech",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "PKK.CN",
+        "companyName": "PeakPositionin",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "PLTH.CN",
+        "companyName": "Planet13Hldgs",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "PLUS.CN",
+        "companyName": "PlusProdnc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "POT.CN",
+        "companyName": "WeekendUnInd",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "PREV.CN",
+        "companyName": "PreveCeuticalMe",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "PRMO.CN",
+        "companyName": "PrimoNutra",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "PRT.CN",
+        "companyName": "Plymouth Rock",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "PTX.CN",
+        "companyName": "Platinex Inc",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "PUMP.CN",
+        "companyName": "WorldClassExt",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "QBOT.CN",
+        "companyName": "Quantum Cobalt",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "QCA.CN",
+        "companyName": "QuinsamCap",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "QQ.CN",
+        "companyName": "Quizam Media",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "QSC.CN",
+        "companyName": "QuestCapInc",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "RCLF.CN",
+        "companyName": "RockcliffMtls",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "RELA.CN",
+        "companyName": "RelayMedCorp",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "RGLD.CN",
+        "companyName": "RedLakeGold",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "RIN.CN",
+        "companyName": "ResincoCap",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "RISE.CN",
+        "companyName": "RiseGoldCorp",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "RIW.CN",
+        "companyName": "RIWICorp.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "RLG.CN",
+        "companyName": "WestRed Lake",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "RLSC.CN",
+        "companyName": "RISeLifeSciCorp",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "ROMJ.CN",
+        "companyName": "RubiconOrganics",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "RQB.CN",
+        "companyName": "RavenquestBioM",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "RVR.CN",
+        "companyName": "RiftValley Res",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "RVV.CN",
+        "companyName": "ReviveThera",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "RZR.CN",
+        "companyName": "RazoreRock Res",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "SAFE.CN",
+        "companyName": "3SixtyRisk",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "SBD.CN",
+        "companyName": "SBDCapitalCorp",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "SHP.CN",
+        "companyName": "ShoalPoint",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "SHRC.CN",
+        "companyName": "SharcIntlSysInc",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "SHV.CN",
+        "companyName": "SeahawkVentures",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "SIRE.CN",
+        "companyName": "SireBiosci",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "SIX.CN",
+        "companyName": "Hydro66Hldgs",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "SIXW.CN",
+        "companyName": "SixthWaveInno",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "SLNG.CN",
+        "companyName": "SLANGWorldwide",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "SNL.CN",
+        "companyName": "SentinelResCorp",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "SNN.CN",
+        "companyName": "SunnivaInc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "SOL.CN",
+        "companyName": "SOLGlobal",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "SONA.CN",
+        "companyName": "SonaNanoInc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "SPMT.CN",
+        "companyName": "Spearmint Re",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "SPO.CN",
+        "companyName": "SponsorsOneInc",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "SPR.CN",
+        "companyName": "SproutlyCdaInc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "SQX.CN",
+        "companyName": "Squatex EnerRes",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "STIL.CN",
+        "companyName": "StillCanna",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "SUN.CN",
+        "companyName": "WildflowerBrand",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "SX.CN",
+        "companyName": "St-GeorgesEco",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "TAAL.CN",
+        "companyName": "TaalDistInfo",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "TAK.CN",
+        "companyName": "TakuGold Corp.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "TCAN.CN",
+        "companyName": "TranscannaHldgs",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "TEQ.CN",
+        "companyName": "Terranueva",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "TER.CN",
+        "companyName": "TerrAscendCorp",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "TFC.CN",
+        "companyName": "TrichomeFin",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "TGC.CN",
+        "companyName": "TaigaGoldCorp",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "TGIF.CN",
+        "companyName": "1933IndInc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "THC.CN",
+        "companyName": "THCBiomed Intl",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "TILT.CN",
+        "companyName": "TILTHldgsInc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "TKR.CN",
+        "companyName": "TrackerVentCorp",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "TMED.CN",
+        "companyName": "EGFThera",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "TN.CN",
+        "companyName": "TartisanNickle",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "TNY.CN",
+        "companyName": "TheTinleyBvg",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "TO.CN",
+        "companyName": "TowerOne",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "TOC.CN",
+        "companyName": "TocvanVent",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "TOKI.CN",
+        "companyName": "TreeofKnowledge",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "TRUL.CN",
+        "companyName": "TrulieveCannab",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "TSK.CN",
+        "companyName": "TaliskerResLtd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "TTT.CN",
+        "companyName": "TruTraceTech",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "TUSK.CN",
+        "companyName": "Black Tusk Res",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "UAV.CN",
+        "companyName": "GlobalUAVTech",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "URL.CN",
+        "companyName": "NameSiloTech",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "USGD.CN",
+        "companyName": "AmPacMngCorp",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "VAI.CN",
+        "companyName": "VirtualArmour",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "VC.CN",
+        "companyName": "VolatusCapCorp",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "VCAN.CN",
+        "companyName": "VenturaCanna",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "VCT-X.CN",
+        "companyName": "VelocityData",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "VEXT.CN",
+        "companyName": "VextSciInc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "VIBE.CN",
+        "companyName": "VibeBiosciLtd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "VIDA.CN",
+        "companyName": "PhividaHldgsInc",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "VP.CN",
+        "companyName": "VodisPharma",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "VPH.CN",
+        "companyName": "ValeoPharma",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "VREO.CN",
+        "companyName": "VireoHealth",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "VRT.CN",
+        "companyName": "VeritasPharma",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "VS.CN",
+        "companyName": "VersusSystems",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "VSBY.CN",
+        "companyName": "VSBLTYGrpeTech",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "VST.CN",
+        "companyName": "VictorySqTech",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "VVV.CN",
+        "companyName": "VertInfrastr",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "WAL.CN",
+        "companyName": "WalcottResLtd",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "WGC.CN",
+        "companyName": "WinstonGold",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "WIFI.CN",
+        "companyName": "AmAiresInc",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "WUC.CN",
+        "companyName": "WestnUranVan",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "XBLK.CN",
+        "companyName": "eXeBlock Tech",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "XMG.CN",
+        "companyName": "MGXMinerals",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "XPHY.CN",
+        "companyName": "XPhytoThera",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "XRO.CN",
+        "companyName": "ExroTechInc",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "XRX.CN",
+        "companyName": "XORTXTherap",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "XS.CN",
+        "companyName": "XtractionServ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "XTRX.CN",
+        "companyName": "AdastraLabsHldg",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "YT.CN",
+        "companyName": "YukoterreRes",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "ZBR.CN",
+        "companyName": "ZanzibarGold",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "ZEU.CN",
+        "companyName": "ZeUCryptoNtks",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "ZNK.CN",
+        "companyName": "Kootenay Zinc",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "CNQ",
+        "symbol": "ZTE.CN",
+        "companyName": "ZTESTElectronic",
+        "industryOrCategory": "Technology"
+    }
+]

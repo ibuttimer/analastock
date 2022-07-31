@@ -1,0 +1,44 @@
+[
+    {
+        "exchangeCode": "PCX",
+        "symbol": "DR",
+        "companyName": "DR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PCX",
+        "symbol": "ESBA",
+        "companyName": "Empire State Realty OP, L.P. Se",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PCX",
+        "symbol": "FISK",
+        "companyName": "Empire State Realty OP, L.P. Se",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PCX",
+        "symbol": "MJ",
+        "companyName": "MJ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "PCX",
+        "symbol": "OGCP",
+        "companyName": "Empire State Realty OP, L.P. Se",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "PCX",
+        "symbol": "RZ",
+        "companyName": "RZ",
+        "industryOrCategory": "Industrial Goods"
+    },
+    {
+        "exchangeCode": "PCX",
+        "symbol": "ZP",
+        "companyName": "ZP",
+        "industryOrCategory": "N/A"
+    }
+]

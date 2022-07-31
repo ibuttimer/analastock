@@ -1,0 +1,3656 @@
+[
+    {
+        "exchangeCode": "STO",
+        "symbol": "24STOR.ST",
+        "companyName": "24Storage AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "2CUREX.ST",
+        "companyName": "2cureX AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "3KR.ST",
+        "companyName": "Tre Kronor Property Investment ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "8TRA.ST",
+        "companyName": "TRATON SE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AAC.ST",
+        "companyName": "AAC Clyde Space AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AAK.ST",
+        "companyName": "AAK AB",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AAP-B.ST",
+        "companyName": "ArcAroma AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ABB.ST",
+        "companyName": "ABB Ltd",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ABSO.ST",
+        "companyName": "Absolent Group AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ACAD.ST",
+        "companyName": "AcadeMedia AB",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ACARIX.ST",
+        "companyName": "Acarix AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ACCON.ST",
+        "companyName": "Acconeer AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ACE.ST",
+        "companyName": "Ascelia Pharma AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ACTI.ST",
+        "companyName": "Active Biotech AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ADAPT.ST",
+        "companyName": "Adapteo Oyj",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ADDT-B.ST",
+        "companyName": "Addtech AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ADDV-A.ST",
+        "companyName": "ADDvise Group AB A",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ADDV-B.ST",
+        "companyName": "ADDvise Group AB B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ADVE.ST",
+        "companyName": "Advenica AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AEC.ST",
+        "companyName": "AFRICA ENERGY CORP.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AERO.ST",
+        "companyName": "Svenska Aerogel Holding AB",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AERO-BTA.ST",
+        "companyName": "Svenska Aerogel Holding AB BTA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AF-B.ST",
+        "companyName": "F AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AGES-B.ST",
+        "companyName": "Ages Industri AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AGRO.ST",
+        "companyName": "Agromino A/S",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AINO.ST",
+        "companyName": "Aino Health AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AKEL-D.ST",
+        "companyName": "Akelius Residential Property AB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ALCA.ST",
+        "companyName": "Alcadon Group AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ALFA.ST",
+        "companyName": "Alfa Laval AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ALIF-B.ST",
+        "companyName": "AddLife AB ser. B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ALIG.ST",
+        "companyName": "Alimak Group AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ALIV-SDB.ST",
+        "companyName": "Autoliv Inc. SDB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ALLG-B.ST",
+        "companyName": "ALLGON AB ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AM1S.ST",
+        "companyName": "Ahlstrom-Munksj Oyj",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AMAST.ST",
+        "companyName": "Amasten Fastighets AB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AMBEA.ST",
+        "companyName": "Ambea AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ANNX.ST",
+        "companyName": "Annexin Pharmaceuticals AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ANOD-B.ST",
+        "companyName": "Addnode Group AB ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ANOT.ST",
+        "companyName": "Anoto Group AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AOI.ST",
+        "companyName": "Africa Oil Corp.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AQ.ST",
+        "companyName": "AQ Group AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ARCT.ST",
+        "companyName": "Arctic Minerals AB",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ARISE.ST",
+        "companyName": "Arise AB",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ARJO-B.ST",
+        "companyName": "Arjo AB ser. B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AROS-PREF.ST",
+        "companyName": "Aros Bostadsutveckling AB Pref",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ARP.ST",
+        "companyName": "Arctic Paper S.A.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ASAP.ST",
+        "companyName": "Asarina Pharma AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ASPIRE.ST",
+        "companyName": "Aspire Global plc",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ASSA-B.ST",
+        "companyName": "ASSA ABLOY AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ATA-SDB.ST",
+        "companyName": "Atari SA SDB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ATCO-A.ST",
+        "companyName": "Atlas Copco AB ser. A",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ATCO-B.ST",
+        "companyName": "Atlas Copco AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ATIC.ST",
+        "companyName": "Actic Group AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ATORX.ST",
+        "companyName": "Alligator Bioscience AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ATRE.ST",
+        "companyName": "A3 ALLMANNA IT OCH TELEKOM AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ATRLJ-B.ST",
+        "companyName": "Atrium Ljungberg AB ser. B",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ATT.ST",
+        "companyName": "Attendo AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ATVEXA-B.ST",
+        "companyName": "Atvexa AB ser. B",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AUR.ST",
+        "companyName": "Auriant Mining AB",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AVT-B.ST",
+        "companyName": "Avtech Sweden AB B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AXFO.ST",
+        "companyName": "Axfood AB",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AXOLOT.ST",
+        "companyName": "Axolot Solutions Holding AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AZA.ST",
+        "companyName": "Avanza Bank Holding AB",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AZELIO.ST",
+        "companyName": "Azelio AB",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "AZN.ST",
+        "companyName": "AstraZeneca PLC",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "B3.ST",
+        "companyName": "B3 Consulting Group AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BACTI-B.ST",
+        "companyName": "Bactiguard Holding AB ser. B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BALCO.ST",
+        "companyName": "Balco Group AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BALD-B.ST",
+        "companyName": "Fastighets AB Balder ser. B",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BAYN.ST",
+        "companyName": "Bayn Europe AB",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BEGR.ST",
+        "companyName": "BE Group AB",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BEIA-B.ST",
+        "companyName": "Beijer Alma AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BEIJ-B.ST",
+        "companyName": "Beijer Ref AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BELE.ST",
+        "companyName": "Beijer Electronics Group AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BERG-B.ST",
+        "companyName": "Bergman & Beving Aktiebolag ser",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BESQ.ST",
+        "companyName": "Besqab AB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BETCO.ST",
+        "companyName": "Better Collective A/S",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BETS-B.ST",
+        "companyName": "Betsson AB ser. B",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BHG.ST",
+        "companyName": "Bygghemma Group First AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BILL.ST",
+        "companyName": "BillerudKorsns AB",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BIM.ST",
+        "companyName": "BIMobject AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BINERO.ST",
+        "companyName": "Binero Group AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BINV.ST",
+        "companyName": "BioInvent International AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BIOA-B.ST",
+        "companyName": "BioArctic AB ser. B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BIOG-B.ST",
+        "companyName": "BioGaia AB ser. B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BIOS.ST",
+        "companyName": "Bioservo Technologies AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BIOT.ST",
+        "companyName": "Biotage AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BIOVIC-B.ST",
+        "companyName": "Biovica International AB ser. B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BIOWKS.ST",
+        "companyName": "Bio-Works Technologies AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BMAX.ST",
+        "companyName": "Byggmax Group AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BOL.ST",
+        "companyName": "Boliden AB",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BONAS.ST",
+        "companyName": "Bonsudden Holding AB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BONAV-A.ST",
+        "companyName": "Bonava AB ser. A",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BONAV-B.ST",
+        "companyName": "Bonava AB ser. B",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BONES.ST",
+        "companyName": "BBS-Bioactive Bone Substitutes",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BONEX.ST",
+        "companyName": "BONESUPPORT HOLDING AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BONG.ST",
+        "companyName": "Bong AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BOOZT.ST",
+        "companyName": "Boozt AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BORG.ST",
+        "companyName": "Bjrn Borg AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BOTX.ST",
+        "companyName": "Botnia Exploration Holding AB",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BOUL.ST",
+        "companyName": "Boule Diagnostics AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BRAV.ST",
+        "companyName": "Bravida Holding AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BRE2.ST",
+        "companyName": "Bredband2 i Skandinavien AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BRG-B.ST",
+        "companyName": "Bergs Timber AB ser. B",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BRIG.ST",
+        "companyName": "Brighter AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BTS-B.ST",
+        "companyName": "BTS Group AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BUBL.ST",
+        "companyName": "Bublar Group AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BUFAB.ST",
+        "companyName": "Bufab AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BULTEN.ST",
+        "companyName": "Bulten AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BURE.ST",
+        "companyName": "Bure Equity AB",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BUSER.ST",
+        "companyName": "Bambuser AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "BYGGP.ST",
+        "companyName": "ByggPartner i Dalarna Holding A",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CALTX.ST",
+        "companyName": "Calliditas Therapeutics AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CAMX.ST",
+        "companyName": "Camurus AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CANTA.ST",
+        "companyName": "Cantargia AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CAPAC.ST",
+        "companyName": "Capacent Holding AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CAST.ST",
+        "companyName": "Castellum AB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CAT-A.ST",
+        "companyName": "Catella AB ser. A",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CAT-B.ST",
+        "companyName": "Catella AB ser. B",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CATE.ST",
+        "companyName": "Catena AB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CCC.ST",
+        "companyName": "Cavotec SA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CCOR-B.ST",
+        "companyName": "Concordia Maritime AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CE.ST",
+        "companyName": "Cortus Energy AB",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CEVI.ST",
+        "companyName": "CellaVision AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CFISH.ST",
+        "companyName": "Crunchfish AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CI-B.ST",
+        "companyName": "Cell Impact AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CIBUS.ST",
+        "companyName": "Cibus Nordic Real Estate AB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CLA-B.ST",
+        "companyName": "Cloetta AB ser. B",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CLAS-B.ST",
+        "companyName": "Clas Ohlson AB ser. B",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CLAV.ST",
+        "companyName": "Clavister Holding AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CLBIO.ST",
+        "companyName": "Corline Biomedical AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CLEM.ST",
+        "companyName": "Clemondo Group AB",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CLEMO.ST",
+        "companyName": "Clean Motion AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CLIME-B.ST",
+        "companyName": "Climeon AB ser. B",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CLNK-B.ST",
+        "companyName": "CELLINK AB ser. B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CLS-B.ST",
+        "companyName": "Clinical Laserthermia Systems A",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CMOTEC-B.ST",
+        "companyName": "Scandinavian ChemoTech AB B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "COLL.ST",
+        "companyName": "Collector AB",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CONS-B.ST",
+        "companyName": "Consilium AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "COOR.ST",
+        "companyName": "Coor Service Management Holding",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "COPP-B.ST",
+        "companyName": "Copperstone Resources AB ser. B",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CORE-A.ST",
+        "companyName": "Corem Property Group AB ser. A",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CORE-B.ST",
+        "companyName": "Corem Property Group AB ser. B",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CORE-PREF.ST",
+        "companyName": "Corem Property Group AB Pref",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CRAD-B.ST",
+        "companyName": "C-RAD AB ser. B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CRED-A.ST",
+        "companyName": "Creades AB A",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CTM.ST",
+        "companyName": "Catena Media P.L.C",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CTT.ST",
+        "companyName": "CTT Systems AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CUR.ST",
+        "companyName": "Curando Nordic AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CYB1.ST",
+        "companyName": "Cyber Security 1 AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "CYXO.ST",
+        "companyName": "Cyxone AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "DDM.ST",
+        "companyName": "DDM Holding AG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "DEDI.ST",
+        "companyName": "Dedicare AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "DELARK.ST",
+        "companyName": "Delarka Holding AB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "DEVP-B.ST",
+        "companyName": "DevPort AB ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "DIAH.ST",
+        "companyName": "Diadrom Holding AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "DIGN.ST",
+        "companyName": "Dignitana AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "DIOS.ST",
+        "companyName": "Dis Fastigheter AB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "DIST.ST",
+        "companyName": "DistIT AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "DIVIO-B.ST",
+        "companyName": "Divio Technologies AB ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "DMYD-B.ST",
+        "companyName": "Diamyd Medical AB ser. B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "DOM.ST",
+        "companyName": "Dometic Group AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "DOME.ST",
+        "companyName": "Dome Energy AB",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "DORO.ST",
+        "companyName": "DORO AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "DRIL.ST",
+        "companyName": "Drillcon AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "DUNI.ST",
+        "companyName": "Duni AB",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "DURC-B.ST",
+        "companyName": "Duroc AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "DUST.ST",
+        "companyName": "Dustin Group AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "EAST.ST",
+        "companyName": "Eastnine AB",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "EDGE.ST",
+        "companyName": "Edgeware AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "EG7.ST",
+        "companyName": "Enad Global 7 AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "EKTA-B.ST",
+        "companyName": "Elekta AB ser. B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ELAN-B.ST",
+        "companyName": "Elanders AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ELEC.ST",
+        "companyName": "Electra Gruppen AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ELOS-B.ST",
+        "companyName": "Elos Medtech AB ser. B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ELTEL.ST",
+        "companyName": "Eltel AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ELUX-A.ST",
+        "companyName": "Electrolux, AB ser. A",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ELUX-B.ST",
+        "companyName": "Electrolux, AB ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "EMBRAC-B.ST",
+        "companyName": "Embracer Group AB ser. B",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "EMPIR-B.ST",
+        "companyName": "Empir Group AB ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ENDO.ST",
+        "companyName": "Endomines AB",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ENEA.ST",
+        "companyName": "Enea AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ENERS-TO-1.ST",
+        "companyName": "Enersize Oyj TO 1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ENG.ST",
+        "companyName": "Internationella Engelska Skolan",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ENQ.ST",
+        "companyName": "EnQuest PLC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ENRO.ST",
+        "companyName": "Eniro AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ENRO-PREF.ST",
+        "companyName": "Eniro AB pref",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ENZY.ST",
+        "companyName": "Enzymatica AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "EOLU-B.ST",
+        "companyName": "Eolus Vind AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "EOS.ST",
+        "companyName": "EnergyO Solutions Russia AB",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "EPI-A.ST",
+        "companyName": "Epiroc AB ser. A",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "EPI-B.ST",
+        "companyName": "Epiroc AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "EPIS-B.ST",
+        "companyName": "Episurf Medical AB B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "EQT.ST",
+        "companyName": "EQT AB",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ERIC-A.ST",
+        "companyName": "Ericsson, Telefonab. L M ser. A",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ERIC-B.ST",
+        "companyName": "Ericsson, Telefonab. L M ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ERMA.ST",
+        "companyName": "Enorama Pharma AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ESSITY-A.ST",
+        "companyName": "Essity AB ser. A",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ESSITY-B.ST",
+        "companyName": "Essity AB ser. B",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ETX.ST",
+        "companyName": "Etrion Corporation",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "EVO.ST",
+        "companyName": "Evolution Gaming Group AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "EWP.ST",
+        "companyName": "EWPG Holding AB",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "EWRK.ST",
+        "companyName": "eWork Group AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "EXPRS2.ST",
+        "companyName": "ExpreS2ion Biotech Holding AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "FABG.ST",
+        "companyName": "Fabege AB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "FAG.ST",
+        "companyName": "Fagerhult, AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "FASTAT.ST",
+        "companyName": "AB Fastator",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "FERRO.ST",
+        "companyName": "Ferroamp Elektronik AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "FIL.ST",
+        "companyName": "Filo Mining Corp",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "FING-B.ST",
+        "companyName": "Fingerprint Cards AB ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "FIRE.ST",
+        "companyName": "Firefly AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "FLEXM.ST",
+        "companyName": "Flexion Mobile Plc",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "FLEXQ.ST",
+        "companyName": "FlexQube AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "FLUI.ST",
+        "companyName": "Fluicell AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "FMM-B.ST",
+        "companyName": "FM Mattsson Mora Group AB, ser.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "FNM.ST",
+        "companyName": "Ferronordic AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "FOI-B.ST",
+        "companyName": "Fenix Outdoor International AG ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "FOOT-PREF.ST",
+        "companyName": "Footway Group AB Pref",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "FPAR-A.ST",
+        "companyName": "Fastpartner AB ser. A",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "FPAR-D.ST",
+        "companyName": "Fastpartner AB ser. D",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "FPIP.ST",
+        "companyName": "FormPipe Software AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "FRAM-B.ST",
+        "companyName": "Fram Skandinavien AB ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "FRILL-B.ST",
+        "companyName": "Frill Holding AB ser. B",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "FRISQ.ST",
+        "companyName": "FRISQ Holding AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "G5EN.ST",
+        "companyName": "G5 Entertainment AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "GABA.ST",
+        "companyName": "Gabather AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "GAPW-B.ST",
+        "companyName": "Gapwaves AB B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "GARO.ST",
+        "companyName": "Garo AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "GCOR.ST",
+        "companyName": "Gaming Corps AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "GENO.ST",
+        "companyName": "Genovis AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "GETI-B.ST",
+        "companyName": "Getinge AB ser. B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "GHP.ST",
+        "companyName": "GHP Specialty Care AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "GHUS-B.ST",
+        "companyName": "Gtenehus Group AB ser. B",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "GIGSEK.ST",
+        "companyName": "Gaming Innovation Group Inc.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "GLOBAL.ST",
+        "companyName": "Global Gaming 555 AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "GOMX.ST",
+        "companyName": "GomSpace Group AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "GPX.ST",
+        "companyName": "Gasporox AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "GREAT.ST",
+        "companyName": "Greater Than AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "GREEN.ST",
+        "companyName": "Green Landscaping Group AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "GUARD.ST",
+        "companyName": "Guard Therapeutics Internationa",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "GUNN.ST",
+        "companyName": "Gunnebo AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HANDI.ST",
+        "companyName": "Handicare Group AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HANZA.ST",
+        "companyName": "Hanza Holding AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HAV-B.ST",
+        "companyName": "Havsfrun Investment AB ser. B",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HDW-B.ST",
+        "companyName": "H&D Wireless Sweden Holding AB ",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HEGR.ST",
+        "companyName": "Hedera Group AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HELIO.ST",
+        "companyName": "Heliospectra AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HEXA-B.ST",
+        "companyName": "Hexagon AB ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HIFA-B.ST",
+        "companyName": "Hifab Group AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HIQ.ST",
+        "companyName": "HiQ International AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HLDX.ST",
+        "companyName": "Haldex AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HM-B.ST",
+        "companyName": "Hennes & Mauritz AB, H & M ser.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HMS.ST",
+        "companyName": "HMS Networks AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HNSA.ST",
+        "companyName": "Hansa Biopharma AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HOFI.ST",
+        "companyName": "Hoist Finance AB",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HOLM-A.ST",
+        "companyName": "Holmen AB ser. A",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HOLM-B.ST",
+        "companyName": "Holmen AB ser. B",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HOVD.ST",
+        "companyName": "Hvding Sverige AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HOYLU.ST",
+        "companyName": "Hoylu AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HPOL-B.ST",
+        "companyName": "HEXPOL AB ser. B",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HRNTS.ST",
+        "companyName": "Herantis Pharma Oyj",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HTRO.ST",
+        "companyName": "Hexatronic Group AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HUDYA.ST",
+        "companyName": "Hudya AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HUFV-A.ST",
+        "companyName": "Hufvudstaden AB ser. A",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HUM.ST",
+        "companyName": "Humana AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HUSQ-A.ST",
+        "companyName": "Husqvarna AB ser. A",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "HUSQ-B.ST",
+        "companyName": "Husqvarna AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "IAR-B.ST",
+        "companyName": "I.A.R Systems Group AB ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "IBT-B.ST",
+        "companyName": "Infant Bacterial Therapeutics A",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ICA.ST",
+        "companyName": "ICA Gruppen AB",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ICTA.ST",
+        "companyName": "ICTA AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "IMMNOV.ST",
+        "companyName": "Immunovia AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "IMMU.ST",
+        "companyName": "Immunicum AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "IMPC.ST",
+        "companyName": "Impact Coatings AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "INCOAX.ST",
+        "companyName": "InCoax Networks AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "INDEX.ST",
+        "companyName": "InDex Pharmaceuticals Holding A",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "INDT.ST",
+        "companyName": "Indutrade AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "INDU-A.ST",
+        "companyName": "Industrivrden, AB ser. A",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "INDU-C.ST",
+        "companyName": "Industrivrden, AB ser. C",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "INISS-B.ST",
+        "companyName": "Inission AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "INSTAL.ST",
+        "companyName": "Instalco AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "INTRUM.ST",
+        "companyName": "Intrum AB",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "INVE-A.ST",
+        "companyName": "Investor AB ser. A",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "INVE-B.ST",
+        "companyName": "Investor AB ser. B",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "INWI.ST",
+        "companyName": "Inwido AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "IPCO.ST",
+        "companyName": "International Petroleum Corpora",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "IRRAS.ST",
+        "companyName": "IRRAS AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "IS.ST",
+        "companyName": "Image Systems AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ISR.ST",
+        "companyName": "ISR Immune System Regulation Ho",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ITAB-B.ST",
+        "companyName": "ITAB Shop Concept AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "IVACC.ST",
+        "companyName": "Intervacc AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "IVSO.ST",
+        "companyName": "Invisio Communications AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "IZAFE-B.ST",
+        "companyName": "iZafe Group AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "JDT.ST",
+        "companyName": "JonDeTech Sensors AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "JETPAK.ST",
+        "companyName": "Jetpak Top Holding AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "JLT.ST",
+        "companyName": "JLT Mobile Computers AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "JM.ST",
+        "companyName": "JM AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "JOSE.ST",
+        "companyName": "Josemaria Resources Inc.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "K2A-B.ST",
+        "companyName": "K2A Knaust & Andersson Fastighe",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "K2A-PREF.ST",
+        "companyName": "K2A Knaust & Andersson Fastighe",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KABE-B.ST",
+        "companyName": "KABE Group AB ser. B",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KAKEL.ST",
+        "companyName": "Kakel Max AB",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KAMBI.ST",
+        "companyName": "Kambi Group Plc",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KAN.ST",
+        "companyName": "Kancera AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KAPIAB.ST",
+        "companyName": "Kallebck Property Invest AB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KAR.ST",
+        "companyName": "Karnov Group AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KARO.ST",
+        "companyName": "Karo Pharma AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KDEV.ST",
+        "companyName": "Karolinska Development AB ser.B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KENH.ST",
+        "companyName": "Kentima Holding AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KFAST-B.ST",
+        "companyName": "K-Fast Holding AB B",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KIND-SDB.ST",
+        "companyName": "Kindred Group plc",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KINV-A.ST",
+        "companyName": "Kinnevik AB ser. A",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KINV-B.ST",
+        "companyName": "Kinnevik AB ser. B",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KLAR.ST",
+        "companyName": "Klaria Pharma Holding AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KLED.ST",
+        "companyName": "Kungsleden AB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KLOV-A.ST",
+        "companyName": "Klvern AB Ser. A",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KLOV-B.ST",
+        "companyName": "Klvern AB Ser. B",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KLOV-PREF.ST",
+        "companyName": "Klvern AB pref",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KNOW.ST",
+        "companyName": "Knowit AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KOLL.ST",
+        "companyName": "Kollect on Demand Holding AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KONT.ST",
+        "companyName": "Kontigo Care AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "KOPY.ST",
+        "companyName": "Kopy Goldfields AB",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "LAGR-B.ST",
+        "companyName": "Lagercrantz Group AB ser B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "LATO-B.ST",
+        "companyName": "Latour, Investmentab. ser. B",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "LAUR.ST",
+        "companyName": "Lauritz.com Group A/S",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "LEO.ST",
+        "companyName": "LeoVegas AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "LIAB.ST",
+        "companyName": "Lindab International AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "LIFCO-B.ST",
+        "companyName": "Lifco AB ser.B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "LIME.ST",
+        "companyName": "Lime Technologies AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "LIPI.ST",
+        "companyName": "Lipidor AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "LIVI.ST",
+        "companyName": "Liv ihop AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "LLSW-B.ST",
+        "companyName": "LightLab Sweden AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "LOG.ST",
+        "companyName": "Logistea AB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "LOOM-B.ST",
+        "companyName": "Loomis AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "LUC.ST",
+        "companyName": "Lucara Diamond Corp",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "LUG.ST",
+        "companyName": "Lundin Gold Inc.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "LUMI.ST",
+        "companyName": "Lundin Mining Corporation",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "LUND-B.ST",
+        "companyName": "Lundbergfretagen AB, L E ser. B",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "LUPE.ST",
+        "companyName": "Lundin Petroleum AB",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "LYKO-A.ST",
+        "companyName": "Lyko Group AB ser. A",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MACK-B.ST",
+        "companyName": "Mackmyra Svensk Whisky AB B",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MAG.ST",
+        "companyName": "Magnolia Bostad AB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MAHA-A.ST",
+        "companyName": "Maha Energy AB",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MANG.ST",
+        "companyName": "Mangold AB",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MANTEX.ST",
+        "companyName": "Mantex AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MAV.ST",
+        "companyName": "Mavshack AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MAXF.ST",
+        "companyName": "MaxFastigheter i Sverige AB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MCAP.ST",
+        "companyName": "MedCap AB",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MCOV-B.ST",
+        "companyName": "Medicover AB ser. B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ME.ST",
+        "companyName": "Modern Ekonomi Sverige Holding ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MEAB-B.ST",
+        "companyName": "Malmbergs Elektriska AB ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MEKO.ST",
+        "companyName": "Mekonomen AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MIDW-A.ST",
+        "companyName": "Midway Holding AB ser. A",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MINEST.ST",
+        "companyName": "Minesto AB",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MIPS.ST",
+        "companyName": "Mips AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MMGR-B.ST",
+        "companyName": "Momentum Group AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MOB.ST",
+        "companyName": "Moberg Pharma AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MOBA.ST",
+        "companyName": "M.O.B.A. Network AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MOMENT.ST",
+        "companyName": "Moment Group AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MQ.ST",
+        "companyName": "MQ Holding AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MSAB-B.ST",
+        "companyName": "Micro Systemation AB B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MSON-A.ST",
+        "companyName": "Midsona AB ser. A",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MSON-B.ST",
+        "companyName": "Midsona AB ser. B",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MTG-A.ST",
+        "companyName": "Modern Times Group MTG AB ser. ",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MTG-B.ST",
+        "companyName": "Modern Times Group MTG AB ser. ",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MTRS.ST",
+        "companyName": "Munters Group AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MULQ.ST",
+        "companyName": "MultiQ International AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MVIR-B.ST",
+        "companyName": "Medivir AB ser. B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MYCR.ST",
+        "companyName": "Mycronic AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "MYFC.ST",
+        "companyName": "myFC Holding AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NAXS.ST",
+        "companyName": "NAXS AB",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NBZ.ST",
+        "companyName": "Northbaze Group AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NCAB.ST",
+        "companyName": "NCAB Group AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NCC-A.ST",
+        "companyName": "NCC AB ser. A",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NCC-B.ST",
+        "companyName": "NCC AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NDA-SE.ST",
+        "companyName": "Nordea Bank Abp",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NENT-A.ST",
+        "companyName": "Nordic Entertainment Group AB s",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NENT-B.ST",
+        "companyName": "Nordic Entertainment Group AB s",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NET-B.ST",
+        "companyName": "NetEnt AB ser. B",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NETI-B.ST",
+        "companyName": "Net Insight AB ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NETM-B.ST",
+        "companyName": "Netmore Group AB ser. B",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NEWA-B.ST",
+        "companyName": "New Wave Group AB ser. B",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NEWTON.ST",
+        "companyName": "Newton Nordic AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NFGAB.ST",
+        "companyName": "Nordic Flanges Group AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NGS.ST",
+        "companyName": "NGS Group AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NHCBHFFS.ST",
+        "companyName": "Baltic Horizon Fund",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NIBE-B.ST",
+        "companyName": "NIBE Industrier AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NICO.ST",
+        "companyName": "Nicoccino Holding AB",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NILS.ST",
+        "companyName": "Nilsson Special Vehicles AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NIO.ST",
+        "companyName": "Nordic Iron Ore AB",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NITRO.ST",
+        "companyName": "Nitro Games Oyj",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NJOB.ST",
+        "companyName": "NetJobs Group AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NLAB.ST",
+        "companyName": "ENLABS AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NMAN.ST",
+        "companyName": "Nederman Holding AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NNH.ST",
+        "companyName": "New Nordic Healthbrands AB",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NOBI.ST",
+        "companyName": "Nobia AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NOBINA.ST",
+        "companyName": "Nobina AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NOKIA-SEK.ST",
+        "companyName": "Nokia Corporation",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NOLA-B.ST",
+        "companyName": "Nolato AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NOTE.ST",
+        "companyName": "NOTE AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NP3.ST",
+        "companyName": "NP3 Fastigheter AB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NP3-PREF.ST",
+        "companyName": "NP3 Fastigheter AB Pref",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NTEK-B.ST",
+        "companyName": "NOVOTEK AB ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NVP.ST",
+        "companyName": "NeuroVive Pharmaceutical AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NWG.ST",
+        "companyName": "Nordic Waterproofing Holding A/",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NXTMS.ST",
+        "companyName": "Nexstim Oyj",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "NYF.ST",
+        "companyName": "Nyfosa AB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "OASM.ST",
+        "companyName": "Oasmia Pharmaceutical AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "OBAB.ST",
+        "companyName": "Online Brands Nordic AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "OBOYA-B.ST",
+        "companyName": "Oboya Horticulture Industries A",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ODD.ST",
+        "companyName": "Odd Molly International AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "OEM-B.ST",
+        "companyName": "OEM International AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ONCO.ST",
+        "companyName": "Oncopeptides AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "OP.ST",
+        "companyName": "Oscar Properties Holding AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "OP-PREF.ST",
+        "companyName": "Oscar Properties Holding AB PRE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "OPUS.ST",
+        "companyName": "Opus Group AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ORES.ST",
+        "companyName": "resund, Investment AB",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ORTI-A.ST",
+        "companyName": "Ortivus AB ser. A",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ORTI-B.ST",
+        "companyName": "Ortivus AB ser. B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ORX.ST",
+        "companyName": "Orexo AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "OSSD.ST",
+        "companyName": "OssDsign AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "OV.ST",
+        "companyName": "Oncology Venture A/S",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "OVZON.ST",
+        "companyName": "Ovzon AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "OXE.ST",
+        "companyName": "OXE Marine AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "PACT.ST",
+        "companyName": "Proact IT Group AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "PAX.ST",
+        "companyName": "Paxman AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "PCAT.ST",
+        "companyName": "Photocat A/S",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "PCELL.ST",
+        "companyName": "PowerCell Sweden AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "PCOM-B.ST",
+        "companyName": "Precomp Solutions AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "PDX.ST",
+        "companyName": "Paradox Interactive AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "PEAB-B.ST",
+        "companyName": "Peab AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "PENG-B.ST",
+        "companyName": "Projektengagemang Sweden AB ser",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "PFE.ST",
+        "companyName": "Pfizer Inc.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "PHLOG-B.ST",
+        "companyName": "Pharmacolog i Uppsala AB ser. B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "PIEZO.ST",
+        "companyName": "PiezoMotor Uppsala AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "PLAZ-B.ST",
+        "companyName": "Platzer Fastigheter Holding AB ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "PLED.ST",
+        "companyName": "PledPharma AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "PNDX-B.ST",
+        "companyName": "Pandox AB ser. B",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "POLYG.ST",
+        "companyName": "Polygiene AB",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "POOL-B.ST",
+        "companyName": "Poolia AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "PRCO-B.ST",
+        "companyName": "Precio Fishbone AB ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "PREC.ST",
+        "companyName": "Precise Biometrics AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "PREV-B.ST",
+        "companyName": "Prevas AB ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "PRIC-B.ST",
+        "companyName": "Pricer AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "PRIME-PREF-B.ST",
+        "companyName": "Prime Living AB Pref ser. B",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "PROMO.ST",
+        "companyName": "Promore Pharma AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "QAIR.ST",
+        "companyName": "QleanAir Holding AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "QLIFE.ST",
+        "companyName": "QLife Holding AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "QLINEA.ST",
+        "companyName": "Q-Linea AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "QLRO.ST",
+        "companyName": "Qliro Group AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "QUART.ST",
+        "companyName": "Quartiers Properties AB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "QUART-PREF.ST",
+        "companyName": "Quartiers Properties AB Pref",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "RAIL.ST",
+        "companyName": "Railcare Group AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "RAKE.ST",
+        "companyName": "Raketech Group Holding plc",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "RATO-A.ST",
+        "companyName": "Ratos AB ser. A",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "RATO-B.ST",
+        "companyName": "Ratos AB ser. B",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "RAY-B.ST",
+        "companyName": "RaySearch Laboratories AB ser. ",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "REALFI.ST",
+        "companyName": "Realfiction Holding AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "RECI-B.ST",
+        "companyName": "Recipharm AB ser. B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "REJL-B.ST",
+        "companyName": "Rejlers AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "RESURS.ST",
+        "companyName": "Resurs Holding AB",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "RLS.ST",
+        "companyName": "RLS Global AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "RNBS.ST",
+        "companyName": "RNB RETAIL AND BRANDS AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "RPLAN.ST",
+        "companyName": "Ranplan Group AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "RROS.ST",
+        "companyName": "Rottneros AB",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "S2M.ST",
+        "companyName": "S2Medical AB ser. B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SAAB-B.ST",
+        "companyName": "SAAB AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SAGA-B.ST",
+        "companyName": "Sagax AB B",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SAGA-D.ST",
+        "companyName": "Sagax AB D",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SAGA-PREF.ST",
+        "companyName": "Sagax AB pref",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SALT-B.ST",
+        "companyName": "SaltX Technology Holding AB ser",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SAND.ST",
+        "companyName": "Sandvik AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SANION.ST",
+        "companyName": "Saniona AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SAPIAB.ST",
+        "companyName": "Saltngen Property Invest AB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SAS.ST",
+        "companyName": "SAS AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SAVOS.ST",
+        "companyName": "Savosolar Plc",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SAXG.ST",
+        "companyName": "Saxlund Group AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SBB-B.ST",
+        "companyName": "Samhllsbyggnadsbolaget i Norden",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SCA-A.ST",
+        "companyName": "Svenska Cellulosa AB SCA ser. A",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SCA-B.ST",
+        "companyName": "Svenska Cellulosa AB SCA ser. B",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SCIB.ST",
+        "companyName": "Scibase Holding AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SDIP-B.ST",
+        "companyName": "Sdiptech AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SDIP-PREF.ST",
+        "companyName": "Sdiptech AB Pref",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SDOS.ST",
+        "companyName": "ScandiDos AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SDS.ST",
+        "companyName": "Seamless Distribution Systems A",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SEAF.ST",
+        "companyName": "Seafire AB",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SEB-A.ST",
+        "companyName": "Skandinaviska Enskilda Banken s",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SEB-C.ST",
+        "companyName": "Skandinaviska Enskilda Banken s",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SECI.ST",
+        "companyName": "SECITS Holding AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SECT-B.ST",
+        "companyName": "SECTRA AB ser B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SECU-B.ST",
+        "companyName": "Securitas AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SEDANA.ST",
+        "companyName": "Sedana Medical AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SEMC.ST",
+        "companyName": "Semcon AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SENS.ST",
+        "companyName": "Sensys Gatso Group AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SENZA.ST",
+        "companyName": "SenzaGen AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SERT.ST",
+        "companyName": "Serstech AB",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SES.ST",
+        "companyName": "Scandinavian Enviro Systems AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SEYE.ST",
+        "companyName": "Smart Eye AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SEZI.ST",
+        "companyName": "Senzime AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SF.ST",
+        "companyName": "Stillfront Group AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SFTR.ST",
+        "companyName": "Safeture AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SHB-A.ST",
+        "companyName": "Svenska Handelsbanken ser. A",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SHB-B.ST",
+        "companyName": "Svenska Handelsbanken ser. B",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SHOT.ST",
+        "companyName": "Scandic Hotels Group AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SIMRIS-B.ST",
+        "companyName": "Simris Alg AB ser. B",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SINCH.ST",
+        "companyName": "Sinch AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SINT.ST",
+        "companyName": "SinterCast AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SIVE.ST",
+        "companyName": "Sivers IMA Holding AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SJR-B.ST",
+        "companyName": "SJR in Scandinavia AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SKA-B.ST",
+        "companyName": "Skanska AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SKF-A.ST",
+        "companyName": "SKF, AB ser. A",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SKF-B.ST",
+        "companyName": "SKF, AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SKIS-B.ST",
+        "companyName": "SkiStar AB ser. B",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SLITE.ST",
+        "companyName": "Slitevind AB",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SMF.ST",
+        "companyName": "Semafo Inc.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SNM.ST",
+        "companyName": "ShaMaran Petroleum Corp",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SOBI.ST",
+        "companyName": "Swedish Orphan Biovitrum AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SOF-B.ST",
+        "companyName": "Softronic AB ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SOLT.ST",
+        "companyName": "SolTech Energy Sweden AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SONE.ST",
+        "companyName": "Sonetel AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SPEC.ST",
+        "companyName": "SpectraCure AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SPEONE.ST",
+        "companyName": "SpectrumOne AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SPEQT.ST",
+        "companyName": "Speqta AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SPIFF.ST",
+        "companyName": "Spiffbet AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SPRINT.ST",
+        "companyName": "Sprint Bioscience AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SRNKE-B.ST",
+        "companyName": "Serneke Group AB B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SSAB-A.ST",
+        "companyName": "SSAB AB ser. A",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SSAB-B.ST",
+        "companyName": "SSAB AB ser. B",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SSM.ST",
+        "companyName": "SSM Holding AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "STABL.ST",
+        "companyName": "Stayble Therapeutics AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "STAR-B.ST",
+        "companyName": "Starbreeze AB ser. B",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "STE-A.ST",
+        "companyName": "Stora Enso Oyj ser. A",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "STEF-B.ST",
+        "companyName": "Stendrren Fastigheter AB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "STE-R.ST",
+        "companyName": "Stora Enso Oyj ser. R",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "STIL.ST",
+        "companyName": "Stille AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "STORY-B.ST",
+        "companyName": "Storytel AB ser. B",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "STRAX.ST",
+        "companyName": "Strax AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "STW.ST",
+        "companyName": "SeaTwirl AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "STWK.ST",
+        "companyName": "Stockwik Frvaltning AB",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SVED-B.ST",
+        "companyName": "Svedbergs i Dalstorp AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SVIK.ST",
+        "companyName": "Studsvik AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SVOL-B.ST",
+        "companyName": "Svolder AB ser. B",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SWEC-B.ST",
+        "companyName": "SWECO AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SWED-A.ST",
+        "companyName": "Swedbank AB ser A",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SWMA.ST",
+        "companyName": "Swedish Match AB",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SWOL-B.ST",
+        "companyName": "Swedol AB ser. B",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "SYSR.ST",
+        "companyName": "Systemair AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TAGM-B.ST",
+        "companyName": "TagMaster AB ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TALK.ST",
+        "companyName": "TalkPool AG",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TEL2-A.ST",
+        "companyName": "Tele2 AB ser. A",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TEL2-B.ST",
+        "companyName": "Tele2 AB ser. B",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TELIA.ST",
+        "companyName": "Telia Company AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TEQ.ST",
+        "companyName": "Teqnion AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TERRNT-B.ST",
+        "companyName": "TerraNet Holding AB ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TETY.ST",
+        "companyName": "Tethys Oil AB",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TFBANK.ST",
+        "companyName": "TF Bank AB",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "THULE.ST",
+        "companyName": "Thule Group AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TIGO-SDB.ST",
+        "companyName": "Millicom International Cellular",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TOAD.ST",
+        "companyName": "Toadman Interactive AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TOBII.ST",
+        "companyName": "Tobii AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TORSAB.ST",
+        "companyName": "Torslanda Property Investment A",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TRAC-B.ST",
+        "companyName": "Traction AB ser. B",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TRAIN-B.ST",
+        "companyName": "Train Alliance Sweden AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TRANS.ST",
+        "companyName": "Transtema Group AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TRANS-BTA.ST",
+        "companyName": "Transtema Group AB BTA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TREL-B.ST",
+        "companyName": "Trelleborg AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TRG.ST",
+        "companyName": "Transcendent Group AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TRIAN-B.ST",
+        "companyName": "Fastighets AB Trianon ser. B",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TROAX.ST",
+        "companyName": "Troax Group AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "TSEC.ST",
+        "companyName": "Tempest Security AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "UNIBAP.ST",
+        "companyName": "Unibap AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "UPSALE.ST",
+        "companyName": "Upsales Technology AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "UTG.ST",
+        "companyName": "Unlimited Travel Group AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "VBG-B.ST",
+        "companyName": "VBG GROUP AB ser. B",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "VEMF-SDB.ST",
+        "companyName": "Vostok Emerging Finance Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "VERI.ST",
+        "companyName": "Verisec AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "VERT-B.ST",
+        "companyName": "Vertiseit AB ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "VEVEN.ST",
+        "companyName": "Vertical Ventures AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "VICO.ST",
+        "companyName": "Vicore Pharma Holding AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "VIT-B.ST",
+        "companyName": "Vitec Software Group AB ser. B",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "VITR.ST",
+        "companyName": "Vitrolife AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "VNE-SDB.ST",
+        "companyName": "Veoneer Inc. SDB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "VNV-SDB.ST",
+        "companyName": "Vostok New Ventures Ltd",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "VOLAB.ST",
+        "companyName": "Veg of Lund AB",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "VOLO.ST",
+        "companyName": "Volati AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "VOLO-PREF.ST",
+        "companyName": "Volati AB Pref",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "VOLV-A.ST",
+        "companyName": "Volvo, AB ser. A",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "VOLV-B.ST",
+        "companyName": "Volvo, AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "VRG-B.ST",
+        "companyName": "Venue Retail Group AB ser. B",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "VSSAB-B.ST",
+        "companyName": "Viking Supply Ships AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "WALL-B.ST",
+        "companyName": "Wallenstam AB ser. B",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "WAYS.ST",
+        "companyName": "Waystream Holding AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "WESC.ST",
+        "companyName": "WeSC AB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "WIHL.ST",
+        "companyName": "Wihlborgs Fastigheter AB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "WISE.ST",
+        "companyName": "Wise Group AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "WPAY.ST",
+        "companyName": "Westpay AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "XANO-B.ST",
+        "companyName": "XANO Industri AB ser. B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "XBRANE.ST",
+        "companyName": "Xbrane Biopharma AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "XINT.ST",
+        "companyName": "Xintela AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "XMR.ST",
+        "companyName": "XMReality AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "XMR-BTA.ST",
+        "companyName": "XMReality BTA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "XSPRAY.ST",
+        "companyName": "Xspray Pharma AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "XVIVO.ST",
+        "companyName": "Xvivo Perfusion AB",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ZAPLOX.ST",
+        "companyName": "Zaplox AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ZETA.ST",
+        "companyName": "ZetaDisplay AB",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ZIGN.ST",
+        "companyName": "ZignSec AB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ZUTEC.ST",
+        "companyName": "Zutec Holding AB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ZWIPE.ST",
+        "companyName": "Zwipe AS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "STO",
+        "symbol": "ZZ-B.ST",
+        "companyName": "Zinzino AB Ser. B",
+        "industryOrCategory": "Consumer Defensive"
+    }
+]

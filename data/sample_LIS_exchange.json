@@ -1,0 +1,350 @@
+[
+    {
+        "exchangeCode": "LIS",
+        "symbol": "ALTR.LS",
+        "companyName": "ALTRI SGPS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "BCP.LS",
+        "companyName": "B.COM.PORTUGUES",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "BESSM.LS",
+        "companyName": "BESI 8,5%PLD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "BFCPJ.LS",
+        "companyName": "FCP 4,25% 9JUN20",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "BFCPR.LS",
+        "companyName": "FCP 4,75% 7JUN21",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "BMENW.LS",
+        "companyName": "MOTA 4,5% 28NOV22",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "BMENX.LS",
+        "companyName": "MOTA 4,375%30OCT24",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "BOTEK.LS",
+        "companyName": "OT 2,875%15OCT25",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "BOTEQ.LS",
+        "companyName": "OT 4,8% 15JUN20",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "BOTES.LS",
+        "companyName": "OT5.65% 15FEB24",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "BOTEW.LS",
+        "companyName": "OT 2.2% 17OCT22",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "BOTEZ.LS",
+        "companyName": "OT 4.125% 14APR27",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "BSCPH.LS",
+        "companyName": "SCP 5,25% 26NOV21",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "BSINA.LS",
+        "companyName": "SIC 4,5% 11JUL22",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "BSLBA.LS",
+        "companyName": "SLB 3,75% 20MAY22",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "BSLBL.LS",
+        "companyName": "SLB 4.0% 24APR20",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "BSLBM.LS",
+        "companyName": "SLB 4% 16JUL21",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "BTAPB.LS",
+        "companyName": "TAP 4,375% 23JUN23",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "CFN.LS",
+        "companyName": "COFINA,SGPS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "COR.LS",
+        "companyName": "CORTICEIRA AMORIM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "CTT.LS",
+        "companyName": "CTT CORREIOS PORT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "EDP.LS",
+        "companyName": "EDP",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "EDPR.LS",
+        "companyName": "EDP RENOVAVEIS",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "EGL.LS",
+        "companyName": "MOTA ENGIL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "FCP.LS",
+        "companyName": "FUT.CLUBE PORTO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "GALP.LS",
+        "companyName": "GALP ENERGIA-NOM",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "GLINT.LS",
+        "companyName": "GLINTT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "GPA.LS",
+        "companyName": "IMOB.C GRAO PARA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "IBS.LS",
+        "companyName": "IBERSOL,SGPS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "IPR.LS",
+        "companyName": "IMPRESA,SGPS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "JMT.LS",
+        "companyName": "J.MARTINS,SGPS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "LIG.LS",
+        "companyName": "LISGRAFICA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "LIT.LS",
+        "companyName": "LITHO FORMAS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "MAR.LS",
+        "companyName": "MARTIFER",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "NBA.LS",
+        "companyName": "NOVABASE,SGPS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "NOS.LS",
+        "companyName": "NOS, SGPS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "NVG.LS",
+        "companyName": "THE NAVIGATOR COMP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "OTRVA.LS",
+        "companyName": "OTRV FRN 19MAY21",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "OTRVB.LS",
+        "companyName": "OTRV FRN 12AUG21",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "OTRVD.LS",
+        "companyName": "OTRV FRN 12APR22",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "OTRVE.LS",
+        "companyName": "OTRV FRN 2AUG22",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "OTRVF.LS",
+        "companyName": "OTRV 1.1% 5DEC22",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "OTRVG.LS",
+        "companyName": "OTRV FRN 23JUL25",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "OTY.LS",
+        "companyName": "OT3,85%15APR21",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "PHR.LS",
+        "companyName": "PHAROL",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "RAM.LS",
+        "companyName": "RAMADA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "RENE.LS",
+        "companyName": "REN",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "SCP.LS",
+        "companyName": "SPORTING",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "SCT.LS",
+        "companyName": "TOYOTA CAETANO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "SEM.LS",
+        "companyName": "SEMAPA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "SLBEN.LS",
+        "companyName": "BENFICA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "SNC.LS",
+        "companyName": "SONAECOM,SGPS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "SNG.LS",
+        "companyName": "SONAGI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "SON.LS",
+        "companyName": "SONAE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "SONC.LS",
+        "companyName": "SONAE CAPITAL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "SONI.LS",
+        "companyName": "SONAE IND.SGPS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "TDSA.LS",
+        "companyName": "TEIXEIRA DUARTE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "LIS",
+        "symbol": "VAF.LS",
+        "companyName": "VAA VISTA ALEGRE",
+        "industryOrCategory": "Consumer Cyclical"
+    }
+]

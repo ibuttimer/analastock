@@ -1,0 +1,4718 @@
+[
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0002.KL",
+        "companyName": "KOTRA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0007.KL",
+        "companyName": "PUC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0008.KL",
+        "companyName": "WILLOW",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0011.KL",
+        "companyName": "BTECH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0012.KL",
+        "companyName": "3A",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0018.KL",
+        "companyName": "LAMBO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0020.KL",
+        "companyName": "NETX",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0021.KL",
+        "companyName": "GHLSYS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0024.KL",
+        "companyName": "JAG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0025.KL",
+        "companyName": "YBS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0026.KL",
+        "companyName": "NOVAMSC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0029.KL",
+        "companyName": "DIGISTA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0032.KL",
+        "companyName": "REDTONE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0034.KL",
+        "companyName": "MMAG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0034PA.KL",
+        "companyName": "MMAG-PA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0036.KL",
+        "companyName": "KGROUP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0038.KL",
+        "companyName": "PTB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0041.KL",
+        "companyName": "MYSCM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0043.KL",
+        "companyName": "MTRONIC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0043WA.KL",
+        "companyName": "METRONIC GLOBAL BERHAD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0050.KL",
+        "companyName": "SYSTECH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0054.KL",
+        "companyName": "KARYON",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0056.KL",
+        "companyName": "GRANFLO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0058.KL",
+        "companyName": "JCBNEXT",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0059.KL",
+        "companyName": "ECOHLDS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0060.KL",
+        "companyName": "VC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0060PA.KL",
+        "companyName": "VC-PA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0064.KL",
+        "companyName": "EFFICEN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0066.KL",
+        "companyName": "VSOLAR",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0072.KL",
+        "companyName": "AT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0078.KL",
+        "companyName": "GDEX",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0083.KL",
+        "companyName": "NOTION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0084.KL",
+        "companyName": "TECFAST",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0085.KL",
+        "companyName": "MLAB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0086.KL",
+        "companyName": "YGL",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0090.KL",
+        "companyName": "ELSOFT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0095.KL",
+        "companyName": "XINGHE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0096.KL",
+        "companyName": "NEXGRAM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0097.KL",
+        "companyName": "VITROX",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0098.KL",
+        "companyName": "BAHVEST",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0099.KL",
+        "companyName": "SCICOM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0100.KL",
+        "companyName": "ESCERAM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0102PA.KL",
+        "companyName": "CONNECT-PA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0103PA.KL",
+        "companyName": "MNC-PA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0104.KL",
+        "companyName": "GENETEC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0105PA.KL",
+        "companyName": "ASIAPLY-PA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0106.KL",
+        "companyName": "REXIT",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0107.KL",
+        "companyName": "EDUSPEC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0111.KL",
+        "companyName": "K1",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0113.KL",
+        "companyName": "MMSV",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0119.KL",
+        "companyName": "APPASIA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0120.KL",
+        "companyName": "VIS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0126.KL",
+        "companyName": "MICROLN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0127.KL",
+        "companyName": "JHM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0129.KL",
+        "companyName": "SRIDGE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0132.KL",
+        "companyName": "TDEX",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0136.KL",
+        "companyName": "GREENYB",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0138.KL",
+        "companyName": "MYEG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0140.KL",
+        "companyName": "MACPIE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0143.KL",
+        "companyName": "KEYASIC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0146.KL",
+        "companyName": "JFTECH",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0151.KL",
+        "companyName": "KGB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0152.KL",
+        "companyName": "DGB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0154.KL",
+        "companyName": "EAH",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0156.KL",
+        "companyName": "MPAY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0158.KL",
+        "companyName": "SCC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0159.KL",
+        "companyName": "AMEDIA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0162.KL",
+        "companyName": "WIDAD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0165.KL",
+        "companyName": "XOX",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0165PA.KL",
+        "companyName": "XOX-PA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0167.KL",
+        "companyName": "MCLEAN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0168.KL",
+        "companyName": "BOILERM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0170.KL",
+        "companyName": "KANGER",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0171.KL",
+        "companyName": "PLABS",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0175.KL",
+        "companyName": "HHGROUP",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0176.KL",
+        "companyName": "KRONO",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0177.KL",
+        "companyName": "PASUKGB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0179.KL",
+        "companyName": "BIOHLDG",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0180.KL",
+        "companyName": "KTC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0183.KL",
+        "companyName": "SALUTE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0185.KL",
+        "companyName": "HSSEB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0187.KL",
+        "companyName": "BCMALL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0188.KL",
+        "companyName": "HLT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0189.KL",
+        "companyName": "MATANG",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0190.KL",
+        "companyName": "ESAFE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0193.KL",
+        "companyName": "KAB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0195.KL",
+        "companyName": "BINACOM",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0196.KL",
+        "companyName": "QES",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0197.KL",
+        "companyName": "WEGMANS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0198.KL",
+        "companyName": "GDB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0199.KL",
+        "companyName": "TRIMODE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0200.KL",
+        "companyName": "REVENUE",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0201.KL",
+        "companyName": "NOVA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0203.KL",
+        "companyName": "SMETRIC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0205.KL",
+        "companyName": "DPIH",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0206.KL",
+        "companyName": "NADIBHD",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0207.KL",
+        "companyName": "MESTRON",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0208.KL",
+        "companyName": "GREATEC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0210.KL",
+        "companyName": "KHJB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0211.KL",
+        "companyName": "TASHIN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0213.KL",
+        "companyName": "MTAG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0215.KL",
+        "companyName": "SLVEST",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0216.KL",
+        "companyName": "SPRING",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0217.KL",
+        "companyName": "PWRWELL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0800EA.KL",
+        "companyName": "ABFMY1",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0820EA.KL",
+        "companyName": "FBMKLCI-EA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0821EA.KL",
+        "companyName": "MYETFDJ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0822EA.KL",
+        "companyName": "PAM-A40M",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0823EA.KL",
+        "companyName": "PAM-C50",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0824EA.KL",
+        "companyName": "MYETFID",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0825EA.KL",
+        "companyName": "METFSID",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0827EA.KL",
+        "companyName": "METFUS50",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0828EA.KL",
+        "companyName": "GOLDETF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0829EA.KL",
+        "companyName": "CHINAETF-MYR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0831EA.KL",
+        "companyName": "FANG-1XI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0832EA.KL",
+        "companyName": "HSCEI-2XL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0833EA.KL",
+        "companyName": "HSCEI-1XI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0834EA.KL",
+        "companyName": "KLCI2XL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "0835EA.KL",
+        "companyName": "KLCI1XI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "1007.KL",
+        "companyName": "AMPROP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "1015.KL",
+        "companyName": "AMBANK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "1058.KL",
+        "companyName": "MANULFE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "1066.KL",
+        "companyName": "RHBBANK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "1082.KL",
+        "companyName": "HLFG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "1147.KL",
+        "companyName": "GOB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "1155.KL",
+        "companyName": "MAYBANK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "1163.KL",
+        "companyName": "ALLIANZ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "1163PA.KL",
+        "companyName": "ALLIANZ-PA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "1171.KL",
+        "companyName": "MBSB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "1198.KL",
+        "companyName": "MAA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "1287.KL",
+        "companyName": "PMHLDG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "1295.KL",
+        "companyName": "PBBANK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "1368.KL",
+        "companyName": "EDGENTA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "1481.KL",
+        "companyName": "ASB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "1562.KL",
+        "companyName": "BJTOTO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "1619.KL",
+        "companyName": "DRBHCOM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "1651.KL",
+        "companyName": "MRCB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "1694.KL",
+        "companyName": "MENANG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "1818.KL",
+        "companyName": "BURSA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "1996.KL",
+        "companyName": "KRETAM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "2054.KL",
+        "companyName": "TDM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "2062.KL",
+        "companyName": "HARBOUR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "2097.KL",
+        "companyName": "EASTLND",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "2186.KL",
+        "companyName": "KUCHAI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "2194.KL",
+        "companyName": "MMCCORP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "2283.KL",
+        "companyName": "ZELAN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "2445.KL",
+        "companyName": "KLK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "2453.KL",
+        "companyName": "KLUANG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "2488.KL",
+        "companyName": "ABMB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "2658.KL",
+        "companyName": "AJI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "2682.KL",
+        "companyName": "AISB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "2739.KL",
+        "companyName": "HUAAN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "2771.KL",
+        "companyName": "BSTEAD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3026.KL",
+        "companyName": "DLADY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3034.KL",
+        "companyName": "HAPSENG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3042.KL",
+        "companyName": "PETRONM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3069.KL",
+        "companyName": "MFCB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3158.KL",
+        "companyName": "YNHPROP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3182.KL",
+        "companyName": "GENTING",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3204.KL",
+        "companyName": "GKENT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3239.KL",
+        "companyName": "BJASSET",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3247.KL",
+        "companyName": "GUH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3255.KL",
+        "companyName": "HEIM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3298.KL",
+        "companyName": "HEXZA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3301.KL",
+        "companyName": "HLIND",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3395.KL",
+        "companyName": "BJCORP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3417.KL",
+        "companyName": "E&O",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3441.KL",
+        "companyName": "JOHAN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3476.KL",
+        "companyName": "KSENG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3557.KL",
+        "companyName": "ECOFIRS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3565.KL",
+        "companyName": "WCEHB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3565PA.KL",
+        "companyName": "WCEHB-PA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3611.KL",
+        "companyName": "PGLOBE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3689.KL",
+        "companyName": "F&N",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3719.KL",
+        "companyName": "PANAMY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3794.KL",
+        "companyName": "MCEMENT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3816.KL",
+        "companyName": "MISC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3859.KL",
+        "companyName": "MAGNUM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3867.KL",
+        "companyName": "MPI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3883.KL",
+        "companyName": "MUDA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3891.KL",
+        "companyName": "MUIIND",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3913.KL",
+        "companyName": "MUIPROP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "3948.KL",
+        "companyName": "DUTALND",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4022.KL",
+        "companyName": "TADMAX",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4057.KL",
+        "companyName": "ASIAPAC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4065.KL",
+        "companyName": "PPB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4081.KL",
+        "companyName": "PMCORP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4162.KL",
+        "companyName": "BAT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4197.KL",
+        "companyName": "SIME",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4219.KL",
+        "companyName": "BJLAND",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4243.KL",
+        "companyName": "WTK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4286.KL",
+        "companyName": "SEAL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4324.KL",
+        "companyName": "HENGYUAN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4383.KL",
+        "companyName": "JTIASA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4448.KL",
+        "companyName": "TASEK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4456.KL",
+        "companyName": "DNEX",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4634.KL",
+        "companyName": "POS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4677.KL",
+        "companyName": "YTL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4707.KL",
+        "companyName": "NESTLE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4715.KL",
+        "companyName": "GENM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4723.KL",
+        "companyName": "JAKS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4731.KL",
+        "companyName": "SCIENTX",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4847.KL",
+        "companyName": "KTB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4898.KL",
+        "companyName": "TA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4936.KL",
+        "companyName": "MALPAC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4944.KL",
+        "companyName": "NYLEX",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "4995.KL",
+        "companyName": "VERSATL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5000.KL",
+        "companyName": "HUMEIND",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5008.KL",
+        "companyName": "HARISON",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5009.KL",
+        "companyName": "WTHORSE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5010.KL",
+        "companyName": "TONGHER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5011.KL",
+        "companyName": "MSNIAGA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5014.KL",
+        "companyName": "AIRPORT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5021.KL",
+        "companyName": "AYS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5022.KL",
+        "companyName": "PAOS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5024.KL",
+        "companyName": "HUPSENG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5026.KL",
+        "companyName": "MHC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5027.KL",
+        "companyName": "KMLOONG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5028.KL",
+        "companyName": "HTPADU",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5031.KL",
+        "companyName": "TIMECOM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5032.KL",
+        "companyName": "BIPORT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5035.KL",
+        "companyName": "KNUSFOR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5036.KL",
+        "companyName": "EDARAN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5038.KL",
+        "companyName": "KSL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5040.KL",
+        "companyName": "MERIDIAN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5048.KL",
+        "companyName": "YILAI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5054.KL",
+        "companyName": "TRC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5056.KL",
+        "companyName": "ENGTEX",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5062.KL",
+        "companyName": "HUAYANG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5066.KL",
+        "companyName": "NTPM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5073.KL",
+        "companyName": "NAIM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5075.KL",
+        "companyName": "PLENITU",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5077.KL",
+        "companyName": "MAYBULK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5078.KL",
+        "companyName": "M&G",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5079.KL",
+        "companyName": "GETS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5080.KL",
+        "companyName": "POHKONG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5081.KL",
+        "companyName": "EIG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5087.KL",
+        "companyName": "MYCRON",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5088.KL",
+        "companyName": "APEX",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5095.KL",
+        "companyName": "HEVEA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5098.KL",
+        "companyName": "MASTEEL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5099.KL",
+        "companyName": "AIRASIA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5100.KL",
+        "companyName": "BPPLAS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5102.KL",
+        "companyName": "GCB",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5106.KL",
+        "companyName": "AXREIT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5109.KL",
+        "companyName": "YTLREIT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5112.KL",
+        "companyName": "THPLANT",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5113.KL",
+        "companyName": "RSAWIT",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5120.KL",
+        "companyName": "AMFIRST",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5121.KL",
+        "companyName": "HEKTAR",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5123.KL",
+        "companyName": "MQREIT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5125.KL",
+        "companyName": "PANTECH",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5126.KL",
+        "companyName": "SOP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5129.KL",
+        "companyName": "MELATI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5130.KL",
+        "companyName": "ATRIUM",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5131.KL",
+        "companyName": "ZHULIAN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5132.KL",
+        "companyName": "DELEUM",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5133.KL",
+        "companyName": "PENERGY",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5134.KL",
+        "companyName": "SAB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5139.KL",
+        "companyName": "AEONCR",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5141.KL",
+        "companyName": "DAYANG",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5142.KL",
+        "companyName": "WASEONG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5149.KL",
+        "companyName": "TAS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5151.KL",
+        "companyName": "HEXTAR",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5152.KL",
+        "companyName": "MBL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5156.KL",
+        "companyName": "XDL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5159.KL",
+        "companyName": "YOCB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5160.KL",
+        "companyName": "HOMERIZ",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5161.KL",
+        "companyName": "JCY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5162.KL",
+        "companyName": "VSTECS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5165.KL",
+        "companyName": "HOKHENG",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5166.KL",
+        "companyName": "MINDA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5168.KL",
+        "companyName": "HARTA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5171.KL",
+        "companyName": "KIMLUN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5172.KL",
+        "companyName": "KSTAR",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5176.KL",
+        "companyName": "SUNREIT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5178.KL",
+        "companyName": "DYNACIA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5178PA.KL",
+        "companyName": "DYNACIA-PA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5181.KL",
+        "companyName": "SIGGAS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5182.KL",
+        "companyName": "MCT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5183.KL",
+        "companyName": "PCHEM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5185.KL",
+        "companyName": "AFFIN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5191.KL",
+        "companyName": "TAMBUN",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5192.KL",
+        "companyName": "KSSC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5194.KL",
+        "companyName": "APFT",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5199.KL",
+        "companyName": "HIBISCS",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5202.KL",
+        "companyName": "MSM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5208.KL",
+        "companyName": "EITA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5209.KL",
+        "companyName": "GASMSIA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5210.KL",
+        "companyName": "ARMADA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5211.KL",
+        "companyName": "SUNWAY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5216.KL",
+        "companyName": "DSONIC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5218.KL",
+        "companyName": "SAPNRG",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5219.KL",
+        "companyName": "PESTECH",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5223.KL",
+        "companyName": "MENTIGA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5228.KL",
+        "companyName": "ELKDESA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5230.KL",
+        "companyName": "TUNEPRO",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5232.KL",
+        "companyName": "LEONFB",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5235SS.KL",
+        "companyName": "KLCC",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5236.KL",
+        "companyName": "MATRIX",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5237.KL",
+        "companyName": "MPHBCAP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5238.KL",
+        "companyName": "AAX",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5239PA.KL",
+        "companyName": "TITIJYA-PA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5243.KL",
+        "companyName": "VELESTO",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5246.KL",
+        "companyName": "WPRTS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5248.KL",
+        "companyName": "BAUTO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5250.KL",
+        "companyName": "SEM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5252.KL",
+        "companyName": "SASBADI",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5254.KL",
+        "companyName": "BPLANT",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5258.KL",
+        "companyName": "BIMB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5259.KL",
+        "companyName": "EATECH",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5265.KL",
+        "companyName": "DOLPHIN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5267.KL",
+        "companyName": "XINHWA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5269.KL",
+        "companyName": "ALSREIT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5271.KL",
+        "companyName": "PECCA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5272.KL",
+        "companyName": "RANHILL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5278.KL",
+        "companyName": "RHONEMA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5279.KL",
+        "companyName": "SERBADK",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5280.KL",
+        "companyName": "KIPREIT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5283.KL",
+        "companyName": "EWINT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5284.KL",
+        "companyName": "LCTITAN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5285.KL",
+        "companyName": "SIMEPLT",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5286.KL",
+        "companyName": "MI",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5291.KL",
+        "companyName": "HPMT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5293.KL",
+        "companyName": "AME",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5347.KL",
+        "companyName": "TENAGA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5371.KL",
+        "companyName": "KIMHIN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5398.KL",
+        "companyName": "GAMUDA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5436.KL",
+        "companyName": "PERSTIM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5517.KL",
+        "companyName": "SHANG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5576.KL",
+        "companyName": "MINHO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5584.KL",
+        "companyName": "YEELEE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5592.KL",
+        "companyName": "GCE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5622.KL",
+        "companyName": "PEB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5681.KL",
+        "companyName": "PETDAG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5703.KL",
+        "companyName": "MUHIBAH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5789.KL",
+        "companyName": "LBS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5789PA.KL",
+        "companyName": "LBS-PA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5819.KL",
+        "companyName": "HLBANK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5835.KL",
+        "companyName": "DOLMITE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5843.KL",
+        "companyName": "KPS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5878.KL",
+        "companyName": "KPJ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5886.KL",
+        "companyName": "MBG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5908.KL",
+        "companyName": "DKSH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5924.KL",
+        "companyName": "MTDACPI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5932.KL",
+        "companyName": "BPURI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "5983.KL",
+        "companyName": "MBMR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6009.KL",
+        "companyName": "P&O",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6012.KL",
+        "companyName": "MAXIS",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6033.KL",
+        "companyName": "PETGAS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6076.KL",
+        "companyName": "ENCORP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6114.KL",
+        "companyName": "MKH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6139.KL",
+        "companyName": "TAKAFUL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6149.KL",
+        "companyName": "METROD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6173.KL",
+        "companyName": "BDB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6181.KL",
+        "companyName": "MALTON",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6203.KL",
+        "companyName": "KHEESAN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6254.KL",
+        "companyName": "PDZ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6351.KL",
+        "companyName": "AMWAY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6378.KL",
+        "companyName": "WMG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6399.KL",
+        "companyName": "ASTRO",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6432.KL",
+        "companyName": "APOLLO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6459.KL",
+        "companyName": "MNRB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6483.KL",
+        "companyName": "KENANGA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6491.KL",
+        "companyName": "KFIMA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6548.KL",
+        "companyName": "MPCORP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6556.KL",
+        "companyName": "ANNJOO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6572.KL",
+        "companyName": "KWANTAS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6599.KL",
+        "companyName": "AEON",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6602.KL",
+        "companyName": "BCB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6633.KL",
+        "companyName": "LHI",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6742.KL",
+        "companyName": "YTLPOWR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6769.KL",
+        "companyName": "JKGLAND",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6807.KL",
+        "companyName": "PUNCAK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6815.KL",
+        "companyName": "EUPE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6874.KL",
+        "companyName": "KUB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6888.KL",
+        "companyName": "AXIATA",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6904.KL",
+        "companyName": "SUBUR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6947.KL",
+        "companyName": "DIGI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6963.KL",
+        "companyName": "VS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "6971.KL",
+        "companyName": "KOBAY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7003.KL",
+        "companyName": "Y&G",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7005.KL",
+        "companyName": "BIG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7006.KL",
+        "companyName": "LATITUD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7010.KL",
+        "companyName": "HOOVER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7014.KL",
+        "companyName": "YLI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7017.KL",
+        "companyName": "KOMARK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7020.KL",
+        "companyName": "YKGI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7022.KL",
+        "companyName": "GTRONIC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7028.KL",
+        "companyName": "ZECON",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7029.KL",
+        "companyName": "MASTER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7031.KL",
+        "companyName": "AMTEL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7034.KL",
+        "companyName": "TGUAN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7036.KL",
+        "companyName": "BORNOIL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7043.KL",
+        "companyName": "JADEM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7050.KL",
+        "companyName": "WONG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7052.KL",
+        "companyName": "PADINI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7054.KL",
+        "companyName": "AASIA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7055.KL",
+        "companyName": "PLB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7066.KL",
+        "companyName": "YONGTAI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7066PA.KL",
+        "companyName": "YONGTAI-PA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7070.KL",
+        "companyName": "VIZIONE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7077.KL",
+        "companyName": "KPPROP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7078.KL",
+        "companyName": "AZRB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7084.KL",
+        "companyName": "QL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7085.KL",
+        "companyName": "LTKM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7087.KL",
+        "companyName": "MAGNI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7088.KL",
+        "companyName": "POHUAT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7089.KL",
+        "companyName": "LIIHEN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7095.KL",
+        "companyName": "PIE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7096.KL",
+        "companyName": "GPA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7097.KL",
+        "companyName": "TAWIN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7105.KL",
+        "companyName": "HCK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7106.KL",
+        "companyName": "SUPERMX",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7108.KL",
+        "companyName": "PERDANA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7119.KL",
+        "companyName": "DEGEM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7121.KL",
+        "companyName": "XIANLNG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7129.KL",
+        "companyName": "ASIAFLE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7130.KL",
+        "companyName": "KPOWER",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7131.KL",
+        "companyName": "ACME",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7134.KL",
+        "companyName": "PWF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7145.KL",
+        "companyName": "AGES",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7148.KL",
+        "companyName": "DPHARMA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7149.KL",
+        "companyName": "ENGKAH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7152.KL",
+        "companyName": "JAYCORP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7153.KL",
+        "companyName": "KOSSAN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7155.KL",
+        "companyName": "SKPRES",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7158.KL",
+        "companyName": "SCOMI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7160.KL",
+        "companyName": "PENTA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7161.KL",
+        "companyName": "KERJAYA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7162.KL",
+        "companyName": "ASTINO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7164.KL",
+        "companyName": "KNM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7167.KL",
+        "companyName": "JOHOTIN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7169.KL",
+        "companyName": "DOMINAN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7172.KL",
+        "companyName": "PMBTECH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7176.KL",
+        "companyName": "TPC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7178.KL",
+        "companyName": "YSPSAH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7179.KL",
+        "companyName": "DBE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7182.KL",
+        "companyName": "EKA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7186.KL",
+        "companyName": "SWSCAP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7189.KL",
+        "companyName": "MBWORLD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7192.KL",
+        "companyName": "GOODWAY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7197.KL",
+        "companyName": "GESHEN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7199.KL",
+        "companyName": "KEINHIN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7200.KL",
+        "companyName": "TEKSENG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7203.KL",
+        "companyName": "WANGZNG",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7204.KL",
+        "companyName": "D&O",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7207.KL",
+        "companyName": "SUCCESS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7208.KL",
+        "companyName": "EURO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7211.KL",
+        "companyName": "TAFI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7212.KL",
+        "companyName": "DESTINI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7215.KL",
+        "companyName": "NIHSIN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7216.KL",
+        "companyName": "KAWAN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7217.KL",
+        "companyName": "EMETALL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7219.KL",
+        "companyName": "MINETEC",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7223.KL",
+        "companyName": "JADI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7225.KL",
+        "companyName": "PA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7231.KL",
+        "companyName": "WELLCAL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7233.KL",
+        "companyName": "DUFU",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7235.KL",
+        "companyName": "SUPERLN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7237.KL",
+        "companyName": "PWROOT",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7241.KL",
+        "companyName": "NGGB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7245.KL",
+        "companyName": "WZSATU",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7247.KL",
+        "companyName": "SCGM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7248.KL",
+        "companyName": "SLP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7249.KL",
+        "companyName": "EWEIN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7251.KL",
+        "companyName": "BARAKAH",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7253.KL",
+        "companyName": "HANDAL",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7277.KL",
+        "companyName": "DIALOG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7285.KL",
+        "companyName": "TOMYPAK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7293.KL",
+        "companyName": "YINSON",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7323.KL",
+        "companyName": "KEN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7374.KL",
+        "companyName": "TIENWAH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7382.KL",
+        "companyName": "GLBHD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7412.KL",
+        "companyName": "SHH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7439.KL",
+        "companyName": "TECGUAN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7501.KL",
+        "companyName": "HARNLEN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7528.KL",
+        "companyName": "DKLS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7595.KL",
+        "companyName": "MGB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7668.KL",
+        "companyName": "HAIO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7676.KL",
+        "companyName": "GUNUNG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7692.KL",
+        "companyName": "WIDETEC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7722.KL",
+        "companyName": "ASIABRN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7889.KL",
+        "companyName": "THRIVEN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "7935.KL",
+        "companyName": "MILUX",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8079.KL",
+        "companyName": "LEESK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8125.KL",
+        "companyName": "DAIBOCI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8133.KL",
+        "companyName": "BHIC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8141.KL",
+        "companyName": "MJPERAK",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8176.KL",
+        "companyName": "ATAIMS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8192.KL",
+        "companyName": "MERCURY",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8206.KL",
+        "companyName": "ECOWLD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8273.KL",
+        "companyName": "PPHB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8303.KL",
+        "companyName": "LOTUS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8362.KL",
+        "companyName": "KYM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8419.KL",
+        "companyName": "PANSAR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8443.KL",
+        "companyName": "HIL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8478.KL",
+        "companyName": "HWATAI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8532.KL",
+        "companyName": "SINOTOP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8583.KL",
+        "companyName": "MAHSING",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8605PA.KL",
+        "companyName": "FIHB-PA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8621.KL",
+        "companyName": "LPI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8648.KL",
+        "companyName": "JASKITA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8664.KL",
+        "companyName": "SPSETIA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8672.KL",
+        "companyName": "KAMDAR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8761.KL",
+        "companyName": "BREM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8869.KL",
+        "companyName": "PMETAL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8877.KL",
+        "companyName": "EKOVEST",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8885.KL",
+        "companyName": "AVI",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8907.KL",
+        "companyName": "EG",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8907PA.KL",
+        "companyName": "EG-PA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8923.KL",
+        "companyName": "JIANKUN",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8931.KL",
+        "companyName": "JERASIA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "8966.KL",
+        "companyName": "PRLEXUS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9016.KL",
+        "companyName": "EKSONS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9083.KL",
+        "companyName": "JETSON",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9091.KL",
+        "companyName": "EMICO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9121.KL",
+        "companyName": "KPSCB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9199.KL",
+        "companyName": "LYSAGHT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9288.KL",
+        "companyName": "BONIA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9326.KL",
+        "companyName": "LBALUM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9334.KL",
+        "companyName": "KESM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9342.KL",
+        "companyName": "ANZO",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9407.KL",
+        "companyName": "PARAGON",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9466.KL",
+        "companyName": "KKB",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9474.KL",
+        "companyName": "BRAHIMS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9539.KL",
+        "companyName": "MUH",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9571.KL",
+        "companyName": "MITRA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9679.KL",
+        "companyName": "WCT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9695.KL",
+        "companyName": "PLS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9741.KL",
+        "companyName": "ROHAS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9776.KL",
+        "companyName": "SMCAP",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9806.KL",
+        "companyName": "NATWIDE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9822.KL",
+        "companyName": "SAM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9881.KL",
+        "companyName": "LSTEEL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9938.KL",
+        "companyName": "BRIGHT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9954.KL",
+        "companyName": "RGTBHD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "9962.KL",
+        "companyName": "GMUTUAL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "ACPI.KL",
+        "companyName": "MTDACPI",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "AEOM.KL",
+        "companyName": "AEON",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "AEPB.KL",
+        "companyName": "GFM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "AFCB.KL",
+        "companyName": "ASIAFLE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "AFIN.KL",
+        "companyName": "AFFIN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "AHBM.KL",
+        "companyName": "AHP",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "AINM.KL",
+        "companyName": "ALLIANZ",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "AJIY.KL",
+        "companyName": "AJIYA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "AMMB.KL",
+        "companyName": "AMBANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "AMWA.KL",
+        "companyName": "AMWAY",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "ANNJ.KL",
+        "companyName": "ANNJOO",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "ANTM.KL",
+        "companyName": "HUAAN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "APES.KL",
+        "companyName": "APEX",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "APPR.KL",
+        "companyName": "DWL",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "ASUP.KL",
+        "companyName": "VIZIONE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "AZRB.KL",
+        "companyName": "AZRB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "BCBB.KL",
+        "companyName": "BCB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "BIMB.KL",
+        "companyName": "BIMB",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "BONI.KL",
+        "companyName": "BONIA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "BOUS.KL",
+        "companyName": "BSTEAD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "BPAK.KL",
+        "companyName": "BOXPAK",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "BPOT.KL",
+        "companyName": "BIPORT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "BREM.KL",
+        "companyName": "BREM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "BTKW.KL",
+        "companyName": "BKAWAN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "DAMA.KL",
+        "companyName": "DBHD",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "DATA.KL",
+        "companyName": "DATAPRP",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "DBEG.KL",
+        "companyName": "DBE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "DBMS.KL",
+        "companyName": "DLADY",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "DELM.KL",
+        "companyName": "DKSH",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "DIAL.KL",
+        "companyName": "DIALOG",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "DICM.KL",
+        "companyName": "ATAIMS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "DIGS.KL",
+        "companyName": "DIGISTA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "DNCE.KL",
+        "companyName": "DNONCE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "DOLC.KL",
+        "companyName": "DOLMITE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "DOMN.KL",
+        "companyName": "DOMINAN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "DOUP.KL",
+        "companyName": "DPHARMA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "DPSS.KL",
+        "companyName": "DPS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "DRBM.KL",
+        "companyName": "DRBHCOM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "DSOM.KL",
+        "companyName": "DIGI",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "DVMT.KL",
+        "companyName": "KGROUP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "EDEN.KL",
+        "companyName": "EDEN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "EDSB.KL",
+        "companyName": "EDARAN",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "EGCM.KL",
+        "companyName": "EG",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "EKOV.KL",
+        "companyName": "EKOVEST",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "EKSN.KL",
+        "companyName": "EKSONS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "EMIC.KL",
+        "companyName": "EMICO",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "ENCR.KL",
+        "companyName": "ENCORP",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "ENOB.KL",
+        "companyName": "E&O",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "EPMB.KL",
+        "companyName": "EPMB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "EQUE.KL",
+        "companyName": "GOB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "ESSO.KL",
+        "companyName": "PETRONM",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "ESTH.KL",
+        "companyName": "EIG",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "ETEX.KL",
+        "companyName": "ENGTEX",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "EUPE.KL",
+        "companyName": "EUPE",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "FBMS.KL",
+        "companyName": "EDGENTA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "FOCA.KL",
+        "companyName": "ECOWLD",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "FRAS.KL",
+        "companyName": "F&N",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "FURQ.KL",
+        "companyName": "EASTLND",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "FUTE.KL",
+        "companyName": "KERJAYA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "FWEB.KL",
+        "companyName": "PRG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "GAMU.KL",
+        "companyName": "GAMUDA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "GENT.KL",
+        "companyName": "GENTING",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "GESH.KL",
+        "companyName": "GESHEN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "GHLS.KL",
+        "companyName": "GHLSYS",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "GHOO.KL",
+        "companyName": "HOOVER",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "GKMS.KL",
+        "companyName": "GKENT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "GLOM.KL",
+        "companyName": "GLOMAC",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "GLSO.KL",
+        "companyName": "NETX",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "GOLS.KL",
+        "companyName": "HCK",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "GPRB.KL",
+        "companyName": "GNB",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "GRAN.KL",
+        "companyName": "GCE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "GUHB.KL",
+        "companyName": "GUH",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "GUMS.KL",
+        "companyName": "HEIM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "GUNU.KL",
+        "companyName": "GUNUNG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "GWAY.KL",
+        "companyName": "GOODWAY",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "HAPS.KL",
+        "companyName": "HAPSENG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "HARR.KL",
+        "companyName": "HARBOUR",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "HEIT.KL",
+        "companyName": "HTPADU",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "HILI.KL",
+        "companyName": "HIL",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "HLBB.KL",
+        "companyName": "HLBANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "HLCB.KL",
+        "companyName": "HLFG",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "HLPB.KL",
+        "companyName": "GUOCO",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "HOWA.KL",
+        "companyName": "HWGB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "HSIB.KL",
+        "companyName": "HUPSENG",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "HSLB.KL",
+        "companyName": "HSL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "HTVE.KL",
+        "companyName": "HIAPTEK",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "HUZA.KL",
+        "companyName": "MASTER",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "HWAT.KL",
+        "companyName": "HWATAI",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "HXZS.KL",
+        "companyName": "HEXZA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "IFOR.KL",
+        "companyName": "JAG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "JAKS.KL",
+        "companyName": "JAKS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "JERA.KL",
+        "companyName": "JERASIA",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "JETS.KL",
+        "companyName": "JETSON",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "JHHS.KL",
+        "companyName": "JOHAN",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "JKBM.KL",
+        "companyName": "JASKITA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "JMRB.KL",
+        "companyName": "JADEM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "JTIA.KL",
+        "companyName": "JTIASA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KARY.KL",
+        "companyName": "KARYON",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KBBR.KL",
+        "companyName": "EKA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KCDS.KL",
+        "companyName": "KUCHAI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KENH.KL",
+        "companyName": "KEN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KESM.KL",
+        "companyName": "KESM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KEUR.KL",
+        "companyName": "WCEHB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KFIM.KL",
+        "companyName": "KFIMA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KHEE.KL",
+        "companyName": "KHEESAN",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KHLH.KL",
+        "companyName": "HIGHTEC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KIMH.KL",
+        "companyName": "KIMHIN",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KIML.KL",
+        "companyName": "KMLOONG",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KKBE.KL",
+        "companyName": "KKB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KLDI.KL",
+        "companyName": "JKGLAND",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KLKK.KL",
+        "companyName": "KLK",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KLRK.KL",
+        "companyName": "KLUANG",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KNMP.KL",
+        "companyName": "KNM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KNNK.KL",
+        "companyName": "KENANGA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KNUS.KL",
+        "companyName": "KNUSFOR",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KOBA.KL",
+        "companyName": "KOBAY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KOIN.KL",
+        "companyName": "KOTRA",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KOMK.KL",
+        "companyName": "KOMARK",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KPES.KL",
+        "companyName": "ECOFIRS",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KPJH.KL",
+        "companyName": "KPJ",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KPSB.KL",
+        "companyName": "KPS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KPSC.KL",
+        "companyName": "KPSCB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KREK.KL",
+        "companyName": "KRETAM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KRIB.KL",
+        "companyName": "KOSSAN",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KSLH.KL",
+        "companyName": "KSL",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KSMS.KL",
+        "companyName": "KSENG",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KUBM.KL",
+        "companyName": "KUB",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KWAN.KL",
+        "companyName": "KWANTAS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "KYMH.KL",
+        "companyName": "KYM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "LANK.KL",
+        "companyName": "ARK",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "LBAL.KL",
+        "companyName": "LBALUM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "LHEN.KL",
+        "companyName": "LIIHEN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "LIOF.KL",
+        "companyName": "LIONPSIM",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "LNGB.KL",
+        "companyName": "YBS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "LOND.KL",
+        "companyName": "LPI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "LTHB.KL",
+        "companyName": "LATITUD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "LTKM.KL",
+        "companyName": "LTKM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MAAS.KL",
+        "companyName": "MAA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MAHB.KL",
+        "companyName": "AIRPORT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MAHS.KL",
+        "companyName": "MAHSING",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MBBM.KL",
+        "companyName": "MAYBANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MBCB.KL",
+        "companyName": "MAYBULK",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MBMR.KL",
+        "companyName": "MBMR",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MCES.KL",
+        "companyName": "Y&G",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MEPA.KL",
+        "companyName": "THRIVEN",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MESB.KL",
+        "companyName": "MESB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "METR.KL",
+        "companyName": "MKH",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MFMS.KL",
+        "companyName": "MFLOUR",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MHCP.KL",
+        "companyName": "MHC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MINT.KL",
+        "companyName": "MBG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MISC.KL",
+        "companyName": "MISC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MJYA.KL",
+        "companyName": "MUDAJYA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MLTO.KL",
+        "companyName": "MALTON",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MMCB.KL",
+        "companyName": "MMCCORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MNGA.KL",
+        "companyName": "MSNIAGA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MNRB.KL",
+        "companyName": "MNRB",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MPIM.KL",
+        "companyName": "MPI",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MRIL.KL",
+        "companyName": "PESONA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MSCB.KL",
+        "companyName": "MSC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MSES.KL",
+        "companyName": "PANAMY",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MSTM.KL",
+        "companyName": "MELEWAR",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MTNC.KL",
+        "companyName": "MTRONIC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MUHB.KL",
+        "companyName": "MUH",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MUIB.KL",
+        "companyName": "MUIIND",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MXTL.KL",
+        "companyName": "BJASSET",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MYAS.KL",
+        "companyName": "SUNSURIA",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MYMS.KL",
+        "companyName": "DUTALND",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "MYRS.KL",
+        "companyName": "MRCB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "NCHB.KL",
+        "companyName": "NAIM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "NESM.KL",
+        "companyName": "NESTLE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "NHFH.KL",
+        "companyName": "NHFATT",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "NICB.KL",
+        "companyName": "PHB",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "NMBS.KL",
+        "companyName": "NYLEX",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "NOVS.KL",
+        "companyName": "NOVAMSC",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "NSOS.KL",
+        "companyName": "NSOP",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "NTPM.KL",
+        "companyName": "NTPM",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PACO.KL",
+        "companyName": "P&O",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PAOS.KL",
+        "companyName": "PAOS",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PARK.KL",
+        "companyName": "KTB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PDNI.KL",
+        "companyName": "PADINI",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PDZH.KL",
+        "companyName": "PDZ",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PENS.KL",
+        "companyName": "PENSONI",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PEPT.KL",
+        "companyName": "PPB",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PERA.KL",
+        "companyName": "PRKCORP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PETR.KL",
+        "companyName": "PETDAG",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PGAS.KL",
+        "companyName": "PETGAS",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PGFM.KL",
+        "companyName": "POLY",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PGKN.KL",
+        "companyName": "PMHLDG",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PMAS.KL",
+        "companyName": "PENTA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PMET.KL",
+        "companyName": "PMETAL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PMJU.KL",
+        "companyName": "PERMAJU",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PPHB.KL",
+        "companyName": "PPHB",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PRMS.KL",
+        "companyName": "PARAMON",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PRTO.KL",
+        "companyName": "PRTASCO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PTRD.KL",
+        "companyName": "PERDANA",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PUBM.KL",
+        "companyName": "PBBANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PWPB.KL",
+        "companyName": "PWORTH",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "PXUS.KL",
+        "companyName": "PRLEXUS",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "QRES.KL",
+        "companyName": "QL",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "REDI.KL",
+        "companyName": "RCECAP",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "RHBC.KL",
+        "companyName": "RHBBANK",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "RUMP.KL",
+        "companyName": "LBICAP",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "RWBW.KL",
+        "companyName": "GENM",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "SBUN.KL",
+        "companyName": "BORNOIL",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "SCTH.KL",
+        "companyName": "SCOMNET",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "SIME.KL",
+        "companyName": "SIME",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "SKPR.KL",
+        "companyName": "SKPRES",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "SLCN.KL",
+        "companyName": "SALCON",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "SLRS.KL",
+        "companyName": "HENGYUAN",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "SMSU.KL",
+        "companyName": "KPPROP",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "SPTZ.KL",
+        "companyName": "SPRITZER",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "STAR.KL",
+        "companyName": "STAR",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "STEC.KL",
+        "companyName": "ROHAS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "TANC.KL",
+        "companyName": "TANCO",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "TANH.KL",
+        "companyName": "GLBHD",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "TEKA.KL",
+        "companyName": "WMG",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "TENA.KL",
+        "companyName": "TENAGA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "TENC.KL",
+        "companyName": "JIANKUN",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "TENG.KL",
+        "companyName": "DNEX",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "TGIB.KL",
+        "companyName": "TGUAN",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "THEA.KL",
+        "companyName": "3A",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "TLMM.KL",
+        "companyName": "TM",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "TMMS.KL",
+        "companyName": "ZELAN",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "TNTT.KL",
+        "companyName": "TNLOGIS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "TPGC.KL",
+        "companyName": "TOPGLOV",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "UCIS.KL",
+        "companyName": "MJPERAK",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "VSTL.KL",
+        "companyName": "VERSATL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "VTVI.KL",
+        "companyName": "MGB",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "WAHE.KL",
+        "companyName": "WASEONG",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "WENG.KL",
+        "companyName": "WONG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "WHSE.KL",
+        "companyName": "WTHORSE",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "WLOW.KL",
+        "companyName": "WILLOW",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "WOOH.KL",
+        "companyName": "KAMDAR",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "WTKH.KL",
+        "companyName": "WTK",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "XIAN.KL",
+        "companyName": "XIANLNG",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "YAIK.KL",
+        "companyName": "JAYCORP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "YIKO.KL",
+        "companyName": "NICE",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "YINS.KL",
+        "companyName": "YINSON",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "YKGI.KL",
+        "companyName": "YKGI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "YLAI.KL",
+        "companyName": "YILAI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "YLEE.KL",
+        "companyName": "YEELEE",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "YLIH.KL",
+        "companyName": "YLI",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "YNHB.KL",
+        "companyName": "YNHPROP",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "YONG.KL",
+        "companyName": "YONGTAI",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "YSPS.KL",
+        "companyName": "YSPSAH",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "YTLP.KL",
+        "companyName": "YTLPOWR",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "YTLS.KL",
+        "companyName": "YTL",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "KLS",
+        "symbol": "ZCON.KL",
+        "companyName": "ZECON",
+        "industryOrCategory": "Industrials"
+    }
+]

@@ -100,6 +100,9 @@ def save_companies(
     Args:
         data (Union[pandas.DataFrame, StockDownload]): data to save
         clear_sheet (bool): clear sheet. Defaults to False.
+
+    Returns:
+        List[dict]: list of companies
     """
     if isinstance(data, StockDownload):
         # json object

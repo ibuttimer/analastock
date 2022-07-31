@@ -1,0 +1,914 @@
+[
+    {
+        "exchangeCode": "MCE",
+        "symbol": "A3M.MC",
+        "companyName": "ATRESMEDIA CORPORACION DE MEDIO",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ABG.MC",
+        "companyName": "ABENGOA, S.A.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ABG-P.MC",
+        "companyName": "ABENGOA CLASE B",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ACS.MC",
+        "companyName": "ACS,ACTIVIDADES DE CONSTRUCCION",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ACX.MC",
+        "companyName": "ACERINOX, S.A.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ADL.MC",
+        "companyName": "ADL BIONATUR SOLUTIONS, S.A.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ADX.MC",
+        "companyName": "AUDAX RENOVABLES, S.A.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ADZ.MC",
+        "companyName": "ADOLFO DOMINGUEZ, S.A.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "AEDAS.MC",
+        "companyName": "AEDAS HOMES, S.A",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "AENA.MC",
+        "companyName": "AENA, S.M.E., S.A.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "AGIL.MC",
+        "companyName": "AGILE CONTENT, S.A.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "AI.MC",
+        "companyName": "AIRTIFICIAL INTELLIGENCE STRUCT",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "AIR.MC",
+        "companyName": "AIRBUS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "AKI.MC",
+        "companyName": "AKILES CORPORATION, SE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ALB.MC",
+        "companyName": "CORPORACION FINANCIERA ALBA S.A",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ALC.MC",
+        "companyName": "ALTIA CONSULTORES, S.A.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ALM.MC",
+        "companyName": "ALMIRALL S.A.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ALNT.MC",
+        "companyName": "ALANTRA PARTNERS, S.A.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ALQ.MC",
+        "companyName": "ALQUIBER QUALITY, S.A.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "AMP.MC",
+        "companyName": "AMPER, S.A.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "AMS.MC",
+        "companyName": "AMADEUS IT GROUP, S.A.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ANA.MC",
+        "companyName": "ACCIONA, S.A.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "APPS.MC",
+        "companyName": "APPLUS SERVICES, S.A.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ARM.MC",
+        "companyName": "ARIMA REAL ESTATE, S.A.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ATRY.MC",
+        "companyName": "ATRYS HEALTH, S.A.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "AZK.MC",
+        "companyName": "AZKOYEN, S.A.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "BAIN.MC",
+        "companyName": "BORGES AGRICULTURAL & INDUSTRIA",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "BBVA.MC",
+        "companyName": "BANCO BILBAO VIZCAYA ARGENTARIA",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "BDL.MC",
+        "companyName": "BARON DE LEY,S.A.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "BIO.MC",
+        "companyName": "BIOSEARCH, S.A.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "BKIA.MC",
+        "companyName": "BANKIA, S.A.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "BKT.MC",
+        "companyName": "BANKINTER, S.A.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "BKY.MC",
+        "companyName": "BERKELEY ENERGIA LIMITED",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "BME.MC",
+        "companyName": "BOLSAS Y MERCADOS ESPANOLES,SOC",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "CABK.MC",
+        "companyName": "CAIXABANK, S.A.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "CAF.MC",
+        "companyName": "CONSTRUCCIONES Y AUXILIAR DE FE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "CASH.MC",
+        "companyName": "PROSEGUR CASH, S.A.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "CBAV.MC",
+        "companyName": "CLINICA BAVIERA S.A.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "CCEP.MC",
+        "companyName": "COCA-COLA EUROPEAN PARTNERS PLC",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "CDR.MC",
+        "companyName": "CODERE S.A.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "CEV.MC",
+        "companyName": "CIA ESPANOLA DE VIVIENDAS EN AL",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "CIE.MC",
+        "companyName": "CIE AUTOMOTIVE, S.A.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "CLNX.MC",
+        "companyName": "CELLNEX TELECOM, S.A.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "COL.MC",
+        "companyName": "INMOBILIARIA COLONIAL, SOCIMI S",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "DIA.MC",
+        "companyName": "DISTRIBUIDORA INTERNACIONAL DE ",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "DOM.MC",
+        "companyName": "GLOBAL DOMINION ACCESS, S.A.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "EAT.MC",
+        "companyName": "AMREST HOLDINGS, S.E.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "EBRO.MC",
+        "companyName": "EBRO FOODS, S.A.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ECR.MC",
+        "companyName": "ERCROS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "EDR.MC",
+        "companyName": "EDREAMS ODIGEO, S.A.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "EEP.MC",
+        "companyName": "EUROESPES, S.A.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "EKT.MC",
+        "companyName": "EUSKALTEL, S.A.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ELE.MC",
+        "companyName": "ENDESA,S.A.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ELZ.MC",
+        "companyName": "ASTURIANA DE LAMINADOS, S.A",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ENC.MC",
+        "companyName": "ENCE ENERGIA Y CELULOSA, S.A.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ENG.MC",
+        "companyName": "ENAGAS,S.A.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ENO.MC",
+        "companyName": "ELECNOR S.A.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "EWT.MC",
+        "companyName": "EURONA WIRELESS TELECOM, S.A.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "EZE.MC",
+        "companyName": "GRUPO EZENTIS, S.A.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "FACE.MC",
+        "companyName": "FACEPHI BIOMETRIA, S.A.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "FAE.MC",
+        "companyName": "FAES FARMA, S.A.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "FCC.MC",
+        "companyName": "ACCIONES FOMENTO DE CONSTRUCCIO",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "FDR.MC",
+        "companyName": "FLUIDRA, S.A.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "FER.MC",
+        "companyName": "FERROVIAL, S.A.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "GALQ.MC",
+        "companyName": "GENERAL DE ALQUILER DE MAQUINAR",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "GCO.MC",
+        "companyName": "GRUPO CATALANA OCCIDENTE, S.A.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "GEST.MC",
+        "companyName": "GESTAMP AUTOMOCION, S.A.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "GIGA.MC",
+        "companyName": "GIGAS HOSTING, S.A.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "GRE.MC",
+        "companyName": "GRENERGY RENOVABLES, S.A.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "GRF.MC",
+        "companyName": "GRIFOLS S.A.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "GRF-P.MC",
+        "companyName": "GRIFOLS S.A. CLASE B",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "GRI.MC",
+        "companyName": "GRINO ECOLOGIC, S.A.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "GSJ.MC",
+        "companyName": "GRUPO EMPRESARIAL SAN JOSE, S.A",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "HLZ.MC",
+        "companyName": "HOLALUZ CLIDOM S.A.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "HOME.MC",
+        "companyName": "NEINOR HOMES, S.A.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "IAG.MC",
+        "companyName": "INTL CONSOLIDATED AIRLINES GROU",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "IBE.MC",
+        "companyName": "ACCIONES IBERDROLA",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "IDR.MC",
+        "companyName": "INDRA SISTEMAS S.A., SERIE A",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ITX.MC",
+        "companyName": "INDUSTRIA DE DISE\\O TEXTIL S.A.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "LBK.MC",
+        "companyName": "LIBERBANK, S.A.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "LGT.MC",
+        "companyName": "LINGOTES ESPECIALES, S.A.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "LOG.MC",
+        "companyName": "COMPANIA DE DISTRIBUCION INTEGR",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "LRE.MC",
+        "companyName": "LAR ESPANA REAL ESTATE SOCIMI, ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "MAKS.MC",
+        "companyName": "MAKING SCIENCE GROUP, S.A.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "MAP.MC",
+        "companyName": "MAPFRE, S.A.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "MAS.MC",
+        "companyName": "MASMOVIL IBERCOM, S.A.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "MCM.MC",
+        "companyName": "MIQUEL Y COSTAS & MIQUEL, S.A.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "MDF.MC",
+        "companyName": "DURO FELGUERA, S.A.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "MEL.MC",
+        "companyName": "MELIA HOTELS INTERNATIONAL, S.A",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "MONI.MC",
+        "companyName": "MONDO TV IBEROAM.RICA, S.A.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "MRL.MC",
+        "companyName": "MERLIN PROPERTIES SOCIMI, S.A.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "MTB.MC",
+        "companyName": "MONTEBALITO, S.A.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "MTS.MC",
+        "companyName": "ARCELORMITTAL SA",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "MVC.MC",
+        "companyName": "METROVACESA, S.A.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "NBI.MC",
+        "companyName": "NBI BEARINGS EUROPE, S.A",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "NEA.MC",
+        "companyName": "NICOLAS CORREA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "NHH.MC",
+        "companyName": "NH HOTEL GROUP, S.A.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "NTGY.MC",
+        "companyName": "NATURGY ENERGY GROUP, S.A.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "NTH.MC",
+        "companyName": "NATURHOUSE HEALTH, S.A",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "NTX.MC",
+        "companyName": "NETEX KNOWLEDGE FACTORY, S.A.",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "NXT.MC",
+        "companyName": "NUEVA EXPRESI.N TEXTIL, S.A.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "NYE.MC",
+        "companyName": "NYESA VALORES CORPORACION S.A.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "OHL.MC",
+        "companyName": "OBRASCON HUARTE LAIN, S.A.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "OLE.MC",
+        "companyName": "DEOLEO, S.A.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ORY.MC",
+        "companyName": "ORYZON GENOMICS, S.A.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "PHM.MC",
+        "companyName": "PHARMA MAR, S.A.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "PRS.MC",
+        "companyName": "PROMOTORA DE INFORMACIONES S.A.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "PSG.MC",
+        "companyName": "PROSEGUR",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "PVA.MC",
+        "companyName": "PESCANOVA,S.A.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "R4.MC",
+        "companyName": "RENTA 4 BANCO, S.A.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "REE.MC",
+        "companyName": "RED ELECTRICA CORPORACION, S.A.",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "REN.MC",
+        "companyName": "RENTA CORPORACION REAL ESTATE, ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "REP.MC",
+        "companyName": "REPSOL,  S.A.",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "RIO.MC",
+        "companyName": "BODEGAS RIOJANAS,S.A.",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "RJF.MC",
+        "companyName": "LABORATORIO REIG JOFRE, S.A.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "RLIA.MC",
+        "companyName": "REALIA BUSINESS, S.A.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ROVI.MC",
+        "companyName": "LABORATORIOS FARMACEUTICOS ROVI",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "SAB.MC",
+        "companyName": "BANCO DE SABADELL",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "SAN.MC",
+        "companyName": "BANCO SANTANDER S.A.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "SCYR.MC",
+        "companyName": "SACYR, S.A.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "SGRE.MC",
+        "companyName": "SIEMENS GAMESA RENEWABLE ENERGY",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "SLR.MC",
+        "companyName": "SOLARIA ENERGIA Y MEDIO AMBIENT",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "SPK.MC",
+        "companyName": "SOLARPACK CORPORACION TECNOLOGI",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "SPS.MC",
+        "companyName": "SERVICE POINT SOLUTIONS, S.A.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "TEF.MC",
+        "companyName": "TELEFONICA,S.A.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "TL5.MC",
+        "companyName": "MEDIASET ESPANA COMUNICACION, S",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "TLGO.MC",
+        "companyName": "TALGO, S.A.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "TRE.MC",
+        "companyName": "TECNICAS REUNIDAS S.A.",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "TRG.MC",
+        "companyName": "TUBOS REUNIDOS S.A.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "TUB.MC",
+        "companyName": "TUBACEX, S.A.",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "UBS.MC",
+        "companyName": "URBAS GRUPO FINANCIERO, S.A.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "UNI.MC",
+        "companyName": "UNICAJA BANCO, S.A.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "VID.MC",
+        "companyName": "VIDRALA, S.A.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "VIS.MC",
+        "companyName": "VISCOFAN, S.A.",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "VOC.MC",
+        "companyName": "VOCENTO",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "VOZ.MC",
+        "companyName": "VOZTELECOM OIGAA360, S.A.",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "XALFA.MC",
+        "companyName": "ALFA, S.A.B. DE C. V. CLASE I S",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "XAMXL.MC",
+        "companyName": "AMERICA MOVIL, S.A.B. DE C.V. S",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "XEKT.MC",
+        "companyName": "GRUPO ELEKTRA, S.A. DE CV, ORDI",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "XELTO.MC",
+        "companyName": "CENTRAIS ELETRICAS BRASILEIRAS,",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "XPBR.MC",
+        "companyName": "PETROLEO BRASILEIRO,S.A. -PETRO",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "XPBRA.MC",
+        "companyName": "PETROLEO BRASILEIRO,S.A. -PETRO",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "XTZA.MC",
+        "companyName": "TV AZTECA, S.A. DE CV , CERTIFI",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "XVALO.MC",
+        "companyName": "COMPANHIA VALE DO RIO DOCE, S.A",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "YCOR.MC",
+        "companyName": "CORONA PATRIMONIAL SOCIMI, S.A.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "YENT.MC",
+        "companyName": "ENTRECAMPOS CUATRO SOCIMI, S.A.",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "YFID.MC",
+        "companyName": "FIDERE PATRIMONIO SOCIMI, S.A.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "YGOP.MC",
+        "companyName": "GRUPO ORTIZ PROPERTIES SOCIMI, ",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "YMHRE.MC",
+        "companyName": "MILLENIUM HOTELS REAL ESTATE I ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "YMRE.MC",
+        "companyName": "MERIDIA REAL ESTATE III SOCIMI,",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "YTST.MC",
+        "companyName": "TESTA RESIDENCAL SOCIMI, S.A.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "MCE",
+        "symbol": "ZOT.MC",
+        "companyName": "ZARDOYA OTIS, S.A.",
+        "industryOrCategory": "Industrials"
+    }
+]

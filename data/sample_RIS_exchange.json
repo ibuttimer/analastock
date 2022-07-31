@@ -1,0 +1,74 @@
+[
+    {
+        "exchangeCode": "RIS",
+        "symbol": "BAL1R.RG",
+        "companyName": "Latvijas balzams",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "RIS",
+        "symbol": "EWA1L.RG",
+        "companyName": "East West Agro",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "RIS",
+        "symbol": "GRD1R.RG",
+        "companyName": "Grindeks",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "RIS",
+        "symbol": "GZE1R.RG",
+        "companyName": "Latvijas Gaze",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "RIS",
+        "symbol": "HMX1R.RG",
+        "companyName": "HansaMatrix",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "RIS",
+        "symbol": "K2LT.RG",
+        "companyName": "K2 LT",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "RIS",
+        "symbol": "KA11R.RG",
+        "companyName": "Kurzemes atslega 1",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "RIS",
+        "symbol": "MDARA.RG",
+        "companyName": "MADARA Cosmetics",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "RIS",
+        "symbol": "RJR1R.RG",
+        "companyName": "Rigas juvelierizstradajumu rupn",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "RIS",
+        "symbol": "RRR1R.RG",
+        "companyName": "VEF Radiotehnika RRR",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "RIS",
+        "symbol": "SAF1R.RG",
+        "companyName": "SAF Tehnika",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "RIS",
+        "symbol": "VSS1R.RG",
+        "companyName": "Valmieras stikla skiedra",
+        "industryOrCategory": "Consumer Cyclical"
+    }
+]

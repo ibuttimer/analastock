@@ -83,6 +83,24 @@ def load_json_file(filepath: str) -> dict:
     return data
 
 
+def save_json_file(filepath: str, data: object):
+    """
+    Save json to a file
+
+    Args:
+        filepath (str): path to file
+        data (object): json data
+    """
+    try:
+        with open(filepath, mode='w', encoding='utf-8') as file_handle:
+            json.dump(data, file_handle, indent=4)
+            file_handle.close()
+    except OSError:
+        error(f'Unable to save file: {filepath}')
+
+    return data
+
+
 def friendly_date(date_time: datetime) -> str:
     """
     Generate a user friendly date string

@@ -1,0 +1,92 @@
+[
+    {
+        "exchangeCode": "NEO",
+        "symbol": "BRND-A.NE",
+        "companyName": "MERCER PARK BRAND ACQUISITION C",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NEO",
+        "symbol": "CERE-UN.NE",
+        "companyName": "CERES ACQUISITION CORP.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NEO",
+        "symbol": "CGGZ-UN.NE",
+        "companyName": "CANACCORD GENUITY GROWTH II COR",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NEO",
+        "symbol": "ETHC.NE",
+        "companyName": "ETHER CAPITAL CORPORATION",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "NEO",
+        "symbol": "FGX.NE",
+        "companyName": "FAIRCOURT GOLD INCOME CORP.",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NEO",
+        "symbol": "GLC-PR.NE",
+        "companyName": "GOLD MINERS SPLIT CORP. - PREFE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NEO",
+        "symbol": "HALO.NE",
+        "companyName": "HALO LABS INC.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NEO",
+        "symbol": "MGW.NE",
+        "companyName": "MAPLE LEAF GREEN WORLD INC.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NEO",
+        "symbol": "MLC.NE",
+        "companyName": "MOUNT LOGAN CAPITAL INC.",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "NEO",
+        "symbol": "MMED.NE",
+        "companyName": "MIND MEDICINE (MINDMED) INC.",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "NEO",
+        "symbol": "PUB-UN.NE",
+        "companyName": "U.S. BANKS INCOME & GROWTH FUND",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NEO",
+        "symbol": "RBP-UN.NE",
+        "companyName": "JUNE 2021 INVESTMENT GRADE BOND",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NEO",
+        "symbol": "RIGP-UN.NE",
+        "companyName": "CANADIAN INVESTMENT GRADE PREFE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NEO",
+        "symbol": "SCHG-UN.NE",
+        "companyName": "STARLIGHT HYBRID GLOBAL REAL AS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "NEO",
+        "symbol": "SVC-A.NE",
+        "companyName": "SUBVERSIVE CAPITAL ACQUISITION ",
+        "industryOrCategory": "N/A"
+    }
+]

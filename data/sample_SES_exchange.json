@@ -1,0 +1,2690 @@
+[
+    {
+        "exchangeCode": "SES",
+        "symbol": "1A0.SI",
+        "companyName": "$ Katrina",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "1A1.SI",
+        "companyName": "$ Wong Fong Ind",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "1A4.SI",
+        "companyName": "$ AGV",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "1B0.SI",
+        "companyName": "MM2 Asia",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "1B1.SI",
+        "companyName": "$ HC Surgical",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "1C3.SI",
+        "companyName": "$ Samurai",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "1C5.SI",
+        "companyName": "$ Pacific Star Dev",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "1D0.SI",
+        "companyName": "$ Kimly",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "1D3.SI",
+        "companyName": "$ LifeBrandz",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "1D8.SI",
+        "companyName": "$ Singapore O&G",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "1E3.SI",
+        "companyName": "$ Sanli",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "1E6.SI",
+        "companyName": "$ World",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "1F3.SI",
+        "companyName": "$ Aspen",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "1G6.SI",
+        "companyName": "$ No Signboard",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "1J3.SI",
+        "companyName": "$ Asian",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "1J4.SI",
+        "companyName": "$ JEP",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "1J5.SI",
+        "companyName": "$ Hyphens Pharma",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "40S.SI",
+        "companyName": "Perennial Hldgs",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "40V.SI",
+        "companyName": "$ Singapore-eDev",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "40W.SI",
+        "companyName": "$ ZICO Hldgs",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "41A.SI",
+        "companyName": "$ UG Healthcare",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "41F.SI",
+        "companyName": "$ GSS Energy",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "41H.SI",
+        "companyName": "$ BlackGoldNatural",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "41T.SI",
+        "companyName": "$ GCCP",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "42C.SI",
+        "companyName": "$ IX Biopharma",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "42G.SI",
+        "companyName": "$ SK Jewellery",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "42R.SI",
+        "companyName": "$ Jumbo",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "42T.SI",
+        "companyName": "$ Trendlines",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "43E.SI",
+        "companyName": "$ Anchor Resources",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "43F.SI",
+        "companyName": "$ Acromec",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "43P.SI",
+        "companyName": "$ United Global",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "43Q.SI",
+        "companyName": "$ Advancer Global",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "500.SI",
+        "companyName": "Tai Sin",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "532.SI",
+        "companyName": "$ DISA",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "533.SI",
+        "companyName": "ABR",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "540.SI",
+        "companyName": "$ Tung Lok Rest",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "543.SI",
+        "companyName": "Noel Gifts Intl",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "544.SI",
+        "companyName": "CSE Global",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "546.SI",
+        "companyName": "$ Medtecs Intl",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "554.SI",
+        "companyName": "King Wan",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "564.SI",
+        "companyName": "Spindex",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "569.SI",
+        "companyName": "Vicplas",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "583.SI",
+        "companyName": "$ Progen",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "586.SI",
+        "companyName": "$ Global Dragon",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "594.SI",
+        "companyName": "$ CWX Global",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "595.SI",
+        "companyName": "$ GKE",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5AB.SI",
+        "companyName": "Trek 2000 Intl^",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5AI.SI",
+        "companyName": "$ P5 Capital",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5AU.SI",
+        "companyName": "AP Oil",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5BS.SI",
+        "companyName": "$ Sen Yue",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5CN.SI",
+        "companyName": "Winas",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5CP.SI",
+        "companyName": "Silverlake Axis",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5DM.SI",
+        "companyName": "Ying Li",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5DP.SI",
+        "companyName": "Heeton",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5DX.SI",
+        "companyName": "$ Metal",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5EF.SI",
+        "companyName": "$ Adventus",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5F7.SI",
+        "companyName": "$ Wilton Resources",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5FX.SI",
+        "companyName": "$ New Wave",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5G1.SI",
+        "companyName": "$ EuroSports Gbl",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5G2.SI",
+        "companyName": "$ KimHeng Offshore",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5G3.SI",
+        "companyName": "$ TalkMed",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5G9.SI",
+        "companyName": "$ Tritech",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5GD.SI",
+        "companyName": "Sunpower",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5GF.SI",
+        "companyName": "Nico Steel^",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5GJ.SI",
+        "companyName": "AusGroup^",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5H0.SI",
+        "companyName": "SingHaiyi",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5HC.SI",
+        "companyName": "$ Ntegrator Intl",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5HH.SI",
+        "companyName": "$ Sinjia Land",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5HV.SI",
+        "companyName": "$ Koh Eco",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5I0.SI",
+        "companyName": "$ QT Vascular",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5I1.SI",
+        "companyName": "$ KOP",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5JS.SI",
+        "companyName": "Indofood Agri",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5LE.SI",
+        "companyName": "$ Sitra",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5LY.SI",
+        "companyName": "MarcoPolo Marine",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5ML.SI",
+        "companyName": "$ Old Chang Kee",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5MZ.SI",
+        "companyName": "KingsmenCreative",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5NF.SI",
+        "companyName": "Mencast^",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5NG.SI",
+        "companyName": "$ Healthway Med",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5OI.SI",
+        "companyName": "$ Japan",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5OT.SI",
+        "companyName": "$ SingMedical",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5PF.SI",
+        "companyName": "$ Jason",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5PI.SI",
+        "companyName": "$ Plato",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5QR.SI",
+        "companyName": "$ MSM Intl",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5QY.SI",
+        "companyName": "$ Net Pacific Fin",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5SO.SI",
+        "companyName": "Duty Free Intl",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5TI.SI",
+        "companyName": "$ Kitchen Culture",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5TP.SI",
+        "companyName": "$ CNMC Goldmine",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5TT.SI",
+        "companyName": "Keong Hong",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5UO.SI",
+        "companyName": "$ Sysma",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5VJ.SI",
+        "companyName": "Halcyon",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5WE.SI",
+        "companyName": "$ Moya Asia",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5WH.SI",
+        "companyName": "$ Rex Intl",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5WJ.SI",
+        "companyName": "$ MoneyMax Fin",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "5WV.SI",
+        "companyName": "$ AsiaPhos",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "A04.SI",
+        "companyName": "ASL Marine^",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "A17U.SI",
+        "companyName": "Ascendas Reit",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "A26.SI",
+        "companyName": "Sinarmas Land",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "A30.SI",
+        "companyName": "Aspial",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "A50.SI",
+        "companyName": "Thomson",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "A55.SI",
+        "companyName": "Asia Enterprises",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "A7RU.SI",
+        "companyName": "Kep Infra Tr",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "ABRH.SI",
+        "companyName": "ABR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "ACCS.SI",
+        "companyName": "MDR",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "ACV.SI",
+        "companyName": "FRASERS HOSPITALITY TRUST",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "ADNO.SI",
+        "companyName": "Blumont",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "ADQU.SI",
+        "companyName": "Accordia Golf Tr",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "AEMN.SI",
+        "companyName": "Ascendas Reit",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "AGS.SI",
+        "companyName": "TheHourGlass",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "AJBU.SI",
+        "companyName": "Keppel DC Reit",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "AMRA.SI",
+        "companyName": "Amara",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "AP4.SI",
+        "companyName": "Riverstone",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "ARIA.SI",
+        "companyName": "$ Polaris",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "AUE.SI",
+        "companyName": "Golden Energy",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "AVM.SI",
+        "companyName": "Boustead Proj",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "AVX.SI",
+        "companyName": "HL Global Ent",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "AW9U.SI",
+        "companyName": "First Reit",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "AWO.SI",
+        "companyName": "Mirach Energy^",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "AWX.SI",
+        "companyName": "AEM",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "AWZ.SI",
+        "companyName": "Multi-Chem",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "AXB.SI",
+        "companyName": "Yongnam",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "AXIS.SI",
+        "companyName": "Silverlake Axis",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "AYN.SI",
+        "companyName": "Global Testing",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "AZT.SI",
+        "companyName": "NutryFarm^",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "B16.SI",
+        "companyName": "GL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "B28.SI",
+        "companyName": "Bonvests",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "B49.SI",
+        "companyName": "World Precision",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "B58.SI",
+        "companyName": "Banyan Tree",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "B61.SI",
+        "companyName": "Bukit Sembawang",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "B69.SI",
+        "companyName": "Broadway Ind^",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "B73.SI",
+        "companyName": "Global Inv",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BAI.SI",
+        "companyName": "SEVAK",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BAZ.SI",
+        "companyName": "Lion Asiapac",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BBP.SI",
+        "companyName": "Hor Kew^",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BBW.SI",
+        "companyName": "Azeus",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BCY.SI",
+        "companyName": "Powermatic Data",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BDF.SI",
+        "companyName": "Excelpoint",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BDX.SI",
+        "companyName": "GSH",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BEC.SI",
+        "companyName": "BRC Asia",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BEI.SI",
+        "companyName": "LHT",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BEW.SI",
+        "companyName": "JB Foods",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BEZ.SI",
+        "companyName": "Beng Kuang^",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BFI.SI",
+        "companyName": "Tiong Seng",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BHO.SI",
+        "companyName": "Top Global",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BHQ.SI",
+        "companyName": "Sunningdale Tech",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BIP.SI",
+        "companyName": "Vibrant",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BJD.SI",
+        "companyName": "VibroPower^",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BJW.SI",
+        "companyName": "Shinvest",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BJZ.SI",
+        "companyName": "Koda",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BKA.SI",
+        "companyName": "Sin Heng Mach",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BKV.SI",
+        "companyName": "Dukang^",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BKW.SI",
+        "companyName": "Datapulse Tech",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BKY.SI",
+        "companyName": "Avi-Tech",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BKZ.SI",
+        "companyName": "Suntar Eco-City^",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BLH.SI",
+        "companyName": "Hai Leck",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BLL.SI",
+        "companyName": "PSL^",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BLU.SI",
+        "companyName": "GRP^",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BMGU.SI",
+        "companyName": "BHG Retail Reit",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BMT.SI",
+        "companyName": "New Silkroutes",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BN2.SI",
+        "companyName": "Valuetronics",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BN4.SI",
+        "companyName": "Keppel Corp",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BPF.SI",
+        "companyName": "YHI Intl",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BQC.SI",
+        "companyName": "A-Smart",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BQF.SI",
+        "companyName": "XMH^",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BQM.SI",
+        "companyName": "Tiong Woon",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BQN.SI",
+        "companyName": "BH Global^",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BQP.SI",
+        "companyName": "Southern Pkg",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BRS.SI",
+        "companyName": "USP Group^",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BRWY.SI",
+        "companyName": "Broadway Ind^",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BRY.SI",
+        "companyName": "GL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BS6.SI",
+        "companyName": "YZJ Shipbldg SGD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BSL.SI",
+        "companyName": "Raffles",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BTE.SI",
+        "companyName": "Bund Center",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BTF.SI",
+        "companyName": "Debao Property^",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BTG.SI",
+        "companyName": "HG Metal",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BTJ.SI",
+        "companyName": "A-Sonic",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BTM.SI",
+        "companyName": "Penguin",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BTOU.SI",
+        "companyName": "ManulifeReit USD",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BTP.SI",
+        "companyName": "Baker Technology",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BTX.SI",
+        "companyName": "Anchun Intl^",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BUOU.SI",
+        "companyName": "FRASERS LOGISTICS & IND TRUST",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BVA.SI",
+        "companyName": "Top Glove",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BWCU.SI",
+        "companyName": "EC World Reit",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "BWM.SI",
+        "companyName": "Zheneng",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "C07.SI",
+        "companyName": "Jardine",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "C29.SI",
+        "companyName": "Chip Eng Seng",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "C2PU.SI",
+        "companyName": "ParkwayLife Reit",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "C33.SI",
+        "companyName": "Chuan Hup",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "C38U.SI",
+        "companyName": "CapitaMall Trust",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "C50.SI",
+        "companyName": "Cheung Woh",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "C61U.SI",
+        "companyName": "CapitaCom Trust",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "C6L.SI",
+        "companyName": "SIA",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "C8R.SI",
+        "companyName": "$ Jiutian Chemical",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "CACT.SI",
+        "companyName": "CapitaCom Trust",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "CC3.SI",
+        "companyName": "StarHub",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "CEDU.SI",
+        "companyName": "Dasin Retail Tr",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "CESE.SI",
+        "companyName": "Chip Eng Seng",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "CHHS.SI",
+        "companyName": "Chuan Hup",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "CHWO.SI",
+        "companyName": "Cheung Woh",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "CHZ.SI",
+        "companyName": "HRnetGroup",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "CJLU.SI",
+        "companyName": "NetLink",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "CLN.SI",
+        "companyName": "APAC Realty",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "CMLT.SI",
+        "companyName": "CapitaMall Trust",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "CNE.SI",
+        "companyName": "MindChamps",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "CNNU.SI",
+        "companyName": "CromwellReit EUR",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "COI.SI",
+        "companyName": "NikkoAM-STC A_REIT US$",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "CRPU.SI",
+        "companyName": "Sasseur",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "CSES.SI",
+        "companyName": "CSE Global",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "CTN.SI",
+        "companyName": "BreadTalk",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "CTO.SI",
+        "companyName": "Hong Lai Huat",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "CY6U.SI",
+        "companyName": "Ascendas-iTrust",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "CYW.SI",
+        "companyName": "$ TrickleStar",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "CZ4.SI",
+        "companyName": "Dutech",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "D01.SI",
+        "companyName": "DairyFarm USD",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "D03.SI",
+        "companyName": "Del Monte Pac",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "D05.SI",
+        "companyName": "DBS",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "D5IU.SI",
+        "companyName": "Lippo Malls Tr",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "D6U.SI",
+        "companyName": "Dynamic",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "D8DU.SI",
+        "companyName": "FSL Trust^",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "DAIR.SI",
+        "companyName": "DairyFarm USD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "DBSM.SI",
+        "companyName": "DBS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "DMPL.SI",
+        "companyName": "Del Monte Pac",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "DRX.SI",
+        "companyName": "$ ST Group Food",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "DU4.SI",
+        "companyName": "Mermaid",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "E3B.SI",
+        "companyName": "Wee Hur",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "E5H.SI",
+        "companyName": "Golden Agri-Res",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "E8Z.SI",
+        "companyName": "Roxy-Pacific",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "EB7.SI",
+        "companyName": "KTL Global^",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "EELT.SI",
+        "companyName": "Elec & Eltek USD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "ER0.SI",
+        "companyName": "KSH",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "EUCN.SI",
+        "companyName": "The Place Hldg",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "F03.SI",
+        "companyName": "Food Empire",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "F13.SI",
+        "companyName": "Fu Yu",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "F17.SI",
+        "companyName": "GuocoLand",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "F1E.SI",
+        "companyName": "Low Keng Huat",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "F34.SI",
+        "companyName": "Wilmar Intl",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "F83.SI",
+        "companyName": "COSCO SHP SG",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "F99.SI",
+        "companyName": "F & N",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "F9D.SI",
+        "companyName": "Boustead",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "FEMP.SI",
+        "companyName": "Food Empire",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "FQ7.SI",
+        "companyName": "Jasper Inv^",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "FUYU.SI",
+        "companyName": "Fu Yu",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "G07.SI",
+        "companyName": "Great Eastern",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "G13.SI",
+        "companyName": "Genting",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "G20.SI",
+        "companyName": "GP Industries",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "G41.SI",
+        "companyName": "G K Goh",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "G50.SI",
+        "companyName": "Grand Banks",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "G92.SI",
+        "companyName": "China Aviation",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "GBYL.SI",
+        "companyName": "Grand Banks",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "GELA.SI",
+        "companyName": "Great Eastern",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "GKEI.SI",
+        "companyName": "$ GKE",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "GKHS.SI",
+        "companyName": "G K Goh",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "GPEI.SI",
+        "companyName": "GP Industries",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "GUOC.SI",
+        "companyName": "GuocoLand",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "H02.SI",
+        "companyName": "Haw Par",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "H07.SI",
+        "companyName": "Stamford Land",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "H12.SI",
+        "companyName": "Hotel Royal",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "H13.SI",
+        "companyName": "Ho Bee Land",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "H15.SI",
+        "companyName": "HPL",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "H17.SI",
+        "companyName": "Hi-P",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "H18.SI",
+        "companyName": "Hotel Grand",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "H19.SI",
+        "companyName": "Hwa Hong",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "H22.SI",
+        "companyName": "Hong Leong Asia",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "H78.SI",
+        "companyName": "HongkongLand USD",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "HBEE.SI",
+        "companyName": "Ho Bee Land",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "HEET.SI",
+        "companyName": "Heeton",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "HESH.SI",
+        "companyName": "$ DISA",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "HGCS.SI",
+        "companyName": "Hotel Grand",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "HIPI.SI",
+        "companyName": "Hi-P",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "HKLD.SI",
+        "companyName": "HongkongLand USD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "HLAA.SI",
+        "companyName": "Hong Leong Asia",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "HLSF.SI",
+        "companyName": "Hong Leong Fin",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "HMN.SI",
+        "companyName": "Ascott Trust",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "HONG.SI",
+        "companyName": "Hong Fok",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "HPAR.SI",
+        "companyName": "Haw Par",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "HPPS.SI",
+        "companyName": "HPL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "HTRS.SI",
+        "companyName": "Hotel Royal",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "HWHS.SI",
+        "companyName": "Hwa Hong",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "I11.SI",
+        "companyName": "Renaissance United^",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "IPCO.SI",
+        "companyName": "Renaissance United^",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "IW5.SI",
+        "companyName": "Seroja Inv^",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "IX2.SI",
+        "companyName": "PEC",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "J03.SI",
+        "companyName": "Jadason^",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "J2T.SI",
+        "companyName": "Hock Lian Seng",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "J36.SI",
+        "companyName": "JMH USD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "J37.SI",
+        "companyName": "JSH USD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "J69U.SI",
+        "companyName": "FRASERS CENTREPOINT TRUST",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "J85.SI",
+        "companyName": "CDL HTrust",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "J91U.SI",
+        "companyName": "ESR-REIT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "JADA.SI",
+        "companyName": "Jadason^",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "JARD.SI",
+        "companyName": "JMH USD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "JCYC.SI",
+        "companyName": "Jardine",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "JYEU.SI",
+        "companyName": "Lendlease Reit",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "K03.SI",
+        "companyName": "Khong Guan",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "K29.SI",
+        "companyName": "Karin Tech",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "K2LU.SI",
+        "companyName": "Cache Log Trust",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "K3FD.SI",
+        "companyName": "u HNP ADR US$",
+        "industryOrCategory": "Utilities"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "K71U.SI",
+        "companyName": "Keppel Reit",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "K75.SI",
+        "companyName": "Koh Bros",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "KBRO.SI",
+        "companyName": "Koh Bros",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "KGFS.SI",
+        "companyName": "Khong Guan",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "KIWC.SI",
+        "companyName": "King Wan",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "KJ5.SI",
+        "companyName": "BBR",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "KLWH.SI",
+        "companyName": "$ KLW",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "L02.SI",
+        "companyName": "Manhattan Res^",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "LCDV.SI",
+        "companyName": "AF Global",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "LIBG.SI",
+        "companyName": "Lian Beng",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "LIHL.SI",
+        "companyName": "Manhattan Res^",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "LIW.SI",
+        "companyName": "Eagle HTrust USD",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "LS9.SI",
+        "companyName": "Leader Env^",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "M01.SI",
+        "companyName": "Metro",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "M04.SI",
+        "companyName": "Man Oriental USD",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "M05.SI",
+        "companyName": "MTQ",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "M11.SI",
+        "companyName": "MFG Integration",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "M1GU.SI",
+        "companyName": "Sabana Reit",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "M1Z.SI",
+        "companyName": "TEE Intl",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "M30.SI",
+        "companyName": "Meghmani SDS",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "M44U.SI",
+        "companyName": "Mapletree Log Tr",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "ME8U.SI",
+        "companyName": "Mapletree Ind Tr",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "MEGH.SI",
+        "companyName": "Meghmani SDS",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "META.SI",
+        "companyName": "$ Metal",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "MF6.SI",
+        "companyName": "Mun Siong Engg^",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "MITD.SI",
+        "companyName": "MFG Integration",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "MOIL.SI",
+        "companyName": "Man Oriental USD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "MR7.SI",
+        "companyName": "Nordic",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "MTCS.SI",
+        "companyName": "$ Medtecs Intl",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "MTHL.SI",
+        "companyName": "Metro",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "MTLS.SI",
+        "companyName": "MTQ",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "MU7.SI",
+        "companyName": "DBS Bk 4.7% NCPS#",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "MV4.SI",
+        "companyName": "Mewah Intl",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "MXNU.SI",
+        "companyName": "EliteComREIT GBP",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "N01.SI",
+        "companyName": "NeraTel",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "N02.SI",
+        "companyName": "NSL",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "N2IU.SI",
+        "companyName": "Mapletree Com Tr",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "N32.SI",
+        "companyName": "$ Nippecraft",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "N4E.SI",
+        "companyName": "Nam Cheong",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "NATS.SI",
+        "companyName": "NSL",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "NC2.SI",
+        "companyName": "Sri Trang Agro",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "ND8U.SI",
+        "companyName": "FRASERS COMMERCIAL TRUST",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "NERA.SI",
+        "companyName": "NeraTel",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "NEX.SI",
+        "companyName": "$ Reclaims Global",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "NIPP.SI",
+        "companyName": "$ Nippecraft",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "NO4.SI",
+        "companyName": "Dyna-Mac",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "NOEL.SI",
+        "companyName": "Noel Gifts Intl",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "NPW.SI",
+        "companyName": "MSC",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "NR7.SI",
+        "companyName": "Raffles",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "NS8U.SI",
+        "companyName": "HPH Trust USD",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "NTYO.SI",
+        "companyName": "New Toyo",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "O10.SI",
+        "companyName": "Far East Orchard",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "O39.SI",
+        "companyName": "OCBC Bank",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "O5RU.SI",
+        "companyName": "AIMS APAC Reit",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "OMK.SI",
+        "companyName": "$ Vividthree",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "ORCH.SI",
+        "companyName": "Far East Orchard",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "OV8.SI",
+        "companyName": "Sheng Siong",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "OVQ.SI",
+        "companyName": "PHIL SING INC",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "OXMU.SI",
+        "companyName": "Prime US ReitUSD",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "OYY.SI",
+        "companyName": "PropNex",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "P15.SI",
+        "companyName": "Pacific",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "P34.SI",
+        "companyName": "Delfi",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "P36.SI",
+        "companyName": "Pan Hong",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "P40U.SI",
+        "companyName": "StarhillGbl Reit",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "P52.SI",
+        "companyName": "PanUnited",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "P7VU.SI",
+        "companyName": "HPH Trust SGD",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "P8Z.SI",
+        "companyName": "Bumitama Agri",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "PCEN.SI",
+        "companyName": "Pacific",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "PEFO.SI",
+        "companyName": "Delfi",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "PH0.SI",
+        "companyName": "$ Hatten Land",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "PNMC.SI",
+        "companyName": "$ Sen Yue",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "POGN.SI",
+        "companyName": "$ Progen",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "Q01.SI",
+        "companyName": "QAF",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "Q5T.SI",
+        "companyName": "Far East HTrust",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "QAFS.SI",
+        "companyName": "QAF",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "QC7.SI",
+        "companyName": "Q&M Dental",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "QSD.SI",
+        "companyName": "$ Resources Gbl",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "QZG.SI",
+        "companyName": "$ Accrelist Ltd",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "RE4.SI",
+        "companyName": "Geo Energy Res",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "RQ1.SI",
+        "companyName": "Overseas Edu",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "RW0U.SI",
+        "companyName": "Mapletree NAC Tr",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "S08.SI",
+        "companyName": "SingPost",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "S20.SI",
+        "companyName": "Straits",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "S23.SI",
+        "companyName": "Spura Finance",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "S29.SI",
+        "companyName": "Stamford Tyres",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "S3N.SI",
+        "companyName": "OKH Global^",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "S41.SI",
+        "companyName": "Hong Leong Fin",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "S51.SI",
+        "companyName": "Sembcorp Marine",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "S58.SI",
+        "companyName": "SATS",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "S59.SI",
+        "companyName": "SIA Engineering",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "S61.SI",
+        "companyName": "SBS Transit",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "S63.SI",
+        "companyName": "ST Engineering",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "S68.SI",
+        "companyName": "SGX",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "S69.SI",
+        "companyName": "Serial System",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "S7OU.SI",
+        "companyName": "Asian Pay Tv Tr",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "S7P.SI",
+        "companyName": "Soilbuild Const",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "S85.SI",
+        "companyName": "Straco",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "S9B.SI",
+        "companyName": "TEE Land",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "SBDS.SI",
+        "companyName": "Spura Finance",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "SBVV.SI",
+        "companyName": "SBS Transit",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "SERL.SI",
+        "companyName": "Serial System",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "SHOY.SI",
+        "companyName": "Ying Li",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "SIAE.SI",
+        "companyName": "SIA Engineering",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "SINW.SI",
+        "companyName": "Winas",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "SJY.SI",
+        "companyName": "$ MeGroup",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "SK6U.SI",
+        "companyName": "SPHREIT",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "SNFC.SI",
+        "companyName": "$ Adventus",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "SPOS.SI",
+        "companyName": "SingPost",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "SSCN.SI",
+        "companyName": "$ CWX Global",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "STEG.SI",
+        "companyName": "ST Engineering",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "SV3U.SI",
+        "companyName": "SoilbuildBizReit",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "T12.SI",
+        "companyName": "Tat Seng Pkg",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "T13.SI",
+        "companyName": "RH PetroGas",
+        "industryOrCategory": "Energy"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "T14.SI",
+        "companyName": "Tianjin",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "T15.SI",
+        "companyName": "h TCIL HK$",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "T39.SI",
+        "companyName": "SPH",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "T6I.SI",
+        "companyName": "ValueMax",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "T82U.SI",
+        "companyName": "Suntec Reit",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "TASE.SI",
+        "companyName": "Tat Seng Pkg",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "TCIL.SI",
+        "companyName": "h TCIL HK$",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "TCIN.SI",
+        "companyName": "TeleChoice Intl",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "TGLK.SI",
+        "companyName": "$ Tung Lok Rest",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "THVI.SI",
+        "companyName": "Pavillon^",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "TID.SI",
+        "companyName": "XT MSCHINA S$",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "TMCH.SI",
+        "companyName": "$ Global Dragon",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "TQ5.SI",
+        "companyName": "FRASERS PROPERTY LIMITED",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "TRIM.SI",
+        "companyName": "RH PetroGas",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "U09.SI",
+        "companyName": "Avarga",
+        "industryOrCategory": "Basic Materials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "U10.SI",
+        "companyName": "UOB Kay",
+        "industryOrCategory": "Financial Services"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "U77.SI",
+        "companyName": "Sarine Tech",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "U96.SI",
+        "companyName": "Sembcorp Ind",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "U9E.SI",
+        "companyName": "China Everbright",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "UD1U.SI",
+        "companyName": "IREIT Global",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "UD2.SI",
+        "companyName": "Japfa",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "UOKH.SI",
+        "companyName": "UOB Kay",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "V01.SI",
+        "companyName": "VICOM",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "V03.SI",
+        "companyName": "Venture",
+        "industryOrCategory": "Technology"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "VCOM.SI",
+        "companyName": "VICOM",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "VFP.SI",
+        "companyName": "$ JCG Investment",
+        "industryOrCategory": "Healthcare"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "VICP.SI",
+        "companyName": "Vicplas",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "W05.SI",
+        "companyName": "Wing Tai",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "WPC.SI",
+        "companyName": "$ Vallianz",
+        "industryOrCategory": "Industrials"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "WTHS.SI",
+        "companyName": "Wing Tai",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "XZL.SI",
+        "companyName": "ARA HTrust USD",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "Y03.SI",
+        "companyName": "Yeo Hiap Seng",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "Y45.SI",
+        "companyName": "SingMyanmar^",
+        "industryOrCategory": "Consumer Cyclical"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "Y92.SI",
+        "companyName": "ThaiBev",
+        "industryOrCategory": "Consumer Defensive"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "YHSS.SI",
+        "companyName": "Yeo Hiap Seng",
+        "industryOrCategory": "N/A"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "Z25.SI",
+        "companyName": "Yanlord",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "Z59.SI",
+        "companyName": "Yoma Strategic",
+        "industryOrCategory": "Real Estate"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "Z74.SI",
+        "companyName": "Singtel",
+        "industryOrCategory": "Communication Services"
+    },
+    {
+        "exchangeCode": "SES",
+        "symbol": "Z77.SI",
+        "companyName": "Singtel",
+        "industryOrCategory": "Communication Services"
+    }
+]
