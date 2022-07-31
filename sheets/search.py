@@ -47,7 +47,8 @@ def search_company(
             criteria: str,
             col: CompanyColumn,
             sheet: Worksheet = None,
-            page_size: int = 10
+            page_size: int = 10,
+            exact_match: bool = False
         ) -> Pagination:
     """
     Return all companies with values matching the specified criteria.
@@ -62,6 +63,7 @@ def search_company(
         sheet (gspread.worksheet.Worksheet, optional):
                 worksheet to read. Default to None
         page_size (int, optional): pagination page size. Defaults to 10.
+        exact_match (bool, optional): exact match. Default to False.
 
     Returns:
         Pagination: paginated results
@@ -72,7 +74,8 @@ def search_company(
     pagination = None
 
     if sheet:
-        pattern = re.compile(rf".*{criteria}.*", flags=re.IGNORECASE)
+        pattern = criteria if exact_match else \
+                        re.compile(rf".*{criteria}.*", flags=re.IGNORECASE)
         matches: List[Cell] = find_all(sheet, pattern, col=col.value)
 
         # The pagination implementation is required as,

@@ -26,8 +26,6 @@ class TestSearch(TestBase):
         sheet, company_name, _, test_data = \
             self.add_companies(worksheet_name, num_companies)
 
-
-
         # check find all
         pg_result = search_company(
                         company_name.lower(), CompanyColumn.NAME, sheet=sheet)
@@ -133,6 +131,20 @@ class TestSearch(TestBase):
                 self.assert_company(results[res_idx], entry)
                 res_idx += 1
 
+        # check find one exact match
+        expected_match = test_data[len(test_data) / 2]
+        pg_result = search_company(
+                        expected_match[CompanyColumn.SYMBOL.value - 1], 
+                        CompanyColumn.SYMBOL, sheet=sheet, exact_match=True)
+        self.assertTrue(isinstance(pg_result, Pagination))
+
+        pg_result.set_page_size(num_companies)
+        results = pg_result.get_current_page()
+
+        self.assertEqual(1, pg_result.num_items)
+        self.assertEqual(1, len(results))
+        self.assert_company(results[0], expected_match)
+
         # check find none
         pg_result = search_company(
                         'DNE', CompanyColumn.SYMBOL, sheet=sheet)
@@ -154,6 +166,7 @@ class TestSearch(TestBase):
         company_symbol = 'COMP'
         test_data = [
             [
+                # following CompanyColumn order
                 f'EXC{(i // (num_companies / 2)) + 1}', # exchange code
                 f'{company_symbol}{i + 1}',             # symbol
                 f'{company_name} {i + 1} D.A.C',   # name
