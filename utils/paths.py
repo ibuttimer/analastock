@@ -9,6 +9,18 @@ SAMPLE_EXCHANGES_DATA = 'sample_exchanges.json'
 SAMPLE_COMPANY_DATA = 'sample_{exchange}_exchange.json'
 
 
+def file_path(*args) -> str:
+    """
+    Get the absolute path to a file
+
+    Returns:
+        str: path to file
+    """
+    return os.path.abspath(
+            os.path.join(*args)
+        )
+
+
 def sample_exchanges_path() -> str:
     """
     Get the path to the sample exchanges file
@@ -16,12 +28,11 @@ def sample_exchanges_path() -> str:
     Returns:
         str: path to file
     """
-    return os.path.abspath(
-            os.path.join(
+    return file_path(
                 get_env_setting('DATA_PATH', DEFAULT_DATA_PATH),
                 SAMPLE_EXCHANGES_DATA
             )
-        )
+
 
 def sample_exchange_path(exchange: str) -> str:
     """
@@ -33,9 +44,7 @@ def sample_exchange_path(exchange: str) -> str:
     Returns:
         str: path to file
     """
-    return os.path.abspath(
-            os.path.join(
+    return file_path(
                 get_env_setting('DATA_PATH', DEFAULT_DATA_PATH),
                 SAMPLE_COMPANY_DATA.format(exchange=exchange)
             )
-        )

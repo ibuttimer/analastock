@@ -92,6 +92,7 @@ class DfStat(Enum):
 
     MIN = ('Min')
     MAX = ('Max')
+    AVG = ('Avg')
     CHANGE = ('Change', 'Chng')
     PERCENT_CHANGE = ('PercentChange', '%Chng')
 
@@ -144,6 +145,18 @@ class CompanyColumn(Enum):
     """ Company name """
     SECTOR = 4
     """ Industry or Category """
+    CURRENCY = 5
+    """ Stock currency """
+
+
+class ExchangeColumn(Enum):
+    """
+    Enum representing columns in exchanges worksheet
+    """
+    CODE = 1
+    """ Exchange code """
+    NAME = 2
+    """ Exchange name """
 
 
 class AnalysisRange(Enum):

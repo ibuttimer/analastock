@@ -7,8 +7,9 @@ import gspread
 from google.oauth2.service_account import Credentials
 import google.auth.exceptions
 from utils import (
-    get_env_setting, DEFAULT_CREDS_FILE, DEFAULT_CREDS_PATH, error,
-    wrapped_get
+    get_env_setting, error, wrapped_get,
+    DEFAULT_GOOGLE_CREDS_FILE, DEFAULT_GOOGLE_CREDS_PATH,
+    GOOGLE_CREDS_FILE_ENV, GOOGLE_CREDS_PATH_ENV,
 )
 
 DEFAULT_ROWS = 1000
@@ -19,8 +20,8 @@ DEFAULT_COLS = 26
 CREDENTIALS = Credentials.from_service_account_file(
     os.path.abspath(
         os.path.join(
-            get_env_setting('CREDS_PATH', DEFAULT_CREDS_PATH),
-            get_env_setting('CREDS_FILE', DEFAULT_CREDS_FILE),
+            get_env_setting(GOOGLE_CREDS_PATH_ENV, DEFAULT_GOOGLE_CREDS_PATH),
+            get_env_setting(GOOGLE_CREDS_FILE_ENV, DEFAULT_GOOGLE_CREDS_FILE),
         )
     )
 )

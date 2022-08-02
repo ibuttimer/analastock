@@ -3,8 +3,9 @@ Processing results display functions
 """
 
 from typing import List
-from stock import DfStat, DfColumn
-from utils import MAX_LINE_LEN, convert_date_time, DateFormat
+from stock import DfStat, DfColumn, CompanyColumn, download_meta_data
+from sheets import search_company
+from utils import MAX_LINE_LEN, convert_date_time, DateFormat, drill_dict
 from .grid import DGrid, DCell, DRow, FORMAT_WIDTH_MARK, Marker
 
 
@@ -14,16 +15,17 @@ from .grid import DGrid, DCell, DRow, FORMAT_WIDTH_MARK, Marker
 #                                                                        Currency
 # Stock : IBM - International Business Machines Corporation                   USD
 # Period: 01 Mar 2022* - 01 Jul 2022**
-#               Min          Max         Change         %
-# Open      ............ ............ ............ ............
-# Low       ............ ............ ............ ............
-# High      ............ ............ ............ ............
-# Close     ............ ............ ............ ............
-# AdjClose  ............ ............ ............ ............
-# Volume    ............ ............ ............ ............
+#               Min          Max          Avg         Change         % 
+# Open      ............ ............ ............ ............ ............
+# Low       ............ ............ ............ ............ ............
+# High      ............ ............ ............ ............ ............
+# Close     ............ ............ ............ ............ ............
+# AdjClose  ............ ............ ............ ............ ............
+# Volume^   ............ ............ ............ ............ ............
 #
 # *  : Data n/a 01 Jan 1990 - 28 Feb 2022
 # ** : Data n/a 02 Jul 2022 - 30 Jul 2022
+# ^ : Data missing
 
 # currency row formatting
 # e.g. #                                                             Currency
@@ -52,10 +54,17 @@ NOTE_1 = '*'
 NOTE_2 = '*' * 2
 NOTE_MARK_WIDTH = 2
 NOTE_ROW_FMT = f'<{FORMAT_WIDTH_MARK}'
+MISSING_DATA = '^'
 
 CHANGE_STATS = [DfStat.CHANGE, DfStat.PERCENT_CHANGE]
-STATS = [DfStat.MIN, DfStat.MAX]
+STATS = [DfStat.MIN, DfStat.MAX, DfStat.AVG]
 STATS.extend(CHANGE_STATS)
+
+SYMBOL = 'symbol'
+NAME = 'name'
+CURRENCY = 'currency'
+NAME_CURRENCY = [NAME, CURRENCY]
+
 
 def display_single(results: object):
     """
@@ -82,7 +91,9 @@ def display_single(results: object):
         row = DRow(grid.width)
 
         # value name
-        cell = DCell(column.title, VALUE_NAME_CELL_WIDTH, fmt=VALUE_NAME_FMT)
+        name = f'{column.title}{MISSING_DATA}' if \
+            drill_dict(results, 'data_na', column.title) else column.title
+        cell = DCell(name, VALUE_NAME_CELL_WIDTH, fmt=VALUE_NAME_FMT)
         row.add_cell(cell)
 
         # stats
@@ -166,8 +177,9 @@ def add_period(grid: DGrid, results: object):
         grid (DGrid): grid to add to
         results (object): result to display
     """
-    note1 = NOTE_1 if results['data_na']['from']['missing'] else ''
-    note2 = NOTE_2 if results['data_na']['to']['missing'] else ''
+    note1 = NOTE_1 if drill_dict(results, 'data_na', 'from', 'missing') \
+                    else ''
+    note2 = NOTE_2 if drill_dict(results, 'data_na', 'to', 'missing') else ''
     from_date = convert_date_time(results['from'], DateFormat.FRIENDLY_DATE)
     to_date = convert_date_time(results['to'], DateFormat.FRIENDLY_DATE)
 
@@ -186,13 +198,50 @@ def add_stock(grid: DGrid, results: object):
         grid (DGrid): grid to add to
         results (object): result to display
     """
-    stock = f"{results['symbol'] if 'symbol' in results else 'n/a'} - "\
-            f"Coming soon name Ltd."
+    meta = {
+        key: None for key in NAME_CURRENCY
+    }
+    meta[SYMBOL] = drill_dict(results, SYMBOL)
+    if meta[SYMBOL]:
+        company = search_company(
+                    meta[SYMBOL], CompanyColumn.SYMBOL, exact_match=True)
+        if company:
+            # have info in sheets
+            assert company.num_items == 1, \
+                f"{meta[SYMBOL]} symbol error; {company.num_items} results"
+
+            company_info = company.get_current_page()[0]
+            for key in NAME_CURRENCY:
+                meta[key] = getattr(company_info, key)
+
+        # get info from meta data api
+        if not meta[NAME] or not meta[CURRENCY]:
+            meta_data = download_meta_data(meta[SYMBOL])
+            if meta_data:
+                if not meta[NAME]:
+                    # extract name
+                    meta[NAME] = drill_dict(
+                        meta_data.data, 'result', 'shortName')
+
+                if not meta[CURRENCY]:
+                    #extract currency
+                    meta[CURRENCY] = drill_dict(
+                            meta_data.data, 'result', CURRENCY)
+                    # TODO save currency to companies sheet
+
+    else:
+        meta[SYMBOL] = 'n/a'
+
+    for key in NAME_CURRENCY:
+        if not meta[key]:
+            meta[key] = 'n/a'
+
+    stock = f"{meta[SYMBOL]} - {meta[NAME]}"
     stock_width = grid.width - (grid.gap * 2) - TITLE_CELL_WIDTH - \
                         CUR_CELL_WIDTH
     add_title_row(grid, 'Stock', [
         DCell(stock, stock_width, TITLE_TEXT_CELL_FMT),
-        DCell('CUR', CUR_CELL_WIDTH, TITLE_CUR_CELL_FMT)
+        DCell(meta[CURRENCY], CUR_CELL_WIDTH, TITLE_CUR_CELL_FMT)
     ])
 
 
@@ -215,12 +264,37 @@ def add_missing_notes(grid: DGrid, results: object):
             text = f"{f'{note}':{f'<{NOTE_MARK_WIDTH}'}}: "\
                    f"Data n/a {from_date} - {to_date}"
 
-            if not added_blank:
-                grid.add_row(DRow.blank_row())
-                added_blank = True
+            added_blank = _add_missing_notes_row(grid, text, added_blank)
 
-            row = DRow(grid.width)
-            row.add_cell(
-                DCell(text, row.width)
-            )
-            grid.add_row(row)
+    # missing data
+    for column in DfColumn.NUMERIC_COLUMNS:
+        if drill_dict(results, 'data_na', column.title):
+            text = f"{f'{MISSING_DATA}':{f'<{NOTE_MARK_WIDTH}'}}: "\
+                   f"Data missing"
+
+            added_blank = _add_missing_notes_row(grid, text, added_blank)
+
+
+def _add_missing_notes_row(grid: DGrid, text: str, added_blank: bool) -> bool:
+    """
+    Add a missing data note row
+
+    Args:
+        grid (DGrid): grid to add to
+        text (str): cell text
+        added_blank (bool): blank row has been added flag
+
+    Returns:
+        bool: blank row has been added
+    """
+    if not added_blank:
+        grid.add_row(DRow.blank_row())
+        added_blank = True
+
+    row = DRow(grid.width)
+    row.add_cell(
+        DCell(text, row.width)
+    )
+    grid.add_row(row)
+
+    return added_blank

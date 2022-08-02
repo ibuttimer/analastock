@@ -2,22 +2,32 @@
 App constants
 """
 
-DEFAULT_CREDS_FILE = "creds.json"
+GOOGLE_CREDS_FILE_ENV = "GOOGLE_CREDS_FILE"
+""" Google credentials file environment variable """
+DEFAULT_GOOGLE_CREDS_FILE = "google_creds.json"
 """ Default name of Google credentials file """
 
-DEFAULT_CREDS_PATH = "./"
+GOOGLE_CREDS_PATH_ENV = "GOOGLE_CREDS_PATH"
+""" Path to Google credentials file environment variable """
+DEFAULT_GOOGLE_CREDS_PATH = "./"
 """
 Default path to Google credentials file
 Note: if a relative path is specified, it must be relative to the
       project root folder.
 """
 
-DEFAULT_RAPID_CREDS_FILE = "rapid_creds.json"
-""" Default name of RapidAPI credentials file """
+YAHOO_FINANCE_CREDS_FILE_ENV = 'YAHOO_FINANCE_CREDS_FILE'
+""" RapidAPI YahooFinance Stocks credentials file environment variable """
+DEFAULT_YAHOO_FINANCE_CREDS_FILE = "yahoo_finance_creds.json"
+""" Default name of RapidAPI YahooFinance Stocks credentials file """
 
-DEFAULT_RAPID_CREDS_PATH = "./"
+YAHOO_FINANCE_CREDS_PATH_ENV = 'YAHOO_FINANCE_CREDS_PATH'
 """
-Default path to RapidAPI credentials file
+Path to RapidAPI YahooFinance Stocks credentials file environment variable
+"""
+DEFAULT_YAHOO_FINANCE_CREDS_PATH = "./"
+"""
+Default path to RapidAPI YahooFinance Stocks credentials file
 Note: if a relative path is specified, it must be relative to the
       project root folder.
 """

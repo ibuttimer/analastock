@@ -2,7 +2,7 @@
 Google Sheets search related functions
 """
 import re
-from typing import List
+from typing import List, Union
 from gspread.worksheet import Worksheet
 from gspread.cell import Cell
 from gspread.utils import rowcol_to_a1
@@ -38,7 +38,8 @@ def get_companies(
         # https://docs.gspread.org/en/v5.4.0/api/models/worksheet.html#gspread.worksheet.Worksheet.batch_get
         results = [
             # unpack first entry in ValueRange as args for Company
-            Company(*company[0]) for company in sheet.batch_get(ranges)
+            Company.company_of(*company[0]) \
+                for company in sheet.batch_get(ranges)
         ]
 
     return results
@@ -49,7 +50,7 @@ def search_company(
             sheet: Worksheet = None,
             page_size: int = 10,
             exact_match: bool = False
-        ) -> Pagination:
+        ) -> Union[Pagination, None]:
     """
     Return all companies with values matching the specified criteria.
 
@@ -66,7 +67,7 @@ def search_company(
         exact_match (bool, optional): exact match. Default to False.
 
     Returns:
-        Pagination: paginated results
+        Pagination: paginated results or None of not found
     """
     if not sheet:
         sheet = companies_sheet()
@@ -84,7 +85,7 @@ def search_company(
         # get truncated.
 
         if len(matches) > 0:
-            # generate ranges for results; 4 columns wide to match CompanyColumn
+            # generate ranges for results; columns width to match CompanyColumn
             ranges = [
                 f'{rowcol_to_a1(cell.row, 1)}:'\
                 f'{rowcol_to_a1(cell.row, len(CompanyColumn))}' \

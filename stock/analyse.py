@@ -118,7 +118,7 @@ def validate_date_after(
             Union[datetime, None]: datetime object if valid, otherwise None
         """
         date_time = validate_date(date_string)
-        if date_time and date_time < limit_datetime:
+        if date_time and date_time <= limit_datetime:
             date_time = None
             error(
                 f'Invalid date: must be after '
@@ -428,7 +428,18 @@ def analyse_stock(
         dict: dict of analysis results, like {
             'from': [date],
             'to': [date],
-            'symbol': 'XYZ'
+            'symbol': [str]
+            'data_na': {
+                'from': {
+                    'missing': [bool],
+                    'start': [date],
+                    'end': [date]
+                }
+                'to': { ... },
+                'Open': (bool),
+                ...
+                'Volume': (bool)
+            }
             'OpenMin': 11.34,
             'OpenMax': 12.34,
             'OpenChange': 1.0,
@@ -477,9 +488,8 @@ def analyse_stock(
         'to': to_date,
         'symbol': symbol,
         'data_na': {
-            # mark greater than a weekend as missing data
             'from': missing_data(stock_param.from_date, from_date),
-            'to': missing_data(stock_param.to_date, to_date)
+            'to': missing_data(stock_param.to_date, to_date),
         }
     }
 
@@ -492,15 +502,31 @@ def analyse_stock(
         # max value
         analysis[DfStat.MAX.column_key(column)] = data_series.max()
 
+        # avg value
+        analysis[DfStat.AVG.column_key(column)] = round_price(
+                                                        data_series.mean()
+                                                    )
+
         # change
-        change = round_price(data_series.iat[0] - \
+        start_vol = data_series.iat[0]
+        change = round_price(start_vol - \
                             data_series.iat[len(data_series)-1])
         analysis[DfStat.CHANGE.column_key(column)] = change
 
         # percentage change
         analysis[DfStat.PERCENT_CHANGE.column_key(column)] = round(
-            (change / data_series.iat[0]) * 100, PERCENT_PRECISION
+            (change / (
+                start_vol if start_vol != 0 else 1
+            )) * 100, PERCENT_PRECISION
         )
+
+        # check for missing data
+        analysis['data_na'][column.title] = 0 in data_series.values
+
+    # special case for Volume - int(average volume)
+    analysis[DfStat.AVG.column_key(DfColumn.VOLUME)] = int(
+        analysis[DfStat.AVG.column_key(DfColumn.VOLUME)]
+    )
 
     return analysis
 

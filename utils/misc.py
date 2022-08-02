@@ -180,3 +180,28 @@ def convert_date_time(
         conversion = date_time.strftime(FRIENDLY_DATE_FMT)
 
     return conversion
+
+
+def drill_dict(source: dict, *args, defaultValue: Any = None) -> Any:
+    """
+    Get a values from a dict
+
+    Args:
+        source (dict): source dict
+        *args (List[str]): path to required value
+        defaultValue (Any, optional): default value. Defaults to None.
+
+    Returns:
+        Any: value or ``defaultValue`` if not found
+    """
+    value = defaultValue
+    obj = source
+    for prop in args:
+        if prop in obj:
+            obj = obj[prop]
+        else:
+            break
+    else:
+        value = obj
+
+    return value

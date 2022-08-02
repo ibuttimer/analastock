@@ -4,7 +4,9 @@ Google Sheets related functions
 from typing import List, Union
 import pandas as pd
 from gspread.worksheet import Worksheet
-from stock import StockParam, DfColumn, StockDownload, CompanyColumn
+from stock import (
+    StockParam, DfColumn, StockDownload, CompanyColumn,ExchangeColumn
+)
 from utils import info, EXCHANGES_SHEET, COMPANIES_SHEET
 from .load_sheet import sheet_exists
 from .utils import updated_range, updated_rows
@@ -67,7 +69,9 @@ def save_exchanges(data: Union[pd.DataFrame, StockDownload]) -> List[dict]:
         # {"exchangeCode":"AMS"}
         data = data.data
 
-    sheet = sheet_exists(EXCHANGES_SHEET, create=True, cols=1, rows=100)
+    sheet = sheet_exists(
+        EXCHANGES_SHEET, create=True,
+        cols=len(ExchangeColumn), rows=len(data['results']) + 5)
 
     if sheet and data:
         sheet.clear()

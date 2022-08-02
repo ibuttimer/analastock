@@ -37,7 +37,7 @@ class StockParam:
                 to_date: Union[datetime, date]
             ) -> object:
         """
-        Factory
+        Factory method
 
         Args:
             symbol (str): stock symbol
@@ -217,13 +217,40 @@ class Company:
     """ Company name """
     sector: str
     """ Industry or category """
+    currency: str
+    """ Stock currency """
 
-    def __init__(self, code: str, symbol: str, name: str, sector: str):
+    def __init__(
+            self, code: str, symbol: str, name: str, sector: str,
+            currency: str):
         self.code = code.upper()
         self.symbol = symbol.upper()
         self.name = name
         self.sector = sector
+        self.currency = currency
+
+    @classmethod
+    def company_of(
+                cls, code: str, symbol: str, name: str, sector: str,
+                currency: str = None
+            ) -> object:
+        """
+        Factory method
+
+        Args:
+            code (str): exchange code
+            symbol (str): stock symbol
+            from_date (str): company name
+            sector (str): industry or category
+            currency (str, optional): currency
+
+        Returns:
+            Company: new object
+        """
+        return Company(code, symbol, name, sector, currency)
+
 
     def __str__(self) -> str:
-        return f'{self.__class__.__name__}(' \
-               f'{self.symbol}, {self.name}, {self.code}, {self.sector})'
+        return f'{self.__class__.__name__}('\
+               f'{self.symbol}, {self.name}, {self.code}, {self.sector}, '\
+               f'{self.currency})'

@@ -76,12 +76,12 @@ Create a file named `.env` in the project root folder, see [.sample-env](.sample
 | PYTHON_PATH | Path to python executable; default ''.<br>__Note:__ if a relative path is specified, it must be relative to the project root folder. E.g. if using a [venv virtual environment](https://docs.python.org/3/library/venv.html#module-venv) in the project root folder, use `./venvd/Scripts/` |
 | PYTHON_EXE | Python executable; default 'python3'.<br>__Note:__ If running on windows, full filename including extension is required, e.g. 'python.exe' |
 | APP_PATH | Path to app folder; default '/app'.<br>__Note:__ if a relative path is specified, it must be relative to the project root folder. E.g. the default location is the project root folder, so use `CREDS_PATH` |
-| CREDS | Google Drive API credentials |
-| CREDS_FILE | Name of name of Google Drive API credentials file; default `creds.json` |
-| CREDS_PATH | Path to Google Drive API credentials file; default `./`<br>__Note:__ must be relative to the project root folder |
-| RAPID_CREDS | [RapidAPI](https://rapidapi.com/) credentials |
-| RAPID_CREDS_FILE | Name of name of [RapidAPI](https://rapidapi.com/) credentials file; default `rapid_creds.json` |
-| RAPID_CREDS_PATH | Path to [RapidAPI](https://rapidapi.com/) credentials file; default `./`<br>__Note:__ must be relative to the project root folder |
+| GOOGLE_CREDS | Google Drive API credentials |
+| GOOGLE_CREDS_FILE | Name of name of Google Drive API credentials file; default `google_creds.json` |
+| GOOGLE_CREDS_PATH | Path to Google Drive API credentials file; default `./`<br>__Note:__ must be relative to the project root folder |
+| YAHOO_FINANCE_CREDS | [RapidAPI](https://rapidapi.com/) [YahooFinance Stocks](https://rapidapi.com/integraatio/api/yahoofinance-stocks1/) credentials |
+| YAHOO_FINANCE_CREDS_FILE | Name of name of [RapidAPI](https://rapidapi.com/) [YahooFinance Stocks](https://rapidapi.com/integraatio/api/yahoofinance-stocks1/) credentials file; default `yahoo_finance_creds.json` |
+| YAHOO_FINANCE_CREDS_PATH | Path to [RapidAPI](https://rapidapi.com/) [YahooFinance Stocks](https://rapidapi.com/integraatio/api/yahoofinance-stocks1/) credentials file; default `./`<br>__Note:__ must be relative to the project root folder |
 | DATA_PATH | Path to sample data folder; default `./data`<br>__Note:__ must be relative to the project root folder |
 | SPREADSHEET_NAME | Name of Google Sheets spreadsheet |
 
@@ -136,13 +136,13 @@ The following steps were followed to deploy the website:
       | Key | Value |
       |-----|-------|
       | PORT | 8000 |
-      | CREDS | Google Drive API credentials |
-      | RAPID_CREDS | [RapidAPI](https://rapidapi.com/) credentials |
+      | GOOGLE_CREDS | Google Drive API credentials |
+      | YAHOO_FINANCE_CREDS | [RapidAPI](https://rapidapi.com/) [YahooFinance Stocks](https://rapidapi.com/integraatio/api/yahoofinance-stocks1/) credentials |
 
       See [Table 1: Configuration settings](#table-1-configuration-settings) for details.
 
   - From the app settings, select the `Deploy` tab.
-    - For the `Deployment method`, select `GitHGub` and link your Heroku app to your GitHub repository.
+    - For the `Deployment method`, select `GitHub` and link the Heroku app to the GitHub repository.
 
       __Note:__ To configure GitHub integration, you have to authenticate with GitHub. You only have to do this once per Heroku account. See [GitHub Integration (Heroku GitHub Deploys)](https://devcenter.heroku.com/articles/github-integration).
     - `Enable Automatic Deploys` under `Automatic deploys` to enable automatic deploys from GitHub following a GitHub push if desired.

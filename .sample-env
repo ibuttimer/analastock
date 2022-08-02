@@ -24,26 +24,26 @@ PYTHON_EXE='python.exe'
 APP_PATH='./'
 
 # Google Drive API credentials
-CREDS=""
+GOOGLE_CREDS=""
 
-# name of credentials file; default 'creds.json'
-CREDS_FILE="creds.json"
+# name of Google Drive API credentials file; default 'google_creds.json'
+GOOGLE_CREDS_FILE="google_creds.json"
 
-# path to credentials file; default './'
+# path to Google Drive API credentials file; default './'
 # Note: if a relative path is specified, it must be relative to the project root folder.
 # e.g. the default location is the project root folder, so use './'
-CREDS_PATH="./"
+GOOGLE_CREDS_PATH="./"
 
-# RapidAPI credentials
-RAPID_CREDS=""
+# RapidAPI YahooFinance Stocks credentials
+YAHOO_FINANCE_CREDS=""
 
-# name of RapidAPI credentials file; default 'rapid_creds.json'
-RAPID_CREDS_FILE="rapid_creds.json"
+# name of RapidAPI YahooFinance Stocks credentials file; default 'yahoo_finance_creds.json'
+YAHOO_FINANCE_CREDS_FILE="yahoo_finance_creds.json"
 
-# path to RapidAPI credentials file; default './'
+# path to RapidAPI YahooFinance Stocks credentials file; default './'
 # Note: if a relative path is specified, it must be relative to the project root folder.
 # e.g. the default location is the project root folder, so use './'
-RAPID_CREDS_PATH="./"
+YAHOO_FINANCE_CREDS_PATH="./"
 
 # name of Google Sheets spreadsheet
 SPREADSHEET_NAME="AnalaStock"

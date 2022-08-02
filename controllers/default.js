@@ -87,8 +87,8 @@ function socket() {
 }
 
 for (entry of [
-    [process.env.CREDS, 'creds.json'],
-    [process.env.RAPID_CREDS, 'rapid_creds.json'],
+    [process.env.GOOGLE_CREDS, 'google_creds.json'],
+    [process.env.YAHOO_FINANCE_CREDS, 'yahoo_finance_creds.json']
 ]) {
     if (entry[0]) {
         console.log("Creating " + entry[1] + " file.");
