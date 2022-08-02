@@ -5,13 +5,13 @@ import re
 from typing import List, Union
 from gspread.worksheet import Worksheet
 from gspread.cell import Cell
-from gspread.utils import rowcol_to_a1
 
 from stock import CompanyColumn, Company
 from utils import Pagination
 
 from .find_info import find_all
-from .save_sheet import companies_sheet
+from .load_sheet import companies_sheet
+from .utils import cells_range
 
 
 def get_companies(
@@ -86,9 +86,10 @@ def search_company(
 
         if len(matches) > 0:
             # generate ranges for results; columns width to match CompanyColumn
+            # e.g. 'A1:E1'
+            # Note: rows/cols are 1-based
             ranges = [
-                f'{rowcol_to_a1(cell.row, 1)}:'\
-                f'{rowcol_to_a1(cell.row, len(CompanyColumn))}' \
+                cells_range(cell.row, 1, cell.row, len(CompanyColumn)) \
                     for cell in matches
             ]
 

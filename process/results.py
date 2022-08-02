@@ -4,7 +4,7 @@ Processing results display functions
 
 from typing import List
 from stock import DfStat, DfColumn, CompanyColumn, download_meta_data
-from sheets import search_company
+from sheets import search_company, save_stock_meta_data
 from utils import MAX_LINE_LEN, convert_date_time, DateFormat, drill_dict
 from .grid import DGrid, DCell, DRow, FORMAT_WIDTH_MARK, Marker
 
@@ -12,10 +12,10 @@ from .grid import DGrid, DCell, DRow, FORMAT_WIDTH_MARK, Marker
 # 80 Columns
 # 12345678901234567890123456789012345678901234567890123456789012345678901234567890
 
-#                                                                        Currency
-# Stock : IBM - International Business Machines Corporation                   USD
+#                                                                         Currency
+# Stock : IBM - International Business Machines Corporation                    USD
 # Period: 01 Mar 2022* - 01 Jul 2022**
-#               Min          Max          Avg         Change         % 
+#               Min          Max          Avg         Change         %
 # Open      ............ ............ ............ ............ ............
 # Low       ............ ............ ............ ............ ............
 # High      ............ ............ ............ ............ ............
@@ -66,13 +66,15 @@ CURRENCY = 'currency'
 NAME_CURRENCY = [NAME, CURRENCY]
 
 
-def display_single(results: object):
+def display_single(results: dict):
     """
     Display single analysis results
 
     Args:
-        results (object): result to display
+        results (dict): result to display
     """
+
+    check_meta(results)
 
     grid = DGrid(MAX_LINE_LEN)
 
@@ -198,50 +200,12 @@ def add_stock(grid: DGrid, results: object):
         grid (DGrid): grid to add to
         results (object): result to display
     """
-    meta = {
-        key: None for key in NAME_CURRENCY
-    }
-    meta[SYMBOL] = drill_dict(results, SYMBOL)
-    if meta[SYMBOL]:
-        company = search_company(
-                    meta[SYMBOL], CompanyColumn.SYMBOL, exact_match=True)
-        if company:
-            # have info in sheets
-            assert company.num_items == 1, \
-                f"{meta[SYMBOL]} symbol error; {company.num_items} results"
-
-            company_info = company.get_current_page()[0]
-            for key in NAME_CURRENCY:
-                meta[key] = getattr(company_info, key)
-
-        # get info from meta data api
-        if not meta[NAME] or not meta[CURRENCY]:
-            meta_data = download_meta_data(meta[SYMBOL])
-            if meta_data:
-                if not meta[NAME]:
-                    # extract name
-                    meta[NAME] = drill_dict(
-                        meta_data.data, 'result', 'shortName')
-
-                if not meta[CURRENCY]:
-                    #extract currency
-                    meta[CURRENCY] = drill_dict(
-                            meta_data.data, 'result', CURRENCY)
-                    # TODO save currency to companies sheet
-
-    else:
-        meta[SYMBOL] = 'n/a'
-
-    for key in NAME_CURRENCY:
-        if not meta[key]:
-            meta[key] = 'n/a'
-
-    stock = f"{meta[SYMBOL]} - {meta[NAME]}"
+    stock = f"{results[SYMBOL]} - {results[NAME]}"
     stock_width = grid.width - (grid.gap * 2) - TITLE_CELL_WIDTH - \
                         CUR_CELL_WIDTH
     add_title_row(grid, 'Stock', [
         DCell(stock, stock_width, TITLE_TEXT_CELL_FMT),
-        DCell(meta[CURRENCY], CUR_CELL_WIDTH, TITLE_CUR_CELL_FMT)
+        DCell(results[CURRENCY], CUR_CELL_WIDTH, TITLE_CUR_CELL_FMT)
     ])
 
 
@@ -298,3 +262,62 @@ def _add_missing_notes_row(grid: DGrid, text: str, added_blank: bool) -> bool:
     grid.add_row(row)
 
     return added_blank
+
+
+def check_meta(results: dict):
+    """
+    Check meta data for stock
+
+    Args:
+        results (dict): result to display
+    """
+    meta = {
+        key: None for key in NAME_CURRENCY
+    }
+    meta[SYMBOL] = drill_dict(results, SYMBOL)
+    if meta[SYMBOL]:
+        company = search_company(
+                    meta[SYMBOL], CompanyColumn.SYMBOL, exact_match=True)
+        if company:
+            # have info in sheets
+            assert company.num_items == 1, \
+                f"{meta[SYMBOL]} symbol error; {company.num_items} results"
+
+            company_info = company.get_current_page()[0]
+            for key in NAME_CURRENCY:
+                meta[key] = getattr(company_info, key)
+
+        if not meta[NAME] or not meta[CURRENCY]:
+            # get info from meta data api
+            meta_data = download_meta_data(meta[SYMBOL])
+            if meta_data:
+                meta_name = drill_dict(
+                    meta_data.data, 'result', 'shortName')
+                if meta_name:
+                    if meta_name != meta[NAME]:
+                        # according to API docs, the 'Companies By Exchange'
+                        # endpoint is 'Manually Populated List Of Common Stocks
+                        # Per Exchange Code. Not Guaranteed To Be Up To Date'
+                        # so use 'Live Stock Metadata' endpoint which is the
+                        # 'real time metadata'
+                        meta[NAME] = meta_name
+                    else:
+                        meta_name = None    # don't save
+
+                if not meta[CURRENCY]:
+                    # extract currency
+                    meta[CURRENCY] = drill_dict(
+                            meta_data.data, 'result', CURRENCY)
+
+                save_stock_meta_data(
+                    meta[SYMBOL], meta[CURRENCY], name=meta_name)
+
+    else:
+        meta[SYMBOL] = 'n/a'
+
+    for key in NAME_CURRENCY:
+        if not meta[key]:
+            meta[key] = 'n/a'
+
+    # add name/currency to results
+    results.update(meta)

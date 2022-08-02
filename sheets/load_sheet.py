@@ -6,10 +6,12 @@ import os
 import gspread
 from google.oauth2.service_account import Credentials
 import google.auth.exceptions
+from gspread.worksheet import Worksheet
+from stock import CompanyColumn
 from utils import (
     get_env_setting, error, wrapped_get,
     DEFAULT_GOOGLE_CREDS_FILE, DEFAULT_GOOGLE_CREDS_PATH,
-    GOOGLE_CREDS_FILE_ENV, GOOGLE_CREDS_PATH_ENV,
+    GOOGLE_CREDS_FILE_ENV, GOOGLE_CREDS_PATH_ENV, COMPANIES_SHEET
 )
 
 DEFAULT_ROWS = 1000
@@ -149,3 +151,13 @@ def add_sheet(
         worksheet = wrapped_get(new_sheet)
 
     return worksheet
+
+
+def companies_sheet() -> Worksheet:
+    """
+    Get the companies worksheet
+
+    Returns:
+        Worksheet: companies worksheet
+    """
+    return sheet_exists(COMPANIES_SHEET, create=True, cols=len(CompanyColumn))

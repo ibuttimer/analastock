@@ -11,7 +11,7 @@ from stock import (
     Company, AnalysisRange, DATE_FORM, StockParam, DataMode, CompanyColumn
 )
 from sheets import (
-    save_data, get_sheets_data, save_exchanges, save_companies, search_company,
+    save_stock_data, get_sheets_data, save_exchanges, save_companies, search_company,
     check_partial
 )
 from utils import (
@@ -182,7 +182,7 @@ def fill_gaps(data_frame: DataFrame, stock_param: StockParam) -> DataFrame:
             # save data to sheets
             data = download_data(gap_param)
             if data:
-                save_data(data)
+                save_stock_data(data)
 
                 # add data to data frame
                 full_frame = concat([full_frame, data.data_frame]) \

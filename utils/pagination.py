@@ -41,12 +41,16 @@ class Pagination():
         self.page_num = 1
 
 
-    def get_page(self, page_num: int) -> Union[List[Any], None]:
+    def get_page(
+                self, page_num: int, transform: bool = True
+            ) -> Union[List[Any], None]:
         """
         Get the items for the specified page
 
         Args:
             page_num (int): number of page to get (one-based)
+            transform (bool, optional):
+                    apply transform function. Defaults to True.
 
         Returns:
             Union[List[Any], None]: items or None if invalid page num
@@ -58,40 +62,53 @@ class Pagination():
             page_items = self.items[start:end]
             self.page_num = page_num
 
-            if self.transform_func:
+            if transform and self.transform_func:
                 page_items = self.transform_func(page_items)
 
         return page_items
 
 
-    def get_current_page(self) -> List[Any]:
+    def get_current_page(self, transform: bool = True) -> List[Any]:
         """
         Get the items for the current page
+
+        Args:
+            transform (bool, optional):
+                    apply transform function. Defaults to True.
 
         Returns:
             List[Any]: items
         """
-        return self.get_page(self.page_num)
+        return self.get_page(self.page_num, transform=transform)
 
 
-    def next_page(self) -> Union[List[Any], None]:
+    def next_page(self, transform: bool = True) -> Union[List[Any], None]:
         """
         Get the next page of items
 
+        Args:
+            transform (bool, optional):
+                    apply transform function. Defaults to True.
+
         Returns:
             Union[List[Any], None]: items or None if unavailable
         """
-        return self.get_page(self.page_num + 1)
+        return self.get_page(self.page_num + 1, transform=transform)
 
 
-    def previous_page(self) -> Union[List[Any], None]:
+    def previous_page(
+            self, transform: bool = True) -> Union[List[Any], None]:
         """
         Get the previous page of items
 
+        Args:
+            transform (bool, optional):
+                    apply transform function. Defaults to True.
+
         Returns:
             Union[List[Any], None]: items or None if unavailable
         """
-        return self.get_page(self.page_num - 1)
+        return self.get_page(self.page_num - 1, transform=transform)
 
     @property
     def is_last_page(self) -> bool:

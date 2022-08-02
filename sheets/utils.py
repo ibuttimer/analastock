@@ -3,6 +3,7 @@ Utility functions for sheets
 """
 from typing import List
 import gspread
+from gspread.utils import rowcol_to_a1
 
 
 def updated_range(result: dict, inc_sheet_name: bool = False):
@@ -45,3 +46,21 @@ def cell_values(cells: List[gspread.cell.Cell]) -> List[str]:
         List[str]: values list
     """
     return [cell.value for cell in cells]
+
+
+def cells_range(
+        row_top: int, col_left: int, row_bottom: int, col_right: int) -> str:
+    """
+    Generate a cell range in A1 format
+
+    Args:
+        row_top (int): top row (1-based)
+        col_left (int): left column (1-based)
+        row_bottom (int): bottom row (1-based)
+        col_right (int): right column (1-based)
+
+    Returns:
+        str: range
+    """
+    return f'{rowcol_to_a1(row_top, col_left)}:'\
+                f'{rowcol_to_a1(row_bottom, col_right)}'

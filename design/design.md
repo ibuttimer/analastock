@@ -99,8 +99,8 @@ The application menu will display a list of possible options, allowing the user 
 80 Columns
 12345678901234567890123456789012345678901234567890123456789012345678901234567890
 
-                                                                       Currency
-Stock : IBM - International Business Machines Corporation                   USD
+                                                                        Currency
+Stock : IBM - International Business Machines Corporation                    USD
 Period: 01 Mar 2022 - 01 Jul 2022
               Min          Max          Avg         Change         % 
 Open      ............ ............ ............ ............ ............
@@ -117,8 +117,8 @@ In the event that it was not possible to retrieve data for the full range reques
 80 Columns
 12345678901234567890123456789012345678901234567890123456789012345678901234567890
 
-                                                                       Currency
-Stock : IBM - International Business Machines Corporation                   USD
+                                                                        Currency
+Stock : IBM - International Business Machines Corporation                    USD
 Period: 01 Mar 2022* - 01 Jul 2022**
               Min          Max          Avg         Change         % 
 Open      ............ ............ ............ ............ ............
@@ -139,12 +139,12 @@ Volume^   ............ ............ ............ ............ ............
 80 Columns
 12345678901234567890123456789012345678901234567890123456789012345678901234567890
 
-                                                                       Currency
-1] Stock : MSFT    - Microsoft Corporation                                  USD
+                                                                        Currency
+1] Stock : MSFT    - Microsoft Corporation                                   USD
    Period: 01 Mar 2022 - 01 Jul 2022
-2] Stock : MSFT.NE - Microsoft Corporation                                  CAD
+2] Stock : MSFT.NE - Microsoft Corporation                                   CAD
    Period: 01 Mar 2022 - 01 Jul 2022
-3] Stock : MSFT.MX - Microsoft Corporation                                  MXN
+3] Stock : MSFT.MX - Microsoft Corporation                                   MXN
    Period: 01 Mar 2022 - 01 Jul 2022
           Stock    Min          Max          Avg         Change         % 
 Open      1]   ............ ............ ............ ............ ............
@@ -173,12 +173,12 @@ In the event that it was not possible to retrieve data for the full range reques
 80 Columns
 12345678901234567890123456789012345678901234567890123456789012345678901234567890
 
-                                                                       Currency
-1] Stock : MSFT    - Microsoft Corporation                                  USD
+                                                                        Currency
+1] Stock : MSFT    - Microsoft Corporation                                   USD
    Period: 01 Mar 2022* - 01 Jul 2022
-2] Stock : MSFT.NE - Microsoft Corporation                                  CAD
+2] Stock : MSFT.NE - Microsoft Corporation                                   CAD
    Period: 01 Mar 2022 - 01 Jul 2022**
-3] Stock : MSFT.MX - Microsoft Corporation                                  MXN
+3] Stock : MSFT.MX - Microsoft Corporation                                   MXN
    Period: 01 Mar 2022* - 01 Jul 2022
           Stock    Min          Max          Avg         Change         % 
 Open      1]   ............ ............ ............ ............ ............
@@ -227,7 +227,8 @@ The flow chart of the search for a company is as follows:
 
 
 # Data
-## Data Source
+## Data Sources
+### Historical financial data
 The financial data for analysis will be downloaded from [Yahoo Finance](https://finance.yahoo.com/).
 Specifically the data used will the `Historical Prices` data provided by [Yahoo Finance](https://finance.yahoo.com/).
 
@@ -236,8 +237,21 @@ The following input will be required from the user:
 | Input | Description |
 |-------|-------------|
 | Symbol | The Yahoo Finance stock exchange symbol used for the stock.<br>Symbols may be found by searching on [Yahoo Finance](https://finance.yahoo.com/) or by using the in-app search functionality. E.g. the symbol for Microsoft Corporation on the [NASDAQ](https://www.nasdaq.com/) Global Select Market is `MSFT`, and for the [NEO Exchange](https://www.neo.inc/) is `MSFT.NE` |
-| From date | The data for the start of analysis<br>__Note:__ The minimum date in 1st Feb. 1962. |
+| From date | The data for the start of analysis |
 | To date | The data for the end of analysis<br>__Note:__ This is date is not included in the analysis. |
+
+### Other data
+Other data required; exchange and company meta-data, will be downloaded from the [YahooFinance Stocks](https://rapidapi.com/integraatio/api/yahoofinance-stocks1/) API from [RapidAPI](https://rapidapi.com/).
+Specifically the endpoints used will be:
+| Endpoint | Description |
+|----------|-------------|
+| List exchanges | List all exchanges known to have stocks associated with them |
+| Companies By Exchange | List Of Common Stocks Per Exchange Code |
+| Live Stock Metadata | Real time metadata about the stock |
+
+## Data Flow
+![](img/analastock-data-flow.drawio.png)
+
 
 ## Data Storage
 Data will be stored in a Google Sheets spreadsheet.

@@ -3,19 +3,20 @@ Google Sheets related functions
 """
 from typing import List, Union
 import pandas as pd
-from gspread.worksheet import Worksheet
+from gspread.utils import a1_range_to_grid_range
 from stock import (
-    StockParam, DfColumn, StockDownload, CompanyColumn,ExchangeColumn
+    StockParam, DfColumn, StockDownload, CompanyColumn, ExchangeColumn
 )
-from utils import info, EXCHANGES_SHEET, COMPANIES_SHEET
-from .load_sheet import sheet_exists
-from .utils import updated_range, updated_rows
+from utils import info, error, EXCHANGES_SHEET
+from .load_sheet import sheet_exists, companies_sheet
+from .search import search_company
+from .utils import updated_range, updated_rows, cells_range
 
 
 # https://docs.gspread.org/
 
 
-def save_data(
+def save_stock_data(
         data: Union[pd.DataFrame, StockDownload],
         stock_param: StockParam = None):
     """
@@ -85,16 +86,6 @@ def save_exchanges(data: Union[pd.DataFrame, StockDownload]) -> List[dict]:
     return data['results'] if data else None
 
 
-def companies_sheet() -> Worksheet:
-    """
-    Get the companies worksheet
-
-    Returns:
-        Worksheet: companies worksheet
-    """
-    return sheet_exists(COMPANIES_SHEET, create=True, cols=len(CompanyColumn))
-
-
 def save_companies(
         data: Union[pd.DataFrame, StockDownload],
         clear_sheet: bool = False) -> List[dict]:
@@ -141,3 +132,82 @@ def save_companies(
         }])
 
     return data['results'] if data else None
+
+
+def save_stock_meta_data(
+        symbol: str,
+        currency: str = None,
+        name: str = None) -> List[dict]:
+    """
+    Save data for companies
+
+    Args:
+        symbol (str): stock symbol
+        currency (str, optional): stock currency. Default to None.
+        name (str, optional): company name. Default to None.
+    """
+    if not currency and not name:
+        return  # nothing to do
+
+    sheet = companies_sheet()
+    error_msg = None
+
+    pg_result = search_company(
+        symbol.upper(), CompanyColumn.SYMBOL, sheet=sheet, exact_match=True
+    )
+    if pg_result and pg_result.num_items >= 1:
+        if pg_result.num_items == 1:
+            # get company data range, e.g. 'A1:E1'
+            company = pg_result.get_current_page(transform=False)
+            assert len(company) == 1
+            # Note: all indexes are zero-based
+            # {'startRowIndex': 0, 'endRowIndex': 1, 'startColumnIndex': 0,
+            #   'endColumnIndex': 1}
+            company_row = \
+                a1_range_to_grid_range(company[0])['startRowIndex'] + 1
+
+            updates = []
+
+            if currency:
+                # update currency
+                # Note: rows/cols are 1-based
+                updates.append((CompanyColumn.CURRENCY.value, currency))
+
+            if name:
+                # update name
+                updates.append((CompanyColumn.NAME.value, name))
+
+            if len(updates) > 0:
+                sheet.batch_update([
+                    range_update(
+                        cells_range(
+                            company_row, col,
+                            company_row, col
+                        ), value
+                    ) for col, value in updates
+                ], value_input_option='RAW')
+
+        else:
+            error_msg = f"Multiple '{symbol}' entries: data not saved"
+    else:
+        error_msg = f"Unable to find '{symbol}': data not saved"
+
+    if error_msg:
+        error(error_msg)
+
+
+def range_update(cell_rng: str, values: List[List]):
+    """
+    Generate batch_update entry
+
+    Args:
+        cell_rng (str): cells range
+        values (List[List]): values to update
+
+    Returns:
+        object: entry
+    """
+    return {
+        'range': cell_rng,
+        'values': [values if isinstance(values, list) else [values]]
+    }
