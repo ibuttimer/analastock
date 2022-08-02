@@ -154,9 +154,12 @@ def download_data(
     )
 
     data = None
+    status_code = StockDownload.NO_RESPONSE
     with requests.session():
         response = http_get(url, headers=header, cookies=cookies)
         if response is not None:
+            status_code = response.status_code
+
             if response.status_code == 200:
                 # data in form
                 # 'Date,Open,High,Low,Close,Adj Close,Volume\n'
@@ -188,7 +191,7 @@ def download_data(
 
                 error(msg)
 
-    return StockDownload(params, data)
+    return StockDownload(params, data, status_code)
 
 
 def canned_ibm(
@@ -198,7 +201,7 @@ def canned_ibm(
     if data_type == 'df':
         data = StockDownload.list_to_frame(SAMPLE_DATA)
     elif data_type == 'sd':
-        data = StockDownload(SAMPLE_STOCK_PARAM, data)
+        data = StockDownload(SAMPLE_STOCK_PARAM, data, 200)
     else:
         data = SAMPLE_DATA
     return SAMPLE_STOCK_PARAM, data

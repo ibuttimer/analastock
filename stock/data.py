@@ -126,17 +126,22 @@ class StockDownload:
     """
     Class representing a downloaded stock data
     """
+    NO_RESPONSE = -1
 
     stock_param: StockParam
     """ Params of user request """
     data: Union[pd.DataFrame, List[str], object]
     """ Downloaded data """
+    status_code: int
+    """ Response status code """
 
     def __init__(
             self, stock_param: StockParam,
-            data: Union[pd.DataFrame, List[str]]):
+            data: Union[pd.DataFrame, List[str]],
+            status_code: int = NO_RESPONSE):
         self.stock_param = stock_param
         self.data = data
+        self.status_code = status_code
 
     @property
     def data_frame(self) -> pd.DataFrame:
@@ -150,18 +155,29 @@ class StockDownload:
             if isinstance(self.data, list) else self.data\
             if isinstance(self.data, pd.DataFrame) else pd.DataFrame(self.data)
 
+    @property
+    def response_ok(self):
+        """
+        Response was success flag
+
+        Returns:
+            bool: True if response was success, otherwise False
+        """
+        return self.status_code == 200
+
     @staticmethod
-    def download_of(data: object) -> object:
+    def download_of(data: object, status_code: int = NO_RESPONSE) -> object:
         """
         Factory
 
         Args:
             data (object): json data
+            status_code (int): response status code
 
         Returns:
             StockDownload: new object
         """
-        stock_download = StockDownload(None, data)
+        stock_download = StockDownload(None, data, status_code)
         return stock_download
 
     @staticmethod

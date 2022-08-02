@@ -1,9 +1,9 @@
 """
 Download related functions
 """
-import json
-
-from utils import info
+from utils import (
+    info, error, load_json_string, save_json_file, sample_meta_path
+)
 
 from .enums import DataMode
 from .data import StockDownload
@@ -31,28 +31,40 @@ def download_meta_data(
         f'{"*sample* " if data_mode == DataMode.SAMPLE else ""}meta data')
 
     data = None
-    if data_mode == DataMode.LIVE:
+    status_code = StockDownload.NO_RESPONSE
+    if data_mode in [DataMode.LIVE, DataMode.LIVE_SAVE_SAMPLE]:
         response = rapid_get(RAPID_YAHOO_META_URL, headers=HEADER,
                         params={ "Symbol": symbol })
 
-        if response:
-            # data in form
-            # '{"result":{
-            #       ...
-            #       "currency":"EUR",
-            #       "exchangeTimezoneName":"Europe/Amsterdam",
-            #       "exchangeTimezoneShortName":"CEST",
-            #       "exchange":"AMS",
-            #       "shortName":"NEPI ROCKCASTLE S.A."
-            #       "market":"nl_market"
-            #       "fullExchangeName":"Amsterdam"
-            #       "symbol":"NRP.AS"
-            #       ...}
-            #   ...}
-            data = json.loads(response.text)
-        # TODO non-200 handling
+        if response is not None:
+            status_code = response.status_code
+
+            if response.status_code == 200:
+                # data in form
+                # '{"result":{
+                #       ...
+                #       "currency":"EUR",
+                #       "exchangeTimezoneName":"Europe/Amsterdam",
+                #       "exchangeTimezoneShortName":"CEST",
+                #       "exchange":"AMS",
+                #       "shortName":"NEPI ROCKCASTLE S.A."
+                #       "market":"nl_market"
+                #       "fullExchangeName":"Amsterdam"
+                #       "symbol":"NRP.AS"
+                #       ...}
+                #   ...}
+                data = load_json_string(response.text)
+
+                if data_mode == DataMode.LIVE_SAVE_SAMPLE:
+                    save_json_file(
+                        sample_meta_path(symbol), data['result'])
+
+            else:
+                # api return status_code 500
+                error(f"No data found for symbol '{symbol}' "\
+                      f"[{response.status_code}]")
     # else:
     #     data = load_json_file(
     #                 sample_exchanges_path())
 
-    return StockDownload.download_of(data)
+    return StockDownload.download_of(data, status_code)

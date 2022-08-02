@@ -61,7 +61,7 @@ def last_day_of_month(year: int, month: int) -> int:
             30 if month in [9, 4, 6, 11] else 31
 
 
-def load_json_file(filepath: str) -> dict:
+def load_json_file(filepath: str) -> Union[dict, None]:
     """
     Load json from a file
 
@@ -69,7 +69,7 @@ def load_json_file(filepath: str) -> dict:
         filepath (str): path to file
 
     Returns:
-        dict: json data
+        Union[dict, None]: json dict or None if error
     """
     data = None
 
@@ -79,6 +79,28 @@ def load_json_file(filepath: str) -> dict:
             file_handle.close()
     except FileNotFoundError:
         error(f'File not found: {filepath}')
+    except json.decoder.JSONDecodeError:
+        error(f'JSON decode error: {filepath}')
+
+    return data
+
+
+def load_json_string(json_string: str) -> Union[dict, None]:
+    """
+    Load json from a string
+
+    Args:
+        json_string (str): serialised json
+
+    Returns:
+        Union[dict, None]: json dict or None if error
+    """
+    data = None
+
+    try:
+        data = json.loads(json_string)
+    except json.decoder.JSONDecodeError:
+        error('JSON decode error: unable to deserialise string')
 
     return data
 

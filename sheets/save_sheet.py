@@ -28,6 +28,9 @@ def save_stock_data(
                 stock parameters if data is DataFrame, ignored otherwise
     """
     if isinstance(data, StockDownload):
+        if not data.response_ok:
+            return
+
         data_frame = data.data_frame
         symbol = data.stock_param.symbol
     else:
@@ -68,6 +71,9 @@ def save_exchanges(data: Union[pd.DataFrame, StockDownload]) -> List[dict]:
     if isinstance(data, StockDownload):
         # json object
         # {"exchangeCode":"AMS"}
+        if not data.response_ok:
+            return None
+
         data = data.data
 
     sheet = sheet_exists(
@@ -103,6 +109,9 @@ def save_companies(
         # json object
         # {"exchangeCode":"AMS","symbol":"AALB.AS","companyName":"AALBERTS NV",
         #  "industryOrCategory":"Industrials"}
+        if not data.response_ok:
+            return None
+
         data = data.data
 
     sheet = companies_sheet()
@@ -137,7 +146,8 @@ def save_companies(
 def save_stock_meta_data(
         symbol: str,
         currency: str = None,
-        name: str = None) -> List[dict]:
+        name: str = None,
+        meta: dict = None) -> List[dict]:
     """
     Save data for companies
 
@@ -145,6 +155,7 @@ def save_stock_meta_data(
         symbol (str): stock symbol
         currency (str, optional): stock currency. Default to None.
         name (str, optional): company name. Default to None.
+        meta (dict, optional): meta data. Default to None.
     """
     if not currency and not name:
         return  # nothing to do
@@ -190,6 +201,8 @@ def save_stock_meta_data(
         else:
             error_msg = f"Multiple '{symbol}' entries: data not saved"
     else:
+        # TODO save data to EFT (or other) sheet
+
         error_msg = f"Unable to find '{symbol}': data not saved"
 
     if error_msg:

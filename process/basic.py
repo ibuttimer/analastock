@@ -11,8 +11,8 @@ from stock import (
     Company, AnalysisRange, DATE_FORM, StockParam, DataMode, CompanyColumn
 )
 from sheets import (
-    save_stock_data, get_sheets_data, save_exchanges, save_companies, search_company,
-    check_partial
+    save_stock_data, get_sheets_data, save_exchanges, save_companies,
+    search_company, check_partial
 )
 from utils import (
     CloseMenuEntry, Menu, MenuEntry, info, error, ABORT, get_input, title,
@@ -240,9 +240,9 @@ def process_exchanges():
                         validate=valid_pause, help_text=PAUSE_HELP)
         save_sample = user_confirm('Save as sample data', help_text=SAMPLE_HELP)
 
-        exchanges = save_exchanges(
-            download_exchanges(data_mode=data_mode)
-        )
+        exchanges = download_exchanges(data_mode=data_mode)
+        exchanges = save_exchanges(exchanges) \
+            if exchanges.response_ok else None
 
         if exchanges:
             for i, exchange in enumerate(exchanges):
@@ -256,17 +256,18 @@ def process_exchanges():
                 info(f"{i+ 1}/{len(exchanges)}: Processing {code}")
 
                 companies_data = download_companies(code, data_mode=data_mode)
+                if companies_data.response_ok:
 
-                companies_list = save_companies(
-                                    companies_data, clear_sheet=clear_sheet)
-                clear_sheet = False
+                    companies_list = save_companies(
+                                        companies_data, clear_sheet=clear_sheet)
+                    clear_sheet = False
 
-                if save_sample:
-                    save_json_file(
-                        sample_exchange_path(code), companies_list)
+                    if save_sample and companies_list:
+                        save_json_file(
+                            sample_exchange_path(code), companies_list)
 
-                if pause:
-                    time.sleep(pause)
+                    if pause:
+                        time.sleep(pause)
 
 
 def company_name_search() -> bool:

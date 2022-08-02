@@ -4,7 +4,8 @@ Download related functions
 import json
 
 from utils import (
-    info, load_json_file, sample_exchange_path, sample_exchanges_path
+    info, error, load_json_file, load_json_string,
+    sample_exchange_path, sample_exchanges_path
 )
 
 from .enums import DataMode
@@ -33,23 +34,30 @@ def download_exchanges(data_mode: DataMode = DataMode.LIVE) -> StockDownload:
         f'{"*sample* " if data_mode == DataMode.SAMPLE else ""}data')
 
     data = None
+    status_code = StockDownload.NO_RESPONSE
     if data_mode == DataMode.LIVE:
         response = rapid_get(RAPID_YAHOO_EXCHANGES_URL, headers=HEADER)
 
-        if response:
-            # data in form
-            # '{"total":76,
-            # "offset":0,
-            # "results":[{"exchangeCode":"AMS"}, ...],
-            # "responseStatus":null}'
-            data = json.loads(response.text)
+        if response is not None:
+            status_code = response.status_code
 
-        # TODO non-200 handling
+            if response.status_code == 200:
+                # data in form
+                # '{"total":76,
+                # "offset":0,
+                # "results":[{"exchangeCode":"AMS"}, ...],
+                # "responseStatus":null}'
+                data = load_json_string(response.text)
+            else:
+                error(f"Exchange data currently unavailable "\
+                      f"[{response.status_code}]")
+
     else:
+        status_code = 200
         data = load_json_file(
                     sample_exchanges_path())
 
-    return StockDownload.download_of(data)
+    return StockDownload.download_of(data, status_code)
 
 
 def download_companies(
@@ -70,23 +78,29 @@ def download_companies(
         f'company data for {exchange}')
 
     data = None
+    status_code = StockDownload.NO_RESPONSE
     if data_mode == DataMode.LIVE:
         response = rapid_get(RAPID_YAHOO_COMPANIES_URL, headers=HEADER,
                         params={ "ExchangeCode": exchange })
 
-        if response:
-            # data in form
-            # '{"total":140,
-            #   "offset":0,
-            #   "results":[{"exchangeCode":"AMS","symbol":"AALB.AS",
-            #               "companyName":"AALBERTS NV",
-            #               "industryOrCategory":"Industrials"}, ...],
-            #   "responseStatus":null}'
-            data = json.loads(response.text)
+        if response is not None:
+            status_code = response.status_code
 
-        # TODO non-200 handling
+            if response.status_code == 200:
+                # data in form
+                # '{"total":140,
+                #   "offset":0,
+                #   "results":[{"exchangeCode":"AMS","symbol":"AALB.AS",
+                #               "companyName":"AALBERTS NV",
+                #               "industryOrCategory":"Industrials"}, ...],
+                #   "responseStatus":null}'
+                data = load_json_string(response.text)
+            else:
+                error(f"No data found for exchange '{exchange}' "\
+                      f"[{response.status_code}]")
     else:
+        status_code = 200
         data = load_json_file(
                     sample_exchange_path(exchange))
 
-    return StockDownload.download_of(data)
+    return StockDownload.download_of(data, status_code)

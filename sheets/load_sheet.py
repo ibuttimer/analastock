@@ -11,7 +11,8 @@ from stock import CompanyColumn
 from utils import (
     get_env_setting, error, wrapped_get,
     DEFAULT_GOOGLE_CREDS_FILE, DEFAULT_GOOGLE_CREDS_PATH,
-    GOOGLE_CREDS_FILE_ENV, GOOGLE_CREDS_PATH_ENV, COMPANIES_SHEET
+    GOOGLE_CREDS_FILE_ENV, GOOGLE_CREDS_PATH_ENV, COMPANIES_SHEET,
+    EFT_SHEET
 )
 
 DEFAULT_ROWS = 1000
@@ -161,3 +162,13 @@ def companies_sheet() -> Worksheet:
         Worksheet: companies worksheet
     """
     return sheet_exists(COMPANIES_SHEET, create=True, cols=len(CompanyColumn))
+
+
+def eft_sheet() -> Worksheet:
+    """
+    Get the Exchange Traded Fund worksheet
+
+    Returns:
+        Worksheet: Exchange Traded Fund worksheet
+    """
+    return sheet_exists(EFT_SHEET, create=True, cols=len(CompanyColumn))

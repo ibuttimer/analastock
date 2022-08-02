@@ -179,3 +179,5 @@ class DataMode(Enum):
     """ Live data from data sources """
     SAMPLE = auto()
     """ Sample data from file """
+    LIVE_SAVE_SAMPLE = auto()
+    """ Live data from data sources and save to file as sample data """

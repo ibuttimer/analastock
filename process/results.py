@@ -3,7 +3,9 @@ Processing results display functions
 """
 
 from typing import List
-from stock import DfStat, DfColumn, CompanyColumn, download_meta_data
+from stock import (
+    DfStat, DfColumn, CompanyColumn, DataMode, download_meta_data
+)
 from sheets import search_company, save_stock_meta_data
 from utils import MAX_LINE_LEN, convert_date_time, DateFormat, drill_dict
 from .grid import DGrid, DCell, DRow, FORMAT_WIDTH_MARK, Marker
@@ -289,8 +291,11 @@ def check_meta(results: dict):
 
         if not meta[NAME] or not meta[CURRENCY]:
             # get info from meta data api
+
+            # TODO add data_mode to all elements in flow
+
             meta_data = download_meta_data(meta[SYMBOL])
-            if meta_data:
+            if meta_data and meta_data.response_ok:
                 meta_name = drill_dict(
                     meta_data.data, 'result', 'shortName')
                 if meta_name:
@@ -310,7 +315,8 @@ def check_meta(results: dict):
                             meta_data.data, 'result', CURRENCY)
 
                 save_stock_meta_data(
-                    meta[SYMBOL], meta[CURRENCY], name=meta_name)
+                    meta[SYMBOL], meta[CURRENCY], name=meta_name,
+                    meta=drill_dict(meta_data.data, 'result'))
 
     else:
         meta[SYMBOL] = 'n/a'

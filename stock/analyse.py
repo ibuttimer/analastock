@@ -448,6 +448,9 @@ def analyse_stock(
         }
     """
     if isinstance(data_frame, StockDownload):
+        if not data_frame.response_ok:
+            return None
+
         # take analysis info from data class
         analyse = data_frame.data_frame
         from_date = data_frame.stock_param.from_date

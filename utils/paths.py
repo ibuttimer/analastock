@@ -7,6 +7,7 @@ from .misc import get_env_setting
 
 SAMPLE_EXCHANGES_DATA = 'sample_exchanges.json'
 SAMPLE_COMPANY_DATA = 'sample_{exchange}_exchange.json'
+SAMPLE_META_DATA = 'sample_meta_{symbol}.json'
 
 
 def file_path(*args) -> str:
@@ -36,7 +37,7 @@ def sample_exchanges_path() -> str:
 
 def sample_exchange_path(exchange: str) -> str:
     """
-    Get the path to the sample file for ``exchange``
+    Get the path to the sample companies file for ``exchange``
 
     Args:
         exchange (str): exchange code
@@ -47,4 +48,19 @@ def sample_exchange_path(exchange: str) -> str:
     return file_path(
                 get_env_setting('DATA_PATH', DEFAULT_DATA_PATH),
                 SAMPLE_COMPANY_DATA.format(exchange=exchange)
+            )
+
+def sample_meta_path(symbol: str) -> str:
+    """
+    Get the path to the sample meta-data file for ``symbol``
+
+    Args:
+        symbol (str): symbol code
+
+    Returns:
+        str: path to file
+    """
+    return file_path(
+                get_env_setting('DATA_PATH', DEFAULT_DATA_PATH),
+                SAMPLE_META_DATA.format(symbol=symbol)
             )

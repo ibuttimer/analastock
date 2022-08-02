@@ -45,6 +45,9 @@ EXCHANGES_SHEET = 'exchanges'
 COMPANIES_SHEET = 'companies'
 """ Name of sheet for companies data """
 
+EFT_SHEET = 'eft'
+""" Name of sheet for Exchange Traded Fund data """
+
 # command keys
 PAGE_UP = '+'
 PAGE_DOWN = '-'
