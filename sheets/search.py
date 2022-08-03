@@ -10,28 +10,29 @@ from stock import CompanyColumn, Company
 from utils import Pagination
 
 from .find_info import find_all
-from .load_sheet import companies_sheet
+from .load_sheet import (
+    companies_sheet, eft_sheet, mutual_sheet, future_sheet, index_sheet
+)
 from .utils import cells_range
 
 
-def get_companies(
+DEFAULT_PAGE_SIZE = 10
+
+
+def get_entities(
         ranges: List[str],
-        sheet: Worksheet = None,
+        sheet: Worksheet
 ) -> List[Company]:
     """
-    Return companies from ranges list
+    Return entities from ranges list
 
     Args:
         ranges (List[str]): list of ranges
-        sheet (gspread.worksheet.Worksheet, optional):
-                worksheet to read. Default to None
+        sheet (gspread.worksheet.Worksheet): worksheet to read
 
     Returns:
         List[Company]
     """
-    if not sheet:
-        sheet = companies_sheet()
-
     results = []
 
     if sheet:
@@ -44,34 +45,31 @@ def get_companies(
 
     return results
 
-def search_company(
+
+def search_meta(
             criteria: str,
             col: CompanyColumn,
-            sheet: Worksheet = None,
-            page_size: int = 10,
+            sheet: Worksheet,
+            page_size: int = DEFAULT_PAGE_SIZE,
             exact_match: bool = False
         ) -> Union[Pagination, None]:
     """
-    Return all companies with values matching the specified criteria.
+    Return all entities with values matching the specified criteria.
 
     Results are return as a Pagination of the sheet ranges with the data,
     and the Pagination::transform_func function retrieves the actual
-    company data as required.
+    data as required.
 
     Args:
-        criteria (str): company value or part of value to match
+        criteria (str): value or part of value to match
         col (CompanyColumn): column to search
-        sheet (gspread.worksheet.Worksheet, optional):
-                worksheet to read. Default to None
+        sheet (gspread.worksheet.Worksheet): worksheet to read
         page_size (int, optional): pagination page size. Defaults to 10.
         exact_match (bool, optional): exact match. Default to False.
 
     Returns:
         Pagination: paginated results or None of not found
     """
-    if not sheet:
-        sheet = companies_sheet()
-
     pagination = None
 
     if sheet:
@@ -93,10 +91,194 @@ def search_company(
                     for cell in matches
             ]
 
-            def get_page_companies(ranges: List[str]):
-                return get_companies(ranges, sheet=sheet)
+            def get_page(ranges: List[str]):
+                return get_entities(ranges, sheet)
 
             pagination = Pagination(
-                ranges, page_size=page_size, transform_func=get_page_companies)
+                ranges, page_size=page_size, transform_func=get_page)
+
+    return pagination
+
+
+def search_company(
+            criteria: str,
+            col: CompanyColumn,
+            sheet: Worksheet = None,
+            page_size: int = DEFAULT_PAGE_SIZE,
+            exact_match: bool = False
+        ) -> Union[Pagination, None]:
+    """
+    Return all companies with values matching the specified criteria.
+
+    Results are return as a Pagination of the sheet ranges with the data,
+    and the Pagination::transform_func function retrieves the actual
+    data as required.
+
+    Args:
+        criteria (str): value or part of value to match
+        col (CompanyColumn): column to search
+        sheet (gspread.worksheet.Worksheet, optional):
+                worksheet to read. Default to None
+        page_size (int, optional): pagination page size. Defaults to 10.
+        exact_match (bool, optional): exact match. Default to False.
+
+    Returns:
+        Pagination: paginated results or None of not found
+    """
+    return search_meta(
+            criteria, col, sheet if sheet else companies_sheet(),
+            page_size=page_size, exact_match=exact_match)
+
+def search_eft(
+            criteria: str,
+            col: CompanyColumn,
+            sheet: Worksheet = None,
+            page_size: int = DEFAULT_PAGE_SIZE,
+            exact_match: bool = False
+        ) -> Union[Pagination, None]:
+    """
+    Return all EFT with values matching the specified criteria.
+
+    Results are return as a Pagination of the sheet ranges with the data,
+    and the Pagination::transform_func function retrieves the actual
+    data as required.
+
+    Args:
+        criteria (str): value or part of value to match
+        col (CompanyColumn): column to search
+        sheet (gspread.worksheet.Worksheet, optional):
+                worksheet to read. Default to None
+        page_size (int, optional): pagination page size. Defaults to 10.
+        exact_match (bool, optional): exact match. Default to False.
+
+    Returns:
+        Pagination: paginated results or None of not found
+    """
+    return search_meta(
+            criteria, col, sheet if sheet else eft_sheet(),
+            page_size=page_size, exact_match=exact_match)
+
+
+def search_mutual(
+            criteria: str,
+            col: CompanyColumn,
+            sheet: Worksheet = None,
+            page_size: int = DEFAULT_PAGE_SIZE,
+            exact_match: bool = False
+        ) -> Union[Pagination, None]:
+    """
+    Return all Mutual Funds with values matching the specified criteria.
+
+    Results are return as a Pagination of the sheet ranges with the data,
+    and the Pagination::transform_func function retrieves the actual
+    data as required.
+
+    Args:
+        criteria (str): value or part of value to match
+        col (CompanyColumn): column to search
+        sheet (gspread.worksheet.Worksheet, optional):
+                worksheet to read. Default to None
+        page_size (int, optional): pagination page size. Defaults to 10.
+        exact_match (bool, optional): exact match. Default to False.
+
+    Returns:
+        Pagination: paginated results or None of not found
+    """
+    return search_meta(
+            criteria, col, sheet if sheet else mutual_sheet(),
+            page_size=page_size, exact_match=exact_match)
+
+
+def search_future(
+            criteria: str,
+            col: CompanyColumn,
+            sheet: Worksheet = None,
+            page_size: int = DEFAULT_PAGE_SIZE,
+            exact_match: bool = False
+        ) -> Union[Pagination, None]:
+    """
+    Return all Futures with values matching the specified criteria.
+
+    Results are return as a Pagination of the sheet ranges with the data,
+    and the Pagination::transform_func function retrieves the actual
+    data as required.
+
+    Args:
+        criteria (str): value or part of value to match
+        col (CompanyColumn): column to search
+        sheet (gspread.worksheet.Worksheet, optional):
+                worksheet to read. Default to None
+        page_size (int, optional): pagination page size. Defaults to 10.
+        exact_match (bool, optional): exact match. Default to False.
+
+    Returns:
+        Pagination: paginated results or None of not found
+    """
+    return search_meta(
+            criteria, col, sheet if sheet else future_sheet(),
+            page_size=page_size, exact_match=exact_match)
+
+
+def search_index(
+            criteria: str,
+            col: CompanyColumn,
+            sheet: Worksheet = None,
+            page_size: int = DEFAULT_PAGE_SIZE,
+            exact_match: bool = False
+        ) -> Union[Pagination, None]:
+    """
+    Return all Indices with values matching the specified criteria.
+
+    Results are return as a Pagination of the sheet ranges with the data,
+    and the Pagination::transform_func function retrieves the actual
+    data as required.
+
+    Args:
+        criteria (str): value or part of value to match
+        col (CompanyColumn): column to search
+        sheet (gspread.worksheet.Worksheet, optional):
+                worksheet to read. Default to None
+        page_size (int, optional): pagination page size. Defaults to 10.
+        exact_match (bool, optional): exact match. Default to False.
+
+    Returns:
+        Pagination: paginated results or None of not found
+    """
+    return search_meta(
+            criteria, col, sheet if sheet else index_sheet(),
+            page_size=page_size, exact_match=exact_match)
+
+
+def search_all(
+            criteria: str,
+            col: CompanyColumn,
+            page_size: int = DEFAULT_PAGE_SIZE,
+            exact_match: bool = False
+        ) -> Union[Pagination, None]:
+    """
+    Return all entities with values matching the specified criteria.
+
+    Results are return as a Pagination of the sheet ranges with the data,
+    and the Pagination::transform_func function retrieves the actual
+    data as required.
+
+    Args:
+        criteria (str): value or part of value to match
+        col (CompanyColumn): column to search
+        page_size (int, optional): pagination page size. Defaults to 10.
+        exact_match (bool, optional): exact match. Default to False.
+
+    Returns:
+        Pagination: paginated results or None of not found
+    """
+    pagination = None
+
+    for func in [
+            search_company, search_eft, search_mutual, search_future,
+            search_index]:
+        pagination = func(
+            criteria, col, page_size=page_size, exact_match=exact_match)
+        if pagination is not None:
+            break
 
     return pagination

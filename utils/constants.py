@@ -39,6 +39,9 @@ Note: if a relative path is specified, it must be relative to the
       project root folder.
 """
 
+META_DATA_FOLDER = "meta"
+""" Folder under data path where meta-data samples are stored """
+
 EXCHANGES_SHEET = 'exchanges'
 """ Name of sheet for exchanges data """
 
@@ -47,6 +50,15 @@ COMPANIES_SHEET = 'companies'
 
 EFT_SHEET = 'eft'
 """ Name of sheet for Exchange Traded Fund data """
+
+MUTUAL_SHEET = 'mutual'
+""" Name of sheet for Mutual Fund data """
+
+FUTURES_SHEET = 'futures'
+""" Name of sheet for Futures data """
+
+INDEX_SHEET = 'index'
+""" Name of sheet for Index data """
 
 # command keys
 PAGE_UP = '+'

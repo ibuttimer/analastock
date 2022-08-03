@@ -6,7 +6,7 @@ from typing import List
 from stock import (
     DfStat, DfColumn, CompanyColumn, DataMode, download_meta_data
 )
-from sheets import search_company, save_stock_meta_data
+from sheets import search_all, save_stock_meta_data
 from utils import MAX_LINE_LEN, convert_date_time, DateFormat, drill_dict
 from .grid import DGrid, DCell, DRow, FORMAT_WIDTH_MARK, Marker
 
@@ -278,45 +278,48 @@ def check_meta(results: dict):
     }
     meta[SYMBOL] = drill_dict(results, SYMBOL)
     if meta[SYMBOL]:
-        company = search_company(
+        pg_entity = search_all(
                     meta[SYMBOL], CompanyColumn.SYMBOL, exact_match=True)
-        if company:
+        if pg_entity:
             # have info in sheets
-            assert company.num_items == 1, \
-                f"{meta[SYMBOL]} symbol error; {company.num_items} results"
+            assert pg_entity.num_items == 1, \
+                f"{meta[SYMBOL]} symbol error; {pg_entity.num_items} results"
 
-            company_info = company.get_current_page()[0]
+            entity_info = pg_entity.get_current_page()[0]
             for key in NAME_CURRENCY:
-                meta[key] = getattr(company_info, key)
+                meta[key] = getattr(entity_info, key)
 
         if not meta[NAME] or not meta[CURRENCY]:
             # get info from meta data api
 
             # TODO add data_mode to all elements in flow
 
-            meta_data = download_meta_data(meta[SYMBOL])
+            meta_data = download_meta_data(meta[SYMBOL],
+                                        data_mode=DataMode.LIVE_SAVE_SAMPLE
+                                        # data_mode=DataMode.SAMPLE
+                                        )
             if meta_data and meta_data.response_ok:
-                meta_name = drill_dict(
-                    meta_data.data, 'result', 'shortName')
+                meta_name = drill_dict(meta_data.data, 'shortName')
                 if meta_name:
                     if meta_name != meta[NAME]:
                         # according to API docs, the 'Companies By Exchange'
                         # endpoint is 'Manually Populated List Of Common Stocks
                         # Per Exchange Code. Not Guaranteed To Be Up To Date'
                         # so use 'Live Stock Metadata' endpoint which is the
-                        # 'real time metadata'
+                        # 'real time metadata',
+                        # and for other entities 'real time metadata' is the
+                        # only source
                         meta[NAME] = meta_name
                     else:
                         meta_name = None    # don't save
 
                 if not meta[CURRENCY]:
                     # extract currency
-                    meta[CURRENCY] = drill_dict(
-                            meta_data.data, 'result', CURRENCY)
+                    meta[CURRENCY] = drill_dict(meta_data.data, CURRENCY)
 
                 save_stock_meta_data(
                     meta[SYMBOL], meta[CURRENCY], name=meta_name,
-                    meta=drill_dict(meta_data.data, 'result'))
+                    meta=meta_data.data)
 
     else:
         meta[SYMBOL] = 'n/a'

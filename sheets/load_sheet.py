@@ -12,7 +12,7 @@ from utils import (
     get_env_setting, error, wrapped_get,
     DEFAULT_GOOGLE_CREDS_FILE, DEFAULT_GOOGLE_CREDS_PATH,
     GOOGLE_CREDS_FILE_ENV, GOOGLE_CREDS_PATH_ENV, COMPANIES_SHEET,
-    EFT_SHEET
+    EFT_SHEET, MUTUAL_SHEET, FUTURES_SHEET, INDEX_SHEET
 )
 
 DEFAULT_ROWS = 1000
@@ -154,6 +154,19 @@ def add_sheet(
     return worksheet
 
 
+def stock_type_sheet(name: str) -> Worksheet:
+    """
+    Get a stock type worksheet
+
+    Args:
+        name (str): stock type
+
+    Returns:
+        Worksheet: worksheet
+    """
+    return sheet_exists(name, create=True, cols=len(CompanyColumn))
+
+
 def companies_sheet() -> Worksheet:
     """
     Get the companies worksheet
@@ -161,7 +174,7 @@ def companies_sheet() -> Worksheet:
     Returns:
         Worksheet: companies worksheet
     """
-    return sheet_exists(COMPANIES_SHEET, create=True, cols=len(CompanyColumn))
+    return stock_type_sheet(COMPANIES_SHEET)
 
 
 def eft_sheet() -> Worksheet:
@@ -171,4 +184,34 @@ def eft_sheet() -> Worksheet:
     Returns:
         Worksheet: Exchange Traded Fund worksheet
     """
-    return sheet_exists(EFT_SHEET, create=True, cols=len(CompanyColumn))
+    return stock_type_sheet(EFT_SHEET)
+
+
+def mutual_sheet() -> Worksheet:
+    """
+    Get the Mutual Fund worksheet
+
+    Returns:
+        Worksheet: Mutual Fund worksheet
+    """
+    return stock_type_sheet(MUTUAL_SHEET)
+
+
+def future_sheet() -> Worksheet:
+    """
+    Get the Futures worksheet
+
+    Returns:
+        Worksheet: Futures worksheet
+    """
+    return stock_type_sheet(FUTURES_SHEET)
+
+
+def index_sheet() -> Worksheet:
+    """
+    Get the Indices worksheet
+
+    Returns:
+        Worksheet: Indices worksheet
+    """
+    return stock_type_sheet(INDEX_SHEET)

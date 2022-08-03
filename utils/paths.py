@@ -2,7 +2,7 @@
 Functions related to file paths
 """
 import os
-from .constants import DEFAULT_DATA_PATH
+from .constants import DEFAULT_DATA_PATH, META_DATA_FOLDER
 from .misc import get_env_setting
 
 SAMPLE_EXCHANGES_DATA = 'sample_exchanges.json'
@@ -62,5 +62,6 @@ def sample_meta_path(symbol: str) -> str:
     """
     return file_path(
                 get_env_setting('DATA_PATH', DEFAULT_DATA_PATH),
+                META_DATA_FOLDER,
                 SAMPLE_META_DATA.format(symbol=symbol)
             )

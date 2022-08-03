@@ -2,7 +2,8 @@
 Download related functions
 """
 from utils import (
-    info, error, load_json_string, save_json_file, sample_meta_path
+    info, error, load_json_string, load_json_file, save_json_file,
+    sample_meta_path
 )
 
 from .enums import DataMode
@@ -54,17 +55,20 @@ def download_meta_data(
                 #       ...}
                 #   ...}
                 data = load_json_string(response.text)
+                if data is not None:
+                    data = data['result']
 
-                if data_mode == DataMode.LIVE_SAVE_SAMPLE:
-                    save_json_file(
-                        sample_meta_path(symbol), data['result'])
+                    if data_mode == DataMode.LIVE_SAVE_SAMPLE:
+                        save_json_file(
+                            sample_meta_path(symbol), data)
 
             else:
                 # api return status_code 500
-                error(f"No data found for symbol '{symbol}' "\
+                error(f"No meta data found for symbol '{symbol}' "\
                       f"[{response.status_code}]")
-    # else:
-    #     data = load_json_file(
-    #                 sample_exchanges_path())
+    else:
+        status_code = 200
+        data = load_json_file(
+                        sample_meta_path(symbol))
 
     return StockDownload.download_of(data, status_code)

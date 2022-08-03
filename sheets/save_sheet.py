@@ -7,9 +7,13 @@ from gspread.utils import a1_range_to_grid_range
 from stock import (
     StockParam, DfColumn, StockDownload, CompanyColumn, ExchangeColumn
 )
-from utils import info, error, EXCHANGES_SHEET
-from .load_sheet import sheet_exists, companies_sheet
-from .search import search_company
+from stock.data import Company
+from utils import info, error, EXCHANGES_SHEET, drill_dict
+from .load_sheet import (
+    sheet_exists, companies_sheet, eft_sheet, mutual_sheet, future_sheet,
+    index_sheet
+)
+from .search import search_meta
 from .utils import updated_range, updated_rows, cells_range
 
 
@@ -163,19 +167,38 @@ def save_stock_meta_data(
     sheet = companies_sheet()
     error_msg = None
 
-    pg_result = search_company(
-        symbol.upper(), CompanyColumn.SYMBOL, sheet=sheet, exact_match=True
+    # determine stock type
+    quote_type = meta["quoteType"].upper() if meta else "EQUITY"
+    if quote_type == "ETF":
+        # Exchange Traded Fund
+        sheet = eft_sheet()
+    elif quote_type == "MUTUALFUND":
+        # Mutual Fund
+        sheet = mutual_sheet()
+    elif quote_type == "FUTURE":
+        # Futures
+        sheet = future_sheet()
+    elif quote_type == "INDEX":
+        # Index
+        sheet = index_sheet()
+    else:
+        # default equity
+        sheet = companies_sheet()
+
+    # attempt to find symbol on entity page
+    pg_result = search_meta(
+        symbol.upper(), CompanyColumn.SYMBOL, sheet, exact_match=True
     )
     if pg_result and pg_result.num_items >= 1:
         if pg_result.num_items == 1:
-            # get company data range, e.g. 'A1:E1'
-            company = pg_result.get_current_page(transform=False)
-            assert len(company) == 1
+            # get data range, e.g. 'A1:E1'
+            page = pg_result.get_current_page(transform=False)
+            assert len(page) == 1
             # Note: all indexes are zero-based
             # {'startRowIndex': 0, 'endRowIndex': 1, 'startColumnIndex': 0,
             #   'endColumnIndex': 1}
-            company_row = \
-                a1_range_to_grid_range(company[0])['startRowIndex'] + 1
+            entity_row = \
+                a1_range_to_grid_range(page[0])['startRowIndex'] + 1
 
             updates = []
 
@@ -192,8 +215,8 @@ def save_stock_meta_data(
                 sheet.batch_update([
                     range_update(
                         cells_range(
-                            company_row, col,
-                            company_row, col
+                            entity_row, col,
+                            entity_row, col
                         ), value
                     ) for col, value in updates
                 ], value_input_option='RAW')
@@ -201,9 +224,14 @@ def save_stock_meta_data(
         else:
             error_msg = f"Multiple '{symbol}' entries: data not saved"
     else:
-        # TODO save data to EFT (or other) sheet
+        # add the meta data to the sheet
+        values = Company.company_of(
+                drill_dict(meta, "exchange"), symbol,
+                drill_dict(meta, "shortName"), None,
+                drill_dict(meta, "currency")
+            ).unpack()
 
-        error_msg = f"Unable to find '{symbol}': data not saved"
+        sheet.append_row(values, value_input_option='RAW')
 
     if error_msg:
         error(error_msg)

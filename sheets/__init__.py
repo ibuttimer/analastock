@@ -7,7 +7,10 @@ from .save_sheet import (
 )
 from .find_info import find, find_all, read_data_by_date
 from .load_data import get_sheets_data, check_partial
-from .search import search_company
+from .search import (
+    search_company, search_eft, search_mutual, search_future, search_index,
+    search_all, search_meta
+)
 
 __all__ = [
     'open_spreadsheet',
@@ -26,5 +29,11 @@ __all__ = [
     'get_sheets_data',
     'check_partial',
 
-    'search_company'
+    'search_company',
+    'search_eft',
+    'search_mutual',
+    'search_future',
+    'search_index',
+    'search_all',
+    'search_meta'
 ]

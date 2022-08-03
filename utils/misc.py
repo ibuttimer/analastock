@@ -5,6 +5,7 @@ from calendar import isleap
 from datetime import date, datetime, time
 import json
 import os
+from pathlib import Path
 from typing import Any, Union
 from enum import Enum, auto
 
@@ -113,6 +114,10 @@ def save_json_file(filepath: str, data: object):
         filepath (str): path to file
         data (object): json data
     """
+    path, _ = os.path.split(filepath)
+    path = Path(path)
+    if not path.exists():
+        path.mkdir(parents=True, exist_ok=True)
     try:
         with open(filepath, mode='w', encoding='utf-8') as file_handle:
             json.dump(data, file_handle, indent=4)

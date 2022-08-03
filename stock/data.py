@@ -7,7 +7,7 @@ from typing import List, Union
 import numpy as np
 import pandas as pd
 
-from .enums import DfColumn
+from .enums import DfColumn, CompanyColumn
 
 
 @dataclasses.dataclass
@@ -264,6 +264,33 @@ class Company:
             Company: new object
         """
         return Company(code, symbol, name, sector, currency)
+
+
+    def get_column(self, col: CompanyColumn) -> str:
+        """
+        Get the value corresponding to the specified CompanyColumn
+
+        Args:
+            col (CompanyColumn): value to get
+
+        Returns:
+            str: value
+        """
+        return self.code if col == CompanyColumn.EXCHANGE else \
+                self.symbol if col == CompanyColumn.SYMBOL else \
+                self.name if col == CompanyColumn.NAME else \
+                self.sector if col == CompanyColumn.SECTOR else \
+                self.currency if col == CompanyColumn.CURRENCY else None
+
+
+    def unpack(self) -> List[str]:
+        """
+        Unpack this object to a list suitable for saving to sheets
+
+        Returns:
+            List[str]: unpacked values
+        """
+        return [self.get_column(col) for col in CompanyColumn]
 
 
     def __str__(self) -> str:
