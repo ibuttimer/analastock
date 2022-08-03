@@ -9,6 +9,8 @@ import pandas as pd
 from stock import DfColumn
 from utils import filter_data_frame_by_date
 
+from .spread_ops import sheet_find, sheet_findall, sheet_get_values
+
 
 def find(
         sheet: gspread.worksheet.Worksheet,
@@ -35,7 +37,7 @@ def find(
     """
     # https://docs.gspread.org/en/v5.4.0/api/models/worksheet.html#gspread.worksheet.Worksheet.find
 
-    return sheet.find(
+    return sheet_find(sheet,
         query, in_row=row, in_column=col, case_sensitive=case_sensitive)
 
 
@@ -65,7 +67,7 @@ def find_all(
 
     # https://docs.gspread.org/en/v5.4.0/api/models/worksheet.html#gspread.worksheet.Worksheet.findall
 
-    return sheet.findall(
+    return sheet_findall(sheet,
         query, in_row=row, in_column=col, case_sensitive=case_sensitive)
 
 
@@ -95,9 +97,10 @@ def read_data_by_date(
     # https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.from_records.html
     # Data can be provided as a list of dicts
     list_of_dicts = [
+        # TODO more performant option that sheet.get_values?
         {
             title: line[col] for col, title in enumerate(DfColumn.titles())
-        } for line in sheet.get_all_values()
+        } for line in sheet_get_values(sheet)
     ]
     data_frame = pd.DataFrame(list_of_dicts, columns=DfColumn.titles())
 

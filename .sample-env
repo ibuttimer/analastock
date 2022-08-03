@@ -51,3 +51,9 @@ SPREADSHEET_NAME="AnalaStock"
 # path to data files folder; default './data'
 # Note: if a relative path is specified, it must be relative to the project root folder.
 DATA_PATH="./data"
+
+# Google Sheets API: Read requests per minute per user; default 60
+READ_QUOTA=60
+
+# Google Sheets API: Write requests per minute per user; default 60
+WRITE_QUOTA=60

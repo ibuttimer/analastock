@@ -8,6 +8,7 @@ from collections import namedtuple
 import gspread
 
 from sheets import find, find_all, read_data_by_date
+from sheets.spread_ops import sheet_append_row
 from stock import DfColumn, round_price
 from utils import last_day_of_month
 
@@ -32,7 +33,7 @@ class TestFind(TestBase):
         """
         worksheet_name = 'find-worksheet'
 
-        sheet = self.add_sheet(worksheet_name)
+        sheet = self.add_sheet(worksheet_name, del_if_exists=True)
 
         # add data
         expected = Expected(1, 2, 2, 'find-me')
@@ -40,7 +41,7 @@ class TestFind(TestBase):
             ['not-here', 'nor-here', 'nope'],
             ['not-me', expected.value, 'nor-me']
         ]:
-            result = sheet.append_row(data)
+            result = sheet_append_row(sheet, data)
             self.assertIsNotNone(result)
             self.assertTrue('updates' in result)
             self.assertEqual(result['updates']['updatedCells'], len(data))
@@ -60,12 +61,14 @@ class TestFind(TestBase):
                 self.assert_cell(cell, expected)
 
         # check find in wrong row
-        self.assertGreater(expected.row, 1) # expected positions must be greater than 1
+        # expected positions must be greater than 1
+        self.assertGreater(expected.row, 1)
         cell = find(sheet, expected.value, row=expected.row - 1)
         self.assertIsNone(cell)
 
         # check find in wrong col
-        self.assertGreater(expected.col, 1) # expected positions must be greater than 1
+         # expected positions must be greater than 1
+        self.assertGreater(expected.col, 1)
         cell = find(sheet, expected.value, col=expected.col - 1)
         self.assertIsNone(cell)
 
@@ -108,7 +111,7 @@ class TestFind(TestBase):
             ['not-me', expected_results[1].value, 'nor-me'],
             ['not-me', 'nor-me', expected_results[2].value]
         ]:
-            result = sheet.append_row(data)
+            result = sheet_append_row(sheet, data)
             self.assertIsNotNone(result)
             self.assertTrue('updates' in result)
             self.assertEqual(result['updates']['updatedCells'], len(data))
@@ -139,12 +142,14 @@ class TestFind(TestBase):
 
         # check find in wrong row
         not_expected = expected_results[1]
-        self.assertGreater(not_expected.row, 1) # expected positions must be greater than 1
+        # expected positions must be greater than 1
+        self.assertGreater(not_expected.row, 1)
         cells = find_all(sheet, pattern, row=not_expected.row - 1)
         self.assertEqual(len(cells), 0)
 
         # # check find in wrong col
-        self.assertGreater(not_expected.col, 1) # expected positions must be greater than 1
+        # expected positions must be greater than 1
+        self.assertGreater(not_expected.col, 1)
         cells = find_all(sheet, pattern, col=not_expected.col - 1)
         self.assertEqual(len(cells), 0)
 

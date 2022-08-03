@@ -14,6 +14,7 @@ from .load_sheet import (
     companies_sheet, eft_sheet, mutual_sheet, future_sheet, index_sheet
 )
 from .utils import cells_range
+from .spread_ops import sheet_batch_get
 
 
 DEFAULT_PAGE_SIZE = 10
@@ -40,7 +41,7 @@ def get_entities(
         results = [
             # unpack first entry in ValueRange as args for Company
             Company.company_of(*company[0]) \
-                for company in sheet.batch_get(ranges)
+                for company in sheet_batch_get(sheet, ranges)
         ]
 
     return results

@@ -6,13 +6,16 @@ from typing import Union
 import gspread
 
 from utils import last_day_of_month
+from sheets.spread_ops import sheet_append_rows
 
 
 JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC = \
     (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
 
 
-def add_month(date_time: Union[datetime, date], months: int = 1) -> Union[datetime, date]:
+def add_month(
+            date_time: Union[datetime, date],
+            months: int = 1) -> Union[datetime, date]:
     """
     Add a month to the specified date
 
@@ -30,7 +33,9 @@ def add_month(date_time: Union[datetime, date], months: int = 1) -> Union[dateti
 
     return new_date
 
-def calc_value(month: int, day: int, factor: Union[int, float]) -> Union[int, float]:
+def calc_value(
+            month: int, day: int,
+            factor: Union[int, float]) -> Union[int, float]:
     """
     Calculate a test value
 
@@ -162,4 +167,4 @@ def add_sheet_data(
                 ] for day in range(1, last_day_of_month(year, month) + 1)
             ])
 
-        sheet.append_rows(data, value_input_option='USER_ENTERED')
+        sheet_append_rows(sheet, data, value_input_option='USER_ENTERED')

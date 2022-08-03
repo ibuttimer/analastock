@@ -2,17 +2,15 @@
 Google Sheets related functions
 """
 from typing import Union
-import os
 import gspread
-from google.oauth2.service_account import Credentials
-import google.auth.exceptions
 from gspread.worksheet import Worksheet
 from stock import CompanyColumn
 from utils import (
-    get_env_setting, error, wrapped_get,
-    DEFAULT_GOOGLE_CREDS_FILE, DEFAULT_GOOGLE_CREDS_PATH,
-    GOOGLE_CREDS_FILE_ENV, GOOGLE_CREDS_PATH_ENV, COMPANIES_SHEET,
+    get_env_setting, wrapped_get, COMPANIES_SHEET,
     EFT_SHEET, MUTUAL_SHEET, FUTURES_SHEET, INDEX_SHEET
+)
+from .spread_ops import (
+    client_open_spreadsheet, spreadsheet_worksheets, spreadsheet_add_worksheet
 )
 
 DEFAULT_ROWS = 1000
@@ -20,24 +18,7 @@ DEFAULT_COLS = 26
 
 # https://docs.gspread.org/
 
-CREDENTIALS = Credentials.from_service_account_file(
-    os.path.abspath(
-        os.path.join(
-            get_env_setting(GOOGLE_CREDS_PATH_ENV, DEFAULT_GOOGLE_CREDS_PATH),
-            get_env_setting(GOOGLE_CREDS_FILE_ENV, DEFAULT_GOOGLE_CREDS_FILE),
-        )
-    )
-)
-SCOPED_CREDENTIALS = CREDENTIALS.with_scopes([
-    "https://www.googleapis.com/auth/spreadsheets",
-    "https://www.googleapis.com/auth/drive.file",
-    "https://www.googleapis.com/auth/drive"
-])
-GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDENTIALS)
 SPREADSHEETS = {}
-
-SHEETS_ERR_MSG = 'Google Sheets error, functionality unavailable\n'\
-                 'Please check the network connection'
 
 
 def open_spreadsheet(name: str) -> gspread.spreadsheet.Spreadsheet:
@@ -53,14 +34,9 @@ def open_spreadsheet(name: str) -> gspread.spreadsheet.Spreadsheet:
     Returns:
         gspread.spreadsheet.Spreadsheet: spreadsheet
     """
-    spreadsheet = None
-    try:
-        spreadsheet = GSPREAD_CLIENT.open(name)
+    spreadsheet = client_open_spreadsheet(name)
+    if spreadsheet:
         SPREADSHEETS[name] = spreadsheet
-    except gspread.exceptions.SpreadsheetNotFound as exc:
-        raise ValueError(f"Spreadsheet {name} not found") from exc
-    except google.auth.exceptions.GoogleAuthError:
-        error(SHEETS_ERR_MSG)
 
     return spreadsheet
 
@@ -106,7 +82,7 @@ def sheet_exists(
     if spreadsheet:
 
         def exists():
-            for sheet in spreadsheet.worksheets():
+            for sheet in spreadsheet_worksheets(spreadsheet):
                 if sheet.title == name:
                     worksheet = sheet
                     break
@@ -147,7 +123,7 @@ def add_sheet(
     if spreadsheet:
 
         def new_sheet():
-            return spreadsheet.add_worksheet(name, rows, cols)
+            return spreadsheet_add_worksheet(spreadsheet, name, rows, cols)
 
         worksheet = wrapped_get(new_sheet)
 

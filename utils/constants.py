@@ -70,3 +70,12 @@ MAX_LINE_LEN = 80
 """ Max display line width """
 
 FRIENDLY_DATE_FMT = '%d %b %Y'
+
+DEFAULT_READ_QUOTA = 60
+""" Google Sheets API: Read requests per minute per user """ 
+DEFAULT_WRITE_QUOTA = 60
+""" Google Sheets API: Write requests per minute per user """
+READ_QUOTA_ENV = 'READ_QUOTA'
+""" Google Sheets API: Read requests/minute/user environment variable """
+WRITE_QUOTA_ENV = 'WRITE_QUOTA'
+""" Google Sheets API: Write requests/minute/user environment variable """

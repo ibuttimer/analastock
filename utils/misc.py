@@ -16,7 +16,8 @@ from .output import error
 
 
 def get_env_setting(
-        key: str, default_value: Any = None, required: bool = False) -> Any:
+        key: str, default_value: Any = None,
+        required: bool = False) -> Union[str, Any]:
     """
     Get an environmental variable
 
@@ -27,7 +28,7 @@ def get_env_setting(
         required (bool): Required flag
 
     Returns:
-        Any: variable value
+        Union[str, Any]: variable value or ``default_value`` if not set
     """
     value = default_value
 

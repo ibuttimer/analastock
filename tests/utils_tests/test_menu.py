@@ -27,13 +27,15 @@ class TestMenu(unittest.TestCase):
         """
         menu: Menu = Menu(
             *[
-                MenuEntry(f'Option {i + 1}', self.empty_func) for i in range(Menu.DEFAULT_ROWS)
+                MenuEntry(f'Option {i + 1}', self.empty_func) \
+                    for i in range(Menu.DEFAULT_ROWS)
             ],
             menu_title='Test MultiPage'
         )
         self.assertEqual(menu.num_pages, 1)
 
-        menu.add_entry(MenuEntry(f'Option {Menu.DEFAULT_ROWS}', self.empty_func))
+        menu.add_entry(
+            MenuEntry(f'Option {Menu.DEFAULT_ROWS}', self.empty_func))
         self.assertEqual(menu.num_pages, 2)
 
 

@@ -1,23 +1,47 @@
 """
 Unit tests for sheet load functions
 """
+import os
 from typing import List, Tuple
-import unittest
+from unittest import TestCase, mock
 
 import gspread
 
 from sheets import open_spreadsheet, sheet_exists, add_sheet
+from sheets.spread_ops import spreadsheet_del_worksheet
 
 
 TEST_SPREADSHEET = 'AnalaStockTest'
 
 
-class TestBase(unittest.TestCase):
+class TestBase(TestCase):
     """
     Base class for sheets units tests
     """
 
+    @classmethod
+    def setUpClass(cls):
+        # https://adamj.eu/tech/2020/10/13/how-to-mock-environment-variables-with-pythons-unittest/
+        
+        # use LevelQuotaMgr for unit tests as RateQuotaMgr needs to be at
+        # about 50% to avoid Google Quota exceeded API errors
+        # TODO revisit quota managers
+        cls.env_patcher = mock.patch.dict(
+                    os.environ, {'QUOTA_MGR': 'LevelQuotaMgr'})
+        cls.env_patcher.start()
+
+        super().setUpClass()
+
+    @classmethod
+    def tearDownClass(cls):
+        super().tearDownClass()
+
+        cls.env_patcher.stop()
+
     def setUp(self):
+        super().setUp()
+        self.assertEqual(os.environ["QUOTA_MGR"], "LevelQuotaMgr")
+
         self.spreadsheet = open_spreadsheet(TEST_SPREADSHEET)
 
 
@@ -31,7 +55,7 @@ class TestBase(unittest.TestCase):
                                         sheets to delete
         """
         for name, sheet in sheets:
-            self.spreadsheet.del_worksheet(sheet)
+            spreadsheet_del_worksheet(self.spreadsheet, sheet)
             self.assertIsNone(
                 sheet_exists(name, spreadsheet=self.spreadsheet)
             )
@@ -49,15 +73,12 @@ class TestBase(unittest.TestCase):
         Returns:
             gspread.worksheet.Worksheet: worksheet
         """
+        self.assertIsNotNone(self.spreadsheet)
         if del_if_exists:
             sheet = sheet_exists(name, spreadsheet=self.spreadsheet)
             if sheet:
-                self.spreadsheet.del_worksheet(sheet)
-                self.assertIsNone(
-                    sheet_exists(name, spreadsheet=self.spreadsheet)
-                )
+                spreadsheet_del_worksheet(self.spreadsheet, sheet)
 
-        self.assertIsNotNone(self.spreadsheet)
         self.assertIsNone(
             sheet_exists(name, spreadsheet=self.spreadsheet)
         )

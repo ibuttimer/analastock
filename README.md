@@ -82,6 +82,8 @@ Create a file named `.env` in the project root folder, see [.sample-env](.sample
 | YAHOO_FINANCE_CREDS | [RapidAPI](https://rapidapi.com/) [YahooFinance Stocks](https://rapidapi.com/integraatio/api/yahoofinance-stocks1/) credentials |
 | YAHOO_FINANCE_CREDS_FILE | Name of name of [RapidAPI](https://rapidapi.com/) [YahooFinance Stocks](https://rapidapi.com/integraatio/api/yahoofinance-stocks1/) credentials file; default `yahoo_finance_creds.json` |
 | YAHOO_FINANCE_CREDS_PATH | Path to [RapidAPI](https://rapidapi.com/) [YahooFinance Stocks](https://rapidapi.com/integraatio/api/yahoofinance-stocks1/) credentials file; default `./`<br>__Note:__ must be relative to the project root folder |
+| READ_QUOTA | Google Sheets API: Read requests per minute per user quota; default 60 |
+| WRITE_QUOTA | Google Sheets API: Write requests per minute per user; default 60 |
 | DATA_PATH | Path to sample data folder; default `./data`<br>__Note:__ must be relative to the project root folder |
 | SPREADSHEET_NAME | Name of Google Sheets spreadsheet |
 
@@ -140,6 +142,8 @@ The following steps were followed to deploy the website:
       | YAHOO_FINANCE_CREDS | [RapidAPI](https://rapidapi.com/) [YahooFinance Stocks](https://rapidapi.com/integraatio/api/yahoofinance-stocks1/) credentials |
 
       See [Table 1: Configuration settings](#table-1-configuration-settings) for details.
+
+      If any other setting vary from the defaults outlined in [Table 1: Configuration settings](#table-1-configuration-settings) they must be added as well.
 
   - From the app settings, select the `Deploy` tab.
     - For the `Deployment method`, select `GitHub` and link the Heroku app to the GitHub repository.

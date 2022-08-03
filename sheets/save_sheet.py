@@ -15,6 +15,10 @@ from .load_sheet import (
 )
 from .search import search_meta
 from .utils import updated_range, updated_rows, cells_range
+from .spread_ops import (
+    sheet_append_row, sheet_append_rows, sheet_batch_update, sheet_clear,
+    sheet_batch_format
+)
 
 
 # https://docs.gspread.org/
@@ -57,7 +61,8 @@ def save_stock_data(
         #    '132.311874', '6206400'],
         #   ....
         # ]
-        result = sheet.append_rows(values, value_input_option='USER_ENTERED')
+        result = sheet_append_rows(
+                    sheet, values, value_input_option='USER_ENTERED')
 
         info(f'Saved {updated_rows(result)} records to {symbol}')
 
@@ -85,11 +90,12 @@ def save_exchanges(data: Union[pd.DataFrame, StockDownload]) -> List[dict]:
         cols=len(ExchangeColumn), rows=len(data['results']) + 5)
 
     if sheet and data:
-        sheet.clear()
+        sheet_clear(sheet)
         values = [
             [exchange['exchangeCode']] for exchange in data['results']
         ]
-        result = sheet.append_rows(values, value_input_option='USER_ENTERED')
+        result = sheet_append_rows(
+                    sheet, values, value_input_option='USER_ENTERED')
 
         info(f"Saved {updated_rows(result)} exchange records")
 
@@ -122,12 +128,12 @@ def save_companies(
 
     if sheet and data:
         if clear_sheet:
-            sheet.clear()
+            sheet_clear(sheet)
         values = [
             [company[attrib] for attrib in company] \
                 for company in data['results']
         ]
-        result = sheet.append_rows(values, value_input_option='RAW')
+        result = sheet_append_rows(sheet, values, value_input_option='RAW')
 
         exchange = values[0][CompanyColumn.EXCHANGE.value - 1] \
             if len(values) > 0 else None
@@ -137,7 +143,7 @@ def save_companies(
 
         # some symbols contain '.' which result in them being displayed as
         # hyperlinks
-        sheet.batch_format([{
+        sheet_batch_format(sheet, [{
             "range": updated_range(result),
             "format": {
                 "hyperlinkDisplayType": "PLAIN_TEXT"
@@ -212,7 +218,7 @@ def save_stock_meta_data(
                 updates.append((CompanyColumn.NAME.value, name))
 
             if len(updates) > 0:
-                sheet.batch_update([
+                sheet_batch_update(sheet, [
                     range_update(
                         cells_range(
                             entity_row, col,
@@ -231,7 +237,7 @@ def save_stock_meta_data(
                 drill_dict(meta, "currency")
             ).unpack()
 
-        sheet.append_row(values, value_input_option='RAW')
+        sheet_append_row(sheet, values, value_input_option='RAW')
 
     if error_msg:
         error(error_msg)

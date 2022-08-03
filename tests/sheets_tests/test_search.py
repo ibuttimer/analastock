@@ -5,6 +5,7 @@ from typing import List
 import unittest
 
 from sheets import search_company
+from sheets.spread_ops import sheet_append_row
 from stock import Company, CompanyColumn
 from utils import Pagination
 
@@ -61,7 +62,7 @@ class TestSearch(TestBase):
         self.assertEqual(expected_partials, len(results))
         res_idx = 0
         for i, entry in enumerate(test_data):
-            if not entry[0].startswith(partial_name):
+            if not entry[CompanyColumn.NAME.value - 1].startswith(partial_name):
                 continue
 
             with self.subTest(msg=f'entry[{i}] {entry}'):
@@ -115,7 +116,7 @@ class TestSearch(TestBase):
         expected_partials = len(
             list(
                 filter(
-                    lambda entry: entry.name.startswith(partial_name), results
+                    lambda entry: entry.symbol.startswith(partial_name), results
                 )
             )
         )
@@ -124,7 +125,8 @@ class TestSearch(TestBase):
         self.assertEqual(expected_partials, len(results))
         res_idx = 0
         for i, entry in enumerate(test_data):
-            if not entry[0].startswith(partial_name):
+            if not entry[CompanyColumn.SYMBOL.value - 1]\
+                            .startswith(partial_name):
                 continue
 
             with self.subTest(msg=f'entry[{i}] {entry}'):
@@ -132,9 +134,9 @@ class TestSearch(TestBase):
                 res_idx += 1
 
         # check find one exact match
-        expected_match = test_data[len(test_data) / 2]
+        expected_match = test_data[int(len(test_data) / 2)]
         pg_result = search_company(
-                        expected_match[CompanyColumn.SYMBOL.value - 1], 
+                        expected_match[CompanyColumn.SYMBOL.value - 1],
                         CompanyColumn.SYMBOL, sheet=sheet, exact_match=True)
         self.assertTrue(isinstance(pg_result, Pagination))
 
@@ -148,12 +150,13 @@ class TestSearch(TestBase):
         # check find none
         pg_result = search_company(
                         'DNE', CompanyColumn.SYMBOL, sheet=sheet)
-        self.assertIsNone(isinstance(pg_result, Pagination))
+        self.assertIsNone(pg_result)
 
         # tidy up
         self.tidy_up_sheets(
             [ (worksheet_name, sheet) ]
         )
+
 
     def add_companies(self, worksheet_name: str, num_companies: int):
         """
@@ -176,7 +179,7 @@ class TestSearch(TestBase):
 
         # add data
         for data in test_data:
-            result = sheet.append_row(data)
+            result = sheet_append_row(sheet, data)
             self.assertIsNotNone(result)
             self.assertTrue('updates' in result)
             self.assertEqual(result['updates']['updatedCells'], len(data))
