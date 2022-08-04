@@ -3,7 +3,7 @@ Menu related functions
 """
 from collections import namedtuple
 import dataclasses
-from typing import Callable, List, Union
+from typing import Any, Callable, List, Union
 
 from .constants import ABORT, PAGE_UP, PAGE_DOWN
 from .input import get_input, user_confirm
@@ -24,7 +24,7 @@ class MenuEntry:
     name: str
     """ Display name """
 
-    func: Callable[[], bool]
+    func: Callable[[], Any]
     """
     Function to call
 
@@ -39,7 +39,7 @@ class MenuEntry:
     """ Menu close entry flag """
 
     def __init__(
-            self, name: str, func: Callable[[], bool],
+            self, name: str, func: Callable[[], Any],
             key: Union[str, None] = None):
         """
         Constructor
@@ -237,11 +237,15 @@ class Menu:
         return selection
 
 
-    def process(self):
+    def process(self) -> Any:
         """
         Process the menu
+
+        Returns:
+            Any: Result of selected option's call function or None
         """
         selection: Union[MenuEntry, None] = None
+        result = None
 
         self.is_open = True
 
@@ -280,12 +284,14 @@ class Menu:
                     self.is_open = False
                     if selected_entry.func:
                         # execute func if available
-                        selected_entry.func()
+                        result = selected_entry.func()
                 else:
                     # exe menu function
                     selected_entry.func()
             else:
                 error('Invalid selection')
+
+        return result
 
 
     def check_proceed(self, msg: str) -> bool:
@@ -339,9 +345,9 @@ class Menu:
                     self._start = start
                     self._end = start + self.display_rows
 
-                    if self._up_down_hook:
+                    if self.up_down_hook:
                         # call hook
-                        self._up_down_hook(self, self._start, self._end)
+                        self.up_down_hook(self, self._start, self._end)
 
             if error_msg:
                 error(error_msg)

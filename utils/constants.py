@@ -79,3 +79,6 @@ READ_QUOTA_ENV = 'READ_QUOTA'
 """ Google Sheets API: Read requests/minute/user environment variable """
 WRITE_QUOTA_ENV = 'WRITE_QUOTA'
 """ Google Sheets API: Write requests/minute/user environment variable """
+
+MAX_MULTI_ANALYSIS = 5
+""" Max number of stocks to compare in multi analysis """

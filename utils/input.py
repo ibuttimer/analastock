@@ -2,7 +2,7 @@
 Input related functions
 """
 from enum import IntEnum, auto
-from typing import Any, Callable, List, Union
+from typing import Any, Callable, List
 from .constants import HELP, ABORT
 from .output import error, assistance
 
@@ -22,7 +22,7 @@ def get_input(
         validate: Callable[[str], bool] = None,
         help_text: str = None,
         input_form: List[str] = None
-    ) -> Union[Any, None]:
+    ) -> Any:
     """
     Get user input
 
@@ -37,7 +37,7 @@ def get_input(
                 List of valid inputs. Defaults to None.
 
     Returns:
-        Union[Any, None]: user input or None if invalid
+        Any: user input or None if invalid
     """
     if isinstance(validate, InputParam):
         ip_args = [validate]
@@ -130,12 +130,46 @@ def get_int(
         selection = get_input(msg, validate=validate, help_text=help_text)
 
         if isinstance(selection, str) and selection.isnumeric():
-            value = int(selection)
-            break
-        elif isinstance(selection, int):
+            selection = int(selection)
+        if isinstance(selection, int):
             value = selection
             break
 
         error('Enter an integer')
 
     return value
+
+
+def valid_int_range(min_val: int, max_val: int) -> Callable[[str], str]:
+    """
+    Decorator for an entered string validator
+
+    Args:
+        min_val (int): min allowed value (inclusive)
+        max_val (int): max allowed value (inclusive)
+
+    Returns:
+        Callable[[str], str]: function
+    """
+    def func(num_str: str) -> bool:
+        """
+        Validate an entered string is a number within range
+
+        Args:
+            num_str (str): enter string
+
+        Returns:
+            bool: True if valid
+        """
+        is_ok = num_str.isnumeric()
+        if not is_ok:
+            error(f'Please enter a number between {min_val} and '
+                  f'{max_val} inclusive')
+        else:
+            is_ok = min_val <= int(num_str) <= max_val
+            if not is_ok:
+                error(f'Enter a number between {min_val} and '
+                      f'{max_val} inclusive')
+        return num_str if is_ok else None
+
+    return func

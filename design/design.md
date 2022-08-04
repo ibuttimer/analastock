@@ -67,29 +67,35 @@ The console text will be white on a black background.
 The application menu will display a list of possible options, allowing the user to select an option by inputting the corresponding option number.
 
 #### Menu Structure
-- _Stock Analysis_
+1. **_Stock Analysis_**
 
-    Access stock analysis menu
+   Access stock analysis menu
 
-  - _Single stock_
+   1. **_Single stock_** : Analyse single stock
 
-    Analyse single stock
+      1. **_Enter stock symbol_** : Manually enter single stock
 
-  - _Multiple stock_
+      1. **_Search company_** : Analyse multiple stocks
 
-    Analyse multiple stocks
+         - **_Enter period_** : Analyse period
 
-- _Search Company_
+   2. **_Multiple stock_** : Analyse multiple stocks
 
-    In-app search for company information
+      - **_Enter number of stocks_** : Number of stocks to analyse
 
-- _Update Company Information_
+        1. **_Enter stock symbol_** : Manually enter single stock
 
-    Update the in-app company information
+        2. **_Search company_** : Analyse multiple stocks
 
-- _Quit_
+           - **_Enter period_** : Analyse period
 
-    Quit the application
+2. **_Search Company_** : In-app search for company information
+
+     - **_Enter name_** : Search term
+
+3. **_Update Company Information_** : Update the in-app company information
+
+4. **_Quit_** : Quit the application
 
 ### Screen Layout
 

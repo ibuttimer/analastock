@@ -1,7 +1,9 @@
 """
 Utils package
 """
-from .input import get_input, InputParam, user_confirm, get_int
+from .input import (
+    get_input, InputParam, user_confirm, get_int, valid_int_range
+)
 from .output import (
     error, info, assistance, Colour, colorise, display, title, WrapMode
 )
@@ -21,7 +23,7 @@ from .constants import (
     EXCHANGES_SHEET, COMPANIES_SHEET, EFT_SHEET, MUTUAL_SHEET,
     FUTURES_SHEET, INDEX_SHEET, DEFAULT_DATA_PATH, META_DATA_FOLDER,
     PAGE_UP, PAGE_DOWN, HELP, ABORT, MAX_LINE_LEN,
-    FRIENDLY_DATE_FMT
+    FRIENDLY_DATE_FMT, MAX_MULTI_ANALYSIS
 )
 from .comms import http_get, wrapped_get
 from .pagination import Pagination
@@ -35,6 +37,7 @@ __all__ = [
     'InputParam',
     'user_confirm',
     'get_int',
+    'valid_int_range',
 
     'Colour',
     'error',
@@ -86,6 +89,7 @@ __all__ = [
     'ABORT',
     'MAX_LINE_LEN',
     'FRIENDLY_DATE_FMT',
+    'MAX_MULTI_ANALYSIS',
 
     'http_get',
     'wrapped_get',

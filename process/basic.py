@@ -1,12 +1,14 @@
 """
 Processing related functions
 """
-from typing import Callable, List, Union
+from enum import Enum, auto
+from typing import Any, Callable, List, Union
 import time
 
 from pandas import DataFrame, concat
 from stock import (
-    canned_ibm, get_stock_param, download_data,
+    canned_ibm, get_stock_param, get_stock_param_symbol,
+    get_stock_param_range, download_data,
     analyse_stock, download_exchanges, download_companies,
     Company, AnalysisRange, DATE_FORM, StockParam, DataMode, CompanyColumn
 )
@@ -15,10 +17,11 @@ from sheets import (
     search_company, check_partial
 )
 from utils import (
-    CloseMenuEntry, Menu, MenuEntry, info, error, ABORT, get_input, title,
-    user_confirm, get_int, save_json_file, sample_exchange_path
+    CloseMenuEntry, Menu, MenuEntry, info, ABORT, get_input, title,
+    user_confirm, get_int, valid_int_range, save_json_file,
+    sample_exchange_path, MAX_MULTI_ANALYSIS
 )
-from .results import display_single
+from .results import display_multiple, display_single
 
 
 DATE_ENTRY = 'Date entry'
@@ -35,6 +38,7 @@ COMPANY_SEARCH_HELP = f"Enter company name or part of name to search for, "\
 CLEAR_HELP = "Clear data previously saved"
 PAUSE_HELP = "Enter pause in seconds between exchange data downloads"
 SAMPLE_HELP = "Save data as samples for reuse"
+NUM_STOCKS_HELP = "Enter the number of stocks to analyse"
 
 def process_ibm():
     """ Process canned IBM stock """
@@ -63,7 +67,7 @@ def stock_analysis_menu():
     """
     stock_menu: Menu = Menu(
         MenuEntry('Single stock', process_stock_menu),
-        MenuEntry('Multiple stocks', process_stock_menu),
+        MenuEntry('Multiple stocks', process_multi_stock),
         CloseMenuEntry('Back'),
         menu_title='Stock Analysis Menu'
     )
@@ -126,6 +130,66 @@ def process_stock_menu() -> bool:
         symbol_menu.process()
 
         loop = symbol_menu.is_open
+
+    return True
+
+
+def process_multi_stock() -> bool:
+    """
+    Process multiple stocks
+
+    Returns:
+        bool: Truthy if processed, otherwise Falsy
+    """
+    stock_params = []
+    num_stocks = get_int('Enter number of stocks',
+                    validate=valid_int_range(1, MAX_MULTI_ANALYSIS),
+                    help_text=NUM_STOCKS_HELP)
+
+    for idx in range(num_stocks):
+        symbol_menu: Menu = Menu(
+            CloseMenuEntry(SYMBOL_ENTRY, get_stock_param_symbol),
+            CloseMenuEntry(SEARCH_ENTRY,
+                lambda : company_name_search(CompanyAction.RETURN)),
+            menu_title=f'Stock Selection Method [{idx + 1}/{num_stocks}]',
+            help_text=SYMBOL_MENU_HELP
+        )
+        selection = None
+        loop: bool = True
+        while loop:
+            selection = symbol_menu.process()
+
+            loop = symbol_menu.is_open
+
+        stock_params.append(
+            selection if isinstance(selection, StockParam) else \
+                StockParam(selection.symbol)
+        )
+
+    first_stock_param = stock_params[0]
+    get_stock_param_range(first_stock_param, anal_rng=AnalysisRange.PERIOD)
+
+    analysis = []
+    for idx in range(num_stocks):
+        stock_param = stock_params[idx]
+        if idx > 0:
+            stock_param.set_from_date(first_stock_param.from_date)
+            stock_param.set_to_date(first_stock_param.to_date)
+
+        data_frame = get_sheets_data(stock_param)
+
+        # check for gaps in data
+        data_frame = fill_gaps(data_frame, stock_param)
+
+        if data_frame is not None and not data_frame.empty:
+            analysis.append(
+                analyse_stock(data_frame, stock_param)
+            )
+
+    if len(analysis) > 1:
+        display_multiple(analysis)
+    else:
+        display_single(analysis[0])
 
     return True
 
@@ -193,12 +257,26 @@ def fill_gaps(data_frame: DataFrame, stock_param: StockParam) -> DataFrame:
     return full_frame
 
 
-def process_selected_stock(company: Company) -> Callable[[], bool]:
+class CompanyAction(Enum):
+    """ Enum representing actions to on company selection """
+    PROCESS = auto()
+    """ Process for analysis """
+    RETURN = auto()
+    """ Return company object"""
+
+
+def stock_selected_func(
+        company: Company,
+        action: CompanyAction = CompanyAction.PROCESS,
+        secondary: Callable[[], None] = None) -> Callable[[], Any]:
     """
-    Decorator to process stock for the specified company
+    Decorator to process selected company
 
     Args:
         company (Company): company to process
+        action (CompanyAction, optional): action to perform on selection.
+                Defaults to CompanyAction.PROCESS.
+        secondary (Callable[[], None]): secondary processing
 
     Returns:
         Callable[[], bool]: process function
@@ -210,7 +288,15 @@ def process_selected_stock(company: Company) -> Callable[[], bool]:
         Returns:
             bool: True if processed, otherwise False
         """
-        return process_stock(company.symbol)
+        if action == CompanyAction.PROCESS:
+            # process company and continue search
+            result = process_stock(company.symbol)
+        else:
+            # return company and end search
+            result = company
+        if secondary:
+            secondary()
+        return result
 
     return process_func
 
@@ -228,16 +314,10 @@ def process_exchanges():
         'This operation may take some time, '\
         'please confirm it is ok to proceed'):
 
-        def valid_pause(pause: str) -> bool:
-            is_ok = pause.isnumeric() and int(pause) >= 0
-            if not is_ok:
-                error('Enter a number greater than or equal to zero')
-            return is_ok
-
         confirm_each = user_confirm('Confirm each download')
         clear_sheet = user_confirm('Clear existing data', help_text=CLEAR_HELP)
         pause = get_int('Enter inter-exchange pause in seconds',
-                        validate=valid_pause, help_text=PAUSE_HELP)
+                        validate=valid_int_range(0, 120), help_text=PAUSE_HELP)
         save_sample = user_confirm('Save as sample data', help_text=SAMPLE_HELP)
 
         exchanges = download_exchanges(data_mode=data_mode)
@@ -270,21 +350,36 @@ def process_exchanges():
                         time.sleep(pause)
 
 
-def company_name_search() -> bool:
+def company_name_search(action: CompanyAction = CompanyAction.PROCESS) -> Any:
     """
     Perform a company search by name
 
+    Args:
+        action (CompanyAction, optional): action to perform on selection.
+                Defaults to CompanyAction.PROCESS.
+
     Returns:
-        bool: Truthy if processed, otherwise Falsy
+        Any: Result of selected option's call function or None
     """
     title('Company Name Search')
 
     loop: bool = True
+    result = None
 
     def end_search():
         """ End search """
         nonlocal loop
         loop = False
+
+    MenuElement = CloseMenuEntry \
+        if action == CompanyAction.RETURN else MenuEntry
+
+    def generate_selected_func(company: Company) -> Callable[[], Any]:
+        return stock_selected_func(
+            company, action,
+            secondary = end_search if action == CompanyAction.RETURN else \
+                None
+        )
 
     while loop:
         name = get_input(
@@ -306,7 +401,7 @@ def company_name_search() -> bool:
 
         # populate first page
         menu_items = company_menu_items(
-                                companies.get_current_page())
+            companies.get_current_page(), generate_selected_func, MenuElement)
         if companies.num_pages > 1:
             # add placeholders for other pages
             menu_items.extend([
@@ -325,30 +420,40 @@ def company_name_search() -> bool:
 
                 assert len(items) == end - start, 'Page size mismatch'
 
-                menu.entries[start:end] = company_menu_items(items)
+                menu.entries[start:end] = \
+                    company_menu_items(
+                        items, generate_selected_func, MenuElement)
 
 
         company_menu: Menu = Menu(menu_title='Company Search Results')
         company_menu.set_entries(menu_items)
         company_menu.set_up_down_hook(up_down_hook)
 
-        company_menu.process()
+        result = company_menu.process()
 
-    return True
+    return result
 
-def company_menu_items(companies: List[Company]) -> List[MenuEntry]:
+
+def company_menu_items(
+            companies: List[Company],
+            selected_func: Callable[[], Any],
+            menu_element: Union[CloseMenuEntry, MenuEntry] = MenuEntry
+        ) -> List[MenuEntry]:
     """
     Generate menu entries for a list of companies
 
     Args:
         companies (List[Company]): companies
+        selected_func (Callable[[], Any]): call function for selection
+        MenuElement (CompanyAction, optional): action to perform on selection.
+                Defaults to CompanyAction.PROCESS.
 
     Returns:
         List[MenuEntry]: menu entries
     """
     return [
-            MenuEntry(
+            menu_element(
                 f'{company.name} [{company.symbol}]',
-                process_selected_stock(company)
+                selected_func(company)
             ) for company in companies
         ]

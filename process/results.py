@@ -2,7 +2,7 @@
 Processing results display functions
 """
 
-from typing import List
+from typing import List, Union
 from stock import (
     DfStat, DfColumn, CompanyColumn, DataMode, download_meta_data
 )
@@ -10,24 +10,6 @@ from sheets import search_all, save_stock_meta_data
 from utils import MAX_LINE_LEN, convert_date_time, DateFormat, drill_dict
 from .grid import DGrid, DCell, DRow, FORMAT_WIDTH_MARK, Marker
 
-
-# 80 Columns
-# 12345678901234567890123456789012345678901234567890123456789012345678901234567890
-
-#                                                                         Currency
-# Stock : IBM - International Business Machines Corporation                    USD
-# Period: 01 Mar 2022* - 01 Jul 2022**
-#               Min          Max          Avg         Change         %
-# Open      ............ ............ ............ ............ ............
-# Low       ............ ............ ............ ............ ............
-# High      ............ ............ ............ ............ ............
-# Close     ............ ............ ............ ............ ............
-# AdjClose  ............ ............ ............ ............ ............
-# Volume^   ............ ............ ............ ............ ............
-#
-# *  : Data n/a 01 Jan 1990 - 28 Feb 2022
-# ** : Data n/a 02 Jul 2022 - 30 Jul 2022
-# ^ : Data missing
 
 # currency row formatting
 # e.g. #                                                             Currency
@@ -51,6 +33,8 @@ VALUE_NAME_CELL_WIDTH = 9   # Open/Low/High etc. cell width
 DATA_CELL_WIDTH = 12
 VALUE_NAME_FMT = f'<{FORMAT_WIDTH_MARK}'
 DATA_CELL_FMT = f'>{FORMAT_WIDTH_MARK}'
+STOCK_CELL_WIDTH = 5
+STOCK_NAME_FMT = f'<{FORMAT_WIDTH_MARK}'
 # notes formatting
 NOTE_1 = '*'
 NOTE_2 = '*' * 2
@@ -68,24 +52,25 @@ CURRENCY = 'currency'
 NAME_CURRENCY = [NAME, CURRENCY]
 
 
-def display_single(results: dict):
+def display_single(result: dict):
     """
     Display single analysis results
+    See https://github.com/ibuttimer/analastock/blob/main/design/design.md#analysis-result-single-company
 
     Args:
-        results (dict): result to display
+        result (dict): result to display
     """
 
-    check_meta(results)
+    check_meta(result)
 
     grid = DGrid(MAX_LINE_LEN)
 
     # add currency title
     add_currency_title(grid)
     # add stock
-    add_stock(grid, results)
+    add_stock(grid, result)
     # add period
-    add_period(grid, results)
+    add_period(grid, result)
     # add header
     add_header(grid)
 
@@ -96,16 +81,16 @@ def display_single(results: dict):
 
         # value name
         name = f'{column.title}{MISSING_DATA}' if \
-            drill_dict(results, 'data_na', column.title) else column.title
+            column_data_missing(result, column) else column.title
         cell = DCell(name, VALUE_NAME_CELL_WIDTH, fmt=VALUE_NAME_FMT)
         row.add_cell(cell)
 
         # stats
         for stat in STATS:
-            cell = DCell(str(results[stat.column_key(column)]),
+            cell = DCell(str(result[stat.column_key(column)]),
                             DATA_CELL_WIDTH, fmt=DATA_CELL_FMT)
             if stat in CHANGE_STATS:
-                value = results[stat.column_key(column)]
+                value = result[stat.column_key(column)]
                 cell.set_marker(
                     Marker.UP if value > 0 else \
                         Marker.DOWN if value < 0 else None)
@@ -115,12 +100,80 @@ def display_single(results: dict):
         grid.add_row(row)
 
     # add missing data notes
+    add_missing_notes(grid, result)
+
+    grid.display()
+
+
+def display_multiple(results: List[dict]):
+    """
+    Display multi analysis results
+    See https://github.com/ibuttimer/analastock/blob/main/design/design.md#analysis-result-multiple-companies
+
+    Args:
+        results (List[dict]): result to display
+    """
+    is_multi = isinstance(results, list)
+
+    check_meta(results)
+
+    grid = DGrid(MAX_LINE_LEN)
+
+    # add currency title
+    add_currency_title(grid)
+
+    for index, result in enumerate(results):
+        # add stock
+        add_stock(grid, result, mark = index + 1)
+        # add period
+        add_period(grid, result)
+
+    # add header
+    add_header(grid, is_multi=is_multi)
+
+    # add data rows
+    for column in DfColumn.NUMERIC_COLUMNS:
+        for idx, result in enumerate(results):
+
+            row = DRow(grid.width)
+
+            # value name
+            if idx == 0:
+                cell = DCell(
+                    column.title, VALUE_NAME_CELL_WIDTH, fmt=VALUE_NAME_FMT)
+            else:
+                cell = DCell.blank_cell(VALUE_NAME_CELL_WIDTH)
+            row.add_cell(cell)
+
+            if is_multi:
+                # add stock marker
+                missing = MISSING_DATA \
+                    if column_data_missing(result, column) else ""
+                cell = DCell(f'{result["marker"]}{missing}',
+                                STOCK_CELL_WIDTH, fmt=STOCK_NAME_FMT)
+                row.add_cell(cell)
+
+            # stats
+            for stat in STATS:
+                cell = DCell(str(result[stat.column_key(column)]),
+                                DATA_CELL_WIDTH, fmt=DATA_CELL_FMT)
+                if stat in CHANGE_STATS:
+                    value = result[stat.column_key(column)]
+                    cell.set_marker(
+                        Marker.UP if value > 0 else \
+                            Marker.DOWN if value < 0 else None)
+
+                row.add_cell(cell)
+
+            grid.add_row(row)
+
+    # add missing data notes
     add_missing_notes(grid, results)
 
     grid.display()
 
 
-def add_header(grid: DGrid):
+def add_header(grid: DGrid, is_multi: bool = False):
     """
     Add header row to grid
 
@@ -132,6 +185,11 @@ def add_header(grid: DGrid):
     # value name blank
     cell = DCell('', VALUE_NAME_CELL_WIDTH, fmt=HDR_CELL_FMT)
     row.add_cell(cell)
+
+    if is_multi:
+        # add stock header
+        cell = DCell('Stock', STOCK_CELL_WIDTH, fmt=STOCK_NAME_FMT)
+        row.add_cell(cell)
 
     # stat names
     for stat in STATS:
@@ -173,19 +231,18 @@ def add_title_row(grid: DGrid, title: str, cells: List[DCell]):
     grid.add_row(row)
 
 
-def add_period(grid: DGrid, results: object):
+def add_period(grid: DGrid, result: dict):
     """
-    Add currency title row to grid
+    Add period row to grid
 
     Args:
         grid (DGrid): grid to add to
-        results (object): result to display
+        result (dict): result to display
     """
-    note1 = NOTE_1 if drill_dict(results, 'data_na', 'from', 'missing') \
-                    else ''
-    note2 = NOTE_2 if drill_dict(results, 'data_na', 'to', 'missing') else ''
-    from_date = convert_date_time(results['from'], DateFormat.FRIENDLY_DATE)
-    to_date = convert_date_time(results['to'], DateFormat.FRIENDLY_DATE)
+    note1 = NOTE_1 if data_is_missing(result, 'from') else ''
+    note2 = NOTE_2 if data_is_missing(result, 'to') else ''
+    from_date = convert_date_time(result['from'], DateFormat.FRIENDLY_DATE)
+    to_date = convert_date_time(result['to'], DateFormat.FRIENDLY_DATE)
 
     period = f"{from_date}{note1} - {to_date}{note2}"
     period_width = grid.width - grid.gap - TITLE_CELL_WIDTH
@@ -194,52 +251,75 @@ def add_period(grid: DGrid, results: object):
     ])
 
 
-def add_stock(grid: DGrid, results: object):
+def add_stock(grid: DGrid, result: dict, mark: int = None):
     """
     Add stock title row to grid
 
     Args:
         grid (DGrid): grid to add to
-        results (object): result to display
+        result (dict): result to display
     """
-    stock = f"{results[SYMBOL]} - {results[NAME]}"
+    marker = f'{mark}]' if mark else None
+    stock = f"{f'{marker} ' if mark else ''}"\
+            f"{result[SYMBOL]} - {result[NAME]}"
     stock_width = grid.width - (grid.gap * 2) - TITLE_CELL_WIDTH - \
                         CUR_CELL_WIDTH
     add_title_row(grid, 'Stock', [
         DCell(stock, stock_width, TITLE_TEXT_CELL_FMT),
-        DCell(results[CURRENCY], CUR_CELL_WIDTH, TITLE_CUR_CELL_FMT)
+        DCell(result[CURRENCY], CUR_CELL_WIDTH, TITLE_CUR_CELL_FMT)
     ])
 
+    # add marker to result
+    result['marker'] = marker
 
-def add_missing_notes(grid: DGrid, results: object):
+
+def add_missing_notes(grid: DGrid, results: Union[dict, List[dict]]):
     """
     Add missing data notes
 
     Args:
         grid (DGrid): grid to add to
-        results (object): result to display
+        results (Union[dict, List[dict]]): results to display
     """
-    added_blank = False
-    for note, prop in [(NOTE_1, 'from'), (NOTE_2, 'to')]:
-        missing = results['data_na'][prop]
-        if missing['missing']:
-            from_date = \
-                convert_date_time(missing['start'], DateFormat.FRIENDLY_DATE)
-            to_date = \
-                convert_date_time(missing['end'], DateFormat.FRIENDLY_DATE)
-            text = f"{f'{note}':{f'<{NOTE_MARK_WIDTH}'}}: "\
-                   f"Data n/a {from_date} - {to_date}"
+    is_multi = isinstance(results, list)
+    if not is_multi:
+        results = [results]
 
-            added_blank = _add_missing_notes_row(grid, text, added_blank)
+    added_blank = False
+
+    for note, prop in [(NOTE_1, 'from'), (NOTE_2, 'to')]:
+        added_note = False
+        for result in results:
+
+            missing = data_missing_info(result, prop)
+            if missing['missing']:
+                from_date = \
+                    convert_date_time(missing['start'],
+                                        DateFormat.FRIENDLY_DATE)
+                to_date = \
+                    convert_date_time(missing['end'], DateFormat.FRIENDLY_DATE)
+                note_text = '' if added_note else f'{note}'
+                marker = f"{result['marker']} " if is_multi else ""
+                text = \
+                    f"{f'{note_text}':{f'<{NOTE_MARK_WIDTH}'}}: "\
+                    f"{marker}Data n/a {from_date} - {to_date}"
+
+                added_blank = _add_missing_notes_row(grid, text, added_blank)
 
     # missing data
-    for column in DfColumn.NUMERIC_COLUMNS:
-        if drill_dict(results, 'data_na', column.title):
-            text = f"{f'{MISSING_DATA}':{f'<{NOTE_MARK_WIDTH}'}}: "\
-                   f"Data missing"
+    added_missing = False
+    for result in results:
+        for column in DfColumn.NUMERIC_COLUMNS:
+            if column_data_missing(result, column):
+                text = f"{f'{MISSING_DATA}':{f'<{NOTE_MARK_WIDTH}'}}: "\
+                    f"Data missing"
 
-            added_blank = _add_missing_notes_row(grid, text, added_blank)
+                added_blank = _add_missing_notes_row(grid, text, added_blank)
+                added_missing = True
+                break
 
+        if added_missing:
+            break
 
 def _add_missing_notes_row(grid: DGrid, text: str, added_blank: bool) -> bool:
     """
@@ -266,67 +346,117 @@ def _add_missing_notes_row(grid: DGrid, text: str, added_blank: bool) -> bool:
     return added_blank
 
 
-def check_meta(results: dict):
+def check_meta(results: Union[dict, List[dict]]):
     """
     Check meta data for stock
 
     Args:
-        results (dict): result to display
+        results (Union[dict, List[dict]]): results to display
     """
-    meta = {
-        key: None for key in NAME_CURRENCY
-    }
-    meta[SYMBOL] = drill_dict(results, SYMBOL)
-    if meta[SYMBOL]:
-        pg_entity = search_all(
-                    meta[SYMBOL], CompanyColumn.SYMBOL, exact_match=True)
-        if pg_entity:
-            # have info in sheets
-            assert pg_entity.num_items == 1, \
-                f"{meta[SYMBOL]} symbol error; {pg_entity.num_items} results"
+    if isinstance(results, dict):
+        results = [results]
 
-            entity_info = pg_entity.get_current_page()[0]
-            for key in NAME_CURRENCY:
-                meta[key] = getattr(entity_info, key)
+    for result in results:
+        meta = {
+            key: None for key in NAME_CURRENCY
+        }
+        meta[SYMBOL] = drill_dict(result, SYMBOL)
+        if meta[SYMBOL]:
+            pg_entity = search_all(
+                        meta[SYMBOL], CompanyColumn.SYMBOL, exact_match=True)
+            if pg_entity:
+                # have info in sheets
+                assert pg_entity.num_items == 1, \
+                    f"{meta[SYMBOL]} symbol error; "\
+                    f"{pg_entity.num_items} results"
 
-        if not meta[NAME] or not meta[CURRENCY]:
-            # get info from meta data api
+                entity_info = pg_entity.get_current_page()[0]
+                for key in NAME_CURRENCY:
+                    meta[key] = getattr(entity_info, key)
 
-            # TODO add data_mode to all elements in flow
+            if not meta[NAME] or not meta[CURRENCY]:
+                # get info from meta data api
 
-            meta_data = download_meta_data(meta[SYMBOL],
-                                        data_mode=DataMode.LIVE_SAVE_SAMPLE
-                                        # data_mode=DataMode.SAMPLE
-                                        )
-            if meta_data and meta_data.response_ok:
-                meta_name = drill_dict(meta_data.data, 'shortName')
-                if meta_name:
-                    if meta_name != meta[NAME]:
-                        # according to API docs, the 'Companies By Exchange'
-                        # endpoint is 'Manually Populated List Of Common Stocks
-                        # Per Exchange Code. Not Guaranteed To Be Up To Date'
-                        # so use 'Live Stock Metadata' endpoint which is the
-                        # 'real time metadata',
-                        # and for other entities 'real time metadata' is the
-                        # only source
-                        meta[NAME] = meta_name
-                    else:
-                        meta_name = None    # don't save
+                # TODO add data_mode to all elements in flow
 
-                if not meta[CURRENCY]:
-                    # extract currency
-                    meta[CURRENCY] = drill_dict(meta_data.data, CURRENCY)
+                meta_data = download_meta_data(meta[SYMBOL],
+                                            data_mode=DataMode.LIVE_SAVE_SAMPLE
+                                            # data_mode=DataMode.SAMPLE
+                                            )
+                if meta_data and meta_data.response_ok:
+                    meta_name = drill_dict(meta_data.data, 'shortName')
+                    if meta_name:
+                        if meta_name != meta[NAME]:
+                            # according to API docs, the 'Companies By
+                            # Exchange' endpoint is 'Manually Populated
+                            # List Of Common Stocks Per Exchange Code. Not
+                            # Guaranteed To Be Up To Date', so use 'Live Stock
+                            # Metadata' endpoint which is the 'real time
+                            # metadata',
+                            # and for other entities 'real time metadata' is
+                            # the only source
+                            meta[NAME] = meta_name
+                        else:
+                            meta_name = None    # don't save
 
-                save_stock_meta_data(
-                    meta[SYMBOL], meta[CURRENCY], name=meta_name,
-                    meta=meta_data.data)
+                    if not meta[CURRENCY]:
+                        # extract currency
+                        meta[CURRENCY] = drill_dict(meta_data.data, CURRENCY)
 
-    else:
-        meta[SYMBOL] = 'n/a'
+                    save_stock_meta_data(
+                        meta[SYMBOL], meta[CURRENCY], name=meta_name,
+                        meta=meta_data.data)
 
-    for key in NAME_CURRENCY:
-        if not meta[key]:
-            meta[key] = 'n/a'
+        else:
+            meta[SYMBOL] = 'n/a'
 
-    # add name/currency to results
-    results.update(meta)
+        for key in NAME_CURRENCY:
+            if not meta[key]:
+                meta[key] = 'n/a'
+
+        # add name/currency to result
+        result.update(meta)
+
+
+def column_data_missing(result: dict, column: DfColumn) -> bool:
+    """
+    Check if column data missing
+
+    Args:
+        result (dict): result to display
+        column (DfColumn): column to check
+
+    Returns:
+        bool: True if data missing
+    """
+    return drill_dict(result, 'data_na', column.title)
+
+
+def data_missing_info(result: dict, prop: str) -> dict:
+    """
+    Get the data missing information
+
+    Args:
+        result (dict): result to display
+        prop (str): date property; 'from'/'to'
+
+    Returns:
+        dict: information
+    """
+    return drill_dict(result, 'data_na', prop)
+    # return drill_dict(result, 'data_na', prop, 'missing')
+
+
+def data_is_missing(result: dict, prop: str) -> bool:
+    """
+    Get the data missing flag
+
+    Args:
+        result (dict): result to display
+        prop (str): date property; 'from'/'to'
+
+    Returns:
+        bool: True if data missing
+    """
+    return data_missing_info(result, prop)['missing']
+

@@ -45,12 +45,12 @@ PERIOD_HELP = f"Enter period in either of the following forms:\n"\
               f"       [{DATE_FORM}]  - date, or today if omitted"
 
 DATE_REGEX = rf"(\d+){DATE_SEP}(\d+){DATE_SEP}(\d+)"
-PERIOD_REGEX = r"(\d)([dwmy])"
+PERIOD_REGEX = r"(\d+)([dwmy])"
 DMY_DMY_REGEX = re.compile(
     rf"^{DATE_REGEX}\s+(\w+)\s+{DATE_REGEX}")
 DMY_REGEX = re.compile(
     rf"^{PERIOD_REGEX}\s+(\w+)\s+{DATE_REGEX}")
-DMY_NOW_REGEX = re.compile(r"^{PERIOD_REGEX}\s+(\w+)")
+DMY_NOW_REGEX = re.compile(rf"^{PERIOD_REGEX}\s+(\w+)")
 YTD_REGEX = re.compile(rf"^(\w+)\s+{DATE_REGEX}")
 YTD_NOW_REGEX = re.compile(r"^(\w+)")
 PERIOD_KEYS = [
@@ -483,6 +483,54 @@ def get_date_range(stock_param: StockParam) -> StockParam:
     return stock_param
 
 
+def get_stock_param_symbol(symbol: str = None) -> StockParam:
+    """
+    Get symbol for stock parameters
+
+    Args:
+        symbol (str, optional): Stock symbol. Defaults to None.
+
+    Returns:
+        StockParam: stock parameters
+    """
+    stock_param = None
+
+    if not symbol:
+        symbol = get_input(
+            'Enter stock symbol', validate=validate_symbol,
+            help_text=SYMBOL_HELP
+        )
+
+    if symbol != ABORT:
+        stock_param = StockParam(symbol)
+
+    return stock_param
+
+
+def get_stock_param_range(
+        stock_param: StockParam,
+        anal_rng: AnalysisRange = AnalysisRange.DATE,
+        range_select: Callable[[], AnalysisRange] = None):
+    """
+    Get stock parameters
+
+    Args:
+        stock_param (StockParam): StockParam to update.
+        anal_rng (AnalysisRange, optional):
+                Range entry method. Defaults to AnalysisRange.DATE.
+        range_select (Callable[[], AnalysisRange], optional):
+                Range entry method select function. Defaults to None.
+    """
+    if anal_rng == AnalysisRange.ASK:
+        anal_rng = range_select()
+
+    stock_param = get_date_range(stock_param) \
+        if anal_rng == AnalysisRange.DATE \
+        else get_period_range(stock_param)
+
+    return stock_param
+
+
 def get_stock_param(
         symbol: str = None,
         anal_rng: AnalysisRange = AnalysisRange.DATE,
@@ -500,23 +548,10 @@ def get_stock_param(
     Returns:
         StockParam: stock parameters
     """
-    stock_param = None
+    stock_param = get_stock_param_symbol(symbol)
 
-    if not symbol:
-        symbol = get_input(
-            'Enter stock symbol', validate=validate_symbol,
-            help_text=SYMBOL_HELP
-        )
-
-    if symbol != ABORT:
-        stock_param = StockParam(symbol)
-
-        if anal_rng == AnalysisRange.ASK:
-            anal_rng = range_select()
-
-        stock_param = get_date_range(stock_param) \
-            if anal_rng == AnalysisRange.DATE \
-            else get_period_range(stock_param)
+    if stock_param is not None:
+        get_stock_param_range(stock_param, anal_rng, range_select)
 
     return stock_param
 
