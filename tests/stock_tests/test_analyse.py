@@ -69,6 +69,7 @@ class TestAnalyse(unittest.TestCase):
         """
         units = {
             'd': 'day',
+            'w': 'week',
             'm': 'month',
             'y': 'year'
         }
@@ -76,19 +77,30 @@ class TestAnalyse(unittest.TestCase):
         # NB: don't use future test dates
 
         unit_count = 2
-        param = datetime(2019, 6, 10)
+        param = datetime(2019, 6, 15)
         # simple test, no boundaries
-        for unit in ['d', 'm', 'y']:
+        for unit in ['d', 'w', 'm', 'y']:
             date_str = param.strftime(DATE_FORMAT)
 
             for time_dir in ['from', 'to']:
-                with self.subTest(msg=f'{unit_count} {units[unit]} {time_dir} date {date_str}'):
+                with self.subTest(
+                        msg=f'{unit_count} {units[unit]} {time_dir} '
+                            f'date {date_str}'):
 
                     base_val = param.year if unit == 'y' else \
                                 param.month if unit == 'm' else param.day
+                    if unit == 'w':
+                        # convert week to 7 days
+                        key = 'd'
+                        multiplier = 7
+                    else:
+                        key = unit
+                        multiplier = 1
                     update = {
-                        f'{units[unit]}': base_val +
-                                            (unit_count if time_dir == 'from' else -unit_count)
+                        f'{units[key]}':
+                            base_val + \
+                                ((unit_count if time_dir == 'from' else \
+                                    -unit_count) * multiplier)
                     }
 
                     period = validate_period(
@@ -96,9 +108,11 @@ class TestAnalyse(unittest.TestCase):
                         f'{unit_count}{unit} {time_dir} {date_str}')
                     self.assertIsNotNone(period)
                     self.assertEqual(period.from_date,
-                        param if time_dir == 'from' else param.replace(**update))
+                        param if time_dir == 'from' else \
+                            param.replace(**update))
                     self.assertEqual(period.to_date,
-                        param.replace(**update) if time_dir == 'from' else param)
+                        param.replace(**update) if time_dir == 'from' else \
+                            param)
 
         # day boundaries
         unit_count = 1
@@ -111,7 +125,8 @@ class TestAnalyse(unittest.TestCase):
 
             delta = timedelta(days=unit_count)
             for time_dir in ['from', 'to']:
-                with self.subTest(msg=f'{unit_count} day {time_dir} date {date_str}'):
+                with self.subTest(
+                        msg=f'{unit_count} day {time_dir} date {date_str}'):
                     period = validate_period(
                         f'{unit_count}d {time_dir} {date_str}')
                     self.assertIsNotNone(period)
@@ -122,36 +137,47 @@ class TestAnalyse(unittest.TestCase):
 
         # month boundaries
         for param in [
-            #       test_date           date for from period  date for to period
+            #       test_date, date for from period, date for to period
             # end of year
-            Param(datetime(2022, 1, 1), datetime(2022, 2, 1), datetime(2021, 12, 1), 1),
-            Param(datetime(2021, 12, 31), datetime(2022, 1, 31), datetime(2021, 11, 30), 1),
+            Param(datetime(2022, 1, 1), datetime(2022, 2, 1),
+                datetime(2021, 12, 1), 1),
+            Param(datetime(2021, 12, 31), datetime(2022, 1, 31),
+                datetime(2021, 11, 30), 1),
             # leap year
-            Param(datetime(2020, 2, 28), datetime(2020, 3, 28), datetime(2020, 1, 28), 1),
+            Param(datetime(2020, 2, 28), datetime(2020, 3, 28),
+                datetime(2020, 1, 28), 1),
             # non-leap year
-            Param(datetime(2022, 2, 28), datetime(2022, 3, 31), datetime(2022, 1, 31), 1),
+            Param(datetime(2022, 2, 28), datetime(2022, 3, 31),
+                datetime(2022, 1, 31), 1),
             # end of month
-            Param(datetime(2021, 9, 29), datetime(2021, 10, 29), datetime(2021, 8, 29), 1),
-            Param(datetime(2021, 9, 30), datetime(2021, 10, 31), datetime(2021, 8, 31), 1),
-            Param(datetime(2021, 9, 30), datetime(2021, 11, 30), datetime(2021, 7, 31), 2),
+            Param(datetime(2021, 9, 29), datetime(2021, 10, 29),
+                datetime(2021, 8, 29), 1),
+            Param(datetime(2021, 9, 30), datetime(2021, 10, 31),
+                datetime(2021, 8, 31), 1),
+            Param(datetime(2021, 9, 30), datetime(2021, 11, 30),
+                datetime(2021, 7, 31), 2),
             # need 2 months gap to test 31th; mar-may-jul or aug-sep-dec
-            Param(datetime(2021, 5, 31), datetime(2021, 7, 31), datetime(2021, 3, 31), 2)
+            Param(datetime(2021, 5, 31), datetime(2021, 7, 31),
+                datetime(2021, 3, 31), 2)
         ]:
             #  1   2   3   4   5   6   7   8   9  10  11  12
             #[31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
             date_str = param.test_date.strftime(DATE_FORMAT)
 
             for time_dir in ['from', 'to']:
-                with self.subTest(msg=f'{param.step} month {time_dir} date {date_str}'):
+                with self.subTest(
+                        msg=f'{param.step} month {time_dir} date {date_str}'):
 
                     period = validate_period(
                         f'{param.step}m {time_dir} {date_str}')
                     self.assertIsNotNone(period)
 
                     self.assertEqual(period.from_date,
-                        param.test_date if time_dir == 'from' else param.to_ans)
+                        param.test_date if time_dir == 'from' else \
+                            param.to_ans)
                     self.assertEqual(period.to_date,
-                        param.from_ans if time_dir == 'from' else param.test_date)
+                        param.from_ans if time_dir == 'from' else \
+                            param.test_date)
 
         # no future dates omitted date
         self.assertIsNone(validate_period('1d from'))
@@ -196,6 +222,27 @@ class TestAnalyse(unittest.TestCase):
         self.assertEqual(period.from_date, jan1)
         self.assertEqual(period.to_date, today)
 
+
+    def test_period_dmy_dmy(self):
+        """
+        Test period validation for dmy to dmy
+        """
+        # dmy [to/from] dmy tests
+        for param in [
+                    (datetime(2022, 2, 1), datetime(2022, 3, 1), 'to'),
+                    (datetime(2022, 3, 1), datetime(2022, 2, 1), 'from')
+                ]:
+            test_from, test_to, valid_dir = param
+            for time_dir in ['from', 'to']:
+                period_str = f'{test_from.strftime(DATE_FORMAT)} {time_dir} '\
+                            f'{test_to.strftime(DATE_FORMAT)}'
+                with self.subTest(msg=period_str):
+                    period = validate_period(period_str)
+                    if time_dir == valid_dir:
+                        self.assertEqual(period.from_date, test_from)
+                        self.assertEqual(period.to_date, test_to)
+                    else:
+                        self.assertIsNone(period)
 
 
 if __name__ == '__main__':

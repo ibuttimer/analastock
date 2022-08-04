@@ -142,7 +142,7 @@ def process_stock(symbol: str = None) -> bool:
     """
     # get stock params
     stock_param = get_stock_param(
-        symbol=symbol, anal_rng=AnalysisRange.ASK,
+        symbol=symbol, anal_rng=AnalysisRange.PERIOD,
         range_select=period_entry_menu)
 
     processed = stock_param is not None
