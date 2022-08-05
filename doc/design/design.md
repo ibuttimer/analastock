@@ -11,7 +11,7 @@ The scope of the project will be to allow the user to:
 - Specify the symbols for multiple stocks to compare
 
 
-## User Stories
+## User Stories/Objectives
 As a user:
 - I want to understand the purpose of the site.
 - I want to be able to specify the stock to analyse.
@@ -33,6 +33,11 @@ As the site administrator:
 - I want to use [Yahoo Finance](https://finance.yahoo.com/) to stock data
 - I want to use [RapidAPI](https://rapidapi.com/) is used to retrieve stock exchange and company information
 - I want to use Google APIs to access and store downloaded data
+
+## Objectives Implementation
+
+TODO link to features / examples
+
 
 # Structure
 
@@ -298,3 +303,16 @@ The following data will be stored:
 | Name | Name of company |
 | IndustryOrCategory | Industry or category of the company |
 | Currency | Stock currency |
+
+## External Libraries
+The following third party libraries will be utilised:
+
+| Library | Use | Description |
+|---------|-----|-------------|
+| [google-auth](https://pypi.org/project/google-auth/) | Access Google resources | This library simplifies using Google’s various server-to-server authentication mechanisms to access Google APIs. For details see the [usage and reference documentation](https://googleapis.dev/python/google-auth/latest/index.html). |
+| [gspread](https://pypi.org/project/gspread/) | Work with Google Sheets | Provides a Google Spreadsheets Python API. For details see [gspread docs](https://docs.gspread.org/en/v5.4.0/). |
+| [pandas](https://pypi.org/project/pandas/) | Perform analysis of stocks | A package providing fast, flexible, and expressive data structures, with powerful data analysis functionality. For details see [pandas documentation](https://pandas.pydata.org/docs/).
+| [python-dotenv](https://pypi.org/project/python-dotenv/) | Application configuration | Read key-value pairs from a `.env` file and set them as environment variables. |
+| [colorama](https://pypi.org/project/colorama/)<br>[termcolor](https://pypi.org/project/termcolor/) | Coloured terminal text | Makes ANSI escape character sequences work under MS Windows.<br>ANSI Colour formatting for output in terminal. |
+| [requests](https://pypi.org/project/requests/) | Perform HTTP requests | A HTTP library. For details see the [documentation](https://requests.readthedocs.io/en/latest/). |
+| [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)<br>[lxml](https://pypi.org/project/lxml/) | Capture HTML page content | A library that makes it easy to scrape information from web pages. For details see the [documentation](https://www.crummy.com/software/BeautifulSoup/).<br>XML processing library. For details see the [documentation](https://lxml.de/). |
