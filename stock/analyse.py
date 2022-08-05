@@ -47,12 +47,12 @@ PERIOD_HELP = f"Enter period in either of the following forms:\n"\
 DATE_REGEX = rf"(\d+){DATE_SEP}(\d+){DATE_SEP}(\d+)"
 PERIOD_REGEX = r"(\d+)([dwmy])"
 DMY_DMY_REGEX = re.compile(
-    rf"^{DATE_REGEX}\s+(\w+)\s+{DATE_REGEX}")
+    rf"^\s*{DATE_REGEX}\s+(\w+)\s+{DATE_REGEX}\s*$")
 DMY_REGEX = re.compile(
-    rf"^{PERIOD_REGEX}\s+(\w+)\s+{DATE_REGEX}")
-DMY_NOW_REGEX = re.compile(rf"^{PERIOD_REGEX}\s+(\w+)")
-YTD_REGEX = re.compile(rf"^(\w+)\s+{DATE_REGEX}")
-YTD_NOW_REGEX = re.compile(r"^(\w+)")
+    rf"^\s*{PERIOD_REGEX}\s+(\w+)\s+{DATE_REGEX}\s*$")
+DMY_NOW_REGEX = re.compile(rf"^\s*{PERIOD_REGEX}\s+(\w+)\s*$")
+YTD_REGEX = re.compile(rf"^\s*(\w+)\s+{DATE_REGEX}\s*$")
+YTD_NOW_REGEX = re.compile(r"^\s*(\w+)\s*$")
 PERIOD_KEYS = [
             'num',          # (int): unit count
             'time_unit',    # (str): time unit; d/m/y
