@@ -1,6 +1,6 @@
 
 ## Design
-The design specification is available in [design.md](design/design.md).
+The design specification is available in [design.md](doc/design/design.md).
 
 ## Development/Local Deployment
 ### Environment
@@ -154,25 +154,6 @@ The following steps were followed to deploy the website:
 
 The live website is available at [https://analastock.herokuapp.com/](https://analastock.herokuapp.com/)
 
-
-
-
-
-Welcome USER_NAME,
-
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
-
-## Reminders
-
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
 
 
 ## Credits

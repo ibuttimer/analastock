@@ -8,8 +8,8 @@ node_modules/
 .github/
 .idea/
 tmp/
-/design/.$*.drawio.bkp
-/design/.*.drawio.dtmp
+/doc/design/.$*.drawio.bkp
+/doc/design/.*.drawio.dtmp
 /analastock.code-workspace
 /index.js.*
 .env
