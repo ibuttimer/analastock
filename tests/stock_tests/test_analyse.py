@@ -129,7 +129,7 @@ class TestAnalyse(unittest.TestCase):
 
                     with self.subTest(msg=f'{period_str} trailing text'):
 
-                        period = validate_period(f'{period_str} extra text')
+                        period = validate_period(f'{period_str} xyz')
                         self.assertIsNone(period)
 
         # day boundaries
@@ -237,7 +237,7 @@ class TestAnalyse(unittest.TestCase):
 
             with self.subTest(msg=f'{period_str} trailing text'):
 
-                period = validate_period(f'{period_str} extra text')
+                period = validate_period(f'{period_str} xyz')
                 self.assertIsNone(period)
 
 
@@ -268,7 +268,7 @@ class TestAnalyse(unittest.TestCase):
 
         with self.subTest(msg=f'{period_str} trailing text'):
 
-            period = validate_period(f'{period_str} extra text')
+            period = validate_period(f'{period_str} xyz')
             self.assertIsNone(period)
 
 
@@ -277,9 +277,10 @@ class TestAnalyse(unittest.TestCase):
         Test period validation for dmy to dmy
         """
         # dmy [to/from] dmy tests
+        test_yr = 2022
         for param in [
-                    (datetime(2022, 2, 1), datetime(2022, 3, 1), 'to'),
-                    (datetime(2022, 3, 1), datetime(2022, 2, 1), 'from')
+                    (datetime(test_yr, 2, 1), datetime(test_yr, 3, 1), 'to'),
+                    (datetime(test_yr, 3, 1), datetime(test_yr, 2, 1), 'from')
                 ]:
             test_from, test_to, valid_dir = param
 
@@ -290,21 +291,27 @@ class TestAnalyse(unittest.TestCase):
                     period_str = f'{test_from.strftime(fmt)} {time_dir} '\
                                 f'{test_to.strftime(fmt)}'
 
-                    for cmt, padding in [('no padding', ''), ('padding', ' ')]:
-                        with self.subTest(msg=f'{period_str} {cmt}'):
+                    for year in [str(test_yr), str(int(test_yr % 100))]:
+                        period_str = period_str.replace(str(test_yr), year)
 
-                            period = validate_period(
-                                f'{padding}{period_str}{padding}')
-                            if time_dir == valid_dir:
-                                self.assertEqual(period.from_date, test_from)
-                                self.assertEqual(period.to_date, test_to)
-                            else:
-                                self.assertIsNone(period)
+                        for cmt, padding in [
+                                ('no padding', ''), ('padding', ' ')]:
 
-                    with self.subTest(msg=f'{period_str} trailing text'):
+                            with self.subTest(msg=f'{period_str} {cmt}'):
 
-                        period = validate_period(f'{period_str} extra text')
-                        self.assertIsNone(period)
+                                period = validate_period(
+                                    f'{padding}{period_str}{padding}')
+                                if time_dir == valid_dir:
+                                    self.assertEqual(
+                                        period.from_date, test_from)
+                                    self.assertEqual(period.to_date, test_to)
+                                else:
+                                    self.assertIsNone(period)
+
+                        with self.subTest(msg=f'{period_str} trailing text'):
+
+                            period = validate_period(f'{period_str} xyz')
+                            self.assertIsNone(period)
 
 if __name__ == '__main__':
     unittest.main()

@@ -296,6 +296,9 @@ def param_date(params: dict) -> Tuple[int]:
     day = int(params['day']) if params['day'] else today.day
     month = int(params['month']) if params['month'] else today.month
     year = int(params['year']) if params['year'] else today.year
+    if year < 100:
+        # 2 digit year, assume this century
+        year += (int(today.year / 100) * 100)
     return day, month, year
 
 
@@ -442,8 +445,6 @@ def get_dmy_dmy_period(params: dict, preposition: str,
         StockParam: stock parameters
     """
     period = None
-
-    # TODO if y is 2 digits assume 2000
 
     day, month, year = param_date(params)
     in_date = validate_date(DATE_FMT.format(day=day, mth=month, year=year))
