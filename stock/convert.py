@@ -29,6 +29,10 @@ def standardise_stock_param(stock_param: StockParam) -> StockParam:
 
         # to 1st of next month
         new_date = std_param.to_date.replace(year=year, month=month, day=1)
-        std_param.set_to_date(min(new_date, datetime.now()))
+        now = datetime.now() \
+            if isinstance(new_date, datetime) else datetime.now().date()
+        std_param.set_to_date(
+            min(new_date, now)
+        )
 
     return std_param

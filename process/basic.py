@@ -318,7 +318,8 @@ def process_exchanges():
         clear_sheet = user_confirm('Clear existing data', help_text=CLEAR_HELP)
         pause = get_int('Enter inter-exchange pause in seconds',
                         validate=valid_int_range(0, 120), help_text=PAUSE_HELP)
-        save_sample = user_confirm('Save as sample data', help_text=SAMPLE_HELP)
+        save_sample = user_confirm('Save as sample data',
+                                    help_text=SAMPLE_HELP)
 
         exchanges = download_exchanges(data_mode=data_mode)
         exchanges = save_exchanges(exchanges) \
@@ -339,7 +340,7 @@ def process_exchanges():
                 if companies_data.response_ok:
 
                     companies_list = save_companies(
-                                        companies_data, clear_sheet=clear_sheet)
+                                    companies_data, clear_sheet=clear_sheet)
                     clear_sheet = False
 
                     if save_sample and companies_list:

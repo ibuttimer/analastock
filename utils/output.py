@@ -19,6 +19,7 @@ class Colour(Enum):
     MAGENTA = 'magenta'
     CYAN = 'cyan'
     WHITE = 'white'
+    GREY = 'grey'
 
 class WrapMode(Enum):
     """ Class wrap modes """

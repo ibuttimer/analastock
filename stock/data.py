@@ -25,6 +25,8 @@ class StockParam:
 
     def __init__(self, symbol: str):
         self.symbol = symbol.upper()
+        self._from_date = datetime.now().date()
+        self._to_date = self._from_date
 
     def __str__(self) -> str:
         return f'{self.__class__.__name__}(' \
@@ -72,8 +74,8 @@ class StockParam:
 
     @staticmethod
     def _date(to_convert):
-        return to_convert if isinstance(to_convert, date) else \
-                to_convert.date()
+        return to_convert.date() if isinstance(to_convert, datetime) else \
+                to_convert
 
     @staticmethod
     def _datetime(to_convert):
@@ -203,6 +205,9 @@ class StockDownload:
         # https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.from_records.html#pandas.DataFrame.from_records
         data_frame = pd.DataFrame.from_records(
             data_records, columns=DfColumn.titles())
+
+        # set any nulls to 0
+        data_frame = data_frame.where(data_frame != 'null', 0)
 
         # convert numeric columns
         # https://pandas.pydata.org/docs/reference/api/pandas.to_numeric.html

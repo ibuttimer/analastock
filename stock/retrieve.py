@@ -26,7 +26,8 @@ HEADER = {
     'Connection': 'keep-alive',
     'Expires': '-1',
     'Upgrade-Insecure-Requests': '1',
-    'User-Agent': f'analastock/0.0.1 ({platform.system()}/{platform.release()})'
+    'User-Agent':
+        f'analastock/0.0.1 ({platform.system()}/{platform.release()})'
 }
 
 DAILY_FREQ = '1d'
@@ -177,10 +178,11 @@ def download_data(
                     #              startDate = 633830400, endDate = 638924400"
                     match = NO_DATA_REGEX.match(response.text)
                     if match:
+                        na_from = friendly_date(
+                                        _epoch_datetime(match.group(1)))
+                        na_to = friendly_date(_epoch_datetime(match.group(2)))
                         msg = f"Data doesn't exist for date range "\
-                            f"{friendly_date(_epoch_datetime(match.group(1)))}"\
-                            f" to "\
-                            f"{friendly_date(_epoch_datetime(match.group(2)))}"
+                            f"{na_from} to {na_to}"
                 elif response.status_code == 404:
                     # not found, e.g. "404 Not Found: No data found, symbol
                     #                   may be delisted"

@@ -21,8 +21,9 @@ FORMAT_WIDTH_MARK = '@width@'
 class Marker(Enum):
     """ Class representing cell markers """
     UP = ('^', Colour.GREEN)
-    NEUTRAL = ('-', 1)
+    NEUTRAL = ('-')
     DOWN = ('v', Colour.RED)
+    TITLE = ('', Colour.GREY, Colour.YELLOW)
 
     def __init__(
             self, m_string: str, colour: Colour = None,

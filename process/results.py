@@ -11,18 +11,21 @@ from utils import MAX_LINE_LEN, convert_date_time, DateFormat, drill_dict
 from .grid import DGrid, DCell, DRow, FORMAT_WIDTH_MARK, Marker
 
 
+# title row formatting
+# e.g.              International Business Machines Corporation
+TITLE_ROW_FMT = f'^{FORMAT_WIDTH_MARK}'
 # currency row formatting
-# e.g. #                                                             Currency
+# e.g.                                                               Currency
 CUR_ROW_FMT = f'>{FORMAT_WIDTH_MARK}'
 # title row formatting
 # e.g Stock : IBM - International Business Machines Corporation           USD
 #     1-----7                                                             1-3
 TITLE_CELL_WIDTH = 7   # Stock/Period cell width
 CUR_CELL_WIDTH = 3     # currency cell width
-TITLE_ROW_FMT = f'<{FORMAT_WIDTH_MARK}'
-TITLE_CELL_FMT = f'<{FORMAT_WIDTH_MARK}'
-TITLE_TEXT_CELL_FMT = f'<{FORMAT_WIDTH_MARK}'
-TITLE_CUR_CELL_FMT = f'>{FORMAT_WIDTH_MARK}'
+STOCK_ROW_FMT = f'<{FORMAT_WIDTH_MARK}'
+STOCK_CELL_FMT = f'<{FORMAT_WIDTH_MARK}'
+STOCK_TEXT_CELL_FMT = f'<{FORMAT_WIDTH_MARK}'
+STOCK_CUR_CELL_FMT = f'>{FORMAT_WIDTH_MARK}'
 # header row formatting
 # e.g.               Min          Max         Change         %
 HDR_CELL_FMT = f'^{FORMAT_WIDTH_MARK}'
@@ -33,8 +36,8 @@ VALUE_NAME_CELL_WIDTH = 9   # Open/Low/High etc. cell width
 DATA_CELL_WIDTH = 12
 VALUE_NAME_FMT = f'<{FORMAT_WIDTH_MARK}'
 DATA_CELL_FMT = f'>{FORMAT_WIDTH_MARK}'
-STOCK_CELL_WIDTH = 5
-STOCK_NAME_FMT = f'<{FORMAT_WIDTH_MARK}'
+STOCK_COL_CELL_WIDTH = 5
+STOCK_COL_NAME_FMT = f'<{FORMAT_WIDTH_MARK}'
 # notes formatting
 NOTE_1 = '*'
 NOTE_2 = '*' * 2
@@ -55,7 +58,7 @@ NAME_CURRENCY = [NAME, CURRENCY]
 def display_single(result: dict):
     """
     Display single analysis results
-    See https://github.com/ibuttimer/analastock/blob/main/design/design.md#analysis-result-single-company
+    See https://tinyurl.com/analastock-design-analysis-1
 
     Args:
         result (dict): result to display
@@ -65,6 +68,8 @@ def display_single(result: dict):
 
     grid = DGrid(MAX_LINE_LEN)
 
+    # add title
+    add_analysis_title(grid, f'{result[NAME]} Analysis')
     # add currency title
     add_currency_title(grid)
     # add stock
@@ -108,7 +113,7 @@ def display_single(result: dict):
 def display_multiple(results: List[dict]):
     """
     Display multi analysis results
-    See https://github.com/ibuttimer/analastock/blob/main/design/design.md#analysis-result-multiple-companies
+    See https://tinyurl.com/analastock-design-analysis-x
 
     Args:
         results (List[dict]): result to display
@@ -119,6 +124,8 @@ def display_multiple(results: List[dict]):
 
     grid = DGrid(MAX_LINE_LEN)
 
+    # add title
+    add_analysis_title(grid, 'Multiple Stock Analysis')
     # add currency title
     add_currency_title(grid)
 
@@ -150,7 +157,7 @@ def display_multiple(results: List[dict]):
                 missing = MISSING_DATA \
                     if column_data_missing(result, column) else ""
                 cell = DCell(f'{result["marker"]}{missing}',
-                                STOCK_CELL_WIDTH, fmt=STOCK_NAME_FMT)
+                                STOCK_COL_CELL_WIDTH, fmt=STOCK_COL_NAME_FMT)
                 row.add_cell(cell)
 
             # stats
@@ -188,7 +195,7 @@ def add_header(grid: DGrid, is_multi: bool = False):
 
     if is_multi:
         # add stock header
-        cell = DCell('Stock', STOCK_CELL_WIDTH, fmt=STOCK_NAME_FMT)
+        cell = DCell('Stock', STOCK_COL_CELL_WIDTH, fmt=STOCK_COL_NAME_FMT)
         row.add_cell(cell)
 
     # stat names
@@ -196,6 +203,21 @@ def add_header(grid: DGrid, is_multi: bool = False):
         cell = DCell(stat.short, DATA_CELL_WIDTH, fmt=HDR_CELL_FMT)
         row.add_cell(cell)
 
+    grid.add_row(row)
+
+
+def add_analysis_title(grid: DGrid, title: str):
+    """
+    Add currency title row to grid
+
+    Args:
+        grid (DGrid): grid to add to
+        title (str): title to display
+    """
+    row = DRow(grid.width).set_fmt(TITLE_ROW_FMT)
+    row.add_cell(
+        DCell(f'  {title}  ', row.width).set_marker(Marker.TITLE)
+    )
     grid.add_row(row)
 
 
@@ -222,7 +244,7 @@ def add_title_row(grid: DGrid, title: str, cells: List[DCell]):
         title (str): title to display
         text (str): text to display
     """
-    row = DRow(grid.width).set_fmt(TITLE_ROW_FMT)
+    row = DRow(grid.width).set_fmt(STOCK_ROW_FMT)
     title = title.ljust(TITLE_CELL_WIDTH - 1)
     row.add_cell(
         DCell(f'{title}:', TITLE_CELL_WIDTH)
@@ -247,7 +269,7 @@ def add_period(grid: DGrid, result: dict):
     period = f"{from_date}{note1} - {to_date}{note2}"
     period_width = grid.width - grid.gap - TITLE_CELL_WIDTH
     add_title_row(grid, 'Period', [
-        DCell(period, period_width, TITLE_TEXT_CELL_FMT)
+        DCell(period, period_width, STOCK_TEXT_CELL_FMT)
     ])
 
 
@@ -265,8 +287,8 @@ def add_stock(grid: DGrid, result: dict, mark: int = None):
     stock_width = grid.width - (grid.gap * 2) - TITLE_CELL_WIDTH - \
                         CUR_CELL_WIDTH
     add_title_row(grid, 'Stock', [
-        DCell(stock, stock_width, TITLE_TEXT_CELL_FMT),
-        DCell(result[CURRENCY], CUR_CELL_WIDTH, TITLE_CUR_CELL_FMT)
+        DCell(stock, stock_width, STOCK_TEXT_CELL_FMT),
+        DCell(result[CURRENCY], CUR_CELL_WIDTH, STOCK_CUR_CELL_FMT)
     ])
 
     # add marker to result
@@ -459,4 +481,3 @@ def data_is_missing(result: dict, prop: str) -> bool:
         bool: True if data missing
     """
     return data_missing_info(result, prop)['missing']
-
