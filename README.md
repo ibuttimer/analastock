@@ -1,3 +1,20 @@
+# AnalaStock
+
+AnalaStock allows users to analyse the performance of historical stock data.
+A single stock may be analysed or multiple stocks compared.
+
+The site is aimed at investors and stock market analysts.
+
+Section links
+- [Features](#features)
+- [Design](#design)
+- [Development/Local Deployment](#developmentlocal-deployment)
+- [Testing](#testing)
+- [Cloud-based Deployment](#cloud-based-deployment)
+- [Credits](#credits)
+
+## Features 
+TODO
 
 ## Design
 The design specification is available in [design.md](doc/design/design.md).
@@ -121,14 +138,17 @@ The application structure is split in two; a [Total.js](https://www.totaljs.com/
    └─ utils_tests       - utility tests
 ```
 
-## Deployment
+## Testing 
+Details of the testing undertaken are outlined in [test.md](doc/test/test.md), along with the results.
+
+## Cloud-based Deployment
 
 The site was deployed on [Heroku](https://www.heroku.com).
 
 The following steps were followed to deploy the website: 
   - Login to Heroku
   - From the dashboard select `New -> Create new app`
-  - Set the values for `App name`, choose the appropriate region and click `Create app`
+  - Set the value for `App name`, choose the appropriate region and click `Create app`
   - From the app settings, select the `Settings` tab.
     - Under `Buildpacks` add the following buildpacks
       1. `heroku/python`
@@ -143,7 +163,7 @@ The following steps were followed to deploy the website:
 
       See [Table 1: Configuration settings](#table-1-configuration-settings) for details.
 
-      If any other setting vary from the defaults outlined in [Table 1: Configuration settings](#table-1-configuration-settings) they must be added as well.
+      If any other settings vary from the defaults outlined in [Table 1: Configuration settings](#table-1-configuration-settings) they must be added as well.
 
   - From the app settings, select the `Deploy` tab.
     - For the `Deployment method`, select `GitHub` and link the Heroku app to the GitHub repository.
