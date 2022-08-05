@@ -9,6 +9,7 @@ from process import (
     process_ibm, stock_analysis_menu, process_exchanges, company_name_search
 )
 
+
 load_dotenv('../.env')  # take environment variables from .env.
 
 init()  # init Colorama
@@ -24,11 +25,12 @@ menu: Menu = Menu(
     options=Menu.OPT_NO_ABORT_BACK
 )
 
+
 def run_app():
     """ Run the application """
 
     # HACK process_ibm
-    #process_ibm()
+    # process_ibm()
 
     loop: bool = True
     while loop:
@@ -37,6 +39,7 @@ def run_app():
         loop = menu.is_open
 
     info('Bye')
+
 
 if __name__ == "__main__":
     run_app()

@@ -138,6 +138,15 @@ The application structure is split in two; a [Total.js](https://www.totaljs.com/
    └─ utils_tests       - utility tests
 ```
 
+### Potential Visual Studio Code issues
+- Invalid message: Duplicate entries in "env"
+
+    Please see [Debugging test in VS Code does not work](https://github.com/microsoft/vscode-python/issues/10722)
+
+- 'EOFError: EOF when reading a line' when reading input in "DEBUG CONSOLE"
+
+  Please see [EOF Error on 1st line](https://stackoverflow.com/a/64236008) and [Python debugging in VS Code](https://code.visualstudio.com/docs/python/debugging#_console)
+
 ## Testing 
 Details of the testing undertaken are outlined in [test.md](doc/test/test.md), along with the results.
 

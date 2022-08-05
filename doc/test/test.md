@@ -2,13 +2,16 @@
 
 Test release: [Release ??]()
 
+## Environment
+If using a [Virtual Environment](../../README.md#virtual-environment), ensure it is activated. Please see [Activating a virtual environment](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#activating-a-virtual-environment).
+
 The site was tested using the following methods:
 
-## Unittest Unit Testing 
+## Unittest Unit Testing
 Unit testing of scripts was undertaken using [unittest](https://docs.python.org/3/library/unittest.html#module-unittest).
 The test scripts are located in the [tests](../../tests/) folder.
 
-**Note:** If using a [Virtual Environment](../../README.md#virtual-environment), ensure it is activated. Please see [Activating a virtual environment](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#activating-a-virtual-environment).
+**Note:** [Environment](#environment)
 
 The tests may be run from the project root folder:
 ```shell
@@ -21,6 +24,30 @@ Run an individual test, e.g.
 Alternatively, if using Visual Studio Code, the [Test Explorer UI](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer) or Visual Studio Code's native testing UI<sup>*</sup>, allows tests to be run from the sidebar of Visual Studio Code.
 
 <sup>*</sup> Set `testExplorer.useNativeTesting` to true in the Visual Studio Code settings.
+
+## PEP8 Testing
+[PEP8](https://peps.python.org/pep-0008/) compliance testing was performed using [pycodestyle](https://pypi.org/project/pycodestyle/)
+
+**Note:** [Environment](#environment)
+
+The tests may be run from the project root folder:
+```shell
+Run all tests
+> pycodestyle .
+
+Run an individual test, e.g.
+> pycodestyle sheets\load_data.py 
+```
+
+The basic pycodestyle configuration is contained in [setup.cfg](../../setup.cfg). See [Configuration](https://pycodestyle.pycqa.org/en/latest/intro.html#configuration) for additional configuration options.
+
+> **Note:** PEP8 testing is also performed as part of the unit test suite, see [test_style.py](../tests/../../tests/test_style.py).
+> When running unit tests from the terminal, it may be disabled by setting the `SKIP_PEP8` environment variable to `y` or `n`.
+
+```shell
+For Linux and Mac:                            For Windows:
+$ export SKIP_PEP8=y                          > set SKIP_PEP8=y
+```
 
 ## Manual 
 The site was manually tested in the following browsers:

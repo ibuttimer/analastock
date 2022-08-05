@@ -22,7 +22,7 @@ class TestBase(TestCase):
     @classmethod
     def setUpClass(cls):
         # https://adamj.eu/tech/2020/10/13/how-to-mock-environment-variables-with-pythons-unittest/
-        
+
         # use LevelQuotaMgr for unit tests as RateQuotaMgr needs to be at
         # about 50% to avoid Google Quota exceeded API errors
         # TODO revisit quota managers

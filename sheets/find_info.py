@@ -13,10 +13,10 @@ from .spread_ops import sheet_find, sheet_findall, sheet_get_values
 
 
 def find(
-        sheet: gspread.worksheet.Worksheet,
-        query: Union[str, object], row: int = None, col: int = None,
-        case_sensitive: bool = True
-    ) -> Union[gspread.cell.Cell, None]:
+            sheet: gspread.worksheet.Worksheet,
+            query: Union[str, object], row: int = None, col: int = None,
+            case_sensitive: bool = True
+        ) -> Union[gspread.cell.Cell, None]:
     """
     Find the first cell matching the query.
 
@@ -37,15 +37,15 @@ def find(
     """
     # https://docs.gspread.org/en/v5.4.0/api/models/worksheet.html#gspread.worksheet.Worksheet.find
 
-    return sheet_find(sheet,
-        query, in_row=row, in_column=col, case_sensitive=case_sensitive)
+    return sheet_find(sheet, query, in_row=row, in_column=col,
+                      case_sensitive=case_sensitive)
 
 
 def find_all(
-        sheet: gspread.worksheet.Worksheet,
-        query: Union[str, object], row: int = None, col: int = None,
-        case_sensitive: bool = True
-    ) -> List[gspread.cell.Cell]:
+            sheet: gspread.worksheet.Worksheet,
+            query: Union[str, object], row: int = None, col: int = None,
+            case_sensitive: bool = True
+        ) -> List[gspread.cell.Cell]:
     """
     Find all cells matching the query.
 
@@ -67,8 +67,8 @@ def find_all(
 
     # https://docs.gspread.org/en/v5.4.0/api/models/worksheet.html#gspread.worksheet.Worksheet.findall
 
-    return sheet_findall(sheet,
-        query, in_row=row, in_column=col, case_sensitive=case_sensitive)
+    return sheet_findall(sheet, query, in_row=row, in_column=col,
+                         case_sensitive=case_sensitive)
 
 
 def read_data_by_date(
