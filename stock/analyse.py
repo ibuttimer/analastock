@@ -8,7 +8,7 @@ from collections import namedtuple
 
 import pandas as pd
 from utils import (
-    get_input, error, ABORT, last_day_of_month, FRIENDLY_DATE_FMT,
+    get_input, error, ABORT, HELP, last_day_of_month, FRIENDLY_DATE_FMT,
     filter_data_frame_by_date, convert_date_time, DateFormat
 )
 from .data import StockDownload, StockParam
@@ -16,20 +16,26 @@ from .enums import DfColumn, DfStat, AnalysisRange
 
 
 DATE_SEP = '-'
+SLASH_SEP = '/'
+DOT_SEP = '.'
 DATE_FORM = f'dd{DATE_SEP}mm{DATE_SEP}yyyy'
 DATE_FORMAT = f'%d{DATE_SEP}%m{DATE_SEP}%Y'
 DATE_FMT = '{day}'+DATE_SEP+'{mth}'+DATE_SEP+'{year}'
 
 MIN_DATE = datetime(1962, 2, 1)
 
-SYMBOL_HELP = f"Enter symbol for the stock required, or '{ABORT}' to cancel.\n"\
+SYMBOL_HELP = f"Enter symbol for the stock required, "\
+                f"or '{ABORT}' to cancel.\n"\
               f"e.g. IBM: International Business Machines Corporation"
 FROM_DATE_HELP = f"Enter analysis start date, or '{ABORT}' to cancel"
 TO_DATE_HELP = f"Enter analysis end date (excluded from analysis), "\
                f"or '{ABORT}' to cancel"
-PERIOD_HELP = f"Enter period in either of the following forms:\n"\
-              f"   - '[period] [from|to|ytd] [{DATE_FORM}]'\n"\
+
+PERIOD_TYPES = f"   - '[period] [from|to] [{DATE_FORM}]'\n"\
               f"   - '[{DATE_FORM}] [from|to] [{DATE_FORM}]'\n"\
+              f"   - 'ytd [{DATE_FORM}]'\n"
+PERIOD_HELP = f"Enter period in either of the following forms:\n"\
+              f"{PERIOD_TYPES}"\
               f"or enter '{ABORT}' to cancel.\n"\
               f"where: [period]      - is of the form '[0-9][d|w|m|y]' "\
                 f"with 'd' for day,\n"\
@@ -43,16 +49,32 @@ PERIOD_HELP = f"Enter period in either of the following forms:\n"\
               f"                       e.g. 'ytd "\
                 f"{datetime.now().strftime(DATE_FORMAT)}'\n"\
               f"       [{DATE_FORM}]  - date, or today if omitted"
+PERIOD_ERROR = f"Invalid period, enter like\n"\
+              f"{PERIOD_TYPES}"\
+              f"or '{HELP}' for more information."
+
+
+# TODO add more entry methods, abbreviated month etc. and
+# suggestions for incorrect input(?)
 
 DATE_REGEX = rf"(\d+){DATE_SEP}(\d+){DATE_SEP}(\d+)"
 PERIOD_REGEX = r"(\d+)([dwmy])"
-DMY_DMY_REGEX = re.compile(
-    rf"^\s*{DATE_REGEX}\s+(\w+)\s+{DATE_REGEX}\s*$")
-DMY_REGEX = re.compile(
-    rf"^\s*{PERIOD_REGEX}\s+(\w+)\s+{DATE_REGEX}\s*$")
-DMY_NOW_REGEX = re.compile(rf"^\s*{PERIOD_REGEX}\s+(\w+)\s*$")
-YTD_REGEX = re.compile(rf"^\s*(\w+)\s+{DATE_REGEX}\s*$")
-YTD_NOW_REGEX = re.compile(r"^\s*(\w+)\s*$")
+REGEX = {
+    'dmy-dmy-dash': re.compile(
+        rf"^\s*{DATE_REGEX}\s+(\w+)\s+{DATE_REGEX}\s*$"),
+    'dmy-dash': re.compile(
+        rf"^\s*{PERIOD_REGEX}\s+(\w+)\s+{DATE_REGEX}\s*$"),
+    'period-now': re.compile(rf"^\s*{PERIOD_REGEX}\s+(\w+)\s*$"),
+    'ytd-dmy-dash': re.compile(rf"^\s*(\w+)\s+{DATE_REGEX}\s*$"),
+    'ytd-now': re.compile(r"^\s*(\w+)\s*$")
+}
+# all keys with dates
+for ytd_key in ['dmy-dmy-dash', 'dmy-dash', 'ytd-dmy-dash']:
+    for sep, name in [(SLASH_SEP, 'slash'), (DOT_SEP, 'dot')]:
+        # generate additional dmy regex by replacing date separator
+        REGEX[f'{ytd_key}-{name}'] = re.compile(
+                    REGEX[ytd_key].pattern.replace(DATE_SEP, sep))
+
 PERIOD_KEYS = [
             'num',          # (int): unit count
             'time_unit',    # (str): time unit; d/m/y
@@ -124,7 +146,7 @@ def validate_date_limit(
 
     Args:
         limit_datetime (datetime): date to pass check of
-        check (str): check to perform; '<', '<=', '==', '>=' or '>'
+        check (str): error check to perform; '<', '<=', '==', '>=' or '>'
 
     Returns:
         Callable[[str], Union[datetime, None]]: validation function
@@ -197,23 +219,12 @@ def validate_period(period_str: str) -> Union[Period, None]:
     period = None
     period_str = period_str.strip().lower()
 
-    for regex_idx, regex in enumerate([
-            # check formats like 'dd-mm-yyyy to dd-mm-yyyy'
-            DMY_DMY_REGEX,
-            # check formats like '1d from dd-mm-yyyy'
-            DMY_REGEX,
-            # check formats with omitted date like '1d from'
-            DMY_NOW_REGEX,
-            # check formats like 'ytd dd-mm-yyyy'
-            YTD_REGEX,
-            # check formats with omitted date like 'ytd'
-            YTD_NOW_REGEX
-        ]):
+    for regex_key, regex in REGEX.items():
         match = regex.match(period_str)
         if match:
             params = period_param_template()
 
-            if regex_idx == 0:
+            if regex_key.startswith('dmy-dmy'):
                 # check formats like 'dd-mm-yyyy to dd-mm-yyyy'
                 # day/mth/year period keys at end,
                 # follow regex group order of DMY_DMY_REGEX
@@ -227,38 +238,39 @@ def validate_period(period_str: str) -> Union[Period, None]:
 
                 period = get_dmy_dmy_period(
                             params, match.group(4), params2)
-            elif regex_idx == 1:
+                params = None
+            elif regex_key.startswith('dmy'):
                 # check formats like '1d from dd-mm-yyyy'
                 # period keys follows regex group order of DMY_REGEX
                 for idx, key in enumerate(PERIOD_KEYS):
                     params[key] = match.group(idx + 1)
-            elif regex_idx == 2:
+            elif regex_key == 'period-now':
                 # check formats with omitted date like '1d from'
                 # period keys follows regex group order of DMY_NOW_REGEX
                 # excluding day/mth/year at end
                 for idx, key in enumerate(PERIOD_KEYS):
                     if idx < DAY_KEY_IDX:
                         params[key] = match.group(idx + 1)
-            elif regex_idx == 3:
+            elif regex_key.startswith('ytd-dmy'):
                 # check formats like 'ytd dd-mm-yyyy'
                 # dir/day/mth/year period keys at end,
                 # follow regex group order of YTD_REGEX
                 for idx in range(DIR_KEY_IDX, len(PERIOD_KEYS)):
                     params[PERIOD_KEYS[idx]] =\
                         match.group(idx - DIR_KEY_IDX + 1)
-            elif regex_idx == 4:
+            elif regex_key == 'ytd-now':
                 # check formats with omitted date like 'ytd'
                 # dir/day/mth/year period keys at end,
                 # follow regex group order of YTD_REGEX
                 params[PERIOD_KEYS[DIR_KEY_IDX]] = match.group(1)
 
-            if regex_idx > 0:
+            if params is not None:
                 period = make_dmy_period(params)
 
             if period:
                 break
     else:
-        error('Invalid period')
+        error(PERIOD_ERROR)
 
     return period
 
@@ -431,6 +443,8 @@ def get_dmy_dmy_period(params: dict, preposition: str,
     """
     period = None
 
+    # TODO if y is 2 digits assume 2000
+
     day, month, year = param_date(params)
     in_date = validate_date(DATE_FMT.format(day=day, mth=month, year=year))
 
@@ -441,6 +455,7 @@ def get_dmy_dmy_period(params: dict, preposition: str,
 
     if in_date and out_date and preposition in ['from', 'to']:
         if validate_date_limit(in_date,
+                # error condition check
                 GT if preposition == 'to' else LT)(
                     out_date.strftime(DATE_FORMAT)
                 ):
