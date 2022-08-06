@@ -57,23 +57,18 @@ PERIOD_ERROR = f"Invalid period, enter like\n"\
 # TODO add more entry methods, abbreviated month etc. and
 # suggestions for incorrect input(?)
 
-DATE_REGEX = rf"(\d+){DATE_SEP}(\d+){DATE_SEP}(\d+)"
+SEP_REGEX = rf'[{DATE_SEP}{SLASH_SEP}{DOT_SEP}]'
+DMY_REGEX = rf"(\d+){SEP_REGEX}{{1}}(\d+){SEP_REGEX}{{0,1}}(\d*)"
 PERIOD_REGEX = r"(\d+)([dwmy])"
 REGEX = {
-    'dmy-dmy-dash': re.compile(
-        rf"^\s*{DATE_REGEX}\s+(\w+)\s+{DATE_REGEX}\s*$"),
-    'dmy-dash': re.compile(
-        rf"^\s*{PERIOD_REGEX}\s+(\w+)\s+{DATE_REGEX}\s*$"),
+    'dmy-dmy': re.compile(
+        rf"^\s*{DMY_REGEX}\s+(\w+)\s+{DMY_REGEX}\s*$"),
+    'dmy': re.compile(
+        rf"^\s*{PERIOD_REGEX}\s+(\w+)\s+{DMY_REGEX}\s*$"),
     'period-now': re.compile(rf"^\s*{PERIOD_REGEX}\s+(\w+)\s*$"),
-    'ytd-dmy-dash': re.compile(rf"^\s*(\w+)\s+{DATE_REGEX}\s*$"),
+    'ytd-dmy': re.compile(rf"^\s*(\w+)\s+{DMY_REGEX}\s*$"),
     'ytd-now': re.compile(r"^\s*(\w+)\s*$")
 }
-# all keys with dates
-for ytd_key in ['dmy-dmy-dash', 'dmy-dash', 'ytd-dmy-dash']:
-    for sep, name in [(SLASH_SEP, 'slash'), (DOT_SEP, 'dot')]:
-        # generate additional dmy regex by replacing date separator
-        REGEX[f'{ytd_key}-{name}'] = re.compile(
-                    REGEX[ytd_key].pattern.replace(DATE_SEP, sep))
 
 PERIOD_KEYS = [
             'num',          # (int): unit count
