@@ -7,14 +7,15 @@ import unittest
 from collections import namedtuple
 from stock import standardise_stock_param, StockParam
 from stock.analyse import (
-    DATE_FORMAT, DATE_SEP, DOT_SEP, SLASH_SEP, validate_period, MONTHS
+    DATE_FORMAT, DATE_SEP, DOT_SEP, SLASH_SEP, SPACE_SEP, MONTHS,
+    validate_period
 )
 
 
 Param = namedtuple("Param", ['test_date', 'from_ans', 'to_ans', 'step'])
 
 # separators
-SEP_LIST = [DATE_SEP, SLASH_SEP, DOT_SEP]
+SEP_LIST = [DATE_SEP, SLASH_SEP, DOT_SEP, SPACE_SEP]
 
 class TestAnalyse(unittest.TestCase):
     """
@@ -223,7 +224,7 @@ class TestAnalyse(unittest.TestCase):
         Test period validation for day/month/year for month boundaries
 
         Args:
-            from_fmt (Callable[[datetime], str]): 
+            from_fmt (Callable[[datetime], str]):
                     function to return format of test date
             track (str): test tracking
         """

@@ -18,6 +18,7 @@ from .enums import DfColumn, DfStat, AnalysisRange
 DATE_SEP = '-'
 SLASH_SEP = '/'
 DOT_SEP = '.'
+SPACE_SEP = ' '
 DATE_FORM = f'dd{DATE_SEP}mm{DATE_SEP}yyyy'
 DATE_FORMAT = f'%d{DATE_SEP}%m{DATE_SEP}%Y'
 DATE_FMT = '{day}'+DATE_SEP+'{mth}'+DATE_SEP+'{year}'
@@ -72,7 +73,7 @@ MONTHS = {
     12: ['dec', 'december'],
 }
 
-SEP_REGEX = rf'[{DATE_SEP}{SLASH_SEP}{DOT_SEP}]'
+SEP_REGEX = rf'[{DATE_SEP}{SLASH_SEP}{DOT_SEP}{SPACE_SEP}]'
 DMY_REGEX = rf"(\d+){SEP_REGEX}{{1}}(\d+){SEP_REGEX}{{0,1}}(\d*)"
 
 DMY_TEXT_REGEX = rf"(\d+){SEP_REGEX}{{1}}([a-zA-Z0-9]+){SEP_REGEX}{{0,1}}(\d*)"
