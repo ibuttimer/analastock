@@ -62,7 +62,8 @@ class TestSearch(TestBase):
         self.assertEqual(expected_partials, len(results))
         res_idx = 0
         for i, entry in enumerate(test_data):
-            if not entry[CompanyColumn.NAME.value - 1].startswith(partial_name):
+            if not entry[CompanyColumn.NAME.value - 1]\
+                        .startswith(partial_name):
                 continue
 
             with self.subTest(msg=f'entry[{i}] {entry}'):
@@ -116,7 +117,8 @@ class TestSearch(TestBase):
         expected_partials = len(
             list(
                 filter(
-                    lambda entry: entry.symbol.startswith(partial_name), results
+                    lambda entry: \
+                        entry.symbol.startswith(partial_name), results
                 )
             )
         )

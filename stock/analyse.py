@@ -57,16 +57,39 @@ PERIOD_ERROR = f"Invalid period, enter like\n"\
 # TODO add more entry methods, abbreviated month etc. and
 # suggestions for incorrect input(?)
 
+MONTHS = {
+    1: ['jan', 'january'],
+    2: ['feb', 'february'],
+    3: ['mar', 'march'],
+    4: ['apr', 'april'],
+    5: ['may'],
+    6: ['jun', 'june'],
+    7: ['jul', 'july'],
+    8: ['aug', 'august'],
+    9: ['sep', 'september', 'sept'],
+    10: ['oct', 'october'],
+    11: ['nov', 'november'],
+    12: ['dec', 'december'],
+}
+
 SEP_REGEX = rf'[{DATE_SEP}{SLASH_SEP}{DOT_SEP}]'
 DMY_REGEX = rf"(\d+){SEP_REGEX}{{1}}(\d+){SEP_REGEX}{{0,1}}(\d*)"
+
+DMY_TEXT_REGEX = rf"(\d+){SEP_REGEX}{{1}}([a-zA-Z0-9]+){SEP_REGEX}{{0,1}}(\d*)"
+
 PERIOD_REGEX = r"(\d+)([dwmy])"
 REGEX = {
     'dmy-dmy': re.compile(
         rf"^\s*{DMY_REGEX}\s+(\w+)\s+{DMY_REGEX}\s*$"),
-    'dmy': re.compile(
+    'dmy-dmy-text': re.compile(
+        rf"^\s*{DMY_TEXT_REGEX}\s+(\w+)\s+{DMY_TEXT_REGEX}\s*$"),
+    'dmy-period': re.compile(
         rf"^\s*{PERIOD_REGEX}\s+(\w+)\s+{DMY_REGEX}\s*$"),
+    'dmy-period-text': re.compile(
+        rf"^\s*{PERIOD_REGEX}\s+(\w+)\s+{DMY_TEXT_REGEX}\s*$"),
     'period-now': re.compile(rf"^\s*{PERIOD_REGEX}\s+(\w+)\s*$"),
     'ytd-dmy': re.compile(rf"^\s*(\w+)\s+{DMY_REGEX}\s*$"),
+    'ytd-dmy-text': re.compile(rf"^\s*(\w+)\s+{DMY_TEXT_REGEX}\s*$"),
     'ytd-now': re.compile(r"^\s*(\w+)\s*$")
 }
 
@@ -221,6 +244,8 @@ def validate_period(period_str: str) -> Union[Period, None]:
 
             if regex_key.startswith('dmy-dmy'):
                 # check formats like 'dd-mm-yyyy to dd-mm-yyyy'
+                # or 'dd-MMM-yyyy to dd-MMM-yyyy'
+
                 # day/mth/year period keys at end,
                 # follow regex group order of DMY_DMY_REGEX
                 # d:1 m:2 y:3 to:4 d:5 m:6 y:7
@@ -231,11 +256,18 @@ def validate_period(period_str: str) -> Union[Period, None]:
                     params[key] = match.group(group)
                     params2[key] = match.group(group + 4)
 
+                if 'text' in regex_key:
+                    # convert string months
+                    for param in [params, params2]:
+                        convert_param_str_month(param)
+
                 period = get_dmy_dmy_period(
                             params, match.group(4), params2)
                 params = None
             elif regex_key.startswith('dmy'):
                 # check formats like '1d from dd-mm-yyyy'
+                # or '1d from dd-MMM'
+
                 # period keys follows regex group order of DMY_REGEX
                 for idx, key in enumerate(PERIOD_KEYS):
                     params[key] = match.group(idx + 1)
@@ -248,6 +280,8 @@ def validate_period(period_str: str) -> Union[Period, None]:
                         params[key] = match.group(idx + 1)
             elif regex_key.startswith('ytd-dmy'):
                 # check formats like 'ytd dd-mm-yyyy'
+                # or 'ytd dd-MMM'
+
                 # dir/day/mth/year period keys at end,
                 # follow regex group order of YTD_REGEX
                 for idx in range(DIR_KEY_IDX, len(PERIOD_KEYS)):
@@ -260,6 +294,10 @@ def validate_period(period_str: str) -> Union[Period, None]:
                 params[PERIOD_KEYS[DIR_KEY_IDX]] = match.group(1)
 
             if params is not None:
+                if 'text' in regex_key:
+                    # convert string months
+                    convert_param_str_month(params)
+
                 period = make_dmy_period(params)
 
             if period:
@@ -295,6 +333,26 @@ def param_date(params: dict) -> Tuple[int]:
         # 2 digit year, assume this century
         year += (int(today.year / 100) * 100)
     return day, month, year
+
+
+def convert_param_str_month(params: dict):
+    """
+    Convert month strings to number in a params object
+
+    Args:
+        params (dict): params object
+    """
+    if not params['month'].isnumeric():
+        param_mth = params['month'].lower()
+        for mth, mth_strs in MONTHS.items():
+            found = False
+            for mth_str in mth_strs:
+                if param_mth == mth_str:
+                    params['month'] = mth
+                    found = True
+                    break
+            if found:
+                break
 
 
 def make_dmy_period(params: dict) -> Union[Period, None]:
