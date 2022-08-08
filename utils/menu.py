@@ -3,12 +3,11 @@ Menu related functions
 """
 from collections import namedtuple
 import dataclasses
-from typing import Any, Callable, List, Union
+from typing import Any, Callable, List, Tuple, Union
 
 from .constants import ABORT, PAGE_UP, PAGE_DOWN
 from .input import get_input, user_confirm
 from .output import error, title
-
 
 MenuOption = namedtuple("MenuOption", ['key', 'name'])
 
@@ -59,6 +58,7 @@ class MenuEntry:
     def __str__(self) -> str:
         return f'{self.__class__.__name__}(' \
                f'{self.name}, {self.key}, {self.is_close})'
+
 
 @dataclasses.dataclass
 class CloseMenuEntry(MenuEntry):
@@ -117,7 +117,6 @@ class Menu:
         up_down_hook(menu: Menu, start: int, end: int)
     """
 
-
     def __init__(
             self, *args, menu_title: str = None, rows: int = DEFAULT_ROWS,
             help_text: str = None, options: int = NO_OPTIONS
@@ -143,10 +142,9 @@ class Menu:
         self.help_text = help_text
         self.options = options
         self.up_down_hook = None
-        self._start = 0         # index of first item to display
-        self._end = rows        # index of last item to display (excluded)
-        self._page_keys = []    # keys for the currently displayed page
-
+        self._start = 0  # index of first item to display
+        self._end = rows  # index of last item to display (excluded)
+        self._page_keys = []  # keys for the currently displayed page
 
     def set_entries(self, entries: List[MenuEntry]):
         """
@@ -156,7 +154,6 @@ class Menu:
             entries (List[MenuEntry]): entries to set
         """
         self.entries = entries
-
 
     def add_entry(self, entry: MenuEntry) -> bool:
         """
@@ -173,17 +170,17 @@ class Menu:
             self.entries.append(entry)
         return pre_len != len(self.entries)
 
-
     def display(self):
         """
         Display the menu
         """
         self._page_keys.clear()
 
-        print('\f',end='')
-        title(f'{self.title} '
-              f'{f"[{self.page}/{self.num_pages}] " if self.multi_page else ""}'
-        )
+        print('\f', end='')
+
+        multi_page = \
+            f" [{self.page}/{self.num_pages}]" if self.multi_page else ""
+        title(f'{self.title}{multi_page}')
 
         options = []
         key_width = 1
@@ -201,7 +198,6 @@ class Menu:
         for option in options:
             print(f'{option.key:>{key_width}}. {option.name}')
 
-
     def _entry_key(self, entry: MenuEntry, index: int):
         """
         Get the menu entries key
@@ -214,7 +210,6 @@ class Menu:
             str: key
         """
         return entry.key if entry.key else str(index + 1)
-
 
     def _is_valid_selection(self, key: str) -> Union[MenuEntry, None]:
         """
@@ -235,7 +230,6 @@ class Menu:
                 break
 
         return selection
-
 
     def process(self) -> Any:
         """
@@ -260,12 +254,12 @@ class Menu:
                 # page inc/dec processed
                 continue
 
-            do_page_check = True    # check selections are on current page
+            do_page_check = True  # check selections are on current page
             if selection == ABORT and \
                     not self.options & Menu.OPT_NO_ABORT_BACK:
                 # abort to close menu
                 selected_entry = self.find_close()
-                do_page_check = False   # don't check on current page
+                do_page_check = False  # don't check on current page
             else:
                 selected_entry = self._is_valid_selection(selection)
 
@@ -274,8 +268,8 @@ class Menu:
                 if do_page_check and selection not in self._page_keys:
                     # selection not on current page, verify correct
                     if not self.check_proceed(
-                        f"Selection '{selected_entry.name}' not on current "
-                        "page, confirm selection"
+                            f"Selection '{selected_entry.name}' not on current "
+                            "page, confirm selection"
                     ):
                         continue
 
@@ -293,7 +287,6 @@ class Menu:
 
         return result
 
-
     def check_proceed(self, msg: str) -> bool:
         """
         Check is user wishes to proceed
@@ -307,7 +300,6 @@ class Menu:
         return user_confirm(
             msg,
             help_text="Enter 'y' to proceed with selection, otherwise 'n'")
-
 
     def up_down_page(self, selection: str) -> bool:
         """
@@ -340,7 +332,7 @@ class Menu:
                     error_msg = 'No previous page'
 
             if pg_up_down:
-                processed = True    # selection processed
+                processed = True  # selection processed
                 if not error_msg:
                     self._start = start
                     self._end = start + self.display_rows
@@ -354,7 +346,6 @@ class Menu:
 
         return processed
 
-
     def set_up_down_hook(
             self, up_down_hook: Callable[[object, int, int], None]):
         """
@@ -364,7 +355,6 @@ class Menu:
             up_down_hook (Callable[[Menu, int, int], None]): hook function
         """
         self.up_down_hook = up_down_hook
-
 
     def find_close(self) -> Union[CloseMenuEntry, None]:
         """
@@ -392,7 +382,6 @@ class Menu:
 
         return items[0] if len(items) == 1 else None
 
-
     @property
     def multi_page(self):
         """
@@ -412,8 +401,7 @@ class Menu:
             int: current menu page
         """
         return int(self._start / self.display_rows) + 1 \
-                if self.multi_page else 1
-
+            if self.multi_page else 1
 
     @property
     def num_pages(self):
@@ -425,7 +413,7 @@ class Menu:
         """
         pages = int(len(self.entries) / self.display_rows)
         return pages + 1 if len(self.entries) % self.display_rows else \
-                pages if self.multi_page else 1
+            pages if self.multi_page else 1
 
     def generate_help(self) -> str:
         """ Generate menu help text """
@@ -437,7 +425,7 @@ class Menu:
         if self.multi_page or can_cancel:
             # append multi-page menu and cancel help
             pg_help = f"'{PAGE_UP}'/'{PAGE_DOWN}' to page up/down" \
-                        if self.multi_page else ""
+                if self.multi_page else ""
             cancel_help = f"'{ABORT}' to cancel" if can_cancel else ""
 
             if self.multi_page and can_cancel:
@@ -450,3 +438,49 @@ class Menu:
             help_text = f"{help_text}\nChoose {extra}."
 
         return help_text
+
+
+def pick_menu(
+        entries: List[Tuple[str, Any]], menu_title: str = None,
+        rows: int = Menu.DEFAULT_ROWS, help_text: str = None,
+        options: int = Menu.NO_OPTIONS) -> Any:
+    """
+    Auto-close menu to pick an option
+
+    Args:
+        entries (List[Tuple(str, Any)]):
+                list of entries of tuples of text, result
+        menu_title (str, optional): title to display.
+                                Defaults to None.
+        rows (int, optional): maximum number of rows of display.
+                                Defaults to 10.
+        help_text (str, optional): Help text to display. Defaults to None.
+        options (int, optional): Menu options. Defaults to NO_OPTIONS.
+
+    Returns:
+        Any: value of selected entry
+    """
+    result = None
+
+    def chose_func(value: Any):
+        def set_choice():
+            nonlocal result
+            result = value
+
+        return set_choice
+
+    menu: Menu = Menu(menu_title=menu_title, rows=rows, help_text=help_text,
+                      options=options)
+
+    for text, value in entries:
+        menu.add_entry(
+            CloseMenuEntry(text, chose_func(value))
+        )
+
+    loop: bool = True
+    while loop:
+        menu.process()
+
+        loop = menu.is_open
+
+    return result

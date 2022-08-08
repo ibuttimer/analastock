@@ -11,7 +11,9 @@ The site was tested using the following methods:
 Unit testing of scripts was undertaken using [unittest](https://docs.python.org/3/library/unittest.html#module-unittest).
 The test scripts are located in the [tests](../../tests/) folder.
 
-**Note:** [Environment](#environment)
+**Note 1:** [Environment](#environment)
+
+**Note 2:** The rate of execution of Google Sheets related tests is limited in order to avoid test failure due to exceeding the Google Sheets API, `Read requests per minute per user` and/or `Write requests per minute per user` [quotas](https://developers.google.com/sheets/api/limits)
 
 The tests may be run from the project root folder:
 ```shell

@@ -7,7 +7,7 @@ from .input import (
 from .output import (
     error, info, assistance, Colour, colorise, display, title, WrapMode
 )
-from .menu import MenuEntry, CloseMenuEntry, Menu
+from .menu import MenuEntry, CloseMenuEntry, Menu, pick_menu
 from .misc import (
     get_env_setting, last_day_of_month, load_json_file, load_json_string,
     save_json_file, friendly_date, filter_data_frame_by_date, DateFormat,
@@ -51,6 +51,7 @@ __all__ = [
     'MenuEntry',
     'CloseMenuEntry',
     'Menu',
+    'pick_menu',
 
     'get_env_setting',
     'last_day_of_month',
