@@ -5,7 +5,8 @@ from .input import (
     get_input, InputParam, user_confirm, get_int, valid_int_range
 )
 from .output import (
-    error, info, assistance, Colour, colorise, display, title, WrapMode
+    error, info, assistance, Colour, colorise, display, title, WrapMode,
+    spacer, Spacing
 )
 from .menu import MenuEntry, CloseMenuEntry, Menu, pick_menu
 from .misc import (
@@ -47,6 +48,8 @@ __all__ = [
     'display',
     'title',
     'WrapMode',
+    'spacer',
+    'Spacing',
 
     'MenuEntry',
     'CloseMenuEntry',

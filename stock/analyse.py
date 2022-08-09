@@ -10,7 +10,8 @@ from collections import namedtuple
 import pandas as pd
 from utils import (
     get_input, error, ABORT, HELP, last_day_of_month, FRIENDLY_DATE_FMT,
-    filter_data_frame_by_date, convert_date_time, DateFormat, pick_menu
+    filter_data_frame_by_date, convert_date_time, DateFormat, pick_menu,
+    Spacing
 )
 from .data import StockDownload, StockParam
 from .enums import DfColumn, DfStat, AnalysisRange
@@ -56,8 +57,9 @@ PERIOD_HELP = f"Enter period in either of the following forms:\n"\
               f"                       Note: [period] not required for "\
                 f"'{YTD}'.\n"\
               f"                       e.g. '{YTD} "\
-                f"{datetime.now().strftime(DATE_FORMAT)}'\n"\
-              f"       [{DATE_FORM}]  - date, or today if omitted"
+                f"{datetime.now().strftime(DATE_FORMAT)}'\n" \
+              f"       [{DATE_FORM}]  - date, or today if omitted\n"\
+              f"                       month names may be used"
 PERIOD_ERROR = f"Invalid period, enter like\n"\
               f"{PERIOD_TYPES}"\
               f"or '{HELP}' for more information."
@@ -88,7 +90,7 @@ DMY_REGEX = rf"(\d+){SEP_REGEX}{{1}}(\d+){SEP_REGEX}{{0,1}}(\d*)"
 DMY_TEXT_REGEX = rf"(\d+){SEP_REGEX}{{1}}([a-zA-Z]+){SEP_REGEX}{{0,1}}(\d*)"
 MY_REGEX = rf"(\d+){SEP_REGEX}{{1}}(\d+)"
 MY_TEXT_REGEX = rf"([a-zA-Z]+){SEP_REGEX}{{1}}(\d*)"
-PERIOD_REGEX = r"(\d+)([dwmy])"
+PERIOD_REGEX = r"(\d+)\s*([dwmy])"
 DMY_MY_KEY = re.compile(r'd?my-d?my')
 REGEX = {
     'period-now': re.compile(rf"^\s*{PERIOD_REGEX}\s+(\w+)\s*$"),
@@ -188,7 +190,7 @@ def validate_date_limit(
         limit_datetime: datetime,
         check: str) -> Callable[[str], Union[datetime, None]]:
     """
-    Decorator to validate a date and ensure passes passes ``check``
+    Decorator to validate a date and ensure passes ``check``
     against the specified date
 
     Args:
@@ -303,7 +305,8 @@ def validate_period(period_str: str) -> Union[Period, None]:
                         # follow regex group order of DMY_DMY_REGEX
                         # d:1 m:2 y:3 to:4 d:5 m:6 y:7
                         for step, prd_prm in enumerate([params, params2]):
-                            groups_to_params(match, DAY_KEY_IDX,
+                            groups_to_params(
+                                match, DAY_KEY_IDX,
                                 # dmy + preposition i.e. 4
                                 (step * (len(PERIOD_KEYS) - DAY_KEY_IDX + 1)),
                                 prd_prm)
@@ -311,10 +314,12 @@ def validate_period(period_str: str) -> Union[Period, None]:
                     elif len_groups == 6:
                         # index of 'from'/'to' determines if my-dmy or dmy-my
                         # d:1 m:2 y:3 to:4 m:5 y:6 or m:1 y:2 to:3 d:4 m:5 y:6
-                        groups_to_params(match,
+                        groups_to_params(
+                            match,
                             DAY_KEY_IDX if from_to_idx == 4 else MTH_KEY_IDX,
                             0, params)
-                        groups_to_params(match,
+                        groups_to_params(
+                            match,
                             MTH_KEY_IDX if from_to_idx == 4 else DAY_KEY_IDX,
                             # (dmy or my) + preposition i.e. 4 or 3
                             4 if from_to_idx == 4 else 3, params2)
@@ -322,7 +327,8 @@ def validate_period(period_str: str) -> Union[Period, None]:
                     elif len_groups == 5:
                         # my-my
                         for step, prd_prm in enumerate([params, params2]):
-                            groups_to_params(match, MTH_KEY_IDX,
+                            groups_to_params(
+                                match, MTH_KEY_IDX,
                                 # my + preposition i.e. 3
                                 (step * (len(PERIOD_KEYS) - MTH_KEY_IDX + 1)),
                                 prd_prm)
@@ -407,7 +413,7 @@ def groups_to_params(
 
 def period_param_template() -> dict:
     """ Generate period parameter object template """
-    return { key: None for key in PERIOD_KEYS }
+    return {key: None for key in PERIOD_KEYS}
 
 
 def param_date(params: dict) -> Tuple[int, int, int]:
@@ -459,7 +465,7 @@ def sanitise_params(params: dict, do_mth_text: bool):
             set_mth_yr()
 
         elif mth_len == 2 and params['month'].isnumeric() \
-                    and params['day'].isnumeric():
+                and params['day'].isnumeric():
             # ambiguous, mth-year or day-mth
 
             if int(params['month']) > 12:
@@ -532,12 +538,13 @@ def make_dmy_period(params: dict) -> Union[Period, None]:
     if valid:
 
         is_fwd = params['time_dir'] == FROM
-        num = (int(params['num'])\
-                if params['num'] else 0) * (1 if is_fwd else -1)
+        num = (int(params['num'])
+               if params['num'] else 0) * (1 if is_fwd else -1)
         time_unit = params['time_unit']
         # default to today's date
         day, month, year = param_date(params)
 
+        out_date = None
         in_date = validate_date(DATE_FMT.format(day=day, mth=month, year=year))
         if in_date:
             if time_unit == 'd':
@@ -565,10 +572,10 @@ def make_dmy_period(params: dict) -> Union[Period, None]:
 
                 if is_fwd:
                     step = 1    # step forward from
-                    not_new_year = not_december # no new year if not december
+                    not_new_year = not_december  # no new year if not december
                 else:
                     step = -1   # step back to
-                    not_new_year = not_january # no new year if not january
+                    not_new_year = not_january  # no new year if not january
 
                 num = num if num > 0 else -num  # positive loop control
                 while num > 0:
@@ -585,10 +592,9 @@ def make_dmy_period(params: dict) -> Union[Period, None]:
                     # otherwise original day
                     new_mth_last_day = last_day_of_month(yr_val, mth_val)
                     day_val = in_date.day if in_date.day < 28 else \
-                            new_mth_last_day if mth_last_day else \
-                                new_mth_last_day \
-                                    if in_date.day > new_mth_last_day \
-                                    else in_date.day
+                        new_mth_last_day if mth_last_day else \
+                        new_mth_last_day \
+                        if in_date.day > new_mth_last_day else in_date.day
 
                     out_date = out_date.replace(
                                 year=yr_val, month=mth_val, day=day_val)
@@ -603,11 +609,11 @@ def make_dmy_period(params: dict) -> Union[Period, None]:
             else:
                 valid = False
 
-            if valid:
+            if valid and out_date is not None:
                 period = Period(in_date, out_date) \
                             if is_fwd else Period(out_date, in_date)
-                valid = period.from_date < period.to_date and \
-                            period.to_date.date() <= datetime.now().date()
+                valid = period.from_date < period.to_date \
+                    and period.to_date.date() <= datetime.now().date()
                 if not valid:
                     period = None
 
@@ -642,7 +648,7 @@ def get_period_range(stock_param: StockParam) -> StockParam:
 
 
 def get_dmy_dmy_period(params: dict, preposition: str,
-                        params2: dict) -> Union[Period, None]:
+                       params2: dict) -> Union[Period, None]:
     """
     Get time period range for stock parameters
 
@@ -667,7 +673,8 @@ def get_dmy_dmy_period(params: dict, preposition: str,
     out_date = validate_date(DATE_FMT.format(day=day, mth=month, year=year))
 
     if in_date and out_date and preposition in PREPS:
-        if validate_date_limit(in_date,
+        if validate_date_limit(
+                in_date,
                 # error condition check
                 GT if preposition == TO else LT)(
                     out_date.strftime(DATE_FORMAT)
@@ -726,7 +733,7 @@ def get_stock_param_symbol(symbol: str = None) -> StockParam:
     if not symbol:
         symbol = get_input(
             'Enter stock symbol', validate=validate_symbol,
-            help_text=SYMBOL_HELP
+            help_text=SYMBOL_HELP, pre_spc=Spacing.SMALL
         )
 
     if symbol != ABORT:
@@ -883,8 +890,8 @@ def analyse_stock(
 
         # change
         start_vol = data_series.iat[0]
-        change = round_price(start_vol - \
-                            data_series.iat[len(data_series)-1])
+        change = round_price(
+            start_vol - data_series.iat[len(data_series)-1])
         analysis[DfStat.CHANGE.column_key(column)] = change
 
         # percentage change
@@ -933,8 +940,9 @@ def missing_data(req_date: date, recv_date: date):
             'end': (date)
         }
     """
-    data_delta = convert_date_time(recv_date, DateFormat.DATE) - \
-                    convert_date_time(req_date, DateFormat.DATE)
+    data_delta = convert_date_time(
+        recv_date,
+        DateFormat.DATE) - convert_date_time(req_date, DateFormat.DATE)
     return {
         # mark greater than a weekend as missing data
         'missing': data_delta.days > 2,

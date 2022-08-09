@@ -3,7 +3,7 @@ Unit tests for stock analyse functions
 """
 from datetime import datetime, timedelta, time
 from calendar import isleap
-from typing import Callable
+from typing import Callable, List, Union
 import unittest
 from collections import namedtuple
 from stock import standardise_stock_param, StockParam
@@ -207,7 +207,9 @@ class TestAnalyse(unittest.TestCase):
                                 mth = 1
                             target_date = \
                                 target_date + timedelta(
-                                    days=last_day_of_month(year, mth) * multiplier)
+                                    days=last_day_of_month(
+                                        year, mth) * multiplier
+                                )
                     else:
                         multiplier = (7 if unit == 'w' else 1)
                         days = (unit_count if is_from else -unit_count)\
@@ -215,10 +217,11 @@ class TestAnalyse(unittest.TestCase):
                         target_date = test_from + timedelta(days=days)
 
                     period_str = f'{unit_count}{unit} {time_dir} {date_str}'
+                    spaced_str = f'{unit_count} {unit} {time_dir} {date_str}'
 
                     # don't test 2 number years, covered in dmy_dmy_from_to()
 
-                    self.padding_check(period_str,
+                    self.padding_check([period_str, spaced_str],
                                        test_from if is_from else target_date,
                                        target_date if is_from else test_from,
                                        True,
@@ -589,8 +592,8 @@ class TestAnalyse(unittest.TestCase):
                             desc=f'day-month trk={track}')
 
     def padding_check(
-            self, period_str: str, test_from: datetime, test_to: datetime,
-            is_valid: bool, desc: str = None):
+            self, period_str: Union[List[str], str], test_from: datetime,
+            test_to: datetime, is_valid: bool, desc: str = None):
         """
         Do period string padding and extra text tests
 
@@ -601,23 +604,32 @@ class TestAnalyse(unittest.TestCase):
             is_valid (bool): expect a valid result
             desc (str, optional): description. Defaults to None.
         """
-        for padding_cmt, padding in [('no padding', ''), ('padding', ' ')]:
-            msg = f'{period_str} {f"{desc} " if desc else ""}{padding_cmt}'
-            with self.subTest(msg=msg):
+        if not isinstance(period_str, list):
+            period_str = [period_str]
 
-                period = validate_period(
-                    f'{padding}{period_str}{padding}')
-                if is_valid:
-                    self.assertIsNotNone(period)
-                    self.assertEqual(period.from_date, test_from)
-                    self.assertEqual(period.to_date, test_to)
-                else:
-                    self.assertIsNone(period)
+        for period_txt in period_str:
+            for padding_cmt, padding in [('no padding', ''), ('padding', ' ')]:
+                msg = f'{period_txt} {f"{desc} " if desc else ""}{padding_cmt}'
+                with self.subTest(msg=msg):
 
-        with self.subTest(msg=f'{period_str} trailing text'):
+                    period = validate_period(
+                        f'{padding}{period_txt}{padding}')
+                    if is_valid:
+                        self.assertIsNotNone(period)
+                        self.assertEqual(period.from_date, test_from)
+                        self.assertEqual(period.to_date, test_to)
+                    else:
+                        self.assertIsNone(period)
 
-            period = validate_period(f'{period_str} xyz')
-            self.assertIsNone(period)
+            with self.subTest(msg=f'preceding test {period_txt}'):
+
+                period = validate_period(f'xyz {period_txt}')
+                self.assertIsNone(period)
+
+            with self.subTest(msg=f'{period_txt} trailing text'):
+
+                period = validate_period(f'{period_txt} xyz')
+                self.assertIsNone(period)
 
     @staticmethod
     def get_month_text(test_date: datetime, mth_idx: int) -> str:

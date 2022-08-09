@@ -23,7 +23,7 @@ def get_env_setting(
 
     Args:
         key (str): variable name
-        defaultValue (Any, optional):
+        default_value (Any, optional):
                 Default value if not present. Defaults to None.
         required (bool): Required flag
 
@@ -39,7 +39,7 @@ def get_env_setting(
 
     if not value and required:
         raise ValueError(
-            f"The required setting '{key}' is not specified, "\
+            f"The required setting '{key}' is not specified, " \
             f"please set '{key}'")
 
     return value
@@ -59,8 +59,8 @@ def last_day_of_month(year: int, month: int) -> int:
     # 30 days hath sept, apr, jun & nov, all the rest have 31 save
     # feb which one in four has one day more
     return 29 if month == 2 and isleap(year) else \
-            28 if month == 2 else \
-            30 if month in [9, 4, 6, 11] else 31
+        28 if month == 2 else \
+        30 if month in [9, 4, 6, 11] else 31
 
 
 def load_json_file(filepath: str) -> Union[dict, None]:
@@ -137,7 +137,7 @@ def friendly_date(date_time: datetime) -> str:
         date_time (datetime): date time
 
     Returns:
-        str: dat string
+        str: date string
     """
     return date_time.strftime(FRIENDLY_DATE_FMT)
 
@@ -172,7 +172,7 @@ def filter_data_frame_by_date(
 
     return data_frame[
         (data_frame[column] >= min_date) & (data_frame[column] < max_date)
-    ]
+        ]
 
 
 class DateFormat(Enum):
@@ -184,9 +184,10 @@ class DateFormat(Enum):
     FRIENDLY_DATE = auto()
     """ Convert to user friendly string """
 
+
 def convert_date_time(
-            date_time: Union[datetime, date], required: DateFormat
-        ) -> Union[datetime, date, str]:
+        date_time: Union[datetime, date], required: DateFormat
+) -> Union[datetime, date, str]:
     """
     Convert datetime/date objects
 
@@ -210,19 +211,19 @@ def convert_date_time(
     return conversion
 
 
-def drill_dict(source: dict, *args, defaultValue: Any = None) -> Any:
+def drill_dict(source: dict, *args, default_value: Any = None) -> Any:
     """
     Get a values from a dict
 
     Args:
         source (dict): source dict
         *args (List[str]): path to required value
-        defaultValue (Any, optional): default value. Defaults to None.
+        default_value (Any, optional): default value. Defaults to None.
 
     Returns:
         Any: value or ``defaultValue`` if not found
     """
-    value = defaultValue
+    value = default_value
     obj = source
     for prop in args:
         if prop in obj:
