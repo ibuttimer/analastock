@@ -4,7 +4,7 @@ Miscellaneous functions
 from typing import Any, Callable, List, Union
 
 
-class Pagination():
+class Pagination:
     """ Class representing a pagination """
 
     items: List[Any]
@@ -18,14 +18,12 @@ class Pagination():
     transform_func: Callable[[List[Any]], List[Any]]
     """ Function to transform items to return """
 
-
     def __init__(
             self, items: List[Any], page_size: int = 10,
             transform_func: Callable[[object], List[Any]] = None) -> None:
         self.items = items
         self.transform_func = transform_func
         self.set_page_size(page_size)
-
 
     def set_page_size(self, page_size: int):
         """
@@ -40,10 +38,8 @@ class Pagination():
             self.num_pages += 1
         self.page_num = 1
 
-
-    def get_page(
-                self, page_num: int, transform: bool = True
-            ) -> Union[List[Any], None]:
+    def get_page(self, page_num: int,
+                 transform: bool = True) -> Union[List[Any], None]:
         """
         Get the items for the specified page
 
@@ -67,7 +63,6 @@ class Pagination():
 
         return page_items
 
-
     def get_current_page(self, transform: bool = True) -> List[Any]:
         """
         Get the items for the current page
@@ -81,7 +76,6 @@ class Pagination():
         """
         return self.get_page(self.page_num, transform=transform)
 
-
     def next_page(self, transform: bool = True) -> Union[List[Any], None]:
         """
         Get the next page of items
@@ -94,7 +88,6 @@ class Pagination():
             Union[List[Any], None]: items or None if unavailable
         """
         return self.get_page(self.page_num + 1, transform=transform)
-
 
     def previous_page(
             self, transform: bool = True) -> Union[List[Any], None]:
@@ -151,7 +144,7 @@ class Pagination():
         return self.page_num > 1
 
     @property
-    def num_items(self) -> bool:
+    def num_items(self) -> int:
         """
         Total number of items
 

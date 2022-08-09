@@ -8,10 +8,10 @@ from typing import Callable, List, Tuple, Union
 from collections import namedtuple
 
 import pandas as pd
+
 from utils import (
     get_input, error, ABORT, HELP, last_day_of_month, FRIENDLY_DATE_FMT,
-    filter_data_frame_by_date, convert_date_time, DateFormat, pick_menu,
-    Spacing
+    filter_data_frame_by_date, convert_date_time, DateFormat, pick_menu
 )
 from .data import StockDownload, StockParam
 from .enums import DfColumn, DfStat, AnalysisRange
@@ -34,9 +34,6 @@ DATE_FMT = '{day}'+DATE_SEP+'{mth}'+DATE_SEP+'{year}'
 
 MIN_DATE = datetime(1962, 2, 1)
 
-SYMBOL_HELP = f"Enter symbol for the stock required, "\
-                f"or '{ABORT}' to cancel.\n"\
-              f"e.g. IBM: International Business Machines Corporation"
 FROM_DATE_HELP = f"Enter analysis start date, or '{ABORT}' to cancel"
 TO_DATE_HELP = f"Enter analysis end date (excluded from analysis), "\
                f"or '{ABORT}' to cancel"
@@ -119,8 +116,6 @@ for dmy1 in ['dmy', 'my']:
         REGEX[f'{dmy1}-{dmy2}-text'] = \
             re.compile(
                 rf"^\s*{dmy1_text_regex}\s+(\w+)\s+{dmy2_text_regex}\s*$")
-
-print(REGEX.keys())
 
 PERIOD_KEYS = [
             'num',          # (int): unit count
@@ -239,23 +234,6 @@ def validate_date_limit(
     return validate_func
 
 
-def validate_symbol(symbol: str) -> Union[str, None]:
-    """
-    Validate a symbol string
-
-    Args:
-        symbol (str): input symbol string
-
-    Returns:
-        Union[str, None]: string object if valid, otherwise None
-    """
-    if symbol.startswith('^'):
-        error('Analysis of stock indices is not supported')
-        symbol = None
-
-    return symbol
-
-
 def validate_period(period_str: str) -> Union[Period, None]:
     """
     Validate a period string
@@ -273,9 +251,6 @@ def validate_period(period_str: str) -> Union[Period, None]:
     for regex_key, regex in REGEX.items():
         match = regex.match(period_str)
         if match:
-
-            print(f'Matched {regex_key}: {match.groups()}')
-
             params = period_param_template()
 
             if DMY_MY_KEY.match(regex_key):
@@ -718,30 +693,6 @@ def get_date_range(stock_param: StockParam) -> StockParam:
     return stock_param
 
 
-def get_stock_param_symbol(symbol: str = None) -> StockParam:
-    """
-    Get symbol for stock parameters
-
-    Args:
-        symbol (str, optional): Stock symbol. Defaults to None.
-
-    Returns:
-        StockParam: stock parameters
-    """
-    stock_param = None
-
-    if not symbol:
-        symbol = get_input(
-            'Enter stock symbol', validate=validate_symbol,
-            help_text=SYMBOL_HELP, pre_spc=Spacing.SMALL
-        )
-
-    if symbol != ABORT:
-        stock_param = StockParam(symbol)
-
-    return stock_param
-
-
 def get_stock_param_range(
         stock_param: StockParam,
         anal_rng: AnalysisRange = AnalysisRange.DATE,
@@ -766,34 +717,9 @@ def get_stock_param_range(
     return stock_param
 
 
-def get_stock_param(
-        symbol: str = None,
-        anal_rng: AnalysisRange = AnalysisRange.DATE,
-        range_select: Callable[[], AnalysisRange] = None) -> StockParam:
-    """
-    Get stock parameters
-
-    Args:
-        symbol (str, optional): Stock symbol. Defaults to None.
-        anal_rng (AnalysisRange, optional):
-                Range entry method. Defaults to AnalysisRange.DATE.
-        range_select (Callable[[], AnalysisRange], optional):
-                Range entry method select function. Defaults to None.
-
-    Returns:
-        StockParam: stock parameters
-    """
-    stock_param = get_stock_param_symbol(symbol)
-
-    if stock_param is not None:
-        get_stock_param_range(stock_param, anal_rng, range_select)
-
-    return stock_param
-
-
 def analyse_stock(
         data_frame: Union[pd.DataFrame, List[str], StockDownload],
-        stock_param: StockParam) -> dict:
+        stock_param: StockParam) -> Union[dict, None]:
     """
     Analyse stock data
 
@@ -803,7 +729,7 @@ def analyse_stock(
         stock_param (StockParam): stock parameters
 
     Returns:
-        dict: dict of analysis results, like {
+        dict: None if error, or dict of analysis results, like {
             'from': [date],
             'to': [date],
             'symbol': [str]
@@ -884,9 +810,8 @@ def analyse_stock(
         analysis[DfStat.MAX.column_key(column)] = data_series.max()
 
         # avg value
-        analysis[DfStat.AVG.column_key(column)] = round_price(
-                                                        data_series.mean()
-                                                    )
+        analysis[DfStat.AVG.column_key(column)] = \
+            round_price(data_series.mean())
 
         # change
         start_vol = data_series.iat[0]

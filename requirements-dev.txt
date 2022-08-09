@@ -4,4 +4,4 @@
 -r requirements.txt
 
 # development requirements
-pycodestyle
+pycodestyle~=2.8.0

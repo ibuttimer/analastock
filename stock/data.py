@@ -34,10 +34,10 @@ class StockParam:
 
     @classmethod
     def stock_param_of(
-                cls, symbol: str,
-                from_date: Union[datetime, date],
-                to_date: Union[datetime, date]
-            ) -> object:
+            cls, symbol: str,
+            from_date: Union[datetime, date],
+            to_date: Union[datetime, date]
+    ) -> object:
         """
         Factory method
 
@@ -54,7 +54,7 @@ class StockParam:
         stock_param._to_date = to_date
         return stock_param
 
-    def set_from_date(self, from_date: Union[datetime, date]) -> date:
+    def set_from_date(self, from_date: Union[datetime, date]):
         """
         Set from date
 
@@ -63,7 +63,7 @@ class StockParam:
         """
         self._from_date = from_date
 
-    def set_to_date(self, to_date: Union[datetime, date]) -> date:
+    def set_to_date(self, to_date: Union[datetime, date]):
         """
         Set to date
 
@@ -75,12 +75,12 @@ class StockParam:
     @staticmethod
     def _date(to_convert):
         return to_convert.date() if isinstance(to_convert, datetime) else \
-                to_convert
+            to_convert
 
     @staticmethod
     def _datetime(to_convert):
         return to_convert if isinstance(to_convert, datetime) else \
-                datetime.combine(to_convert, time.min)
+            datetime.combine(to_convert, time.min)
 
     @property
     def from_date(self) -> date:
@@ -132,14 +132,14 @@ class StockDownload:
 
     stock_param: StockParam
     """ Params of user request """
-    data: Union[pd.DataFrame, List[str], object]
+    data: Union[pd.DataFrame, List[str], dict]
     """ Downloaded data """
     status_code: int
     """ Response status code """
 
     def __init__(
-            self, stock_param: StockParam,
-            data: Union[pd.DataFrame, List[str]],
+            self, stock_param: Union[StockParam, None],
+            data: Union[pd.DataFrame, List[str], dict],
             status_code: int = NO_RESPONSE):
         self.stock_param = stock_param
         self.data = data
@@ -153,8 +153,8 @@ class StockDownload:
         Returns:
             pandas.DataFrame: data
         """
-        return StockDownload.list_to_frame(self.data)\
-            if isinstance(self.data, list) else self.data\
+        return StockDownload.list_to_frame(self.data) \
+            if isinstance(self.data, list) else self.data \
             if isinstance(self.data, pd.DataFrame) else pd.DataFrame(self.data)
 
     @property
@@ -168,7 +168,7 @@ class StockDownload:
         return self.status_code == 200
 
     @staticmethod
-    def download_of(data: object, status_code: int = NO_RESPONSE) -> object:
+    def download_of(data: dict, status_code: int = NO_RESPONSE) -> object:
         """
         Factory
 
@@ -252,16 +252,16 @@ class Company:
 
     @classmethod
     def company_of(
-                cls, code: str, symbol: str, name: str, sector: str,
-                currency: str = None
-            ) -> object:
+            cls, code: str, symbol: str, name: str, sector: str,
+            currency: str = None
+    ) -> object:
         """
         Factory method
 
         Args:
             code (str): exchange code
             symbol (str): stock symbol
-            from_date (str): company name
+            name (str): company name
             sector (str): industry or category
             currency (str, optional): currency
 
@@ -269,7 +269,6 @@ class Company:
             Company: new object
         """
         return Company(code, symbol, name, sector, currency)
-
 
     def get_column(self, col: CompanyColumn) -> str:
         """
@@ -282,11 +281,10 @@ class Company:
             str: value
         """
         return self.code if col == CompanyColumn.EXCHANGE else \
-                self.symbol if col == CompanyColumn.SYMBOL else \
-                self.name if col == CompanyColumn.NAME else \
-                self.sector if col == CompanyColumn.SECTOR else \
-                self.currency if col == CompanyColumn.CURRENCY else None
-
+            self.symbol if col == CompanyColumn.SYMBOL else \
+            self.name if col == CompanyColumn.NAME else \
+            self.sector if col == CompanyColumn.SECTOR else \
+            self.currency if col == CompanyColumn.CURRENCY else None
 
     def unpack(self) -> List[str]:
         """
@@ -297,8 +295,7 @@ class Company:
         """
         return [self.get_column(col) for col in CompanyColumn]
 
-
     def __str__(self) -> str:
-        return f'{self.__class__.__name__}('\
-               f'{self.symbol}, {self.name}, {self.code}, {self.sector}, '\
+        return f'{self.__class__.__name__}(' \
+               f'{self.symbol}, {self.name}, {self.code}, {self.sector}, ' \
                f'{self.currency})'

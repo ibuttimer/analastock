@@ -2,7 +2,7 @@
 Stock package
 """
 from .analyse import (
-    get_stock_param, get_stock_param_symbol, get_stock_param_range,
+    get_stock_param_range,
     analyse_stock, round_price, DATE_FORM
 )
 from .convert import (
@@ -17,8 +17,6 @@ from .exchanges import download_exchanges, download_companies
 from .meta_data import download_meta_data
 
 __all__ = [
-    'get_stock_param',
-    'get_stock_param_symbol',
     'get_stock_param_range',
     'analyse_stock',
     'round_price',

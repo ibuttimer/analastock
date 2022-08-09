@@ -10,7 +10,6 @@ from sheets import search_all, save_stock_meta_data
 from utils import MAX_LINE_LEN, convert_date_time, DateFormat, drill_dict
 from .grid import DGrid, DCell, DRow, FORMAT_WIDTH_MARK, Marker
 
-
 # title row formatting
 # e.g.              International Business Machines Corporation
 TITLE_ROW_FMT = f'^{FORMAT_WIDTH_MARK}'
@@ -18,10 +17,10 @@ TITLE_ROW_FMT = f'^{FORMAT_WIDTH_MARK}'
 # e.g.                                                               Currency
 CUR_ROW_FMT = f'>{FORMAT_WIDTH_MARK}'
 # title row formatting
-# e.g Stock : IBM - International Business Machines Corporation           USD
+# e.g. Stock : IBM - International Business Machines Corporation          USD
 #     1-----7                                                             1-3
-TITLE_CELL_WIDTH = 7   # Stock/Period cell width
-CUR_CELL_WIDTH = 3     # currency cell width
+TITLE_CELL_WIDTH = 7  # Stock/Period cell width
+CUR_CELL_WIDTH = 3  # currency cell width
 STOCK_ROW_FMT = f'<{FORMAT_WIDTH_MARK}'
 STOCK_CELL_FMT = f'<{FORMAT_WIDTH_MARK}'
 STOCK_TEXT_CELL_FMT = f'<{FORMAT_WIDTH_MARK}'
@@ -32,7 +31,7 @@ HDR_CELL_FMT = f'^{FORMAT_WIDTH_MARK}'
 # data row formatting
 # e.g. Open      ............ ............ ............ ............
 #      1-------9 1---------12
-VALUE_NAME_CELL_WIDTH = 9   # Open/Low/High etc. cell width
+VALUE_NAME_CELL_WIDTH = 9  # Open/Low/High etc. cell width
 DATA_CELL_WIDTH = 12
 VALUE_NAME_FMT = f'<{FORMAT_WIDTH_MARK}'
 DATA_CELL_FMT = f'>{FORMAT_WIDTH_MARK}'
@@ -93,12 +92,12 @@ def display_single(result: dict):
         # stats
         for stat in STATS:
             cell = DCell(str(result[stat.column_key(column)]),
-                            DATA_CELL_WIDTH, fmt=DATA_CELL_FMT)
+                         DATA_CELL_WIDTH, fmt=DATA_CELL_FMT)
             if stat in CHANGE_STATS:
                 value = result[stat.column_key(column)]
                 cell.set_marker(
-                    Marker.UP if value > 0 else \
-                        Marker.DOWN if value < 0 else None)
+                    Marker.UP if value > 0 else
+                    Marker.DOWN if value < 0 else None)
 
             row.add_cell(cell)
 
@@ -131,7 +130,7 @@ def display_multiple(results: List[dict]):
 
     for index, result in enumerate(results):
         # add stock
-        add_stock(grid, result, mark = index + 1)
+        add_stock(grid, result, mark=index + 1)
         # add period
         add_period(grid, result)
 
@@ -157,18 +156,18 @@ def display_multiple(results: List[dict]):
                 missing = MISSING_DATA \
                     if column_data_missing(result, column) else ""
                 cell = DCell(f'{result["marker"]}{missing}',
-                                STOCK_COL_CELL_WIDTH, fmt=STOCK_COL_NAME_FMT)
+                             STOCK_COL_CELL_WIDTH, fmt=STOCK_COL_NAME_FMT)
                 row.add_cell(cell)
 
             # stats
             for stat in STATS:
                 cell = DCell(str(result[stat.column_key(column)]),
-                                DATA_CELL_WIDTH, fmt=DATA_CELL_FMT)
+                             DATA_CELL_WIDTH, fmt=DATA_CELL_FMT)
                 if stat in CHANGE_STATS:
                     value = result[stat.column_key(column)]
                     cell.set_marker(
-                        Marker.UP if value > 0 else \
-                            Marker.DOWN if value < 0 else None)
+                        Marker.UP if value > 0 else
+                        Marker.DOWN if value < 0 else None)
 
                 row.add_cell(cell)
 
@@ -186,6 +185,7 @@ def add_header(grid: DGrid, is_multi: bool = False):
 
     Args:
         grid (DGrid): grid to add to
+        is_multi (bool, optional): is multi stock analysis flag
     """
     row = DRow(grid.width)
 
@@ -242,7 +242,7 @@ def add_title_row(grid: DGrid, title: str, cells: List[DCell]):
     Args:
         grid (DGrid): grid to add to
         title (str): title to display
-        text (str): text to display
+        cells (List[DCell]): cells to add to row
     """
     row = DRow(grid.width).set_fmt(STOCK_ROW_FMT)
     title = title.ljust(TITLE_CELL_WIDTH - 1)
@@ -280,12 +280,13 @@ def add_stock(grid: DGrid, result: dict, mark: int = None):
     Args:
         grid (DGrid): grid to add to
         result (dict): result to display
+        mark (int, optional): stock marker to display. Defaults to None.
     """
     marker = f'{mark}]' if mark else None
-    stock = f"{f'{marker} ' if mark else ''}"\
+    stock = f"{f'{marker} ' if mark else ''}" \
             f"{result[SYMBOL]} - {result[NAME]}"
-    stock_width = grid.width - (grid.gap * 2) - TITLE_CELL_WIDTH - \
-                        CUR_CELL_WIDTH
+    stock_width = \
+        grid.width - (grid.gap * 2) - TITLE_CELL_WIDTH - CUR_CELL_WIDTH
     add_title_row(grid, 'Stock', [
         DCell(stock, stock_width, STOCK_TEXT_CELL_FMT),
         DCell(result[CURRENCY], CUR_CELL_WIDTH, STOCK_CUR_CELL_FMT)
@@ -317,13 +318,13 @@ def add_missing_notes(grid: DGrid, results: Union[dict, List[dict]]):
             if missing['missing']:
                 from_date = \
                     convert_date_time(missing['start'],
-                                        DateFormat.FRIENDLY_DATE)
+                                      DateFormat.FRIENDLY_DATE)
                 to_date = \
                     convert_date_time(missing['end'], DateFormat.FRIENDLY_DATE)
                 note_text = '' if added_note else f'{note}'
                 marker = f"{result['marker']} " if is_multi else ""
                 text = \
-                    f"{f'{note_text}':{f'<{NOTE_MARK_WIDTH}'}}: "\
+                    f"{f'{note_text}':{f'<{NOTE_MARK_WIDTH}'}}: " \
                     f"{marker}Data n/a {from_date} - {to_date}"
 
                 added_blank = _add_missing_notes_row(grid, text, added_blank)
@@ -333,8 +334,8 @@ def add_missing_notes(grid: DGrid, results: Union[dict, List[dict]]):
     for result in results:
         for column in DfColumn.NUMERIC_COLUMNS:
             if column_data_missing(result, column):
-                text = f"{f'{MISSING_DATA}':{f'<{NOTE_MARK_WIDTH}'}}: "\
-                    f"Data missing"
+                text = f"{f'{MISSING_DATA}':{f'<{NOTE_MARK_WIDTH}'}}: " \
+                       f"Data missing"
 
                 added_blank = _add_missing_notes_row(grid, text, added_blank)
                 added_missing = True
@@ -342,6 +343,7 @@ def add_missing_notes(grid: DGrid, results: Union[dict, List[dict]]):
 
         if added_missing:
             break
+
 
 def _add_missing_notes_row(grid: DGrid, text: str, added_blank: bool) -> bool:
     """
@@ -370,7 +372,7 @@ def _add_missing_notes_row(grid: DGrid, text: str, added_blank: bool) -> bool:
 
 def check_meta(results: Union[dict, List[dict]]):
     """
-    Check meta data for stock
+    Check metadata for stock
 
     Args:
         results (Union[dict, List[dict]]): results to display
@@ -385,11 +387,11 @@ def check_meta(results: Union[dict, List[dict]]):
         meta[SYMBOL] = drill_dict(result, SYMBOL)
         if meta[SYMBOL]:
             pg_entity = search_all(
-                        meta[SYMBOL], CompanyColumn.SYMBOL, exact_match=True)
+                meta[SYMBOL], CompanyColumn.SYMBOL, exact_match=True)
             if pg_entity:
                 # have info in sheets
                 assert pg_entity.num_items == 1, \
-                    f"{meta[SYMBOL]} symbol error; "\
+                    f"{meta[SYMBOL]} symbol error; " \
                     f"{pg_entity.num_items} results"
 
                 entity_info = pg_entity.get_current_page()[0]
@@ -401,10 +403,10 @@ def check_meta(results: Union[dict, List[dict]]):
 
                 # TODO add data_mode to all elements in flow
 
-                meta_data = download_meta_data(meta[SYMBOL],
-                                            data_mode=DataMode.LIVE_SAVE_SAMPLE
-                                            # data_mode=DataMode.SAMPLE
-                                            )
+                meta_data = download_meta_data(
+                    meta[SYMBOL], data_mode=DataMode.LIVE_SAVE_SAMPLE
+                    # data_mode=DataMode.SAMPLE
+                )
                 if meta_data and meta_data.response_ok:
                     meta_name = drill_dict(meta_data.data, 'shortName')
                     if meta_name:
@@ -412,14 +414,14 @@ def check_meta(results: Union[dict, List[dict]]):
                             # according to API docs, the 'Companies By
                             # Exchange' endpoint is 'Manually Populated
                             # List Of Common Stocks Per Exchange Code. Not
-                            # Guaranteed To Be Up To Date', so use 'Live Stock
+                            # Guaranteed To Be Up-To-Date', so use 'Live Stock
                             # Metadata' endpoint which is the 'real time
                             # metadata',
                             # and for other entities 'real time metadata' is
                             # the only source
                             meta[NAME] = meta_name
                         else:
-                            meta_name = None    # don't save
+                            meta_name = None  # don't save
 
                     if not meta[CURRENCY]:
                         # extract currency
@@ -466,7 +468,6 @@ def data_missing_info(result: dict, prop: str) -> dict:
         dict: information
     """
     return drill_dict(result, 'data_na', prop)
-    # return drill_dict(result, 'data_na', prop, 'missing')
 
 
 def data_is_missing(result: dict, prop: str) -> bool:

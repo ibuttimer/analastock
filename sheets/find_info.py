@@ -57,8 +57,8 @@ def find_all(
                                 Defaults to None.
         col (int, optional): One-based column number to scope the search.
                                 Defaults to None.
-        case_sensitive (bool, optional): comparison is case sensitive if True,
-                                case insensitive otherwise. Defaults to True.
+        case_sensitive (bool, optional): comparison is case-sensitive if True,
+                                case-insensitive otherwise. Defaults to True.
                                 Does not apply to regular expressions.
 
     Returns:

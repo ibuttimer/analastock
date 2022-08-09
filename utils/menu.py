@@ -5,9 +5,9 @@ from collections import namedtuple
 import dataclasses
 from typing import Any, Callable, List, Tuple, Union
 
-from .constants import ABORT, PAGE_UP, PAGE_DOWN
+from .constants import ABORT, PAGE_UP, PAGE_DOWN, MAX_LINE_LEN
 from .input import get_input, user_confirm
-from .output import error, title
+from .output import error, title, spacer, Spacing
 
 MenuOption = namedtuple("MenuOption", ['key', 'name'])
 
@@ -33,9 +33,10 @@ class MenuEntry:
 
     key: Union[str, None]
     """ Selection key """
-
     is_close: bool
     """ Menu close entry flag """
+    is_proxy: bool
+    """ Menu entry proxy flag """
 
     def __init__(
             self, name: str, func: Callable[[], Any],
@@ -54,10 +55,25 @@ class MenuEntry:
         self.func = func
         self.key = key
         self.is_close = False
+        self.is_proxy = False
 
     def __str__(self) -> str:
         return f'{self.__class__.__name__}(' \
                f'{self.name}, {self.key}, {self.is_close})'
+
+
+@dataclasses.dataclass
+class ProxyMenuEntry(MenuEntry):
+    """
+    Class representing a proxy menu entry
+    """
+
+    def __init__(self):
+        """
+        Constructor
+        """
+        super().__init__('', None)
+        self.is_proxy = True
 
 
 @dataclasses.dataclass
@@ -70,7 +86,7 @@ class CloseMenuEntry(MenuEntry):
     """ Preferred menu close entry flag """
 
     def __init__(
-            self, name: str, func: Callable[[], bool] = None,
+            self, name: str, func: Callable[[], Any] = None,
             key: Union[str, None] = None, is_preferred: bool = False):
         """
         Constructor
@@ -176,7 +192,7 @@ class Menu:
         """
         self._page_keys.clear()
 
-        print('\f', end='')
+        spacer(size=Spacing.LARGE)
 
         multi_page = \
             f" [{self.page}/{self.num_pages}]" if self.multi_page else ""
@@ -198,7 +214,8 @@ class Menu:
         for option in options:
             print(f'{option.key:>{key_width}}. {option.name}')
 
-    def _entry_key(self, entry: MenuEntry, index: int):
+    @staticmethod
+    def _entry_key(entry: MenuEntry, index: int):
         """
         Get the menu entries key
 
@@ -211,7 +228,8 @@ class Menu:
         """
         return entry.key if entry.key else str(index + 1)
 
-    def _is_valid_selection(self, key: str) -> Union[MenuEntry, None]:
+    def _is_valid_selection(
+            self, key: str) -> Union[Tuple[MenuEntry, int], None]:
         """
         Check if key is a valid selection
 
@@ -219,17 +237,20 @@ class Menu:
             key (str): entered key
 
         Returns:
+            Tuple[MenuEntry, int]:
             MenuEntry: menu entry if valid selection, otherwise None
         """
         selection: Union[MenuEntry, None] = None
+        sel_index = None
         key = key.lower()
 
         for index, entry in enumerate(self.entries):
             if self._entry_key(entry, index).lower() == key:
                 selection = entry
+                sel_index = index
                 break
 
-        return selection
+        return selection, sel_index
 
     def process(self) -> Any:
         """
@@ -242,15 +263,20 @@ class Menu:
         result = None
 
         self.is_open = True
+        display_menu = True
 
         while self.is_open:
-            self.display()
+            if display_menu:
+                self.display()
+            # else error occurred don't redisplay
+            display_menu = True
 
             selection = get_input(
                 'Enter selection', help_text=self.generate_help()
             )
 
-            if self.up_down_page(selection):
+            processed, display_menu = self.up_down_page(selection)
+            if processed:
                 # page inc/dec processed
                 continue
 
@@ -261,16 +287,24 @@ class Menu:
                 selected_entry = self.find_close()
                 do_page_check = False  # don't check on current page
             else:
-                selected_entry = self._is_valid_selection(selection)
+                selected_entry, sel_index = self._is_valid_selection(selection)
+                if selected_entry and selected_entry.is_proxy:
+                    # selected entry is a proxy so populated it
+                    selected_entry = self.process_proxy(sel_index)
 
             if selected_entry:
 
                 if do_page_check and selection not in self._page_keys:
                     # selection not on current page, verify correct
-                    if not self.check_proceed(
-                            f"Selection '{selected_entry.name}' not on current "
-                            "page, confirm selection"
-                    ):
+                    proceed_msg = \
+                        f"Selection '{selected_entry.name}'<lf>is not on "\
+                        f"current page, confirm selection"
+                    if len(proceed_msg) > MAX_LINE_LEN - 5:
+                        proceed_msg = proceed_msg.replace('<lf>', '\n')
+                    else:
+                        proceed_msg = proceed_msg.replace('<lf>', ' ')
+
+                    if not self.check_proceed(proceed_msg):
                         continue
 
                 if selected_entry.is_close:
@@ -287,7 +321,8 @@ class Menu:
 
         return result
 
-    def check_proceed(self, msg: str) -> bool:
+    @staticmethod
+    def check_proceed(msg: str) -> bool:
         """
         Check is user wishes to proceed
 
@@ -295,13 +330,13 @@ class Menu:
             msg (str): check message
 
         Returns:
-            bool: True if proceed, False otherwise
+            bool: True to proceed, False otherwise
         """
         return user_confirm(
             msg,
             help_text="Enter 'y' to proceed with selection, otherwise 'n'")
 
-    def up_down_page(self, selection: str) -> bool:
+    def up_down_page(self, selection: str) -> Tuple[bool, bool]:
         """
         Process up/down page selection
 
@@ -309,13 +344,15 @@ class Menu:
             selection (str): user selection
 
         Returns:
-            bool: True if selection processed, otherwise False
+            Tuple[bool, bool]: tuple of
+                        True if selection processed, otherwise False
+                        True if no error, otherwise False
         """
         processed = False
+        error_msg = None
 
         if self.multi_page:
             # multi-page menu check for page inc/dec
-            error_msg = None
             pg_up_down = False
             start = self._start
 
@@ -338,13 +375,33 @@ class Menu:
                     self._end = start + self.display_rows
 
                     if self.up_down_hook:
-                        # call hook
+                        # call hook, with display start/end indices
                         self.up_down_hook(self, self._start, self._end)
 
             if error_msg:
                 error(error_msg)
 
-        return processed
+        return processed, error_msg is None
+
+    def process_proxy(self, index: int) -> MenuEntry:
+        """
+        Process a proxy menu entry
+
+        Args:
+            index (int): index of proxy
+
+        Returns:
+            MenuEntry: menu entry for specified index
+        """
+        if self.multi_page:
+            # multi-page menu check for page inc/dec
+            start = int(index / self.display_rows) * self.display_rows
+
+            if self.up_down_hook:
+                # call hook, with process start/end indices
+                self.up_down_hook(self, start, start + self.display_rows)
+
+        return self.entries[index]
 
     def set_up_down_hook(
             self, up_down_hook: Callable[[object, int, int], None]):
@@ -398,7 +455,7 @@ class Menu:
         Page menu
 
         Returns:
-            int: current menu page
+            int: current menu page (1-based)
         """
         return int(self._start / self.display_rows) + 1 \
             if self.multi_page else 1
@@ -414,6 +471,16 @@ class Menu:
         pages = int(len(self.entries) / self.display_rows)
         return pages + 1 if len(self.entries) % self.display_rows else \
             pages if self.multi_page else 1
+
+    @property
+    def num_entries(self):
+        """
+        Number of entries
+
+        Returns:
+            int: number of entries
+        """
+        return len(self.entries)
 
     def generate_help(self) -> str:
         """ Generate menu help text """
@@ -462,10 +529,10 @@ def pick_menu(
     """
     result = None
 
-    def chose_func(value: Any):
+    def choose_func(choice_value: Any):
         def set_choice():
             nonlocal result
-            result = value
+            result = choice_value
 
         return set_choice
 
@@ -474,7 +541,7 @@ def pick_menu(
 
     for text, value in entries:
         menu.add_entry(
-            CloseMenuEntry(text, chose_func(value))
+            CloseMenuEntry(text, choose_func(value))
         )
 
     loop: bool = True

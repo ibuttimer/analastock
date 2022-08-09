@@ -80,6 +80,7 @@ class DfColumn(Enum):
             (col.title, col.d_type) for col in DfColumn
         ]
 
+
 # List of numeric columns
 # init numeric columns after class declaration
 DfColumn.NUMERIC_COLUMNS = [
@@ -87,12 +88,13 @@ DfColumn.NUMERIC_COLUMNS = [
     DfColumn.ADJ_CLOSE, DfColumn.VOLUME
 ]
 
+
 class DfStat(Enum):
     """ DataFrame statistics """
 
-    MIN = ('Min')
-    MAX = ('Max')
-    AVG = ('Avg')
+    MIN = 'Min'
+    MAX = 'Max'
+    AVG = 'Avg'
     CHANGE = ('Change', 'Chng')
     PERCENT_CHANGE = ('PercentChange', '%Chng')
 

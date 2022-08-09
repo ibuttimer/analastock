@@ -7,7 +7,6 @@ from enum import Enum, unique
 from typing import List, Tuple, Union
 from utils import Colour, colorise
 
-
 # markers for highlight layout when debugging
 _DEBUG = False
 GAP_CHAR = '*' if _DEBUG else ' '
@@ -17,6 +16,8 @@ EOL = '|' if _DEBUG else ''
 # width equals the number of cells - 1, everything is ok.
 
 FORMAT_WIDTH_MARK = '@width@'
+
+
 @unique
 class Marker(Enum):
     """ Class representing cell markers """
@@ -97,16 +98,16 @@ class Str():
         """
         is_str = isinstance(text, Str)
         return is_str, \
-                text.text if is_str else text, \
-                text.length if is_str else len(text), \
-                text.ctrl_len if is_str else 0
+               text.text if is_str else text, \
+               text.length if is_str else len(text), \
+               text.ctrl_len if is_str else 0
 
 
 class FormatMixin:
     """ Mixin class supplying formatting functions """
 
     def format_str(self, text: Union[str, Str], fmt: str = None,
-                    width: int = None) -> Str:
+                   width: int = None) -> Str:
         """
         Format a string of text
 
@@ -123,7 +124,7 @@ class FormatMixin:
             req_width = fmt.find(FORMAT_WIDTH_MARK) >= 0
             # add incoming ctrl char len to required width
             fmt_str = fmt.replace(FORMAT_WIDTH_MARK, str(width + ctrl_len)) \
-                            if width else fmt
+                if width else fmt
             formatted = f'{formatted:{fmt_str}}'
         else:
             req_width = False
@@ -133,7 +134,7 @@ class FormatMixin:
                    len(formatted) - (ctrl_len if req_width else 0))
 
     def colorised_str(self, text: Union[str, Str], fmt: str = None,
-                    width: int = None, marker: Marker = None) -> Str:
+                      width: int = None, marker: Marker = None) -> Str:
         """
         Format and colourise a string of text
 
@@ -152,8 +153,8 @@ class FormatMixin:
         colours = {}
         if marker:
             colours['colour'] = marker.colour if marker.colour else None
-            colours['on_colour'] = marker.on_colour\
-                                    if marker.on_colour else None
+            colours['on_colour'] = marker.on_colour \
+                if marker.on_colour else None
         formed_str.text = colorise(formed_str.text, **colours)
         formed_str.ctrl_len = len(formed_str.text) - formed_str.length
         return formed_str
@@ -335,7 +336,6 @@ class DRow(FormatMixin):
             cell = [cell]
         self.cells.extend(cell)
 
-
     def _formatted(
             self, left_margin: int, right_margin: int, gap: int,
             colourised: bool) -> str:
@@ -363,7 +363,7 @@ class DRow(FormatMixin):
             add_gap = idx and idx < len(self.cells)
 
             formed_str = cell.colorised() if colourised else cell.formatted()
-            cell_text = f'{g_str if add_gap else ""}{l_str}'\
+            cell_text = f'{g_str if add_gap else ""}{l_str}' \
                         f'{formed_str.text}{r_str}'
 
             length += len(cell_text) - formed_str.ctrl_len
@@ -373,9 +373,9 @@ class DRow(FormatMixin):
         formed_line = Str(line, length)
 
         formed_row = self.colorised_str(
-                        formed_line, self.fmt, self.width, self.marker)\
-                if colourised else \
-                        self.format_str(formed_line, self.fmt, self.width)
+            formed_line, self.fmt, self.width, self.marker) \
+            if colourised else \
+            self.format_str(formed_line, self.fmt, self.width)
 
         return formed_row.text
 
