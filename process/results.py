@@ -131,8 +131,9 @@ def display_multiple(results: List[dict]):
     for index, result in enumerate(results):
         # add stock
         add_stock(grid, result, mark=index + 1)
-        # add period
-        add_period(grid, result)
+        if index == len(results) - 1:
+            # add period
+            add_period(grid, result)
 
     # add header
     add_header(grid, is_multi=is_multi)
@@ -308,7 +309,7 @@ def add_missing_notes(grid: DGrid, results: Union[dict, List[dict]]):
     if not is_multi:
         results = [results]
 
-    added_blank = False
+    added_blank = True
 
     for note, prop in [(NOTE_1, 'from'), (NOTE_2, 'to')]:
         added_note = False

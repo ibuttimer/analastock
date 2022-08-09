@@ -719,14 +719,18 @@ def get_stock_param_range(
 
 def analyse_stock(
         data_frame: Union[pd.DataFrame, List[str], StockDownload],
-        stock_param: StockParam) -> Union[dict, None]:
+        stock_param: StockParam, date_from_data: bool = False
+) -> Union[dict, None]:
     """
     Analyse stock data
 
     Args:
         data_frame (Union[Pandas.DataFrame, List[str], StockDownload]):
-                                                            data to analyse
+            Data to analyse
         stock_param (StockParam): stock parameters
+        date_from_data (bool, optional):
+            If True, use start/end date from data, otherwise dates from params.
+            Defaults to False.
 
     Returns:
         dict: None if error, or dict of analysis results, like {
@@ -763,8 +767,12 @@ def analyse_stock(
     else:
         # raw analysis and take date info from data
         analyse = data_frame
-        from_date = None
-        to_date = None
+        if date_from_data:
+            from_date = None
+            to_date = None
+        else:
+            from_date = stock_param.from_date
+            to_date = stock_param.to_date
         symbol = stock_param.symbol
     if isinstance(analyse, list):
         # convert list to data frame
