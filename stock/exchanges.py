@@ -10,7 +10,7 @@ from utils import (
 
 from .enums import DataMode
 from .data import StockDownload
-from .rapid_api import rapid_get, HEADER
+from .rapid_api import rapid_get
 
 
 RAPID_YAHOO_EXCHANGES_URL = \
@@ -31,12 +31,12 @@ def download_exchanges(data_mode: DataMode = DataMode.LIVE) -> StockDownload:
     """
 
     info(f'Downloading exchanges '\
-        f'{"*sample* " if data_mode == DataMode.SAMPLE else ""}data')
+         f'{"*sample* " if data_mode == DataMode.SAMPLE else ""}data')
 
     data = None
     status_code = StockDownload.NO_RESPONSE
     if data_mode == DataMode.LIVE:
-        response = rapid_get(RAPID_YAHOO_EXCHANGES_URL, headers=HEADER)
+        response = rapid_get(RAPID_YAHOO_EXCHANGES_URL)
 
         if response is not None:
             status_code = response.status_code
@@ -49,7 +49,7 @@ def download_exchanges(data_mode: DataMode = DataMode.LIVE) -> StockDownload:
                 # "responseStatus":null}'
                 data = load_json_string(response.text)
             else:
-                error(f"Exchange data currently unavailable "\
+                error(f"Exchange data currently unavailable "
                       f"[{response.status_code}]")
 
     else:
@@ -73,15 +73,15 @@ def download_companies(
         StockDownload: downloaded data
     """
 
-    info(f'Downloading '\
-        f'{"*sample* " if data_mode == DataMode.SAMPLE else ""}'\
-        f'company data for {exchange}')
+    info(f'Downloading '
+         f'{"*sample* " if data_mode == DataMode.SAMPLE else ""}'
+         f'company data for {exchange}')
 
     data = None
     status_code = StockDownload.NO_RESPONSE
     if data_mode == DataMode.LIVE:
-        response = rapid_get(RAPID_YAHOO_COMPANIES_URL, headers=HEADER,
-                        params={ "ExchangeCode": exchange })
+        response = rapid_get(RAPID_YAHOO_COMPANIES_URL,
+                             params={"ExchangeCode": exchange})
 
         if response is not None:
             status_code = response.status_code
@@ -96,7 +96,7 @@ def download_companies(
                 #   "responseStatus":null}'
                 data = load_json_string(response.text)
             else:
-                error(f"No data found for exchange '{exchange}' "\
+                error(f"No data found for exchange '{exchange}' "
                       f"[{response.status_code}]")
     else:
         status_code = 200

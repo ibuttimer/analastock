@@ -11,17 +11,33 @@ from utils import (
 
 # https://docs.gspread.org/
 
-CREDENTIALS = Credentials.from_service_account_file(
-    os.path.abspath(
-        os.path.join(
-            get_env_setting(GOOGLE_CREDS_PATH_ENV, DEFAULT_GOOGLE_CREDS_PATH),
-            get_env_setting(GOOGLE_CREDS_FILE_ENV, DEFAULT_GOOGLE_CREDS_FILE),
+GSPREAD_CLIENT = None
+
+
+def gspread_client() -> gspread.Client:
+    """
+    Get the gspread client
+
+    Returns
+        gspread.Client: client
+    """
+    global GSPREAD_CLIENT
+    if GSPREAD_CLIENT is None:
+        credentials = Credentials.from_service_account_file(
+            os.path.abspath(
+                os.path.join(
+                    get_env_setting(
+                        GOOGLE_CREDS_PATH_ENV, DEFAULT_GOOGLE_CREDS_PATH),
+                    get_env_setting(
+                        GOOGLE_CREDS_FILE_ENV, DEFAULT_GOOGLE_CREDS_FILE),
+                )
+            )
         )
-    )
-)
-SCOPED_CREDENTIALS = CREDENTIALS.with_scopes([
-    "https://www.googleapis.com/auth/spreadsheets",
-    "https://www.googleapis.com/auth/drive.file",
-    "https://www.googleapis.com/auth/drive"
-])
-GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDENTIALS)
+        scoped_credentials = credentials.with_scopes([
+            "https://www.googleapis.com/auth/spreadsheets",
+            "https://www.googleapis.com/auth/drive.file",
+            "https://www.googleapis.com/auth/drive"
+        ])
+        GSPREAD_CLIENT = gspread.authorize(scoped_credentials)
+
+    return GSPREAD_CLIENT

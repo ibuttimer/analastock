@@ -10,11 +10,12 @@ import gspread
 from sheets import open_spreadsheet, sheet_exists, add_sheet
 from sheets.spread_ops import spreadsheet_del_worksheet
 
+from tests import CredentialPatchMixin
 
 TEST_SPREADSHEET = 'AnalaStockTest'
 
 
-class TestBase(TestCase):
+class TestBase(TestCase, CredentialPatchMixin):
     """
     Base class for sheets units tests
     """
@@ -23,11 +24,15 @@ class TestBase(TestCase):
     def setUpClass(cls):
         # https://adamj.eu/tech/2020/10/13/how-to-mock-environment-variables-with-pythons-unittest/
 
+        patch = CredentialPatchMixin.get_credential_patch(__file__)
+        patch.update({
+            'QUOTA_MGR': 'LevelQuotaMgr'
+        })
+
         # use LevelQuotaMgr for unit tests as RateQuotaMgr needs to be at
         # about 50% to avoid Google Quota exceeded API errors
         # TODO revisit quota managers
-        cls.env_patcher = mock.patch.dict(
-                    os.environ, {'QUOTA_MGR': 'LevelQuotaMgr'})
+        cls.env_patcher = mock.patch.dict(os.environ, patch)
         cls.env_patcher.start()
 
         super().setUpClass()
@@ -44,9 +49,8 @@ class TestBase(TestCase):
 
         self.spreadsheet = open_spreadsheet(TEST_SPREADSHEET)
 
-
-    def tidy_up_sheets(self,
-                       sheets: List[Tuple[str, gspread.worksheet.Worksheet]]):
+    def tidy_up_sheets(
+            self, sheets: List[Tuple[str, gspread.worksheet.Worksheet]]):
         """
         Remove worksheets
 
@@ -61,7 +65,7 @@ class TestBase(TestCase):
             )
 
     def add_sheet(
-        self, name: str, del_if_exists: bool = False
+            self, name: str, del_if_exists: bool = False
     ) -> gspread.worksheet.Worksheet:
         """
         Add a worksheet

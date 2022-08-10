@@ -51,7 +51,7 @@ def init_spreadsheet() -> gspread.spreadsheet.Spreadsheet:
     name = get_env_setting('SPREADSHEET_NAME', required=True)
 
     return SPREADSHEETS[name] if name in SPREADSHEETS else \
-                open_spreadsheet(name)
+        open_spreadsheet(name)
 
 
 def sheet_exists(
@@ -59,7 +59,7 @@ def sheet_exists(
         spreadsheet: gspread.spreadsheet.Spreadsheet = None,
         create: bool = False,
         rows: int = DEFAULT_ROWS, cols: int = DEFAULT_COLS
-    ) -> Union[gspread.worksheet.Worksheet, None]:
+) -> Union[gspread.worksheet.Worksheet, None]:
     """
     Check is a worksheet with the specified name exists
 
@@ -102,7 +102,7 @@ def sheet_exists(
 def add_sheet(
         name: str, spreadsheet: gspread.spreadsheet.Spreadsheet = None,
         rows: int = DEFAULT_ROWS, cols: int = DEFAULT_COLS
-    ) -> gspread.worksheet.Worksheet:
+) -> gspread.worksheet.Worksheet:
     """
     Add a worksheet with the specified name
 
@@ -121,7 +121,6 @@ def add_sheet(
 
     worksheet = None
     if spreadsheet:
-
         def new_sheet():
             return spreadsheet_add_worksheet(spreadsheet, name, rows, cols)
 

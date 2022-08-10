@@ -8,7 +8,7 @@ from utils import (
 
 from .enums import DataMode
 from .data import StockDownload
-from .rapid_api import rapid_get, HEADER
+from .rapid_api import rapid_get
 
 
 RAPID_YAHOO_META_URL = \
@@ -28,14 +28,13 @@ def download_meta_data(
         StockDownload: downloaded data
     """
 
-    info(f'Retrieving {symbol} '\
-        f'{"*sample* " if data_mode == DataMode.SAMPLE else ""}meta data')
+    info(f'Retrieving {symbol} '
+         f'{"*sample* " if data_mode == DataMode.SAMPLE else ""}meta data')
 
     data = None
     status_code = StockDownload.NO_RESPONSE
     if data_mode in [DataMode.LIVE, DataMode.LIVE_SAVE_SAMPLE]:
-        response = rapid_get(RAPID_YAHOO_META_URL, headers=HEADER,
-                        params={ "Symbol": symbol })
+        response = rapid_get(RAPID_YAHOO_META_URL, params={"Symbol": symbol})
 
         if response is not None:
             status_code = response.status_code
@@ -64,7 +63,7 @@ def download_meta_data(
 
             else:
                 # api return status_code 500
-                error(f"No meta data found for symbol '{symbol}' "\
+                error(f"No meta data found for symbol '{symbol}' "
                       f"[{response.status_code}]")
     else:
         status_code = 200

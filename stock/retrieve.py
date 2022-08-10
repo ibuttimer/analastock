@@ -149,9 +149,9 @@ def download_data(
     )
 
     info(
-        f"Downloading data for '{load_param.symbol}': "\
-        f"{friendly_date(load_param.from_date)} - "\
-        f"{friendly_date(load_param.to_date)}"\
+        f"Downloading data for '{load_param.symbol}': "
+        f"{friendly_date(load_param.from_date)} - "
+        f"{friendly_date(load_param.to_date)}"
     )
 
     data = None
