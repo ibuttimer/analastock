@@ -3,7 +3,7 @@ Functions related to file paths
 """
 import os
 from .constants import DEFAULT_DATA_PATH, META_DATA_FOLDER
-from .misc import get_env_setting
+from .environ import get_env_setting
 
 SAMPLE_EXCHANGES_DATA = 'sample_exchanges.json'
 SAMPLE_COMPANY_DATA = 'sample_{exchange}_exchange.json'
@@ -18,8 +18,8 @@ def file_path(*args) -> str:
         str: path to file
     """
     return os.path.abspath(
-            os.path.join(*args)
-        )
+        os.path.join(*args)
+    )
 
 
 def sample_exchanges_path() -> str:
@@ -30,9 +30,9 @@ def sample_exchanges_path() -> str:
         str: path to file
     """
     return file_path(
-                get_env_setting('DATA_PATH', DEFAULT_DATA_PATH),
-                SAMPLE_EXCHANGES_DATA
-            )
+        get_env_setting('DATA_PATH', DEFAULT_DATA_PATH),
+        SAMPLE_EXCHANGES_DATA
+    )
 
 
 def sample_exchange_path(exchange: str) -> str:
@@ -46,9 +46,10 @@ def sample_exchange_path(exchange: str) -> str:
         str: path to file
     """
     return file_path(
-                get_env_setting('DATA_PATH', DEFAULT_DATA_PATH),
-                SAMPLE_COMPANY_DATA.format(exchange=exchange)
-            )
+        get_env_setting('DATA_PATH', DEFAULT_DATA_PATH),
+        SAMPLE_COMPANY_DATA.format(exchange=exchange)
+    )
+
 
 def sample_meta_path(symbol: str) -> str:
     """
@@ -61,7 +62,7 @@ def sample_meta_path(symbol: str) -> str:
         str: path to file
     """
     return file_path(
-                get_env_setting('DATA_PATH', DEFAULT_DATA_PATH),
-                META_DATA_FOLDER,
-                SAMPLE_META_DATA.format(symbol=symbol)
-            )
+        get_env_setting('DATA_PATH', DEFAULT_DATA_PATH),
+        META_DATA_FOLDER,
+        SAMPLE_META_DATA.format(symbol=symbol)
+    )

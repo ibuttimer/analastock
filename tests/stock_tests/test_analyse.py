@@ -1,10 +1,11 @@
 """
 Unit tests for stock analyse functions
 """
+import os
 from datetime import datetime, timedelta, time
 from calendar import isleap
 from typing import Callable, List, Union
-import unittest
+from unittest import TestCase, mock, skipIf, main
 from collections import namedtuple
 from stock import standardise_stock_param, StockParam
 from stock.analyse import (
@@ -12,6 +13,7 @@ from stock.analyse import (
     validate_period
 )
 from utils import last_day_of_month
+from tests import CredentialPatchMixin
 from tests.utils_tests.mock_input import MockInputFunction
 
 Param = namedtuple("Param", ['test_date', 'from_ans', 'to_ans', 'step'])
@@ -22,10 +24,29 @@ SEP_LIST = [DATE_SEP, SLASH_SEP, DOT_SEP, SPACE_SEP]
 NO_DAY_FORMAT = DATE_FORMAT[DATE_FORMAT.index('%m'):]
 
 
-class TestAnalyse(unittest.TestCase):
+class TestAnalyse(TestCase, CredentialPatchMixin):
     """
     Units tests for analyse functions
     """
+    @classmethod
+    def setUpClass(cls):
+        # https://adamj.eu/tech/2020/10/13/how-to-mock-environment-variables-with-pythons-unittest/
+
+        patch = CredentialPatchMixin.get_credential_patch(__file__)
+
+        cls.env_patcher = mock.patch.dict(os.environ, patch)
+        cls.env_patcher.start()
+
+        super().setUpClass()
+
+    @classmethod
+    def tearDownClass(cls):
+        super().tearDownClass()
+
+        cls.env_patcher.stop()
+
+    def setUp(self):
+        super().setUp()
 
     def test_from_1st_of_month(self):
         """
@@ -100,6 +121,12 @@ class TestAnalyse(unittest.TestCase):
         """
         self.period_dmy_runner('dmy')
 
+    def test_period_my_text(self):
+        """
+        Test period validation for month/year with month text
+        """
+        self.period_dmy_runner('my')
+
     def period_dmy_runner(self, from_fmt: str):
         """
         Test period validation for day/month/year
@@ -117,19 +144,24 @@ class TestAnalyse(unittest.TestCase):
             return self.mth_text_format(test_date, is_last_test, test_state)
 
         # do tests
+        my_test = from_fmt == 'my'
         while test_state['in_progress']:
             self.period_dmy_simple(
-                my_mth_text if from_fmt == 'my' else dmy_mth_text)
+                my_mth_text if my_test else dmy_mth_text,
+                my_test=my_test
+            )
 
-        test_state['in_progress'] = True
-        while test_state['in_progress']:
-            self.period_dmy_days(
-                my_mth_text if from_fmt == 'my' else dmy_mth_text)
+        if not my_test:
+            # perform boundary tests if dmy mode
+            test_state['in_progress'] = True
+            while test_state['in_progress']:
+                self.period_dmy_days(
+                    my_mth_text if my_test else dmy_mth_text)
 
-        test_state['in_progress'] = True
-        while test_state['in_progress']:
-            self.period_dmy_months(
-                my_mth_text if from_fmt == 'my' else dmy_mth_text)
+            test_state['in_progress'] = True
+            while test_state['in_progress']:
+                self.period_dmy_months(
+                    my_mth_text if my_test else dmy_mth_text)
 
     def test_period_my(self):
         """
@@ -212,8 +244,8 @@ class TestAnalyse(unittest.TestCase):
                                 )
                     else:
                         multiplier = (7 if unit == 'w' else 1)
-                        days = (unit_count if is_from else -unit_count)\
-                                    * multiplier
+                        days = (unit_count if is_from else -unit_count) \
+                            * multiplier
                         target_date = test_from + timedelta(days=days)
 
                     period_str = f'{unit_count}{unit} {time_dir} {date_str}'
@@ -260,9 +292,9 @@ class TestAnalyse(unittest.TestCase):
                     period_str = f'{unit_count}d {time_dir} {date_str}'
                     self.padding_check(period_str,
                                        test_from if is_from else
-                                            test_from - delta,
+                                       test_from - delta,
                                        test_from + delta if is_from else
-                                            test_from,
+                                       test_from,
                                        True,
                                        desc=f'month boundaries {track} '
                                             f'idx={idx}')
@@ -297,7 +329,7 @@ class TestAnalyse(unittest.TestCase):
                   datetime(2021, 8, 31), 1),
             Param(datetime(2021, 9, 30), datetime(2021, 11, 30),
                   datetime(2021, 7, 31), 2),
-            # need 2 months gap to test 31th; mar-may-jul or aug-sep-dec
+            # need 2 months gap to test 31st; mar-may-jul or aug-sep-dec
             Param(datetime(2021, 5, 31), datetime(2021, 7, 31),
                   datetime(2021, 3, 31), 2)
         ]
@@ -317,9 +349,9 @@ class TestAnalyse(unittest.TestCase):
                     period_str = f'{param.step}m {time_dir} {date_str}'
                     self.padding_check(period_str,
                                        param.test_date if is_from else
-                                           param.to_ans,
+                                       param.to_ans,
                                        param.from_ans if is_from else
-                                           param.test_date,
+                                       param.test_date,
                                        True,
                                        desc=f'month boundaries {track} '
                                             f'idx={idx}')
@@ -367,8 +399,8 @@ class TestAnalyse(unittest.TestCase):
                 validate_period(f'ytd {zero_date.strftime(fmt)}')
             )
 
-    @unittest.skipIf(datetime.now().month == 1 and datetime.now().day == 1,
-                     "'can't test omitted ytd on 1st January")
+    @skipIf(datetime.now().month == 1 and datetime.now().day == 1,
+            "'can't test omitted ytd on 1st January")
     def test_period_ytd_omitted(self):
         """
         Test period validation for ytd with omitted date
@@ -465,8 +497,7 @@ class TestAnalyse(unittest.TestCase):
 
     def period_dmy_dmy_text_test(self,
                                  get_from_fmt: Callable[[datetime, bool], str],
-                                 get_to_fmt: Callable[[datetime, bool], str],
-                                 track: str = None):
+                                 get_to_fmt: Callable[[datetime, bool], str]):
         """
         Test period validation for day/mth/year to day/mth/year
         with text months
@@ -476,7 +507,6 @@ class TestAnalyse(unittest.TestCase):
                     function to return format of from test date
             get_to_fmt (Callable[[datetime, bool], str]):
                     function to return format of to test date
-            track (str): test tracking
         """
         # dmy [to/from] dmy tests
         # use last year to avoid future date errors
@@ -645,7 +675,7 @@ class TestAnalyse(unittest.TestCase):
         """
         return MONTHS[test_date.month][
             mth_idx % len(MONTHS[test_date.month])
-            ]
+        ]
 
     def mth_text_format(
             self, test_date: datetime, is_last_test: bool,
@@ -704,4 +734,4 @@ class TestAnalyse(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main()
+    main()

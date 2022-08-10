@@ -24,7 +24,7 @@ class StockParam:
     """ To date (exclusive) for data """
 
     def __init__(self, symbol: str):
-        self.symbol = symbol.upper()
+        self.symbol = symbol.strip().upper()
         self._from_date = datetime.now().date()
         self._to_date = self._from_date
 

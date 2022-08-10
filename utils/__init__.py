@@ -5,15 +5,16 @@ from .input import (
     get_input, InputParam, user_confirm, get_int, valid_int_range
 )
 from .output import (
-    error, info, assistance, Colour, colorise, display, title, WrapMode,
+    error, info, assistance, Colour, colorise, display, title, log, WrapMode,
     spacer, Spacing
 )
 from .menu import MenuEntry, CloseMenuEntry, Menu, pick_menu
 from .misc import (
-    get_env_setting, last_day_of_month, load_json_file, load_json_string,
+    last_day_of_month, load_json_file, load_json_string,
     save_json_file, friendly_date, filter_data_frame_by_date, DateFormat,
     convert_date_time, drill_dict
 )
+from .environ import get_env_setting
 from .constants import (
     DEFAULT_GOOGLE_CREDS_FILE, DEFAULT_GOOGLE_CREDS_PATH,
     GOOGLE_CREDS_FILE_ENV, GOOGLE_CREDS_PATH_ENV,
@@ -47,6 +48,7 @@ __all__ = [
     'colorise',
     'display',
     'title',
+    'log',
     'WrapMode',
     'spacer',
     'Spacing',
@@ -56,7 +58,6 @@ __all__ = [
     'Menu',
     'pick_menu',
 
-    'get_env_setting',
     'last_day_of_month',
     'load_json_file',
     'load_json_string',
@@ -66,6 +67,8 @@ __all__ = [
     'DateFormat',
     'convert_date_time',
     'drill_dict',
+
+    'get_env_setting',
 
     'DEFAULT_GOOGLE_CREDS_FILE',
     'DEFAULT_GOOGLE_CREDS_PATH',

@@ -5,6 +5,7 @@ from enum import Enum, auto
 from termcolor import colored
 
 from .constants import MAX_LINE_LEN
+from .environ import get_env_setting, is_truthy
 
 
 # use Termcolor for all coloured text output
@@ -45,9 +46,13 @@ class Spacing(Enum):
 ERROR_PREFIX = '> '
 INFO_PREFIX = '- '
 HELP_PREFIX = '? '
+LOG_PREFIX = '# '
 MAX_ERROR_LEN = MAX_LINE_LEN - len(ERROR_PREFIX) - 1
 MAX_INFO_LEN = MAX_LINE_LEN - len(INFO_PREFIX) - 1
 MAX_HELP_LEN = MAX_LINE_LEN - len(HELP_PREFIX) - 1
+MAX_LOG_LEN = MAX_LINE_LEN - len(LOG_PREFIX) - 1
+
+LOG_ENABLE = is_truthy(get_env_setting('LOGGING', default_value=0))
 
 
 def error(msg: str, wrap: WrapMode = WrapMode.AUTO,
@@ -109,6 +114,20 @@ def assistance(msg: str, wrap: WrapMode = WrapMode.NONE,
     """
     _display_msg(msg, HELP_PREFIX, MAX_HELP_LEN, Colour.YELLOW, wrap,
                  pre_spc=pre_spc, post_spc=post_spc)
+
+
+def log(msg: str):
+    """
+    Display a log message
+
+    Args:
+        msg (str): title to display
+
+    Returns:
+        None
+    """
+    if LOG_ENABLE:
+        _display_msg(msg, LOG_PREFIX, MAX_LOG_LEN, Colour.WHITE, WrapMode.AUTO)
 
 
 def _display_msg(
@@ -222,7 +241,6 @@ def display(msg: str, colour: Colour = None, on_colour: Colour = None,
 
 def title(msg: str,
           pre_spc: Spacing = Spacing.NONE, post_spc: Spacing = Spacing.NONE):
-
     """
     Display a title
 

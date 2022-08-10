@@ -15,36 +15,6 @@ from .constants import FRIENDLY_DATE_FMT
 from .output import error
 
 
-def get_env_setting(
-        key: str, default_value: Any = None,
-        required: bool = False) -> Union[str, Any]:
-    """
-    Get an environmental variable
-
-    Args:
-        key (str): variable name
-        default_value (Any, optional):
-                Default value if not present. Defaults to None.
-        required (bool): Required flag
-
-    Returns:
-        Union[str, Any]: variable value or ``default_value`` if not set
-    """
-    value = default_value
-
-    if key in os.environ:
-        value = os.environ[key]
-        if not value:
-            value = default_value
-
-    if not value and required:
-        raise ValueError(
-            f"The required setting '{key}' is not specified, " \
-            f"please set '{key}'")
-
-    return value
-
-
 def last_day_of_month(year: int, month: int) -> int:
     """
     Get the last day of the month in the specified year
