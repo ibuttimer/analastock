@@ -2,13 +2,15 @@
 Utils package
 """
 from .input import (
-    get_input, InputParam, user_confirm, get_int, valid_int_range
+    get_input, InputParam, user_confirm, get_int, valid_int_range, ControlCode
 )
 from .output import (
     error, info, assistance, Colour, colorise, display, title, log, WrapMode,
     spacer, Spacing
 )
-from .menu import MenuEntry, CloseMenuEntry, Menu, pick_menu
+from .menu import (
+    MenuEntry, CloseMenuEntry, ProxyMenuEntry, Menu, MenuOption, pick_menu
+)
 from .misc import (
     last_day_of_month, load_json_file, load_json_string,
     save_json_file, friendly_date, filter_data_frame_by_date, DateFormat,
@@ -24,7 +26,7 @@ from .constants import (
     READ_QUOTA_ENV, WRITE_QUOTA_ENV,
     EXCHANGES_SHEET, COMPANIES_SHEET, EFT_SHEET, MUTUAL_SHEET,
     FUTURES_SHEET, INDEX_SHEET, DEFAULT_DATA_PATH, META_DATA_FOLDER,
-    PAGE_UP, PAGE_DOWN, HELP, ABORT, MAX_LINE_LEN,
+    PAGE_UP, PAGE_DOWN, HELP, BACK_KEY, HOME_KEY, MAX_LINE_LEN,
     FRIENDLY_DATE_FMT, MAX_MULTI_ANALYSIS
 )
 from .comms import http_get, wrapped_get
@@ -40,6 +42,7 @@ __all__ = [
     'user_confirm',
     'get_int',
     'valid_int_range',
+    'ControlCode',
 
     'Colour',
     'error',
@@ -55,7 +58,9 @@ __all__ = [
 
     'MenuEntry',
     'CloseMenuEntry',
+    'ProxyMenuEntry',
     'Menu',
+    'MenuOption',
     'pick_menu',
 
     'last_day_of_month',
@@ -93,7 +98,8 @@ __all__ = [
     'PAGE_UP',
     'PAGE_DOWN',
     'HELP',
-    'ABORT',
+    'BACK_KEY',
+    'HOME_KEY',
     'MAX_LINE_LEN',
     'FRIENDLY_DATE_FMT',
     'MAX_MULTI_ANALYSIS',

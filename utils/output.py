@@ -240,7 +240,7 @@ def display(msg: str, colour: Colour = None, on_colour: Colour = None,
 
 
 def title(msg: str,
-          pre_spc: Spacing = Spacing.NONE, post_spc: Spacing = Spacing.NONE):
+          pre_spc: Spacing = Spacing.LARGE, post_spc: Spacing = Spacing.NONE):
     """
     Display a title
 

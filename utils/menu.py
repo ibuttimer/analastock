@@ -3,13 +3,14 @@ Menu related functions
 """
 from collections import namedtuple
 import dataclasses
+from enum import IntFlag, Enum
 from typing import Any, Callable, List, Tuple, Union
 
-from .constants import ABORT, PAGE_UP, PAGE_DOWN, MAX_LINE_LEN
-from .input import get_input, user_confirm
-from .output import error, title, spacer, Spacing
+from .constants import BACK_KEY, PAGE_UP, PAGE_DOWN, MAX_LINE_LEN
+from .input import get_input, user_confirm, ControlCode
+from .output import error, title, Spacing
 
-MenuOption = namedtuple("MenuOption", ['key', 'name'])
+KeyName = namedtuple("KeyName", ['key', 'name'])
 
 DEFAULT_MENU_HELP = 'Enter number corresponding to desired option'
 
@@ -103,6 +104,21 @@ class CloseMenuEntry(MenuEntry):
         self.is_preferred = is_preferred
 
 
+class MenuOption(IntFlag):
+    """ Menu options enum """
+    NO_OPTIONS = 0
+    """ No menu options """
+    OPT_NO_BACK = 0x01
+    """ Do not allow back key """
+    OPT_ROOT = 0x02
+    """ Root menu """
+    OPT_ANY_BACK = 0x04
+    """ No specific back menu option """
+
+    OPT_NO_ABORT_ROOT = OPT_ROOT | OPT_NO_BACK
+    """ Root menu not allowing abort key to function as back """
+
+
 class Menu:
     """
     Class representing a menu
@@ -110,15 +126,12 @@ class Menu:
     DEFAULT_ROWS: int = 10
     """ Default number of rows to display per menu page """
 
-    NO_OPTIONS: int = 0
-    """ No menu options """
-    OPT_NO_ABORT_BACK: int = 1
-    """ Do not allow abort key to function as back """
-
     entries: list
     """ Menu entries """
     is_open: bool
     """ Menu open flag """
+    is_root: bool
+    """ Menu root flag """
     title: str
     """ Title to display """
     display_rows: int
@@ -135,7 +148,7 @@ class Menu:
 
     def __init__(
             self, *args, menu_title: str = None, rows: int = DEFAULT_ROWS,
-            help_text: str = None, options: int = NO_OPTIONS
+            help_text: str = None, options: MenuOption = MenuOption.NO_OPTIONS
     ):
         """
         Constructor
@@ -153,6 +166,7 @@ class Menu:
         for entry in args:
             self.add_entry(entry)
         self.is_open = False
+        self.is_root = False
         self.title = menu_title if menu_title else ''
         self.display_rows = rows
         self.help_text = help_text
@@ -192,8 +206,6 @@ class Menu:
         """
         self._page_keys.clear()
 
-        spacer(size=Spacing.LARGE)
-
         multi_page = \
             f" [{self.page}/{self.num_pages}]" if self.multi_page else ""
         title(f'{self.title}{multi_page}')
@@ -206,7 +218,7 @@ class Menu:
             if index < self._end:
                 key = self._entry_key(entry, index)
                 self._page_keys.append(key)
-                options.append(MenuOption(key, entry.name))
+                options.append(KeyName(key, entry.name))
 
                 if len(key) > key_width:
                     key_width = len(key)
@@ -259,7 +271,6 @@ class Menu:
         Returns:
             Any: Result of selected option's call function or None
         """
-        selection: Union[MenuEntry, None] = None
         result = None
 
         self.is_open = True
@@ -272,20 +283,24 @@ class Menu:
             display_menu = True
 
             selection = get_input(
-                'Enter selection', help_text=self.generate_help()
+                'Enter selection', help_text=self.generate_help(),
+                pre_spc=Spacing.NONE
             )
 
+            # process page up/down
             processed, display_menu = self.up_down_page(selection)
             if processed:
                 # page inc/dec processed
                 continue
 
-            do_page_check = True  # check selections are on current page
-            if selection == ABORT and \
-                    not self.options & Menu.OPT_NO_ABORT_BACK:
-                # abort to close menu
-                selected_entry = self.find_close()
-                do_page_check = False  # don't check on current page
+            # process menu selection
+            result, do_page_check = self._process_user_input(selection)
+            if result == ControlCode.HOME:
+                # go straight home
+                continue
+            elif isinstance(result, MenuEntry):
+                # ControlCode.BACK will find close entry
+                selected_entry = result
             else:
                 selected_entry, sel_index = self._is_valid_selection(selection)
                 if selected_entry and selected_entry.is_proxy:
@@ -293,7 +308,6 @@ class Menu:
                     selected_entry = self.process_proxy(sel_index)
 
             if selected_entry:
-
                 if do_page_check and selection not in self._page_keys:
                     # selection not on current page, verify correct
                     proceed_msg = \
@@ -304,25 +318,61 @@ class Menu:
                     else:
                         proceed_msg = proceed_msg.replace('<lf>', ' ')
 
-                    if not self.check_proceed(proceed_msg):
+                    confirmation = Menu.check_proceed(proceed_msg)
+                    if confirmation in [
+                        ControlCode.NOT_CONFIRMED, ControlCode.HOME
+                    ]:
                         continue
+                    elif confirmation == ControlCode.BACK:
+                        selected_entry = self.find_back_if_allowed()
+                    # else process selection
 
                 if selected_entry.is_close:
                     # close menu option chosen
                     self.is_open = False
-                    if selected_entry.func:
-                        # execute func if available
-                        result = selected_entry.func()
-                else:
-                    # exe menu function
-                    selected_entry.func()
+
+                if selected_entry.func:
+                    # execute func if available
+                    result = selected_entry.func()
+                    if result == ControlCode.HOME:
+                        if MenuOption.OPT_ROOT in self.options:
+                            result = ControlCode.CONTINUE
+                        break
             else:
                 error('Invalid selection')
 
         return result
 
+    def _process_user_input(
+                self, user_input: Union[str, ControlCode]
+            ) -> tuple[CloseMenuEntry | None | Enum, bool]:
+        """
+        Process user input
+
+        Args:
+            user_input (Union[str, ControlCode])): user input
+
+        Returns:
+             tuple[CloseMenuEntry | None | Enum, bool]:
+        """
+        do_page_check = True    # check selections are on current page
+        result = user_input
+        if result == ControlCode.HOME:
+            if MenuOption.OPT_ROOT not in self.options:
+                # go straight home, close menu
+                self.is_open = False
+            else:
+                error('Not available, root menu')
+                result = None
+        elif result == ControlCode.BACK:
+            result = self.find_back_if_allowed()
+            if result:
+                do_page_check = False  # don't check on current page
+
+        return result, do_page_check
+
     @staticmethod
-    def check_proceed(msg: str) -> bool:
+    def check_proceed(msg: str) -> ControlCode:
         """
         Check is user wishes to proceed
 
@@ -330,7 +380,7 @@ class Menu:
             msg (str): check message
 
         Returns:
-            bool: True to proceed, False otherwise
+            ControlCode: user selection
         """
         return user_confirm(
             msg,
@@ -420,9 +470,7 @@ class Menu:
         Returns:
             Union[CloseMenuEntry, None]: option or None if not found
         """
-
-        # TODO add back key option to allow just close which goes back a level
-        # ignoring any hard close (is_preferred)
+        close_entry = None
 
         # find all close items
         items = list(
@@ -431,13 +479,42 @@ class Menu:
         )
         if len(items) > 1:
             # find preferred close item
-            items = list(
+            preferred = list(
                 filter(lambda entry: entry.is_preferred, items.copy())
             )
-            if len(items) > 1:
-                raise ValueError('Multiple preferred close entries found')
+            if len(preferred) > 1:
+                raise ValueError(
+                    f'Multiple preferred close entries found: '
+                    f'{len(preferred)}')
+            elif len(preferred) == 1:
+                close_entry = preferred[0]
+            elif MenuOption.OPT_ANY_BACK in self.options:
+                close_entry = CloseMenuEntry('AnyBack')
+            else:
+                # use first close item
+                close_entry = items[0]
+        elif len(items) == 1:
+            close_entry = items[0]
 
-        return items[0] if len(items) == 1 else None
+        return close_entry
+
+    def find_back_if_allowed(self) -> Union[CloseMenuEntry, None]:
+        """
+        Find the back menu option if menu allows back
+
+        Returns:
+            Union[CloseMenuEntry, None]: option or None if not found
+        """
+        result = None
+        if MenuOption.OPT_NO_BACK not in self.options:
+            # close menu
+            result = self.find_close()
+        elif MenuOption.OPT_ANY_BACK in self.options:
+            result = CloseMenuEntry('AnyBack')
+        else:
+            error('Back not allowed')
+
+        return result
 
     @property
     def multi_page(self):
@@ -488,12 +565,12 @@ class Menu:
         if not help_text.endswith('.'):
             help_text += '.'
 
-        can_cancel = not self.options & Menu.OPT_NO_ABORT_BACK
+        can_cancel = MenuOption.OPT_NO_BACK in self.options
         if self.multi_page or can_cancel:
             # append multi-page menu and cancel help
             pg_help = f"'{PAGE_UP}'/'{PAGE_DOWN}' to page up/down" \
                 if self.multi_page else ""
-            cancel_help = f"'{ABORT}' to cancel" if can_cancel else ""
+            cancel_help = f"'{BACK_KEY}' to cancel" if can_cancel else ""
 
             if self.multi_page and can_cancel:
                 extra = f"{pg_help}, or {cancel_help}"
@@ -510,7 +587,7 @@ class Menu:
 def pick_menu(
         entries: List[Tuple[str, Any]], menu_title: str = None,
         rows: int = Menu.DEFAULT_ROWS, help_text: str = None,
-        options: int = Menu.NO_OPTIONS) -> Any:
+        options: MenuOption = MenuOption.NO_OPTIONS) -> Any:
     """
     Auto-close menu to pick an option
 
@@ -541,12 +618,12 @@ def pick_menu(
 
     for text, value in entries:
         menu.add_entry(
-            CloseMenuEntry(text, choose_func(value))
+            CloseMenuEntry(text, lambda: value)
         )
 
     loop: bool = True
     while loop:
-        menu.process()
+        result = menu.process()
 
         loop = menu.is_open
 

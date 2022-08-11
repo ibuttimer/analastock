@@ -7,7 +7,7 @@ from gspread.worksheet import Worksheet
 from gspread.cell import Cell
 
 from stock import CompanyColumn, Company
-from utils import Pagination
+from utils import Pagination, info
 
 from .find_info import find_all
 from .load_sheet import (
@@ -56,7 +56,7 @@ def search_meta(
     """
     Return all entities with values matching the specified criteria.
 
-    Results are return as a Pagination of the sheet ranges with the data,
+    Results are returned as a Pagination of the sheet ranges with the data,
     and the Pagination::transform_func function retrieves the actual
     data as required.
 
@@ -73,8 +73,11 @@ def search_meta(
     pagination = None
 
     if sheet:
+        criteria = criteria.strip()
         pattern = criteria if exact_match else \
             re.compile(rf".*{criteria}.*", flags=re.IGNORECASE)
+
+        info(f"Searching for '{criteria}'")
         matches: List[Cell] = find_all(sheet, pattern, col=col.value)
 
         # The pagination implementation is required as,
@@ -110,7 +113,7 @@ def search_company(
     """
     Return all companies with values matching the specified criteria.
 
-    Results are return as a Pagination of the sheet ranges with the data,
+    Results are returned as a Pagination of the sheet ranges with the data,
     and the Pagination::transform_func function retrieves the actual
     data as required.
 
@@ -140,7 +143,7 @@ def search_eft(
     """
     Return all EFT with values matching the specified criteria.
 
-    Results are return as a Pagination of the sheet ranges with the data,
+    Results are returned as a Pagination of the sheet ranges with the data,
     and the Pagination::transform_func function retrieves the actual
     data as required.
 
@@ -170,7 +173,7 @@ def search_mutual(
     """
     Return all Mutual Funds with values matching the specified criteria.
 
-    Results are return as a Pagination of the sheet ranges with the data,
+    Results are returned as a Pagination of the sheet ranges with the data,
     and the Pagination::transform_func function retrieves the actual
     data as required.
 
@@ -200,7 +203,7 @@ def search_future(
     """
     Return all Futures with values matching the specified criteria.
 
-    Results are return as a Pagination of the sheet ranges with the data,
+    Results are returned as a Pagination of the sheet ranges with the data,
     and the Pagination::transform_func function retrieves the actual
     data as required.
 
@@ -230,7 +233,7 @@ def search_index(
     """
     Return all Indices with values matching the specified criteria.
 
-    Results are return as a Pagination of the sheet ranges with the data,
+    Results are returned as a Pagination of the sheet ranges with the data,
     and the Pagination::transform_func function retrieves the actual
     data as required.
 
@@ -259,7 +262,7 @@ def search_all(
     """
     Return all entities with values matching the specified criteria.
 
-    Results are return as a Pagination of the sheet ranges with the data,
+    Results are returned as a Pagination of the sheet ranges with the data,
     and the Pagination::transform_func function retrieves the actual
     data as required.
 

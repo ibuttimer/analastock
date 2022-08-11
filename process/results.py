@@ -7,7 +7,10 @@ from stock import (
     DfStat, DfColumn, CompanyColumn, DataMode, download_meta_data
 )
 from sheets import search_all, save_stock_meta_data
-from utils import MAX_LINE_LEN, convert_date_time, DateFormat, drill_dict
+from utils import (
+    MAX_LINE_LEN, convert_date_time, DateFormat, drill_dict, get_input,
+    InputParam, ControlCode
+)
 from .grid import DGrid, DCell, DRow, FORMAT_WIDTH_MARK, Marker
 
 # title row formatting
@@ -52,6 +55,28 @@ SYMBOL = 'symbol'
 NAME = 'name'
 CURRENCY = 'currency'
 NAME_CURRENCY = [NAME, CURRENCY]
+
+
+def display_analysis(
+        analysis: Union[dict, List[dict]]) -> Union[str, ControlCode]:
+    """
+    Display analysis result(s)
+
+    Args:
+        analysis (Union[dict, List[dict]]): result(s) to display
+
+    Returns:
+        Union[str, ControlCode]: user input
+    """
+    if isinstance(analysis, list) and len(analysis) == 1:
+        analysis = analysis[0]
+
+    if isinstance(analysis, list):
+        display_multiple(analysis)
+    else:
+        display_single(analysis)
+
+    return get_input('Press enter to continue', InputParam.NOT_REQUIRED)
 
 
 def display_single(result: dict):
@@ -215,6 +240,9 @@ def add_analysis_title(grid: DGrid, title: str):
         grid (DGrid): grid to add to
         title (str): title to display
     """
+    for _ in range(3):
+        grid.add_row(DRow.blank_row())
+
     row = DRow(grid.width).set_fmt(TITLE_ROW_FMT)
     row.add_cell(
         DCell(f'  {title}  ', row.width).set_marker(Marker.TITLE)

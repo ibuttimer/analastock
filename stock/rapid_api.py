@@ -27,7 +27,7 @@ def rapid_get(url: str, **kwargs) -> requests.Response:
         requests.Response: response
     """
 
-    response = http_get(url, **kwargs, header=rapid_api_header())
+    response = http_get(url, **kwargs, headers=rapid_api_header())
     if response:
         if RAPID_QUOTA_LIMIT in response.headers and \
                 RAPID_QUOTA_REMAIN in response.headers:

@@ -64,7 +64,8 @@ INDEX_SHEET = 'index'
 PAGE_UP = '+'
 PAGE_DOWN = '-'
 HELP = '?'
-ABORT = '/'
+BACK_KEY = '/'
+HOME_KEY = '!!'
 
 MAX_LINE_LEN = 80
 """ Max display line width """

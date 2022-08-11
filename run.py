@@ -4,10 +4,9 @@ Main entry point for application
 from dotenv import load_dotenv
 from colorama import init
 
-from utils import Menu, CloseMenuEntry, MenuEntry, info
+from utils import Menu, CloseMenuEntry, MenuEntry, MenuOption, info
 from process import (
-    process_ibm, stock_analysis_menu, process_exchanges, company_name_search,
-    process_multi_stock
+    process_exchanges, company_name_search, process_multi_stock
 )
 
 
@@ -18,20 +17,16 @@ init()  # init Colorama
 # Application menu
 menu: Menu = Menu(
     MenuEntry('Stock Analysis', process_multi_stock),
-    # MenuEntry('Process IBM', process_ibm),
     MenuEntry('Search Company', company_name_search),
     MenuEntry('Update Company Information', process_exchanges),
     CloseMenuEntry('Quit'),
     menu_title='AnalaStock Menu',
-    options=Menu.OPT_NO_ABORT_BACK
+    options=MenuOption.OPT_NO_ABORT_ROOT
 )
 
 
 def run_app():
     """ Run the application """
-
-    # HACK process_ibm
-    # process_ibm()
 
     loop: bool = True
     while loop:

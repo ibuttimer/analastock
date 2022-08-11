@@ -10,8 +10,9 @@ from collections import namedtuple
 import pandas as pd
 
 from utils import (
-    get_input, error, log, ABORT, HELP, last_day_of_month, FRIENDLY_DATE_FMT,
-    filter_data_frame_by_date, convert_date_time, DateFormat, pick_menu
+    get_input, error, log, info, BACK_KEY, HELP, last_day_of_month,
+    filter_data_frame_by_date, convert_date_time, DateFormat, pick_menu,
+    ControlCode, friendly_date, MenuOption, MenuEntry, Spacing
 )
 from .data import StockDownload, StockParam
 from .enums import DfColumn, DfStat, AnalysisRange
@@ -31,18 +32,16 @@ DATE_FORM = f'dd{DATE_SEP}mm{DATE_SEP}yyyy'
 DATE_FORMAT = f'%d{DATE_SEP}%m{DATE_SEP}%Y'
 DATE_FMT = '{day}' + DATE_SEP + '{mth}' + DATE_SEP + '{year}'
 
-MIN_DATE = datetime(1962, 2, 1)
-
-FROM_DATE_HELP = f"Enter analysis start date, or '{ABORT}' to cancel"
+FROM_DATE_HELP = f"Enter analysis start date, or '{BACK_KEY}' to cancel"
 TO_DATE_HELP = f"Enter analysis end date (excluded from analysis), " \
-               f"or '{ABORT}' to cancel"
+               f"or '{BACK_KEY}' to cancel"
 
 PERIOD_TYPES = f"   - '[period] [{FROM}|{TO}] [{DATE_FORM}]'\n" \
                f"   - '[{DATE_FORM}] [{FROM}|{TO}] [{DATE_FORM}]'\n" \
                f"   - '{YTD} [{DATE_FORM}]'\n"
 PERIOD_HELP = f"Enter period in either of the following forms:\n" \
               f"{PERIOD_TYPES}" \
-              f"or enter '{ABORT}' to cancel.\n" \
+              f"or enter '{BACK_KEY}' to cancel.\n" \
               f"where: [period]      - is of the form '[0-9][d|w|m|y]' " \
               f"with 'd' for day,\n" \
               f"                       'w' for week, 'm' for month and " \
@@ -171,12 +170,6 @@ def validate_date(date_string: str) -> Union[datetime, None]:
         if date_time > datetime.now():
             error('Invalid date: future date')
             date_time = None
-        elif date_time < MIN_DATE:
-            error(
-                f"Invalid date: shouldn't be prior to "
-                f"{MIN_DATE.strftime(FRIENDLY_DATE_FMT)}"
-            )
-            date_time = None
 
     except ValueError:
         error(f'Invalid date: required format is {DATE_FORM}')
@@ -230,7 +223,7 @@ def validate_date_limit(
             date_time = None
             error(
                 f'Invalid date: must be {VAL_DATE_LMT_MSG[check]} '
-                f'{limit_datetime.strftime(FRIENDLY_DATE_FMT)}'
+                f'{friendly_date(limit_datetime)}'
             )
 
         return date_time
@@ -269,12 +262,19 @@ def validate_period(period_str: str) -> Union[Period, None]:
                     params, params2, prep_idx = extract_dmy_dmy(match)
 
                     if params is not None and params2 is not None:
+                        result = None
                         for prd_prm in [params, params2]:
-                            sanitise_params(prd_prm, 'text' in regex_key)
+                            result = sanitise_params(
+                                prd_prm, 'text' in regex_key)
+                            if ControlCode.check_end_code(result):
+                                break
+                        else:
+                            period = get_dmy_dmy_period(
+                                params, match.group(prep_idx), params2)
+                            hit_and_miss = period is None
 
-                        period = get_dmy_dmy_period(
-                            params, match.group(prep_idx), params2)
-                        hit_and_miss = period is None
+                        if ControlCode.check_end_code(result):
+                            period = result
 
                     params = None
                 else:
@@ -290,34 +290,23 @@ def validate_period(period_str: str) -> Union[Period, None]:
             elif regex_key == 'period-now':
                 # check formats with omitted date like '1d from'
                 params = extract_period_now(match)
-                # # period keys follows regex group order of DMY_NOW_REGEX
-                # # excluding day/mth/year at end
-                # for idx, key in enumerate(PERIOD_KEYS):
-                #     if idx < DAY_KEY_IDX:
-                #         params[key] = match.group(key_idx_to_group(idx))
             elif regex_key.startswith('ytd-dmy'):
                 # check formats like 'ytd dd-mm-yyyy'
                 # or 'ytd dd-MMM'
                 params = extract_ytd_dmy(match)
-
-                # # dir/day/mth/year period keys at end,
-                # # follow regex group order of YTD_REGEX
-                # for idx in range(DIR_KEY_IDX, len(PERIOD_KEYS)):
-                #     params[PERIOD_KEYS[idx]] = \
-                #         match.group(key_idx_to_group(idx - DIR_KEY_IDX))
             elif regex_key == 'ytd-now':
                 # check formats with omitted date like 'ytd'
                 params = extract_ytd_now(match)
-                # # dir/day/mth/year period keys at end,
-                # # follow regex group order of YTD_REGEX
-                # params[PERIOD_KEYS[DIR_KEY_IDX]] = match.group(1)
             else:
                 assert False, f'Matched {regex_key}: {match.groups()}'
 
             if params is not None:
-                sanitise_params(params, 'text' in regex_key)
-
-                period = make_dmy_period(params)
+                period = sanitise_params(params, 'text' in regex_key)
+                if period == ControlCode.BACK:
+                    # coming from sub level
+                    period == ControlCode.BACK_BACK
+                elif not ControlCode.check_end_code(period):
+                    period = make_dmy_period(params)
 
             if period or hit_and_miss:
                 # have period or attempted match invalid, all done
@@ -439,6 +428,8 @@ def extract_period_now(match) -> dict:
     for idx, key in enumerate(PERIOD_KEYS):
         if idx < DAY_KEY_IDX:
             params[key] = match.group(key_idx_to_group(idx))
+        else:
+            break
 
     return params
 
@@ -533,18 +524,24 @@ def param_date(params: dict) -> Tuple[int, int, int]:
     return day, month, year
 
 
-def sanitise_params(params: dict, do_mth_text: bool):
+def sanitise_params(
+        params: dict, do_mth_text: bool) -> Union[dict, ControlCode]:
     """
     Convert month strings to number in a params object
 
     Args:
         params (dict): params object
         do_mth_text (bool): do month test conversion flag
+
+    Returns:
+        Union[dict, ControlCode]: params
     """
+    result = None
+
     if params['year'] is None and params['month'] is None \
             and params['day'] is None:
         # nothing to do
-        return
+        return params
 
     def set_mth_yr():
         params['year'] = params['month']
@@ -559,7 +556,7 @@ def sanitise_params(params: dict, do_mth_text: bool):
             # 1st of month date
             set_mth_yr()
 
-        elif mth_len == 2 and params['month'].isnumeric() \
+        elif 1 <= mth_len <= 2 and params['month'].isnumeric() \
                 and params['day'].isnumeric():
             # ambiguous, mth-year or day-mth
 
@@ -583,36 +580,48 @@ def sanitise_params(params: dict, do_mth_text: bool):
                     day=int(params['day']))
 
                 choice = pick_menu([
-                    (mth_yr.strftime(FRIENDLY_DATE_FMT), mth_yr),
-                    (day_mth.strftime(FRIENDLY_DATE_FMT), day_mth)
-                ], menu_title='Ambiguous date, which did you mean?')
+                    (friendly_date(mth_yr), mth_yr),
+                    (friendly_date(day_mth), day_mth)
+                ], menu_title=f"Ambiguous date '{params['day']} "
+                              f"{params['month']}', which did you mean?",
+                    options=MenuOption.OPT_ANY_BACK)
+                if ControlCode.is_end_code(choice):
+                    result = choice
+                elif isinstance(choice, MenuEntry) and choice.is_close:
+                    result = ControlCode.BACK
+                else:
+                    params['year'] = choice.year
+                    params['month'] = choice.month
+                    params['day'] = choice.day
 
-                params['year'] = choice.year
-                params['month'] = choice.month
-                params['day'] = choice.day
-
-    have_flags = 0
-    for idx in range(DAY_KEY_IDX, len(PERIOD_KEYS)):
-        if params[PERIOD_KEYS[idx]] is None:
-            params[PERIOD_KEYS[idx]] = ''
-        else:
-            have_flags |= (1 << idx)
-
-    if have_flags == (1 << MTH_KEY_IDX) + (1 << YR_KEY_IDX):
+    if result is None:
         # default 1st of month when have mth & yr
-        params[PERIOD_KEYS[DAY_KEY_IDX]] = 1
+        have_flags = 0
+        for idx in range(DAY_KEY_IDX, len(PERIOD_KEYS)):
+            if params[PERIOD_KEYS[idx]] is None:
+                params[PERIOD_KEYS[idx]] = ''
+            else:
+                have_flags |= (1 << idx)
 
-    if do_mth_text and not params['month'].isnumeric():
-        param_mth = params['month'].lower()
-        for mth, mth_strs in MONTHS.items():
-            found = False
-            for mth_str in mth_strs:
-                if param_mth == mth_str:
-                    params['month'] = mth
-                    found = True
+        if have_flags == (1 << MTH_KEY_IDX) + (1 << YR_KEY_IDX):
+            params[PERIOD_KEYS[DAY_KEY_IDX]] = 1
+
+        # convert month text to number
+        if do_mth_text and not params['month'].isnumeric():
+            param_mth = params['month'].lower()
+            for mth, mth_strs in MONTHS.items():
+                found = False
+                for mth_str in mth_strs:
+                    if param_mth == mth_str:
+                        params['month'] = mth
+                        found = True
+                        break
+                if found:
                     break
-            if found:
-                break
+
+        result = params
+
+    return result
 
 
 def make_dmy_period(params: dict) -> Union[Period, None]:
@@ -715,7 +724,7 @@ def make_dmy_period(params: dict) -> Union[Period, None]:
     return period
 
 
-def get_period_range(stock_param: StockParam) -> StockParam:
+def get_period_range(stock_param: StockParam) -> Union[StockParam, ControlCode]:
     """
     Get date range for stock parameters
 
@@ -723,23 +732,30 @@ def get_period_range(stock_param: StockParam) -> StockParam:
         stock_param (StockParam): stock parameters
 
     Returns:
-        StockParam: stock parameters
+        Union[StockParam, ControlCode]: stock parameters
     """
-    period = get_input(
-        'Enter period',
-        validate=validate_period,
-        help_text=PERIOD_HELP
-    )
+    result = None
+    period = None
+    while not isinstance(period, Period):
+        period = get_input(
+            'Enter period', validate=validate_period, help_text=PERIOD_HELP
+        )
+        if period == ControlCode.BACK_BACK:
+            # sub level back, enter period again
+            continue
+        if ControlCode.is_end_code(period):
+            result = period
+            break
 
-    if period == ABORT:
-        stock_param = None
-    elif isinstance(period, Period):
+    if result is None:
         stock_param.set_from_date(period.from_date)
         stock_param.set_to_date(period.to_date)
-    else:
-        stock_param = None
+        result = stock_param
 
-    return stock_param
+        info(f'Period {friendly_date(period.from_date)} to '
+             f'{friendly_date(period.to_date)}')
+
+    return result
 
 
 def get_dmy_dmy_period(params: dict, preposition: str,
@@ -789,34 +805,37 @@ def get_date_range(stock_param: StockParam) -> StockParam:
     Returns:
         StockParam: stock parameters
     """
-    entered_date = get_input(
-        'Enter from date         ',
-        validate=validate_date,
-        help_text=FROM_DATE_HELP,
-        input_form=[DATE_FORM]
-    )
-    if entered_date != ABORT:
-        stock_param.set_from_date(entered_date)
+    result = None
+    for idx, entry in enumerate([
+        ('Enter from date         ', FROM_DATE_HELP),
+        ('Enter to date (excluded)', TO_DATE_HELP)
+    ]):
+        prompt, help_text = entry
 
         entered_date = get_input(
-            'Enter to date (excluded)',
-            validate=validate_date_limit(stock_param.from_date, LTE),
-            help_text=TO_DATE_HELP,
+            prompt,
+            validate=validate_date_limit(
+                stock_param.from_date, LTE) if idx else validate_date,
+            help_text=help_text,
             input_form=[DATE_FORM]
         )
-        if entered_date != ABORT:
-            stock_param.set_to_date(entered_date)
+        if ControlCode.is_end_code(entered_date):
+            result = entered_date
+            break
+        elif entered_date:
+            stock_param.set_to_date(entered_date) if idx else \
+                stock_param.set_from_date(entered_date)
+    else:
+        result = stock_param
 
-    if entered_date == ABORT:
-        stock_param = None
-
-    return stock_param
+    return result
 
 
 def get_stock_param_range(
         stock_param: StockParam,
         anal_rng: AnalysisRange = AnalysisRange.DATE,
-        range_select: Callable[[], AnalysisRange] = None):
+        range_select: Callable[[], AnalysisRange] = None
+) -> Union[StockParam, ControlCode]:
     """
     Get stock parameters
 
@@ -826,6 +845,9 @@ def get_stock_param_range(
                 Range entry method. Defaults to AnalysisRange.DATE.
         range_select (Callable[[], AnalysisRange], optional):
                 Range entry method select function. Defaults to None.
+
+    Results:
+        Union[StockParam, ControlCode]: stock parameters
     """
     if anal_rng == AnalysisRange.ASK:
         anal_rng = range_select()

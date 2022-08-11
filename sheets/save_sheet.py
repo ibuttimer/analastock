@@ -230,7 +230,7 @@ def save_stock_meta_data(
         else:
             error_msg = f"Multiple '{symbol}' entries: data not saved"
     else:
-        # add the meta data to the sheet
+        # add the metadata to the sheet
         values = Company.company_of(
                 drill_dict(meta, "exchange"), symbol,
                 drill_dict(meta, "shortName"), None,

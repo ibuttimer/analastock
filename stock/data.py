@@ -72,6 +72,17 @@ class StockParam:
         """
         self._to_date = to_date
 
+    def set_dates(self, params: object):
+        """
+        Set dates from specified StockParam
+
+        Args:
+            params (StockParam): object to set dates from
+        """
+        if isinstance(params, StockParam):
+            self._from_date = params._from_date
+            self._to_date = params._to_date
+
     @staticmethod
     def _date(to_convert):
         return to_convert.date() if isinstance(to_convert, datetime) else \
