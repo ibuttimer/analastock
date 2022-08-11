@@ -43,7 +43,7 @@ class TestData(TestBase):
 
         # tidy up
         self.tidy_up_sheets(
-            [ (worksheet_name, sheet) ]
+            [(worksheet_name, sheet)]
         )
 
     def test_read_data_gaps_start_end_gaps(self):
@@ -66,9 +66,8 @@ class TestData(TestBase):
 
         # tidy up
         self.tidy_up_sheets(
-            [ (worksheet_name, sheet) ]
+            [(worksheet_name, sheet)]
         )
-
 
     def test_read_data_gaps_multi_year(self):
         """
@@ -91,12 +90,12 @@ class TestData(TestBase):
 
         # tidy up
         self.tidy_up_sheets(
-            [ (worksheet_name, sheet) ]
+            [(worksheet_name, sheet)]
         )
 
     def test_read_data_gaps_and_fill(self):
         """
-        Test read data gaps before and after fill 
+        Test read data gaps before and after fill
         """
         worksheet_name = 'data-gaps-fill-worksheet'
 
@@ -120,17 +119,16 @@ class TestData(TestBase):
 
         # tidy up
         self.tidy_up_sheets(
-            [ (worksheet_name, sheet) ]
+            [(worksheet_name, sheet)]
         )
-
 
     @staticmethod
     def check_gaps(
-            instance,
-            sheet: gspread.worksheet.Worksheet,
-            stock_param: StockParam,
-            expected_gaps: List[StockParam]
-        ):
+                instance,
+                sheet: gspread.worksheet.Worksheet,
+                stock_param: StockParam,
+                expected_gaps: List[StockParam]
+            ):
         """
         Check gaps test
 
@@ -151,12 +149,11 @@ class TestData(TestBase):
         instance.assertListEqual(gaps, expected_gaps)
 
 
-
 def add_data_with_gaps(
-        sheet: gspread.worksheet.Worksheet,
-        stock_param: StockParam,
-        gap_month: List[Gap]
-    ) -> List[StockParam]:
+            sheet: gspread.worksheet.Worksheet,
+            stock_param: StockParam,
+            gap_month: List[Gap]
+        ) -> List[StockParam]:
     """
     Add data with gaps
 

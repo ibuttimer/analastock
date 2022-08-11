@@ -130,16 +130,16 @@ def save_companies(
         if clear_sheet:
             sheet_clear(sheet)
         values = [
-            [company[attrib] for attrib in company] \
-                for company in data['results']
+            [company[attrib] for attrib in company]
+            for company in data['results']
         ]
         result = sheet_append_rows(sheet, values, value_input_option='RAW')
 
         exchange = values[0][CompanyColumn.EXCHANGE.value - 1] \
             if len(values) > 0 else None
 
-        info(f"Saved {updated_rows(result)} company records"\
-            f"{f' for {exchange}' if exchange else ''}")
+        info(f"Saved {updated_rows(result)} company records"
+             f"{f' for {exchange}' if exchange else ''}")
 
         # some symbols contain '.' which result in them being displayed as
         # hyperlinks

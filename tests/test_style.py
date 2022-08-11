@@ -20,6 +20,6 @@ class TestCodeFormat(unittest.TestCase):
 
         self.assertEqual(
             result.total_errors, 0,
-            f"Found code style errors (and warnings).{chr(0x0A)}"\
+            f"Found code style errors (and warnings).{chr(0x0A)}"
             f"{f'{chr(0x0A)}'.join(result.get_statistics())}"
         )

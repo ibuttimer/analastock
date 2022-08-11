@@ -604,11 +604,12 @@ class TestAnalyse(TestCase, CredentialPatchMixin):
             # day-month
             if do_day_mth and test_yr == datetime.now().year:
 
-                # day-mth appears as second option in ambiguous 
+                # day-mth appears as second option in ambiguous
                 # mth-year/day-mth dates, see sanitise_params()
                 with MockInputFunction(return_value='2'):
 
-                    from_fmt_dm = from_fmt_dmy[0:from_fmt_dmy.index(f'{sep}%Y')]
+                    from_fmt_dm = \
+                        from_fmt_dmy[0:from_fmt_dmy.index(f'{sep}%Y')]
                     to_fmt_dm = to_fmt_dmy[0:to_fmt_dmy.index(f'{sep}%Y')]
 
                     for time_dir in ['from', 'to']:

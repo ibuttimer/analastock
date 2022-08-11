@@ -30,7 +30,7 @@ def download_exchanges(data_mode: DataMode = DataMode.LIVE) -> StockDownload:
         StockDownload: downloaded data
     """
 
-    info(f'Downloading exchanges '\
+    info(f'Downloading exchanges '
          f'{"*sample* " if data_mode == DataMode.SAMPLE else ""}data')
 
     data = None

@@ -82,7 +82,7 @@ MAX_SCREEN_HEIGHT = 24
 FRIENDLY_DATE_FMT = '%d %b %Y'
 
 DEFAULT_READ_QUOTA = 60
-""" Google Sheets API: Read requests per minute per user """ 
+""" Google Sheets API: Read requests per minute per user """
 DEFAULT_WRITE_QUOTA = 60
 """ Google Sheets API: Write requests per minute per user """
 READ_QUOTA_ENV = 'READ_QUOTA'

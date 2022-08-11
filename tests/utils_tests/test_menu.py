@@ -20,15 +20,14 @@ class TestMenu(unittest.TestCase):
         """
         return True
 
-
     def test_multi_page(self):
         """
         Test multi-page menu
         """
         menu: Menu = Menu(
             *[
-                MenuEntry(f'Option {i + 1}', self.empty_func) \
-                    for i in range(Menu.DEFAULT_ROWS)
+                MenuEntry(f'Option {i + 1}', self.empty_func)
+                for i in range(Menu.DEFAULT_ROWS)
             ],
             menu_title='Test MultiPage'
         )

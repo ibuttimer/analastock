@@ -28,14 +28,14 @@ from .results import display_analysis
 
 DATE_ENTRY = 'Date entry'
 TEXT_ENTRY = 'Text entry'
-PERIOD_MENU_HELP = f"Choose '{DATE_ENTRY}' to specify period by dates, " \
-                   f"or '{TEXT_ENTRY}' to specify\n" \
+PERIOD_MENU_HELP = f"Choose '{DATE_ENTRY}' to specify period by dates, "\
+                   f"or '{TEXT_ENTRY}' to specify\n"\
                    f"in the form '1m from {DATE_FORM}'"
 SYMBOL_ENTRY = 'Enter stock symbol'
 SEARCH_ENTRY = 'Search company'
-SYMBOL_MENU_HELP = f"Choose '{SYMBOL_ENTRY}' if the stock symbol is known, " \
+SYMBOL_MENU_HELP = f"Choose '{SYMBOL_ENTRY}' if the stock symbol is known, "\
                    f"or '{SEARCH_ENTRY}' to search by company name"
-COMPANY_SEARCH_HELP = f"Enter company name or part of name to search for, " \
+COMPANY_SEARCH_HELP = f"Enter company name or part of name to search for, "\
                       f"or '{BACK_KEY}' to cancel"
 CLEAR_HELP = "Clear data previously saved"
 PAUSE_HELP = "Enter pause in seconds between exchange data downloads"

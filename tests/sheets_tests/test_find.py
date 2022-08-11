@@ -52,9 +52,9 @@ class TestFind(TestBase):
                 row = None
                 col = None
                 if i == 1:
-                    row = expected.row # check find with row scope
+                    row = expected.row  # check find with row scope
                 elif i == 2:
-                    col = expected.col # check find with col scope
+                    col = expected.col  # check find with col scope
 
                 # check find
                 cell = find(sheet, expected.value, row=row, col=col)
@@ -67,16 +67,15 @@ class TestFind(TestBase):
         self.assertIsNone(cell)
 
         # check find in wrong col
-         # expected positions must be greater than 1
+        # expected positions must be greater than 1
         self.assertGreater(expected.col, 1)
         cell = find(sheet, expected.value, col=expected.col - 1)
         self.assertIsNone(cell)
 
         # tidy up
         self.tidy_up_sheets(
-            [ (worksheet_name, sheet) ]
+            [(worksheet_name, sheet)]
         )
-
 
     def assert_cell(self, cell: gspread.cell.Cell, expected: Expected):
         """
@@ -90,7 +89,6 @@ class TestFind(TestBase):
         self.assertEqual(cell.value, expected.value)
         self.assertEqual(cell.row, expected.row)
         self.assertEqual(cell.col, expected.col)
-
 
     def test_find_all(self):
         """
@@ -124,9 +122,9 @@ class TestFind(TestBase):
                 row = None
                 col = None
                 if i == 1:
-                    row = expect_result.row # check find with row scope
+                    row = expect_result.row   # check find with row scope
                 elif i == 2:
-                    col = expect_result.col # check find with col scope
+                    col = expect_result.col   # check find with col scope
 
                 # check find
                 cells = find_all(sheet, pattern, row=row, col=col)
@@ -155,9 +153,8 @@ class TestFind(TestBase):
 
         # tidy up
         self.tidy_up_sheets(
-            [ (worksheet_name, sheet) ]
+            [(worksheet_name, sheet)]
         )
-
 
     def test_read_by_date(self):
         """
@@ -172,7 +169,7 @@ class TestFind(TestBase):
         add_sheet_data(sheet, date(2022, jan, 1), date(2022, apr, 1))
 
         test_min = datetime(year=2022, month=feb, day=5).date()
-        test_max = datetime(year=2022, month=mar, day=5).date() # exclusive
+        test_max = datetime(year=2022, month=mar, day=5).date()  # exclusive
         data_frame = read_data_by_date(sheet, test_min, test_max)
 
         row = 0
@@ -196,25 +193,30 @@ class TestFind(TestBase):
                             high_value(month, day))
                         )
                     self.assertEqual(
-                        data_frame[DfColumn.LOW.title].iat[row], round_price(
+                        data_frame[DfColumn.LOW.title].iat[row],
+                        round_price(
                             low_value(month, day))
                         )
                     self.assertEqual(
-                        data_frame[DfColumn.CLOSE.title].iat[row], round_price(
+                        data_frame[DfColumn.CLOSE.title].iat[row],
+                        round_price(
                             close_value(month, day))
                         )
                     self.assertEqual(
-                        data_frame[DfColumn.ADJ_CLOSE.title].iat[row], round_price(
+                        data_frame[DfColumn.ADJ_CLOSE.title].iat[row],
+                        round_price(
                             adj_close_value(month, day))
                         )
                     self.assertEqual(
-                        data_frame[DfColumn.VOLUME.title].iat[row], volume_value(month, day))
+                        data_frame[DfColumn.VOLUME.title].iat[row],
+                        volume_value(month, day)
+                    )
 
                 row += 1
 
         # tidy up
         self.tidy_up_sheets(
-            [ (worksheet_name, sheet) ]
+            [(worksheet_name, sheet)]
         )
 
 

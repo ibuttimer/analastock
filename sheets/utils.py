@@ -63,4 +63,4 @@ def cells_range(
         str: range
     """
     return f'{rowcol_to_a1(row_top, col_left)}:'\
-                f'{rowcol_to_a1(row_bottom, col_right)}'
+           f'{rowcol_to_a1(row_bottom, col_right)}'

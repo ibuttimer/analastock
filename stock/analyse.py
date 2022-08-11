@@ -724,7 +724,8 @@ def make_dmy_period(params: dict) -> Union[Period, None]:
     return period
 
 
-def get_period_range(stock_param: StockParam) -> Union[StockParam, ControlCode]:
+def get_period_range(
+        stock_param: StockParam) -> Union[StockParam, ControlCode]:
     """
     Get date range for stock parameters
 

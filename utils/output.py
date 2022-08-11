@@ -320,8 +320,11 @@ def display_paginated(
         if line_num % page_height + post_spc.value + 1 == page_height:
             wait_for_next('Press enter for next page', post_spc)
 
-    if line_num % page_height:
-        wait_for_next('Press enter to end', post_spc)
+    lfs = page_height - (line_num % page_height + post_spc.value + 1)
+    if lfs:
+        print('\n' * lfs, end='')
+
+    wait_for_next('Press enter to end', post_spc)
 
 
 def format_line(line: str) -> str:

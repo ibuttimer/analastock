@@ -8,14 +8,13 @@ import gspread
 from utils import last_day_of_month
 from sheets.spread_ops import sheet_append_rows
 
-
 JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC = \
     (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12)
 
 
 def add_month(
-            date_time: Union[datetime, date],
-            months: int = 1) -> Union[datetime, date]:
+        date_time: Union[datetime, date],
+        months: int = 1) -> Union[datetime, date]:
     """
     Add a month to the specified date
 
@@ -28,14 +27,16 @@ def add_month(
     """
     new_date = date_time
     for _ in range(months):
-        delta = timedelta(days=last_day_of_month(new_date.year, new_date.month))
+        delta = timedelta(
+            days=last_day_of_month(new_date.year, new_date.month))
         new_date = new_date + delta
 
     return new_date
 
+
 def calc_value(
-            month: int, day: int,
-            factor: Union[int, float]) -> Union[int, float]:
+        month: int, day: int,
+        factor: Union[int, float]) -> Union[int, float]:
     """
     Calculate a test value
 
@@ -48,6 +49,7 @@ def calc_value(
         Union[int, float]: value
     """
     return (month * factor) + day
+
 
 def open_value(month: int, day: int) -> float:
     """
@@ -62,6 +64,7 @@ def open_value(month: int, day: int) -> float:
     """
     return calc_value(month, day, 5.1)
 
+
 def high_value(month: int, day: int) -> float:
     """
     Calculate a test value for High
@@ -74,6 +77,7 @@ def high_value(month: int, day: int) -> float:
         float: value
     """
     return calc_value(month, day, 5.2)
+
 
 def low_value(month: int, day: int) -> float:
     """
@@ -88,6 +92,7 @@ def low_value(month: int, day: int) -> float:
     """
     return calc_value(month, day, 5.3)
 
+
 def close_value(month: int, day: int) -> float:
     """
     Calculate a test value for Close
@@ -101,6 +106,7 @@ def close_value(month: int, day: int) -> float:
     """
     return calc_value(month, day, 5.4)
 
+
 def adj_close_value(month: int, day: int) -> float:
     """
     Calculate a test value for AdjClose
@@ -113,6 +119,7 @@ def adj_close_value(month: int, day: int) -> float:
         float: value
     """
     return calc_value(month, day, 5.5)
+
 
 def volume_value(month: int, day: int) -> int:
     """

@@ -66,8 +66,8 @@ def check_partial(
                 start_month = 1 if year > start_year else \
                                 stock_param.from_date.month
                 # stock_param.to_date is excluded
-                end_month = 12 if year < end_year else \
-                                stock_param.to_date.month - 1
+                end_month = \
+                    12 if year < end_year else stock_param.to_date.month - 1
 
             for month in range(start_month, end_month + 1):
                 check_mth = date(year=year, month=month, day=1)
@@ -77,7 +77,7 @@ def check_partial(
                     day=1
                 )
                 mth_frame = filter_data_frame_by_date(
-                                data_frame, check_mth, limit_mth, DfColumn.DATE.title)
+                    data_frame, check_mth, limit_mth, DfColumn.DATE.title)
                 if len(mth_frame) == 0:
                     # no data for check_mth
                     if not gap_param:

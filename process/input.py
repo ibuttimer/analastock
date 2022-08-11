@@ -99,7 +99,8 @@ def get_stock_param(
     stock_param = get_stock_param_symbol(symbol)
 
     if not ControlCode.check_end_code(symbol) and stock_param is not None:
-        stock_param = get_stock_param_range(stock_param, anal_rng, range_select)
+        stock_param = \
+            get_stock_param_range(stock_param, anal_rng, range_select)
 
     return stock_param
 

@@ -2,6 +2,7 @@
 Mock input function
 """
 
+
 class MockInputFunction:
     """
     Class to mock builtin function 'input'

@@ -38,7 +38,7 @@ class TestLoad(TestBase):
 
         # tidy up
         self.tidy_up_sheets(
-            [ (worksheet_name, sheet) ]
+            [(worksheet_name, sheet)]
         )
 
 

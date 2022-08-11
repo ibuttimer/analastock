@@ -97,10 +97,11 @@ class Str():
             )
         """
         is_str = isinstance(text, Str)
-        return is_str, \
-               text.text if is_str else text, \
-               text.length if is_str else len(text), \
-               text.ctrl_len if is_str else 0
+        return \
+            is_str, \
+            text.text if is_str else text, \
+            text.length if is_str else len(text), \
+            text.ctrl_len if is_str else 0
 
 
 class FormatMixin:

@@ -33,10 +33,9 @@ def display_help():
 def file_reader(filepath: str):
     """
     Generator to read a file
-    
+
     Args:
         filepath (str): path to file
     """
     for row in open(filepath, "r"):
         yield row
-

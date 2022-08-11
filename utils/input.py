@@ -194,7 +194,8 @@ def get_int(
     Args:
         msg (str): prompt message
         validate (Callable[[str], Union[Any|None]], optional):
-                Validate user input returning None if invalid. Defaults to None.
+                Validate user input returning None if invalid.
+                Defaults to None.
         help_text (str, optional): Help text to display. Defaults to None.
         pre_spc (Spacing, optional):
             Spacing to allow before display. Defaults to None.

@@ -51,4 +51,3 @@ def is_truthy(text: Union[str, int]) -> bool:
     elif isinstance(text, str):
         value = True if text.lower() in ['y', 'yes', 'true'] else False
     return value
-

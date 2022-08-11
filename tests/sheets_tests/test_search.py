@@ -77,9 +77,8 @@ class TestSearch(TestBase):
 
         # tidy up
         self.tidy_up_sheets(
-            [ (worksheet_name, sheet) ]
+            [(worksheet_name, sheet)]
         )
-
 
     def test_symbol_search(self):
         """
@@ -117,8 +116,8 @@ class TestSearch(TestBase):
         expected_partials = len(
             list(
                 filter(
-                    lambda entry: \
-                        entry.symbol.startswith(partial_name), results
+                    lambda partial:
+                        partial.symbol.startswith(partial_name), results
                 )
             )
         )
@@ -156,9 +155,8 @@ class TestSearch(TestBase):
 
         # tidy up
         self.tidy_up_sheets(
-            [ (worksheet_name, sheet) ]
+            [(worksheet_name, sheet)]
         )
-
 
     def add_companies(self, worksheet_name: str, num_companies: int):
         """
@@ -172,8 +170,8 @@ class TestSearch(TestBase):
         test_data = [
             [
                 # following CompanyColumn order
-                f'EXC{(i // (num_companies / 2)) + 1}', # exchange code
-                f'{company_symbol}{i + 1}',             # symbol
+                f'EXC{(i // (num_companies / 2)) + 1}',  # exchange code
+                f'{company_symbol}{i + 1}',              # symbol
                 f'{company_name} {i + 1} D.A.C',   # name
                 'Industrials'               # sector
             ] for i in range(0, num_companies)
@@ -187,7 +185,6 @@ class TestSearch(TestBase):
             self.assertEqual(result['updates']['updatedCells'], len(data))
 
         return sheet, company_name, company_symbol, test_data
-
 
     def assert_company(self, company: Company, expected: List[str]):
         """
