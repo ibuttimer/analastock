@@ -6,14 +6,13 @@ from .input import (
 )
 from .output import (
     error, info, assistance, Colour, colorise, display, title, log, WrapMode,
-    spacer, Spacing
+    spacer, Spacing, display_paginated
 )
 from .menu import (
     MenuEntry, CloseMenuEntry, ProxyMenuEntry, Menu, MenuOption, pick_menu
 )
 from .misc import (
-    last_day_of_month, load_json_file, load_json_string,
-    save_json_file, friendly_date, filter_data_frame_by_date, DateFormat,
+    last_day_of_month, friendly_date, filter_data_frame_by_date, DateFormat,
     convert_date_time, drill_dict
 )
 from .environ import get_env_setting
@@ -25,8 +24,10 @@ from .constants import (
     DEFAULT_READ_QUOTA, DEFAULT_WRITE_QUOTA,
     READ_QUOTA_ENV, WRITE_QUOTA_ENV,
     EXCHANGES_SHEET, COMPANIES_SHEET, EFT_SHEET, MUTUAL_SHEET,
-    FUTURES_SHEET, INDEX_SHEET, DEFAULT_DATA_PATH, META_DATA_FOLDER,
-    PAGE_UP, PAGE_DOWN, HELP, BACK_KEY, HOME_KEY, MAX_LINE_LEN,
+    FUTURES_SHEET, INDEX_SHEET,
+    DEFAULT_DATA_PATH, META_DATA_FOLDER, DEFAULT_HELP_PATH,
+    PAGE_UP, PAGE_DOWN, HELP, BACK_KEY, HOME_KEY,
+    MAX_LINE_LEN, MAX_SCREEN_HEIGHT,
     FRIENDLY_DATE_FMT, MAX_MULTI_ANALYSIS
 )
 from .comms import http_get, wrapped_get
@@ -35,6 +36,9 @@ from .paths import (
     file_path, sample_exchanges_path, sample_exchange_path, sample_meta_path
 )
 from .quota_mgr import read_manager, write_manager
+from .file import (
+    find_parent_of_folder, load_json_file, load_json_string, save_json_file
+)
 
 __all__ = [
     'get_input',
@@ -55,6 +59,7 @@ __all__ = [
     'WrapMode',
     'spacer',
     'Spacing',
+    'display_paginated',
 
     'MenuEntry',
     'CloseMenuEntry',
@@ -64,9 +69,6 @@ __all__ = [
     'pick_menu',
 
     'last_day_of_month',
-    'load_json_file',
-    'load_json_string',
-    'save_json_file',
     'friendly_date',
     'filter_data_frame_by_date',
     'DateFormat',
@@ -95,12 +97,14 @@ __all__ = [
     'INDEX_SHEET',
     'DEFAULT_DATA_PATH',
     'META_DATA_FOLDER',
+    'DEFAULT_HELP_PATH',
     'PAGE_UP',
     'PAGE_DOWN',
     'HELP',
     'BACK_KEY',
     'HOME_KEY',
     'MAX_LINE_LEN',
+    'MAX_SCREEN_HEIGHT',
     'FRIENDLY_DATE_FMT',
     'MAX_MULTI_ANALYSIS',
 
@@ -115,5 +119,10 @@ __all__ = [
     'sample_meta_path',
 
     'read_manager',
-    'write_manager'
+    'write_manager',
+
+    'find_parent_of_folder',
+    'load_json_file',
+    'load_json_string',
+    'save_json_file'
 ]

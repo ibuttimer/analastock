@@ -39,6 +39,13 @@ Note: if a relative path is specified, it must be relative to the
       project root folder.
 """
 
+DEFAULT_HELP_PATH = "./doc/help.txt"
+"""
+Default path to help files
+Note: if a relative path is specified, it must be relative to the
+      project root folder.
+"""
+
 META_DATA_FOLDER = "meta"
 """ Folder under data path where meta-data samples are stored """
 
@@ -69,6 +76,8 @@ HOME_KEY = '!!'
 
 MAX_LINE_LEN = 80
 """ Max display line width """
+MAX_SCREEN_HEIGHT = 24
+""" Max screen height """
 
 FRIENDLY_DATE_FMT = '%d %b %Y'
 

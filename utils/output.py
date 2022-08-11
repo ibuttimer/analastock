@@ -1,15 +1,20 @@
 """
 Output related functions
 """
+import re
 from enum import Enum, auto
+from typing import Generator, Union
+
 from termcolor import colored
 
-from .constants import MAX_LINE_LEN
+from .constants import MAX_LINE_LEN, MAX_SCREEN_HEIGHT
 from .environ import get_env_setting, is_truthy
-
 
 # use Termcolor for all coloured text output
 # https://pypi.org/project/termcolor/
+
+# regex to find formatted text in raw help string
+FORMATTING = re.compile(r'{(.*?):?([<>^]?):?(\w+)}')
 
 
 class Colour(Enum):
@@ -22,6 +27,17 @@ class Colour(Enum):
     CYAN = 'cyan'
     WHITE = 'white'
     GREY = 'grey'
+
+    @staticmethod
+    def from_text(text: str) -> Union[Enum, None]:
+        """ Get Colour corresponding to specified text """
+        text = text.strip().lower()
+        result = None
+        for val in Colour:
+            if text == val.value:
+                result = val
+                break
+        return result
 
 
 class WrapMode(Enum):
@@ -270,3 +286,84 @@ def spacer(size: Spacing = Spacing.SMALL):
     """
     if size is not None and size != Spacing.NONE:
         print('\n' * size.value, end='')
+
+
+def display_paginated(
+        generator: Generator[str, None, None],
+        page_height: int = MAX_SCREEN_HEIGHT,
+        comment: str = '#',
+        pre_spc: Spacing = Spacing.NONE, post_spc: Spacing = Spacing.NONE):
+    """
+    Display paginated text
+
+    Args:
+        generator (Generator): content generator
+        page_height (int): page height
+        comment (str, optional):  ignored line indicator. Defaults to '#'.
+        pre_spc (Spacing, optional):
+            Spacing to allow before display. Defaults to None.
+        post_spc (Spacing, optional):
+            Spacing to allow after display. Defaults to None.
+
+    Returns:
+        None
+    """
+    line_num = 0
+    for line in generator:
+        if line_num % page_height == 0:
+            spacer(pre_spc)
+
+        if not line.startswith(comment):
+            print(format_line(line), end='')
+            line_num += 1
+
+        if line_num % page_height + post_spc.value + 1 == page_height:
+            wait_for_next('Press enter for next page', post_spc)
+
+    if line_num % page_height:
+        wait_for_next('Press enter to end', post_spc)
+
+
+def format_line(line: str) -> str:
+    """
+    Format a help text line
+
+    Args:
+        line (str): raw text
+
+    Returns:
+        str: formatted test
+    """
+    replacements = []
+
+    match = re.findall(FORMATTING, line)
+    if match:
+        # e.g. [('AnalaStock Help', '^', 'green')]
+        for entry in match:
+            text = entry[0]
+            if entry[1]:
+                text = f'{text:{f"{entry[1]}{MAX_LINE_LEN}"}}'
+            if entry[2]:
+                text = colorise(text, colour=Colour.from_text(entry[2]))
+            replacements.append((entry, text))
+
+    result = line
+    for elements, replace in replacements:
+        colour = f':{elements[2]}' if {elements[2]} else ''
+        result = result.replace(f'{{{elements[0]}:'
+                                f'{elements[1]}'
+                                f'{colour}}}', replace)
+
+    return result
+
+
+def wait_for_next(msg: str, spacing: Spacing = Spacing.NONE):
+    """
+    Wait for user input
+
+    Args:
+        msg (str): message to display
+        spacing (Spacing, optional): spacing before display
+    """
+    spacer(size=spacing)
+    input(msg)

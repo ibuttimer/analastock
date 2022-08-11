@@ -3,16 +3,12 @@ Miscellaneous functions
 """
 from calendar import isleap
 from datetime import date, datetime, time
-import json
-import os
-from pathlib import Path
 from typing import Any, Union
 from enum import Enum, auto
 
 import pandas as pd
 
 from .constants import FRIENDLY_DATE_FMT
-from .output import error
 
 
 def last_day_of_month(year: int, month: int) -> int:
@@ -31,72 +27,6 @@ def last_day_of_month(year: int, month: int) -> int:
     return 29 if month == 2 and isleap(year) else \
         28 if month == 2 else \
         30 if month in [9, 4, 6, 11] else 31
-
-
-def load_json_file(filepath: str) -> Union[dict, None]:
-    """
-    Load json from a file
-
-    Args:
-        filepath (str): path to file
-
-    Returns:
-        Union[dict, None]: json dict or None if error
-    """
-    data = None
-
-    try:
-        with open(filepath, encoding='utf-8') as file_handle:
-            data = json.load(file_handle)
-            file_handle.close()
-    except FileNotFoundError:
-        error(f'File not found: {filepath}')
-    except json.decoder.JSONDecodeError:
-        error(f'JSON decode error: {filepath}')
-
-    return data
-
-
-def load_json_string(json_string: str) -> Union[dict, None]:
-    """
-    Load json from a string
-
-    Args:
-        json_string (str): serialised json
-
-    Returns:
-        Union[dict, None]: json dict or None if error
-    """
-    data = None
-
-    try:
-        data = json.loads(json_string)
-    except json.decoder.JSONDecodeError:
-        error('JSON decode error: unable to deserialise string')
-
-    return data
-
-
-def save_json_file(filepath: str, data: object):
-    """
-    Save json to a file
-
-    Args:
-        filepath (str): path to file
-        data (object): json data
-    """
-    path, _ = os.path.split(filepath)
-    path = Path(path)
-    if not path.exists():
-        path.mkdir(parents=True, exist_ok=True)
-    try:
-        with open(filepath, mode='w', encoding='utf-8') as file_handle:
-            json.dump(data, file_handle, indent=4)
-            file_handle.close()
-    except OSError:
-        error(f'Unable to save file: {filepath}')
-
-    return data
 
 
 def friendly_date(date_time: datetime) -> str:

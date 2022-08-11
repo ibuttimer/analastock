@@ -57,3 +57,10 @@ READ_QUOTA=60
 
 # Google Sheets API: Write requests per minute per user; default 60
 WRITE_QUOTA=60
+
+# Enable console log messages; set to
+LOGGING=1
+
+# path to help file; default './doc/help.txt'
+# Note: if a relative path is specified, it must be relative to the project root folder.
+HELP_PATH="./doc/help.txt"

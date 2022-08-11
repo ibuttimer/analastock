@@ -1,0 +1,58 @@
+{AnalaStock Help:^:green}
+#
+# 34567890123456789012345678901234567890123456789012345678901234567890123456789
+1. {General::magenta}
+   There are a various common features:
+   * Entering {!!::yellow} at any user prompt returns to the main menu.
+   * Entering {/::yellow} at any user prompt goes back to the previous step.
+   * When {?::yellow} is displayed at a user prompt, enter {?::yellow} to display context
+     specific help.
+   Menu-specific features:
+   * Enter {+::yellow}/{-::yellow} to page up/down multi-page menus.
+#
+2. {Stock Analysis::magenta}
+   A stock analysis may be performed as follows:
+   * Select the {Stock Analysis::blue} option from the main menu.
+   * Enter the number of stocks to analyse. Between 1 and 3 stocks may be
+     analysed at a time.
+   * Enter the symbol for the stock to analyse.
+     If the symbol is not known, press enter to begin a search by company
+     name.
+     - Enter the company name or part thereof.
+     - From the {Company Search Results::blue} menu, select the desired
+       company.
+   * Enter the analysis period. This may be entered in a number of forms:
+     - [period] [from|to] [date]
+     - [date] [from|to] [date]
+     - ytd [date]
+     Where:
+     - where: [period]      - is of the form [0-9][{d::green}|{w::green}|{m::green}|{y::green}]
+                              {d::green}: day, {w::green}: week, {m::green}: month, {y::green}: year
+                              e.g. '5d' is 5 days
+              [from|to|ytd] - {from::green}/{to::green} date or 'year-to-date' date
+                              {Note::cyan}: [period] not required for 'ytd'.
+                              e.g. 'ytd 11-08-2022'
+              [date]        - date may be specified in the following formats:
+                              - 'dd-mm-yyyy' where 'dd': day, 'mm': month,
+                                 'yyyy': year
+                              - 'dd-MM-yyyy' where 'MM': month text
+                              {Note 1::cyan}: {-::yellow}, {/::yellow}, {.::yellow} and ' ' are all valid
+                                      separators.
+                              {Note 2::cyan}: Years may be specified in 2 or 4 digit
+                                      format.
+   * After display of the report, press enter to return to the main menu
+#
+3. {Search Company::magenta}
+   The Search Company functionality allows the user to search for a company, and
+   optionally perform a stock analysis.
+   * Select the {Search Company::blue} option from the main menu.
+   * Enter the company name or part thereof.
+   * To perform an analysis from the {Company Search Results::blue} menu,
+     select the desired company, and enter the analysis period as outlined under
+     {Stock Analysis::magenta}.
+#
+4. {Help::magenta}
+   Display this screen.
+#
+5. {Quit::magenta}
+   Exit the program.
