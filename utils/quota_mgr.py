@@ -165,9 +165,9 @@ class LevelQuotaMgr(QuotaMgr):
         if unit in TimeUnit:
             # convert quota to nanoseconds per operation
             quota = int(quota)
-            per_sec = int(quota if unit == TimeUnit.SECOND else
-                          quota / 60 if unit == TimeUnit.MINUTE else
-                          quota / 3600)
+            per_sec = (quota if unit == TimeUnit.SECOND else
+                       quota / 60 if unit == TimeUnit.MINUTE else
+                       quota / 3600)
             self._ns_per_op = int(10 ** 9 / per_sec)
 
             if self._ns_per_op <= 0:
