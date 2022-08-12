@@ -18,8 +18,8 @@ from sheets import (
 from utils import (
     CloseMenuEntry, Menu, MenuEntry, ProxyMenuEntry, info, BACK_KEY,
     ControlCode, get_input, title, user_confirm, get_int, valid_int_range,
-    save_json_file, sample_exchange_path, MAX_MULTI_ANALYSIS, Spacing, colorise,
-    Colour
+    save_json_file, sample_exchange_path, MAX_MULTI_ANALYSIS, Spacing,
+    colorise, Colour, error
 )
 from .input import (
     get_stock_param_symbol, get_stock_param, get_stock_param_symbol_or_search,
@@ -178,11 +178,8 @@ def process_multi_stock() -> Union[bool, ControlCode]:
         elif level == MultiLevel.STOCKS:
             # get stock symbols
             for idx in range(num_stocks):
-                selection = get_stock_param_symbol_or_search(
-                    index=idx, num_stocks=num_stocks)
 
-                if not selection:
-                    selection = company_name_search(CompanyAction.RETURN)
+                selection = get_stock_symbols(idx, num_stocks, stock_params)
 
                 if selection == ControlCode.BACK:
                     level = MultiLevel.NUM_STOCKS
@@ -191,12 +188,7 @@ def process_multi_stock() -> Union[bool, ControlCode]:
                     result = selection
                     break
 
-                stock_params.append(
-                    selection if isinstance(selection, StockParam) else
-                    StockParam(
-                        selection.symbol
-                        if isinstance(selection, Company) else selection)
-                )
+                stock_params.append(selection)
             else:
                 level = MultiLevel.PERIOD
             continue
@@ -244,6 +236,48 @@ def process_multi_stock() -> Union[bool, ControlCode]:
             continue
 
         return result
+
+
+def get_stock_symbols(index: int, num_stocks: int,
+                      stock_params: List[StockParam]):
+    """
+    Enter a stock param for multi-stock analysis
+
+    Args:
+        index (int): index of multiple stocks. Defaults to None.
+        num_stocks (int): number of multiple stocks. Defaults to None.
+        stock_params (List[StockParam]): list of stock params
+
+    Returns:
+        StockParam: selected stock
+    """
+    result = None
+
+    while result is None:
+        selection = get_stock_param_symbol_or_search(
+            index=index, num_stocks=num_stocks)
+
+        if not selection:
+            selection = company_name_search(CompanyAction.RETURN)
+
+        if ControlCode.check_end_code(selection):
+            result = selection
+            break
+
+        if not isinstance(selection, StockParam):
+            selection = StockParam(
+                selection.symbol if isinstance(selection, Company)
+                else selection)
+
+        if list(filter(
+                    lambda entry: entry.symbol == selection.symbol,
+                    stock_params
+                )):
+            error(f'{selection.symbol} already entered')
+        else:
+            result = selection
+
+    return result
 
 
 def get_number_of_stocks() -> Union[int, ControlCode]:

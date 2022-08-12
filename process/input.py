@@ -7,14 +7,17 @@ from utils import (
 )
 
 SYMBOL_HELP = \
-    f"Enter symbol for the stock required, " \
+    f"Enter the symbol for the stock required, " \
     f"or '{BACK_KEY}' to cancel.\n" \
-    f"e.g. IBM: International Business Machines Corporation"
+    f"e.g. IBM: International Business Machines Corporation\n" \
+    f"     may be selected using the symbol 'IBM'"
 SYMBOL_SEARCH_HELP = \
-    f"Enter symbol for the stock required, " \
+    f"Enter the symbol for the stock required, " \
     f"press enter to search,\n"\
     f"or '{BACK_KEY}' to cancel.\n" \
-    f"e.g. IBM: International Business Machines Corporation"
+    f"e.g. IBM: International Business Machines Corporation\n"\
+    f"     may be selected using the symbol, 'IBM', or\n" \
+    f"     searching for 'International Business'"
 
 
 def get_stock_param_symbol(symbol: str = None) -> StockParam:
