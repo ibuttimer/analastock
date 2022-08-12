@@ -448,10 +448,13 @@ class Menu:
         if self.multi_page:
             # multi-page menu check for page inc/dec
             start = int(index / self.display_rows) * self.display_rows
+            end = start + self.display_rows
+            if end > self.num_entries:
+                end = self.num_entries
 
             if self.up_down_hook:
                 # call hook, with process start/end indices
-                self.up_down_hook(self, start, start + self.display_rows)
+                self.up_down_hook(self, start, end)
 
         return self.entries[index]
 
