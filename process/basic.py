@@ -18,7 +18,7 @@ from sheets import (
 from utils import (
     CloseMenuEntry, Menu, MenuEntry, ProxyMenuEntry, info, BACK_KEY,
     ControlCode, get_input, title, user_confirm, get_int, valid_int_range,
-    save_json_file, sample_exchange_path, MAX_MULTI_ANALYSIS, spacer, Spacing
+    save_json_file, sample_exchange_path, MAX_MULTI_ANALYSIS, Spacing
 )
 from .input import (
     get_stock_param_symbol, get_stock_param, get_stock_param_symbol_or_search,
@@ -365,6 +365,8 @@ def process_exchanges():
     """
     Download and process, stock exchange and companies information
     """
+
+    title('Update Company Information')
 
     # HACK sample data for now
     data_mode = DataMode.SAMPLE

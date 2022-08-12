@@ -5,7 +5,7 @@ Grid display functions
 from dataclasses import dataclass
 from enum import Enum, unique
 from typing import List, Tuple, Union
-from utils import Colour, colorise
+from utils import Colour, colorise, scrn_print
 
 # markers for highlight layout when debugging
 _DEBUG = False
@@ -507,6 +507,6 @@ class DGrid(FormatMixin):
         Args:
             colourised (bool, optional): use colour flag. Defaults to True.
         """
-        print(
+        scrn_print(
             self._generate(gap=self.gap, colourised=colourised)
         )

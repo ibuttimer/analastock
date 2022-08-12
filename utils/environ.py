@@ -35,6 +35,26 @@ def get_env_setting(
     return value
 
 
+def is_production() -> bool:
+    """
+    Check if in production mode
+
+    Returns:
+        bool: True if production mode, otherwise False
+    """
+    return get_env_setting('NODE_ENV', 'production').lower() == 'production'
+
+
+def is_development() -> bool:
+    """
+    Check if in development mode
+
+    Returns:
+        bool: True if development mode, otherwise False
+    """
+    return get_env_setting('NODE_ENV', 'development').lower() == 'development'
+
+
 def is_truthy(text: Union[str, int]) -> bool:
     """
     Check truthy value of text string

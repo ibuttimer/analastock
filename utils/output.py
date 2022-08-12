@@ -3,18 +3,20 @@ Output related functions
 """
 import re
 from enum import Enum, auto
-from typing import Generator, Union
+from typing import Generator, Union, List, Tuple
 
 from termcolor import colored
 
-from .constants import MAX_LINE_LEN, MAX_SCREEN_HEIGHT
-from .environ import get_env_setting, is_truthy
+from .constants import MAX_LINE_LEN, MAX_SCREEN_HEIGHT, BACK_KEY, HOME_KEY
+from .environ import get_env_setting, is_truthy, is_development
 
 # use Termcolor for all coloured text output
 # https://pypi.org/project/termcolor/
 
 # regex to find formatted text in raw help string
 FORMATTING = re.compile(r'{(.*?):?([<>^]?):?(\w+)}')
+
+SCRN_PRINT_DEBUG = False
 
 
 class Colour(Enum):
@@ -68,7 +70,10 @@ MAX_INFO_LEN = MAX_LINE_LEN - len(INFO_PREFIX) - 1
 MAX_HELP_LEN = MAX_LINE_LEN - len(HELP_PREFIX) - 1
 MAX_LOG_LEN = MAX_LINE_LEN - len(LOG_PREFIX) - 1
 
-LOG_ENABLE = is_truthy(get_env_setting('LOGGING', default_value=0))
+OUTPUT_ENV = {
+    'log_enabled': None,
+    'line_num': 0
+}
 
 
 def error(msg: str, wrap: WrapMode = WrapMode.AUTO,
@@ -142,7 +147,13 @@ def log(msg: str):
     Returns:
         None
     """
-    if LOG_ENABLE:
+    if OUTPUT_ENV['log_enabled'] is None:
+        # should be done at top of run.py before module imports
+        # but that fails PEP 8: E402 module level import not at top of file
+        OUTPUT_ENV['log_enabled'] = \
+            is_truthy(get_env_setting('LOGGING', default_value=0)),
+
+    if OUTPUT_ENV['log_enabled']:
         _display_msg(msg, LOG_PREFIX, MAX_LOG_LEN, Colour.WHITE, WrapMode.AUTO)
 
 
@@ -249,7 +260,7 @@ def display(msg: str, colour: Colour = None, on_colour: Colour = None,
         None
     """
     spacer(pre_spc)
-    print(
+    scrn_print(
         colorise(msg, colour=colour, on_colour=on_colour)
     )
     spacer(post_spc)
@@ -285,7 +296,7 @@ def spacer(size: Spacing = Spacing.SMALL):
         None
     """
     if size is not None and size != Spacing.NONE:
-        print('\n' * size.value, end='')
+        scrn_print('\n' * size.value, end='')
 
 
 def display_paginated(
@@ -298,7 +309,8 @@ def display_paginated(
 
     Args:
         generator (Generator): content generator
-        page_height (int): page height
+        page_height (int, optional):
+            Page height. Defaults to MAX_SCREEN_HEIGHT.
         comment (str, optional):  ignored line indicator. Defaults to '#'.
         pre_spc (Spacing, optional):
             Spacing to allow before display. Defaults to None.
@@ -314,17 +326,19 @@ def display_paginated(
             spacer(pre_spc)
 
         if not line.startswith(comment):
-            print(format_line(line), end='')
+            scrn_print(format_line(line), end='')
             line_num += 1
 
         if line_num % page_height + post_spc.value + 1 == page_height:
-            wait_for_next('Press enter for next page', post_spc)
+            if wait_for_next('Press enter for next page', post_spc):
+                break
+    else:
+        lfs = page_height - (line_num % page_height + post_spc.value + 1)
+        if lfs:
+            scrn_print('\n' * lfs, end='')
 
-    lfs = page_height - (line_num % page_height + post_spc.value + 1)
-    if lfs:
-        print('\n' * lfs, end='')
-
-    wait_for_next('Press enter to end', post_spc)
+        wait_for_next('Press enter to end', post_spc)
+        scrn_print('\n', end='')
 
 
 def format_line(line: str) -> str:
@@ -332,7 +346,7 @@ def format_line(line: str) -> str:
     Format a help text line
 
     Args:
-        line (str): raw text
+        line (str): raw text (Note: includes '\n')
 
     Returns:
         str: formatted test
@@ -345,22 +359,47 @@ def format_line(line: str) -> str:
         for entry in match:
             text = entry[0]
             if entry[1]:
+                # add alignment; '<>^' as per python
                 text = f'{text:{f"{entry[1]}{MAX_LINE_LEN}"}}'
             if entry[2]:
+                # add colour
                 text = colorise(text, colour=Colour.from_text(entry[2]))
-            replacements.append((entry, text))
+            # tuple of match elements, formatted replacement &
+            # plain replacement
+            replacements.append((entry, text, entry[0]))
 
+    if is_development():
+        basic = make_replacements(line, replacements, formatted=False)
+        assert len(basic) <= MAX_LINE_LEN, f'Line too long: {basic}\n' \
+                                           f'Cut-off: {basic[MAX_LINE_LEN:]}'
+
+    return make_replacements(line, replacements)
+
+
+def make_replacements(
+        line: str, replacements: List[Tuple[str, str, str]],
+        formatted: bool = True) -> str:
+    """
+    Replace format text in a help text line
+
+    Args:
+        line (str): raw text
+        replacements (List[Tuple[str, str, str]]): list of replacements
+        formatted (bool, optional):
+            Make formatted replacement. Defaults to True.
+    :return:
+    """
     result = line
-    for elements, replace in replacements:
+    for elements, replace, plain in replacements:
         colour = f':{elements[2]}' if {elements[2]} else ''
         result = result.replace(f'{{{elements[0]}:'
                                 f'{elements[1]}'
-                                f'{colour}}}', replace)
-
+                                f'{colour}}}',
+                                replace if formatted else plain)
     return result
 
 
-def wait_for_next(msg: str, spacing: Spacing = Spacing.NONE):
+def wait_for_next(msg: str, spacing: Spacing = Spacing.NONE) -> bool:
     """
     Wait for user input
 
@@ -369,4 +408,58 @@ def wait_for_next(msg: str, spacing: Spacing = Spacing.NONE):
         spacing (Spacing, optional): spacing before display
     """
     spacer(size=spacing)
-    input(msg)
+    user_input = input(msg)
+    return user_input in [BACK_KEY, HOME_KEY]
+
+
+def scrn_print(*args, sep: str = ' ', end: str = '\n'):
+    """
+    Print to screen
+
+    Args:
+        sep (str, optional):
+            String inserted between values. Defaults to a space.
+        end (str, optional):
+            String appended after the last value. Defaults to newline.
+    """
+    print(*args, sep=sep, end=end)
+
+
+def scrn_print_ff(
+        *args, sep: str = ' ', end: str = '\n',
+        page_height: int = MAX_SCREEN_HEIGHT
+):
+    """
+    Print to screen (allowing form feed to clear screen)
+    Note: Do not use if messages are displayed before the form feed
+
+    Args:
+        sep (str, optional):
+            String inserted between values. Defaults to a space.
+        end (str, optional):
+            String appended after the last value. Defaults to newline.
+        page_height (int, optional):
+            Page height. Defaults to MAX_SCREEN_HEIGHT.
+    """
+    for value in args:
+        if isinstance(value, str):
+            splits = value.split('\f') if '\f' in value else [value]
+
+            for idx, split in enumerate(splits):
+                if 0 < idx < len(splits):
+                    print('\n' * (page_height - OUTPUT_ENV['line_num']),
+                          end='')
+                    OUTPUT_ENV['line_num'] = 0
+
+                OUTPUT_ENV['line_num'] += len(
+                    list(filter(lambda char: char == '\n', value))
+                )
+                if split:
+                    print(split, sep=sep, end='')
+
+    if end == '\n':
+        OUTPUT_ENV['line_num'] += 1
+        print(end, end='')
+
+    if SCRN_PRINT_DEBUG:
+        print(f"line_num: {OUTPUT_ENV['line_num']}")

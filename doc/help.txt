@@ -40,16 +40,21 @@
                                       separators.
                               {Note 2::cyan}: Years may be specified in 2 or 4 digit
                                       format.
+                              {Note 3::cyan}: When months are specified as text
+                                      with no day, e.g. 'feb 2022', the 1st day
+                                      of the month is assumed.
+                              {Note 4::cyan}: In an analysis, the {from::green} date
+                                      is included and the {to::green} date is excluded.
    * After display of the report, press enter to return to the main menu
 #
 3. {Search Company::magenta}
-   The Search Company functionality allows the user to search for a company, and
-   optionally perform a stock analysis.
+   The Search Company functionality allows the user to search for a company,
+   and optionally perform a stock analysis.
    * Select the {Search Company::blue} option from the main menu.
    * Enter the company name or part thereof.
    * To perform an analysis from the {Company Search Results::blue} menu,
-     select the desired company, and enter the analysis period as outlined under
-     {Stock Analysis::magenta}.
+     select the desired company, and enter the analysis period as outlined
+     under {Stock Analysis::magenta}.
 #
 4. {Help::magenta}
    Display this screen.

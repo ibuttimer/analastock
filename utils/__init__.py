@@ -6,7 +6,7 @@ from .input import (
 )
 from .output import (
     error, info, assistance, Colour, colorise, display, title, log, WrapMode,
-    spacer, Spacing, display_paginated
+    spacer, Spacing, display_paginated, scrn_print
 )
 from .menu import (
     MenuEntry, CloseMenuEntry, ProxyMenuEntry, Menu, MenuOption, pick_menu
@@ -15,7 +15,7 @@ from .misc import (
     last_day_of_month, friendly_date, filter_data_frame_by_date, DateFormat,
     convert_date_time, drill_dict
 )
-from .environ import get_env_setting
+from .environ import get_env_setting, is_production, is_development
 from .constants import (
     DEFAULT_GOOGLE_CREDS_FILE, DEFAULT_GOOGLE_CREDS_PATH,
     GOOGLE_CREDS_FILE_ENV, GOOGLE_CREDS_PATH_ENV,
@@ -60,6 +60,7 @@ __all__ = [
     'spacer',
     'Spacing',
     'display_paginated',
+    'scrn_print',
 
     'MenuEntry',
     'CloseMenuEntry',
@@ -76,6 +77,8 @@ __all__ = [
     'drill_dict',
 
     'get_env_setting',
+    'is_production',
+    'is_development',
 
     'DEFAULT_GOOGLE_CREDS_FILE',
     'DEFAULT_GOOGLE_CREDS_PATH',

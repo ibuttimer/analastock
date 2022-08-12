@@ -8,7 +8,7 @@ from typing import Any, Callable, List, Tuple, Union
 
 from .constants import BACK_KEY, PAGE_UP, PAGE_DOWN, MAX_LINE_LEN
 from .input import get_input, user_confirm, ControlCode
-from .output import error, title, Spacing
+from .output import error, title, Spacing, scrn_print
 
 KeyName = namedtuple("KeyName", ['key', 'name'])
 
@@ -224,7 +224,7 @@ class Menu:
                     key_width = len(key)
 
         for option in options:
-            print(f'{option.key:>{key_width}}. {option.name}')
+            scrn_print(f'{option.key:>{key_width}}. {option.name}')
 
     @staticmethod
     def _entry_key(entry: MenuEntry, index: int):

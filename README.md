@@ -11,6 +11,7 @@ Section links
 - [Development/Local Deployment](#developmentlocal-deployment)
 - [Testing](#testing)
 - [Cloud-based Deployment](#cloud-based-deployment)
+- [Enhancements](#enhancements)
 - [Credits](#credits)
 
 ## Features 
@@ -86,23 +87,25 @@ TODO
 Create a file named `.env` in the project root folder, see [.sample-env](.sample-env). The following variables may be set:
 
 ###### Table 1: Configuration settings
-| Key | Value |
-|-----|-------|
-| PORT | Port application is served on; default 8000 |
-| NODE_ENV | Set to 'production' or 'development', see [Node.js, the difference between development and production](https://nodejs.dev/learn/nodejs-the-difference-between-development-and-production) |
-| PYTHON_PATH | Path to python executable; default ''.<br>__Note:__ if a relative path is specified, it must be relative to the project root folder. E.g. if using a [venv virtual environment](https://docs.python.org/3/library/venv.html#module-venv) in the project root folder, use `./venvd/Scripts/` |
-| PYTHON_EXE | Python executable; default 'python3'.<br>__Note:__ If running on windows, full filename including extension is required, e.g. 'python.exe' |
-| APP_PATH | Path to app folder; default '/app'.<br>__Note:__ if a relative path is specified, it must be relative to the project root folder. E.g. the default location is the project root folder, so use `CREDS_PATH` |
-| GOOGLE_CREDS | Google Drive API credentials |
-| GOOGLE_CREDS_FILE | Name of name of Google Drive API credentials file; default `google_creds.json` |
-| GOOGLE_CREDS_PATH | Path to Google Drive API credentials file; default `./`<br>__Note:__ must be relative to the project root folder |
-| YAHOO_FINANCE_CREDS | [RapidAPI](https://rapidapi.com/) [YahooFinance Stocks](https://rapidapi.com/integraatio/api/yahoofinance-stocks1/) credentials |
-| YAHOO_FINANCE_CREDS_FILE | Name of name of [RapidAPI](https://rapidapi.com/) [YahooFinance Stocks](https://rapidapi.com/integraatio/api/yahoofinance-stocks1/) credentials file; default `yahoo_finance_creds.json` |
-| YAHOO_FINANCE_CREDS_PATH | Path to [RapidAPI](https://rapidapi.com/) [YahooFinance Stocks](https://rapidapi.com/integraatio/api/yahoofinance-stocks1/) credentials file; default `./`<br>__Note:__ must be relative to the project root folder |
-| READ_QUOTA | Google Sheets API: Read requests per minute per user quota; default 60 |
-| WRITE_QUOTA | Google Sheets API: Write requests per minute per user; default 60 |
-| DATA_PATH | Path to sample data folder; default `./data`<br>__Note:__ must be relative to the project root folder |
-| SPREADSHEET_NAME | Name of Google Sheets spreadsheet |
+| Key                      | Value                                                                                                                                                                                                                                                                                       |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| PORT                     | Port application is served on; default 8000                                                                                                                                                                                                                                                 |
+| NODE_ENV                 | Set to 'production' or 'development', see [Node.js, the difference between development and production](https://nodejs.dev/learn/nodejs-the-difference-between-development-and-production)                                                                                                   |
+| PYTHON_PATH              | Path to python executable; default ''.<br>__Note:__ if a relative path is specified, it must be relative to the project root folder. E.g. if using a [venv virtual environment](https://docs.python.org/3/library/venv.html#module-venv) in the project root folder, use `./venvd/Scripts/` |
+| PYTHON_EXE               | Python executable; default 'python3'.<br>__Note:__ If running on windows, full filename including extension is required, e.g. 'python.exe'                                                                                                                                                  |
+| APP_PATH                 | Path to app folder; default '/app'.<br>__Note:__ if a relative path is specified, it must be relative to the project root folder. E.g. the default location is the project root folder, so use `CREDS_PATH`                                                                                 |
+| GOOGLE_CREDS             | Google Drive API credentials                                                                                                                                                                                                                                                                |
+| GOOGLE_CREDS_FILE        | Name of name of Google Drive API credentials file; default `google_creds.json`                                                                                                                                                                                                              |
+| GOOGLE_CREDS_PATH        | Path to Google Drive API credentials file; default `./`<br>__Note:__ must be relative to the project root folder                                                                                                                                                                            |
+| YAHOO_FINANCE_CREDS      | [RapidAPI](https://rapidapi.com/) [YahooFinance Stocks](https://rapidapi.com/integraatio/api/yahoofinance-stocks1/) credentials                                                                                                                                                             |
+| YAHOO_FINANCE_CREDS_FILE | Name of name of [RapidAPI](https://rapidapi.com/) [YahooFinance Stocks](https://rapidapi.com/integraatio/api/yahoofinance-stocks1/) credentials file; default `yahoo_finance_creds.json`                                                                                                    |
+| YAHOO_FINANCE_CREDS_PATH | Path to [RapidAPI](https://rapidapi.com/) [YahooFinance Stocks](https://rapidapi.com/integraatio/api/yahoofinance-stocks1/) credentials file; default `./`<br>__Note:__ must be relative to the project root folder                                                                         |
+| READ_QUOTA               | Google Sheets API: Read requests per minute per user quota; default 60                                                                                                                                                                                                                      |
+| WRITE_QUOTA              | Google Sheets API: Write requests per minute per user; default 60                                                                                                                                                                                                                           |
+| HELP_PATH                | Path to help file; default `./doc/help.txt`<br>__Note:__ must be relative to the project root folder                                                                                                                                                                                        |
+| DATA_PATH                | Path to sample data folder; default `./data`<br>__Note:__ must be relative to the project root folder                                                                                                                                                                                       |
+| SPREADSHEET_NAME         | Name of Google Sheets spreadsheet                                                                                                                                                                                                                                                           |
+| LOGGING                  | Enable console log messages; set to `0` or `1`                                                                                                                                                                                                                                              |
 
 #### Environment variables
 Set environment variables corresponding to the keys in [Table 1: Configuration settings](#table-1-configuration-settings).
@@ -118,24 +121,27 @@ The application structure is split in two; a [Total.js](https://www.totaljs.com/
 
 ```
 ├─ README.md            - this file
-| [------------ Total.js application ------------]
+├─ doc                  - documentation
+│  ├─ help.txt          - help text
+│  ├─ design            - design related documentation
+│  └─ utils_tests       - utility tests
+│ [------------ Total.js application ------------]
 ├─ index.js             - application entry point
 ├─ controllers          - JavaScript controllers
-├─ views                - views html files
 ├─ public               - application assets
 │  └─ img               - image files
-| [------------  Python application  ------------]
+├─ views                - views html files
+│ [------------  Python application  ------------]
 ├─ run.py               - Python application entry point
 ├─ data                 - sample data files
-├─ misc                 - miscellaneous functions
+├─ process              - process-related functions
 ├─ sheets               - Google sheets-related functions
 ├─ stock                - stock-related functions
-├─ process              - process-related functions
-├─ utils                - utility functions
-└─ test                 - test scripts
-   ├─ sheets_tests      - Google sheets-related tests
-   ├─ stock_tests       - stock tests
-   └─ utils_tests       - utility tests
+├─ tests                - test scripts
+│  ├─ sheets_tests      - Google sheets-related tests
+│  ├─ stock_tests       - stock tests
+│  └─ utils_tests       - utility tests
+└─ utils                - utility functions
 ```
 
 ### Potential Visual Studio Code issues
@@ -164,10 +170,10 @@ The following steps were followed to deploy the website:
       1. `heroku/nodejs`
     - Under `Config Vars` add the following environment variables
 
-      | Key | Value |
-      |-----|-------|
-      | PORT | 8000 |
-      | GOOGLE_CREDS | Google Drive API credentials |
+      | Key                 | Value                                                                                                                           |
+      |---------------------|---------------------------------------------------------------------------------------------------------------------------------|
+      | PORT                | 8000                                                                                                                            |
+      | GOOGLE_CREDS        | Google Drive API credentials                                                                                                    |
       | YAHOO_FINANCE_CREDS | [RapidAPI](https://rapidapi.com/) [YahooFinance Stocks](https://rapidapi.com/integraatio/api/yahoofinance-stocks1/) credentials |
 
       See [Table 1: Configuration settings](#table-1-configuration-settings) for details.
@@ -183,7 +189,17 @@ The following steps were followed to deploy the website:
 
 The live website is available at [https://analastock.herokuapp.com/](https://analastock.herokuapp.com/)
 
+## Enhancements
 
+Enhancements were logged in [GitHub Issues](https://github.com/ibuttimer/analastock/labels/enhancement).
+
+| Title                               | Description                                      |
+|-------------------------------------|--------------------------------------------------|
+| Context-specific help               | https://github.com/ibuttimer/analastock/issues/1 |
+| Help search                         | https://github.com/ibuttimer/analastock/issues/2 |
+| Training/demo mode                  | https://github.com/ibuttimer/analastock/issues/3 |
+| Add logging                         | https://github.com/ibuttimer/analastock/issues/4 |
+| Additional period entry descriptors | https://github.com/ibuttimer/analastock/issues/5 |
 
 ## Credits
 
