@@ -6,7 +6,8 @@ from colorama import init
 
 from utils import Menu, CloseMenuEntry, MenuEntry, MenuOption, info
 from process import (
-    process_exchanges, company_name_search, process_multi_stock, display_help
+    process_exchanges, company_name_search, process_multi_stock, display_help,
+    delete_stock_data
 )
 
 
@@ -19,6 +20,7 @@ menu: Menu = Menu(
     MenuEntry('Stock Analysis', process_multi_stock),
     MenuEntry('Search Company', company_name_search),
     MenuEntry('Update Company Information', process_exchanges),
+    MenuEntry('Delete Stock Data', delete_stock_data),
     MenuEntry('Help', display_help),
     CloseMenuEntry('Quit'),
     menu_title='AnalaStock Menu',

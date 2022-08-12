@@ -292,7 +292,7 @@ def spreadsheet_del_worksheet(
 
     Args:
         spreadsheet: (gspread.spreadsheet.Spreadsheet):
-                spreadsheet to add worksheet to
+                spreadsheet to delete worksheet from
 
     For other details see
         https://docs.gspread.org/en/v5.4.0/api/models/spreadsheet.html#gspread.spreadsheet.Spreadsheet.del_worksheet

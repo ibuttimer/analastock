@@ -170,7 +170,6 @@ def save_stock_meta_data(
     if not currency and not name:
         return  # nothing to do
 
-    sheet = companies_sheet()
     error_msg = None
 
     # determine stock type

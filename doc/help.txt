@@ -56,8 +56,29 @@
      select the desired company, and enter the analysis period as outlined
      under {Stock Analysis::magenta}.
 #
-4. {Help::magenta}
+4. {Update Company Information::magenta}
+   The cached company information used to perform searches by company name,
+   may be updated using this option.
+   {Warning - This operation may take some time.::red}
+   The following options are available:
+   * Confirm each download
+     If selected, the download of data for each exchange must be confirmed.
+   * Clear existing data
+     If selected, all existing company data is removed. In order to avoid
+     the possibility of duplicated entries, select this option when unsure
+     if a companies data is already cached.
+   * Enter inter-exchange pause
+     Enter a pause in seconds between the download of data from each stock
+     exchange. A value of around 30 seconds is recommended to help
+     alleviate issues with Google Sheets API read/write quotas.
+#
+5. {Delete Stock Data::magenta}
+   All previously cached historical stock data may be deleted using this
+   option.
+   {Note::cyan}: Cached company information is not affected.
+#
+6. {Help::magenta}
    Display this screen.
 #
-5. {Quit::magenta}
+7. {Quit::magenta}
    Exit the program.

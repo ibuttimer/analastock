@@ -13,12 +13,13 @@ from stock import (
 )
 from sheets import (
     save_stock_data, get_sheets_data, save_exchanges, save_companies,
-    search_company, check_partial
+    search_company, check_partial, del_stock_sheets
 )
 from utils import (
     CloseMenuEntry, Menu, MenuEntry, ProxyMenuEntry, info, BACK_KEY,
     ControlCode, get_input, title, user_confirm, get_int, valid_int_range,
-    save_json_file, sample_exchange_path, MAX_MULTI_ANALYSIS, Spacing
+    save_json_file, sample_exchange_path, MAX_MULTI_ANALYSIS, Spacing, colorise,
+    Colour
 )
 from .input import (
     get_stock_param_symbol, get_stock_param, get_stock_param_symbol_or_search,
@@ -41,6 +42,8 @@ CLEAR_HELP = "Clear data previously saved"
 PAUSE_HELP = "Enter pause in seconds between exchange data downloads"
 SAMPLE_HELP = "Save data as samples for reuse"
 NUM_STOCKS_HELP = "Enter the number of stocks to analyse"
+
+ENABLE_SAVE_SAMPLES = False
 
 
 def stock_analysis_menu():
@@ -372,17 +375,20 @@ def process_exchanges():
     data_mode = DataMode.SAMPLE
     # data_mode = DataMode.LIVE
 
-    user_input = user_confirm('This operation may take some time, '
-                              'please confirm it is ok to proceed')
+    warning = 'Warning: This operation may take some time.\n'
+    user_input = user_confirm(f"{colorise(warning, colour=Colour.RED)}"
+                              f"Please confirm it is ok to proceed")
     if user_input == ControlCode.CONFIRMED:
 
         choices = {}
-
-        for key, prompt, help_text in [
+        options = [
             ('confirm_each', 'Confirm each download', None),
-            ('clear_sheet', 'Clear existing data', CLEAR_HELP),
-            ('save_sample', 'Save as sample data', SAMPLE_HELP),
-        ]:
+            ('clear_sheet', 'Clear existing data', CLEAR_HELP)
+        ]
+        if ENABLE_SAVE_SAMPLES:
+            options.append(('save_sample', 'Save as sample data', SAMPLE_HELP))
+
+        for key, prompt, help_text in options:
             user_input = user_confirm(prompt, help_text=help_text)
             choices[key] = user_input == ControlCode.CONFIRMED
             if user_input.is_end_code():
@@ -555,3 +561,13 @@ def company_menu_items(
             selected_func(company)
         ) for company in companies
     ]
+
+
+def delete_stock_data():
+    """ Delete all stock data """
+
+    warning = 'Warning: All historical stock data will be deleted.\n'
+    user_input = user_confirm(f"{colorise(warning, colour=Colour.RED)}"
+                              f"Please confirm it is ok to proceed")
+    if user_input == ControlCode.CONFIRMED:
+        del_stock_sheets()

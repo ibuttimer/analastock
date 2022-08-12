@@ -11,6 +11,7 @@ from .search import (
     search_company, search_eft, search_mutual, search_future, search_index,
     search_all, search_meta
 )
+from .del_sheet import del_stock_sheets
 
 __all__ = [
     'open_spreadsheet',
@@ -35,5 +36,7 @@ __all__ = [
     'search_future',
     'search_index',
     'search_all',
-    'search_meta'
+    'search_meta',
+
+    'del_stock_sheets'
 ]
