@@ -1,17 +1,14 @@
 """
 Download related functions
 """
-import json
 
 from utils import (
     info, error, load_json_file, load_json_string,
     sample_exchange_path, sample_exchanges_path
 )
-
-from .enums import DataMode
 from .data import StockDownload
+from .enums import DataMode
 from .rapid_api import rapid_get
-
 
 RAPID_YAHOO_EXCHANGES_URL = \
     "https://yahoofinance-stocks1.p.rapidapi.com/exchanges"

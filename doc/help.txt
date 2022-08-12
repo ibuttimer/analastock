@@ -67,10 +67,6 @@
      If selected, all existing company data is removed. In order to avoid
      the possibility of duplicated entries, select this option when unsure
      if a companies data is already cached.
-   * Enter inter-exchange pause
-     Enter a pause in seconds between the download of data from each stock
-     exchange. A value of around 30 seconds is recommended to help
-     alleviate issues with Google Sheets API read/write quotas.
 #
 5. {Delete Stock Data::magenta}
    All previously cached historical stock data may be deleted using this

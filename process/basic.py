@@ -2,14 +2,14 @@
 Processing related functions
 """
 from enum import Enum, auto
-from typing import Any, Callable, List, Union, Type
-import time
+from typing import Any, Callable, List, Union, Type, Tuple
 
 from pandas import DataFrame, concat
 from stock import (
-    get_stock_param_range, download_data,
+    get_stock_param_range, download_stock_data,
     analyse_stock, download_exchanges, download_companies,
-    Company, AnalysisRange, DATE_FORM, StockParam, DataMode, CompanyColumn
+    Company, AnalysisRange, DATE_FORM, StockParam, DataMode, CompanyColumn,
+    StockDownload
 )
 from sheets import (
     save_stock_data, get_sheets_data, save_exchanges, save_companies,
@@ -38,8 +38,8 @@ SYMBOL_MENU_HELP = f"Choose '{SYMBOL_ENTRY}' if the stock symbol is known, "\
                    f"or '{SEARCH_ENTRY}' to search by company name"
 COMPANY_SEARCH_HELP = f"Enter company name or part of name to search for, "\
                       f"or '{BACK_KEY}' to cancel"
+DOWNLOAD_HELP = "Confirm the download of data for individual exchanges"
 CLEAR_HELP = "Clear data previously saved"
-PAUSE_HELP = "Enter pause in seconds between exchange data downloads"
 SAMPLE_HELP = "Save data as samples for reuse"
 NUM_STOCKS_HELP = "Enter the number of stocks to analyse"
 
@@ -235,7 +235,10 @@ def process_multi_stock() -> Union[bool, ControlCode]:
                         analyse_stock(data_frame, stock_param)
                     )
 
-            result = display_analysis(analysis)
+            if analysis:
+                result = display_analysis(analysis)
+            else:
+                result = ControlCode.CONTINUE
             if not ControlCode.is_end_code(result):
                 level = MultiLevel.DONE
             continue
@@ -306,8 +309,8 @@ def fill_gaps(data_frame: DataFrame, stock_param: StockParam) -> DataFrame:
         full_frame = data_frame
         for gap_param in gaps:
             # save data to sheets
-            data = download_data(gap_param)
-            if data:
+            data = download_stock_data(gap_param)
+            if data.response_ok:
                 save_stock_data(data)
 
                 # add data to data frame
@@ -371,9 +374,7 @@ def process_exchanges():
 
     title('Update Company Information')
 
-    # HACK sample data for now
-    data_mode = DataMode.SAMPLE
-    # data_mode = DataMode.LIVE
+    data_mode = DataMode.LIVE
 
     warning = 'Warning: This operation may take some time.\n'
     user_input = user_confirm(f"{colorise(warning, colour=Colour.RED)}"
@@ -382,33 +383,31 @@ def process_exchanges():
 
         choices = {}
         options = [
-            ('confirm_each', 'Confirm each download', None),
+            ('confirm_each', 'Confirm each download', DOWNLOAD_HELP),
             ('clear_sheet', 'Clear existing data', CLEAR_HELP)
         ]
         if ENABLE_SAVE_SAMPLES:
             options.append(('save_sample', 'Save as sample data', SAMPLE_HELP))
+        else:
+            choices['save_sample'] = False
 
         for key, prompt, help_text in options:
             user_input = user_confirm(prompt, help_text=help_text)
             choices[key] = user_input == ControlCode.CONFIRMED
             if user_input.is_end_code():
                 break
-        else:
-            user_input = get_int(
-                'Enter inter-exchange pause in seconds',
-                validate=valid_int_range(0, 120), help_text=PAUSE_HELP,
-                pre_spc=Spacing.SMALL)
 
         if isinstance(user_input, ControlCode) and user_input.is_end_code():
             return user_input
 
-        choices['pause'] = user_input
+        # download exchange data
+        exchanges, user_input = download_data(
+            lambda: download_exchanges(data_mode=data_mode))
 
-        exchanges = download_exchanges(data_mode=data_mode)
-        exchanges = save_exchanges(exchanges) \
-            if exchanges.response_ok else None
+        if exchanges.response_ok:
+            exchanges = save_exchanges(exchanges) \
+                if exchanges.response_ok else None
 
-        if exchanges:
             for i, exchange in enumerate(exchanges):
 
                 code = exchange['exchangeCode']
@@ -422,7 +421,12 @@ def process_exchanges():
 
                 info(f"{i + 1}/{len(exchanges)}: Processing {code}")
 
-                companies_data = download_companies(code, data_mode=data_mode)
+                companies_data, user_input = download_data(
+                    lambda: download_companies(code, data_mode=data_mode))
+
+                if user_input.is_unconfirmed():
+                    break
+
                 if companies_data.response_ok:
 
                     companies_list = save_companies(
@@ -433,10 +437,34 @@ def process_exchanges():
                         save_json_file(
                             sample_exchange_path(code), companies_list)
 
-                    if choices['pause']:
-                        time.sleep(choices['pause'])
-
     return user_input
+
+
+def download_data(
+            download_func: Callable[[], StockDownload]
+        ) -> Tuple[StockDownload, ControlCode]:
+    """
+    Perform a download with the specified function
+
+    Args:
+        download_func (Callable[[], StockDownload]): download function
+
+    Returns:
+         Tuple[StockDownload, ControlCode]: download result or user input
+    """
+    response = None
+    user_input = ControlCode.CONTINUE
+    while response is None:
+        response = download_func()
+        if response.status_code == StockDownload.NO_RESPONSE:
+            user_input = user_confirm("Please confirm it is ok to retry")
+            if user_input == ControlCode.CONFIRMED:
+                response = None
+                continue
+            if user_input.is_end_code():
+                break
+
+    return response, user_input
 
 
 def company_name_search(action: CompanyAction = CompanyAction.PROCESS) -> Any:

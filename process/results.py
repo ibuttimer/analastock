@@ -430,11 +430,8 @@ def check_meta(results: Union[dict, List[dict]]):
             if not meta[NAME] or not meta[CURRENCY]:
                 # get info from meta data api
 
-                # TODO add data_mode to all elements in flow
-
                 meta_data = download_meta_data(
-                    meta[SYMBOL], data_mode=DataMode.LIVE_SAVE_SAMPLE
-                    # data_mode=DataMode.SAMPLE
+                    meta[SYMBOL], data_mode=DataMode.LIVE
                 )
                 if meta_data and meta_data.response_ok:
                     meta_name = drill_dict(meta_data.data, 'shortName')

@@ -5,16 +5,18 @@ from datetime import datetime
 from enum import Enum, auto
 from threading import RLock
 from time import perf_counter_ns, sleep
-from typing import Union, Callable, Any
+from typing import Union, Callable, Any, Tuple
 from random import randint
 
 import gspread.exceptions
+import requests
 
 from .output import error, info
 from .environ import get_env_setting
 from .constants import (
-    DEFAULT_READ_QUOTA, DEFAULT_WRITE_QUOTA,
-    READ_QUOTA_ENV, WRITE_QUOTA_ENV
+    DEFAULT_GOOGLE_READ_QUOTA, DEFAULT_GOOGLE_WRITE_QUOTA,
+    GOOGLE_READ_QUOTA_ENV, GOOGLE_WRITE_QUOTA_ENV, RAPIDAPI_READ_QUOTA_ENV,
+    DEFAULT_RAPIDAPI_READ_QUOTA, MAX_BACKOFF_ENV, DEFAULT_MAX_BACKOFF
 )
 
 
@@ -45,12 +47,13 @@ class QuotaMgr:
         Constructor
         """
         self.lock = RLock()
-        self._init_backoff()
+        self.init_backoff()
 
-    def _init_backoff(self):
+    def init_backoff(self):
         self._current_wait = 1
         self._wait_multiplier = 2
-        self._max_wait = 2**8
+        self._max_wait = int(
+            get_env_setting(MAX_BACKOFF_ENV, DEFAULT_MAX_BACKOFF))
 
     def acquire(self):
         """
@@ -66,13 +69,18 @@ class QuotaMgr:
         """
         self.lock.release()
 
-    def perform(self, operation_func: Callable[[], Any]) -> Any:
+    def perform(self,
+                operation_func: Callable[[], Any],
+                check_func: Callable[[Any], bool] = None) -> Any:
         """
         Perform a http operation
 
         Args:
             operation_func (Callable[[], Any]):
-                function to call to do operation
+                Function to call to do operation
+            check_func (Callable[[], Any]):
+                Function to call to check operation result.
+                Returns True if successful, False to backoff and try again.
 
         Returns:
              Any: result of operation
@@ -83,31 +91,49 @@ class QuotaMgr:
         while loop:
             try:
                 op_result = operation_func()
-                loop = False
-                self._init_backoff()
+                if check_func:
+                    # check if result is valid
+                    success, msg = check_func(op_result)
+                    if success:
+                        # success
+                        loop = False
+                        self.init_backoff()
+                    elif self.backoff(msg):
+                        # operation failed
+                        error('Aborting operation')
+                        loop = False
+                else:
+                    # no check, return response
+                    loop = False
+                    self.init_backoff()
             except gspread.exceptions.APIError as exc:
-                error(exc)
-                if self._backoff():
+                _, msg = check_429_func(exc.response)
+                if self.backoff(f'Google Sheets: {msg}'):
                     error('Aborting operation')
                     loop = False
 
         return op_result
 
-    def _backoff(self) -> bool:
+    def backoff(self, msg: str = None) -> bool:
         """
         Perform a Truncated exponential backoff
         https://cloud.google.com/storage/docs/retry-strategy#python
 
+        Args:
+            msg (str, optional): message to display
+
         Returns
             bool: True is backoff truncated, false otherwise
         """
-        info(f'Will retry in {self._current_wait} seconds')
+        info(f'{f"{msg}. "  if msg else ""}'
+             f'Will retry in {self._current_wait} second'
+             f'{"s" if self._current_wait > 1 else ""}.')
         sleep(self._current_wait + (randint(100, 1000) / 1000))
         self._current_wait *= self._wait_multiplier
 
-        truncate = self._current_wait >= self._max_wait
+        truncate = self._current_wait > self._max_wait
         if truncate:
-            self._init_backoff()
+            self.init_backoff()
 
         return truncate
 
@@ -271,30 +297,81 @@ def get_manager(name: str) -> Union[LevelQuotaMgr, RateQuotaMgr]:
         Manager = LevelQuotaMgr if setting == 'levelquotamgr' else \
             QuotaMgr if setting == 'quotamgr' else RateQuotaMgr
 
-        MANAGERS['read'] = Manager(
-            get_env_setting(WRITE_QUOTA_ENV, DEFAULT_WRITE_QUOTA)
+        MANAGERS['google-read'] = Manager(
+            get_env_setting(GOOGLE_WRITE_QUOTA_ENV, DEFAULT_GOOGLE_WRITE_QUOTA)
         )
-        MANAGERS['write'] = Manager(
-            get_env_setting(READ_QUOTA_ENV, DEFAULT_READ_QUOTA)
+        MANAGERS['google-write'] = Manager(
+            get_env_setting(GOOGLE_READ_QUOTA_ENV, DEFAULT_GOOGLE_READ_QUOTA)
         )
+        MANAGERS['rapidapi-read'] = Manager(
+            get_env_setting(RAPIDAPI_READ_QUOTA_ENV,
+                            DEFAULT_RAPIDAPI_READ_QUOTA)
+        )
+        # no quota info for Yahoo Finance
+        MANAGERS['yahoo-read'] = QuotaMgr(0)
     return MANAGERS[name]
 
 
-def read_manager() -> Union[LevelQuotaMgr, RateQuotaMgr]:
+def google_read_manager() -> Union[LevelQuotaMgr, RateQuotaMgr]:
     """
-    Get read quota manager
+    Get Google API read quota manager
 
     Returns:
         Union[LevelQuotaMgr, RateQuotaMgr]: manager
     """
-    return get_manager('read')
+    return get_manager('google-read')
 
 
-def write_manager() -> Union[LevelQuotaMgr, RateQuotaMgr]:
+def google_write_manager() -> Union[LevelQuotaMgr, RateQuotaMgr]:
     """
-    Get write quota manager
+    Get Google API write quota manager
 
     Returns:
         Union[LevelQuotaMgr, RateQuotaMgr]: manager
     """
-    return get_manager('write')
+    return get_manager('google-write')
+
+
+def rapidapi_read_manager() -> Union[LevelQuotaMgr, RateQuotaMgr]:
+    """
+    Get RapidAPI read quota manager
+
+    Returns:
+        Union[LevelQuotaMgr, RateQuotaMgr]: manager
+    """
+    return get_manager('rapidapi-read')
+
+
+def yahoo_read_manager() -> QuotaMgr:
+    """
+    Get Yahoo read quota manager
+
+    Returns:
+        QuotaMgr: manager
+    """
+    return get_manager('yahoo-read')
+
+
+def check_429_func(response: requests.Response) -> Tuple[bool, str]:
+    """
+    Check function for quota exceeded responses
+
+    Args:
+        response (): response from API
+
+    Returns:
+         Tuple[bool, str]: Tuple of
+            True if successful, False to backoff and try again,
+            message to display
+    """
+    success = False
+    msg = None
+    if response is not None:
+        # retry if quota exceeded
+        success = response.status_code == 200
+        if response.status_code == 429:
+            msg = 'Quota exceeded'
+        else:
+            msg = response.reason
+
+    return success, msg if msg else 'Communication error'

@@ -38,6 +38,10 @@ class ControlCode(Enum):
         return isinstance(value, ControlCode) and \
             value in ControlCode.END_CODES
 
+    def is_unconfirmed(self):
+        """ Check if this object is an end code or not confirmed """
+        return self.is_end_code() or self == ControlCode.NOT_CONFIRMED
+
     @staticmethod
     def key_to_code(key: str) -> Union[Enum, None]:
         """

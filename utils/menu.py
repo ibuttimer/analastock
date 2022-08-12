@@ -423,6 +423,8 @@ class Menu:
                 if not error_msg:
                     self._start = start
                     self._end = start + self.display_rows
+                    if self._end > self.num_entries:
+                        self._end = self.num_entries
 
                     if self.up_down_hook:
                         # call hook, with display start/end indices

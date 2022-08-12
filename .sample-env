@@ -53,10 +53,16 @@ SPREADSHEET_NAME="AnalaStock"
 DATA_PATH="./data"
 
 # Google Sheets API: Read requests per minute per user; default 60
-READ_QUOTA=60
+GOOGLE_READ_QUOTA=60
 
 # Google Sheets API: Write requests per minute per user; default 60
-WRITE_QUOTA=60
+GOOGLE_WRITE_QUOTA=60
+
+# RapidAPI: Requests per minute; default 50
+RAPIDAPI_READ_QUOTA=50
+
+# Max backoff time in seconds for truncated exponential backoff retry; default 128
+MAX_BACKOFF=128
 
 # Enable console log messages; set to 0 or 1
 LOGGING=1

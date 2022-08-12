@@ -1,19 +1,17 @@
 """
 Download related functions
 """
-import re
 import platform
+import re
 from datetime import datetime, date
-from typing import List, Tuple, Union
-import pandas as pd
+from typing import Union
+
 import requests
 from bs4 import BeautifulSoup
 
-from utils import info, error, http_get, friendly_date
-
+from utils import info, error, http_get, friendly_date, yahoo_read_manager
 from .convert import standardise_stock_param
 from .data import StockParam, StockDownload
-
 
 YAHOO_HISTORY_URL = 'https://finance.yahoo.com/quote/{}/history'
 YAHOO_DOWNLOAD_URL = \
@@ -100,7 +98,7 @@ def _epoch_datetime(timestamp: Union[str, int]) -> datetime:
     return datetime.fromtimestamp(timestamp)
 
 
-def download_data(
+def download_stock_data(
         params: StockParam, standardise: bool = True) -> StockDownload:
     """
     Download stock data
@@ -132,7 +130,7 @@ def download_data(
     data = None
     status_code = StockDownload.NO_RESPONSE
     with requests.session():
-        response = http_get(url, headers=header, cookies=cookies)
+        response = yahoo_get(url, headers=header, cookies=cookies)
         if response is not None:
             status_code = response.status_code
 
@@ -169,3 +167,26 @@ def download_data(
                 error(msg)
 
     return StockDownload(params, data, status_code)
+
+
+def yahoo_get(url: str, **kwargs) -> requests.Response:
+    """
+    Get a response
+
+    Args:
+        url (str): url to get response from
+
+    Returns:
+        requests.Response: response
+    """
+
+    def operation_func() -> requests.Response:
+        return http_get(url, **kwargs)
+
+    yahoo_read_manager().acquire()
+    try:
+        response = yahoo_read_manager().perform(operation_func)
+    finally:
+        yahoo_read_manager().release()
+
+    return response

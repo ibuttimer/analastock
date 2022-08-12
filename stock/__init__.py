@@ -8,7 +8,7 @@ from .analyse import (
 from .convert import (
     standardise_stock_param
 )
-from .retrieve import download_data
+from .retrieve import download_stock_data
 from .enums import (
     DfColumn, DfStat, CompanyColumn, ExchangeColumn, AnalysisRange, DataMode
 )
@@ -24,7 +24,7 @@ __all__ = [
 
     'standardise_stock_param',
 
-    'download_data',
+    'download_stock_data',
 
     'DfColumn',
     'DfStat',

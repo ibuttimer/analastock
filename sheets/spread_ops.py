@@ -5,7 +5,7 @@ from typing import Any
 
 import gspread
 import google.auth.exceptions
-from utils import error, read_manager, write_manager
+from utils import error, google_read_manager, google_write_manager
 from .client import gspread_client
 
 SHEETS_ERR_MSG = 'Google Sheets error, functionality unavailable\n' \
@@ -28,11 +28,11 @@ def sheet_find(sheet: gspread.worksheet.Worksheet,
             query, in_row=in_row, in_column=in_column,
             case_sensitive=case_sensitive)
 
-    read_manager().acquire()
+    google_read_manager().acquire()
     try:
-        result = read_manager().perform(operation_func)
+        result = google_read_manager().perform(operation_func)
     finally:
-        read_manager().release()
+        google_read_manager().release()
 
     return result
 
@@ -53,11 +53,11 @@ def sheet_findall(sheet: gspread.worksheet.Worksheet,
             query, in_row=in_row, in_column=in_column,
             case_sensitive=case_sensitive)
 
-    read_manager().acquire()
+    google_read_manager().acquire()
     try:
-        result = read_manager().perform(operation_func)
+        result = google_read_manager().perform(operation_func)
     finally:
-        read_manager().release()
+        google_read_manager().release()
 
     return result
 
@@ -76,11 +76,11 @@ def sheet_get_values(sheet: gspread.worksheet.Worksheet,
     def operation_func() -> Any:
         return sheet.get_values(range_name, **kwargs)
 
-    read_manager().acquire()
+    google_read_manager().acquire()
     try:
-        result = read_manager().perform(operation_func)
+        result = google_read_manager().perform(operation_func)
     finally:
-        read_manager().release()
+        google_read_manager().release()
 
     return result
 
@@ -108,11 +108,11 @@ def sheet_append_row(
             insert_data_option=insert_data_option, table_range=table_range,
             include_values_in_response=include_values_in_response)
 
-    write_manager().acquire()
+    google_write_manager().acquire()
     try:
-        result = write_manager().perform(operation_func)
+        result = google_write_manager().perform(operation_func)
     finally:
-        write_manager().release()
+        google_write_manager().release()
 
     return result
 
@@ -140,11 +140,11 @@ def sheet_append_rows(
             insert_data_option=insert_data_option, table_range=table_range,
             include_values_in_response=include_values_in_response)
 
-    write_manager().acquire()
+    google_write_manager().acquire()
     try:
-        result = write_manager().perform(operation_func)
+        result = google_write_manager().perform(operation_func)
     finally:
-        write_manager().release()
+        google_write_manager().release()
 
     return result
 
@@ -162,11 +162,11 @@ def sheet_batch_update(sheet: gspread.worksheet.Worksheet, data, **kwargs):
     def operation_func() -> Any:
         return sheet.batch_update(data, **kwargs)
 
-    write_manager().acquire()
+    google_write_manager().acquire()
     try:
-        result = write_manager().perform(operation_func)
+        result = google_write_manager().perform(operation_func)
     finally:
-        write_manager().release()
+        google_write_manager().release()
 
     return result
 
@@ -184,11 +184,11 @@ def sheet_clear(sheet: gspread.worksheet.Worksheet):
     def operation_func() -> Any:
         return sheet.clear()
 
-    write_manager().acquire()
+    google_write_manager().acquire()
     try:
-        result = write_manager().perform(operation_func)
+        result = google_write_manager().perform(operation_func)
     finally:
-        write_manager().release()
+        google_write_manager().release()
 
     return result
 
@@ -206,11 +206,11 @@ def sheet_batch_format(sheet: gspread.worksheet.Worksheet, formats):
     def operation_func() -> Any:
         return sheet.batch_format(formats)
 
-    write_manager().acquire()
+    google_write_manager().acquire()
     try:
-        result = write_manager().perform(operation_func)
+        result = google_write_manager().perform(operation_func)
     finally:
-        write_manager().release()
+        google_write_manager().release()
 
     return result
 
@@ -228,11 +228,11 @@ def sheet_batch_get(sheet: gspread.worksheet.Worksheet, ranges, **kwargs):
     def operation_func() -> Any:
         return sheet.batch_get(ranges, **kwargs)
 
-    read_manager().acquire()
+    google_read_manager().acquire()
     try:
-        result = read_manager().perform(operation_func)
+        result = google_read_manager().perform(operation_func)
     finally:
-        read_manager().release()
+        google_read_manager().release()
 
     return result
 
@@ -252,11 +252,11 @@ def spreadsheet_worksheets(spreadsheet: gspread.spreadsheet.Spreadsheet):
     def operation_func() -> Any:
         return spreadsheet.worksheets()
 
-    read_manager().acquire()
+    google_read_manager().acquire()
     try:
-        result = read_manager().perform(operation_func)
+        result = google_read_manager().perform(operation_func)
     finally:
-        read_manager().release()
+        google_read_manager().release()
 
     return result
 
@@ -276,11 +276,11 @@ def spreadsheet_add_worksheet(spreadsheet: gspread.spreadsheet.Spreadsheet,
     def operation_func() -> Any:
         return spreadsheet.add_worksheet(title, rows, cols, index=index)
 
-    write_manager().acquire()
+    google_write_manager().acquire()
     try:
-        result = write_manager().perform(operation_func)
+        result = google_write_manager().perform(operation_func)
     finally:
-        write_manager().release()
+        google_write_manager().release()
 
     return result
 
@@ -300,11 +300,11 @@ def spreadsheet_del_worksheet(
     def operation_func() -> Any:
         return spreadsheet.del_worksheet(worksheet)
 
-    write_manager().acquire()
+    google_write_manager().acquire()
     try:
-        result = write_manager().perform(operation_func)
+        result = google_write_manager().perform(operation_func)
     finally:
-        write_manager().release()
+        google_write_manager().release()
 
     return result
 
@@ -327,14 +327,14 @@ def client_open_spreadsheet(name: str) -> gspread.spreadsheet.Spreadsheet:
     def operation_func() -> Any:
         return gspread_client().open(name)
 
-    read_manager().acquire()
+    google_read_manager().acquire()
     try:
-        spreadsheet = read_manager().perform(operation_func)
+        spreadsheet = google_read_manager().perform(operation_func)
     except gspread.exceptions.SpreadsheetNotFound as exc:
-        raise ValueError(f"Spreadsheet {name} not found") from exc
+        error(f"Spreadsheet {name} not found")
     except google.auth.exceptions.GoogleAuthError:
         error(SHEETS_ERR_MSG)
     finally:
-        read_manager().release()
+        google_read_manager().release()
 
     return spreadsheet

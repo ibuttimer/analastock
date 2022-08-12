@@ -21,8 +21,8 @@ from .constants import (
     GOOGLE_CREDS_FILE_ENV, GOOGLE_CREDS_PATH_ENV,
     DEFAULT_YAHOO_FINANCE_CREDS_FILE, DEFAULT_YAHOO_FINANCE_CREDS_PATH,
     YAHOO_FINANCE_CREDS_FILE_ENV, YAHOO_FINANCE_CREDS_PATH_ENV,
-    DEFAULT_READ_QUOTA, DEFAULT_WRITE_QUOTA,
-    READ_QUOTA_ENV, WRITE_QUOTA_ENV,
+    DEFAULT_GOOGLE_READ_QUOTA, DEFAULT_GOOGLE_WRITE_QUOTA,
+    GOOGLE_READ_QUOTA_ENV, GOOGLE_WRITE_QUOTA_ENV,
     EXCHANGES_SHEET, COMPANIES_SHEET, EFT_SHEET, MUTUAL_SHEET,
     FUTURES_SHEET, INDEX_SHEET,
     DEFAULT_DATA_PATH, META_DATA_FOLDER, DEFAULT_HELP_PATH,
@@ -35,7 +35,10 @@ from .pagination import Pagination
 from .paths import (
     file_path, sample_exchanges_path, sample_exchange_path, sample_meta_path
 )
-from .quota_mgr import read_manager, write_manager
+from .quota_mgr import (
+    google_read_manager, google_write_manager, rapidapi_read_manager,
+    yahoo_read_manager, check_429_func
+)
 from .file import (
     find_parent_of_folder, load_json_file, load_json_string, save_json_file
 )
@@ -88,10 +91,10 @@ __all__ = [
     'DEFAULT_YAHOO_FINANCE_CREDS_PATH',
     'YAHOO_FINANCE_CREDS_FILE_ENV',
     'YAHOO_FINANCE_CREDS_PATH_ENV',
-    'DEFAULT_READ_QUOTA',
-    'DEFAULT_WRITE_QUOTA',
-    'READ_QUOTA_ENV',
-    'WRITE_QUOTA_ENV',
+    'DEFAULT_GOOGLE_READ_QUOTA',
+    'DEFAULT_GOOGLE_WRITE_QUOTA',
+    'GOOGLE_READ_QUOTA_ENV',
+    'GOOGLE_WRITE_QUOTA_ENV',
     'EXCHANGES_SHEET',
     'COMPANIES_SHEET',
     'EFT_SHEET',
@@ -121,8 +124,11 @@ __all__ = [
     'sample_exchange_path',
     'sample_meta_path',
 
-    'read_manager',
-    'write_manager',
+    'google_read_manager',
+    'google_write_manager',
+    'rapidapi_read_manager',
+    'yahoo_read_manager',
+    'check_429_func',
 
     'find_parent_of_folder',
     'load_json_file',

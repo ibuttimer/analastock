@@ -81,14 +81,25 @@ MAX_SCREEN_HEIGHT = 24
 
 FRIENDLY_DATE_FMT = '%d %b %Y'
 
-DEFAULT_READ_QUOTA = 60
+DEFAULT_GOOGLE_READ_QUOTA = 60
 """ Google Sheets API: Read requests per minute per user """
-DEFAULT_WRITE_QUOTA = 60
+DEFAULT_GOOGLE_WRITE_QUOTA = 60
 """ Google Sheets API: Write requests per minute per user """
-READ_QUOTA_ENV = 'READ_QUOTA'
+GOOGLE_READ_QUOTA_ENV = 'GOOGLE_READ_QUOTA'
 """ Google Sheets API: Read requests/minute/user environment variable """
-WRITE_QUOTA_ENV = 'WRITE_QUOTA'
+GOOGLE_WRITE_QUOTA_ENV = 'GOOGLE_WRITE_QUOTA'
 """ Google Sheets API: Write requests/minute/user environment variable """
+DEFAULT_RAPIDAPI_READ_QUOTA = 50
+""" RapidAPI: Requests per minute """
+RAPIDAPI_READ_QUOTA_ENV = 'RAPIDAPI_READ_QUOTA'
+""" RapidAPI: Requests per minute environment variable """
+
+DEFAULT_MAX_BACKOFF = 128
+""" Max backoff time for truncated exponential backoff retry """
+MAX_BACKOFF_ENV = 'MAX_BACKOFF'
+"""
+Max backoff time for truncated exponential backoff retry environment variable
+"""
 
 MAX_MULTI_ANALYSIS = 3
 """ Max number of stocks to compare in multi analysis """
