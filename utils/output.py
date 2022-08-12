@@ -151,7 +151,7 @@ def log(msg: str):
         # should be done at top of run.py before module imports
         # but that fails PEP 8: E402 module level import not at top of file
         OUTPUT_ENV['log_enabled'] = \
-            is_truthy(get_env_setting('LOGGING', default_value=0)),
+            is_truthy(get_env_setting('LOGGING', default_value=0))
 
     if OUTPUT_ENV['log_enabled']:
         _display_msg(msg, LOG_PREFIX, MAX_LOG_LEN, Colour.WHITE, WrapMode.AUTO)
