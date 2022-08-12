@@ -4,7 +4,10 @@ Main entry point for application
 from dotenv import load_dotenv
 from colorama import init
 
-from utils import Menu, CloseMenuEntry, MenuEntry, MenuOption, info
+from utils import (
+    Menu, CloseMenuEntry, MenuEntry, MenuOption, info, scrn_print,
+    MAX_SCREEN_HEIGHT
+)
 from process import (
     process_exchanges, company_name_search, process_multi_stock, display_help,
     delete_stock_data
@@ -30,6 +33,8 @@ menu: Menu = Menu(
 
 def run_app():
     """ Run the application """
+
+    scrn_print('\n'*MAX_SCREEN_HEIGHT)
 
     loop: bool = True
     while loop:
