@@ -15,7 +15,88 @@ Section links
 - [Credits](#credits)
 
 ## Features 
-TODO
+### Menu
+The application is menu-driven.
+
+![menu](doc/img/menu.png)
+
+### Navigation
+The primary method of navigation is via menu option selection.
+In addition, it is possible to navigate back one step using the `/` key, or return to the main menu using the `!!` combination. 
+
+| Back                                     | Goto Main Menu                           |
+|------------------------------------------|------------------------------------------|
+| ![back navigation](doc/img/nav-back.png) | ![home navigation](doc/img/nav-home.png) |
+
+### Search
+Companies may be search for by entering the company name or part thereof in the `Search Company` option.
+The results are displayed in a menu, multi-page if necessary, allowing selection of a specific stock listing for the company.
+E.g. `MSF.BE` is Microsoft Corporation traded on the Berlin Stock Exchange, and `MSF.BR` is Microsoft Corporation traded on the Brussels Stock Exchange. 
+
+![company search](doc/img/company-search.png)
+
+### Stock Analysis
+#### Analysis Stock Selection
+Up to 3 stock may be analysed simultaneously.
+
+![multi-stock entry](doc/img/multi-stock-entry.png)
+
+#### Period Entry
+There are multiple methods of entering the analysis period.
+
+![period entry](doc/img/period-entry.png)
+
+![period entry example](doc/img/period-entry-eg.png)
+
+#### Analysis Results
+The analysis results are displayed in tabular form.
+The minimum, maximum, average, change and percent change values are listed for 
+* Opening price
+* High price
+* Low price
+* Close<sup>*</sup> price
+* Adjusted Close<sup>**</sup> price
+* Volume
+
+<sup>*</sup> Close price adjusted for splits<br>
+<sup>**</sup> Adjusted close price adjusted for splits and dividend and/or capital gain distribution
+
+##### Single Stock Analysis Results
+![single analysis result](doc/img/single-analysis.png)
+
+##### Multi-Stock Analysis Results
+![multi analysis result](doc/img/multi-analysis.png)
+
+### Help
+#### Paginated Help
+The application provides a paginated help section accessed from the main menu, detailing the use of the application 
+
+![help](doc/img/help.png)
+
+#### Context-specific Help
+Whenever the `[?]` is displayed at a user prompt, context-specific help is accessible by entered `?`.
+
+![context help](doc/img/context-help.png)
+
+### Data
+### Data Storage
+Downloaded Company Data along with historical financial data is stored in Google Sheets.
+
+![google sheets](doc/img/google-sheets.png)
+
+See [Data Storage](doc/design/design.md#data-storage) for details.
+
+### Company Data Update
+As the provider of the company data, [YahooFinance Stocks](https://rapidapi.com/integraatio/api/yahoofinance-stocks1/) 
+from [RapidAPI](https://rapidapi.com/) does not guarantee that the company data is up-to-date, it is possible to update the stored company data.
+
+![update company data](doc/img/update-company-data.png)
+
+### Delete Stock Data
+It is also possible to delete stored historical stock data.
+
+![delete stock data](doc/img/del-stock-data.png)
+
 
 ## Design
 The design specification is available in [design.md](doc/design/design.md).
@@ -23,12 +104,13 @@ The design specification is available in [design.md](doc/design/design.md).
 ## Development/Local Deployment
 ### Environment
 The development environment requires:
-| Artifact | Download and installation instructions |
-|----------|----------------------------------------|
-| [Node.js](https://nodejs.org/) | https://nodejs.org/en/download/ |
-| [npm](https://www.npmjs.com/) |  Included with Node.js installation |
-| [git](https://git-scm.com/) | https://git-scm.com/downloads |
-| [Python](https://www.python.org/) | https://www.python.org/downloads/ |
+
+| Artifact                                       | Download and installation instructions               |
+|------------------------------------------------|------------------------------------------------------|
+| [Node.js](https://nodejs.org/)                 | https://nodejs.org/en/download/                      |
+| [npm](https://www.npmjs.com/)                  | Included with Node.js installation                   |
+| [git](https://git-scm.com/)                    | https://git-scm.com/downloads                        |
+| [Python](https://www.python.org/)              | https://www.python.org/downloads/                    |
 | [Total.js framework](https://www.totaljs.com/) | Installed during [Framework Setup](#framework-setup) |
 
 ### Setup
@@ -65,7 +147,26 @@ The application configuration may be set using using environment variables or a 
 #### Credentials
 
 ##### Google Drive API
-TODO
+
+* On the [Google Cloud Platform](https://console.cloud.google.com/), click on the `Select a project` button and then select `New Project`
+* Give the project a name and click `Create`
+* Once created click `Select Project` on the notification or select the project from the `Select a project` modal.
+* From the sidebar menu select `APIs and service -> Library`
+* Search for the `Google Drive API`, click on the entry on the results and enable it.
+* Once enabled, click on the `Credentials` in the sidebar
+* Select the `Create Credentials->Help Me Choose` option
+* From the `Which API are you using?` dropdown menu, choose `Google Drive API`
+* Select `Application Data` as the answer to `What data will you be accessing?` 
+* Select `No, I'm not using them` for the `Are you planning to use this API with Compute Engine, Kubernetes Engine, App Engine, or Cloud Functions?` question, click Next
+* Enter a Service Account name under `Service account details` and click `Create and Continue`
+* Under `Grant this service account access to the project`, select `Basic -> Editor` from the Role Dropdown box, and click Continue
+* Click Done at the bottom of the page
+* Once the service account is created, click on the account entry in the `Service Accounts` list
+* Select the `Keys` tab, and `Create new key` from the `Add Key` dropdown
+* Select `JSON` as the key type and click create.
+* Store the downloaded file safely as it contains the credentials need to access the Google API
+* For a local deployment, use the `GOOGLE_CREDS_FILE` and `GOOGLE_CREDS_PATH` [configuration settings](#table-1-configuration-settings) to specify the location of the file in the application.
+* Or for a Heroku deployment, set the value of the `GOOGLE_CREDS` config variable to the contents of the file
 
 ##### RapidAPI
 [RapidAPI](https://rapidapi.com/) is used to retrieve stock exchange and company information.
@@ -76,6 +177,8 @@ TODO
 - Select the `Subscribe to Test` option
 - Select the `Basic` plan and enter payment card details
 - Once subscribed, the API credentials may be retrieved by selecting `Python (Requests)` under `Code Snippets`, and copying the JSON for the `headers` variable
+- For a local deployment, save the credentials to a file, and use the `YAHOO_FINANCE_CREDS_FILE` and `YAHOO_FINANCE_CREDS_PATH` [configuration settings](#table-1-configuration-settings) to specify the location of the file in the application.
+- Or for a Heroku deployment, set the value of the `YAHOO_FINANCE_CREDS` config variable to the credentials
   ```python
   {
     "X-RapidAPI-Key": "this-is-the-api-key",

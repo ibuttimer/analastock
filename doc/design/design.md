@@ -24,19 +24,29 @@ As a user:
 - I want to have a menu to use
 - I want to be able to compare multiple stocks against each other
 - I want the analysis data to be easily understood, with important data colour highlighted
-- I want to know what currency used for the data
+- I want to know what currency was used for the data
 - I want to be able to search for stock symbols
 
 As the site administrator:
 - I want to minimise the download of data from external websites
-- I aggregate previously downloaded and required data to meet user needs
+- I want to aggregate previously downloaded and required data to meet user needs
 - I want to use [Yahoo Finance](https://finance.yahoo.com/) to stock data
 - I want to use [RapidAPI](https://rapidapi.com/) is used to retrieve stock exchange and company information
 - I want to use Google APIs to access and store downloaded data
 
 ## Objectives Implementation
 
-TODO link to features / examples
+| Objective                                                                                | Implementation                                                                                                                                                                                                                                                                            |
+|------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| I want to be able to specify the stock to analyse                                        | [Analysis Stock Selection](../../README.md#analysis-stock-selection)<br>[Search](../../README.md#search)                                                                                                                                                                                  |
+| I want to be able to specify the date range to analyse                                   | [Period Entry](../../README.md#period-entry)                                                                                                                                                                                                                                              |
+| I want to be able to view the statistics for stock analysed                              | [Analysis Results](../../README.md#analysis-results)                                                                                                                                                                                                                                      |
+| I want to have a menu to use                                                             | [Menu](../../README.md#menu)                                                                                                                                                                                                                                                              |
+| I want to be able to compare multiple stocks against each other                          | [Analysis Stock Selection](../../README.md#analysis-stock-selection)<br>[Multi-Stock Analysis Results](../../README.md#multi-stock-analysis-results)                                                                                                                                      |
+| I want the analysis data to be easily understood, with important data colour highlighted | [Multi-Stock Analysis Results](../../README.md#multi-stock-analysis-results)                                                                                                                                                                                                              |
+| I want to know what was currency used for the data                                       | [Single Stock Analysis Results](../../README.md#single-stock-analysis-results)<br>[Multi-Stock Analysis Results](../../README.md#multi-stock-analysis-results)                                                                                                                            |
+| I want to use Google APIs to access and store downloaded data                            | [Data Storage](../../README.md#data-storage)                                                                                                                                                                                                                                              |
+| I want to aggregate previously downloaded and required data to meet user needs           | [process_multi_stock()](https://github.com/ibuttimer/analastock/blob/main/process/basic.py#L150)<br>[process_stock()](https://github.com/ibuttimer/analastock/blob/main/process/basic.py#L295)<br>[fill_gaps()](https://github.com/ibuttimer/analastock/blob/main/process/basic.py#L329)  |
 
 
 # Structure
@@ -152,9 +162,7 @@ Volume^   ............ ............ ............ ............ ............
 
                                                                         Currency
 1] Stock : MSFT    - Microsoft Corporation                                   USD
-   Period: 01 Mar 2022 - 01 Jul 2022
 2] Stock : MSFT.NE - Microsoft Corporation                                   CAD
-   Period: 01 Mar 2022 - 01 Jul 2022
 3] Stock : MSFT.MX - Microsoft Corporation                                   MXN
    Period: 01 Mar 2022 - 01 Jul 2022
           Stock    Min          Max          Avg         Change         % 
@@ -186,11 +194,9 @@ In the event that it was not possible to retrieve data for the full range reques
 
                                                                         Currency
 1] Stock : MSFT    - Microsoft Corporation                                   USD
-   Period: 01 Mar 2022* - 01 Jul 2022
 2] Stock : MSFT.NE - Microsoft Corporation                                   CAD
-   Period: 01 Mar 2022 - 01 Jul 2022**
 3] Stock : MSFT.MX - Microsoft Corporation                                   MXN
-   Period: 01 Mar 2022* - 01 Jul 2022
+   Period: 01 Mar 2022* - 01 Jul 2022**
           Stock    Min          Max          Avg         Change         % 
 Open      1]   ............ ............ ............ ............ ............
           2]   ............ ............ ............ ............ ............
@@ -227,9 +233,9 @@ The flow chart of the analysis of a stock is as follows:
 ## Single Stock Analysis
 The flow chart of the analysis of stock is as follows:
 
-| Single | Multiple |
-|--------|----------|
-|![](img/analastock-analyse-1-stock.drawio.png)|![](img/analastock-analyse-multi-stock.drawio.png)|
+| Single                                         | Multiple                                           |
+|------------------------------------------------|----------------------------------------------------|
+| ![](img/analastock-analyse-1-stock.drawio.png) | ![](img/analastock-analyse-multi-stock.drawio.png) |
 
 ## Company Search
 The flow chart of the search for a company is as follows:
@@ -245,11 +251,11 @@ Specifically the data used will the `Historical Prices` data provided by [Yahoo 
 
 The following input will be required from the user:
 
-| Input | Description |
-|-------|-------------|
-| Symbol | The Yahoo Finance stock exchange symbol used for the stock.<br>Symbols may be found by searching on [Yahoo Finance](https://finance.yahoo.com/) or by using the in-app search functionality. E.g. the symbol for Microsoft Corporation on the [NASDAQ](https://www.nasdaq.com/) Global Select Market is `MSFT`, and for the [NEO Exchange](https://www.neo.inc/) is `MSFT.NE` |
-| From date | The data for the start of analysis |
-| To date | The data for the end of analysis<br>__Note:__ This is date is not included in the analysis. |
+| Input     | Description                                                                                                                                                                                                                                                                                                                                                                   |
+|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Symbol    | The Yahoo Finance stock exchange symbol used for the stock.<br>Symbols may be found by searching on [Yahoo Finance](https://finance.yahoo.com/) or by using the in-app search functionality. E.g. the symbol for Microsoft Corporation on the [NASDAQ](https://www.nasdaq.com/) Global Select Market is `MSFT`, and for the [NEO Exchange](https://www.neo.inc/) is `MSFT.NE` |
+| From date | The data for the start of analysis                                                                                                                                                                                                                                                                                                                                            |
+| To date   | The data for the end of analysis<br>__Note:__ This is date is not included in the analysis.                                                                                                                                                                                                                                                                                   |
 
 ### Other data
 Other data required; exchange and company meta-data, will be downloaded from the [YahooFinance Stocks](https://rapidapi.com/integraatio/api/yahoofinance-stocks1/) API from [RapidAPI](https://rapidapi.com/).
@@ -287,22 +293,22 @@ Stock data will be organised as follows:
 Exchanges data will be stored in an individual worksheet.
 The following data will be stored:
 
-| Data | Description |
-|------|-------------|
-| Exchange code | Exchange code |
-| Name | Name of exchange |
+| Data          | Description      |
+|---------------|------------------|
+| Exchange code | Exchange code    |
+| Name          | Name of exchange |
 
 ### Companies Data
 Companies data will be stored in an individual worksheet.
 The following data will be stored:
 
-| Data | Description |
-|------|-------------|
-| Exchange code | Exchange code |
-| Stock symbol | Symbol used on [Yahoo Finance](https://finance.yahoo.com/) |
-| Name | Name of company |
-| IndustryOrCategory | Industry or category of the company |
-| Currency | Stock currency |
+| Data               | Description                                                |
+|--------------------|------------------------------------------------------------|
+| Exchange code      | Exchange code                                              |
+| Stock symbol       | Symbol used on [Yahoo Finance](https://finance.yahoo.com/) |
+| Name               | Name of company                                            |
+| IndustryOrCategory | Industry or category of the company                        |
+| Currency           | Stock currency                                             |
 
 ## External Libraries
 The following third party libraries will be utilised:
