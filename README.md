@@ -48,6 +48,11 @@ There are multiple methods of entering the analysis period.
 
 ![period entry example](doc/img/period-entry-eg.png)
 
+#### Ambiguous Dates
+Period entry detects ambiguous dates and prompts the user to resolve the issue.
+
+![ambiguous date](doc/img/ambiguius-date.png)
+
 #### Analysis Results
 The analysis results are displayed in tabular form.
 The minimum, maximum, average, change and percent change values are listed for 
