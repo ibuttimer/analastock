@@ -273,6 +273,9 @@ def validate_period(period_str: str) -> Union[Period, None]:
                                 params, match.group(prep_idx), params2)
                             hit_and_miss = period is None
 
+                        if result == ControlCode.BACK:
+                            # coming from sub level
+                            result = ControlCode.BACK_BACK
                         if ControlCode.check_end_code(result):
                             period = result
 
@@ -304,7 +307,7 @@ def validate_period(period_str: str) -> Union[Period, None]:
                 period = sanitise_params(params, 'text' in regex_key)
                 if period == ControlCode.BACK:
                     # coming from sub level
-                    period == ControlCode.BACK_BACK
+                    period = ControlCode.BACK_BACK
                 elif not ControlCode.check_end_code(period):
                     period = make_dmy_period(params)
 
@@ -791,7 +794,8 @@ def get_dmy_dmy_period(params: dict, preposition: str,
                 GT if preposition == TO else LT)(
             out_date.strftime(DATE_FORMAT)
         ):
-            period = Period(in_date, out_date)
+            period = Period(in_date, out_date) \
+                if in_date < out_date else Period(out_date, in_date)
 
     return period
 

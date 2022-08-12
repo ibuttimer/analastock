@@ -203,6 +203,7 @@ def process_multi_stock() -> Union[bool, ControlCode]:
                 result = stock1_param
             elif stock1_param == ControlCode.BACK:
                 level = MultiLevel.STOCKS
+                stock_params.clear()
             else:
                 for idx in range(1, num_stocks):
                     # copy same period to all params

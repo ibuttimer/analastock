@@ -647,8 +647,10 @@ class TestAnalyse(TestCase, CredentialPatchMixin):
                         f'{padding}{period_txt}{padding}')
                     if is_valid:
                         self.assertIsNotNone(period)
-                        self.assertEqual(period.from_date, test_from)
-                        self.assertEqual(period.to_date, test_to)
+                        self.assertEqual(period.from_date,
+                                         min(test_from, test_to))
+                        self.assertEqual(period.to_date,
+                                         max(test_from, test_to))
                     else:
                         self.assertIsNone(period)
 
